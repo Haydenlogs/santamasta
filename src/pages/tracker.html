@@ -46,7 +46,7 @@
         async function getCurrentCoordinates() {
             const response = await fetch('/getcurrentcoordinates');
             const data = await response.json();
-            return data;
+            return data; // Return the coordinates as JSON
         }
 
         async function updateSantaPosition() {
@@ -63,10 +63,15 @@
             santa.style.top = `${top}px`; // Set top position
         }
 
-        async function displayCurrentLocation() {
+        async function updateSantaLocationText() {
+            const response = await fetch('/getcurrentlocation');
+            const locationData = await response.text();
             const currentLocationDiv = document.getElementById('currentLocation');
-            const coordinates = await getCurrentCoordinates();
-            currentLocationDiv.innerText = `Santa's Current Coordinates: Latitude ${coordinates.latitude}, Longitude ${coordinates.longitude}`;
+            currentLocationDiv.innerText = locationData; // Set the text to the response from /getcurrentlocation
+        }
+
+        async function displayCurrentLocation() {
+            await updateSantaLocationText(); // Update Santa's location text
             updateSantaPosition(); // Update Santa's position
         }
 
@@ -74,7 +79,7 @@
             // Display the current location immediately
             displayCurrentLocation();
 
-            // Update the current location every second
+            // Update the current location and Santa's position every second
             setInterval(displayCurrentLocation, 1000);
         };
     </script>
