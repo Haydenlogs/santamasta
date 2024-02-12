@@ -21,7 +21,7 @@ async function readCitiesFromFile(filePath) {
             const lines = data.trim().split('\n');
             cities = lines.map(line => {
                 const [city, country, latitude, longitude] = line.split(',');
-                return { city, country, latitude, longitude };
+                return { city, country, latitude: parseFloat(latitude), longitude: parseFloat(longitude) };
             });
 
             console.log('Cities loaded:', cities.length);
@@ -53,7 +53,7 @@ function sendNextCity() {
                 longitude: city.longitude
             };
             app.set('currentCity', cityInfo);
-            startTime = Date.now();
+            startTime = Date.now(); // Set the start time when sending a new city
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
             setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
@@ -71,42 +71,31 @@ function sendNextCity() {
 function isStarted() {
     return isTrackerStarted;
 }
+function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
+    // Get the latitude and longitude of the current city
+    const currentLatitude = parseFloat(currentCity.latitude);
+    const currentLongitude = parseFloat(currentCity.longitude);
+    
+    // Dummy implementation: Calculate position based on latitude and longitude
+    // You can replace this with your own logic
+    const latitudePercentage = (currentLatitude + 90) / 180 * 100;
+    const longitudePercentage = (currentLongitude + 180) / 360 * 100;
+    
+    return {
+        latitude: latitudePercentage + '%',
+        longitude: longitudePercentage + '%'
+    };
+}
 
-app.get('/starttracker', (req, res) => {
-    startTracker('cities2.csv');
-    res.send('Tracker started.');
-});
-
-app.get('/getcurrentlocation', (req, res) => {
+function generateTrackerHTML() {
     const currentCity = app.get('currentCity');
-    if (currentCity && currentCity.city && currentCity.country) {
-        const timeLeft = Math.ceil(intervalInSeconds - (Date.now() - startTime) / 1000);
-        const response = `${currentCity.city}, ${currentCity.country} In ${timeLeft} seconds.`;
-        res.send(response);
-    } else {
-        res.send('Tracker is not started or no city information available.');
-    }
-});
-
-app.get('/isstarted', (req, res) => {
-    res.send(isStarted() ? 'true' : 'false');
-});
-
-app.get('/getcurrentcoordinates', (req, res) => {
-    const currentCity = app.get('currentCity');
-    if (currentCity && currentCity.latitude && currentCity.longitude) {
-        res.json({
-            latitude: currentCity.latitude,
-            longitude: currentCity.longitude
-        });
-    } else {
-        res.status(404).send('Current coordinates not available.');
-    }
-});
-
-// Construct tracker HTML dynamically
-function constructTrackerHTML(currentCity, timeLeft) {
-    return `
+    const nextCityIndex = currentIndex;
+    const nextCity = cities[nextCityIndex];
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - startTime;
+    const timeLeft = Math.ceil(intervalInSeconds - elapsedTime / 1000);
+    const santaPosition = calculateSantaPosition(currentCity, nextCity, elapsedTime);
+    const trackerHTML = `
         <!DOCTYPE html>
         <html lang="en">
         <head>
@@ -138,7 +127,9 @@ function constructTrackerHTML(currentCity, timeLeft) {
                 }
                 #santa {
                     position: absolute;
-                    transition: top 1s, left 1s; /* Smooth transition for Santa's movement */
+                    left: ${santaPosition.longitude}%;
+                    top: ${santaPosition.latitude}%;
+                    transition: left 1s, top 1s; /* Smooth transition for Santa's movement */
                 }
             </style>
         </head>
@@ -146,43 +137,43 @@ function constructTrackerHTML(currentCity, timeLeft) {
             <div class="container">
                 <div id="currentLocation">${currentCity.city}, ${currentCity.country} In ${timeLeft} seconds.</div>
                 <div id="map">
-                    <img id="santa" src="santa.png" width="50" height="50"> <!-- Image of Santa -->
+                    <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144" width="50" height="50"> <!-- Image of Santa -->
                     <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
                 </div>
             </div>
-            <script>
-                setInterval(() => {
-                    fetch('/getcurrentcoordinates')
-                        .then(response => response.json())
-                        .then(coordinates => {
-                            const santa = document.getElementById('santa');
-                            const map = document.getElementById('map');
-                            const mapWidth = map.offsetWidth; // Width of the map container
-                            const mapHeight = map.offsetHeight; // Height of the map container
-                            const santaWidth = santa.offsetWidth; // Width of the Santa image
-                            const santaHeight = santa.offsetHeight; // Height of the Santa image
-                            const left = (coordinates.longitude / 360 + 0.5) * mapWidth - santaWidth / 2; // Calculate left position
-                            const top = (0.5 - coordinates.latitude / 180) * mapHeight - santaHeight / 2; // Calculate top position
-                            santa.style.left = \`\${left}px\`; // Set left position
-                            santa.style.top = \`\${top}px\`; // Set top position
-                        })
-                        .catch(error => console.error('Error updating Santa location:', error));
-                }, 1000);
-            </script>
         </body>
         </html>
     `;
+    return trackerHTML;
 }
+
+app.get('/starttracker', (req, res) => {
+    startTracker('cities2.csv');
+    res.send('Tracker started.');
+});
 
 app.get('/', (req, res) => {
     if (!isStarted()) {
         res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
     } else {
-        const currentCity = app.get('currentCity');
-        const timeLeft = Math.ceil(intervalInSeconds - (Date.now() - startTime) / 1000);
-        const trackerHTML = constructTrackerHTML(currentCity, timeLeft);
-        res.send(trackerHTML);
+      
+        function sendTrackerHTML(res) {
+    const trackerHTML = generateTrackerHTML();
+    res.send(trackerHTML);
+}
+
+// Interval to send tracker HTML every 100 milliseconds
+setInterval(() => {
+    sendTrackerHTML(res);
+}, 100);
     }
+});
+
+app.get('/endtracker', (req, res) => {
+    isTrackerStarted = false;
+    console.log('Tracker ended.');
+    app.set('currentCity', null);
+    res.send('Tracker ended.');
 });
 
 const port = process.env.PORT || 3000;
