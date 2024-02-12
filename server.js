@@ -9,7 +9,7 @@ let trackerInterval;
 let currentIndex = 0;
 let isTrackerStarted = false;
 let startTime; // Initialize the startTime variable
-const intervalInSeconds = 8.53; // Time for each city in seconds
+const intervalInSeconds = 8.35; // Time for each city in seconds
 
 // Function to read cities from CSV file
 async function readCitiesFromFile(filePath) {
@@ -52,19 +52,26 @@ async function startTracker(filePath) {
 }
 
 // Function to send the next city information
+// Function to send the next city information
 function sendNextCity() {
     if (currentIndex < cities.length) {
         const city = cities[currentIndex];
-        const cityInfo = `${city.City}, ${city.Country}`;
+        const cityInfo = {
+            city: city.City,
+            country: city.Country,
+            latitude: city.Latitude,
+            longitude: city.Longitude
+        };
         app.set('currentCity', cityInfo);
         startTime = Date.now(); // Initialize startTime here
     } else {
         clearInterval(trackerInterval);
         isTrackerStarted = false;
         console.log('Tracker ended.');
-        app.set('currentCity', '');
+        app.set('currentCity', null); // Set to null when tracker ends
     }
 }
+
 
 // End the tracker
 function endTracker() {
@@ -95,7 +102,7 @@ app.get('/getcurrentlocation', (req, res) => {
     const currentCity = app.get('currentCity');
     if (currentCity) {
         const timeLeft = Math.ceil(intervalInSeconds - (Date.now() - startTime) / 1000);
-        res.send(`${currentCity} In ${timeLeft} seconds.`);
+        res.json({ city: currentCity, timeLeft: timeLeft });
     } else {
         res.send('Tracker is not started.');
     }
@@ -106,7 +113,13 @@ app.get('/isstarted', (req, res) => {
 });
 
 // Serve index.html if tracker is not started
-app.use(express.static(path.join(__dirname, 'src')));
+app.get('/', (req, res) => {
+    if (!isStarted()) {
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
+    } else {
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
+    }
+});
 
 // Start the server
 const port = process.env.PORT || 3000;

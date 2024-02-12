@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Tracker</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff; /* Light Blue */
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+        }
+        #currentLocation {
+            font-size: 24px;
+            font-weight: bold;
+            margin-top: 50px;
+        }
+        #map {
+            width: 80%;
+            height: 400px;
+            margin: 20px auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="currentLocation">Loading...</div>
+        <div id="map"></div>
+    </div>
+
+    <script>
+        async function getCurrentLocation() {
+            const response = await fetch('/getcurrentlocation');
+            const data = await response.json();
+            return data;
+        }
+
+        async function initMap(latitude, longitude) {
+            const map = new google.maps.Map(document.getElementById('map'), {
+                center: { lat: parseFloat(latitude), lng: parseFloat(longitude) },
+                zoom: 8
+            });
+            const marker = new google.maps.Marker({
+                position: { lat: parseFloat(latitude), lng: parseFloat(longitude) },
+                map: map,
+                title: 'Santa\'s Location'
+            });
+        }
+
+        async function displayCurrentLocation() {
+    const currentLocationDiv = document.getElementById('currentLocation');
+    const data = await getCurrentLocation();
+    if (data.city && data.country) {
+        currentLocationDiv.innerText = `Santa's Current Location: ${data.city}, ${data.country}`;
+        initMap(data.latitude, data.longitude);
+    } else {
+        currentLocationDiv.innerText = `Santa's Current Location: Unknown`;
+    }
+}
+
+
+        window.onload = () => {
+            displayCurrentLocation();
+            setInterval(displayCurrentLocation, 1000); // Fetch Santa's current location every second
+        };
+    </script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
