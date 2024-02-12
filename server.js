@@ -9,6 +9,7 @@ let currentIndex = 0;
 let isTrackerStarted = false;
 let startTime;
 const intervalInSeconds = 8.35;
+let trackerInterval;
 
 async function readCitiesFromFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -36,6 +37,9 @@ async function startTracker(filePath) {
             await readCitiesFromFile(filePath); // Wait for cities to be loaded
             isTrackerStarted = true;
             sendNextCity();
+            trackerInterval = setInterval(() => {
+                sendTrackerHTML();
+            }, 1000); // Update tracker HTML every second
         } catch (error) {
             console.error('Error loading cities:', error);
         }
@@ -65,12 +69,14 @@ function sendNextCity() {
         isTrackerStarted = false;
         console.log('Tracker ended.');
         app.set('currentCity', null);
+        clearInterval(trackerInterval); // Stop the tracker interval
     }
 }
 
 function isStarted() {
     return isTrackerStarted;
 }
+
 function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
     // Get the latitude and longitude of the current city
     const currentLatitude = parseFloat(currentCity.latitude);
@@ -127,8 +133,8 @@ function generateTrackerHTML() {
                 }
                 #santa {
                     position: absolute;
-                    left: ${santaPosition.longitude}%;
-                    top: ${santaPosition.latitude}%;
+                    left: ${santaPosition.longitude};
+                    top: ${santaPosition.latitude};
                     transition: left 1s, top 1s; /* Smooth transition for Santa's movement */
                 }
             </style>
@@ -147,6 +153,13 @@ function generateTrackerHTML() {
     return trackerHTML;
 }
 
+function sendTrackerHTML() {
+    const trackerHTML = generateTrackerHTML();
+    app.locals.clients.forEach(client => {
+        client.res.write(`data: ${trackerHTML}\n\n`);
+    });
+}
+
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
@@ -156,16 +169,18 @@ app.get('/', (req, res) => {
     if (!isStarted()) {
         res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
     } else {
-      
-        function sendTrackerHTML(res) {
-    const trackerHTML = generateTrackerHTML();
-    res.send(trackerHTML);
-}
+        res.setHeader('Content-Type', 'text/event-stream');
+        res.setHeader('Cache-Control', 'no-cache');
+        res.setHeader('Connection', 'keep-alive');
+        res.flushHeaders();
 
-// Interval to send tracker HTML every 100 milliseconds
-setInterval(() => {
-    sendTrackerHTML(res);
-}, 100);
+        const client = { id: Date.now(), res };
+        if (!app.locals.clients) {
+            app.locals.clients = [];
+        }
+        app.locals.clients.push(client);
+
+        res.write(`data: ${generateTrackerHTML()}\n\n`);
     }
 });
 
