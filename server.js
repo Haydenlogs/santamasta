@@ -116,6 +116,8 @@ app.get('/getcurrentlocation', (req, res) => {
 app.get('/isstarted', (req, res) => {
     res.send(isStarted() ? 'true' : 'false');
 });
+
+
 // Define the /getcurrentcoordinates route
 app.get('/getcurrentcoordinates', (req, res) => {
     const currentCity = app.get('currentCity');
@@ -125,6 +127,42 @@ app.get('/getcurrentcoordinates', (req, res) => {
             longitude: currentCity.longitude
         };
         res.json(coordinates); // Send the coordinates as JSON response
+    } else {
+        res.status(404).send('Current coordinates not available.'); // Send an error if coordinates are not available
+    }
+});
+// Define the /getcurrentcoordinates route
+app.get('/getcurrentcoordinates', (req, res) => {
+    const currentCity = app.get('currentCity');
+    if (currentCity && currentCity.latitude && currentCity.longitude) {
+        const nextCityIndex = currentIndex + 1;
+        if (nextCityIndex < cities.length) {
+            const nextCity = cities[nextCityIndex];
+            const currentTime = Date.now();
+            const elapsedTime = currentTime - startTime;
+            const remainingTime = intervalInSeconds * 1000 - elapsedTime; // Remaining time in milliseconds
+            const transitionDuration = intervalInSeconds * 500; // Transition duration in milliseconds
+            const interpolation = Math.min(elapsedTime / transitionDuration, 1); // Interpolation value between 0 and 1
+            const currentLatLng = {
+                latitude: currentCity.latitude,
+                longitude: currentCity.longitude
+            };
+            const nextLatLng = {
+                latitude: nextCity.latitude,
+                longitude: nextCity.longitude
+            };
+            const intermediateLatLng = {
+                latitude: currentLatLng.latitude + (nextLatLng.latitude - currentLatLng.latitude) * interpolation,
+                longitude: currentLatLng.longitude + (nextLatLng.longitude - currentLatLng.longitude) * interpolation
+            };
+            res.json(intermediateLatLng); // Send the intermediate coordinates as JSON response
+        } else {
+            const coordinates = {
+                latitude: currentCity.latitude,
+                longitude: currentCity.longitude
+            };
+            res.json(coordinates); // Send the current coordinates if there are no more cities
+        }
     } else {
         res.status(404).send('Current coordinates not available.'); // Send an error if coordinates are not available
     }

@@ -21,59 +21,62 @@
             margin-top: 50px;
         }
         #map {
+            position: relative;
             width: 80%;
             height: 400px;
             margin: 20px auto;
+            overflow: hidden; /* Hide overflow to prevent image from overflowing */
+        }
+        #santa {
+            position: absolute;
+            transition: top 1s, left 1s; /* Smooth transition for Santa's movement */
         }
     </style>
 </head>
 <body>
     <div class="container">
         <div id="currentLocation">Loading...</div>
-        <div id="map"></div>
+        <div id="map">
+            <img id="santa" src="santa.png" width="50" height="50"> <!-- Image of Santa -->
+            <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
+        </div>
     </div>
 
     <script>
-        async function getCurrentLocation() {
-            const response = await fetch('/getcurrentlocation');
+        async function getCurrentCoordinates() {
+            const response = await fetch('/getcurrentcoordinates');
             const data = await response.json();
             return data;
         }
 
-        async function initMap(latitude, longitude) {
-            const map = new google.maps.Map(document.getElementById('map'), {
-                center: { lat: parseFloat(latitude), lng: parseFloat(longitude) },
-                zoom: 8
-            });
-            const marker = new google.maps.Marker({
-                position: { lat: parseFloat(latitude), lng: parseFloat(longitude) },
-                map: map,
-                title: 'Santa\'s Location'
-            });
+        async function updateSantaPosition() {
+            const coordinates = await getCurrentCoordinates();
+            const santa = document.getElementById('santa');
+            const map = document.getElementById('map');
+            const mapWidth = map.offsetWidth; // Width of the map container
+            const mapHeight = map.offsetHeight; // Height of the map container
+            const santaWidth = santa.offsetWidth; // Width of the Santa image
+            const santaHeight = santa.offsetHeight; // Height of the Santa image
+            const left = (coordinates.longitude / 360 + 0.5) * mapWidth - santaWidth / 2; // Calculate left position
+            const top = (0.5 - coordinates.latitude / 180) * mapHeight - santaHeight / 2; // Calculate top position
+            santa.style.left = `${left}px`; // Set left position
+            santa.style.top = `${top}px`; // Set top position
         }
 
-       
-async function getCurrentLocation() {
-    const response = await fetch('/getcurrentlocation');
-    const data = await response.text();
-    return data;
-}
+        async function displayCurrentLocation() {
+            const currentLocationDiv = document.getElementById('currentLocation');
+            const coordinates = await getCurrentCoordinates();
+            currentLocationDiv.innerText = `Santa's Current Coordinates: Latitude ${coordinates.latitude}, Longitude ${coordinates.longitude}`;
+            updateSantaPosition(); // Update Santa's position
+        }
 
-async function displayCurrentLocation() {
-    const currentLocationDiv = document.getElementById('currentLocation');
-    const data = await getCurrentLocation();
-    currentLocationDiv.innerText = data;
-}
+        window.onload = () => {
+            // Display the current location immediately
+            displayCurrentLocation();
 
-window.onload = () => {
-    // Display the current location immediately
-    displayCurrentLocation();
-    
-    // Update the current location every second
-    setInterval(displayCurrentLocation, 1000);
-};
-
+            // Update the current location every second
+            setInterval(displayCurrentLocation, 1000);
+        };
     </script>
-    <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
 </html>
