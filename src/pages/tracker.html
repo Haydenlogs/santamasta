@@ -79,7 +79,7 @@
             const response = await fetch('/isstarted');
             const isStarted = await response.text();
             if (isStarted === 'false') {
-                window.location.href = '/ended.html'; // Redirect to ended.html if tracker is not started
+                window.location.href = '/ended'; // Redirect to ended.html if tracker is not started
             }
         }
 

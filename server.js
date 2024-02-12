@@ -50,6 +50,10 @@ async function startTracker(filePath) {
         }
     }
 }
+// Define routes
+app.get('/ended', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src', 'pages', 'ended.html')); // Serve ended.html
+});
 
 function sendNextCity() {
     if (isTrackerStarted && currentIndex < cities.length) {
