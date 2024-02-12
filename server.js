@@ -7,39 +7,30 @@ let cities = [];
 let trackerInterval;
 let currentIndex = 0;
 let isTrackerStarted = false;
-const intervalInSeconds = 8.53; // Time for each city in seconds
-
+let startTime; // Initialize the startTime variable
+const intervalInSeconds = 8.35; // Time for each city in seconds
 // Function to read cities from CSV file
-function readCitiesFromFile(filePath) {
+async function readCitiesFromFile(filePath) {
     return new Promise((resolve, reject) => {
         cities = [];
         fs.createReadStream(filePath)
             .pipe(csv())
             .on('data', (row) => {
-                cities.push(row);
+                const cityInfo = {
+                    City: row['"North Pole'],
+                    Country: row['Arctic"'],
+                };
+                cities.push(cityInfo);
             })
             .on('end', () => {
                 console.log('Cities loaded:', cities.length);
                 resolve();
             })
             .on('error', (error) => {
+                console.error('Error reading CSV file:', error);
                 reject(error);
             });
     });
-}
-
-// Start the tracker
-async function startTracker(filePath) {
-    if (!isTrackerStarted) {
-        try {
-            await readCitiesFromFile(filePath);
-            isTrackerStarted = true;
-            trackerInterval = setInterval(sendNextCity, intervalInSeconds * 1000);
-            sendNextCity();
-        } catch (error) {
-            console.error('Error loading cities:', error);
-        }
-    }
 }
 
 // Function to send the next city information
@@ -48,7 +39,7 @@ function sendNextCity() {
         const city = cities[currentIndex];
         const cityInfo = `${city.City}, ${city.Country}`;
         app.set('currentCity', cityInfo);
-        currentIndex++; // Increment after sending the city information
+        startTime = Date.now(); // Initialize startTime here
     } else {
         clearInterval(trackerInterval);
         isTrackerStarted = false;
@@ -56,6 +47,10 @@ function sendNextCity() {
         app.set('currentCity', '');
     }
 }
+
+
+
+
 
 // End the tracker
 function endTracker() {
@@ -73,7 +68,7 @@ function isStarted() {
 
 // Define routes
 app.get('/starttracker', (req, res) => {
-    startTracker('World Cities East to West - World_Cities_Location_table.csv');
+    startTracker('cities.csv');
     res.send('Tracker started.');
 });
 
@@ -82,14 +77,56 @@ app.get('/endtracker', (req, res) => {
     res.send('Tracker ended.');
 });
 
+// Start the tracker
+async function startTracker(filePath) {
+    console.log('Starting tracker...');
+    if (!isTrackerStarted) {
+        try {
+            await readCitiesFromFile(filePath);
+            isTrackerStarted = true;
+            sendNextCity();
+            trackerInterval = setInterval(() => {
+                if (isTrackerStarted) { // Check if tracker is started before calculating time left
+                    const timeLeft = Math.ceil(intervalInSeconds - (Date.now() - startTime) / 1000);
+                    if (timeLeft <= 0) {
+                        clearInterval(trackerInterval);
+                        currentIndex++;
+                        sendNextCity();
+                    }
+                }
+            }, 1000); // Check every second
+            startTime = Date.now(); // Initialize startTime when tracker starts
+        } catch (error) {
+            console.error('Error starting tracker:', error);
+        }
+    } else {
+        console.log('Tracker is already started.');
+    }
+}
+
+
+
+// Function to get time left
+function getTimeLeft() {
+    if (isTrackerStarted) {
+        const timeLeft = Math.ceil(intervalInSeconds - (Date.now() - startTime) / 1000);
+        return Math.max(timeLeft, 0); // Ensure timeLeft is non-negative
+    } else {
+        return 0; // Return 0 if tracker is not started
+    }
+}
+
+// Route to get current location
 app.get('/getcurrentlocation', (req, res) => {
     const currentCity = app.get('currentCity');
     if (currentCity) {
-        res.send(`${currentCity} In ${currentIndex * intervalInSeconds} seconds.`);
+        const timeLeft = getTimeLeft();
+        res.send(`${currentCity} In ${timeLeft} seconds.`);
     } else {
         res.send('Tracker is not started.');
     }
 });
+
 
 app.get('/isstarted', (req, res) => {
     res.send(isStarted() ? 'true' : 'false');
