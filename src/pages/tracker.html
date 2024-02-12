@@ -52,22 +52,27 @@
             });
         }
 
-        async function displayCurrentLocation() {
-    const currentLocationDiv = document.getElementById('currentLocation');
-    const data = await getCurrentLocation();
-    if (data.city && data.country) {
-        currentLocationDiv.innerText = `Santa's Current Location: ${data.city}, ${data.country}`;
-        initMap(data.latitude, data.longitude);
-    } else {
-        currentLocationDiv.innerText = `Santa's Current Location: Unknown`;
-    }
+       
+async function getCurrentLocation() {
+    const response = await fetch('/getcurrentlocation');
+    const data = await response.text();
+    return data;
 }
 
+async function displayCurrentLocation() {
+    const currentLocationDiv = document.getElementById('currentLocation');
+    const data = await getCurrentLocation();
+    currentLocationDiv.innerText = data;
+}
 
-        window.onload = () => {
-            displayCurrentLocation();
-            setInterval(displayCurrentLocation, 1000); // Fetch Santa's current location every second
-        };
+window.onload = () => {
+    // Display the current location immediately
+    displayCurrentLocation();
+    
+    // Update the current location every second
+    setInterval(displayCurrentLocation, 1000);
+};
+
     </script>
     <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
 </body>
