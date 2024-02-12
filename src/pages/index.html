@@ -23,6 +23,25 @@
     </style>
 </head>
 <body>
+  <script>
+    // Function to check the tracker status and redirect if it starts
+    async function checkTrackerStatus() {
+        const response = await fetch('/isstarted');
+        const isStarted = await response.text();
+
+        if (isStarted === 'true') {
+            // Redirect to the tracker page if the tracker has started
+            window.location.href = '/tracker';
+        } else {
+            // Otherwise, check again after 1 second
+            setTimeout(checkTrackerStatus, 1000);
+        }
+    }
+
+    // Start checking the tracker status
+    checkTrackerStatus();
+</script>
+
     <div id="message">Santa has not launched yet.</div>
 </body>
 </html>

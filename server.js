@@ -116,27 +116,31 @@ app.get('/getcurrentlocation', (req, res) => {
 app.get('/isstarted', (req, res) => {
     res.send(isStarted() ? 'true' : 'false');
 });
+// Define the /getcurrentcoordinates route
+app.get('/getcurrentcoordinates', (req, res) => {
+    const currentCity = app.get('currentCity');
+    if (currentCity && currentCity.latitude && currentCity.longitude) {
+        const coordinates = {
+            latitude: currentCity.latitude,
+            longitude: currentCity.longitude
+        };
+        res.json(coordinates); // Send the coordinates as JSON response
+    } else {
+        res.status(404).send('Current coordinates not available.'); // Send an error if coordinates are not available
+    }
+});
+
 
 app.get('/', (req, res) => {
-    // Function to serve the appropriate page based on the tracker status
-    function servePage() {
-        if (!isStarted()) {
-            res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
-        } else {
-            res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
-        }
+    if (!isStarted()) {
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
+    } else {
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
     }
-
-    // Serve the appropriate page immediately
-    servePage();
-
-    // Check the tracker status every second and serve the appropriate page
-    const interval = setInterval(() => {
-        servePage();
-        if (isStarted()) {
-            clearInterval(interval); // Stop checking once the tracker has started
-        }
-    }, 1000);
+});
+// Define the /tracker route
+app.get('/tracker', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
 });
 
 
