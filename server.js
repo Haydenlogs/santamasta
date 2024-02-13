@@ -2,9 +2,13 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
+const { createServer } = require('http');
+const { Server: SSE } = require('express-sse');
+
+const sse = new SSE();
+
 
 const app = express();
-app.locals.clients = []; // Initialize clients array
 
 // Rest of the server code...
 
@@ -49,7 +53,22 @@ async function startTracker(filePath) {
         }
     }
 }
-
+function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
+    const transitionDuration = intervalInSeconds * 500; // Transition duration in milliseconds
+    const interpolation = Math.min(elapsedTime / transitionDuration, 1); // Interpolation value between 0 and 1
+    const currentLatLng = {
+        latitude: currentCity.latitude,
+        longitude: currentCity.longitude
+    };
+    const nextLatLng = {
+        latitude: nextCity.latitude,
+        longitude: nextCity.longitude
+    };
+    return {
+        latitude: currentLatLng.latitude + (nextLatLng.latitude - currentLatLng.latitude) * interpolation,
+        longitude: currentLatLng.longitude + (nextLatLng.longitude - currentLatLng.longitude) * interpolation
+    };
+}
 function sendNextCity() {
     if (isTrackerStarted && currentIndex < cities.length) {
         const city = cities[currentIndex];
@@ -77,26 +96,6 @@ function sendNextCity() {
     }
 }
 
-function isStarted() {
-    return isTrackerStarted;
-}
-
-function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
-    // Get the latitude and longitude of the current city
-    const currentLatitude = parseFloat(currentCity.latitude);
-    const currentLongitude = parseFloat(currentCity.longitude);
-
-    // Dummy implementation: Calculate position based on latitude and longitude
-    // You can replace this with your own logic
-    const latitudePercentage = (currentLatitude + 90) / 180 * 100;
-    const longitudePercentage = (currentLongitude + 180) / 360 * 100;
-
-    return {
-        latitude: latitudePercentage + '%',
-        longitude: longitudePercentage + '%'
-    };
-}
-
 async function generateTrackerHTML() {
     const currentCity = app.get('currentCity');
     const nextCityIndex = currentIndex;
@@ -107,55 +106,35 @@ async function generateTrackerHTML() {
     const santaPosition = calculateSantaPosition(currentCity, nextCity, elapsedTime);
 
     // Render HTML using EJS
-    const html = await ejs.renderFile(path.join(__dirname, 'views', 'tracker.ejs'), {
+    return ejs.renderFile(path.join(__dirname, 'views', 'tracker.ejs'), {
         currentCity,
         timeLeft,
         santaPosition
     });
+}
 
-    return html; // Return the rendered HTML string
+async function sendTrackerHTML() {
+    const trackerHTML = await generateTrackerHTML();
+    sse.send(trackerHTML);
 }
 
 
-
-function sendTrackerHTML() {
-    const trackerHTML = generateTrackerHTML();
-    app.locals.clients.forEach(client => {
-        client.res.write(`data: ${trackerHTML}\n\n`);
-    });
-}
-
+// Route to start the tracker
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
 });
 
-app.get('/', (req, res) => {
-    if (!isStarted()) {
-        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
-    } else {
-        res.setHeader('Content-Type', 'text/event-stream');
-        res.setHeader('Cache-Control', 'no-cache');
-        res.setHeader('Connection', 'keep-alive');
-        res.flushHeaders();
-
-        const client = { id: Date.now(), res };
-        if (!app.locals.clients) {
-            app.locals.clients = [];
-        }
-        app.locals.clients.push(client);
-
-        // Send initial tracker HTML
-        sendTrackerHTML();
-    }
-});
-
+// Route to end the tracker
 app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
     console.log('Tracker ended.');
     app.set('currentCity', null);
     res.send('Tracker ended.');
 });
+
+// Initialize SSE endpoint
+app.get('/sse', sse.init);
 
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
