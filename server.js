@@ -10,6 +10,7 @@ let isTrackerStarted = false;
 let startTime;
 const intervalInSeconds = 8.35;
 let trackerInterval;
+let clients = [];
 
 async function readCitiesFromFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -71,10 +72,6 @@ function sendNextCity() {
         app.set('currentCity', null);
         clearInterval(trackerInterval); // Stop the tracker interval
     }
-}
-
-function isStarted() {
-    return isTrackerStarted;
 }
 
 function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
@@ -153,18 +150,12 @@ function generateTrackerHTML() {
     return trackerHTML;
 }
 
-function sendTrackerHTML(res) {
+function sendTrackerHTML() {
     const trackerHTML = generateTrackerHTML();
-    res.send(trackerHTML);
+    clients.forEach(client => {
+        client.res.write(`data: ${trackerHTML}\n\n`);
+    });
 }
-app.get('/tracker', (req, res) => {
-    if (isStarted()) {
-        const trackerHTML = generateTrackerHTML();
-        res.send(trackerHTML);
-    } else {
-        res.send('Tracker not started.');
-    }
-});
 
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
@@ -172,12 +163,15 @@ app.get('/starttracker', (req, res) => {
 });
 
 app.get('/', (req, res) => {
-    if (!isStarted()) {
-        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
-    } else {
-        res.setHeader('Content-Type', 'text/html');
-        sendTrackerHTML(res);
-    }
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
+    res.flushHeaders();
+
+    const client = { id: Date.now(), res };
+    clients.push(client);
+
+    res.write(`data: ${generateTrackerHTML()}\n\n`);
 });
 
 app.get('/endtracker', (req, res) => {
