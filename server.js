@@ -96,101 +96,43 @@ function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
         longitude: longitudePercentage + '%'
     };
 }
-async function sendTrackerHTML() {
-    try {
-        const trackerHTML = await generateTrackerHTML();
-        app.locals.clients.forEach(client => {
-            client.res.write(`data: ${trackerHTML}\n\n`);
-        });
-    } catch (error) {
-        console.error('Error sending tracker HTML:', error);
-    }
-}
 
 async function generateTrackerHTML() {
-    try {
-        const currentCity = app.get('currentCity');
-        const nextCityIndex = currentIndex;
-        const nextCity = cities[nextCityIndex];
-        const currentTime = Date.now();
-        const elapsedTime = currentTime - startTime;
-        const timeLeft = Math.ceil(intervalInSeconds - elapsedTime / 1000);
-        const santaPosition = calculateSantaPosition(currentCity, nextCity, elapsedTime);
+    const currentCity = app.get('currentCity');
+    const nextCityIndex = currentIndex;
+    const nextCity = cities[nextCityIndex];
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - startTime;
+    const timeLeft = Math.ceil(intervalInSeconds - elapsedTime / 1000);
+    const santaPosition = calculateSantaPosition(currentCity, nextCity, elapsedTime);
 
-        // Render HTML using EJS
-        const html = await ejs.renderFile(path.join(__dirname, 'views', 'tracker.ejs'), {
-            currentCity,
-            timeLeft,
-            santaPosition
-        });
+    // Render HTML using EJS
+    const html = await ejs.renderFile(path.join(__dirname, 'views', 'tracker.ejs'), {
+        currentCity,
+        timeLeft,
+        santaPosition
+    });
 
-        return html;
-    } catch (error) {
-        console.error('Error generating tracker HTML:', error);
-        throw error; // Re-throw the error to handle it further up the call stack
-    }
+    return html; // Return the rendered HTML string
 }
 
+
+
+function sendTrackerHTML() {
+    const trackerHTML = generateTrackerHTML();
+    app.locals.clients.forEach(client => {
+        client.res.write(`data: ${trackerHTML}\n\n`);
+    });
+}
 
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
 });
+
 app.get('/', (req, res) => {
     if (!isStarted()) {
-        // Send the provided HTML when the tracker is not started
-        const htmlContent = `<!DOCTYPE html>
-        <html lang="en">
-        <head>
-            <meta charset="UTF-8">
-            <meta name="viewport" content="width=device-width, initial-scale=1.0">
-            <title>Santa Tracker</title>
-            <style>
-                body {
-                    font-family: Arial, sans-serif;
-                    margin: 0;
-                    padding: 0;
-                    background-color: #f0f8ff; /* Light Blue */
-                }
-                .container {
-                    text-align: center;
-                    padding: 20px;
-                }
-                #currentLocation {
-                    font-size: 24px;
-                    font-weight: bold;
-                    margin-top: 50px;
-                }
-                #map {
-                    position: relative;
-                    width: 80%;
-                    height: 70%;
-                    margin: 20px auto;
-                    overflow: hidden; /* Hide overflow to prevent image from overflowing */
-                }
-                #santa {
-                    position: absolute;
-                    left: 75%;
-                    top: 100%;
-                    transition: left 1s, top 1s; /* Smooth transition for Santa's movement */
-                }
-            </style>
-        </head>
-        <body>
-            <div class="container">
-                <div id="currentLocation"></div>
-                <div id="map">
-                    <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144" width="50" height="50"> <!-- Image of Santa -->
-                    <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
-                </div>
-            </div>
-
-            <script>
-                // No client-side JavaScript code for updating tracker data
-            </script>
-        </body>
-        </html>`;
-        res.send(htmlContent);
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
     } else {
         res.setHeader('Content-Type', 'text/event-stream');
         res.setHeader('Cache-Control', 'no-cache');
@@ -205,15 +147,8 @@ app.get('/', (req, res) => {
 
         // Send initial tracker HTML
         sendTrackerHTML();
-
-        // Update tracker HTML every second
-        setInterval(() => {
-            sendTrackerHTML();
-        }, 1000);
     }
 });
-
-
 
 app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
