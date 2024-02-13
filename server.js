@@ -153,11 +153,9 @@ function generateTrackerHTML() {
     return trackerHTML;
 }
 
-function sendTrackerHTML() {
+function sendTrackerHTML(res) {
     const trackerHTML = generateTrackerHTML();
-    app.locals.clients.forEach(client => {
-        client.res.write(`data: ${trackerHTML}\n\n`);
-    });
+    res.send(trackerHTML);
 }
 
 app.get('/starttracker', (req, res) => {
@@ -169,18 +167,8 @@ app.get('/', (req, res) => {
     if (!isStarted()) {
         res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
     } else {
-        res.setHeader('Content-Type', 'text/event-stream');
-        res.setHeader('Cache-Control', 'no-cache');
-        res.setHeader('Connection', 'keep-alive');
-        res.flushHeaders();
-
-        const client = { id: Date.now(), res };
-        if (!app.locals.clients) {
-            app.locals.clients = [];
-        }
-        app.locals.clients.push(client);
-
-        res.write(`data: ${generateTrackerHTML()}\n\n`);
+        res.setHeader('Content-Type', 'text/html');
+        sendTrackerHTML(res);
     }
 });
 

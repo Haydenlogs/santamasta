@@ -29,13 +29,15 @@
         }
         #santa {
             position: absolute;
-            transition: top 1s, left 1s; /* Smooth transition for Santa's movement */
+            left: 75%;
+            top: 100%;
+            transition: left 1s, top 1s; /* Smooth transition for Santa's movement */
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <div id="currentLocation">Loading...</div>
+        <div id="currentLocation"></div>
         <div id="map">
             <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144" width="50" height="50"> <!-- Image of Santa -->
             <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
@@ -43,56 +45,7 @@
     </div>
 
     <script>
-        async function getCurrentCoordinates() {
-            const response = await fetch('/getcurrentcoordinates');
-            const data = await response.json();
-            return data; // Return the coordinates as JSON
-        }
-
-        async function updateSantaPosition() {
-            const coordinates = await getCurrentCoordinates();
-            const santa = document.getElementById('santa');
-            const map = document.getElementById('map');
-            const mapWidth = map.offsetWidth; // Width of the map container
-            const mapHeight = map.offsetHeight; // Height of the map container
-            const santaWidth = santa.offsetWidth; // Width of the Santa image
-            const santaHeight = santa.offsetHeight; // Height of the Santa image
-            const left = (coordinates.longitude / 360 + 0.5) * mapWidth - santaWidth / 2; // Calculate left position
-            const top = (0.5 - coordinates.latitude / 180) * mapHeight - santaHeight / 2; // Calculate top position
-            santa.style.left = `${left}px`; // Set left position
-            santa.style.top = `${top}px`; // Set top position
-        }
-
-        async function updateSantaLocationText() {
-            const response = await fetch('/getcurrentlocation');
-            const locationData = await response.text();
-            const currentLocationDiv = document.getElementById('currentLocation');
-            currentLocationDiv.innerText = locationData; // Set the text to the response from /getcurrentlocation
-        }
-
-        async function displayCurrentLocation() {
-            await updateSantaLocationText(); // Update Santa's location text
-            updateSantaPosition(); // Update Santa's position
-        }
-
-        async function checkTrackerStatus() {
-            const response = await fetch('/isstarted');
-            const isStarted = await response.text();
-            if (isStarted === 'false') {
-                window.location.href = '/ended'; // Redirect to ended.html if tracker is not started
-            }
-        }
-
-        window.onload = () => {
-            // Check tracker status immediately
-            checkTrackerStatus();
-
-            // Display the current location and Santa's position every second
-            setInterval(() => {
-                displayCurrentLocation();
-                checkTrackerStatus();
-            }, 1000);
-        };
+        // No client-side JavaScript code for updating tracker data
     </script>
 </body>
 </html>
