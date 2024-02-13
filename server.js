@@ -157,6 +157,14 @@ function sendTrackerHTML(res) {
     const trackerHTML = generateTrackerHTML();
     res.send(trackerHTML);
 }
+app.get('/tracker', (req, res) => {
+    if (isStarted()) {
+        const trackerHTML = generateTrackerHTML();
+        res.send(trackerHTML);
+    } else {
+        res.send('Tracker not started.');
+    }
+});
 
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
