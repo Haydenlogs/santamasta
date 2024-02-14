@@ -183,7 +183,9 @@ app.get('/updates', (req, res) => {
     }
     app.locals.clients.push(client);
 });
-
+app.get('/admin', (req, res) => {
+    res.sendFile(path.join(__dirname, 'src', 'pages', 'controlpanel.html'));
+});
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
