@@ -43,14 +43,13 @@ async function startTracker(filePath) {
             trackerInterval = setInterval(() => {
                 sendTrackerUpdate();
             }, 1000); // Update tracker every second
-
-            // Send SSE event indicating tracker has started
-            sendTrackerEvent({ trackerStarted: true });
+            sendTrackerStartEvent(); // Send SSE event when the tracker starts
         } catch (error) {
             console.error('Error loading cities:', error);
         }
     }
 }
+
 function sendNextCity() {
     if (isTrackerStarted && currentIndex < cities.length) {
         const city = cities[currentIndex];
@@ -103,17 +102,17 @@ function generateTrackerUpdate() {
     };
 }
 
-
-
-function sendTrackerEvent(data) {
+function sendTrackerStartEvent() {
     app.locals.clients.forEach(client => {
-        client.res.write(`data: ${JSON.stringify(data)}\n\n`);
+        client.res.write('event: trackerStart\n');
+        client.res.write('data: {"trackerStarted": true}\n\n');
     });
 }
 
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
+  sendTrackerStartEvent({ trackerEnded: true });
 });
 
 app.get('/', (req, res) => {
@@ -123,8 +122,12 @@ app.get('/', (req, res) => {
         res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
     }
 });
-
-
+// Add a function to send SSE events
+function sendTrackerEvent(data) {
+    app.locals.clients.forEach(client => {
+        client.res.write(`data: ${JSON.stringify(data)}\n\n`);
+    });
+}
 
 app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
@@ -133,7 +136,7 @@ app.get('/endtracker', (req, res) => {
     lastCity = null; // Reset lastCity when the tracker ends
     res.send('Tracker ended.');
     currentIndex = 0;
-   sendTrackerEvent({ trackerEnded: true });
+    sendTrackerEvent({ trackerEnded: true });
 });
 
 app.get('/updates', (req, res) => {

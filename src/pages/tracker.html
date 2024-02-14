@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Light Blue */
+            background-image: linear-gradient(to bottom, #d3e4ff 0%, #f0f8ff 100%); /* Snowy gradient */
         }
         .top-bar {
             background-color: #333;
@@ -25,14 +25,16 @@
         #map-container {
             position: relative;
             width: 80%; /* Adjust the width as needed */
-            height: 500px; /* Adjust the height as needed */
+            height: 80vh; /* Adjust the height as needed */
             margin: 50px auto; /* Add margin to make space for top-bar */
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
+            max-width: 1200px; /* Limit the maximum width */
         }
         #santa {
             position: absolute;
-            width: 50px;
-            height: 50px;
+            width: 5%; /* Adjust size relative to the container */
+            max-width: 50px; /* Limit maximum width */
+            height: auto; /* Maintain aspect ratio */
             transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
             cursor: pointer; /* Change cursor to pointer when hovering over Santa */
         }
@@ -83,8 +85,8 @@
                 const { width, height } = mapImage.getBoundingClientRect();
                 const x = (longitude + 180) * (width / 360);
                 const y = (90 - latitude) * (height / 180);
-                santa.style.left = `${x - 25}px`; // Adjust for the size of the Santa image
-                santa.style.top = `${y - 25}px`; // Adjust for the size of the Santa image
+                santa.style.left = `${x - santa.offsetWidth / 2}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${y - santa.offsetHeight / 2}px`; // Adjust for the size of the Santa image
 
                 if (followingSanta) {
                     const containerRect = mapContainer.getBoundingClientRect();
@@ -94,7 +96,18 @@
                 }
             }
         }
-// Function to handle SSE messages
+
+        santa.addEventListener('click', function() {
+            followingSanta = !followingSanta;
+            if (followingSanta) {
+                santa.style.backgroundColor = 'yellow'; // Change color to indicate following
+            } else {
+                santa.style.backgroundColor = ''; // Remove background color
+            }
+        });
+
+      
+      // Function to handle SSE messages
     function handleSSE(event) {
         // Parse the event data
         const data = JSON.parse(event.data);
@@ -114,21 +127,8 @@
 
     // Start listening for SSE messages
     startSSE();
-        santa.addEventListener('click', function() {
-            followingSanta = !followingSanta;
-            if (followingSanta) {
-                santa.style.backgroundColor = 'yellow'; // Change color to indicate following
-            } else {
-                santa.style.backgroundColor = ''; // Remove background color
-            }
-        });
-
-        mapContainer.addEventListener('wheel', function(event) {
-            event.preventDefault();
-            const zoomScale = event.deltaY > 0 ? 1.1 : 0.9; // Zoom in or out based on wheel direction
-            mapContainer.style.width = `${mapContainer.offsetWidth * zoomScale}px`;
-            mapContainer.style.height = `${mapContainer.offsetHeight * zoomScale}px`;
-        });
+      
+        
     </script>
 </body>
 </html>
