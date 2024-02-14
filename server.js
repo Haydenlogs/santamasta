@@ -43,12 +43,14 @@ async function startTracker(filePath) {
             trackerInterval = setInterval(() => {
                 sendTrackerUpdate();
             }, 1000); // Update tracker every second
+
+            // Send SSE event indicating tracker has started
+            sendTrackerEvent({ trackerStarted: true });
         } catch (error) {
             console.error('Error loading cities:', error);
         }
     }
 }
-
 function sendNextCity() {
     if (isTrackerStarted && currentIndex < cities.length) {
         const city = cities[currentIndex];
@@ -101,6 +103,14 @@ function generateTrackerUpdate() {
     };
 }
 
+
+
+function sendTrackerEvent(data) {
+    app.locals.clients.forEach(client => {
+        client.res.write(`data: ${JSON.stringify(data)}\n\n`);
+    });
+}
+
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
@@ -114,6 +124,8 @@ app.get('/', (req, res) => {
     }
 });
 
+
+
 app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
     console.log('Tracker ended.');
@@ -121,6 +133,7 @@ app.get('/endtracker', (req, res) => {
     lastCity = null; // Reset lastCity when the tracker ends
     res.send('Tracker ended.');
     currentIndex = 0;
+   sendTrackerEvent({ trackerEnded: true });
 });
 
 app.get('/updates', (req, res) => {

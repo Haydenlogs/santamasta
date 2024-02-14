@@ -94,7 +94,26 @@
                 }
             }
         }
+// Function to handle SSE messages
+    function handleSSE(event) {
+        // Parse the event data
+        const data = JSON.parse(event.data);
+        
+        // Check if the tracker has ended
+        if (data.trackerEnded === true) {
+            // Refresh the page to the home page if the tracker has ended
+            window.location.href = '/';
+        }
+    }
 
+    // Function to start listening for SSE messages
+    function startSSE() {
+        const eventSource = new EventSource('/updates');
+        eventSource.onmessage = handleSSE;
+    }
+
+    // Start listening for SSE messages
+    startSSE();
         santa.addEventListener('click', function() {
             followingSanta = !followingSanta;
             if (followingSanta) {
