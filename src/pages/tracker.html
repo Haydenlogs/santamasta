@@ -6,75 +6,46 @@
     <title>Tracker</title>
     <style>
         body {
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
-            background-size: cover;
-            background-position: center;
+            background-color: #f0f8ff; /* Light Blue */
         }
-
         .top-bar {
-            background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
-            padding: 10px 20px;
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
             text-align: center;
-            position: fixed;
-            width: 100%;
-            top: 0;
-            z-index: 1000; /* Ensure it's above other elements */
         }
-
-        .top-bar h1 {
-            margin: 0;
-            font-size: 24px;
-        }
-
-        .container {
-            text-align: center;
-            padding: 100px 20px 20px; /* Adjust top padding to account for the top bar */
-        }
-
-        #currentCityInfo,
-        #timeLeftInfo,
-        #nextCityInfo {
-            margin-bottom: 20px;
-        }
-
-        #map {
+        #map-container {
             position: relative;
-            width: 80%;
-            height: 70%;
-            margin: 20px auto;
-            overflow: hidden; /* Hide overflow to prevent image from overflowing */
+            width: 100%;
+            height: 500px; /* Adjust as needed */
+            margin-top: 20px;
         }
-
         #santa {
             position: absolute;
-            left: 75%;
-            top: 100%;
-            transition: left 1s, top 1s; /* Smooth transition for Santa's movement */
+            width: 50px;
+            height: 50px;
         }
     </style>
 </head>
 <body>
     <div class="top-bar">
-        <h1>Tracker</h1>
-    </div>
-
-    <div class="container">
-        <div id="currentCityInfo"></div>
-        <div id="timeLeftInfo"></div>
         <div id="nextCityInfo"></div>
-
-        <div id="map">
-            <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144" width="50" height="50"> <!-- Image of Santa -->
-            <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
-        </div>
+        <div id="lastCityInfo"></div>
+    </div>
+    
+    <div id="map-container">
+        <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144">
+        <img width="100%" height="100%" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809">
     </div>
 
     <script>
-        const currentCityInfo = document.getElementById('currentCityInfo');
-        const timeLeftInfo = document.getElementById('timeLeftInfo');
         const nextCityInfo = document.getElementById('nextCityInfo');
+        const lastCityInfo = document.getElementById('lastCityInfo');
+        const santa = document.getElementById('santa');
+        const mapContainer = document.getElementById('map-container');
 
         const eventSource = new EventSource('/updates');
 
@@ -84,18 +55,25 @@
         };
 
         function updateTracker(data) {
-            if (data.currentCity) {
-                currentCityInfo.innerHTML = `Current City: ${data.currentCity.city}, ${data.currentCity.country}`;
+            if (data.nextCity && data.timeLeft) {
+                nextCityInfo.textContent = `Headed For: ${data.nextCity.city} in ${data.timeLeft} seconds.`;
             } else {
-                currentCityInfo.innerHTML = 'Current City: N/A';
+                nextCityInfo.textContent = '';
             }
 
-            timeLeftInfo.innerHTML = `Time Left: ${data.timeLeft} seconds`;
-
-            if (data.nextCity) {
-                nextCityInfo.innerHTML = `Next City: ${data.nextCity.city}, ${data.nextCity.country}`;
+            if (data.lastCity) {
+                lastCityInfo.textContent = `Last Seen: ${data.lastCity.city}, ${data.lastCity.country}`;
             } else {
-                nextCityInfo.innerHTML = 'Next City: N/A';
+                lastCityInfo.textContent = '';
+            }
+
+            if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
+                const { latitude, longitude } = data.currentCity;
+                const { width, height } = mapContainer.getBoundingClientRect();
+                const x = (longitude + 180) * (width / 360);
+                const y = (90 - latitude) * (height / 180);
+                santa.style.left = `${x - 25}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${y - 25}px`; // Adjust for the size of the Santa image
             }
         }
     </script>

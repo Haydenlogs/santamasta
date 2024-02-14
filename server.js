@@ -2,7 +2,6 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
-const { SSE } = require('express-sse');
 
 const app = express();
 app.locals.clients = []; // Initialize clients array
@@ -10,6 +9,7 @@ app.locals.clients = []; // Initialize clients array
 let cities = [];
 let currentIndex = 0;
 let isTrackerStarted = false;
+let lastCity;
 let startTime;
 const intervalInSeconds = 8.35;
 let trackerInterval;
@@ -60,6 +60,7 @@ function sendNextCity() {
                 longitude: city.longitude
             };
             app.set('currentCity', cityInfo);
+            lastCity = cityInfo; // Update lastCity when sending a new city
             startTime = Date.now(); // Set the start time when sending a new city
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
@@ -72,6 +73,7 @@ function sendNextCity() {
         isTrackerStarted = false;
         console.log('Tracker ended.');
         app.set('currentCity', null);
+        lastCity = null; // Reset lastCity when the tracker ends
         clearInterval(trackerInterval); // Stop the tracker interval
     }
 }
@@ -79,7 +81,7 @@ function sendNextCity() {
 function sendTrackerUpdate() {
     const trackerUpdate = generateTrackerUpdate();
     app.locals.clients.forEach(client => {
-        client.sse.send(trackerUpdate); // Send update using SSE
+        client.res.write(`data: ${JSON.stringify(trackerUpdate)}\n\n`);
     });
 }
 
@@ -94,7 +96,8 @@ function generateTrackerUpdate() {
     return {
         currentCity,
         timeLeft,
-        nextCity
+        nextCity,
+        lastCity // Include lastCity in the tracker update
     };
 }
 
@@ -115,30 +118,22 @@ app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
     console.log('Tracker ended.');
     app.set('currentCity', null);
+    lastCity = null; // Reset lastCity when the tracker ends
     res.send('Tracker ended.');
+    currentIndex = 0;
 });
 
 app.get('/updates', (req, res) => {
-    const sse = new SSE();
-
-    // Set headers for SSE
     res.setHeader('Content-Type', 'text/event-stream');
     res.setHeader('Cache-Control', 'no-cache');
     res.setHeader('Connection', 'keep-alive');
     res.flushHeaders();
 
-    // Connect clients to SSE stream
-    sse.init(req, res);
-
-    // Add client to list of clients
-    const client = { id: Date.now(), sse };
+    const client = { id: Date.now(), res };
+    if (!app.locals.clients) {
+        app.locals.clients = [];
+    }
     app.locals.clients.push(client);
-
-    // Handle client disconnect
-    req.on('close', () => {
-        console.log('Client disconnected');
-        app.locals.clients = app.locals.clients.filter(c => c.id !== client.id);
-    });
 });
 
 const port = process.env.PORT || 3000;
