@@ -40,7 +40,31 @@
             <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
         </div>
     </div>
+<script>
+    // Function to handle SSE messages
+    // Function to handle SSE messages
+function handleSSE(event) {
+    // Parse the event data
+    const data = JSON.parse(event.data);
+    
+    // Check if the tracker has started
+    if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
+  
+}
 
+
+    // Function to start listening for SSE messages
+    function startSSE() {
+        const eventSource = new EventSource('/updates');
+        eventSource.onmessage = handleSSE;
+    }
+
+    // Start listening for SSE messages
+    startSSE();
+</script>
    
 </body>
 </html>

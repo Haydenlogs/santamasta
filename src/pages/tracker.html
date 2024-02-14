@@ -42,8 +42,8 @@
 </head>
 <body>
     <div class="top-bar">
-        <div id="nextCityInfo"></div>
-        <div id="lastCityInfo"></div>
+        <div id="nextCityInfo">LOADING!!</div>
+        <div id="lastCityInfo">LOADING!!</div>
     </div>
     
     <div id="map-container">
@@ -115,8 +115,12 @@
         // Check if the tracker has ended
         if (data.trackerEnded === true) {
             // Refresh the page to the home page if the tracker has ended
-            window.location.href = '/';
+            window.location.href = 'ended.html';
         }
+      if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
     }
 
     // Function to start listening for SSE messages

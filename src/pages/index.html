@@ -35,6 +35,10 @@ function handleSSE(event) {
         // Refresh the page to the home page if the tracker has started
         window.location.href = '/';
     }
+  if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
 }
 
 

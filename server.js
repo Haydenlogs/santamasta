@@ -71,6 +71,7 @@ function sendNextCity() {
             sendNextCity(); // Continue to the next city
         }
     } else {
+        // If currentIndex is equal to or greater than cities.length, end the tracker
         isTrackerStarted = false;
         console.log('Tracker ended.');
         app.set('currentCity', null);
@@ -114,13 +115,44 @@ app.get('/starttracker', (req, res) => {
     res.send('Tracker started.');
     sendTrackerEvent({ trackerStarted: true });
 });
+// Define a variable to track whether the site is locked
+let isLocked = true;
 
+// Endpoint to unlock the site
+app.get('/unlock', (req, res) => {
+    isLocked = false;
+    res.send('Site unlocked');
+    sendTrackerEvent({ unlocked: true });
+});
+
+// Endpoint to lock the site
+app.get('/lock', (req, res) => {
+    isLocked = true;
+    res.send('Site locked');
+    sendTrackerEvent({ unlocked: false });
+});
+
+// Default route handler
 app.get('/', (req, res) => {
-    if (!isTrackerStarted) {
-        res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
+    // Check if the site is locked
+    if (isLocked) {
+        // If locked, redirect to comeback.html
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'comeback.html'));
     } else {
-        res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
+        // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
+        if (!isTrackerStarted) {
+            res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
+        } else {
+            res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
+        }
     }
+});
+// Default route handler
+app.get('/ended.html', (req, res) => {
+  
+        // If locked, redirect to comeback.html
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'ended.html'));
+   
 });
 // Add a function to send SSE events
 function sendTrackerEvent(data) {

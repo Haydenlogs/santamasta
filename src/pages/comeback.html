@@ -9,7 +9,7 @@
             margin: 0;
             padding: 0;
             font-family: Arial, sans-serif;
-            background-image: url('https://example.com/your-background-image.jpg'); /* Replace with your background image URL */
+            background-image: url('https://cdn.vectorstock.com/i/preview-1x/45/87/north-pole-vector-1604587.jpg'); /* Replace with your background image URL */
             background-size: cover;
             background-position: center;
             height: 100vh;
@@ -26,6 +26,32 @@
     </style>
 </head>
 <body>
+  <script>
+    // Function to handle SSE messages
+    // Function to handle SSE messages
+function handleSSE(event) {
+    // Parse the event data
+    const data = JSON.parse(event.data);
+    
+    // Check if the tracker has started
+    if (data.unlocked === true) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
+  
+}
+
+
+    // Function to start listening for SSE messages
+    function startSSE() {
+        const eventSource = new EventSource('/updates');
+        eventSource.onmessage = handleSSE;
+    }
+
+    // Start listening for SSE messages
+    startSSE();
+</script>
+
     <div id="message">Come Back December 24th</div>
 </body>
 </html>
