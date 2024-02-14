@@ -112,7 +112,7 @@ function sendTrackerStartEvent() {
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
-  sendTrackerStartEvent({ trackerEnded: true });
+    sendTrackerEvent({ trackerStarted: true });
 });
 
 app.get('/', (req, res) => {
