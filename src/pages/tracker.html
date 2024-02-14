@@ -3,23 +3,42 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Santa Tracker</title>
+    <title>Tracker</title>
     <style>
         body {
-            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f0f8ff; /* Light Blue */
+            background-image: url('background.jpg'); /* Replace 'background.jpg' with your image path */
+            background-size: cover;
+            background-position: center;
         }
+
+        .top-bar {
+            background-color: rgba(255, 255, 255, 0.8); /* Adjust the opacity as needed */
+            padding: 10px 20px;
+            text-align: center;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000; /* Ensure it's above other elements */
+        }
+
+        .top-bar h1 {
+            margin: 0;
+            font-size: 24px;
+        }
+
         .container {
             text-align: center;
-            padding: 20px;
+            padding: 100px 20px 20px; /* Adjust top padding to account for the top bar */
         }
-        #currentLocation {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 50px;
+
+        #currentCityInfo,
+        #timeLeftInfo,
+        #nextCityInfo {
+            margin-bottom: 20px;
         }
+
         #map {
             position: relative;
             width: 80%;
@@ -27,6 +46,7 @@
             margin: 20px auto;
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
         }
+
         #santa {
             position: absolute;
             left: 75%;
@@ -36,8 +56,15 @@
     </style>
 </head>
 <body>
+    <div class="top-bar">
+        <h1>Tracker</h1>
+    </div>
+
     <div class="container">
-        <div id="currentLocation"></div>
+        <div id="currentCityInfo"></div>
+        <div id="timeLeftInfo"></div>
+        <div id="nextCityInfo"></div>
+
         <div id="map">
             <img id="santa" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/Santa_1-removebg-preview.png?v=1707774212144" width="50" height="50"> <!-- Image of Santa -->
             <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
@@ -45,7 +72,32 @@
     </div>
 
     <script>
-        // No client-side JavaScript code for updating tracker data
+        const currentCityInfo = document.getElementById('currentCityInfo');
+        const timeLeftInfo = document.getElementById('timeLeftInfo');
+        const nextCityInfo = document.getElementById('nextCityInfo');
+
+        const eventSource = new EventSource('/updates');
+
+        eventSource.onmessage = function(event) {
+            const data = JSON.parse(event.data);
+            updateTracker(data);
+        };
+
+        function updateTracker(data) {
+            if (data.currentCity) {
+                currentCityInfo.innerHTML = `Current City: ${data.currentCity.city}, ${data.currentCity.country}`;
+            } else {
+                currentCityInfo.innerHTML = 'Current City: N/A';
+            }
+
+            timeLeftInfo.innerHTML = `Time Left: ${data.timeLeft} seconds`;
+
+            if (data.nextCity) {
+                nextCityInfo.innerHTML = `Next City: ${data.nextCity.city}, ${data.nextCity.country}`;
+            } else {
+                nextCityInfo.innerHTML = 'Next City: N/A';
+            }
+        }
     </script>
 </body>
 </html>

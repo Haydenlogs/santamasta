@@ -2,11 +2,10 @@ const express = require('express');
 const fs = require('fs');
 const path = require('path');
 const ejs = require('ejs');
+const { SSE } = require('express-sse');
 
 const app = express();
 app.locals.clients = []; // Initialize clients array
-
-// Rest of the server code...
 
 let cities = [];
 let currentIndex = 0;
@@ -42,8 +41,8 @@ async function startTracker(filePath) {
             isTrackerStarted = true;
             sendNextCity();
             trackerInterval = setInterval(() => {
-                sendTrackerHTML();
-            }, 1000); // Update tracker HTML every second
+                sendTrackerUpdate();
+            }, 1000); // Update tracker every second
         } catch (error) {
             console.error('Error loading cities:', error);
         }
@@ -77,98 +76,69 @@ function sendNextCity() {
     }
 }
 
-function isStarted() {
-    return isTrackerStarted;
+function sendTrackerUpdate() {
+    const trackerUpdate = generateTrackerUpdate();
+    app.locals.clients.forEach(client => {
+        client.sse.send(trackerUpdate); // Send update using SSE
+    });
 }
 
-function calculateSantaPosition(currentCity, nextCity, elapsedTime) {
-    // Get the latitude and longitude of the current city
-    const currentLatitude = parseFloat(currentCity.latitude);
-    const currentLongitude = parseFloat(currentCity.longitude);
-
-    // Dummy implementation: Calculate position based on latitude and longitude
-    // You can replace this with your own logic
-    const latitudePercentage = (currentLatitude + 90) / 180 * 100;
-    const longitudePercentage = (currentLongitude + 180) / 360 * 100;
-
-    return {
-        latitude: latitudePercentage + '%',
-        longitude: longitudePercentage + '%'
-    };
-}
-
-async function generateTrackerHTML() {
+function generateTrackerUpdate() {
     const currentCity = app.get('currentCity');
     const nextCityIndex = currentIndex;
     const nextCity = cities[nextCityIndex];
     const currentTime = Date.now();
     const elapsedTime = currentTime - startTime;
     const timeLeft = Math.ceil(intervalInSeconds - elapsedTime / 1000);
-    const santaPosition = calculateSantaPosition(currentCity, nextCity, elapsedTime);
 
-    // Render HTML using EJS
-    const html = await ejs.renderFile(path.join(__dirname, 'views', 'tracker.ejs'), {
+    return {
         currentCity,
         timeLeft,
-        santaPosition
-    });
-
-    return html;
+        nextCity
+    };
 }
-
-function sendSSEMessage(res, data) {
-    res.write(`data: ${JSON.stringify(data)}\n\n`);
-}
-
 
 app.get('/starttracker', (req, res) => {
     startTracker('cities2.csv');
     res.send('Tracker started.');
 });
-async function sendTrackerHTML(res) {
-    const trackerHTML = await generateTrackerHTML();
-    if (res) {
-        if (!res.headersSent) { // Check if headers have been sent already
-            res.setHeader('Content-Type', 'text/event-stream');
-            res.setHeader('Cache-Control', 'no-cache');
-            res.setHeader('Connection', 'keep-alive');
-            res.write(`data: ${trackerHTML}\n\n`);
-        }
-    } else {
-        app.locals.clients.forEach(client => {
-            if (!client.res.finished && !client.res.headersSent) { // Check if headers have been sent already
-                client.res.write(`data: ${trackerHTML}\n\n`);
-            }
-        });
-    }
-}
 
 app.get('/', (req, res) => {
-    if (!isStarted()) {
+    if (!isTrackerStarted) {
         res.sendFile(path.join(__dirname, 'src', 'pages', 'index.html'));
     } else {
-        res.setHeader('Content-Type', 'text/event-stream');
-        res.setHeader('Cache-Control', 'no-cache');
-        res.setHeader('Connection', 'keep-alive');
-        res.flushHeaders();
-
-        const client = { id: Date.now(), res };
-        if (!app.locals.clients) {
-            app.locals.clients = [];
-        }
-        app.locals.clients.push(client);
-
-        // Send initial tracker HTML
-        sendTrackerHTML(res);
+        res.sendFile(path.join(__dirname, 'src', 'pages', 'tracker.html'));
     }
 });
-
 
 app.get('/endtracker', (req, res) => {
     isTrackerStarted = false;
     console.log('Tracker ended.');
     app.set('currentCity', null);
     res.send('Tracker ended.');
+});
+
+app.get('/updates', (req, res) => {
+    const sse = new SSE();
+
+    // Set headers for SSE
+    res.setHeader('Content-Type', 'text/event-stream');
+    res.setHeader('Cache-Control', 'no-cache');
+    res.setHeader('Connection', 'keep-alive');
+    res.flushHeaders();
+
+    // Connect clients to SSE stream
+    sse.init(req, res);
+
+    // Add client to list of clients
+    const client = { id: Date.now(), sse };
+    app.locals.clients.push(client);
+
+    // Handle client disconnect
+    req.on('close', () => {
+        console.log('Client disconnected');
+        app.locals.clients = app.locals.clients.filter(c => c.id !== client.id);
+    });
 });
 
 const port = process.env.PORT || 3000;
