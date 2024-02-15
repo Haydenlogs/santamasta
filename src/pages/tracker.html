@@ -53,24 +53,27 @@
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
             cursor: zoom-in; /* Change cursor to zoom-in cursor */
         }
-      .basket-container {
+     .basket-container {
     position: absolute;
-    display: inline-block;
 }
 
 .basket-image {
-    border: 2px solid white; /* Add white border around the basket image */
+    border: 2px solid white;
+    width: 50px; /* Set the width of the basket image */
+    height: 50px; /* Set the height of the basket image */
 }
 
 .arrow {
     position: relative;
     width: 0;
     height: 0;
-    border-left: 10px solid transparent;
-    border-right: 10px solid transparent;
-    border-top: 15px solid white; /* Add white arrow below the basket image */
-    margin-top: -10px;
+    border-left: 5px solid transparent; /* Adjust arrow size */
+    border-right: 5px solid transparent; /* Adjust arrow size */
+    border-top: 8px solid white; /* Adjust arrow size */
+    margin-top: -5px; /* Adjust vertical position of the arrow */
+    margin-left: 22px; /* Adjust horizontal position of the arrow */
 }
+
 
 
         #santa {
@@ -117,7 +120,7 @@
     </div>
 
     <script>
-      function addBasket(cityInfo) {
+function addBasket(cityInfo) {
     // Create a new container for the basket
     const basketContainer = document.createElement('div');
     basketContainer.className = 'basket-container';
@@ -126,6 +129,8 @@
     const basketImage = document.createElement('img');
     basketImage.src = 'https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0';
     basketImage.className = 'basket-image';
+    basketImage.width = "50px";
+    basketImage.height = "50px";
 
     // Create the arrow element
     const arrow = document.createElement('div');
@@ -144,21 +149,35 @@
     basketContainer.style.left = `${x - basketImage.width / 2}px`;
     basketContainer.style.top = `${y - basketImage.height}px`;
 
+    // Add click event listener to the basket container
+    basketContainer.addEventListener('click', function() {
+        // Construct the Google search URL
+        const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
+        const googleURL = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+
+        // Open the URL in a new tab
+        window.open(googleURL, '_blank');
+    });
+
     // Add the basket container to the map
     mapContainer.appendChild(basketContainer);
 }
+
 // Function to fetch all baskets from the server
 async function fetchBaskets() {
     try {
         const response = await fetch('/getbaskets');
         const data = await response.json();
-        data.baskets.forEach(basket => {
+        console.log('Response data:', data); // Log the response data
+        data.forEach(basket => {
             addBasket(basket);
         });
     } catch (error) {
         console.error('Error fetching baskets:', error);
     }
 }
+
+
         function changeSantaImage() {
             // Change the src attribute to the GIF link
             santa.classList.remove('floating');
@@ -217,59 +236,29 @@ async function fetchBaskets() {
             updateTracker(data);
         };
 
-        function updateTracker(data) {
-            if (data.nextCity && data.timeLeft) {
-                nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
-            } else {
-                nextCityInfo.textContent = '';
-            }
+        // Function to update tracker information
+function updateTracker(data) {
+    if (data.nextCity && data.timeLeft) {
+        nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
+    } else {
+        nextCityInfo.textContent = '';
+    }
 
-            if (data.lastCity) {
-                lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
-            } else {
-                lastCityInfo.textContent = '';
-            }
+    if (data.lastCity) {
+        lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
+    } else {
+        lastCityInfo.textContent = '';
+    }
 
-            if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
-                const { latitude, longitude } = data.currentCity;
-                const { width, height } = mapContainer.getBoundingClientRect();
-                const x = (longitude + 180) * (width / 360);
-                const y = (90 - latitude) * (height / 180);
-                santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
-                santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
-
-                // Draw line
-                drawLine(x, y);
-
-                if (followingSanta) {
-                    const containerRect = mapContainer.getBoundingClientRect();
-                    const mapX = x - containerRect.width / 2;
-                    const mapY = y - containerRect.height / 2;
-                    mapContainer.scrollTo(mapX, mapY);
-                }
-            }
-        }
-
-        function drawLine(x, y) {
-            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-            line.setAttribute("x1", x);
-            line.setAttribute("y1", y);
-            line.setAttribute("x2", x);
-            line.setAttribute("y2", y);
-            line.setAttribute("stroke", "red");
-            line.setAttribute("stroke-width", "2");
-            svg.appendChild(line);
-
-            // Fade out the line after 16 seconds
-            setTimeout(function () {
-                line.style.opacity = 0;
-                // Remove line from DOM after fading
-                setTimeout(function () {
-                    svg.removeChild(line);
-                }, 1000);
-            }, 16000); // 16000 milliseconds = 16 seconds
-        }
-
+    if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
+        const { latitude, longitude } = data.currentCity;
+        const { width, height } = mapContainer.getBoundingClientRect();
+        const x = (longitude + 180) * (width / 360);
+        const y = (90 - latitude) * (height / 180);
+        santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
+        santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
+    }
+}
         santa.addEventListener('click', function () {
             followingSanta = !followingSanta;
             if (followingSanta) {
