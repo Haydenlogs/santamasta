@@ -53,9 +53,17 @@
       <button onclick="startTracker()">Start Tracker</button>
       <button onclick="endTracker()">End Tracker</button>
       <button onclick="resetTracker()">Reset Tracker Index</button>
+      <button onclick="postmessage1()">Message 1</button>
+      <button onclick="postmessage2()">Message 2</button>
+      <button onclick="postmessage3()">Message 3</button>
+      <button onclick="postmessage4()">Message 4</button>
     </div>
 
     <script>
+      //Easter Bunny is Getting Ready to Launch.
+      //Easter Bunny is expected to launch within the hour.
+      //Easter Bunny is about to launch.
+      //Easter Bunny is Launching!.
       function unlockSite() {
         fetch("/unlock")
           .then((response) => {
@@ -77,7 +85,46 @@
           })
           .catch((error) => console.error(error));
       }
-
+      function postmessage1() {
+        fetch("/message1set")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to lock site");
+            }
+            console.log("Site locked successfully");
+          })
+          .catch((error) => console.error(error));
+      }
+      function postmessage2() {
+        fetch("/message2set")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to lock site");
+            }
+            console.log("Site locked successfully");
+          })
+          .catch((error) => console.error(error));
+      }
+function postmessage3() {
+        fetch("/message3set")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to lock site");
+            }
+            console.log("Site locked successfully");
+          })
+          .catch((error) => console.error(error));
+      }
+      function postmessage4() {
+        fetch("/message4set")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to lock site");
+            }
+            console.log("Site locked successfully");
+          })
+          .catch((error) => console.error(error));
+      }
       function startTracker() {
         fetch("/starttracker")
           .then((response) => {

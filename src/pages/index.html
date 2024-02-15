@@ -23,25 +23,37 @@
     </style>
 </head>
 <body>
+<div id="message">Waiting for the Easter Bunny To Launch from Easter Island.</div>
+
 <script>
-    // Function to handle SSE messages
-    // Function to handle SSE messages
-function handleSSE(event) {
+    function fetchMessage() {
+        fetch('/getmessage')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
+            .then(message => {
+                document.getElementById('message').textContent = message;
+            })
+            .catch(error => {
+                console.error('There was a problem with the fetch operation:', error);
+            });
+    }
+
+    // Call fetchMessage function when the page loads
+    window.onload = fetchMessage;
+  function handleSSE(event) {
     // Parse the event data
     const data = JSON.parse(event.data);
     
     // Check if the tracker has started
-    if (data.trackerStarted === true) {
+    if (data.messageupdate) {
         // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
+        window.location
     }
-  if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-}
-
-
+  
     // Function to start listening for SSE messages
     function startSSE() {
         const eventSource = new EventSource('/updates');
@@ -51,7 +63,5 @@ function handleSSE(event) {
     // Start listening for SSE messages
     startSSE();
 </script>
-
-<div id="message">Waiting for the Easter Bunny To Launch from Easter Island.</div>
 </body>
 </html>

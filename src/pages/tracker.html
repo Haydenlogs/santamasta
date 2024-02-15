@@ -52,6 +52,15 @@
     </div>
 
     <script>
+       function changeSantaImage() {
+    // Change the src attribute to the GIF link
+    santa.src = 'https://cdn.glitch.global/216bb34c-6c21-4a3b-959d-1d18f01c433f/output-onlinegiftools.gif?v=1708010282944';
+
+    // Set a timeout to revert back to the original image after one second
+    setTimeout(function() {
+        santa.src = 'https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s';
+    }, 1000); // 1000 milliseconds = 1 second
+}  
         const nextCityInfo = document.getElementById('nextCityInfo');
         const lastCityInfo = document.getElementById('lastCityInfo');
         const santa = document.getElementById('santa');
@@ -117,6 +126,10 @@
             // Refresh the page to the home page if the tracker has ended
             window.location.href = 'ended.html';
         }
+      if (data.santaMoving === true) {
+                // Refresh the page to the home page if the tracker has ended
+                changeSantaImage();
+            }
       if (data.unlocked === false) {
         // Refresh the page to the home page if the tracker has started
         window.location.href = '/';

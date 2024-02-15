@@ -25,6 +25,60 @@ function readIndexFromFile() {
         console.error('Error reading index from file:', err);
     }
 }
+// Endpoint to set message 1
+app.get('/message1set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is Getting Ready to Launch.');
+        res.send('Message 1 set.');
+    } catch (error) {
+        console.error('Error setting message 1:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 2
+app.get('/message2set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is expected to launch within the hour.');
+        res.send('Message 2 set.');
+    } catch (error) {
+        console.error('Error setting message 2:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 3
+app.get('/message3set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is about to launch.');
+        res.send('Message 3 set.');
+    } catch (error) {
+        console.error('Error setting message 3:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 4
+app.get('/message4set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is Launching!.');
+        res.send('Message 4 set.');
+    } catch (error) {
+        console.error('Error setting message 4:', error);
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+app.get('/getmessage', (req, res) => {
+    try {
+        const message = fs.readFileSync('message.txt', 'utf8');
+        res.send(message);
+    } catch (err) {
+        console.error('Error getting message:', err);
+        res.status(500).send('Error getting message');
+    }
+});
+
 
 // Function to save the current index to a file
 function saveIndexToFile() {
