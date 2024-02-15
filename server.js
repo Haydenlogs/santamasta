@@ -8,13 +8,12 @@ app.locals.clients = []; // Initialize clients array
 
 let cities = [];
 let currentIndex = 10561;
-let maxpresents = 8045311447;
 let isTrackerStarted = false;
+let maxpresents = 8045311447;
 let lastCity;
 let startTime;
 const intervalInSeconds = 8.35;
 let trackerInterval;
-let presentsDelivered = 0; // Initialize presents delivered
 
 // Function to read the current index from a file
 function readIndexFromFile() {
@@ -31,16 +30,6 @@ function readIndexFromFile() {
 function saveIndexToFile() {
     fs.writeFileSync('currentIndex.txt', currentIndex.toString());
     console.log('Current index saved to file:', currentIndex);
-}
-
-// Function to update presents delivered
-function updatePresentsDelivered() {
-    presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Calculate presents delivered
-    setInterval(() => {
-        // Update presents delivered every 10 milliseconds
-        presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Recalculate presents delivered
-        sendTrackerEvent({ PresentsDelivered: presentsDelivered }); // Send server update
-    }, 1000);
 }
 
 async function readCitiesFromFile(filePath) {
@@ -69,7 +58,6 @@ async function startTracker(filePath) {
             await readCitiesFromFile(filePath); // Wait for cities to be loaded
             readIndexFromFile(); // Read index from file
             isTrackerStarted = true;
-            updatePresentsDelivered(); // Update presents delivered
             sendNextCity();
             trackerInterval = setInterval(() => {
                 sendTrackerUpdate();
@@ -106,7 +94,6 @@ function sendNextCity() {
     } else {
         // If currentIndex is equal to or greater than cities.length, end the tracker
         isTrackerStarted = false;
-        sendTrackerEvent({ trackerEnded: true });
         console.log('Tracker ended.');
         app.set('currentCity', null);
         lastCity = null; // Reset lastCity when the tracker ends
@@ -133,8 +120,7 @@ function generateTrackerUpdate() {
         currentCity,
         timeLeft,
         nextCity,
-        lastCity, // Include lastCity in the tracker update
-        PresentsDelivered: presentsDelivered // Include PresentsDelivered in the tracker update
+        lastCity // Include lastCity in the tracker update
     };
 }
 
@@ -230,12 +216,6 @@ app.get('/updates', (req, res) => {
 app.get('/admin', (req, res) => {
     res.sendFile(path.join(__dirname, 'src', 'pages', 'controlpanel.html'));
 });
-// Endpoint to get the max presents value
-app.get('/getmaxpresents', (req, res) => {
-    res.send({maxpresents});
-});
-
-
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
