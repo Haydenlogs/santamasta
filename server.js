@@ -12,7 +12,7 @@ let isTrackerStarted = false;
 let maxpresents = 8045311447;
 let lastCity;
 let startTime;
-const intervalInSeconds = 8.35;
+const intervalInSeconds = 7.86;
 let trackerInterval;
 
 // Function to read the current index from a file
@@ -178,6 +178,7 @@ function sendNextCity() {
         // If currentIndex is equal to or greater than cities.length, end the tracker
         isTrackerStarted = false;
         console.log('Tracker ended.');
+      sendTrackerEvent({ trackerEnded: true });
         app.set('currentCity', null);
         lastCity = null; // Reset lastCity when the tracker ends
         clearInterval(trackerInterval); // Stop the tracker interval
