@@ -12,20 +12,38 @@
             background-image: linear-gradient(to bottom, #d3e4ff 0%, #f0f8ff 100%); /* Snowy gradient */
         }
         .top-bar {
-    background-image: url("https://th.bing.com/th/id/OIP.O7w2ykIqulaDtXqxYyPtNwHaDt?rs=1&pid=ImgDetMain");
-    background-color: #333;
-    color: white;
-    padding: 10px;
-    text-align: center;
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 999; /* Ensure top-bar is above other elements */
-    background-repeat: repeat;
-    text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
-}
+            background-image: url("https://th.bing.com/th/id/OIP.O7w2ykIqulaDtXqxYyPtNwHaDt?rs=1&pid=ImgDetMain");
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 999; /* Ensure top-bar is above other elements */
+            background-repeat: repeat;
+            text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-direction: row;
+        }
 
+        .data-container {
+            width: 33.333%;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 0.8em;
+            margin-bottom: 5px;
+        }
+
+        .data {
+            font-weight: bold;
+            font-size: 1.2em;
+        }
 
         #map-container {
             position: relative;
@@ -35,6 +53,7 @@
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
             max-width: 1200px; /* Limit the maximum width */
         }
+
         #santa {
             position: absolute;
             width: 5%; /* Adjust size relative to the container */
@@ -43,166 +62,166 @@
             transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
             cursor: pointer; /* Change cursor to pointer when hovering over Santa */
         }
-      @keyframes floating {
-    0% {
-        transform: translateY(0);
-    }
-    50% {
-        transform: translateY(-10px);
-    }
-    100% {
-        transform: translateY(0);
-    }
-}
 
-.floating {
-    animation: floating 3s ease-in-out infinite; /* Adjust animation duration as needed */
-}
+        @keyframes floating {
+            0% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+            100% {
+                transform: translateY(0);
+            }
+        }
 
+        .floating {
+            animation: floating 3s ease-in-out infinite; /* Adjust animation duration as needed */
+        }
     </style>
 </head>
 <body>
     <div class="top-bar">
-        <div id="nextCityInfo">LOADING!!</div>
-        <div id="lastCityInfo">LOADING!!</div>
+        <div id="headingFor" style="font-size: 0.8em;">Heading for:</div>
+        <div id="nextCityInfo" style="font-weight: bold;">LOADING!!</div>
+        <div id="lastSeen" style="font-size: 0.8em;">Last Seen:</div>
+        <div id="lastCityInfo" style="font-weight: bold;">LOADING!!</div>
     </div>
     <br/><br/>
     <div id="map-container">
         <img id="santa" src="https://cdn-icons-png.flaticon.com/512/347/347485.png">
         <img id="map-image" width="100%" height="100%" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809">
     </div>
-<div class="description-container">
-    <h2>Tracker Information</h2>
-    <a>This tracker is based solely on satelite technology. The bunny usually does the same route every year, with some years changing it. He starts around New Zealand's outlying islands, and he moves west from there. Once he boots up and hits the first satelite, he speeds up more, and goes about 1,017,241.38 mph to get to places, although moving slower in condensed areas, because he has to go to a ton of houses in condensed areas. He travels from Europe/Africa area to Ireland in about 8.5 seconds and then he manages to finish his night on the US Minor outlying islands. After he deliveres all the baskets he usually likes to cruise back to easter island, which is about a 13 1/2 minute cruise. Nobody knows why he does this but he does. He schedules most things, like when he launches and when he goes back, and his treck is usually about 23-24 hours depending on how he feels.</a>
-</div>
+    <div class="description-container">
+        <h2>Tracker Information</h2>
+        <a>This tracker is based solely on satellite technology. The bunny usually does the same route every year, with some years changing it. He starts around New Zealand's outlying islands, and he moves west from there. Once he boots up and hits the first satellite, he speeds up more, and goes about 1,017,241.38 mph to get to places, although moving slower in condensed areas, because he has to go to a ton of houses in condensed areas. He travels from Europe/Africa area to Ireland in about 8.5 seconds and then he manages to finish his night on the US Minor outlying islands. After he delivers all the baskets he usually likes to cruise back to Easter Island, which is about a 13 1/2 minute cruise. Nobody knows why he does this but he does. He schedules most things, like when he launches and when he goes back, and his trek is usually about 23-24 hours depending on how he feels.</a>
+    </div>
 
     <script>
-      function changeSantaImage() {
-    // Change the src attribute to the GIF link
-    santa.classList.remove('floating');
-    santa.src = 'https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s';
+        function changeSantaImage() {
+            // Change the src attribute to the GIF link
+            santa.classList.remove('floating');
+            santa.src = 'https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s';
 
-    // Add floating animation class
+            // Add floating animation class
 
-    // Set a timeout to revert back to the original image after one second
-    setTimeout(function () {
-        santa.classList.add('floating');
-        santa.src = 'https://cdn-icons-png.flaticon.com/512/347/347485.png';
-        // Remove floating animation class
+            // Set a timeout to revert back to the original image after one second
+            setTimeout(function () {
+                santa.classList.add('floating');
+                santa.src = 'https://cdn-icons-png.flaticon.com/512/347/347485.png';
+                // Remove floating animation class
 
-    }, 1000); // 1000 milliseconds = 1 second
-}
-
-const nextCityInfo = document.getElementById('nextCityInfo');
-const lastCityInfo = document.getElementById('lastCityInfo');
-const santa = document.getElementById('santa');
-const mapContainer = document.getElementById('map-container');
-const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-mapContainer.appendChild(svg);
-
-const eventSource = new EventSource('/updates');
-let followingSanta = false;
-
-// Array to store line elements
-let lines = [];
-
-eventSource.onmessage = function (event) {
-    const data = JSON.parse(event.data);
-    updateTracker(data);
-};
-
-function updateTracker(data) {
-    if (data.nextCity && data.timeLeft) {
-        nextCityInfo.textContent = `Headed For: ${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
-    } else {
-        nextCityInfo.textContent = '';
-    }
-
-    if (data.lastCity) {
-        lastCityInfo.textContent = `Last Seen: ${data.lastCity.country}, ${data.lastCity.city}`;
-    } else {
-        lastCityInfo.textContent = '';
-    }
-
-    if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
-        const { latitude, longitude } = data.currentCity;
-        const { width, height } = mapContainer.getBoundingClientRect();
-        const x = (longitude + 180) * (width / 360);
-        const y = (90 - latitude) * (height / 180);
-        santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
-        santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
-
-        // Draw line
-        drawLine(x, y);
-
-        if (followingSanta) {
-            const containerRect = mapContainer.getBoundingClientRect();
-            const mapX = x - containerRect.width / 2;
-            const mapY = y - containerRect.height / 2;
-            mapContainer.scrollTo(mapX, mapY);
+            }, 1000); // 1000 milliseconds = 1 second
         }
-    }
-}
 
-function drawLine(x, y) {
-    const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
-    line.setAttribute("x1", x);
-    line.setAttribute("y1", y);
-    line.setAttribute("x2", x);
-    line.setAttribute("y2", y);
-    line.setAttribute("stroke", "red");
-    line.setAttribute("stroke-width", "2");
-    svg.appendChild(line);
+        const nextCityInfo = document.getElementById('nextCityInfo');
+        const lastCityInfo = document.getElementById('lastCityInfo');
+        const santa = document.getElementById('santa');
+        const mapContainer = document.getElementById('map-container');
+        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
+        mapContainer.appendChild(svg);
 
-    // Fade out the line after 16 seconds
-    setTimeout(function () {
-        line.style.opacity = 0;
-        // Remove line from DOM after fading
-        setTimeout(function () {
-            svg.removeChild(line);
-        }, 1000);
-    }, 16000); // 16000 milliseconds = 16 seconds
-}
+        const eventSource = new EventSource('/updates');
+        let followingSanta = false;
 
-santa.addEventListener('click', function () {
-    followingSanta = !followingSanta;
-    if (followingSanta) {
-        santa.style.backgroundColor = 'yellow'; // Change color to indicate following
-    } else {
-        santa.style.backgroundColor = ''; // Remove background color
-    }
-});
+        // Array to store line elements
+        let lines = [];
 
-// Function to handle SSE messages
-function handleSSE(event) {
-    // Parse the event data
-    const data = JSON.parse(event.data);
+        eventSource.onmessage = function (event) {
+            const data = JSON.parse(event.data);
+            updateTracker(data);
+        };
 
-    // Check if the tracker has ended
-    if (data.trackerEnded === true) {
-        // Refresh the page to the home page if the tracker has ended
-        window.location.href = 'ended.html';
-    }
-    if (data.santaMoving === true) {
-        // Refresh the page to the home page if the tracker has ended
-        changeSantaImage();
-    }
-    if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-}
+        function updateTracker(data) {
+            if (data.nextCity && data.timeLeft) {
+                nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
+            } else {
+                nextCityInfo.textContent = '';
+            }
 
-// Function to start listening for SSE messages
-function startSSE() {
-    const eventSource = new EventSource('/updates');
-    eventSource.onmessage = handleSSE;
-}
+            if (data.lastCity) {
+                lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
+            } else {
+                lastCityInfo.textContent = '';
+            }
 
-// Start listening for SSE messages
-startSSE();
+            if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
+                const { latitude, longitude } = data.currentCity;
+                const { width, height } = mapContainer.getBoundingClientRect();
+                const x = (longitude + 180) * (width / 360);
+                const y = (90 - latitude) * (height / 180);
+                santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
 
-        
+                // Draw line
+                drawLine(x, y);
+
+                if (followingSanta) {
+                    const containerRect = mapContainer.getBoundingClientRect();
+                    const mapX = x - containerRect.width / 2;
+                    const mapY = y - containerRect.height / 2;
+                    mapContainer.scrollTo(mapX, mapY);
+                }
+            }
+        }
+
+        function drawLine(x, y) {
+            const line = document.createElementNS("http://www.w3.org/2000/svg", "line");
+            line.setAttribute("x1", x);
+            line.setAttribute("y1", y);
+            line.setAttribute("x2", x);
+            line.setAttribute("y2", y);
+            line.setAttribute("stroke", "red");
+            line.setAttribute("stroke-width", "2");
+            svg.appendChild(line);
+
+            // Fade out the line after 16 seconds
+            setTimeout(function () {
+                line.style.opacity = 0;
+                // Remove line from DOM after fading
+                setTimeout(function () {
+                    svg.removeChild(line);
+                }, 1000);
+            }, 16000); // 16000 milliseconds = 16 seconds
+        }
+
+        santa.addEventListener('click', function () {
+            followingSanta = !followingSanta;
+            if (followingSanta) {
+                santa.style.backgroundColor = 'yellow'; // Change color to indicate following
+            } else {
+                santa.style.backgroundColor = ''; // Remove background color
+            }
+        });
+
+        // Function to handle SSE messages
+        function handleSSE(event) {
+            // Parse the event data
+            const data = JSON.parse(event.data);
+
+            // Check if the tracker has ended
+            if (data.trackerEnded === true) {
+                // Refresh the page to the home page if the tracker has ended
+                window.location.href = 'ended.html';
+            }
+            if (data.santaMoving === true) {
+                // Refresh the page to the home page if the tracker has ended
+                changeSantaImage();
+            }
+            if (data.unlocked === false) {
+                // Refresh the page to the home page if the tracker has started
+                window.location.href = '/';
+            }
+        }
+
+        // Function to start listening for SSE messages
+        function startSSE() {
+            const eventSource = new EventSource('/updates');
+            eventSource.onmessage = handleSSE;
+        }
+
+        // Start listening for SSE messages
+        startSSE();
     </script>
 </body>
 </html>
