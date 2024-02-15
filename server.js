@@ -105,6 +105,77 @@ function sendNextCity() {
         clearInterval(trackerInterval); // Stop the tracker interval
     }
 }
+// Endpoint to set message 1
+app.get('/message1set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is Getting Ready to Launch.', (err) => {
+            if (err) {
+                
+                res.status(500).send('Internal Server Error');
+            } else {
+                res.send('Message 1 set.');
+                sendTrackerEvent({ messageupdate: "Easter Bunny is Getting Ready to Launch." });
+            }
+        });
+    } catch (error) {
+        
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 2
+app.get('/message2set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is expected to launch within the hour.', (err) => {
+            if (err) {
+                
+                res.status(500).send('Internal Server Error');
+            } else {
+                res.send('Message 2 set.');
+                sendTrackerEvent({ messageupdate: "Easter Bunny is expected to launch within the hour." });
+            }
+        });
+    } catch (error) {
+        
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 3
+app.get('/message3set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is about to launch.', (err) => {
+            if (err) {
+                
+                res.status(500).send('Internal Server Error');
+            } else {
+                res.send('Message 3 set.');
+                sendTrackerEvent({ messageupdate: "Easter Bunny is about to launch." });
+            }
+        });
+    } catch (error) {
+        
+        res.status(500).send('Internal Server Error');
+    }
+});
+
+// Endpoint to set message 4
+app.get('/message4set', async (req, res) => {
+    try {
+        await fs.writeFile('message.txt', 'Easter Bunny is Launching!', (err) => {
+            if (err) {
+                
+                res.status(500).send('Internal Server Error');
+            } else {
+                res.send('Message 4 set.');
+                sendTrackerEvent({ messageupdate: "Easter Bunny is Launching!" });
+            }
+        });
+    } catch (error) {
+        
+        res.status(500).send('Internal Server Error');
+    }
+});
 
 // Function to add delivered location to giftsdelivered.json
 function addToGiftsDelivered(cityInfo) {
