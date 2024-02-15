@@ -93,6 +93,7 @@ function sendNextCity() {
     } else {
         // If currentIndex is equal to or greater than cities.length, end the tracker
         isTrackerStarted = false;
+        sendTrackerEvent({ trackerEnded: true });
         console.log('Tracker ended.');
         app.set('currentCity', null);
         lastCity = null; // Reset lastCity when the tracker ends
