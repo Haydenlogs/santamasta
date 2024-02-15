@@ -13,6 +13,7 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 8.35;
 let trackerInterval;
+let presentsDelivered = 0; // Initialize presents delivered
 
 // Function to read the current index from a file
 function readIndexFromFile() {
@@ -29,6 +30,15 @@ function readIndexFromFile() {
 function saveIndexToFile() {
     fs.writeFileSync('currentIndex.txt', currentIndex.toString());
     console.log('Current index saved to file:', currentIndex);
+}
+
+// Function to update presents delivered every second
+function updatePresentsDelivered() {
+    setInterval(() => {
+        // Update presents delivered every second
+        presentsDelivered = Math.floor(currentIndex / cities.length * 8100000000); // Recalculate presents delivered
+        sendTrackerUpdate(); // Send tracker update
+    }, 1000);
 }
 
 async function readCitiesFromFile(filePath) {
@@ -57,6 +67,7 @@ async function startTracker(filePath) {
             await readCitiesFromFile(filePath); // Wait for cities to be loaded
             readIndexFromFile(); // Read index from file
             isTrackerStarted = true;
+            updatePresentsDelivered(); // Update presents delivered
             sendNextCity();
             trackerInterval = setInterval(() => {
                 sendTrackerUpdate();
@@ -84,7 +95,6 @@ function sendNextCity() {
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
             saveIndexToFile(); // Save current index to file
-            setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
             sendTrackerEvent({ santaMoving: true });
         } else {
             currentIndex++; // Increment currentIndex even if city information is missing
@@ -120,7 +130,8 @@ function generateTrackerUpdate() {
         currentCity,
         timeLeft,
         nextCity,
-        lastCity // Include lastCity in the tracker update
+        lastCity, // Include lastCity in the tracker update
+        PresentsDelivered: presentsDelivered // Include PresentsDelivered in the tracker update
     };
 }
 
@@ -130,12 +141,6 @@ function sendTrackerStartEvent() {
         client.res.write('data: {"trackerStarted": true}\n\n');
     });
 }
-
-app.get('/starttracker', (req, res) => {
-    startTracker('cities2.csv');
-    res.send('Tracker started.');
-    sendTrackerEvent({ trackerStarted: true });
-});
 
 // Endpoint to reset the index to 0
 app.get('/restarttracker', (req, res) => {

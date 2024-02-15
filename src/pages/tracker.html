@@ -44,8 +44,9 @@
     <div class="top-bar">
         <div id="nextCityInfo">LOADING!!</div>
         <div id="lastCityInfo">LOADING!!</div>
+        <div id="presentsdelivereddata">LOADING!!</div>
     </div>
-    
+    <br/><br/><br/>
     <div id="map-container">
         <img id="santa" src="https://cdn-icons-png.flaticon.com/512/347/347485.png">
         <img id="map-image" width="100%" height="100%" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809">
@@ -54,26 +55,22 @@
     <script>
         const nextCityInfo = document.getElementById('nextCityInfo');
         const lastCityInfo = document.getElementById('lastCityInfo');
+        const presentsDeliveredInfo = document.getElementById('presentsdelivereddata');
         const santa = document.getElementById('santa');
         const mapImage = document.getElementById('map-image');
         const mapContainer = document.getElementById('map-container');
 
         const eventSource = new EventSource('/updates');
+        let updateTimeout;
 
-        let followingSanta = false;
-function changeSantaImage() {
-    // Change the src attribute to the GIF link
-    santa.src = 'https://cdn.glitch.global/216bb34c-6c21-4a3b-959d-1d18f01c433f/output-onlinegiftools.gif?v=1708010282944';
+        eventSource.onmessage = function (event) {
+            clearTimeout(updateTimeout); // Clear any existing timeout
 
-    // Set a timeout to revert back to the original image after one second
-    setTimeout(function() {
-        santa.src = 'https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s';
-    }, 1000); // 1000 milliseconds = 1 second
-}
-
-        eventSource.onmessage = function(event) {
-            const data = JSON.parse(event.data);
-            updateTracker(data);
+            // Introduce a delay before updating the top bar to prevent rapid updates
+            updateTimeout = setTimeout(() => {
+                const data = JSON.parse(event.data);
+                updateTracker(data);
+            }, 300); // Set the delay to 300 milliseconds (adjust as needed)
         };
 
         function updateTracker(data) {
@@ -89,13 +86,19 @@ function changeSantaImage() {
                 lastCityInfo.textContent = '';
             }
 
+            if (data.PresentsDelivered !== undefined) {
+                presentsDeliveredInfo.textContent = `Baskets Delivered: ${data.PresentsDelivered.toLocaleString()}`;
+            } else {
+                presentsDeliveredInfo.textContent = '';
+            }
+
             if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
                 const { latitude, longitude } = data.currentCity;
                 const { width, height } = mapImage.getBoundingClientRect();
                 const x = (longitude + 180) * (width / 360);
                 const y = (90 - latitude) * (height / 180);
                 santa.style.left = `${x - santa.offsetWidth / 2}px`; // Adjust for the size of the Santa image
-                santa.style.top = `${(y - santa.offsetHeight / 2)+25}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
 
                 if (followingSanta) {
                     const containerRect = mapContainer.getBoundingClientRect();
@@ -115,37 +118,43 @@ function changeSantaImage() {
             }
         });
 
-      
-      // Function to handle SSE messages
-    function handleSSE(event) {
-        // Parse the event data
-        const data = JSON.parse(event.data);
-        
-        // Check if the tracker has ended
-        if (data.trackerEnded === true) {
-            // Refresh the page to the home page if the tracker has ended
-            window.location.href = 'ended.html';
-        }
-      if (data.santaMoving === true) {
-            // Refresh the page to the home page if the tracker has ended
-            changeSantaImage();
-        }
-      if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-    }
+        // Function to handle SSE messages
+        function handleSSE(event) {
+            // Parse the event data
+            const data = JSON.parse(event.data);
 
-    // Function to start listening for SSE messages
-    function startSSE() {
-        const eventSource = new EventSource('/updates');
-        eventSource.onmessage = handleSSE;
-    }
+            // Check if the tracker has ended
+            if (data.trackerEnded === true) {
+                // Refresh the page to the home page if the tracker has ended
+                window.location.href = 'ended.html';
+            }
+            if (data.santaMoving === true) {
+                // Refresh the page to the home page if the tracker has ended
+                changeSantaImage();
+            }
+            if (data.unlocked === false) {
+                // Refresh the page to the home page if the tracker has started
+                window.location.href = '/';
+            }
+        }
 
-    // Start listening for SSE messages
-    startSSE();
-      
-        
-    </script>
+        // Function to start listening for SSE messages
+        function startSSE() {
+            const eventSource = new EventSource('/updates');
+            eventSource.onmessage = handleSSE;
+        }
+
+        // Start listening for SSE messages
+        startSSE();
+  function changeSantaImage() {
+    // Change the src attribute to the GIF link
+    santa.src = 'https://cdn.glitch.global/216bb34c-6c21-4a3b-959d-1d18f01c433f/output-onlinegiftools.gif?v=1708010282944';
+
+    // Set a timeout to revert back to the original image after one second
+    setTimeout(function() {
+        santa.src = 'https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s';
+    }, 1000); // 1000 milliseconds = 1 second
+}  
+  </script>
 </body>
 </html>
