@@ -51,9 +51,21 @@
     // Check if the tracker has started
     if (data.messageupdate) {
         // Refresh the page to the home page if the tracker has started
-        window.location
+        document.getElementById('message').textContent = data.messageupdate
     }
-  
+    if (data.trackerStarted === true) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
+  if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
+    if (data.trackerEnded === true) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/ended.html';
+    }
+  }
     // Function to start listening for SSE messages
     function startSSE() {
         const eventSource = new EventSource('/updates');

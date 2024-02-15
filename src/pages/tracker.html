@@ -45,7 +45,7 @@
         <div id="nextCityInfo">LOADING!!</div>
         <div id="lastCityInfo">LOADING!!</div>
     </div>
-    
+    <br/><br/>
     <div id="map-container">
         <img id="santa" src="https://cdn-icons-png.flaticon.com/512/347/347485.png">
         <img id="map-image" width="100%" height="100%" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809">
@@ -94,8 +94,8 @@
                 const { width, height } = mapImage.getBoundingClientRect();
                 const x = (longitude + 180) * (width / 360);
                 const y = (90 - latitude) * (height / 180);
-                santa.style.left = `${x - santa.offsetWidth / 2}px`; // Adjust for the size of the Santa image
-                santa.style.top = `${y - santa.offsetHeight / 2}px`; // Adjust for the size of the Santa image
+                santa.style.left = `${(x - santa.offsetWidth / 2)-10}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${(y - santa.offsetHeight / 2)+25}px`; // Adjust for the size of the Santa image
 
                 if (followingSanta) {
                     const containerRect = mapContainer.getBoundingClientRect();
