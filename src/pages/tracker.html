@@ -47,11 +47,11 @@
 
         #map-container {
             position: relative;
-            width: 80%; /* Adjust the width as needed */
-            height: 80vh; /* Adjust the height as needed */
-            margin: 50px auto; /* Add margin to make space for top-bar */
+            width: 100%; /* Adjust the width to cover the whole screen */
+            height: calc(100vh - 50px); /* Adjust the height to cover the screen minus the top-bar height */
+            margin-top: 50px; /* Add margin to make space for top-bar */
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
-            max-width: 1200px; /* Limit the maximum width */
+            cursor: zoom-in; /* Change cursor to zoom-in cursor */
         }
 
         #santa {
@@ -87,7 +87,7 @@
         <div id="lastSeen" style="font-size: 0.8em;">Last Seen:</div>
         <div id="lastCityInfo" style="font-weight: bold;">LOADING!!</div>
     </div>
-    <br/><br/>
+    
     <div id="map-container">
         <img id="santa" src="https://cdn-icons-png.flaticon.com/512/347/347485.png">
         <img id="map-image" width="100%" height="100%" src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809">
@@ -118,8 +118,21 @@
         const lastCityInfo = document.getElementById('lastCityInfo');
         const santa = document.getElementById('santa');
         const mapContainer = document.getElementById('map-container');
-        const svg = document.createElementNS("http://www.w3.org/2000/svg", "svg");
-        mapContainer.appendChild(svg);
+        const mapImage = document.getElementById('map-image');
+        let scale = 1;
+
+        mapContainer.addEventListener('wheel', function (event) {
+            event.preventDefault();
+
+            // Adjust scale based on scroll direction
+            scale += event.deltaY * -0.01;
+
+            // Limit scale range
+            scale = Math.min(Math.max(0.5, scale), 3);
+
+            // Apply scale transform to map image
+            mapImage.style.transform = `scale(${scale})`;
+        });
 
         const eventSource = new EventSource('/updates');
         let followingSanta = false;
