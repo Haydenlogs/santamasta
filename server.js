@@ -8,6 +8,7 @@ app.locals.clients = []; // Initialize clients array
 
 let cities = [];
 let currentIndex = 10561;
+let maxpresents = 8045311447;
 let isTrackerStarted = false;
 let lastCity;
 let startTime;
@@ -32,12 +33,13 @@ function saveIndexToFile() {
     console.log('Current index saved to file:', currentIndex);
 }
 
-// Function to update presents delivered every second
+// Function to update presents delivered
 function updatePresentsDelivered() {
+    presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Calculate presents delivered
     setInterval(() => {
-        // Update presents delivered every second
-        presentsDelivered = Math.floor(currentIndex / cities.length * 8100000000); // Recalculate presents delivered
-        sendTrackerUpdate(); // Send tracker update
+        // Update presents delivered every 10 milliseconds
+        presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Recalculate presents delivered
+        sendTrackerEvent({ PresentsDelivered: presentsDelivered }); // Send server update
     }, 1000);
 }
 
@@ -95,6 +97,7 @@ function sendNextCity() {
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
             saveIndexToFile(); // Save current index to file
+            setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
             sendTrackerEvent({ santaMoving: true });
         } else {
             currentIndex++; // Increment currentIndex even if city information is missing
@@ -141,6 +144,12 @@ function sendTrackerStartEvent() {
         client.res.write('data: {"trackerStarted": true}\n\n');
     });
 }
+
+app.get('/starttracker', (req, res) => {
+    startTracker('cities2.csv');
+    res.send('Tracker started.');
+    sendTrackerEvent({ trackerStarted: true });
+});
 
 // Endpoint to reset the index to 0
 app.get('/restarttracker', (req, res) => {
@@ -221,6 +230,12 @@ app.get('/updates', (req, res) => {
 app.get('/admin', (req, res) => {
     res.sendFile(path.join(__dirname, 'src', 'pages', 'controlpanel.html'));
 });
+// Endpoint to get the max presents value
+app.get('/getmaxpresents', (req, res) => {
+    res.send({maxpresents});
+});
+
+
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);

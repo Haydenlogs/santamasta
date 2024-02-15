@@ -44,9 +44,10 @@
         }
     </style>
 </head>
-<body>
+<body onload="fetchPresentsDelivered()">
   <div class="top-bar">
         <div id="lastCityInfo">Last seen: Bunny Island, Easter Island</div>
+        <div id="basketsdelivered">LOADING!!</div>
     </div>
     <div class="container">
         <div id="currentLocation">Easter Bunny has gone around the world.</div>
@@ -55,6 +56,15 @@
         </div>
     </div>
 <script>
+    function fetchPresentsDelivered() {
+        fetch('/getmaxpresents')
+            .then(response => response.json())
+            .then(data => {
+                const maxPresents = data.maxpresents.toLocaleString(); // Add commas to the number
+                document.getElementById('basketsdelivered').textContent = `Presents Delivered: ${maxPresents}`;
+            })
+            .catch(error => console.error('Error fetching presents delivered:', error));
+    }
     // Function to handle SSE messages
     // Function to handle SSE messages
 function handleSSE(event) {
@@ -62,11 +72,14 @@ function handleSSE(event) {
     const data = JSON.parse(event.data);
     
     // Check if the tracker has started
-    if (data.unlocked === false) {
+    if (data.trackerStarted === true) {
         // Refresh the page to the home page if the tracker has started
         window.location.href = '/';
     }
-  
+  if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
 }
 
 
