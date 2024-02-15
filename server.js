@@ -7,12 +7,29 @@ const app = express();
 app.locals.clients = []; // Initialize clients array
 
 let cities = [];
-let currentIndex = 10568;
+let currentIndex = 10561;
 let isTrackerStarted = false;
 let lastCity;
 let startTime;
 const intervalInSeconds = 8.35;
 let trackerInterval;
+
+// Function to read the current index from a file
+function readIndexFromFile() {
+    try {
+        const indexData = fs.readFileSync('currentIndex.txt', 'utf8');
+        currentIndex = parseInt(indexData);
+        console.log('Current index read from file:', currentIndex);
+    } catch (err) {
+        console.error('Error reading index from file:', err);
+    }
+}
+
+// Function to save the current index to a file
+function saveIndexToFile() {
+    fs.writeFileSync('currentIndex.txt', currentIndex.toString());
+    console.log('Current index saved to file:', currentIndex);
+}
 
 async function readCitiesFromFile(filePath) {
     return new Promise((resolve, reject) => {
@@ -38,6 +55,7 @@ async function startTracker(filePath) {
     if (!isTrackerStarted) {
         try {
             await readCitiesFromFile(filePath); // Wait for cities to be loaded
+            readIndexFromFile(); // Read index from file
             isTrackerStarted = true;
             sendNextCity();
             trackerInterval = setInterval(() => {
@@ -65,12 +83,12 @@ function sendNextCity() {
             startTime = Date.now(); // Set the start time when sending a new city
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
+            saveIndexToFile(); // Save current index to file
             setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
             sendTrackerEvent({ santaMoving: true });
         } else {
             currentIndex++; // Increment currentIndex even if city information is missing
             sendNextCity(); // Continue to the next city
-            
         }
     } else {
         // If currentIndex is equal to or greater than cities.length, end the tracker
@@ -117,6 +135,14 @@ app.get('/starttracker', (req, res) => {
     res.send('Tracker started.');
     sendTrackerEvent({ trackerStarted: true });
 });
+
+// Endpoint to reset the index to 0
+app.get('/restarttracker', (req, res) => {
+    currentIndex = 0;
+    saveIndexToFile(); // Save the index to file
+    res.send('Tracker index reset.');
+});
+
 // Define a variable to track whether the site is locked
 let isLocked = true;
 
@@ -170,6 +196,7 @@ app.get('/endtracker', (req, res) => {
     lastCity = null; // Reset lastCity when the tracker ends
     res.send('Tracker ended.');
     currentIndex = 0;
+    saveIndexToFile(); // Save the index to file
     sendTrackerEvent({ trackerEnded: true });
 });
 

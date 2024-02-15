@@ -95,7 +95,7 @@ function changeSantaImage() {
                 const x = (longitude + 180) * (width / 360);
                 const y = (90 - latitude) * (height / 180);
                 santa.style.left = `${x - santa.offsetWidth / 2}px`; // Adjust for the size of the Santa image
-                santa.style.top = `${y - santa.offsetHeight / 2}px`; // Adjust for the size of the Santa image
+                santa.style.top = `${(y - santa.offsetHeight / 2)-10}px`; // Adjust for the size of the Santa image
 
                 if (followingSanta) {
                     const containerRect = mapContainer.getBoundingClientRect();

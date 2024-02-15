@@ -52,6 +52,7 @@
       <button onclick="lockSite()">Lock Site</button>
       <button onclick="startTracker()">Start Tracker</button>
       <button onclick="endTracker()">End Tracker</button>
+      <button onclick="resetTracker()">Reset Tracker Index</button>
     </div>
 
     <script>
@@ -90,6 +91,16 @@
 
       function endTracker() {
         fetch("/endtracker")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to end tracker");
+            }
+            console.log("Tracker ended successfully");
+          })
+          .catch((error) => console.error(error));
+      }
+      function resetTracker() {
+        fetch("/restarttracker")
           .then((response) => {
             if (!response.ok) {
               throw new Error("Failed to end tracker");
