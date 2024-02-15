@@ -53,6 +53,25 @@
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
             cursor: zoom-in; /* Change cursor to zoom-in cursor */
         }
+      .basket-container {
+    position: absolute;
+    display: inline-block;
+}
+
+.basket-image {
+    border: 2px solid white; /* Add white border around the basket image */
+}
+
+.arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid white; /* Add white arrow below the basket image */
+    margin-top: -10px;
+}
+
 
         #santa {
             position: absolute;
@@ -98,6 +117,48 @@
     </div>
 
     <script>
+      function addBasket(cityInfo) {
+    // Create a new container for the basket
+    const basketContainer = document.createElement('div');
+    basketContainer.className = 'basket-container';
+    
+    // Create the basket image element
+    const basketImage = document.createElement('img');
+    basketImage.src = 'https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0';
+    basketImage.className = 'basket-image';
+
+    // Create the arrow element
+    const arrow = document.createElement('div');
+    arrow.className = 'arrow';
+
+    // Add basket image and arrow to the container
+    basketContainer.appendChild(basketImage);
+    basketContainer.appendChild(arrow);
+
+    // Calculate the position of the basket on the map
+    const { width, height } = mapContainer.getBoundingClientRect();
+    const x = (cityInfo.longitude + 180) * (width / 360);
+    const y = (90 - cityInfo.latitude) * (height / 180);
+
+    // Set the position of the basket container
+    basketContainer.style.left = `${x - basketImage.width / 2}px`;
+    basketContainer.style.top = `${y - basketImage.height}px`;
+
+    // Add the basket container to the map
+    mapContainer.appendChild(basketContainer);
+}
+// Function to fetch all baskets from the server
+async function fetchBaskets() {
+    try {
+        const response = await fetch('/getbaskets');
+        const data = await response.json();
+        data.baskets.forEach(basket => {
+            addBasket(basket);
+        });
+    } catch (error) {
+        console.error('Error fetching baskets:', error);
+    }
+}
         function changeSantaImage() {
             // Change the src attribute to the GIF link
             santa.classList.remove('floating');
@@ -132,6 +193,17 @@
 
             // Apply scale transform to map image
             mapImage.style.transform = `scale(${scale})`;
+
+            // Adjust Santa's position based on the scale
+            const { width, height } = mapContainer.getBoundingClientRect();
+            const santaX = parseFloat(santa.style.left) || 0;
+            const santaY = parseFloat(santa.style.top) || 0;
+            const mapX = (santaX + santa.offsetWidth / 2 - width / 2) / scale + width / 2;
+            const mapY = (santaY + santa.offsetHeight / 2 - height / 2) / scale + height / 2;
+
+            // Update Santa's position
+            santa.style.left = `${mapX - santa.offsetWidth / 2}px`;
+            santa.style.top = `${mapY - santa.offsetHeight / 2}px`;
         });
 
         const eventSource = new EventSource('/updates');
@@ -225,6 +297,11 @@
                 // Refresh the page to the home page if the tracker has started
                 window.location.href = '/';
             }
+          if (data.newbasket) {
+        // Add the basket to the map
+        addBasket(data.newbasket);
+    }
+
         }
 
         // Function to start listening for SSE messages
@@ -233,8 +310,10 @@
             eventSource.onmessage = handleSSE;
         }
 
-        // Start listening for SSE messages
-        startSSE();
+        window.onload = function () {
+    fetchBaskets(); // Fetch all baskets onload
+    startSSE(); // Start listening for SSE messages
+};
     </script>
 </body>
 </html>
