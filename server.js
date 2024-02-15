@@ -7,7 +7,7 @@ const app = express();
 app.locals.clients = []; // Initialize clients array
 
 let cities = [];
-let currentIndex = 0;
+let currentIndex = 10568;
 let isTrackerStarted = false;
 let lastCity;
 let startTime;
@@ -66,9 +66,11 @@ function sendNextCity() {
             console.log('Sent next city:', cityInfo);
             currentIndex++; // Increment currentIndex after sending the city
             setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
+            sendTrackerEvent({ santaMoving: true });
         } else {
             currentIndex++; // Increment currentIndex even if city information is missing
             sendNextCity(); // Continue to the next city
+            
         }
     } else {
         // If currentIndex is equal to or greater than cities.length, end the tracker
