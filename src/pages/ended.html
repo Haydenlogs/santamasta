@@ -1,97 +1,251 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Santa Tracker</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f0f8ff; /* Light Blue */
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f8ff; /* Light Blue */
+      }
+      .basket-container {
+    position: absolute;
+}
+
+.basket-image {
+    border: 2px solid white;
+    width: 50px; /* Set the width of the basket image */
+    height: 50px; /* Set the height of the basket image */
+}
+
+.arrow {
+    position: relative;
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent; /* Adjust arrow size */
+    border-right: 5px solid transparent; /* Adjust arrow size */
+    border-top: 8px solid white; /* Adjust arrow size */
+    margin-top: -5px; /* Adjust vertical position of the arrow */
+    margin-left: 22px; /* Adjust horizontal position of the arrow */
+}
+      #basketList li {
+            margin-bottom: 5px;
+        }
+
+        #basketList button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #basketList button:hover {
+            background-color: #45a049;
         }
       .top-bar {
-            background-color: #333;
-            color: #fff;
-            padding: 10px;
-            text-align: center;
-            position: fixed;
-            top: 0;
-            left: 0;
-            right: 0;
-            z-index: 999; /* Ensure top-bar is above other elements */
-        }
-        .container {
-            text-align: center;
-            padding: 20px;
-        }
-        #currentLocation {
-            font-size: 24px;
-            font-weight: bold;
-            margin-top: 50px;
-        }
-        #map {
-            position: relative;
-            width: 80%;
-            height: 70%;
-            margin: 20px auto;
-            overflow: hidden; /* Hide overflow to prevent image from overflowing */
-        }
-        #santa {
-            position: absolute;
-            transition: top 1s, left 1s; /* Smooth transition for Santa's movement */
-        }
+        background-color: #333;
+        color: #fff;
+        padding: 10px;
+        text-align: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 999; /* Ensure top-bar is above other elements */
+      }
+      .container {
+        text-align: center;
+        padding: 20px;
+      }
+      #currentLocation {
+        font-size: 24px;
+        font-weight: bold;
+        margin-top: 50px;
+      }
+      #map {
+        position: relative;
+        width: 80%;
+        height: 70%;
+        margin: 20px auto;
+        overflow: hidden; /* Hide overflow to prevent image from overflowing */
+      }
+      #santa {
+        position: absolute;
+        transition: top 1s, left 1s; /* Smooth transition for Santa's movement */
+      }
     </style>
-</head>
-<body onload="fetchPresentsDelivered()">
-  <div class="top-bar">
-        <div id="lastCityInfo">Last seen: Bunny Island, Easter Island</div>
-        
+  </head>
+  <body onload="fetchPresentsDelivered(); fetchBaskets();">
+    <div class="top-bar">
+      <div id="lastCityInfo">Last seen: Bunny Island, Easter Island</div>
     </div>
     <div class="container">
-        <div id="currentLocation">Easter Bunny has gone around the world.</div>
-        <div id="map">
-            <img src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809" width="100%" height="100%">
-        </div>
+      <div id="currentLocation">Easter Bunny has gone around the world.</div>
+      <div id="map">
+        <img
+          src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809"
+          width="100%"
+          height="100%"
+        />
+      </div>
     </div>
-<script>
-    function fetchPresentsDelivered() {
-        fetch('/getmaxpresents')
-            .then(response => response.json())
-            .then(data => {
-                const maxPresents = data.maxpresents.toLocaleString(); // Add commas to the number
-                document.getElementById('basketsdelivered').textContent = `Presents Delivered: ${maxPresents}`;
-            })
-            .catch(error => console.error('Error fetching presents delivered:', error));
-    }
-    // Function to handle SSE messages
-    // Function to handle SSE messages
-function handleSSE(event) {
-    // Parse the event data
-    const data = JSON.parse(event.data);
+    <center>
+  <div class="description-container">
+        <h2>Tracker Information</h2>
+        <a>This tracker is based solely on satellite technology. The bunny usually does the same route every year, with some years changing it. He starts around New Zealand's outlying islands, and he moves west from there. Once he boots up and hits the first satellite, he speeds up more, and goes about 1,017,241.38 mph to get to places, although moving slower in condensed areas, because he has to go to a ton of houses in condensed areas. He travels from Europe/Africa area to Ireland in about 8.5 seconds and then he manages to finish his night on the US Minor outlying islands. After he delivers all the baskets he usually likes to cruise back to Easter Island, which is about a 13 1/2 minute cruise. Nobody knows why he does this but he does. He schedules most things, like when he launches and when he goes back, and his trek is usually about 23-24 hours depending on how he feels.</a>
+    </div>
+<div class="baskets-container">
+    <h2>Baskets</h2>
+    <input type="text" id="searchInput" placeholder="Search for a city...">
+    <ul id="basketList"></ul>
+</div></center>
+    <script>
+          // Function to add a basket item to the list
+function addBasketToList(cityInfo) {
+    const basketList = document.getElementById('basketList');
     
-    // Check if the tracker has started
-    if (data.trackerStarted === true) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
+    // Create list item
+    const listItem = document.createElement('li');
+    const cityCountry = `${cityInfo.city}, ${cityInfo.country}`;
+    listItem.textContent = cityCountry;
+    
+    // Create research button
+    const researchButton = document.createElement('button');
+    researchButton.textContent = 'Research';
+    researchButton.addEventListener('click', function() {
+        // Construct the Google search URL
+        const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
+        const googleURL = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+        // Open the URL in a new tab
+        window.open(googleURL, '_blank');
+    });
+    
+    // Append research button to list item
+    listItem.appendChild(researchButton);
+    
+    // Append list item to basket list
+    basketList.appendChild(listItem);
+}
+     
+function addBasket(cityInfo) {
+  addBasketToList(cityInfo);
+    // Create a new container for the basket
+    const basketContainer = document.createElement('div');
+    basketContainer.className = 'basket-container';
+    
+    // Create the basket image element
+    const basketImage = document.createElement('img');
+    basketImage.src = 'https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0';
+    basketImage.className = 'basket-image';
+    basketImage.width = "50px";
+    basketImage.height = "50px";
+
+    // Create the arrow element
+    const arrow = document.createElement('div');
+    arrow.className = 'arrow';
+
+    // Add basket image and arrow to the container
+    basketContainer.appendChild(basketImage);
+    basketContainer.appendChild(arrow);
+
+    // Calculate the position of the basket on the map
+    const { width, height } = mapContainer.getBoundingClientRect();
+    const x = (cityInfo.longitude + 180) * (width / 360);
+    const y = (90 - cityInfo.latitude) * (height / 180);
+
+    // Set the position of the basket container
+    basketContainer.style.left = `${((x - basketImage.width / 2)-10)}px`;
+    basketContainer.style.top = `${((y - basketImage.height)+25)}px`;
+
+    // Add click event listener to the basket container
+    basketContainer.addEventListener('click', function() {
+        // Construct the Google search URL
+        const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
+        const googleURL = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+
+        // Open the URL in a new tab
+        window.open(googleURL, '_blank');
+    });
+
+    // Add the basket container to the map
+    mapContainer.appendChild(basketContainer);
+}
+      // Function to filter basket list based on search input
+function filterBasketList() {
+    const searchInput = document.getElementById('searchInput');
+    const searchText = searchInput.value.toLowerCase();
+    const basketList = document.getElementById('basketList');
+    const basketItems = basketList.getElementsByTagName('li');
+    
+    // Loop through basket items
+    for (let i = 0; i < basketItems.length; i++) {
+        const cityCountry = basketItems[i].textContent.toLowerCase();
+        // Check if city or country matches search text
+        if (cityCountry.includes(searchText)) {
+            basketItems[i].style.display = ''; // Show item
+        } else {
+            basketItems[i].style.display = 'none'; // Hide item
+        }
     }
-  if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
+}
+      // Function to fetch all baskets from the server
+async function fetchBaskets() {
+    try {
+        const response = await fetch('/getbaskets');
+        const data = await response.json();
+        console.log('Response data:', data); // Log the response data
+        data.forEach(basket => {
+            addBasket(basket);
+        });
+    } catch (error) {
+        console.error('Error fetching baskets:', error);
     }
 }
 
+      function fetchPresentsDelivered() {
+        fetch("/getmaxpresents")
+          .then((response) => response.json())
+          .then((data) => {
+            const maxPresents = data.maxpresents.toLocaleString(); // Add commas to the number
+            document.getElementById(
+              "basketsdelivered"
+            ).textContent = `Presents Delivered: ${maxPresents}`;
+          })
+          .catch((error) =>
+            console.error("Error fetching presents delivered:", error)
+          );
+      }
+      // Function to handle SSE messages
+      // Function to handle SSE messages
+      function handleSSE(event) {
+        // Parse the event data
+        const data = JSON.parse(event.data);
 
-    // Function to start listening for SSE messages
-    function startSSE() {
-        const eventSource = new EventSource('/updates');
+        // Check if the tracker has started
+        if (data.trackerStarted === true) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.unlocked === false) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+      }
+
+      // Function to start listening for SSE messages
+      function startSSE() {
+        const eventSource = new EventSource("/updates");
         eventSource.onmessage = handleSSE;
-    }
+      }
 
-    // Start listening for SSE messages
-    startSSE();
-</script>
-   
-</body>
+      window.onload = function () {
+        startSSE(); // Start listening for SSE messages
+      };
+    </script>
+  </body>
 </html>

@@ -229,7 +229,7 @@ function addBasket(cityInfo) {
     const y = (90 - cityInfo.latitude) * (height / 180);
 
     // Set the position of the basket container
-    basketContainer.style.left = `${((x - basketImage.width / 2)-10)}px`;
+    basketContainer.style.left = `${((x - basketImage.width / 2)-50)}px`;
     basketContainer.style.top = `${((y - basketImage.height)+25)}px`;
 
     // Add click event listener to the basket container
@@ -338,30 +338,33 @@ function updateTracker(data) {
             }
         });
 
-        // Function to handle SSE messages
-        function handleSSE(event) {
-            // Parse the event data
-            const data = JSON.parse(event.data);
+      // Function to handle SSE messages
+function handleSSE(event) {
+    // Parse the event data
+    const data = JSON.parse(event.data);
 
-            // Check if the tracker has ended
-            if (data.trackerEnded === true) {
-                // Refresh the page to the home page if the tracker has ended
-                window.location.href = 'ended.html';
-            }
-            if (data.santaMoving === true) {
-                // Refresh the page to the home page if the tracker has ended
-                changeSantaImage();
-            }
-            if (data.unlocked === false) {
-                // Refresh the page to the home page if the tracker has started
-                window.location.href = '/';
-            }
-          if (data.newbasket) {
-        // Add the basket to the map
-        addBasket(data.newbasket);
+    // Check if the tracker has ended
+    if (data.trackerEnded === true) {
+        // Refresh the page to the home page if the tracker has ended
+        window.location.href = 'ended.html';
     }
+    if (data.santaMoving === true) {
+        // Refresh the page to the home page if the tracker has ended
+        changeSantaImage();
+    }
+    if (data.unlocked === false) {
+        // Refresh the page to the home page if the tracker has started
+        window.location.href = '/';
+    }
+    if (data.newbasket) {
+        // Add the basket to the map after a delay of 1 second
+        setTimeout(function() {
+            addBasket(data.newbasket);
+        }, 9000); // 1000 milliseconds = 1 second
+    }
+}
 
-        }
+      
 
         // Function to start listening for SSE messages
         function startSSE() {
