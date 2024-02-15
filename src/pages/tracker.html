@@ -51,54 +51,57 @@
             height: calc(100vh - 50px); /* Adjust the height to cover the screen minus the top-bar height */
             margin-top: 50px; /* Add margin to make space for top-bar */
             overflow: hidden; /* Hide overflow to prevent image from overflowing */
-            cursor: zoom-in; /* Change cursor to zoom-in cursor */
-        }
-     .basket-container {
-    position: absolute;
-}
-
-.basket-image {
-    border: 2px solid white;
-    width: 50px; /* Set the width of the basket image */
-    height: 50px; /* Set the height of the basket image */
-}
-
-.arrow {
-    position: relative;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent; /* Adjust arrow size */
-    border-right: 5px solid transparent; /* Adjust arrow size */
-    border-top: 8px solid white; /* Adjust arrow size */
-    margin-top: -5px; /* Adjust vertical position of the arrow */
-    margin-left: 22px; /* Adjust horizontal position of the arrow */
-}
-
-
-
-        #santa {
-            position: absolute;
-            width: 5%; /* Adjust size relative to the container */
-            max-width: 50px; /* Limit maximum width */
-            height: auto; /* Maintain aspect ratio */
-            transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
-            cursor: pointer; /* Change cursor to pointer when hovering over Santa */
         }
 
-        @keyframes floating {
-            0% {
-                transform: translateY(0);
-            }
-            50% {
-                transform: translateY(-10px);
-            }
-            100% {
-                transform: translateY(0);
-            }
+        .description-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
         }
 
-        .floating {
-            animation: floating 3s ease-in-out infinite; /* Adjust animation duration as needed */
+        .baskets-container {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            text-align: center;
+        }
+
+        .baskets-container h2 {
+            margin-bottom: 10px;
+        }
+
+        #basketList {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        #searchInput {
+            margin-bottom: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        #basketList li {
+            margin-bottom: 5px;
+        }
+
+        #basketList button {
+            padding: 5px 10px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        #basketList button:hover {
+            background-color: #45a049;
         }
     </style>
 </head>
@@ -118,9 +121,77 @@
         <h2>Tracker Information</h2>
         <a>This tracker is based solely on satellite technology. The bunny usually does the same route every year, with some years changing it. He starts around New Zealand's outlying islands, and he moves west from there. Once he boots up and hits the first satellite, he speeds up more, and goes about 1,017,241.38 mph to get to places, although moving slower in condensed areas, because he has to go to a ton of houses in condensed areas. He travels from Europe/Africa area to Ireland in about 8.5 seconds and then he manages to finish his night on the US Minor outlying islands. After he delivers all the baskets he usually likes to cruise back to Easter Island, which is about a 13 1/2 minute cruise. Nobody knows why he does this but he does. He schedules most things, like when he launches and when he goes back, and his trek is usually about 23-24 hours depending on how he feels.</a>
     </div>
-
+    <div class="baskets-container">
+        <h2>Baskets</h2>
+        <input type="text" id="searchInput" placeholder="Search for a city...">
+        <ul id="basketList"></ul>
+    </div>
     <script>
+      // Function to add a basket item to the list
+function addBasketToList(cityInfo) {
+    const basketList = document.getElementById('basketList');
+    
+    // Create list item
+    const listItem = document.createElement('li');
+    const cityCountry = `${cityInfo.city}, ${cityInfo.country}`;
+    listItem.textContent = cityCountry;
+    
+    // Create research button
+    const researchButton = document.createElement('button');
+    researchButton.textContent = 'Research';
+    researchButton.addEventListener('click', function() {
+        // Construct the Google search URL
+        const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
+        const googleURL = `https://www.google.com/search?q=${encodeURIComponent(searchQuery)}`;
+        // Open the URL in a new tab
+        window.open(googleURL, '_blank');
+    });
+    
+    // Append research button to list item
+    listItem.appendChild(researchButton);
+    
+    // Append list item to basket list
+    basketList.appendChild(listItem);
+}
+
+// Function to filter basket list based on search input
+function filterBasketList() {
+    const searchInput = document.getElementById('searchInput');
+    const searchText = searchInput.value.toLowerCase();
+    const basketList = document.getElementById('basketList');
+    const basketItems = basketList.getElementsByTagName('li');
+    
+    // Loop through basket items
+    for (let i = 0; i < basketItems.length; i++) {
+        const cityCountry = basketItems[i].textContent.toLowerCase();
+        // Check if city or country matches search text
+        if (cityCountry.includes(searchText)) {
+            basketItems[i].style.display = ''; // Show item
+        } else {
+            basketItems[i].style.display = 'none'; // Hide item
+        }
+    }
+}
+
+// Add event listener for search input
+document.getElementById('searchInput').addEventListener('input', filterBasketList);
+
+      
+      // Update Santa's position on the zoomed-in map
+function updateZoomedMap() {
+    const { width, height } = mapContainer.getBoundingClientRect();
+    const { left, top } = mapImage.getBoundingClientRect();
+    const santaX = parseFloat(santa.style.left) || 0;
+    const santaY = parseFloat(santa.style.top) || 0;
+    const x = (santaX + left) * (width / mapImage.offsetWidth);
+    const y = (santaY + top) * (height / mapImage.offsetHeight);
+    const zoomedMapX = (x - width / 2) * 2; // Adjust for zoom level
+    const zoomedMapY = (y - height / 2) * 2; // Adjust for zoom level
+    zoomedMapImage.style.left = `${-zoomedMapX}px`;
+    zoomedMapImage.style.top = `${-zoomedMapY}px`;
+}
 function addBasket(cityInfo) {
+  addBasketToList(cityInfo);
     // Create a new container for the basket
     const basketContainer = document.createElement('div');
     basketContainer.className = 'basket-container';
@@ -162,7 +233,14 @@ function addBasket(cityInfo) {
     // Add the basket container to the map
     mapContainer.appendChild(basketContainer);
 }
-
+// Start listening for SSE messages
+window.onload = function () {
+    fetchBaskets(); // Fetch all baskets onload
+    startSSE(); // Start listening for SSE messages
+    
+    // Update the zoomed-in map on page load
+    updateZoomedMap();
+};
 // Function to fetch all baskets from the server
 async function fetchBaskets() {
     try {
@@ -201,29 +279,9 @@ async function fetchBaskets() {
         const mapImage = document.getElementById('map-image');
         let scale = 1;
 
-        mapContainer.addEventListener('wheel', function (event) {
-            event.preventDefault();
 
-            // Adjust scale based on scroll direction
-            scale += event.deltaY * -0.01;
 
-            // Limit scale range
-            scale = Math.min(Math.max(0.5, scale), 3);
 
-            // Apply scale transform to map image
-            mapImage.style.transform = `scale(${scale})`;
-
-            // Adjust Santa's position based on the scale
-            const { width, height } = mapContainer.getBoundingClientRect();
-            const santaX = parseFloat(santa.style.left) || 0;
-            const santaY = parseFloat(santa.style.top) || 0;
-            const mapX = (santaX + santa.offsetWidth / 2 - width / 2) / scale + width / 2;
-            const mapY = (santaY + santa.offsetHeight / 2 - height / 2) / scale + height / 2;
-
-            // Update Santa's position
-            santa.style.left = `${mapX - santa.offsetWidth / 2}px`;
-            santa.style.top = `${mapY - santa.offsetHeight / 2}px`;
-        });
 
         const eventSource = new EventSource('/updates');
         let followingSanta = false;
