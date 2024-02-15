@@ -61,6 +61,15 @@
         const eventSource = new EventSource('/updates');
 
         let followingSanta = false;
+function changeSantaImage() {
+    // Change the src attribute to the GIF link
+    santa.src = 'https://i.pinimg.com/originals/ec/0d/5f/ec0d5f135cd6ce5a9bfc1d0e756e1339.gif';
+
+    // Set a timeout to revert back to the original image after one second
+    setTimeout(function() {
+        santa.src = 'https://cdn-icons-png.flaticon.com/512/347/347485.png';
+    }, 1000); // 1000 milliseconds = 1 second
+}
 
         eventSource.onmessage = function(event) {
             const data = JSON.parse(event.data);
@@ -116,6 +125,10 @@
         if (data.trackerEnded === true) {
             // Refresh the page to the home page if the tracker has ended
             window.location.href = 'ended.html';
+        }
+      if (data.santaMoving === true) {
+            // Refresh the page to the home page if the tracker has ended
+            changeSantaImage();
         }
       if (data.unlocked === false) {
         // Refresh the page to the home page if the tracker has started
