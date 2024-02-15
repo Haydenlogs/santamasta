@@ -98,6 +98,7 @@
             height: auto; /* Maintain aspect ratio */
             transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
             cursor: pointer; /* Change cursor to pointer when hovering over Santa */
+          z-index: 1000; /* Ensure bunny icon is above everything else */
         }
 
         @keyframes floating {
@@ -230,7 +231,7 @@ function addBasket(cityInfo) {
 
     // Set the position of the basket container
     basketContainer.style.left = `${((x - basketImage.width / 2)-50)}px`;
-    basketContainer.style.top = `${((y - basketImage.height)+25)}px`;
+    basketContainer.style.top = `${((y - basketImage.height)+20)}px`;
 
     // Add click event listener to the basket container
     basketContainer.addEventListener('click', function() {
