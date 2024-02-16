@@ -15862,5 +15862,557 @@
     "country": "Nioumamilima",
     "latitude": -11.8511111,
     "longitude": 43.4372215
+  },
+  {
+    "city": "Comoros",
+    "country": "Oungoni",
+    "latitude": -11.7544444,
+    "longitude": 43.4361115
+  },
+  {
+    "city": "Comoros",
+    "country": "Dima",
+    "latitude": -11.8863889,
+    "longitude": 43.4108315
+  },
+  {
+    "city": "Comoros",
+    "country": "Hantsindzi",
+    "latitude": -11.4291667,
+    "longitude": 43.4022217
+  },
+  {
+    "city": "Comoros",
+    "country": "Dembeni",
+    "latitude": -11.8736111,
+    "longitude": 43.3977776
+  },
+  {
+    "city": "Comoros",
+    "country": "Bouni",
+    "latitude": -11.4869444,
+    "longitude": 43.3883324
+  },
+  {
+    "city": "Comoros",
+    "country": "Chezani",
+    "latitude": -11.4280556,
+    "longitude": 43.3875008
+  },
+  {
+    "city": "Comoros",
+    "country": "Ivouani",
+    "latitude": -11.3875,
+    "longitude": 43.3863907
+  },
+  {
+    "city": "Comoros",
+    "country": "Chomoni",
+    "latitude": -11.6430556,
+    "longitude": 43.3858337
+  },
+  {
+    "city": "Comoros",
+    "country": "Itsandzeni",
+    "latitude": -11.4727778,
+    "longitude": 43.3844452
+  },
+  {
+    "city": "Comoros",
+    "country": "Panda",
+    "latitude": -11.8705556,
+    "longitude": 43.3833351
+  },
+  {
+    "city": "Comoros",
+    "country": "Mtsamdou",
+    "latitude": -11.6069444,
+    "longitude": 43.3805542
+  },
+  {
+    "city": "Turkey",
+    "country": "Van",
+    "latitude": 38.4941667,
+    "longitude": 43.3800011
+  },
+  {
+    "city": "Comoros",
+    "country": "Heroumbili",
+    "latitude": -11.5438889,
+    "longitude": 43.3797226
+  },
+  {
+    "city": "Georgia",
+    "country": "Borjomi",
+    "latitude": 41.8375,
+    "longitude": 43.3791656
+  },
+  {
+    "city": "Comoros",
+    "country": "Mbeni",
+    "latitude": -11.5013889,
+    "longitude": 43.3774986
+  },
+  {
+    "city": "Iraq",
+    "country": "Qarah Qush",
+    "latitude": 36.2694444,
+    "longitude": 43.377224
+  },
+  {
+    "city": "Comoros",
+    "country": "Bambadjani",
+    "latitude": -11.4786111,
+    "longitude": 43.377224
+  },
+  {
+    "city": "Comoros",
+    "country": "Mnoungou",
+    "latitude": -11.5177778,
+    "longitude": 43.3738899
+  },
+  {
+    "city": "Turkey",
+    "country": "Ercis",
+    "latitude": 39.0238889,
+    "longitude": 43.3616676
+  },
+  {
+    "city": "Yemen",
+    "country": "Bayt al Faqih",
+    "latitude": 14.5161111,
+    "longitude": 43.3244438
+  },
+  {
+    "city": "Comoros",
+    "country": "Hetsa",
+    "latitude": -11.8447222,
+    "longitude": 43.315834
+  },
+  {
+    "city": "Yemen",
+    "country": "Zabid",
+    "latitude": 14.195,
+    "longitude": 43.3152771
+  },
+  {
+    "city": "Iraq",
+    "country": "Ar Ramadi",
+    "latitude": 33.423537,
+    "longitude": 43.3092957
+  },
+  {
+    "city": "Comoros",
+    "country": "Singani",
+    "latitude": -11.8455556,
+    "longitude": 43.309166
+  },
+  {
+    "city": "Comoros",
+    "country": "Mdjoyezi",
+    "latitude": -11.8330556,
+    "longitude": 43.3066673
+  },
+  {
+    "city": "Comoros",
+    "country": "Mandza",
+    "latitude": -11.4180556,
+    "longitude": 43.2952766
+  },
+  {
+    "city": "Djibouti",
+    "country": "Obock",
+    "latitude": 11.9630556,
+    "longitude": 43.290554
+  },
+  {
+    "city": "Comoros",
+    "country": "Milevani",
+    "latitude": -11.5513889,
+    "longitude": 43.2902794
+  },
+  {
+    "city": "Comoros",
+    "country": "Douniani",
+    "latitude": -11.4211111,
+    "longitude": 43.288887
+  },
+  {
+    "city": "Comoros",
+    "country": "Mitsamiouli",
+    "latitude": -11.3847222,
+    "longitude": 43.2844429
+  },
+  {
+    "city": "Comoros",
+    "country": "Bahani",
+    "latitude": -11.6397222,
+    "longitude": 43.2841682
+  },
+  {
+    "city": "Yemen",
+    "country": "Bajil",
+    "latitude": 15.0666667,
+    "longitude": 43.2833328
+  },
+  {
+    "city": "Comoros",
+    "country": "Ouhozi",
+    "latitude": -11.405,
+    "longitude": 43.2822227
+  },
+  {
+    "city": "Comoros",
+    "country": "Ouella",
+    "latitude": -11.6536111,
+    "longitude": 43.2805557
+  },
+  {
+    "city": "Comoros",
+    "country": "Madjeoueni",
+    "latitude": -11.8216667,
+    "longitude": 43.2780571
+  },
+  {
+    "city": "Comoros",
+    "country": "Bibavou",
+    "latitude": -11.5725,
+    "longitude": 43.2772217
+  },
+  {
+    "city": "Comoros",
+    "country": "Koua",
+    "latitude": -11.4208333,
+    "longitude": 43.2763901
+  },
+  {
+    "city": "Comoros",
+    "country": "Vanadjou",
+    "latitude": -11.6075,
+    "longitude": 43.2761116
+  },
+  {
+    "city": "Comoros",
+    "country": "Oussivo",
+    "latitude": -11.585,
+    "longitude": 43.2672234
+  },
+  {
+    "city": "Comoros",
+    "country": "Milembeni",
+    "latitude": -11.6616667,
+    "longitude": 43.2663879
+  },
+  {
+    "city": "Comoros",
+    "country": "Zivandani",
+    "latitude": -11.6458333,
+    "longitude": 43.2658348
+  },
+  {
+    "city": "Comoros",
+    "country": "Mvouni",
+    "latitude": -11.7161111,
+    "longitude": 43.2647209
+  },
+  {
+    "city": "Comoros",
+    "country": "Ntsaoueni",
+    "latitude": -11.4658333,
+    "longitude": 43.2627792
+  },
+  {
+    "city": "Comoros",
+    "country": "Tsidje",
+    "latitude": -11.6980556,
+    "longitude": 43.2619438
+  },
+  {
+    "city": "Comoros",
+    "country": "Ntsoudjini",
+    "latitude": -11.6597222,
+    "longitude": 43.2613907
+  },
+  {
+    "city": "Comoros",
+    "country": "Selea",
+    "latitude": -11.7844444,
+    "longitude": 43.2608337
+  },
+  {
+    "city": "Comoros",
+    "country": "Batsa",
+    "latitude": -11.6283333,
+    "longitude": 43.2599983
+  },
+  {
+    "city": "Comoros",
+    "country": "Salimani",
+    "latitude": -11.8080556,
+    "longitude": 43.2591667
+  },
+  {
+    "city": "Georgia",
+    "country": "Aspindza",
+    "latitude": 41.5738889,
+    "longitude": 43.2561111
+  },
+  {
+    "city": "Comoros",
+    "country": "Itsandra",
+    "latitude": -11.6711111,
+    "longitude": 43.2547226
+  },
+  {
+    "city": "Comoros",
+    "country": "Vanambouani",
+    "latitude": -11.6113889,
+    "longitude": 43.2530556
+  },
+  {
+    "city": "Djibouti",
+    "country": "Loyada",
+    "latitude": 11.4611111,
+    "longitude": 43.2527771
+  },
+  {
+    "city": "Comoros",
+    "country": "Mavingouni",
+    "latitude": -11.7163889,
+    "longitude": 43.2524986
+  },
+  {
+    "city": "Somalia",
+    "country": "Waajid",
+    "latitude": 3.8,
+    "longitude": 43.25
+  },
+  {
+    "city": "Comoros",
+    "country": "Moroni",
+    "latitude": -11.7041667,
+    "longitude": 43.2402763
+  },
+  {
+    "city": "Georgia",
+    "country": "Patara-Kharagauli",
+    "latitude": 42.0166667,
+    "longitude": 43.2166672
+  },
+  {
+    "city": "Georgia",
+    "country": "Ambrolauri",
+    "latitude": 42.5211111,
+    "longitude": 43.1622238
+  },
+  {
+    "city": "Djibouti",
+    "country": "Djibouti",
+    "latitude": 11.595,
+    "longitude": 43.148056
+  },
+  {
+    "city": "Iraq",
+    "country": "Tall Kayf",
+    "latitude": 36.4894444,
+    "longitude": 43.1191673
+  },
+  {
+    "city": "Iraq",
+    "country": "Mosul",
+    "latitude": 36.335,
+    "longitude": 43.1188889
+  },
+  {
+    "city": "Georgia",
+    "country": "Shorapani",
+    "latitude": 42.0958333,
+    "longitude": 43.1155548
+  },
+  {
+    "city": "Turkey",
+    "country": "Kars",
+    "latitude": 40.6080556,
+    "longitude": 43.0974998
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Mawsil al Jadidah",
+    "latitude": 36.3291667,
+    "longitude": 43.086113
+  },
+  {
+    "city": "Turkey",
+    "country": "Agri",
+    "latitude": 39.7194444,
+    "longitude": 43.0513878
+  },
+  {
+    "city": "Iraq",
+    "country": "Sina",
+    "latitude": 36.8086111,
+    "longitude": 43.0386124
+  },
+  {
+    "city": "Somalia",
+    "country": "Yeed",
+    "latitude": 4.55,
+    "longitude": 43.0333328
+  },
+  {
+    "city": "Georgia",
+    "country": "Tqibuli",
+    "latitude": 42.3441667,
+    "longitude": 42.9900017
+  },
+  {
+    "city": "Yemen",
+    "country": "Al Hudaydah",
+    "latitude": 14.7977778,
+    "longitude": 42.9522209
+  },
+  {
+    "city": "Djibouti",
+    "country": "Holhol",
+    "latitude": 11.3102778,
+    "longitude": 42.9294434
+  },
+  {
+    "city": "Djibouti",
+    "country": "Alaili Dadda`",
+    "latitude": 12.4216667,
+    "longitude": 42.8955574
+  },
+  {
+    "city": "Djibouti",
+    "country": "Tadjoura",
+    "latitude": 11.7852778,
+    "longitude": 42.8844452
+  },
+  {
+    "city": "Turkey",
+    "country": "Patnos",
+    "latitude": 39.2347222,
+    "longitude": 42.8675003
+  },
+  {
+    "city": "Georgia",
+    "country": "Vale",
+    "latitude": 41.6186111,
+    "longitude": 42.8627777
+  },
+  {
+    "city": "Georgia",
+    "country": "Abastumani",
+    "latitude": 41.7,
+    "longitude": 42.8499985
+  },
+  {
+    "city": "Djibouti",
+    "country": "`Arta",
+    "latitude": 11.5222222,
+    "longitude": 42.8419456
+  },
+  {
+    "city": "Georgia",
+    "country": "Lajanurhesi",
+    "latitude": 42.6180556,
+    "longitude": 42.835556
+  },
+  {
+    "city": "Iraq",
+    "country": "Hit",
+    "latitude": 33.6366667,
+    "longitude": 42.8224983
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Jijiga",
+    "latitude": 9.35,
+    "longitude": 42.7999992
+  },
+  {
+    "city": "Somalia",
+    "country": "Jilib",
+    "latitude": 0.4958333,
+    "longitude": 42.7727776
+  },
+  {
+    "city": "Somalia",
+    "country": "Jamaame",
+    "latitude": 0.0722222,
+    "longitude": 42.7505569
+  },
+  {
+    "city": "Georgia",
+    "country": "Mestia",
+    "latitude": 43.0455556,
+    "longitude": 42.7297211
+  },
+  {
+    "city": "Georgia",
+    "country": "Lentekhi",
+    "latitude": 42.7855556,
+    "longitude": 42.7261124
+  },
+  {
+    "city": "Djibouti",
+    "country": "`Ali Sabieh",
+    "latitude": 11.1558333,
+    "longitude": 42.7125015
+  },
+  {
+    "city": "Georgia",
+    "country": "Adigeni",
+    "latitude": 41.6858333,
+    "longitude": 42.7102776
+  },
+  {
+    "city": "Iraq",
+    "country": "Zakho",
+    "latitude": 37.1441667,
+    "longitude": 42.6872215
+  },
+  {
+    "city": "Georgia",
+    "country": "Tsqaltubo",
+    "latitude": 42.3397222,
+    "longitude": 42.5991669
+  },
+  {
+    "city": "Somalia",
+    "country": "Dujuuma",
+    "latitude": 1.2533333,
+    "longitude": 42.5708351
+  },
+  {
+    "city": "Somalia",
+    "country": "Luuq",
+    "latitude": 3.8,
+    "longitude": 42.5499992
+  },
+  {
+    "city": "Somalia",
+    "country": "Chisimayu",
+    "latitude": -0.3666667,
+    "longitude": 42.5333328
+  },
+  {
+    "city": "Georgia",
+    "country": "Vani",
+    "latitude": 42.0813889,
+    "longitude": 42.5244446
+  },
+  {
+    "city": "Djibouti",
+    "country": "Dorra",
+    "latitude": 12.1494444,
+    "longitude": 42.4775009
+  },
+  {
+    "city": "Turkey",
+    "country": "Silopi",
+    "latitude": 37.2497222,
+    "longitude": 42.4694443
   }
 ]
