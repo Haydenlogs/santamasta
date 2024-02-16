@@ -22246,5 +22246,509 @@
     "country": "Klimavichy",
     "latitude": 53.6094444,
     "longitude": 31.9519444
+  },
+  {
+    "city": "Swaziland",
+    "country": "Siteki",
+    "latitude": -26.45,
+    "longitude": 31.9500008
+  },
+  {
+    "city": "Swaziland",
+    "country": "Nsoko",
+    "latitude": -27.0333333,
+    "longitude": 31.9500008
+  },
+  {
+    "city": "Swaziland",
+    "country": "Big Bend",
+    "latitude": -26.8166667,
+    "longitude": 31.9333324
+  },
+  {
+    "city": "Swaziland",
+    "country": "Lavumisa",
+    "latitude": -27.3166667,
+    "longitude": 31.8999996
+  },
+  {
+    "city": "South Africa",
+    "country": "eSikhawini",
+    "latitude": -28.8833333,
+    "longitude": 31.8999996
+  },
+  {
+    "city": "Tanzania",
+    "country": "Katoro",
+    "latitude": -3.0202778,
+    "longitude": 31.895834
+  },
+  {
+    "city": "Ukraine",
+    "country": "Nizhyn",
+    "latitude": 51.05,
+    "longitude": 31.8833332
+  },
+  {
+    "city": "Ukraine",
+    "country": "Smila",
+    "latitude": 49.2333333,
+    "longitude": 31.8833332
+  },
+  {
+    "city": "Tanzania",
+    "country": "Buseresere",
+    "latitude": -3.0236111,
+    "longitude": 31.8747215
+  },
+  {
+    "city": "Sudan",
+    "country": "Tandalti",
+    "latitude": 13.0166667,
+    "longitude": 31.8666668
+  },
+  {
+    "city": "Sudan",
+    "country": "Kuraymah",
+    "latitude": 18.55,
+    "longitude": 31.8500004
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Macheke",
+    "latitude": -18.15,
+    "longitude": 31.8500004
+  },
+  {
+    "city": "Swaziland",
+    "country": "Mhlume",
+    "latitude": -26.0333333,
+    "longitude": 31.8500004
+  },
+  {
+    "city": "Sudan",
+    "country": "Marawi",
+    "latitude": 18.4833333,
+    "longitude": 31.8166676
+  },
+  {
+    "city": "Tanzania",
+    "country": "Bukoba",
+    "latitude": -1.3316667,
+    "longitude": 31.8122215
+  },
+  {
+    "city": "Turkey",
+    "country": "Zonguldak",
+    "latitude": 41.4555556,
+    "longitude": 31.7897224
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Murewa",
+    "latitude": -17.6469444,
+    "longitude": 31.7775002
+  },
+  {
+    "city": "Uganda",
+    "country": "Kiboga",
+    "latitude": 0.9161111,
+    "longitude": 31.7741661
+  },
+  {
+    "city": "Tanzania",
+    "country": "Chato",
+    "latitude": -2.6377778,
+    "longitude": 31.7669449
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Dorowa Mining Lease",
+    "latitude": -19.0666667,
+    "longitude": 31.75
+  },
+  {
+    "city": "Swaziland",
+    "country": "Tshaneni",
+    "latitude": -25.9833333,
+    "longitude": 31.7166672
+  },
+  {
+    "city": "Uganda",
+    "country": "Masindi",
+    "latitude": 1.6744444,
+    "longitude": 31.7150002
+  },
+  {
+    "city": "Belarus",
+    "country": "Krychaw",
+    "latitude": 53.6988889,
+    "longitude": 31.7141666
+  },
+  {
+    "city": "Uganda",
+    "country": "Masaka",
+    "latitude": -0.3127778,
+    "longitude": 31.7130547
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Chiredzi",
+    "latitude": -21.05,
+    "longitude": 31.666666
+  },
+  {
+    "city": "Sudan",
+    "country": "Malakal",
+    "latitude": 9.5369444,
+    "longitude": 31.6561108
+  },
+  {
+    "city": "Tanzania",
+    "country": "Sumbawanga",
+    "latitude": -7.9666667,
+    "longitude": 31.6166668
+  },
+  {
+    "city": "Swaziland",
+    "country": "Hluti",
+    "latitude": -27.2166667,
+    "longitude": 31.6166668
+  },
+  {
+    "city": "Turkey",
+    "country": "Bolu",
+    "latitude": 40.7358333,
+    "longitude": 31.6061115
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Mount Darwin",
+    "latitude": -16.7833333,
+    "longitude": 31.583334
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Shamva",
+    "latitude": -17.3155556,
+    "longitude": 31.5705547
+  },
+  {
+    "city": "Sudan",
+    "country": "Bor",
+    "latitude": 6.2072222,
+    "longitude": 31.559166
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Marondera",
+    "latitude": -18.1833333,
+    "longitude": 31.5499992
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Madziwa",
+    "latitude": -16.9166667,
+    "longitude": 31.5333328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Uyovu",
+    "latitude": -3.2833333,
+    "longitude": 31.5258331
+  },
+  {
+    "city": "Uganda",
+    "country": "Kyotera",
+    "latitude": -0.6155556,
+    "longitude": 31.5174999
+  },
+  {
+    "city": "Tanzania",
+    "country": "Matai",
+    "latitude": -8.3,
+    "longitude": 31.5166664
+  },
+  {
+    "city": "Swaziland",
+    "country": "Kubuta",
+    "latitude": -26.8833333,
+    "longitude": 31.4833336
+  },
+  {
+    "city": "Uganda",
+    "country": "Sembabule",
+    "latitude": -0.0772222,
+    "longitude": 31.4566669
+  },
+  {
+    "city": "Zambia",
+    "country": "Mpika",
+    "latitude": -11.8333333,
+    "longitude": 31.4500008
+  },
+  {
+    "city": "Swaziland",
+    "country": "Sidvokodvo",
+    "latitude": -26.6166667,
+    "longitude": 31.4500008
+  },
+  {
+    "city": "Turkey",
+    "country": "Manavgat",
+    "latitude": 36.7866667,
+    "longitude": 31.4430561
+  },
+  {
+    "city": "Turkey",
+    "country": "Eregli",
+    "latitude": 41.2894444,
+    "longitude": 31.4180565
+  },
+  {
+    "city": "Uganda",
+    "country": "Byakabanda",
+    "latitude": -0.7425,
+    "longitude": 31.4063892
+  },
+  {
+    "city": "Zambia",
+    "country": "Mbala",
+    "latitude": -8.8333333,
+    "longitude": 31.3833332
+  },
+  {
+    "city": "Zambia",
+    "country": "Mungwi",
+    "latitude": -10.1666667,
+    "longitude": 31.3833332
+  },
+  {
+    "city": "Belarus",
+    "country": "Cherykaw",
+    "latitude": 53.5722222,
+    "longitude": 31.3805561
+  },
+  {
+    "city": "Swaziland",
+    "country": "Manzini",
+    "latitude": -26.4833333,
+    "longitude": 31.3666668
+  },
+  {
+    "city": "Uganda",
+    "country": "Mubende",
+    "latitude": 0.5891667,
+    "longitude": 31.3600006
+  },
+  {
+    "city": "Uganda",
+    "country": "Hoima",
+    "latitude": 1.4355556,
+    "longitude": 31.3436108
+  },
+  {
+    "city": "Zambia",
+    "country": "Petauke",
+    "latitude": -14.25,
+    "longitude": 31.333334
+  },
+  {
+    "city": "Swaziland",
+    "country": "Kwaluseni",
+    "latitude": -26.4833333,
+    "longitude": 31.333334
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Bindura",
+    "latitude": -17.2963889,
+    "longitude": 31.3297215
+  },
+  {
+    "city": "Belarus",
+    "country": "Dobrush",
+    "latitude": 52.4094444,
+    "longitude": 31.3227787
+  },
+  {
+    "city": "Swaziland",
+    "country": "Hlatikulu",
+    "latitude": -26.9666667,
+    "longitude": 31.3166676
+  },
+  {
+    "city": "Uganda",
+    "country": "Kigorobya",
+    "latitude": 1.62,
+    "longitude": 31.310833
+  },
+  {
+    "city": "Tanzania",
+    "country": "Biharamulo",
+    "latitude": -2.6319444,
+    "longitude": 31.3088894
+  },
+  {
+    "city": "Ukraine",
+    "country": "Chernihiv",
+    "latitude": 51.5,
+    "longitude": 31.2999992
+  },
+  {
+    "city": "South Africa",
+    "country": "Stanger",
+    "latitude": -29.3333333,
+    "longitude": 31.2999992
+  },
+  {
+    "city": "Russia",
+    "country": "Velikiy Novgorod",
+    "latitude": 58.5166667,
+    "longitude": 31.2833328
+  },
+  {
+    "city": "Swaziland",
+    "country": "Piggs Peak",
+    "latitude": -25.9666667,
+    "longitude": 31.25
+  },
+  {
+    "city": "Sudan",
+    "country": "Abu Jubayhah",
+    "latitude": 11.45,
+    "longitude": 31.2333336
+  },
+  {
+    "city": "Sudan",
+    "country": "Umm Ruwabah",
+    "latitude": 12.9,
+    "longitude": 31.2166672
+  },
+  {
+    "city": "Zambia",
+    "country": "Kasama",
+    "latitude": -10.2,
+    "longitude": 31.2000008
+  },
+  {
+    "city": "Swaziland",
+    "country": "Lobamba",
+    "latitude": -26.4666667,
+    "longitude": 31.2000008
+  },
+  {
+    "city": "Swaziland",
+    "country": "Malkerns",
+    "latitude": -26.5666667,
+    "longitude": 31.1833324
+  },
+  {
+    "city": "Belarus",
+    "country": "Vyetka",
+    "latitude": 52.5591667,
+    "longitude": 31.1808338
+  },
+  {
+    "city": "Turkey",
+    "country": "Eskisehir Ili",
+    "latitude": 39.6666667,
+    "longitude": 31.166666
+  },
+  {
+    "city": "Uganda",
+    "country": "Lyantonde",
+    "latitude": -0.4030556,
+    "longitude": 31.1572227
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Epworth",
+    "latitude": -17.89,
+    "longitude": 31.1474991
+  },
+  {
+    "city": "Zambia",
+    "country": "Mpulungu",
+    "latitude": -8.7666667,
+    "longitude": 31.1333332
+  },
+  {
+    "city": "Swaziland",
+    "country": "Bulembu",
+    "latitude": -25.9666667,
+    "longitude": 31.1333332
+  },
+  {
+    "city": "Swaziland",
+    "country": "Mbabane",
+    "latitude": -26.3166667,
+    "longitude": 31.1333332
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Centenary",
+    "latitude": -16.8,
+    "longitude": 31.1166668
+  },
+  {
+    "city": "South Africa",
+    "country": "Phalaborwa",
+    "latitude": -23.95,
+    "longitude": 31.1166668
+  },
+  {
+    "city": "Uganda",
+    "country": "Nebbi",
+    "latitude": 2.4758333,
+    "longitude": 31.1025009
+  },
+  {
+    "city": "Uganda",
+    "country": "Kibale",
+    "latitude": 0.8,
+    "longitude": 31.0666676
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Glendale",
+    "latitude": -17.3605556,
+    "longitude": 31.0597229
+  },
+  {
+    "city": "Tanzania",
+    "country": "Namanyere",
+    "latitude": -7.5166667,
+    "longitude": 31.0499992
+  },
+  {
+    "city": "South Africa",
+    "country": "Barberton",
+    "latitude": -25.7833333,
+    "longitude": 31.0499992
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Chitungwiza",
+    "latitude": -17.9938889,
+    "longitude": 31.0480556
+  },
+  {
+    "city": "Zimbabwe",
+    "country": "Harare",
+    "latitude": -17.8177778,
+    "longitude": 31.0447216
+  },
+  {
+    "city": "Tanzania",
+    "country": "Nguruka",
+    "latitude": -5.1091667,
+    "longitude": 31.0419445
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mpanda",
+    "latitude": -6.3666667,
+    "longitude": 31.0333328
   }
 ]
