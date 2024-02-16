@@ -7,7 +7,7 @@ const app = express();
 app.locals.clients = []; // Initialize clients array
 
 let cities = [];
-let currentIndex = 10561;
+let currentIndex;
 let isTrackerStarted = false;
 let maxpresents = 8045311447;
 let lastCity;
@@ -15,16 +15,7 @@ let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
 
-// Function to read the current index from a file
-function readIndexFromFile() {
-  try {
-    const indexData = fs.readFileSync("currentIndex.txt", "utf8");
-    currentIndex = parseInt(indexData);
-    console.log("Current index read from file:", currentIndex);
-  } catch (err) {
-    console.error("Error reading index from file:", err);
-  }
-}
+
 
 // Function to save the current index to a file
 function saveIndexToFile() {
@@ -57,12 +48,30 @@ async function readCitiesFromFile(filePath) {
   });
 }
 
+// Function to read the current index from a file
+async function readIndexFromFile() {
+  try {
+    const indexData = await fs.promises.readFile("currentIndex.txt", "utf8");
+    const currentIndex = parseInt(indexData);
+    console.log("Current index read from file:", currentIndex);
+    return currentIndex;
+  } catch (err) {
+    console.error("Error reading index from file:", err);
+    return 0; // Return 0 if there's an error reading the file
+  }
+}
 async function startTracker(filePath) {
   if (!isTrackerStarted) {
     try {
       await readCitiesFromFile(filePath); // Wait for cities to be loaded
-      readIndexFromFile(); // Read index from file
+      currentIndex = await readIndexFromFile(); // Read index from file
       isTrackerStarted = true;
+      if (currentIndex > 1) {
+        // If currentIndex is greater than 1, start from that index
+        for (let i = 0; i < currentIndex - 1; i++) {
+          addToGiftsDelivered(cities[i]); // Add a basket for each city before the current index
+        }
+      }
       sendNextCity();
       trackerInterval = setInterval(() => {
         sendTrackerUpdate();
@@ -73,6 +82,7 @@ async function startTracker(filePath) {
     }
   }
 }
+
 
 function sendNextCity() {
   if (isTrackerStarted && currentIndex < cities.length) {
