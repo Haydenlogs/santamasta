@@ -8512,5 +8512,515 @@
     "country": "Tikapur",
     "latitude": 28.5,
     "longitude": 81.1333313
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Badulla",
+    "latitude": 6.9833333,
+    "longitude": 81.0500031
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Haputale",
+    "latitude": 6.7666667,
+    "longitude": 80.9666672
+  },
+  {
+    "city": "India",
+    "country": "Lucknow",
+    "latitude": 26.85,
+    "longitude": 80.9166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Tangalla",
+    "latitude": 6.0230556,
+    "longitude": 80.788887
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Nuwara Eliya",
+    "latitude": 6.9707789,
+    "longitude": 80.7828598
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Sigiriya",
+    "latitude": 7.95,
+    "longitude": 80.75
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Talawakele",
+    "latitude": 6.9366667,
+    "longitude": 80.6611099
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Dambulla",
+    "latitude": 7.86,
+    "longitude": 80.6516647
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kandy",
+    "latitude": 7.2963889,
+    "longitude": 80.6350021
+  },
+  {
+    "city": "India",
+    "country": "Vijayawada",
+    "latitude": 16.5166667,
+    "longitude": 80.6166687
+  },
+  {
+    "city": "Nepa",
+    "country": "Dhangarhi",
+    "latitude": 28.6833333,
+    "longitude": 80.5999985
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Hatton",
+    "latitude": 6.8972222,
+    "longitude": 80.5958328
+  },
+  {
+    "city": "Nepa",
+    "country": "Dadeldhura",
+    "latitude": 29.3,
+    "longitude": 80.5833359
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Gampola",
+    "latitude": 7.1647222,
+    "longitude": 80.5766678
+  },
+  {
+    "city": "Nepa",
+    "country": "Darchula",
+    "latitude": 29.85,
+    "longitude": 80.5500031
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kadugannawa",
+    "latitude": 7.2536111,
+    "longitude": 80.5274963
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Vavuniya",
+    "latitude": 8.75,
+    "longitude": 80.5
+  },
+  {
+    "city": "India",
+    "country": "Guntur",
+    "latitude": 16.3,
+    "longitude": 80.4499969
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ayakoz",
+    "latitude": 47.9713889,
+    "longitude": 80.4391632
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Anuradhapura",
+    "latitude": 8.3564746,
+    "longitude": 80.4172592
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Weligama",
+    "latitude": 5.9666667,
+    "longitude": 80.4166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kilinochchi",
+    "latitude": 9.4,
+    "longitude": 80.4000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Ratnapura",
+    "latitude": 6.6827778,
+    "longitude": 80.3991699
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kurunegala",
+    "latitude": 7.4866667,
+    "longitude": 80.3647232
+  },
+  {
+    "city": "India",
+    "country": "Kanpur",
+    "latitude": 26.4666667,
+    "longitude": 80.3499985
+  },
+  {
+    "city": "Nepa",
+    "country": "Mahendranagar",
+    "latitude": 28.9166667,
+    "longitude": 80.3333359
+  },
+  {
+    "city": "India",
+    "country": "Chennai",
+    "latitude": 13.0878385,
+    "longitude": 80.2784729
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Point Pedro",
+    "latitude": 9.8166667,
+    "longitude": 80.2333298
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Semipalatinsk",
+    "latitude": 50.4111111,
+    "longitude": 80.2275009
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Galle",
+    "latitude": 6.0536111,
+    "longitude": 80.2116699
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Valvedditturai",
+    "latitude": 9.8166667,
+    "longitude": 80.1666641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Horawala Junction",
+    "latitude": 6.4808795,
+    "longitude": 80.1270828
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Hikkaduwa",
+    "latitude": 6.1402778,
+    "longitude": 80.1038895
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Hanwella Ihala",
+    "latitude": 6.9,
+    "longitude": 80.0833359
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Horana",
+    "latitude": 6.7166667,
+    "longitude": 80.0599976
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Ambalangoda",
+    "latitude": 6.225,
+    "longitude": 80.0566635
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kuliyapitiya",
+    "latitude": 7.4708333,
+    "longitude": 80.0455551
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Homagama",
+    "latitude": 6.8408333,
+    "longitude": 80.0138855
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Zharkent",
+    "latitude": 44.1627778,
+    "longitude": 80
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Jaffna",
+    "latitude": 9.6666667,
+    "longitude": 80
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Bentota",
+    "latitude": 6.4211111,
+    "longitude": 79.9988861
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Gampaha",
+    "latitude": 7.0916667,
+    "longitude": 79.9941635
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Beruwala",
+    "latitude": 6.4738889,
+    "longitude": 79.984169
+  },
+  {
+    "city": "India",
+    "country": "Nellore",
+    "latitude": 14.4333333,
+    "longitude": 79.9666672
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kalutara",
+    "latitude": 6.5761111,
+    "longitude": 79.9658356
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Minuwangoda",
+    "latitude": 7.1733333,
+    "longitude": 79.9619446
+  },
+  {
+    "city": "India",
+    "country": "Jabalpur",
+    "latitude": 23.1669749,
+    "longitude": 79.9500656
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Mulleriyawa",
+    "latitude": 6.9333333,
+    "longitude": 79.9333344
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Maharagama",
+    "latitude": 6.8461111,
+    "longitude": 79.9280548
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Sarkand",
+    "latitude": 45.41,
+    "longitude": 79.9186096
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kotikawatta",
+    "latitude": 6.9333333,
+    "longitude": 79.9166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Battaramulla",
+    "latitude": 6.9,
+    "longitude": 79.9166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Sri Jayewardenepura Kotte",
+    "latitude": 6.9027778,
+    "longitude": 79.9083328
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Panadura",
+    "latitude": 6.7133333,
+    "longitude": 79.9041672
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Welisara",
+    "latitude": 7.0333333,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Peliyagoda",
+    "latitude": 6.95,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Pita Kotte",
+    "latitude": 6.8833333,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kelaniya",
+    "latitude": 6.96,
+    "longitude": 79.8977814
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Ja-Ela",
+    "latitude": 7.0844444,
+    "longitude": 79.894722
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kolonnawa",
+    "latitude": 6.9316667,
+    "longitude": 79.8944473
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kandana",
+    "latitude": 7.0477778,
+    "longitude": 79.8938904
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Wattala",
+    "latitude": 6.9897222,
+    "longitude": 79.8933334
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Moratuwa",
+    "latitude": 6.7733333,
+    "longitude": 79.8824997
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Hendala",
+    "latitude": 6.9838889,
+    "longitude": 79.8763885
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Katunayaka",
+    "latitude": 7.1647222,
+    "longitude": 79.8730545
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Galkissa",
+    "latitude": 6.8333333,
+    "longitude": 79.8666687
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Colombo",
+    "latitude": 6.9319444,
+    "longitude": 79.8477783
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Negombo",
+    "latitude": 7.2086111,
+    "longitude": 79.8358307
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Puttalam",
+    "latitude": 8.0333333,
+    "longitude": 79.8166656
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Chilaw",
+    "latitude": 7.5758333,
+    "longitude": 79.7952805
+  },
+  {
+    "city": "India",
+    "country": "Warangal",
+    "latitude": 18,
+    "longitude": 79.5833359
+  },
+  {
+    "city": "India",
+    "country": "Bareilly",
+    "latitude": 28.35,
+    "longitude": 79.4166641
+  },
+  {
+    "city": "India",
+    "country": "Nagpur",
+    "latitude": 21.15,
+    "longitude": 79.0999985
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Tekeli",
+    "latitude": 44.83,
+    "longitude": 78.8238907
+  },
+  {
+    "city": "India",
+    "country": "Moradabad",
+    "latitude": 28.8333333,
+    "longitude": 78.7833328
+  },
+  {
+    "city": "India",
+    "country": "Tiruchchirappalli",
+    "latitude": 10.8166667,
+    "longitude": 78.6833344
+  },
+  {
+    "city": "India",
+    "country": "Jhansi",
+    "latitude": 25.4333333,
+    "longitude": 78.5833359
+  },
+  {
+    "city": "India",
+    "country": "Hyderabad",
+    "latitude": 17.3752778,
+    "longitude": 78.4744415
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Balpyk Bi",
+    "latitude": 44.8947222,
+    "longitude": 78.2083359
+  },
+  {
+    "city": "India",
+    "country": "Gwalior",
+    "latitude": 26.2236111,
+    "longitude": 78.1791687
+  },
+  {
+    "city": "India",
+    "country": "Salem",
+    "latitude": 11.65,
+    "longitude": 78.1666641
+  },
+  {
+    "city": "India",
+    "country": "Madurai",
+    "latitude": 9.9333333,
+    "longitude": 78.1166687
+  },
+  {
+    "city": "India",
+    "country": "Aligarh",
+    "latitude": 27.8833333,
+    "longitude": 78.0833359
+  },
+  {
+    "city": "India",
+    "country": "Dehra Dun",
+    "latitude": 30.3166667,
+    "longitude": 78.0333328
+  },
+  {
+    "city": "India",
+    "country": "Agra",
+    "latitude": 27.1833333,
+    "longitude": 78.0166702
   }
 ]
