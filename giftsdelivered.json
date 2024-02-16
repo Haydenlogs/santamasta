@@ -9022,5 +9022,527 @@
     "country": "Agra",
     "latitude": 27.1833333,
     "longitude": 78.0166702
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ushtobe",
+    "latitude": 45.2422222,
+    "longitude": 77.9822235
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Saryozek",
+    "latitude": 44.3583333,
+    "longitude": 77.9752808
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Taldyqorghan",
+    "latitude": 45,
+    "longitude": 77.9166641
+  },
+  {
+    "city": "India",
+    "country": "Amravati",
+    "latitude": 20.9333333,
+    "longitude": 77.75
+  },
+  {
+    "city": "India",
+    "country": "Meerut",
+    "latitude": 28.9833333,
+    "longitude": 77.6999969
+  },
+  {
+    "city": "India",
+    "country": "Tirunelveli",
+    "latitude": 8.7333333,
+    "longitude": 77.6999969
+  },
+  {
+    "city": "India",
+    "country": "Bengaluru",
+    "latitude": 12.9762267,
+    "longitude": 77.6032944
+  },
+  {
+    "city": "India",
+    "country": "Saharanpur",
+    "latitude": 29.9666667,
+    "longitude": 77.5500031
+  },
+  {
+    "city": "India",
+    "country": "Teni",
+    "latitude": 10,
+    "longitude": 77.4833298
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Yesik",
+    "latitude": 43.355,
+    "longitude": 77.4633331
+  },
+  {
+    "city": "India",
+    "country": "Ghaziabad",
+    "latitude": 28.6666667,
+    "longitude": 77.4333344
+  },
+  {
+    "city": "India",
+    "country": "Bhopal",
+    "latitude": 23.2666667,
+    "longitude": 77.4000015
+  },
+  {
+    "city": "India",
+    "country": "Tiruppur",
+    "latitude": 11.1,
+    "longitude": 77.3499985
+  },
+  {
+    "city": "India",
+    "country": "Faridabad",
+    "latitude": 28.4333333,
+    "longitude": 77.3166656
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Talghar",
+    "latitude": 43.3044444,
+    "longitude": 77.2327805
+  },
+  {
+    "city": "India",
+    "country": "Delhi",
+    "latitude": 28.6666667,
+    "longitude": 77.2166672
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Kapchagai",
+    "latitude": 43.8833333,
+    "longitude": 77.0833359
+  },
+  {
+    "city": "India",
+    "country": "Akola",
+    "latitude": 20.7333333,
+    "longitude": 77
+  },
+  {
+    "city": "India",
+    "country": "Coimbatore",
+    "latitude": 11,
+    "longitude": 76.9666672
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Pavlodar",
+    "latitude": 52.3,
+    "longitude": 76.9499969
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Almaty",
+    "latitude": 43.25,
+    "longitude": 76.9499969
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Aqsu",
+    "latitude": 52.0333333,
+    "longitude": 76.9166641
+  },
+  {
+    "city": "India",
+    "country": "Thiruvananthapuram",
+    "latitude": 8.4833333,
+    "longitude": 76.9166641
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Burunday",
+    "latitude": 43.3602778,
+    "longitude": 76.8577805
+  },
+  {
+    "city": "India",
+    "country": "Gulbarga",
+    "latitude": 17.3333333,
+    "longitude": 76.8333359
+  },
+  {
+    "city": "India",
+    "country": "Chandigarh",
+    "latitude": 30.7372222,
+    "longitude": 76.7872238
+  },
+  {
+    "city": "India",
+    "country": "Mysore",
+    "latitude": 12.3072222,
+    "longitude": 76.6497192
+  },
+  {
+    "city": "India",
+    "country": "Quilon",
+    "latitude": 8.8833333,
+    "longitude": 76.5999985
+  },
+  {
+    "city": "Russia",
+    "country": "Nizhnevartovsk",
+    "latitude": 60.9333333,
+    "longitude": 76.5666656
+  },
+  {
+    "city": "India",
+    "country": "Cochin",
+    "latitude": 9.9666667,
+    "longitude": 76.2333298
+  },
+  {
+    "city": "India",
+    "country": "Solapur",
+    "latitude": 17.6833333,
+    "longitude": 75.9166641
+  },
+  {
+    "city": "India",
+    "country": "Ludhiana",
+    "latitude": 30.9,
+    "longitude": 75.8499985
+  },
+  {
+    "city": "India",
+    "country": "Kota",
+    "latitude": 25.1833333,
+    "longitude": 75.8333359
+  },
+  {
+    "city": "India",
+    "country": "Indore",
+    "latitude": 22.7179235,
+    "longitude": 75.8332977
+  },
+  {
+    "city": "India",
+    "country": "Jaipur",
+    "latitude": 26.9166667,
+    "longitude": 75.8166656
+  },
+  {
+    "city": "India",
+    "country": "Ujjain",
+    "latitude": 23.1833333,
+    "longitude": 75.7666702
+  },
+  {
+    "city": "India",
+    "country": "Calicut",
+    "latitude": 11.25,
+    "longitude": 75.7666702
+  },
+  {
+    "city": "India",
+    "country": "Gorakhpur",
+    "latitude": 29.45,
+    "longitude": 75.6833344
+  },
+  {
+    "city": "India",
+    "country": "Jalandhar",
+    "latitude": 31.3255556,
+    "longitude": 75.5791702
+  },
+  {
+    "city": "India",
+    "country": "Jalgaon",
+    "latitude": 21.0166667,
+    "longitude": 75.5666656
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ekibastuz",
+    "latitude": 51.6666667,
+    "longitude": 75.3666687
+  },
+  {
+    "city": "India",
+    "country": "Aurangabad",
+    "latitude": 19.8833333,
+    "longitude": 75.3333359
+  },
+  {
+    "city": "India",
+    "country": "Hubli",
+    "latitude": 15.35,
+    "longitude": 75.1666641
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Balkhash",
+    "latitude": 46.8480556,
+    "longitude": 74.9950027
+  },
+  {
+    "city": "Pakistan",
+    "country": "Narowal",
+    "latitude": 32.1,
+    "longitude": 74.8833313
+  },
+  {
+    "city": "India",
+    "country": "Mangalore",
+    "latitude": 12.8666667,
+    "longitude": 74.8833313
+  },
+  {
+    "city": "India",
+    "country": "Jammu",
+    "latitude": 32.7333333,
+    "longitude": 74.8666687
+  },
+  {
+    "city": "India",
+    "country": "Amritsar",
+    "latitude": 31.6330556,
+    "longitude": 74.8655548
+  },
+  {
+    "city": "India",
+    "country": "Srinagar",
+    "latitude": 34.0833333,
+    "longitude": 74.8166656
+  },
+  {
+    "city": "India",
+    "country": "Ahmadnagar",
+    "latitude": 19.0833333,
+    "longitude": 74.7333298
+  },
+  {
+    "city": "India",
+    "country": "Ajmer",
+    "latitude": 26.45,
+    "longitude": 74.6333313
+  },
+  {
+    "city": "India",
+    "country": "Malegaon",
+    "latitude": 20.55,
+    "longitude": 74.5333328
+  },
+  {
+    "city": "Pakistan",
+    "country": "Sialkot",
+    "latitude": 32.5,
+    "longitude": 74.5166702
+  },
+  {
+    "city": "India",
+    "country": "Belgaum",
+    "latitude": 15.8666667,
+    "longitude": 74.5
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kasur",
+    "latitude": 31.1155556,
+    "longitude": 74.4466629
+  },
+  {
+    "city": "Pakistan",
+    "country": "Daska",
+    "latitude": 32.3333333,
+    "longitude": 74.3499985
+  },
+  {
+    "city": "Pakistan",
+    "country": "Lahore",
+    "latitude": 31.5497222,
+    "longitude": 74.3436127
+  },
+  {
+    "city": "Pakistan",
+    "country": "Muridke",
+    "latitude": 31.8025,
+    "longitude": 74.2616653
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kamoke",
+    "latitude": 31.9744444,
+    "longitude": 74.2244415
+  },
+  {
+    "city": "India",
+    "country": "Kolhapur",
+    "latitude": 16.7,
+    "longitude": 74.2166672
+  },
+  {
+    "city": "Pakistan",
+    "country": "Jalalpur",
+    "latitude": 32.6333333,
+    "longitude": 74.1999969
+  },
+  {
+    "city": "Pakistan",
+    "country": "Gujranwala",
+    "latitude": 32.15,
+    "longitude": 74.1833344
+  },
+  {
+    "city": "Pakistan",
+    "country": "Wazirabad",
+    "latitude": 32.45,
+    "longitude": 74.1166687
+  },
+  {
+    "city": "Pakistan",
+    "country": "Gujrat",
+    "latitude": 32.5666667,
+    "longitude": 74.0833359
+  },
+  {
+    "city": "Pakistan",
+    "country": "Shekhupura",
+    "latitude": 31.7130556,
+    "longitude": 73.9783325
+  },
+  {
+    "city": "Pakistan",
+    "country": "Lala Musa",
+    "latitude": 32.7,
+    "longitude": 73.9666672
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Murghob",
+    "latitude": 38.1688889,
+    "longitude": 73.9649963
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kharian",
+    "latitude": 32.8166667,
+    "longitude": 73.8666687
+  },
+  {
+    "city": "India",
+    "country": "Pune",
+    "latitude": 18.5195742,
+    "longitude": 73.8553543
+  },
+  {
+    "city": "Pakistan",
+    "country": "Pattoki",
+    "latitude": 31.0166667,
+    "longitude": 73.8499985
+  },
+  {
+    "city": "Pakistan",
+    "country": "Chuhar Kana",
+    "latitude": 31.75,
+    "longitude": 73.8000031
+  },
+  {
+    "city": "India",
+    "country": "Nasik",
+    "latitude": 19.9833333,
+    "longitude": 73.8000031
+  },
+  {
+    "city": "India",
+    "country": "Pimpri",
+    "latitude": 18.6166667,
+    "longitude": 73.8000031
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Shu",
+    "latitude": 43.5983333,
+    "longitude": 73.7613907
+  },
+  {
+    "city": "Pakistan",
+    "country": "Jhelum",
+    "latitude": 32.9333333,
+    "longitude": 73.7333298
+  },
+  {
+    "city": "Pakistan",
+    "country": "Haveli",
+    "latitude": 30.45,
+    "longitude": 73.6999969
+  },
+  {
+    "city": "Pakistan",
+    "country": "Hafizabad",
+    "latitude": 32.0666667,
+    "longitude": 73.6833344
+  },
+  {
+    "city": "India",
+    "country": "Udaipur",
+    "latitude": 24.5833333,
+    "longitude": 73.6833344
+  },
+  {
+    "city": "Pakistan",
+    "country": "Dipalpur",
+    "latitude": 30.6666667,
+    "longitude": 73.6500015
+  },
+  {
+    "city": "Mali",
+    "country": "Muli",
+    "latitude": 2.9166667,
+    "longitude": 73.5666656
+  },
+  {
+    "city": "Mali",
+    "country": "Felidhoo",
+    "latitude": 3.4833333,
+    "longitude": 73.5333328
+  },
+  {
+    "city": "Mali",
+    "country": "Male",
+    "latitude": 4.1771077,
+    "longitude": 73.5098648
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mandi Bahauddin",
+    "latitude": 32.5833333,
+    "longitude": 73.5
+  },
+  {
+    "city": "Pakistan",
+    "country": "Okara",
+    "latitude": 30.8080556,
+    "longitude": 73.4458313
+  },
+  {
+    "city": "Pakistan",
+    "country": "Jaranwala",
+    "latitude": 31.3333333,
+    "longitude": 73.4333344
+  },
+  {
+    "city": "Russia",
+    "country": "Surgut",
+    "latitude": 61.25,
+    "longitude": 73.4166641
+  },
+  {
+    "city": "Russia",
+    "country": "Omsk",
+    "latitude": 55,
+    "longitude": 73.4000015
   }
 ]
