@@ -19114,5 +19114,557 @@
     "country": "Kafr Sawm",
     "latitude": 32.6833333,
     "longitude": 35.7999992
+  },
+  {
+    "city": "Jordan",
+    "country": "Madaba",
+    "latitude": 31.7166667,
+    "longitude": 35.7999992
+  },
+  {
+    "city": "Jordan",
+    "country": "Dayr Yusuf",
+    "latitude": 32.4919444,
+    "longitude": 35.7955551
+  },
+  {
+    "city": "Syria",
+    "country": "Latakia",
+    "latitude": 35.5166667,
+    "longitude": 35.7833328
+  },
+  {
+    "city": "Jordan",
+    "country": "Bayt Yafa",
+    "latitude": 32.5166667,
+    "longitude": 35.7833328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kondoa",
+    "latitude": -4.9,
+    "longitude": 35.7833328
+  },
+  {
+    "city": "Jordan",
+    "country": "Burma",
+    "latitude": 32.22,
+    "longitude": 35.7811127
+  },
+  {
+    "city": "Jordan",
+    "country": "Hatim",
+    "latitude": 32.6452778,
+    "longitude": 35.7783318
+  },
+  {
+    "city": "Jordan",
+    "country": "Zahar",
+    "latitude": 32.5666667,
+    "longitude": 35.7775002
+  },
+  {
+    "city": "Jordan",
+    "country": "Saham",
+    "latitude": 32.6983333,
+    "longitude": 35.7761116
+  },
+  {
+    "city": "Jordan",
+    "country": "`Ayn Janna",
+    "latitude": 32.3333333,
+    "longitude": 35.7666664
+  },
+  {
+    "city": "Jordan",
+    "country": "Adir",
+    "latitude": 31.2,
+    "longitude": 35.7666664
+  },
+  {
+    "city": "Sudan",
+    "country": "Doka",
+    "latitude": 13.5166667,
+    "longitude": 35.7666664
+  },
+  {
+    "city": "Tanzania",
+    "country": "Magugu",
+    "latitude": -4.0166667,
+    "longitude": 35.7666664
+  },
+  {
+    "city": "Jordan",
+    "country": "`Anjarah",
+    "latitude": 32.3069444,
+    "longitude": 35.7536125
+  },
+  {
+    "city": "Jordan",
+    "country": "Malka",
+    "latitude": 32.6744444,
+    "longitude": 35.752224
+  },
+  {
+    "city": "Jordan",
+    "country": "`Ajlun",
+    "latitude": 32.3338889,
+    "longitude": 35.7508316
+  },
+  {
+    "city": "Kenya",
+    "country": "Kabarnet",
+    "latitude": 0.5,
+    "longitude": 35.75
+  },
+  {
+    "city": "Tanzania",
+    "country": "Babati",
+    "latitude": -4.2166667,
+    "longitude": 35.75
+  },
+  {
+    "city": "Tanzania",
+    "country": "Dodoma",
+    "latitude": -6.1833333,
+    "longitude": 35.75
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Qasr",
+    "latitude": 31.3144444,
+    "longitude": 35.7449989
+  },
+  {
+    "city": "Jordan",
+    "country": "Ar Rabbah",
+    "latitude": 31.2702778,
+    "longitude": 35.7386093
+  },
+  {
+    "city": "Jordan",
+    "country": "Tibnah",
+    "latitude": 32.4833333,
+    "longitude": 35.7333336
+  },
+  {
+    "city": "Kenya",
+    "country": "Molo",
+    "latitude": -0.25,
+    "longitude": 35.7333336
+  },
+  {
+    "city": "Jordan",
+    "country": "Qumaym",
+    "latitude": 32.5702778,
+    "longitude": 35.7316666
+  },
+  {
+    "city": "Jordan",
+    "country": "As Salt",
+    "latitude": 32.0391667,
+    "longitude": 35.7272224
+  },
+  {
+    "city": "Jordan",
+    "country": "At Tayyibah",
+    "latitude": 32.5416667,
+    "longitude": 35.7169456
+  },
+  {
+    "city": "Jordan",
+    "country": "Kafr Asad",
+    "latitude": 32.6,
+    "longitude": 35.7166672
+  },
+  {
+    "city": "Kenya",
+    "country": "Eldama Ravine",
+    "latitude": 0.05,
+    "longitude": 35.7166672
+  },
+  {
+    "city": "Jordan",
+    "country": "Qir Moav",
+    "latitude": 31.1847222,
+    "longitude": 35.7047234
+  },
+  {
+    "city": "Jordan",
+    "country": "Judayta",
+    "latitude": 32.4,
+    "longitude": 35.7000008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Iringa",
+    "latitude": -7.7666667,
+    "longitude": 35.7000008
+  },
+  {
+    "city": "Jordan",
+    "country": "Bayt Idis",
+    "latitude": 32.4369444,
+    "longitude": 35.6997223
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Mazar",
+    "latitude": 31.0655556,
+    "longitude": 35.6961098
+  },
+  {
+    "city": "Jordan",
+    "country": "Yarqa",
+    "latitude": 31.9786111,
+    "longitude": 35.6933327
+  },
+  {
+    "city": "Jordan",
+    "country": "`Izra",
+    "latitude": 31.1588889,
+    "longitude": 35.6927795
+  },
+  {
+    "city": "Jordan",
+    "country": "Samma",
+    "latitude": 32.5722222,
+    "longitude": 35.690834
+  },
+  {
+    "city": "Jordan",
+    "country": "Umm Qays",
+    "latitude": 32.655,
+    "longitude": 35.6836128
+  },
+  {
+    "city": "Jordan",
+    "country": "Kafr Abil",
+    "latitude": 32.4183333,
+    "longitude": 35.6699982
+  },
+  {
+    "city": "Jordan",
+    "country": "Halawah",
+    "latitude": 32.3863889,
+    "longitude": 35.6608315
+  },
+  {
+    "city": "Lebanon",
+    "country": "Batroun",
+    "latitude": 34.2552778,
+    "longitude": 35.6580544
+  },
+  {
+    "city": "Tanzania",
+    "country": "Songea",
+    "latitude": -10.6833333,
+    "longitude": 35.6500015
+  },
+  {
+    "city": "Malaysia",
+    "country": "Phalombe",
+    "latitude": -15.8,
+    "longitude": 35.6500015
+  },
+  {
+    "city": "Lebanon",
+    "country": "Jbail",
+    "latitude": 34.1211111,
+    "longitude": 35.648056
+  },
+  {
+    "city": "Jordan",
+    "country": "`Ayy",
+    "latitude": 31.1333333,
+    "longitude": 35.6408348
+  },
+  {
+    "city": "Lebanon",
+    "country": "Jounie",
+    "latitude": 33.9808333,
+    "longitude": 35.6177788
+  },
+  {
+    "city": "Jordan",
+    "country": "At Tayyibah",
+    "latitude": 31.0558333,
+    "longitude": 35.601387
+  },
+  {
+    "city": "Jordan",
+    "country": "Waqqas",
+    "latitude": 32.55,
+    "longitude": 35.5999985
+  },
+  {
+    "city": "Jordan",
+    "country": "At Tafilah",
+    "latitude": 30.8333333,
+    "longitude": 35.5999985
+  },
+  {
+    "city": "Jordan",
+    "country": "Busayra",
+    "latitude": 30.7333333,
+    "longitude": 35.5999985
+  },
+  {
+    "city": "Kenya",
+    "country": "Lodwar",
+    "latitude": 3.1166667,
+    "longitude": 35.5999985
+  },
+  {
+    "city": "Kenya",
+    "country": "Londiani",
+    "latitude": -0.1666667,
+    "longitude": 35.5999985
+  },
+  {
+    "city": "Jordan",
+    "country": "Kurayyimah",
+    "latitude": 32.2791667,
+    "longitude": 35.5977783
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Metu",
+    "latitude": 8.3,
+    "longitude": 35.5833321
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Mizan Teferi",
+    "latitude": 6.9833333,
+    "longitude": 35.5833321
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Karamah",
+    "latitude": 31.9522222,
+    "longitude": 35.5791664
+  },
+  {
+    "city": "Israel",
+    "country": "Qiryat Shemona",
+    "latitude": 33.2080556,
+    "longitude": 35.5686111
+  },
+  {
+    "city": "Israel",
+    "country": "Rosh Pinna",
+    "latitude": 32.9666667,
+    "longitude": 35.5333328
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gore",
+    "latitude": 8.15,
+    "longitude": 35.5333328
+  },
+  {
+    "city": "Israel",
+    "country": "Tiberias",
+    "latitude": 32.7955556,
+    "longitude": 35.5286102
+  },
+  {
+    "city": "Malaysia",
+    "country": "Machinga",
+    "latitude": -14.9666667,
+    "longitude": 35.5166664
+  },
+  {
+    "city": "Lebanon",
+    "country": "Beirut",
+    "latitude": 33.8719444,
+    "longitude": 35.5097237
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Nejo",
+    "latitude": 9.5,
+    "longitude": 35.5
+  },
+  {
+    "city": "Malaysia",
+    "country": "Mulanje",
+    "latitude": -16.0333333,
+    "longitude": 35.5
+  },
+  {
+    "city": "Israel",
+    "country": "Zefat",
+    "latitude": 32.9666667,
+    "longitude": 35.4944458
+  },
+  {
+    "city": "Turkey",
+    "country": "Kayseri",
+    "latitude": 38.7322222,
+    "longitude": 35.4852791
+  },
+  {
+    "city": "Jordan",
+    "country": "Wadi Musa",
+    "latitude": 30.3166667,
+    "longitude": 35.4833336
+  },
+  {
+    "city": "Lebanon",
+    "country": "Habbouch",
+    "latitude": 33.4075,
+    "longitude": 35.4827766
+  },
+  {
+    "city": "Jordan",
+    "country": "At Tayyibah",
+    "latitude": 30.25,
+    "longitude": 35.4666672
+  },
+  {
+    "city": "Kenya",
+    "country": "Lumbwa",
+    "latitude": -0.2,
+    "longitude": 35.4666672
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Tepi",
+    "latitude": 7.2,
+    "longitude": 35.4500008
+  },
+  {
+    "city": "Israel",
+    "country": "Jish",
+    "latitude": 33.0247222,
+    "longitude": 35.4444427
+  },
+  {
+    "city": "Israel",
+    "country": "Kafr Kama",
+    "latitude": 32.7166667,
+    "longitude": 35.4416656
+  },
+  {
+    "city": "Israel",
+    "country": "Kefar Tavor",
+    "latitude": 32.6888889,
+    "longitude": 35.4208336
+  },
+  {
+    "city": "Israel",
+    "country": "Maghar",
+    "latitude": 32.8869444,
+    "longitude": 35.4069443
+  },
+  {
+    "city": "Lebanon",
+    "country": "Ain Ebel",
+    "latitude": 33.1102269,
+    "longitude": 35.4025078
+  },
+  {
+    "city": "Ukraine",
+    "country": "Feodosiya",
+    "latitude": 45.0333333,
+    "longitude": 35.3833351
+  },
+  {
+    "city": "Mozambique",
+    "country": "Inhambane",
+    "latitude": -23.865,
+    "longitude": 35.3833351
+  },
+  {
+    "city": "Israel",
+    "country": "Beit Jann",
+    "latitude": 32.9652778,
+    "longitude": 35.3794441
+  },
+  {
+    "city": "Israel",
+    "country": "Dabburiya",
+    "latitude": 32.6958333,
+    "longitude": 35.3722229
+  },
+  {
+    "city": "Lebanon",
+    "country": "Sidon",
+    "latitude": 33.5630556,
+    "longitude": 35.3688889
+  },
+  {
+    "city": "Israel",
+    "country": "Deir Hanna",
+    "latitude": 32.8625,
+    "longitude": 35.3666649
+  },
+  {
+    "city": "Kenya",
+    "country": "Bomet",
+    "latitude": -0.7833333,
+    "longitude": 35.3499985
+  },
+  {
+    "city": "Israel",
+    "country": "Hurfeish",
+    "latitude": 33.015,
+    "longitude": 35.3494453
+  },
+  {
+    "city": "Mozambique",
+    "country": "Maxixe",
+    "latitude": -23.8597222,
+    "longitude": 35.3472214
+  },
+  {
+    "city": "Israel",
+    "country": "Sajur",
+    "latitude": 32.9458333,
+    "longitude": 35.3430557
+  },
+  {
+    "city": "Israel",
+    "country": "Kafr Kanna",
+    "latitude": 32.75,
+    "longitude": 35.3416672
+  },
+  {
+    "city": "Israel",
+    "country": "Sulam",
+    "latitude": 32.6083333,
+    "longitude": 35.3333321
+  },
+  {
+    "city": "Malaysia",
+    "country": "Zomba",
+    "latitude": -15.3833333,
+    "longitude": 35.3333321
+  },
+  {
+    "city": "Israel",
+    "country": "`Uzeir",
+    "latitude": 32.7944444,
+    "longitude": 35.3319435
+  },
+  {
+    "city": "Turkey",
+    "country": "Adana",
+    "latitude": 37.0016667,
+    "longitude": 35.3288879
+  },
+  {
+    "city": "Israel",
+    "country": "Iksal",
+    "latitude": 32.6786111,
+    "longitude": 35.3222237
+  },
+  {
+    "city": "Israel",
+    "country": "Nahf",
+    "latitude": 32.9333333,
+    "longitude": 35.3166656
   }
 ]
