@@ -1,79 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Bunny Tracker</title>
     <style>
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-color: #3E7FC1; /* Blue snowy background */
-        }
+      body {
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        background-color: #3e7fc1; /* Blue snowy background */
+      }
 
-        #message {
-            font-size: 36px;
-            color: white;
-            text-align: center;
-        }
+      #message {
+        font-size: 36px;
+        color: white;
+        text-align: center;
+      }
     </style>
-</head>
-<body>
-<div id="message">Waiting for the Easter Bunny To Launch from Easter Island.</div>
+  </head>
+  <body>
+    <div id="message">
+      Waiting for the Easter Bunny To Launch from Easter Island.
+    </div>
 
-<script>
-    function fetchMessage() {
-        fetch('/getmessage')
-            .then(response => {
-                if (!response.ok) {
-                    throw new Error('Network response was not ok');
-                }
-                return response.text();
-            })
-            .then(message => {
-                document.getElementById('message').textContent = message;
-            })
-            .catch(error => {
-                console.error('There was a problem with the fetch operation:', error);
-            });
-    }
+    <script>
+      function fetchMessage() {
+        fetch("/getmessage")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Network response was not ok");
+            }
+            return response.text();
+          })
+          .then((message) => {
+            document.getElementById("message").textContent = message;
+          })
+          .catch((error) => {
+            console.error(
+              "There was a problem with the fetch operation:",
+              error
+            );
+          });
+      }
 
-    // Call fetchMessage function when the page loads
-    window.onload = fetchMessage;
-  function handleSSE(event) {
-    // Parse the event data
-    const data = JSON.parse(event.data);
-    
-    // Check if the tracker has started
-    if (data.messageupdate) {
-        // Refresh the page to the home page if the tracker has started
-        document.getElementById('message').textContent = data.messageupdate
-    }
-    if (data.trackerStarted === true) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-  if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-    if (data.trackerEnded === true) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/ended.html';
-    }
-  }
-    // Function to start listening for SSE messages
-    function startSSE() {
-        const eventSource = new EventSource('/updates');
+      // Call fetchMessage function when the page loads
+      window.onload = fetchMessage;
+      function handleSSE(event) {
+        // Parse the event data
+        const data = JSON.parse(event.data);
+
+        // Check if the tracker has started
+        if (data.messageupdate) {
+          // Refresh the page to the home page if the tracker has started
+          document.getElementById("message").textContent = data.messageupdate;
+        }
+        if (data.trackerStarted === true) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.unlocked === false) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.trackerEnded === true) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/ended.html";
+        }
+      }
+      // Function to start listening for SSE messages
+      function startSSE() {
+        const eventSource = new EventSource("/updates");
         eventSource.onmessage = handleSSE;
-    }
-
-    // Start listening for SSE messages
-    startSSE();
-</script>
-</body>
+      }
+setInterval(function () {
+        window.location.href = "/";
+      }, 10000);
+      // Start listening for SSE messages
+      startSSE();
+      
+    </script>
+  </body>
 </html>

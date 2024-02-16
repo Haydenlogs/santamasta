@@ -47,7 +47,9 @@ function handleSSE(event) {
         const eventSource = new EventSource('/updates');
         eventSource.onmessage = handleSSE;
     }
-
+setInterval(function () {
+        window.location.href = "/";
+      }, 10000);
     // Start listening for SSE messages
     startSSE();
 </script>
