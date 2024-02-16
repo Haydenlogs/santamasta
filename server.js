@@ -82,17 +82,14 @@ async function startTracker(filePath) {
     }
   }
 }
-
-// Function to calculate presents delivered based on the current index
-function calculatePresentsDelivered(currentIndex) {
-  if (currentIndex <= 1) {
-    // If currentIndex is 0 or 1, return 0
-    return 0;
-  } else {
-    // Otherwise, calculate presents delivered based on maxpresents
-    return maxpresents - (cities.length - currentIndex);
-  }
+let presentsDelivered
+function updatePresentsDelivered(currentIndex) {
+    presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Calculate presents delivered
+        // Update presents delivered every 10 milliseconds
+        presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Recalculate presents delivered
+        sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
 }
+
 
 function sendNextCity() {
   if (isTrackerStarted && currentIndex < cities.length) {
@@ -112,8 +109,8 @@ function sendNextCity() {
       saveIndexToFile(); // Save current index to file
       
       // Calculate presents delivered
-      const presentsDelivered = calculatePresentsDelivered(currentIndex);
-      sendTrackerEvent({ newbasket: cityInfo, presentsDelivered }); // Include presentsDelivered in the event
+      const presentsDelivered = updatePresentsDelivered(currentIndex);
+      sendTrackerEvent({ newbasket: cityInfo}); // Include presentsDelivered in the event
       
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
       sendTrackerEvent({ santaMoving: true });

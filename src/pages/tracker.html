@@ -311,7 +311,7 @@
 
       function changeSantaImage() {
         // Change the src attribute to the GIF link
-        santa.classList.remove("floating");
+        //santa.classList.remove("floating");
         santa.src =
           "https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s";
 
@@ -319,7 +319,7 @@
 
         // Set a timeout to revert back to the original image after one second
         setTimeout(function () {
-          santa.classList.add("floating");
+          //santa.classList.add("floating");
           santa.src = "https://cdn-icons-png.flaticon.com/512/347/347485.png";
           // Remove floating animation class
         }, 1000); // 1000 milliseconds = 1 second
