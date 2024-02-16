@@ -20716,5 +20716,515 @@
     "country": "Livingstonia",
     "latitude": -10.6,
     "longitude": 34.1166649
+  },
+  {
+    "city": "Kenya",
+    "country": "Luanda",
+    "latitude": 0.3077778,
+    "longitude": 34.0586128
+  },
+  {
+    "city": "Cyprus",
+    "country": "Protaras",
+    "latitude": 35.0125,
+    "longitude": 34.0583344
+  },
+  {
+    "city": "Turkey",
+    "country": "Eregli",
+    "latitude": 37.5133343,
+    "longitude": 34.0467186
+  },
+  {
+    "city": "Turkey",
+    "country": "Aksaray",
+    "latitude": 38.3741667,
+    "longitude": 34.0288887
+  },
+  {
+    "city": "Tanzania",
+    "country": "Chimala",
+    "latitude": -8.85,
+    "longitude": 34.0166664
+  },
+  {
+    "city": "Cyprus",
+    "country": "Ayia Napa",
+    "latitude": 34.9821331,
+    "longitude": 34.0018272
+  },
+  {
+    "city": "Cyprus",
+    "country": "Paralimni",
+    "latitude": 35.0375,
+    "longitude": 33.9833336
+  },
+  {
+    "city": "Sudan",
+    "country": "Barbar",
+    "latitude": 18.0166667,
+    "longitude": 33.9833336
+  },
+  {
+    "city": "Tanzania",
+    "country": "Bariadi",
+    "latitude": -2.8,
+    "longitude": 33.9833336
+  },
+  {
+    "city": "Sudan",
+    "country": "Atbara",
+    "latitude": 17.6972222,
+    "longitude": 33.9783325
+  },
+  {
+    "city": "Kenya",
+    "country": "Port Bunyala",
+    "latitude": 0.1,
+    "longitude": 33.9666672
+  },
+  {
+    "city": "Sudan",
+    "country": "Ad-Damar",
+    "latitude": 17.5927778,
+    "longitude": 33.9591675
+  },
+  {
+    "city": "Cyprus",
+    "country": "Dherinia",
+    "latitude": 35.0666667,
+    "longitude": 33.9583321
+  },
+  {
+    "city": "Cyprus",
+    "country": "Famagusta",
+    "latitude": 35.125,
+    "longitude": 33.9500008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Somanda",
+    "latitude": -3.3666667,
+    "longitude": 33.9500008
+  },
+  {
+    "city": "Turkey",
+    "country": "Silifke",
+    "latitude": 36.3777778,
+    "longitude": 33.9344444
+  },
+  {
+    "city": "Sudan",
+    "country": "Sinjah",
+    "latitude": 13.15,
+    "longitude": 33.9333344
+  },
+  {
+    "city": "Malaysia",
+    "country": "Karonga",
+    "latitude": -9.9333333,
+    "longitude": 33.9333344
+  },
+  {
+    "city": "Malaysia",
+    "country": "Dowa",
+    "latitude": -13.65,
+    "longitude": 33.9333344
+  },
+  {
+    "city": "Cyprus",
+    "country": "Phrenaros",
+    "latitude": 35.0416667,
+    "longitude": 33.9249992
+  },
+  {
+    "city": "Sudan",
+    "country": "Al Bauga",
+    "latitude": 18.2666667,
+    "longitude": 33.9166679
+  },
+  {
+    "city": "Cyprus",
+    "country": "Trikomo",
+    "latitude": 35.2875,
+    "longitude": 33.8916664
+  },
+  {
+    "city": "Cyprus",
+    "country": "Liopetri",
+    "latitude": 35.0083333,
+    "longitude": 33.8916664
+  },
+  {
+    "city": "Sudan",
+    "country": "As Suki",
+    "latitude": 13.3166667,
+    "longitude": 33.8833351
+  },
+  {
+    "city": "Tanzania",
+    "country": "Igunga",
+    "latitude": -4.2833333,
+    "longitude": 33.8833351
+  },
+  {
+    "city": "Mozambique",
+    "country": "Manjacaze",
+    "latitude": -24.7116667,
+    "longitude": 33.8827782
+  },
+  {
+    "city": "Tanzania",
+    "country": "Bunda",
+    "latitude": -2.05,
+    "longitude": 33.8666649
+  },
+  {
+    "city": "Malaysia",
+    "country": "Rumphi",
+    "latitude": -11.0166667,
+    "longitude": 33.8666649
+  },
+  {
+    "city": "Cyprus",
+    "country": "Akhyritou",
+    "latitude": 35.1,
+    "longitude": 33.8624992
+  },
+  {
+    "city": "Tanzania",
+    "country": "Igurusi",
+    "latitude": -8.85,
+    "longitude": 33.8499985
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kyela",
+    "latitude": -9.5833333,
+    "longitude": 33.8499985
+  },
+  {
+    "city": "Cyprus",
+    "country": "Avgorou",
+    "latitude": 35.0375,
+    "longitude": 33.8333321
+  },
+  {
+    "city": "Tanzania",
+    "country": "Musoma",
+    "latitude": -1.5,
+    "longitude": 33.7999992
+  },
+  {
+    "city": "Cyprus",
+    "country": "Athna",
+    "latitude": 35.0583333,
+    "longitude": 33.7833328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Nyalikungu",
+    "latitude": -3.1833333,
+    "longitude": 33.7833328
+  },
+  {
+    "city": "Malaysia",
+    "country": "Lilongwe",
+    "latitude": -13.9833333,
+    "longitude": 33.7833328
+  },
+  {
+    "city": "Cyprus",
+    "country": "Xylotymbou",
+    "latitude": 35.0166667,
+    "longitude": 33.75
+  },
+  {
+    "city": "Cyprus",
+    "country": "Lefkoniko",
+    "latitude": 35.2583333,
+    "longitude": 33.7333336
+  },
+  {
+    "city": "Malaysia",
+    "country": "Mponela",
+    "latitude": -13.5166667,
+    "longitude": 33.7166672
+  },
+  {
+    "city": "Uganda",
+    "country": "Pallisa",
+    "latitude": 1.145,
+    "longitude": 33.709446
+  },
+  {
+    "city": "Cyprus",
+    "country": "Pyla",
+    "latitude": 35.0291667,
+    "longitude": 33.6916656
+  },
+  {
+    "city": "Sudan",
+    "country": "Maiurno",
+    "latitude": 13.4166667,
+    "longitude": 33.6666679
+  },
+  {
+    "city": "Cyprus",
+    "country": "Voroklini",
+    "latitude": 34.9833333,
+    "longitude": 33.6583328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Tukuyu",
+    "latitude": -9.25,
+    "longitude": 33.6500015
+  },
+  {
+    "city": "Ukraine",
+    "country": "Komsomolsk",
+    "latitude": 49.0097264,
+    "longitude": 33.6454582
+  },
+  {
+    "city": "Mozambique",
+    "country": "Xai-Xai",
+    "latitude": -25.0519444,
+    "longitude": 33.644165
+  },
+  {
+    "city": "Sudan",
+    "country": "Sannar",
+    "latitude": 13.55,
+    "longitude": 33.6333351
+  },
+  {
+    "city": "Cyprus",
+    "country": "Livadhia",
+    "latitude": 34.9541667,
+    "longitude": 33.6291656
+  },
+  {
+    "city": "Cyprus",
+    "country": "Larnaca",
+    "latitude": 34.9166667,
+    "longitude": 33.6291656
+  },
+  {
+    "city": "Cyprus",
+    "country": "Troulli",
+    "latitude": 35.0333333,
+    "longitude": 33.6166649
+  },
+  {
+    "city": "Tanzania",
+    "country": "Katumba",
+    "latitude": -9.2333333,
+    "longitude": 33.6166649
+  },
+  {
+    "city": "Uganda",
+    "country": "Busembatia",
+    "latitude": 0.7697222,
+    "longitude": 33.6130562
+  },
+  {
+    "city": "Malaysia",
+    "country": "Mzimba",
+    "latitude": -11.9,
+    "longitude": 33.5999985
+  },
+  {
+    "city": "Cyprus",
+    "country": "Aradhippou",
+    "latitude": 34.95,
+    "longitude": 33.5916672
+  },
+  {
+    "city": "Sudan",
+    "country": "Kapoeta",
+    "latitude": 4.7716667,
+    "longitude": 33.5902786
+  },
+  {
+    "city": "Cyprus",
+    "country": "Dhromolaxia",
+    "latitude": 34.8755102,
+    "longitude": 33.5868378
+  },
+  {
+    "city": "Mozambique",
+    "country": "Tete",
+    "latitude": -16.1563889,
+    "longitude": 33.5866661
+  },
+  {
+    "city": "Cyprus",
+    "country": "Perivolia",
+    "latitude": 34.8291667,
+    "longitude": 33.5833321
+  },
+  {
+    "city": "Cyprus",
+    "country": "Kiti",
+    "latitude": 34.85,
+    "longitude": 33.5750008
+  },
+  {
+    "city": "Cyprus",
+    "country": "Meneou",
+    "latitude": 34.85,
+    "longitude": 33.5708351
+  },
+  {
+    "city": "Cyprus",
+    "country": "Tersephanou",
+    "latitude": 34.8541667,
+    "longitude": 33.5458336
+  },
+  {
+    "city": "Cyprus",
+    "country": "Athienou",
+    "latitude": 35.0666667,
+    "longitude": 33.5416679
+  },
+  {
+    "city": "Sudan",
+    "country": "Wad Madani",
+    "latitude": 14.4,
+    "longitude": 33.5333328
+  },
+  {
+    "city": "Mozambique",
+    "country": "Chibuto",
+    "latitude": -24.6866667,
+    "longitude": 33.5305557
+  },
+  {
+    "city": "Tanzania",
+    "country": "Songwa",
+    "latitude": -3.5166667,
+    "longitude": 33.5166664
+  },
+  {
+    "city": "Ukraine",
+    "country": "Zhovti Vody",
+    "latitude": 48.3436111,
+    "longitude": 33.5077782
+  },
+  {
+    "city": "Turkey",
+    "country": "Kirikkale",
+    "latitude": 39.8452778,
+    "longitude": 33.5063896
+  },
+  {
+    "city": "Cyprus",
+    "country": "Alethriko",
+    "latitude": 34.8611111,
+    "longitude": 33.4958344
+  },
+  {
+    "city": "Cyprus",
+    "country": "Mazotos",
+    "latitude": 34.8083333,
+    "longitude": 33.4874992
+  },
+  {
+    "city": "Ukraine",
+    "country": "Shostka",
+    "latitude": 51.8666667,
+    "longitude": 33.4833336
+  },
+  {
+    "city": "Malaysia",
+    "country": "Kasungu",
+    "latitude": -13.0333333,
+    "longitude": 33.4833336
+  },
+  {
+    "city": "Mozambique",
+    "country": "Chimoio",
+    "latitude": -19.1163889,
+    "longitude": 33.4833336
+  },
+  {
+    "city": "Uganda",
+    "country": "Mayuge",
+    "latitude": 0.4597222,
+    "longitude": 33.480278
+  },
+  {
+    "city": "Uganda",
+    "country": "Iganga",
+    "latitude": 0.6091667,
+    "longitude": 33.4686127
+  },
+  {
+    "city": "Ukraine",
+    "country": "Romny",
+    "latitude": 50.75,
+    "longitude": 33.4666672
+  },
+  {
+    "city": "Cyprus",
+    "country": "Lympia",
+    "latitude": 35,
+    "longitude": 33.4625015
+  },
+  {
+    "city": "Cyprus",
+    "country": "Psevdhas",
+    "latitude": 34.95,
+    "longitude": 33.4625015
+  },
+  {
+    "city": "Cyprus",
+    "country": "Anaphotia",
+    "latitude": 34.825,
+    "longitude": 33.4625015
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mbeya",
+    "latitude": -8.9,
+    "longitude": 33.4500008
+  },
+  {
+    "city": "Sudan",
+    "country": "Shendi",
+    "latitude": 16.6913889,
+    "longitude": 33.434166
+  },
+  {
+    "city": "Tanzania",
+    "country": "Shinyanga",
+    "latitude": -3.6666667,
+    "longitude": 33.4333344
+  },
+  {
+    "city": "Cyprus",
+    "country": "Mosphiloti",
+    "latitude": 34.95,
+    "longitude": 33.4291649
+  },
+  {
+    "city": "Cyprus",
+    "country": "Dhali",
+    "latitude": 35.025,
+    "longitude": 33.4208336
+  },
+  {
+    "city": "Ukraine",
+    "country": "Kremenchuk",
+    "latitude": 49.0666667,
+    "longitude": 33.4166679
+  },
+  {
+    "city": "Cyprus",
+    "country": "Yeri",
+    "latitude": 35.1,
+    "longitude": 33.4166679
   }
 ]
