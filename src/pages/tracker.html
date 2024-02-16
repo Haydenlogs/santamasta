@@ -96,7 +96,6 @@
             width: 5%; /* Adjust size relative to the container */
             max-width: 50px; /* Limit maximum width */
             height: auto; /* Maintain aspect ratio */
-            transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
             cursor: pointer; /* Change cursor to pointer when hovering over Santa */
           z-index: 1000; /* Ensure bunny icon is above everything else */
         }
@@ -285,22 +284,11 @@ async function fetchBaskets() {
             }, 1000); // 1000 milliseconds = 1 second
         }
 
-        const nextCityInfo = document.getElementById('nextCityInfo');
-        const lastCityInfo = document.getElementById('lastCityInfo');
-        const santa = document.getElementById('santa');
-        const mapContainer = document.getElementById('map-container');
-        const mapImage = document.getElementById('map-image');
-        let scale = 1;
+        
 
 
 
 
-
-        const eventSource = new EventSource('/updates');
-        let followingSanta = false;
-
-        // Array to store line elements
-        let lines = [];
 
         eventSource.onmessage = function (event) {
             const data = JSON.parse(event.data);
@@ -308,75 +296,130 @@ async function fetchBaskets() {
         };
 
         // Function to update tracker information
-function updateTracker(data) {
-    if (data.nextCity && data.timeLeft) {
-        nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
-    } else {
-        nextCityInfo.textContent = '';
-    }
-
-    if (data.lastCity) {
-        lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
-    } else {
-        lastCityInfo.textContent = '';
-    }
-
-    if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
-        const { latitude, longitude } = data.currentCity;
+// Update Santa's position on the zoomed-in map
+    function updateSantaPosition(timeLeft) {
         const { width, height } = mapContainer.getBoundingClientRect();
-        const x = (longitude + 180) * (width / 360);
-        const y = (90 - latitude) * (height / 180);
-        santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
-        santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
-    }
-}
-        santa.addEventListener('click', function () {
-            followingSanta = !followingSanta;
-            if (followingSanta) {
-                santa.style.backgroundColor = 'yellow'; // Change color to indicate following
-            } else {
-                santa.style.backgroundColor = ''; // Remove background color
+        const { left, top } = mapImage.getBoundingClientRect();
+        const santaX = parseFloat(santa.style.left) || 0;
+        const santaY = parseFloat(santa.style.top) || 0;
+
+        // Calculate the distance to move based on time left
+        const distanceToMoveX = (width / 2 - (santaX + left)) / timeLeft;
+        const distanceToMoveY = (height / 2 - (santaY + top)) / timeLeft;
+
+        // Update Santa's position
+        const updatePosition = () => {
+            let newX = santaX + distanceToMoveX;
+            let newY = santaY + distanceToMoveY;
+
+            // Stop moving when Santa reaches close to the destination
+            if (Math.abs(newX - width / 2) < 10 && Math.abs(newY - height / 2) < 10) {
+                clearInterval(moveInterval);
+                return;
             }
-        });
 
-      // Function to handle SSE messages
-function handleSSE(event) {
-    // Parse the event data
-    const data = JSON.parse(event.data);
+            // Update Santa's position
+            santa.style.left = `${newX}px`;
+            santa.style.top = `${newY}px`;
+        };
 
-    // Check if the tracker has ended
-    if (data.trackerEnded === true) {
-        // Refresh the page to the home page if the tracker has ended
-        window.location.href = 'ended.html';
+        // Move Santa continuously towards the next position
+        const moveInterval = setInterval(updatePosition, 1000); // Update position every second
     }
-    if (data.santaMoving === true) {
-        // Refresh the page to the home page if the tracker has ended
-        changeSantaImage();
-    }
-    if (data.unlocked === false) {
-        // Refresh the page to the home page if the tracker has started
-        window.location.href = '/';
-    }
-    if (data.newbasket) {
-        // Add the basket to the map after a delay of 1 second
-        setTimeout(function() {
-            addBasket(data.newbasket);
-        }, 9000); // 1000 milliseconds = 1 second
-    }
-}
 
-      
+    // Function to update tracker information
+    function updateTracker(data) {
+        if (data.nextCity && data.timeLeft) {
+            nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
 
-        // Function to start listening for SSE messages
-        function startSSE() {
-            const eventSource = new EventSource('/updates');
-            eventSource.onmessage = handleSSE;
+            // Update Santa's position towards the next point
+            updateSantaPosition(data.timeLeft);
+        } else {
+            nextCityInfo.textContent = '';
         }
 
-        window.onload = function () {
-    fetchBaskets(); // Fetch all baskets onload
-    startSSE(); // Start listening for SSE messages
-};
+        if (data.lastCity) {
+            lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
+        } else {
+            lastCityInfo.textContent = '';
+        }
+
+        if (data.currentCity && data.currentCity.latitude && data.currentCity.longitude) {
+            const { latitude, longitude } = data.currentCity;
+            const { width, height } = mapContainer.getBoundingClientRect();
+            const x = (longitude + 180) * (width / 360);
+            const y = (90 - latitude) * (height / 180);
+            santa.style.left = `${(x - santa.offsetWidth / 2) - 10}px`; // Adjust for the size of the Santa image
+            santa.style.top = `${(y - santa.offsetHeight / 2) + 25}px`; // Adjust for the size of the Santa image
+        }
+    }
+
+    // Add event listener for search input
+    document.getElementById('searchInput').addEventListener('input', filterBasketList);
+
+    const nextCityInfo = document.getElementById('nextCityInfo');
+    const lastCityInfo = document.getElementById('lastCityInfo');
+    const santa = document.getElementById('santa');
+    const mapContainer = document.getElementById('map-container');
+    const mapImage = document.getElementById('map-image');
+    let scale = 1;
+
+    const eventSource = new EventSource('/updates');
+    let followingSanta = false;
+
+    // Array to store line elements
+    let lines = [];
+
+    eventSource.onmessage = function (event) {
+        const data = JSON.parse(event.data);
+        updateTracker(data);
+    };
+
+    santa.addEventListener('click', function () {
+        followingSanta = !followingSanta;
+        if (followingSanta) {
+            santa.style.backgroundColor = 'yellow'; // Change color to indicate following
+        } else {
+            santa.style.backgroundColor = ''; // Remove background color
+        }
+    });
+
+    // Function to handle SSE messages
+    function handleSSE(event) {
+        // Parse the event data
+        const data = JSON.parse(event.data);
+
+        // Check if the tracker has ended
+        if (data.trackerEnded === true) {
+            // Refresh the page to the home page if the tracker has ended
+            window.location.href = 'ended.html';
+        }
+        if (data.santaMoving === true) {
+            // Refresh the page to the home page if the tracker has ended
+            changeSantaImage();
+        }
+        if (data.unlocked === false) {
+            // Refresh the page to the home page if the tracker has started
+            window.location.href = '/';
+        }
+        if (data.newbasket) {
+            // Add the basket to the map after a delay of 1 second
+            setTimeout(function () {
+                addBasket(data.newbasket);
+            }, 9000); // 1000 milliseconds = 1 second
+        }
+    }
+
+    // Function to start listening for SSE messages
+    function startSSE() {
+        const eventSource = new EventSource('/updates');
+        eventSource.onmessage = handleSSE;
+    }
+
+    window.onload = function () {
+        fetchBaskets(); // Fetch all baskets onload
+        startSSE(); // Start listening for SSE messages
+    };
     </script>
 </body>
 </html>
