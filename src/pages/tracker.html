@@ -129,6 +129,8 @@
       <div id="nextCityInfo" style="font-weight: bold">LOADING!!</div>
       <div id="lastSeen" style="font-size: 0.8em">Last Seen:</div>
       <div id="lastCityInfo" style="font-weight: bold">LOADING!!</div>
+      <div id="baskets" style="font-size: 0.8em">Baskets Delivered:</div>
+      <div id="basketsInfo" style="font-weight: bold">LOADING!!</div>
     </div>
 
     <div id="map-container">
@@ -325,6 +327,7 @@
 
       const nextCityInfo = document.getElementById("nextCityInfo");
       const lastCityInfo = document.getElementById("lastCityInfo");
+      const basketsInfo = document.getElementById("basketsInfo");
       const santa = document.getElementById("santa");
       const mapContainer = document.getElementById("map-container");
       const mapImage = document.getElementById("map-image");
@@ -345,13 +348,13 @@
         if (data.nextCity && data.timeLeft) {
           nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
         } else {
-          nextCityInfo.textContent = "";
+          nextCityInfo.textContent = " ";
         }
 
         if (data.lastCity) {
           lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
         } else {
-          lastCityInfo.textContent = "";
+          lastCityInfo.textContent = " ";
         }
 
         if (
@@ -427,6 +430,11 @@
           setTimeout(function () {
             addBasket(data.newbasket);
           }, 9000); // 1000 milliseconds = 1 second
+        }
+        if (data.presentsDelivered) {
+           basketsInfo.textContent = `${data.presentsDelivered}`;
+        } else {
+           basketsInfo.textContent = " ";
         }
       }
 

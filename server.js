@@ -83,6 +83,16 @@ async function startTracker(filePath) {
   }
 }
 
+// Function to calculate presents delivered based on the current index
+function calculatePresentsDelivered(currentIndex) {
+  if (currentIndex <= 1) {
+    // If currentIndex is 0 or 1, return 0
+    return 0;
+  } else {
+    // Otherwise, calculate presents delivered based on maxpresents
+    return maxpresents - (cities.length - currentIndex);
+  }
+}
 
 function sendNextCity() {
   if (isTrackerStarted && currentIndex < cities.length) {
@@ -100,12 +110,16 @@ function sendNextCity() {
       console.log("Sent next city:", cityInfo);
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
+      
+      // Calculate presents delivered
+      const presentsDelivered = calculatePresentsDelivered(currentIndex);
+      sendTrackerEvent({ newbasket: cityInfo, presentsDelivered }); // Include presentsDelivered in the event
+      
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
       sendTrackerEvent({ santaMoving: true });
       // Add delivered location to JSON file
       addToGiftsDelivered(cityInfo);
       console.log(cityInfo);
-      sendTrackerEvent({ newbasket: cityInfo });
     } else {
       currentIndex++; // Increment currentIndex even if city information is missing
       sendNextCity(); // Continue to the next city
@@ -120,6 +134,7 @@ function sendNextCity() {
     clearInterval(trackerInterval); // Stop the tracker interval
   }
 }
+
 // Endpoint to set message 1
 app.get("/message1set", async (req, res) => {
   try {
