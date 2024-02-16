@@ -12148,5 +12148,515 @@
     "country": "Bojnurd",
     "latitude": 37.4775,
     "longitude": 57.3244438
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Aqtobe",
+    "latitude": 50.2796868,
+    "longitude": 57.2071838
+  },
+  {
+    "city": "Oman",
+    "country": "Al Khaburah",
+    "latitude": 23.9811111,
+    "longitude": 57.1044426
+  },
+  {
+    "city": "Iran",
+    "country": "Kerman",
+    "latitude": 30.2938889,
+    "longitude": 57.0841675
+  },
+  {
+    "city": "Iran",
+    "country": "Minab",
+    "latitude": 27.1467,
+    "longitude": 57.080101
+  },
+  {
+    "city": "Oman",
+    "country": "Saham",
+    "latitude": 24.1722222,
+    "longitude": 56.8886108
+  },
+  {
+    "city": "Oman",
+    "country": "Suhar",
+    "latitude": 24.3688889,
+    "longitude": 56.7438889
+  },
+  {
+    "city": "Oman",
+    "country": "Yanqul",
+    "latitude": 23.5855556,
+    "longitude": 56.5408325
+  },
+  {
+    "city": "Oman",
+    "country": "`Ibri",
+    "latitude": 23.2257298,
+    "longitude": 56.5157204
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Shubarkuduk",
+    "latitude": 49.1447222,
+    "longitude": 56.4872208
+  },
+  {
+    "city": "Oman",
+    "country": "Shinas",
+    "latitude": 24.7433333,
+    "longitude": 56.4658318
+  },
+  {
+    "city": "Iran",
+    "country": "Qeshm",
+    "latitude": 26.9581,
+    "longitude": 56.2719002
+  },
+  {
+    "city": "Oman",
+    "country": "Khasab",
+    "latitude": 26.1916667,
+    "longitude": 56.2436104
+  },
+  {
+    "city": "Russia",
+    "country": "Ufa",
+    "latitude": 54.775,
+    "longitude": 56.0374985
+  },
+  {
+    "city": "Iran",
+    "country": "Rafsanjan",
+    "latitude": 30.4066667,
+    "longitude": 55.9938889
+  },
+  {
+    "city": "Russia",
+    "country": "Sterlitamak",
+    "latitude": 53.6330556,
+    "longitude": 55.9463882
+  },
+  {
+    "city": "Oman",
+    "country": "Al Buraymi",
+    "latitude": 24.25,
+    "longitude": 55.75
+  },
+  {
+    "city": "Iran",
+    "country": "Sirjan",
+    "latitude": 29.4513889,
+    "longitude": 55.6716652
+  },
+  {
+    "city": "Seychelles",
+    "country": "Victoria",
+    "latitude": -4.6166667,
+    "longitude": 55.4500008
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Beyneu",
+    "latitude": 45.3166667,
+    "longitude": 55.2000008
+  },
+  {
+    "city": "Iran",
+    "country": "Gonbad-e Kavus",
+    "latitude": 37.255,
+    "longitude": 55.1713905
+  },
+  {
+    "city": "Russia",
+    "country": "Orenburg",
+    "latitude": 51.7847222,
+    "longitude": 55.0986099
+  },
+  {
+    "city": "Iran",
+    "country": "Shahrud",
+    "latitude": 36.43,
+    "longitude": 54.9477768
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Karagandy",
+    "latitude": 50.0666667,
+    "longitude": 54.8666649
+  },
+  {
+    "city": "Iran",
+    "country": "Darab",
+    "latitude": 28.7519444,
+    "longitude": 54.544445
+  },
+  {
+    "city": "Iran",
+    "country": "Gorgan",
+    "latitude": 36.8394444,
+    "longitude": 54.4361115
+  },
+  {
+    "city": "Iran",
+    "country": "Yazd",
+    "latitude": 31.8972222,
+    "longitude": 54.3675003
+  },
+  {
+    "city": "Iran",
+    "country": "Damghan",
+    "latitude": 36.1666667,
+    "longitude": 54.3438873
+  },
+  {
+    "city": "Oman",
+    "country": "Salalah",
+    "latitude": 17.0175,
+    "longitude": 54.0827789
+  },
+  {
+    "city": "Iran",
+    "country": "Fasa",
+    "latitude": 28.9394444,
+    "longitude": 53.6500015
+  },
+  {
+    "city": "Iran",
+    "country": "Behshahr",
+    "latitude": 36.6944444,
+    "longitude": 53.5424995
+  },
+  {
+    "city": "Iran",
+    "country": "Semnan",
+    "latitude": 35.5752778,
+    "longitude": 53.394165
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Maqat",
+    "latitude": 47.65,
+    "longitude": 53.3166656
+  },
+  {
+    "city": "Russia",
+    "country": "Izhevsk",
+    "latitude": 56.85,
+    "longitude": 53.2333336
+  },
+  {
+    "city": "Iran",
+    "country": "Sari",
+    "latitude": 36.5677778,
+    "longitude": 53.0586128
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Aksay",
+    "latitude": 51.1677778,
+    "longitude": 52.9949989
+  },
+  {
+    "city": "Iran",
+    "country": "Akbarabad",
+    "latitude": 29.245,
+    "longitude": 52.7755547
+  },
+  {
+    "city": "Iran",
+    "country": "Babol",
+    "latitude": 36.5441667,
+    "longitude": 52.6788902
+  },
+  {
+    "city": "Iran",
+    "country": "Firuzabad",
+    "latitude": 28.8461111,
+    "longitude": 52.5713882
+  },
+  {
+    "city": "Iran",
+    "country": "Shiraz",
+    "latitude": 29.615,
+    "longitude": 52.5383339
+  },
+  {
+    "city": "Russia",
+    "country": "Naberezhnyye Chelny",
+    "latitude": 55.7561111,
+    "longitude": 52.4288902
+  },
+  {
+    "city": "Iran",
+    "country": "Amol",
+    "latitude": 36.4708333,
+    "longitude": 52.3633347
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Shetpe",
+    "latitude": 44.1666667,
+    "longitude": 52.1166649
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Zhetibay",
+    "latitude": 43.5941667,
+    "longitude": 52.0788879
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Atyrau",
+    "latitude": 47.1166667,
+    "longitude": 51.8833351
+  },
+  {
+    "city": "Iran",
+    "country": "Shahreza",
+    "latitude": 32.0338889,
+    "longitude": 51.8794441
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Balyqshy",
+    "latitude": 47.0666667,
+    "longitude": 51.8666649
+  },
+  {
+    "city": "Russia",
+    "country": "Nizhnekamsk",
+    "latitude": 55.6383333,
+    "longitude": 51.8169441
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Inderbor",
+    "latitude": 48.55,
+    "longitude": 51.7833328
+  },
+  {
+    "city": "Iran",
+    "country": "Esfahan",
+    "latitude": 32.6597222,
+    "longitude": 51.6713905
+  },
+  {
+    "city": "Iran",
+    "country": "Kazerun",
+    "latitude": 29.6183333,
+    "longitude": 51.6583328
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Quryq",
+    "latitude": 43.2,
+    "longitude": 51.6500015
+  },
+  {
+    "city": "Iran",
+    "country": "Varamin",
+    "latitude": 35.3252778,
+    "longitude": 51.6455574
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Wakrah",
+    "latitude": 25.1677778,
+    "longitude": 51.606945
+  },
+  {
+    "city": "Iran",
+    "country": "Qarchak",
+    "latitude": 35.4394444,
+    "longitude": 51.5688896
+  },
+  {
+    "city": "Iran",
+    "country": "Nurabad",
+    "latitude": 30.1252778,
+    "longitude": 51.5383339
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Wukayr",
+    "latitude": 25.1508333,
+    "longitude": 51.5377769
+  },
+  {
+    "city": "Qatar",
+    "country": "Doha",
+    "latitude": 25.2866667,
+    "longitude": 51.5333328
+  },
+  {
+    "city": "Iran",
+    "country": "Homayunshahr",
+    "latitude": 32.6861111,
+    "longitude": 51.5319443
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Khawr",
+    "latitude": 25.6838889,
+    "longitude": 51.5058327
+  },
+  {
+    "city": "Iran",
+    "country": "Tehran",
+    "latitude": 35.6719444,
+    "longitude": 51.4244461
+  },
+  {
+    "city": "Qatar",
+    "country": "Ar Rayyan",
+    "latitude": 25.2919444,
+    "longitude": 51.4244461
+  },
+  {
+    "city": "Iran",
+    "country": "Chalus",
+    "latitude": 36.6547222,
+    "longitude": 51.4219437
+  },
+  {
+    "city": "Qatar",
+    "country": "Umm Salal Muhammad",
+    "latitude": 25.4169444,
+    "longitude": 51.4038887
+  },
+  {
+    "city": "Qatar",
+    "country": "Fuwayrit",
+    "latitude": 26.0216667,
+    "longitude": 51.3669434
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Oral",
+    "latitude": 51.2333333,
+    "longitude": 51.3666649
+  },
+  {
+    "city": "Iran",
+    "country": "Najafabad",
+    "latitude": 32.6330556,
+    "longitude": 51.3658333
+  },
+  {
+    "city": "Iran",
+    "country": "Eslamshahr",
+    "latitude": 35.5644444,
+    "longitude": 51.2558327
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Ghuwayriyah",
+    "latitude": 25.8297222,
+    "longitude": 51.2452774
+  },
+  {
+    "city": "Iran",
+    "country": "Borazjan",
+    "latitude": 29.2622222,
+    "longitude": 51.2052765
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Kharrarah",
+    "latitude": 24.9044444,
+    "longitude": 51.1749992
+  },
+  {
+    "city": "Qatar",
+    "country": "Al Jumayliyah",
+    "latitude": 25.6094444,
+    "longitude": 51.0922203
+  },
+  {
+    "city": "Somalia",
+    "country": "Bargaal",
+    "latitude": 11.2833333,
+    "longitude": 51.0833321
+  },
+  {
+    "city": "Iran",
+    "country": "Robat Karim",
+    "latitude": 35.4846,
+    "longitude": 51.082901
+  },
+  {
+    "city": "Somalia",
+    "country": "Bereeda",
+    "latitude": 11.85,
+    "longitude": 51.0499992
+  },
+  {
+    "city": "Iran",
+    "country": "Karaj",
+    "latitude": 35.8287611,
+    "longitude": 50.9982033
+  },
+  {
+    "city": "Iran",
+    "country": "Qom",
+    "latitude": 34.6452778,
+    "longitude": 50.8808327
+  },
+  {
+    "city": "Iran",
+    "country": "Shahr-e Kord",
+    "latitude": 32.3255556,
+    "longitude": 50.8644447
+  },
+  {
+    "city": "Qatar",
+    "country": "Abu Samrah",
+    "latitude": 24.7483333,
+    "longitude": 50.8400002
+  },
+  {
+    "city": "Iran",
+    "country": "Bandar-e Bushehr",
+    "latitude": 28.9684,
+    "longitude": 50.838501
+  },
+  {
+    "city": "Somalia",
+    "country": "Bandarbeyla",
+    "latitude": 9.4833333,
+    "longitude": 50.8166656
+  },
+  {
+    "city": "Russia",
+    "country": "Syktyvkar",
+    "latitude": 61.6666667,
+    "longitude": 50.8122215
+  },
+  {
+    "city": "Qatar",
+    "country": "Umm Bab",
+    "latitude": 25.2141667,
+    "longitude": 50.8072205
+  },
+  {
+    "city": "Iran",
+    "country": "Do Gonbadan",
+    "latitude": 30.3586,
+    "longitude": 50.7980995
+  },
+  {
+    "city": "Qatar",
+    "country": "Dukhan",
+    "latitude": 25.4297222,
+    "longitude": 50.7858315
+  },
+  {
+    "city": "Bahrain",
+    "country": "Al Hadd",
+    "latitude": 26.2455556,
+    "longitude": 50.6541672
   }
 ]

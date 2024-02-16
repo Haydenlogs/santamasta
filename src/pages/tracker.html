@@ -241,7 +241,52 @@
         zoomedMapImage.style.left = `${-zoomedMapX}px`;
         zoomedMapImage.style.top = `${-zoomedMapY}px`;
       }
-      
+      function addBasket(cityInfo) {
+        addBasketToList(cityInfo);
+        // Create a new container for the basket
+        const basketContainer = document.createElement("div");
+        basketContainer.className = "basket-container";
+
+        // Create the basket image element
+        const basketImage = document.createElement("img");
+        basketImage.src =
+          "https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0";
+        basketImage.className = "basket-image";
+        basketImage.width = "50px";
+        basketImage.height = "50px";
+
+        // Create the arrow element
+        const arrow = document.createElement("div");
+        arrow.className = "arrow";
+
+        // Add basket image and arrow to the container
+        basketContainer.appendChild(basketImage);
+        basketContainer.appendChild(arrow);
+
+        // Calculate the position of the basket on the map
+        const { width, height } = mapContainer.getBoundingClientRect();
+        const x = (cityInfo.longitude + 180) * (width / 360);
+        const y = (90 - cityInfo.latitude) * (height / 180);
+
+        // Set the position of the basket container
+        basketContainer.style.left = `${x - basketImage.width / 2 - 50}px`;
+        basketContainer.style.top = `${y - basketImage.height + 20}px`;
+
+        // Add click event listener to the basket container
+        basketContainer.addEventListener("click", function () {
+          // Construct the Google search URL
+          const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
+          const googleURL = `https://www.google.com/search?q=${encodeURIComponent(
+            searchQuery
+          )}`;
+
+          // Open the URL in a new tab
+          window.open(googleURL, "_blank");
+        });
+
+        // Add the basket container to the map
+        mapContainer.appendChild(basketContainer);
+      }
       // Start listening for SSE messages
       window.onload = function () {
         fetchBaskets(); // Fetch all baskets onload
@@ -266,7 +311,7 @@
 
       function changeSantaImage() {
         // Change the src attribute to the GIF link
-        //santa.classList.remove("floating");
+       // santa.classList.remove("floating");
         santa.src =
           "https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s";
 
@@ -274,7 +319,7 @@
 
         // Set a timeout to revert back to the original image after one second
         setTimeout(function () {
-          //santa.classList.add("floating");
+         // santa.classList.add("floating");
           santa.src = "https://cdn-icons-png.flaticon.com/512/347/347485.png";
           // Remove floating animation class
         }, 1000); // 1000 milliseconds = 1 second
@@ -299,110 +344,68 @@
         updateTracker(data);
       };
       // Function to update tracker information
-      function addBasket(cityInfo) {
-    addBasketToList(cityInfo);
-    // Create a new container for the basket
-    const basketContainer = document.createElement("div");
-    basketContainer.className = "basket-container";
+      function updateTracker(data) {
+        if (data.nextCity && data.timeLeft) {
+          nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
+        } else {
+          nextCityInfo.textContent = " ";
+        }
 
-    // Create the basket image element
-    const basketImage = document.createElement("img");
-    basketImage.src =
-        "https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0";
-    basketImage.className = "basket-image";
-    basketImage.width = "50px";
-    basketImage.height = "50px";
+        if (data.lastCity) {
+          lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
+        } else {
+          lastCityInfo.textContent = " ";
+        }
 
-    // Create the arrow element
-    const arrow = document.createElement("div");
-    arrow.className = "arrow";
+        if (
+          data.lastCity &&
+          data.nextCity &&
+          data.timeLeft &&
+          data.lastCity.latitude &&
+          data.lastCity.longitude &&
+          data.nextCity.latitude &&
+          data.nextCity.longitude
+        ) {
+          const { width, height } = mapContainer.getBoundingClientRect();
 
-    // Add basket image and arrow to the container
-    basketContainer.appendChild(basketImage);
-    basketContainer.appendChild(arrow);
+          // Calculate Santa's position based on last seen and heading for coordinates
+          const lastLatitude = data.lastCity.latitude;
+          const lastLongitude = data.lastCity.longitude;
+          const nextLatitude = data.nextCity.latitude;
+          const nextLongitude = data.nextCity.longitude;
+          const timeLeft = data.timeLeft;
 
-    // Set the position of the basket container
-    setPosition(basketContainer, cityInfo.latitude, cityInfo.longitude);
-
-    // Add click event listener to the basket container
-    basketContainer.addEventListener("click", function () {
-        // Construct the Google search URL
-        const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
-        const googleURL = `https://www.google.com/search?q=${encodeURIComponent(
-            searchQuery
-        )}`;
-
-        // Open the URL in a new tab
-        window.open(googleURL, "_blank");
-    });
-
-    // Add the basket container to the map
-    mapContainer.appendChild(basketContainer);
-}
-
-// Function to set the position of the basket container
-function setPosition(element, latitude, longitude) {
-    const { width, height } = mapContainer.getBoundingClientRect();
-    const x = (longitude + 180) * (width / 360);
-    const y = (90 - latitude) * (height / 180);
-    element.style.left = `${x - element.offsetWidth / 2 - 50}px`;
-    element.style.top = `${y - element.offsetHeight + 20}px`;
-}
-
-function updateTracker(data) {
-    if (data.nextCity && data.timeLeft) {
-        nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
-    } else {
-        nextCityInfo.textContent = " ";
-    }
-
-    if (data.lastCity) {
-        lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
-    } else {
-        lastCityInfo.textContent = " ";
-    }
-
-    if (
-        data.lastCity &&
-        data.nextCity &&
-        data.timeLeft &&
-        data.lastCity.latitude &&
-        data.lastCity.longitude &&
-        data.nextCity.latitude &&
-        data.nextCity.longitude
-    ) {
-        // Calculate Santa's position based on last seen and heading for coordinates
-        const lastLatitude = data.lastCity.latitude;
-        const lastLongitude = data.lastCity.longitude;
-        const nextLatitude = data.nextCity.latitude;
-        const nextLongitude = data.nextCity.longitude;
-        const timeLeft = data.timeLeft;
-
-        // Calculate the distance between last seen and heading for coordinates
-        const distance = Math.sqrt(
+          // Calculate the distance between last seen and heading for coordinates
+          const distance = Math.sqrt(
             Math.pow(nextLatitude - lastLatitude, 2) +
-            Math.pow(nextLongitude - lastLongitude, 2)
-        );
+              Math.pow(nextLongitude - lastLongitude, 2)
+          );
 
-        // Estimate Santa's speed (e.g., pixels per second)
-        const speed = 50; // Adjust as needed
+          // Estimate Santa's speed (e.g., pixels per second)
+          const speed = 50; // Adjust as needed
 
-        // Calculate the total time needed to travel the distance
-        const totalTime = (distance / speed) * 1000; // Convert to milliseconds
+          // Calculate the total time needed to travel the distance
+          const totalTime = (distance / speed) * 1000; // Convert to milliseconds
 
-        // Calculate progress ratio based on time left and total time
-        const progressRatio = (totalTime - timeLeft) / totalTime;
+          // Calculate progress ratio based on time left and total time
+          const progressRatio = (totalTime - timeLeft) / totalTime;
 
-        // Interpolate Santa's position between last seen and heading for coordinates
-        const interpolatedLatitude =
+          // Interpolate Santa's position between last seen and heading for coordinates
+          const interpolatedLatitude =
             lastLatitude + progressRatio * (nextLatitude - lastLatitude);
-        const interpolatedLongitude =
+          const interpolatedLongitude =
             lastLongitude + progressRatio * (nextLongitude - lastLongitude);
 
-        // Set the position of Santa on the map
-        setPosition(santa, interpolatedLatitude, interpolatedLongitude);
-    }
-}
+          // Calculate Santa's position on the map
+          const x = (interpolatedLongitude + 180) * (width / 360);
+          const y = (90 - interpolatedLatitude) * (height / 180);
+
+          // Smoothly transition Santa's position
+          santa.style.transition = `left ${timeLeft}s linear, top ${timeLeft}s linear`;
+          santa.style.left = `${x - santa.offsetWidth / 2 - 10}px`; // Adjust for the size of the Santa image
+          santa.style.top = `${y - santa.offsetHeight / 2 + 25}px`; // Adjust for the size of the Santa image
+        }
+      }
 
       // Function to handle SSE messages
       function handleSSE(event) {
@@ -429,9 +432,9 @@ function updateTracker(data) {
           }, 9000); // 1000 milliseconds = 1 second
         }
         if (data.presentsDelivered) {
-          basketsInfo.textContent = `${data.presentsDelivered}`;
+           basketsInfo.textContent = `${data.presentsDelivered}`;
         } else {
-          basketsInfo.textContent = " ";
+           basketsInfo.textContent = " ";
         }
       }
 
