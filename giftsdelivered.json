@@ -14806,5 +14806,557 @@
     "country": "Avshar",
     "latitude": 39.8405556,
     "longitude": 44.6836128
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Qasim",
+    "latitude": 32.3077778,
+    "longitude": 44.6788902
+  },
+  {
+    "city": "Armenia",
+    "country": "Aygavan",
+    "latitude": 39.8647222,
+    "longitude": 44.6702766
+  },
+  {
+    "city": "Russia",
+    "country": "Vladikavkaz",
+    "latitude": 43.0366667,
+    "longitude": 44.667778
+  },
+  {
+    "city": "Armenia",
+    "country": "Aramus",
+    "latitude": 40.2511111,
+    "longitude": 44.6630554
+  },
+  {
+    "city": "Armenia",
+    "country": "Alaverdi",
+    "latitude": 41.1305556,
+    "longitude": 44.6519432
+  },
+  {
+    "city": "Iraq",
+    "country": "Ash Shinafiyah",
+    "latitude": 31.5822222,
+    "longitude": 44.6455574
+  },
+  {
+    "city": "Iraq",
+    "country": "Ba`qubah",
+    "latitude": 33.75,
+    "longitude": 44.6411095
+  },
+  {
+    "city": "Iraq",
+    "country": "Koi Sanjaq",
+    "latitude": 36.0838889,
+    "longitude": 44.6277771
+  },
+  {
+    "city": "Armenia",
+    "country": "Abovyan",
+    "latitude": 40.2691667,
+    "longitude": 44.6244431
+  },
+  {
+    "city": "Iraq",
+    "country": "Tozkhurmato",
+    "latitude": 34.8830556,
+    "longitude": 44.6219444
+  },
+  {
+    "city": "Armenia",
+    "country": "Odzun",
+    "latitude": 41.0538889,
+    "longitude": 44.6113892
+  },
+  {
+    "city": "Armenia",
+    "country": "Aygezard",
+    "latitude": 39.9458333,
+    "longitude": 44.6088905
+  },
+  {
+    "city": "Iraq",
+    "country": "Ghammas",
+    "latitude": 31.7352778,
+    "longitude": 44.6074982
+  },
+  {
+    "city": "Armenia",
+    "country": "Balahovit",
+    "latitude": 40.2536111,
+    "longitude": 44.6038895
+  },
+  {
+    "city": "Iraq",
+    "country": "Ash Shamiyah",
+    "latitude": 31.9630556,
+    "longitude": 44.5977783
+  },
+  {
+    "city": "Armenia",
+    "country": "Norashen",
+    "latitude": 40.0041667,
+    "longitude": 44.5947227
+  },
+  {
+    "city": "Armenia",
+    "country": "Byureghavan",
+    "latitude": 40.3147222,
+    "longitude": 44.5936127
+  },
+  {
+    "city": "Russia",
+    "country": "Volgograd",
+    "latitude": 48.8047222,
+    "longitude": 44.5858345
+  },
+  {
+    "city": "Georgia",
+    "country": "Sioni",
+    "latitude": 42.6072222,
+    "longitude": 44.5852776
+  },
+  {
+    "city": "Armenia",
+    "country": "Verin Artashat",
+    "latitude": 40.0005556,
+    "longitude": 44.5849991
+  },
+  {
+    "city": "Armenia",
+    "country": "Nor Geghi",
+    "latitude": 40.3211111,
+    "longitude": 44.5797234
+  },
+  {
+    "city": "Armenia",
+    "country": "Shahumyan",
+    "latitude": 39.9308333,
+    "longitude": 44.5783348
+  },
+  {
+    "city": "Armenia",
+    "country": "Vostan",
+    "latitude": 39.9588889,
+    "longitude": 44.559166
+  },
+  {
+    "city": "Armenia",
+    "country": "Artashat",
+    "latitude": 39.9538889,
+    "longitude": 44.5505562
+  },
+  {
+    "city": "Malawi",
+    "country": "Belo Tsiribihina",
+    "latitude": -19.7,
+    "longitude": 44.5499992
+  },
+  {
+    "city": "Somalia",
+    "country": "Qoryooley",
+    "latitude": 1.7833333,
+    "longitude": 44.5333328
+  },
+  {
+    "city": "Malawi",
+    "country": "Sakaraha",
+    "latitude": -22.9,
+    "longitude": 44.5333328
+  },
+  {
+    "city": "Comoros",
+    "country": "Domoni",
+    "latitude": -12.2569444,
+    "longitude": 44.5319443
+  },
+  {
+    "city": "Comoros",
+    "country": "Mramani",
+    "latitude": -12.3463889,
+    "longitude": 44.5286102
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Khalis",
+    "latitude": 33.8183333,
+    "longitude": 44.5244446
+  },
+  {
+    "city": "Iraq",
+    "country": "Rawandoz",
+    "latitude": 36.6113889,
+    "longitude": 44.5224991
+  },
+  {
+    "city": "Comoros",
+    "country": "Antsahe",
+    "latitude": -12.3563889,
+    "longitude": 44.5224991
+  },
+  {
+    "city": "Comoros",
+    "country": "Kyo",
+    "latitude": -12.3322222,
+    "longitude": 44.519165
+  },
+  {
+    "city": "Somalia",
+    "country": "Tayeeglow",
+    "latitude": 4.0333333,
+    "longitude": 44.5166664
+  },
+  {
+    "city": "Malawi",
+    "country": "Ankazoabo",
+    "latitude": -22.2833333,
+    "longitude": 44.5166664
+  },
+  {
+    "city": "Armenia",
+    "country": "Yerevan",
+    "latitude": 40.1811111,
+    "longitude": 44.5136108
+  },
+  {
+    "city": "Comoros",
+    "country": "Ongoni",
+    "latitude": -12.1702778,
+    "longitude": 44.5069427
+  },
+  {
+    "city": "Comoros",
+    "country": "Limbi",
+    "latitude": -12.2394444,
+    "longitude": 44.5052795
+  },
+  {
+    "city": "Comoros",
+    "country": "Mremani",
+    "latitude": -12.3083333,
+    "longitude": 44.4986115
+  },
+  {
+    "city": "Comoros",
+    "country": "Harembo",
+    "latitude": -12.1436111,
+    "longitude": 44.498333
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Mishkhab",
+    "latitude": 31.8016667,
+    "longitude": 44.4902763
+  },
+  {
+    "city": "Comoros",
+    "country": "Daji",
+    "latitude": -12.3258333,
+    "longitude": 44.4886093
+  },
+  {
+    "city": "Armenia",
+    "country": "Vanadzor",
+    "latitude": 40.8127778,
+    "longitude": 44.4883347
+  },
+  {
+    "city": "Comoros",
+    "country": "Hajoho",
+    "latitude": -12.1175,
+    "longitude": 44.4883347
+  },
+  {
+    "city": "Georgia",
+    "country": "Akhalgori",
+    "latitude": 42.1241667,
+    "longitude": 44.4858322
+  },
+  {
+    "city": "Comoros",
+    "country": "Dziani",
+    "latitude": -12.1833333,
+    "longitude": 44.4833336
+  },
+  {
+    "city": "Comoros",
+    "country": "Koni-Djodjo",
+    "latitude": -12.2297222,
+    "longitude": 44.4816666
+  },
+  {
+    "city": "Armenia",
+    "country": "Yeghvard",
+    "latitude": 40.3216667,
+    "longitude": 44.4813881
+  },
+  {
+    "city": "Comoros",
+    "country": "Koni-Ngani",
+    "latitude": -12.2158333,
+    "longitude": 44.4799995
+  },
+  {
+    "city": "Comoros",
+    "country": "Ouzini",
+    "latitude": -12.2672222,
+    "longitude": 44.4797211
+  },
+  {
+    "city": "Comoros",
+    "country": "Kangani",
+    "latitude": -12.3116667,
+    "longitude": 44.4747238
+  },
+  {
+    "city": "Armenia",
+    "country": "Marmarashen",
+    "latitude": 40.0575,
+    "longitude": 44.4711113
+  },
+  {
+    "city": "Comoros",
+    "country": "Chandra",
+    "latitude": -12.195,
+    "longitude": 44.4647217
+  },
+  {
+    "city": "Comoros",
+    "country": "Koki",
+    "latitude": -12.1713889,
+    "longitude": 44.4416656
+  },
+  {
+    "city": "Comoros",
+    "country": "Moya",
+    "latitude": -12.3066667,
+    "longitude": 44.4377785
+  },
+  {
+    "city": "Comoros",
+    "country": "Patsi",
+    "latitude": -12.1555556,
+    "longitude": 44.4372215
+  },
+  {
+    "city": "Armenia",
+    "country": "Masis",
+    "latitude": 40.0672222,
+    "longitude": 44.4361115
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Hillah",
+    "latitude": 32.4794444,
+    "longitude": 44.4327774
+  },
+  {
+    "city": "Comoros",
+    "country": "Barakani",
+    "latitude": -12.1355556,
+    "longitude": 44.4316673
+  },
+  {
+    "city": "Armenia",
+    "country": "Zovuni",
+    "latitude": 40.5108333,
+    "longitude": 44.4288902
+  },
+  {
+    "city": "Comoros",
+    "country": "Ouani",
+    "latitude": -12.1322222,
+    "longitude": 44.4258347
+  },
+  {
+    "city": "Georgia",
+    "country": "Kaspi",
+    "latitude": 41.9161111,
+    "longitude": 44.4241676
+  },
+  {
+    "city": "Comoros",
+    "country": "Lingoni",
+    "latitude": -12.2558333,
+    "longitude": 44.418335
+  },
+  {
+    "city": "Armenia",
+    "country": "Kasakh",
+    "latitude": 40.5333333,
+    "longitude": 44.4166679
+  },
+  {
+    "city": "Comoros",
+    "country": "Magnassini-Nindri",
+    "latitude": -12.2780556,
+    "longitude": 44.4158325
+  },
+  {
+    "city": "Armenia",
+    "country": "Prroshyan",
+    "latitude": 40.2480556,
+    "longitude": 44.4150009
+  },
+  {
+    "city": "Comoros",
+    "country": "Mirontsi",
+    "latitude": -12.1566667,
+    "longitude": 44.4080544
+  },
+  {
+    "city": "Comoros",
+    "country": "Moutsamoudou",
+    "latitude": -12.1627778,
+    "longitude": 44.396389
+  },
+  {
+    "city": "Iraq",
+    "country": "Baghdad",
+    "latitude": 33.3386111,
+    "longitude": 44.3938904
+  },
+  {
+    "city": "Iraq",
+    "country": "Kirkuk",
+    "latitude": 35.4680556,
+    "longitude": 44.3922234
+  },
+  {
+    "city": "Comoros",
+    "country": "Paje",
+    "latitude": -12.1697222,
+    "longitude": 44.3880539
+  },
+  {
+    "city": "Malawi",
+    "country": "Betioky",
+    "latitude": -23.7166667,
+    "longitude": 44.3833351
+  },
+  {
+    "city": "Yemen",
+    "country": "Yarim",
+    "latitude": 14.2972222,
+    "longitude": 44.3802795
+  },
+  {
+    "city": "Georgia",
+    "country": "Manglisi",
+    "latitude": 41.6930556,
+    "longitude": 44.3780556
+  },
+  {
+    "city": "Armenia",
+    "country": "Karbi",
+    "latitude": 40.3338889,
+    "longitude": 44.3777771
+  },
+  {
+    "city": "Comoros",
+    "country": "Vouani",
+    "latitude": -12.2441667,
+    "longitude": 44.3744431
+  },
+  {
+    "city": "Comoros",
+    "country": "Mjimandra",
+    "latitude": -12.1916667,
+    "longitude": 44.3702774
+  },
+  {
+    "city": "Armenia",
+    "country": "Ashtarak",
+    "latitude": 40.3016667,
+    "longitude": 44.3591652
+  },
+  {
+    "city": "Armenia",
+    "country": "Aparan",
+    "latitude": 40.5961111,
+    "longitude": 44.353611
+  },
+  {
+    "city": "Georgia",
+    "country": "Dmanisi",
+    "latitude": 41.5227778,
+    "longitude": 44.3533325
+  },
+  {
+    "city": "Comoros",
+    "country": "Chironkamba",
+    "latitude": -12.1911111,
+    "longitude": 44.3525009
+  },
+  {
+    "city": "Armenia",
+    "country": "Hovtashat",
+    "latitude": 40.1019444,
+    "longitude": 44.3427773
+  },
+  {
+    "city": "Comoros",
+    "country": "Vassy",
+    "latitude": -12.2319444,
+    "longitude": 44.3424988
+  },
+  {
+    "city": "Comoros",
+    "country": "Chitrouni",
+    "latitude": -12.1858333,
+    "longitude": 44.335556
+  },
+  {
+    "city": "Yemen",
+    "country": "Sayyan",
+    "latitude": 15.1713889,
+    "longitude": 44.3247223
+  },
+  {
+    "city": "Comoros",
+    "country": "Assimpao",
+    "latitude": -12.2330556,
+    "longitude": 44.3197212
+  },
+  {
+    "city": "Iraq",
+    "country": "An Najaf",
+    "latitude": 31.9961111,
+    "longitude": 44.314724
+  },
+  {
+    "city": "Comoros",
+    "country": "Marahare",
+    "latitude": -12.2308333,
+    "longitude": 44.3133316
+  },
+  {
+    "city": "Comoros",
+    "country": "Mjamaoue",
+    "latitude": -12.1936111,
+    "longitude": 44.3100014
+  },
+  {
+    "city": "Yemen",
+    "country": "Sahar",
+    "latitude": 15.3155556,
+    "longitude": 44.3097229
+  },
+  {
+    "city": "Armenia",
+    "country": "Gay",
+    "latitude": 40.0838889,
+    "longitude": 44.3055573
+  },
+  {
+    "city": "Comoros",
+    "country": "Boungoueni",
+    "latitude": -12.2055556,
+    "longitude": 44.2994461
   }
 ]
