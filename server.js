@@ -318,11 +318,15 @@ app.get("/resetbaskets", (req, res) => {
   }
 });
 
-// Endpoint to get the baskets delivered in JSON format
 app.get("/getbaskets", (req, res) => {
   try {
+    // Read the contents of the giftsdelivered.json file
     const baskets = JSON.parse(fs.readFileSync("giftsdelivered.json"));
-    res.json(baskets);
+
+    // Filter out every 5th basket
+    const filteredBaskets = baskets.filter((basket, index) => (index + 1) % 5 === 0);
+
+    res.json(filteredBaskets);
   } catch (error) {
     console.error("Error getting baskets:", error);
     res.status(500).send("Internal Server Error");

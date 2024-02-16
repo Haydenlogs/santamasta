@@ -73,6 +73,29 @@ function updateSantaPosition(latitude, longitude) {
     function handleSSE(event) {
       var data = JSON.parse(event.data);
       updateSantaPosition(data);
+      if (data.trackerEnded === true) {
+          // Refresh the page to the home page if the tracker has ended
+          window.location.href = "ended.html";
+        }
+        if (data.santaMoving === true) {
+          // Refresh the page to the home page if the tracker has ended
+          changeSantaImage();
+        }
+        if (data.unlocked === false) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.newbasket) {
+          // Add the basket to the map after a delay of 1 second
+          setTimeout(function () {
+            addBasket(data.newbasket);
+          }, 9000); // 1000 milliseconds = 1 second
+        }
+        if (data.presentsDelivered) {
+           basketsInfo.textContent = `${data.presentsDelivered}`;
+        } else {
+           basketsInfo.textContent = " ";
+        }
     }
 
     // Function to start SSE
