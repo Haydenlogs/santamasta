@@ -14260,5 +14260,551 @@
     "country": "Qvareli",
     "latitude": 41.9513889,
     "longitude": 45.8016663
+  },
+  {
+    "city": "Iran",
+    "country": "Marand",
+    "latitude": 38.4329,
+    "longitude": 45.7748985
+  },
+  {
+    "city": "Armenia",
+    "country": "Vardenis",
+    "latitude": 40.1805556,
+    "longitude": 45.7283325
+  },
+  {
+    "city": "Iran",
+    "country": "Mahabad",
+    "latitude": 36.7631,
+    "longitude": 45.7221985
+  },
+  {
+    "city": "Russia",
+    "country": "Groznyy",
+    "latitude": 43.3083333,
+    "longitude": 45.7002792
+  },
+  {
+    "city": "Armenia",
+    "country": "Jermuk",
+    "latitude": 39.8416667,
+    "longitude": 45.6722221
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Culfa",
+    "latitude": 38.95,
+    "longitude": 45.6319427
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Tovuz",
+    "latitude": 40.9922222,
+    "longitude": 45.6288872
+  },
+  {
+    "city": "Somalia",
+    "country": "Jalalaqsi",
+    "latitude": 3.4,
+    "longitude": 45.5833321
+  },
+  {
+    "city": "Somalia",
+    "country": "Buulobarde",
+    "latitude": 3.85,
+    "longitude": 45.5666656
+  },
+  {
+    "city": "Iraq",
+    "country": "Mandali",
+    "latitude": 33.7436111,
+    "longitude": 45.5463905
+  },
+  {
+    "city": "Somalia",
+    "country": "Burao",
+    "latitude": 9.5166667,
+    "longitude": 45.5333328
+  },
+  {
+    "city": "Somalia",
+    "country": "Mahadday Weyne",
+    "latitude": 2.9666667,
+    "longitude": 45.5333328
+  },
+  {
+    "city": "Somalia",
+    "country": "Giohar",
+    "latitude": 2.7666667,
+    "longitude": 45.5166664
+  },
+  {
+    "city": "Malawi",
+    "country": "Tsiombe",
+    "latitude": -25.3,
+    "longitude": 45.4833336
+  },
+  {
+    "city": "Armenia",
+    "country": "Artsvaberd",
+    "latitude": 40.8336111,
+    "longitude": 45.4711113
+  },
+  {
+    "city": "Malawi",
+    "country": "Miandrivazo",
+    "latitude": -19.5166667,
+    "longitude": 45.4666672
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Agstafa",
+    "latitude": 41.1188889,
+    "longitude": 45.4538879
+  },
+  {
+    "city": "Armenia",
+    "country": "Tsovinar",
+    "latitude": 40.1608333,
+    "longitude": 45.4538879
+  },
+  {
+    "city": "Iraq",
+    "country": "As Sulaymaniyah",
+    "latitude": 35.5616667,
+    "longitude": 45.440834
+  },
+  {
+    "city": "Armenia",
+    "country": "Vardenik",
+    "latitude": 40.135,
+    "longitude": 45.4363899
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Naxcivan",
+    "latitude": 39.2088889,
+    "longitude": 45.4122238
+  },
+  {
+    "city": "Armenia",
+    "country": "Berd",
+    "latitude": 40.8808333,
+    "longitude": 45.3916664
+  },
+  {
+    "city": "Iran",
+    "country": "Naqadeh",
+    "latitude": 36.9563889,
+    "longitude": 45.3880539
+  },
+  {
+    "city": "Armenia",
+    "country": "Malishka",
+    "latitude": 39.7369444,
+    "longitude": 45.3875008
+  },
+  {
+    "city": "Somalia",
+    "country": "Mogadishu",
+    "latitude": 2.0666667,
+    "longitude": 45.3666649
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Qazax",
+    "latitude": 41.0933333,
+    "longitude": 45.3661118
+  },
+  {
+    "city": "Somalia",
+    "country": "Ceek",
+    "latitude": 8.9969444,
+    "longitude": 45.3586121
+  },
+  {
+    "city": "Armenia",
+    "country": "Astghadzor",
+    "latitude": 40.1238889,
+    "longitude": 45.3566666
+  },
+  {
+    "city": "Armenia",
+    "country": "Chambarak",
+    "latitude": 40.5952778,
+    "longitude": 45.3474998
+  },
+  {
+    "city": "Georgia",
+    "country": "Sagarejo",
+    "latitude": 41.7363889,
+    "longitude": 45.3302765
+  },
+  {
+    "city": "Armenia",
+    "country": "Vaghashen",
+    "latitude": 40.1377778,
+    "longitude": 45.3291664
+  },
+  {
+    "city": "Armenia",
+    "country": "Martuni",
+    "latitude": 40.1447222,
+    "longitude": 45.3063889
+  },
+  {
+    "city": "Armenia",
+    "country": "Karanlukh",
+    "latitude": 40.1044444,
+    "longitude": 45.2897224
+  },
+  {
+    "city": "Iraq",
+    "country": "As Samawah",
+    "latitude": 31.3094444,
+    "longitude": 45.2802773
+  },
+  {
+    "city": "Armenia",
+    "country": "Aygehovit",
+    "latitude": 40.9744444,
+    "longitude": 45.2519455
+  },
+  {
+    "city": "Armenia",
+    "country": "Verin Getashen",
+    "latitude": 40.1327778,
+    "longitude": 45.2486115
+  },
+  {
+    "city": "Iraq",
+    "country": "`Afak",
+    "latitude": 32.0625,
+    "longitude": 45.2427788
+  },
+  {
+    "city": "Georgia",
+    "country": "Akhmeta",
+    "latitude": 42.0311111,
+    "longitude": 45.2075005
+  },
+  {
+    "city": "Iraq",
+    "country": "Ar Rumaythah",
+    "latitude": 31.5261111,
+    "longitude": 45.2063904
+  },
+  {
+    "city": "Somalia",
+    "country": "Beledweyne",
+    "latitude": 4.7358333,
+    "longitude": 45.2036095
+  },
+  {
+    "city": "Armenia",
+    "country": "Yeranos",
+    "latitude": 40.2080556,
+    "longitude": 45.1861115
+  },
+  {
+    "city": "Russia",
+    "country": "Saransk",
+    "latitude": 54.1833333,
+    "longitude": 45.1833344
+  },
+  {
+    "city": "Armenia",
+    "country": "Noratus",
+    "latitude": 40.3822222,
+    "longitude": 45.1783333
+  },
+  {
+    "city": "Armenia",
+    "country": "Dzoragyugh",
+    "latitude": 40.1752778,
+    "longitude": 45.1749992
+  },
+  {
+    "city": "Malawi",
+    "country": "Beroroha",
+    "latitude": -21.6666667,
+    "longitude": 45.1666679
+  },
+  {
+    "city": "Georgia",
+    "country": "Shatili",
+    "latitude": 42.6583333,
+    "longitude": 45.1599998
+  },
+  {
+    "city": "Armenia",
+    "country": "Ijevan",
+    "latitude": 40.8755556,
+    "longitude": 45.1491661
+  },
+  {
+    "city": "Armenia",
+    "country": "Sarukhan",
+    "latitude": 40.2891667,
+    "longitude": 45.1341667
+  },
+  {
+    "city": "Armenia",
+    "country": "Gavarr",
+    "latitude": 40.3588889,
+    "longitude": 45.126667
+  },
+  {
+    "city": "Somalia",
+    "country": "Afgooye",
+    "latitude": 2.15,
+    "longitude": 45.1166649
+  },
+  {
+    "city": "Armenia",
+    "country": "Gandzak",
+    "latitude": 40.3147222,
+    "longitude": 45.1113892
+  },
+  {
+    "city": "Georgia",
+    "country": "Gardabani",
+    "latitude": 41.4547222,
+    "longitude": 45.0947227
+  },
+  {
+    "city": "Iraq",
+    "country": "Al `Aziziyah",
+    "latitude": 32.9083333,
+    "longitude": 45.0666656
+  },
+  {
+    "city": "Somalia",
+    "country": "Oodweyne",
+    "latitude": 9.4080556,
+    "longitude": 45.0622215
+  },
+  {
+    "city": "Malawi",
+    "country": "Beloha",
+    "latitude": -25.1666667,
+    "longitude": 45.0499992
+  },
+  {
+    "city": "Yemen",
+    "country": "`Adan",
+    "latitude": 12.7794444,
+    "longitude": 45.0366669
+  },
+  {
+    "city": "Somalia",
+    "country": "Berbera",
+    "latitude": 10.4355556,
+    "longitude": 45.0163879
+  },
+  {
+    "city": "Armenia",
+    "country": "Berdavan",
+    "latitude": 41.2027778,
+    "longitude": 45.003334
+  },
+  {
+    "city": "Russia",
+    "country": "Penza",
+    "latitude": 53.1958333,
+    "longitude": 45
+  },
+  {
+    "city": "Armenia",
+    "country": "Noyemberyan",
+    "latitude": 41.1725,
+    "longitude": 44.9936104
+  },
+  {
+    "city": "Georgia",
+    "country": "Didi Lilo",
+    "latitude": 41.7363889,
+    "longitude": 44.9658318
+  },
+  {
+    "city": "Armenia",
+    "country": "Haghartsin",
+    "latitude": 40.7780556,
+    "longitude": 44.9625015
+  },
+  {
+    "city": "Iraq",
+    "country": "Kifri",
+    "latitude": 34.6913889,
+    "longitude": 44.9608345
+  },
+  {
+    "city": "Armenia",
+    "country": "Sevan",
+    "latitude": 40.555,
+    "longitude": 44.9536095
+  },
+  {
+    "city": "Armenia",
+    "country": "Tsovagyugh",
+    "latitude": 40.6330556,
+    "longitude": 44.9522209
+  },
+  {
+    "city": "Iran",
+    "country": "Khvoy",
+    "latitude": 38.5525,
+    "longitude": 44.9477768
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Miqdadiyah",
+    "latitude": 33.9786111,
+    "longitude": 44.9369431
+  },
+  {
+    "city": "Armenia",
+    "country": "Lchashen",
+    "latitude": 40.5202778,
+    "longitude": 44.9308319
+  },
+  {
+    "city": "Iraq",
+    "country": "Ad Diwaniyah",
+    "latitude": 31.9877778,
+    "longitude": 44.9255562
+  },
+  {
+    "city": "Somalia",
+    "country": "Wanlaweyn",
+    "latitude": 2.6166667,
+    "longitude": 44.9000015
+  },
+  {
+    "city": "Yemen",
+    "country": "Lahij",
+    "latitude": 13.0566667,
+    "longitude": 44.8819427
+  },
+  {
+    "city": "Armenia",
+    "country": "Dilijan",
+    "latitude": 40.7408333,
+    "longitude": 44.8630562
+  },
+  {
+    "city": "Armenia",
+    "country": "Shnogh",
+    "latitude": 41.1477778,
+    "longitude": 44.8377762
+  },
+  {
+    "city": "Iraq",
+    "country": "Chamchamal",
+    "latitude": 35.5366667,
+    "longitude": 44.8319435
+  },
+  {
+    "city": "Armenia",
+    "country": "Bagratashen",
+    "latitude": 41.2458333,
+    "longitude": 44.8211098
+  },
+  {
+    "city": "Georgia",
+    "country": "Marneuli",
+    "latitude": 41.4636111,
+    "longitude": 44.810833
+  },
+  {
+    "city": "Georgia",
+    "country": "Tbilisi",
+    "latitude": 41.725,
+    "longitude": 44.7908325
+  },
+  {
+    "city": "Iraq",
+    "country": "As Suwayrah",
+    "latitude": 32.9255556,
+    "longitude": 44.7758331
+  },
+  {
+    "city": "Russia",
+    "country": "Volzhskiy",
+    "latitude": 48.7905556,
+    "longitude": 44.7716675
+  },
+  {
+    "city": "Iran",
+    "country": "Salmas",
+    "latitude": 38.1975,
+    "longitude": 44.768055
+  },
+  {
+    "city": "Georgia",
+    "country": "Zhinvali",
+    "latitude": 42.1158333,
+    "longitude": 44.7675018
+  },
+  {
+    "city": "Georgia",
+    "country": "Zahesi",
+    "latitude": 41.8244444,
+    "longitude": 44.7577782
+  },
+  {
+    "city": "Georgia",
+    "country": "Naghvarevi",
+    "latitude": 41.3494444,
+    "longitude": 44.7563896
+  },
+  {
+    "city": "Armenia",
+    "country": "Hrazdan",
+    "latitude": 40.5016667,
+    "longitude": 44.7547226
+  },
+  {
+    "city": "Malawi",
+    "country": "Ampanihy",
+    "latitude": -24.7,
+    "longitude": 44.75
+  },
+  {
+    "city": "Armenia",
+    "country": "Vedi",
+    "latitude": 39.9105556,
+    "longitude": 44.7277794
+  },
+  {
+    "city": "Armenia",
+    "country": "Garrni",
+    "latitude": 40.1194444,
+    "longitude": 44.7230568
+  },
+  {
+    "city": "Armenia",
+    "country": "Ararat",
+    "latitude": 39.8302778,
+    "longitude": 44.7024994
+  },
+  {
+    "city": "Georgia",
+    "country": "Kojori",
+    "latitude": 41.6608333,
+    "longitude": 44.6916656
+  },
+  {
+    "city": "Armenia",
+    "country": "Margahovit",
+    "latitude": 40.7380556,
+    "longitude": 44.6875
+  },
+  {
+    "city": "Armenia",
+    "country": "Avshar",
+    "latitude": 39.8405556,
+    "longitude": 44.6836128
   }
 ]
