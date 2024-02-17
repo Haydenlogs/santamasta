@@ -57598,5 +57598,467 @@
     "country": "Brantford",
     "latitude": 43.1334015,
     "longitude": -80.2663651
+  },
+  {
+    "city": "Cuba",
+    "country": "Cruces",
+    "latitude": 22.3411111,
+    "longitude": -80.2666702
+  },
+  {
+    "city": "Panama",
+    "country": "Churuquita Grande",
+    "latitude": 8.6,
+    "longitude": -80.2666702
+  },
+  {
+    "city": "Panama",
+    "country": "Anton",
+    "latitude": 8.4,
+    "longitude": -80.2666702
+  },
+  {
+    "city": "Peru",
+    "country": "Zarumilla",
+    "latitude": -3.5030556,
+    "longitude": -80.273056
+  },
+  {
+    "city": "United States",
+    "country": "Hialeah",
+    "latitude": 25.8575963,
+    "longitude": -80.2781067
+  },
+  {
+    "city": "Panama",
+    "country": "Guarare",
+    "latitude": 7.8166667,
+    "longitude": -80.2833328
+  },
+  {
+    "city": "Panama",
+    "country": "Las Tablas",
+    "latitude": 7.7666667,
+    "longitude": -80.2833328
+  },
+  {
+    "city": "Peru",
+    "country": "Tambo Grande",
+    "latitude": -4.9269444,
+    "longitude": -80.3447189
+  },
+  {
+    "city": "Panama",
+    "country": "Chigore",
+    "latitude": 8.5333333,
+    "longitude": -80.3499985
+  },
+  {
+    "city": "Panama",
+    "country": "Vista Hermosa",
+    "latitude": 8.5333333,
+    "longitude": -80.3666687
+  },
+  {
+    "city": "Panama",
+    "country": "Penonome",
+    "latitude": 8.5166667,
+    "longitude": -80.3666687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Santa Ana",
+    "latitude": -1.2166667,
+    "longitude": -80.3833313
+  },
+  {
+    "city": "Ecuador",
+    "country": "Playas",
+    "latitude": -2.6333333,
+    "longitude": -80.3833313
+  },
+  {
+    "city": "Cuba",
+    "country": "Palmira",
+    "latitude": 22.2416667,
+    "longitude": -80.390274
+  },
+  {
+    "city": "Panama",
+    "country": "Los Santos",
+    "latitude": 7.9333333,
+    "longitude": -80.4166641
+  },
+  {
+    "city": "Ecuador",
+    "country": "Bahia de Caraquez",
+    "latitude": -0.6,
+    "longitude": -80.4166641
+  },
+  {
+    "city": "Ecuador",
+    "country": "Pajan",
+    "latitude": -1.5666667,
+    "longitude": -80.4166641
+  },
+  {
+    "city": "Panama",
+    "country": "Chitre",
+    "latitude": 7.9666667,
+    "longitude": -80.4333344
+  },
+  {
+    "city": "Ecuador",
+    "country": "Rocafuerte",
+    "latitude": -0.9166667,
+    "longitude": -80.4333344
+  },
+  {
+    "city": "Ecuador",
+    "country": "Sucre",
+    "latitude": -1.2666667,
+    "longitude": -80.4333344
+  },
+  {
+    "city": "Cuba",
+    "country": "Cienfuegos",
+    "latitude": 22.1461111,
+    "longitude": -80.4355545
+  },
+  {
+    "city": "Peru",
+    "country": "Tumbes",
+    "latitude": -3.5666667,
+    "longitude": -80.441391
+  },
+  {
+    "city": "Panama",
+    "country": "La Pintada",
+    "latitude": 8.6,
+    "longitude": -80.4499969
+  },
+  {
+    "city": "Ecuador",
+    "country": "Portoviejo",
+    "latitude": -1.05,
+    "longitude": -80.4499969
+  },
+  {
+    "city": "Canada",
+    "country": "Kitchener",
+    "latitude": 43.4500956,
+    "longitude": -80.4829865
+  },
+  {
+    "city": "Canada",
+    "country": "Waterloo",
+    "latitude": 43.4667956,
+    "longitude": -80.5163879
+  },
+  {
+    "city": "Panama",
+    "country": "Nata",
+    "latitude": 8.3333333,
+    "longitude": -80.5166702
+  },
+  {
+    "city": "Panama",
+    "country": "Parita",
+    "latitude": 8,
+    "longitude": -80.5166702
+  },
+  {
+    "city": "Panama",
+    "country": "Capellania",
+    "latitude": 8.3,
+    "longitude": -80.5500031
+  },
+  {
+    "city": "Panama",
+    "country": "Pocri",
+    "latitude": 8.2666667,
+    "longitude": -80.5500031
+  },
+  {
+    "city": "Panama",
+    "country": "Aguadulce",
+    "latitude": 8.25,
+    "longitude": -80.5500031
+  },
+  {
+    "city": "Panama",
+    "country": "Macaracas",
+    "latitude": 7.7333333,
+    "longitude": -80.5500031
+  },
+  {
+    "city": "Cuba",
+    "country": "Rodas",
+    "latitude": 22.3408333,
+    "longitude": -80.5572205
+  },
+  {
+    "city": "Cuba",
+    "country": "Abreus",
+    "latitude": 22.2775,
+    "longitude": -80.5674973
+  },
+  {
+    "city": "Ecuador",
+    "country": "Jipijapa",
+    "latitude": -1.3333333,
+    "longitude": -80.5833359
+  },
+  {
+    "city": "Cuba",
+    "country": "Corralillo",
+    "latitude": 22.9819444,
+    "longitude": -80.585556
+  },
+  {
+    "city": "Panama",
+    "country": "Pese",
+    "latitude": 7.9,
+    "longitude": -80.6166687
+  },
+  {
+    "city": "Peru",
+    "country": "Piura",
+    "latitude": -5.2,
+    "longitude": -80.6333313
+  },
+  {
+    "city": "Peru",
+    "country": "Querecotillo",
+    "latitude": -4.8377778,
+    "longitude": -80.6455536
+  },
+  {
+    "city": "Panama",
+    "country": "Santa Maria",
+    "latitude": 8.1166667,
+    "longitude": -80.6666641
+  },
+  {
+    "city": "Ecuador",
+    "country": "Montecristi",
+    "latitude": -1.05,
+    "longitude": -80.6666641
+  },
+  {
+    "city": "Peru",
+    "country": "Catacaos",
+    "latitude": -5.2666667,
+    "longitude": -80.6833344
+  },
+  {
+    "city": "Peru",
+    "country": "Sullana",
+    "latitude": -4.9038889,
+    "longitude": -80.6852798
+  },
+  {
+    "city": "Peru",
+    "country": "Marcavelica",
+    "latitude": -4.8777778,
+    "longitude": -80.7052765
+  },
+  {
+    "city": "Ecuador",
+    "country": "Manta",
+    "latitude": -0.95,
+    "longitude": -80.7333298
+  },
+  {
+    "city": "Canada",
+    "country": "Woodstock",
+    "latitude": 43.1333947,
+    "longitude": -80.7497025
+  },
+  {
+    "city": "Peru",
+    "country": "La Union",
+    "latitude": -5.4,
+    "longitude": -80.75
+  },
+  {
+    "city": "Panama",
+    "country": "Ocu",
+    "latitude": 7.95,
+    "longitude": -80.7833328
+  },
+  {
+    "city": "Peru",
+    "country": "Sechura",
+    "latitude": -5.5569444,
+    "longitude": -80.8222198
+  },
+  {
+    "city": "United States",
+    "country": "Charlotte",
+    "latitude": 35.2270869,
+    "longitude": -80.8431244
+  },
+  {
+    "city": "Ecuador",
+    "country": "Santa Elena",
+    "latitude": -2.2333333,
+    "longitude": -80.8499985
+  },
+  {
+    "city": "Cuba",
+    "country": "Aguada de Pasajeros",
+    "latitude": 22.385,
+    "longitude": -80.8508301
+  },
+  {
+    "city": "Peru",
+    "country": "La Breita",
+    "latitude": -4.2608333,
+    "longitude": -80.8874969
+  },
+  {
+    "city": "Ecuador",
+    "country": "La Libertad",
+    "latitude": -2.2333333,
+    "longitude": -80.9000015
+  },
+  {
+    "city": "Cuba",
+    "country": "Colon",
+    "latitude": 22.7191667,
+    "longitude": -80.9058304
+  },
+  {
+    "city": "Cuba",
+    "country": "Calimete",
+    "latitude": 22.5333333,
+    "longitude": -80.9061127
+  },
+  {
+    "city": "Canada",
+    "country": "Owen Sound",
+    "latitude": 44.5667903,
+    "longitude": -80.9330215
+  },
+  {
+    "city": "Panama",
+    "country": "Atalaya",
+    "latitude": 8.05,
+    "longitude": -80.9333344
+  },
+  {
+    "city": "Canada",
+    "country": "Stratford",
+    "latitude": 43.3667928,
+    "longitude": -80.9497223
+  },
+  {
+    "city": "Ecuador",
+    "country": "Salinas",
+    "latitude": -2.2166667,
+    "longitude": -80.9666672
+  },
+  {
+    "city": "Panama",
+    "country": "Santiago",
+    "latitude": 8.1,
+    "longitude": -80.9833298
+  },
+  {
+    "city": "Canada",
+    "country": "Grand Sudbury",
+    "latitude": 46.4900017,
+    "longitude": -80.9900055
+  },
+  {
+    "city": "Cuba",
+    "country": "Perico",
+    "latitude": 22.7691667,
+    "longitude": -81.0188904
+  },
+  {
+    "city": "Panama",
+    "country": "La Pena",
+    "latitude": 8.1333333,
+    "longitude": -81.0333328
+  },
+  {
+    "city": "Panama",
+    "country": "Montijo",
+    "latitude": 7.9922222,
+    "longitude": -81.0544434
+  },
+  {
+    "city": "Peru",
+    "country": "Paita",
+    "latitude": -5.0891667,
+    "longitude": -81.1144409
+  },
+  {
+    "city": "Cuba",
+    "country": "Jaguey Grande",
+    "latitude": 22.5269444,
+    "longitude": -81.1286087
+  },
+  {
+    "city": "Panama",
+    "country": "La Mesa",
+    "latitude": 8.15,
+    "longitude": -81.1833344
+  },
+  {
+    "city": "Cuba",
+    "country": "Jovellanos",
+    "latitude": 22.8044444,
+    "longitude": -81.1944427
+  },
+  {
+    "city": "Cuba",
+    "country": "Cardenas",
+    "latitude": 23.0375,
+    "longitude": -81.2047195
+  },
+  {
+    "city": "Panama",
+    "country": "Canazas",
+    "latitude": 8.3166667,
+    "longitude": -81.2166672
+  },
+  {
+    "city": "Canada",
+    "country": "London",
+    "latitude": 42.9833893,
+    "longitude": -81.2330399
+  },
+  {
+    "city": "Cuba",
+    "country": "Varadero",
+    "latitude": 23.1536111,
+    "longitude": -81.2513885
+  },
+  {
+    "city": "Peru",
+    "country": "Talara",
+    "latitude": -4.5772222,
+    "longitude": -81.2719421
+  },
+  {
+    "city": "Cuba",
+    "country": "Pedro Betancourt",
+    "latitude": 22.7272222,
+    "longitude": -81.2900009
+  },
+  {
+    "city": "Panama",
+    "country": "Sona",
+    "latitude": 8.0166667,
+    "longitude": -81.3166656
+  },
+  {
+    "city": "Canada",
+    "country": "Timmins",
+    "latitude": 48.4668636,
+    "longitude": -81.3331223
   }
 ]
