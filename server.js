@@ -306,43 +306,42 @@ app.use((req, res, next) => {
   next();
 });
 
-
-// Endpoint to get yearly visits
+// Endpoint to get yearly visits with visit data
 app.get("/getyearlyvisits", (req, res) => {
-  getVisits("year", (err, visits) => {
+  getVisitsWithData("year", (err, visits) => {
     if (err) {
       res.status(500).json({ error: "Internal Server Error" });
     } else {
-      res.json({ visits: visits.length });
+      res.json({ visits: visits.length, visitData: visits });
     }
   });
 });
 
-// Endpoint to get monthly visits
+// Endpoint to get monthly visits with visit data
 app.get("/getmonthlyvisits", (req, res) => {
-  getVisits("month", (err, visits) => {
+  getVisitsWithData("month", (err, visits) => {
     if (err) {
       res.status(500).json({ error: "Internal Server Error" });
     } else {
-      res.json({ visits: visits.length });
+      res.json({ visits: visits.length, visitData: visits });
     }
   });
 });
 
-// Endpoint to get lifetime visits
+// Endpoint to get lifetime visits with visit data
 app.get("/getlifetimevisits", (req, res) => {
   fs.readFile("SiteVisits.json", "utf8", (err, data) => {
     if (err) {
       res.status(500).json({ error: "Internal Server Error" });
     } else {
       const visits = data.trim().split("\n").map(JSON.parse);
-      res.json({ visits: visits.length });
+      res.json({ visits: visits.length, visitData: visits });
     }
   });
 });
 
-// Helper function to filter visits based on time criteria
-function getVisits(timeFrame, callback) {
+// Helper function to filter visits based on time criteria and return visit data
+function getVisitsWithData(timeFrame, callback) {
   fs.readFile("SiteVisits.json", "utf8", (err, data) => {
     if (err) {
       callback(err, null);
@@ -368,6 +367,7 @@ function getVisits(timeFrame, callback) {
     }
   });
 }
+
 
 // Default route handler
 app.get("/", (req, res) => {
