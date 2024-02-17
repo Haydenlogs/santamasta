@@ -55954,5 +55954,551 @@
     "country": "Rioja",
     "latitude": -6.0586111,
     "longitude": -77.1650009
+  },
+  {
+    "city": "Peru",
+    "country": "Huaral",
+    "latitude": -11.495,
+    "longitude": -77.2077789
+  },
+  {
+    "city": "Jamaica",
+    "country": "Kellits",
+    "latitude": 18.15,
+    "longitude": -77.2333298
+  },
+  {
+    "city": "Jamaica",
+    "country": "May Pen",
+    "latitude": 17.9666667,
+    "longitude": -77.2333298
+  },
+  {
+    "city": "Jamaica",
+    "country": "Hayes",
+    "latitude": 17.8666667,
+    "longitude": -77.2333298
+  },
+  {
+    "city": "Jamaica",
+    "country": "Lionel Town",
+    "latitude": 17.8,
+    "longitude": -77.2333298
+  },
+  {
+    "city": "Jamaica",
+    "country": "Rocky Point",
+    "latitude": 17.7666667,
+    "longitude": -77.25
+  },
+  {
+    "city": "Cuba",
+    "country": "Nuevitas",
+    "latitude": 21.5452778,
+    "longitude": -77.2644424
+  },
+  {
+    "city": "Jamaica",
+    "country": "Bamboo",
+    "latitude": 18.3833333,
+    "longitude": -77.2666702
+  },
+  {
+    "city": "Jamaica",
+    "country": "Chapelton",
+    "latitude": 18.0833333,
+    "longitude": -77.2666702
+  },
+  {
+    "city": "Peru",
+    "country": "Chancay",
+    "latitude": -11.5713889,
+    "longitude": -77.2672195
+  },
+  {
+    "city": "Cuba",
+    "country": "Campechuela",
+    "latitude": 20.2341667,
+    "longitude": -77.2788925
+  },
+  {
+    "city": "Colombi",
+    "country": "Pasto",
+    "latitude": 1.2136111,
+    "longitude": -77.2811127
+  },
+  {
+    "city": "Jamaica",
+    "country": "Race Course",
+    "latitude": 17.8333333,
+    "longitude": -77.2833328
+  },
+  {
+    "city": "Jamaica",
+    "country": "Runaway Bay",
+    "latitude": 18.4666667,
+    "longitude": -77.3333359
+  },
+  {
+    "city": "Cuba",
+    "country": "Guaimaro",
+    "latitude": 21.05,
+    "longitude": -77.3499985
+  },
+  {
+    "city": "Jamaica",
+    "country": "Alexandria",
+    "latitude": 18.3,
+    "longitude": -77.3499985
+  },
+  {
+    "city": "Jamaica",
+    "country": "Discovery Bay",
+    "latitude": 18.4666667,
+    "longitude": -77.4000015
+  },
+  {
+    "city": "Jamaica",
+    "country": "Porus",
+    "latitude": 18.0333333,
+    "longitude": -77.4166641
+  },
+  {
+    "city": "Cuba",
+    "country": "Colombia",
+    "latitude": 20.9880556,
+    "longitude": -77.4297256
+  },
+  {
+    "city": "Cuba",
+    "country": "Media Luna",
+    "latitude": 20.1419444,
+    "longitude": -77.4349976
+  },
+  {
+    "city": "Jamaica",
+    "country": "Williamsfield",
+    "latitude": 18.0666667,
+    "longitude": -77.4666672
+  },
+  {
+    "city": "Jamaica",
+    "country": "Mandeville",
+    "latitude": 18.0333333,
+    "longitude": -77.5
+  },
+  {
+    "city": "Jamaica",
+    "country": "Ulster Spring",
+    "latitude": 18.3166667,
+    "longitude": -77.5166702
+  },
+  {
+    "city": "Jamaica",
+    "country": "Coleyville",
+    "latitude": 18.2,
+    "longitude": -77.5166702
+  },
+  {
+    "city": "Cuba",
+    "country": "Sibanicu",
+    "latitude": 21.235,
+    "longitude": -77.5263901
+  },
+  {
+    "city": "Jamaica",
+    "country": "Duncans",
+    "latitude": 18.4666667,
+    "longitude": -77.5333328
+  },
+  {
+    "city": "Peru",
+    "country": "Huaraz",
+    "latitude": -9.5333333,
+    "longitude": -77.5333328
+  },
+  {
+    "city": "Jamaica",
+    "country": "Albert Town",
+    "latitude": 18.2833333,
+    "longitude": -77.5500031
+  },
+  {
+    "city": "Jamaica",
+    "country": "Alligator Pond",
+    "latitude": 17.8666667,
+    "longitude": -77.5666656
+  },
+  {
+    "city": "Cuba",
+    "country": "Niquero",
+    "latitude": 20.0430556,
+    "longitude": -77.5827789
+  },
+  {
+    "city": "Peru",
+    "country": "Huaura",
+    "latitude": -11.07,
+    "longitude": -77.5994415
+  },
+  {
+    "city": "Jamaica",
+    "country": "Nain",
+    "latitude": 17.9666667,
+    "longitude": -77.5999985
+  },
+  {
+    "city": "Jamaica",
+    "country": "Bull Savanna",
+    "latitude": 17.8833333,
+    "longitude": -77.5999985
+  },
+  {
+    "city": "Peru",
+    "country": "Huacho",
+    "latitude": -11.1066667,
+    "longitude": -77.6050034
+  },
+  {
+    "city": "Peru",
+    "country": "Hualmay",
+    "latitude": -11.0963889,
+    "longitude": -77.6138916
+  },
+  {
+    "city": "United States",
+    "country": "Rochester",
+    "latitude": 43.1547845,
+    "longitude": -77.6155548
+  },
+  {
+    "city": "Cuba",
+    "country": "Minas",
+    "latitude": 21.4833333,
+    "longitude": -77.6166687
+  },
+  {
+    "city": "Colombi",
+    "country": "Ipiales",
+    "latitude": 0.8302778,
+    "longitude": -77.6444473
+  },
+  {
+    "city": "Jamaica",
+    "country": "Falmouth",
+    "latitude": 18.5,
+    "longitude": -77.6500015
+  },
+  {
+    "city": "Jamaica",
+    "country": "Balaclava",
+    "latitude": 18.1666667,
+    "longitude": -77.6500015
+  },
+  {
+    "city": "Jamaica",
+    "country": "Southfield",
+    "latitude": 17.8833333,
+    "longitude": -77.6666641
+  },
+  {
+    "city": "Jamaica",
+    "country": "Santa Cruz",
+    "latitude": 18.05,
+    "longitude": -77.6999969
+  },
+  {
+    "city": "Jamaica",
+    "country": "Malvern",
+    "latitude": 17.9666667,
+    "longitude": -77.6999969
+  },
+  {
+    "city": "Jamaica",
+    "country": "Wakefield",
+    "latitude": 18.4166667,
+    "longitude": -77.7166672
+  },
+  {
+    "city": "Jamaica",
+    "country": "Siloah",
+    "latitude": 18.1666667,
+    "longitude": -77.7166672
+  },
+  {
+    "city": "Jamaica",
+    "country": "Lacovia",
+    "latitude": 18.0666667,
+    "longitude": -77.75
+  },
+  {
+    "city": "Jamaica",
+    "country": "Maggotty",
+    "latitude": 18.15,
+    "longitude": -77.7666702
+  },
+  {
+    "city": "Peru",
+    "country": "Barranca",
+    "latitude": -10.75,
+    "longitude": -77.7666702
+  },
+  {
+    "city": "Jamaica",
+    "country": "Maroon Town",
+    "latitude": 18.35,
+    "longitude": -77.8000031
+  },
+  {
+    "city": "Ecuador",
+    "country": "Archidona",
+    "latitude": -0.9166667,
+    "longitude": -77.8000031
+  },
+  {
+    "city": "Ecuador",
+    "country": "San Gabriel",
+    "latitude": 0.6,
+    "longitude": -77.8166656
+  },
+  {
+    "city": "Ecuador",
+    "country": "Tena",
+    "latitude": -0.9833333,
+    "longitude": -77.8166656
+  },
+  {
+    "city": "Peru",
+    "country": "Paramonga",
+    "latitude": -10.6666667,
+    "longitude": -77.8333359
+  },
+  {
+    "city": "Jamaica",
+    "country": "Black River",
+    "latitude": 18.0166667,
+    "longitude": -77.8499985
+  },
+  {
+    "city": "Peru",
+    "country": "Chachapoyas",
+    "latitude": -6.2316882,
+    "longitude": -77.8690338
+  },
+  {
+    "city": "Jamaica",
+    "country": "Cambridge",
+    "latitude": 18.3166667,
+    "longitude": -77.9000015
+  },
+  {
+    "city": "Jamaica",
+    "country": "Montego Bay",
+    "latitude": 18.4666667,
+    "longitude": -77.9166641
+  },
+  {
+    "city": "Cuba",
+    "country": "Camaguey",
+    "latitude": 21.3808333,
+    "longitude": -77.9169464
+  },
+  {
+    "city": "Jamaica",
+    "country": "Anchovy",
+    "latitude": 18.4,
+    "longitude": -77.9333344
+  },
+  {
+    "city": "Panama",
+    "country": "Ustupo",
+    "latitude": 9.1333333,
+    "longitude": -77.9333344
+  },
+  {
+    "city": "Ecuador",
+    "country": "Palora",
+    "latitude": -1.7,
+    "longitude": -77.9333344
+  },
+  {
+    "city": "Jamaica",
+    "country": "Bethel Town",
+    "latitude": 18.3,
+    "longitude": -77.9499969
+  },
+  {
+    "city": "Jamaica",
+    "country": "Darliston",
+    "latitude": 18.2333333,
+    "longitude": -77.9666672
+  },
+  {
+    "city": "Ecuador",
+    "country": "Pimampiro",
+    "latitude": 0.4,
+    "longitude": -77.9666672
+  },
+  {
+    "city": "Panama",
+    "country": "Achutupo Numero Dos",
+    "latitude": 9.2,
+    "longitude": -77.9833298
+  },
+  {
+    "city": "Ecuador",
+    "country": "Puyo",
+    "latitude": -1.4666667,
+    "longitude": -77.9833298
+  },
+  {
+    "city": "Cuba",
+    "country": "Santa Cruz del Sur",
+    "latitude": 20.7147222,
+    "longitude": -77.9955521
+  },
+  {
+    "city": "Jamaica",
+    "country": "Bluefields",
+    "latitude": 18.1666667,
+    "longitude": -78.0333328
+  },
+  {
+    "city": "Jamaica",
+    "country": "Petersfield",
+    "latitude": 18.2666667,
+    "longitude": -78.0666656
+  },
+  {
+    "city": "Peru",
+    "country": "Huamachuco",
+    "latitude": -7.8,
+    "longitude": -78.0666656
+  },
+  {
+    "city": "Jamaica",
+    "country": "Sandy Bay",
+    "latitude": 18.45,
+    "longitude": -78.0833359
+  },
+  {
+    "city": "Jamaica",
+    "country": "Cascade",
+    "latitude": 18.4,
+    "longitude": -78.0999985
+  },
+  {
+    "city": "Ecuador",
+    "country": "Ibarra",
+    "latitude": 0.35,
+    "longitude": -78.1166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Macas",
+    "latitude": -2.3166667,
+    "longitude": -78.1166687
+  },
+  {
+    "city": "Cuba",
+    "country": "Esmeralda",
+    "latitude": 21.8525,
+    "longitude": -78.1169434
+  },
+  {
+    "city": "Ecuador",
+    "country": "Cayambe",
+    "latitude": 0.05,
+    "longitude": -78.1333313
+  },
+  {
+    "city": "Panama",
+    "country": "La Palma",
+    "latitude": 8.4027778,
+    "longitude": -78.1452789
+  },
+  {
+    "city": "Cuba",
+    "country": "Vertientes",
+    "latitude": 21.2594444,
+    "longitude": -78.1463852
+  },
+  {
+    "city": "Jamaica",
+    "country": "Frome",
+    "latitude": 18.3,
+    "longitude": -78.1500015
+  },
+  {
+    "city": "Peru",
+    "country": "Huarmey",
+    "latitude": -10.0680556,
+    "longitude": -78.1522217
+  },
+  {
+    "city": "Canada",
+    "country": "Cobourg",
+    "latitude": 43.9668223,
+    "longitude": -78.1662216
+  },
+  {
+    "city": "Jamaica",
+    "country": "Lucea",
+    "latitude": 18.45,
+    "longitude": -78.1666641
+  },
+  {
+    "city": "Ecuador",
+    "country": "Sucua",
+    "latitude": -2.4666667,
+    "longitude": -78.1666641
+  },
+  {
+    "city": "Ecuador",
+    "country": "Atuntaqui",
+    "latitude": 0.3333333,
+    "longitude": -78.2166672
+  },
+  {
+    "city": "Cuba",
+    "country": "Florida",
+    "latitude": 21.5247222,
+    "longitude": -78.2258301
+  },
+  {
+    "city": "Panama",
+    "country": "Playon Chico",
+    "latitude": 9.3,
+    "longitude": -78.2333298
+  },
+  {
+    "city": "Ecuador",
+    "country": "Cotacachi",
+    "latitude": 0.3,
+    "longitude": -78.2666702
+  },
+  {
+    "city": "Ecuador",
+    "country": "Otavalo",
+    "latitude": 0.2333333,
+    "longitude": -78.2666702
+  },
+  {
+    "city": "Canada",
+    "country": "Peterborough",
+    "latitude": 44.3001213,
+    "longitude": -78.3162308
+  },
+  {
+    "city": "Ecuador",
+    "country": "Banos",
+    "latitude": -1.4,
+    "longitude": -78.4166641
+  },
+  {
+    "city": "Cuba",
+    "country": "Primero de Enero",
+    "latitude": 21.9469444,
+    "longitude": -78.4283371
   }
 ]
