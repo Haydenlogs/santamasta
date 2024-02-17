@@ -15,8 +15,6 @@ let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
 
-
-
 // Function to save the current index to a file
 function saveIndexToFile() {
   fs.writeFileSync("currentIndex.txt", currentIndex.toString());
@@ -82,14 +80,13 @@ async function startTracker(filePath) {
     }
   }
 }
-let presentsDelivered
+let presentsDelivered;
 function updatePresentsDelivered(currentIndex) {
-    presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Calculate presents delivered
-        // Update presents delivered every 10 milliseconds
-        presentsDelivered = Math.floor(currentIndex / cities.length * maxpresents); // Recalculate presents delivered
-        sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
+  presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents); // Calculate presents delivered
+  // Update presents delivered every 10 milliseconds
+  presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents); // Recalculate presents delivered
+  sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
 }
-
 
 function sendNextCity() {
   if (isTrackerStarted && currentIndex < cities.length) {
@@ -107,11 +104,11 @@ function sendNextCity() {
       console.log("Sent next city:", cityInfo);
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
-      
+
       // Calculate presents delivered
       const presentsDelivered = updatePresentsDelivered(currentIndex);
-      sendTrackerEvent({ newbasket: cityInfo}); // Include presentsDelivered in the event
-      
+      sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
+
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
       sendTrackerEvent({ santaMoving: true });
       // Add delivered location to JSON file
@@ -282,6 +279,7 @@ app.get("/unlock", (req, res) => {
   isLocked = false;
   res.send("Site unlocked");
   sendTrackerEvent({ unlocked: true });
+  saveTrackerStatusToFile(true);
 });
 
 // Endpoint to lock the site
@@ -289,12 +287,14 @@ app.get("/lock", (req, res) => {
   isLocked = true;
   res.send("Site locked");
   sendTrackerEvent({ unlocked: false });
+  saveTrackerStatusToFile(true);
 });
 // Middleware to log requests
 app.use((req, res, next) => {
   const ip = req.ip;
   const time = new Date().toISOString();
-  const country = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+  const country =
+    req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
   const visitData = { ip, time, country };
 
@@ -368,12 +368,12 @@ function getVisitsWithData(timeFrame, callback) {
   });
 }
 
-
 // Default route handler
 app.get("/", (req, res) => {
   const ip = req.ip;
   const time = new Date().toISOString();
-  const country = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+  const country =
+    req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
   const visitData = { ip, time, country };
 
@@ -381,17 +381,21 @@ app.get("/", (req, res) => {
   fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
     if (err) console.error("Error logging visit:", err);
   });
-
+  const trackerStarted = isTrackerStartedFromFile();
   // Check if the site is locked
   if (isLocked) {
     // If locked, redirect to comeback.html
     res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
   } else {
-    // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
-    if (!isTrackerStarted) {
-      res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
+    if (trackerStarted === false) {
+      res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
     } else {
-      res.sendFile(path.join(__dirname, "src", "pages", "tracker.html"));
+      // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
+      if (!isTrackerStarted) {
+        res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
+      } else {
+        res.sendFile(path.join(__dirname, "src", "pages", "tracker.html"));
+      }
     }
   }
 });
@@ -413,7 +417,25 @@ app.get("/getbaskets", (req, res) => {
     const baskets = JSON.parse(fs.readFileSync("giftsdelivered.json"));
 
     // Filter out every 5th basket
-    const filteredBaskets = baskets.filter((basket, index) => (index + 1) % 5 === 0);
+    const filteredBaskets = baskets.filter(
+      (basket, index) => (index + 1) % 5 === 0
+    );
+
+    res.json(filteredBaskets);
+  } catch (error) {
+    console.error("Error getting baskets:", error);
+    res.status(500).send("Internal Server Error");
+  }
+});
+app.get("/getallbaskets", (req, res) => {
+  try {
+    // Read the contents of the giftsdelivered.json file
+    const baskets = JSON.parse(fs.readFileSync("giftsdelivered.json"));
+
+    // Filter out every 5th basket
+    const filteredBaskets = baskets.filter(
+      (basket, index) => (index + 1) % 1 === 0
+    );
 
     res.json(filteredBaskets);
   } catch (error) {
@@ -428,6 +450,23 @@ function sendTrackerEvent(data) {
     client.res.write(`data: ${JSON.stringify(data)}\n\n`);
   });
 }
+// Function to save the tracker status to a file
+function saveTrackerStatusToFile(status) {
+  const data = JSON.stringify({ trackerStarted: status });
+  fs.writeFileSync("ended.json", data);
+}
+
+// Function to check if the tracker is started from the file
+function isTrackerStartedFromFile() {
+  try {
+    const data = fs.readFileSync("ended.json");
+    const { trackerStarted } = JSON.parse(data);
+    return trackerStarted;
+  } catch (err) {
+    // If file doesn't exist or any error occurs, return false
+    return false;
+  }
+}
 
 app.get("/endtracker", (req, res) => {
   isTrackerStarted = false;
@@ -438,6 +477,13 @@ app.get("/endtracker", (req, res) => {
   currentIndex = 0;
   saveIndexToFile(); // Save the index to file
   sendTrackerEvent({ trackerEnded: true });
+
+  // Save the tracker status to file
+  saveTrackerStatusToFile(false);
+});
+app.get("/checktrackerstatus", (req, res) => {
+  const trackerStarted = isTrackerStartedFromFile();
+  res.send(`Tracker is ${trackerStarted ? "started" : "not started"}`);
 });
 
 app.get("/updates", (req, res) => {
