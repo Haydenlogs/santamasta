@@ -56500,5 +56500,557 @@
     "country": "Primero de Enero",
     "latitude": 21.9469444,
     "longitude": -78.4283371
+  },
+  {
+    "city": "Peru",
+    "country": "La Peca",
+    "latitude": -5.6111111,
+    "longitude": -78.4349976
+  },
+  {
+    "city": "Peru",
+    "country": "Bagua Grande",
+    "latitude": -5.7561111,
+    "longitude": -78.4411087
+  },
+  {
+    "city": "Ecuador",
+    "country": "Quito",
+    "latitude": -0.2166667,
+    "longitude": -78.5
+  },
+  {
+    "city": "Peru",
+    "country": "Cajamarca",
+    "latitude": -7.1637775,
+    "longitude": -78.500267
+  },
+  {
+    "city": "Ecuador",
+    "country": "Pillaro",
+    "latitude": -1.1666667,
+    "longitude": -78.5333328
+  },
+  {
+    "city": "Ecuador",
+    "country": "Pelileo",
+    "latitude": -1.3166667,
+    "longitude": -78.5333328
+  },
+  {
+    "city": "Ecuador",
+    "country": "Machachi",
+    "latitude": -0.5,
+    "longitude": -78.5666656
+  },
+  {
+    "city": "Ecuador",
+    "country": "San Miguel de Salcedo",
+    "latitude": -1.0333333,
+    "longitude": -78.5666656
+  },
+  {
+    "city": "Peru",
+    "country": "Chimbote",
+    "latitude": -9.0852778,
+    "longitude": -78.578331
+  },
+  {
+    "city": "Ecuador",
+    "country": "Latacunga",
+    "latitude": -0.9333333,
+    "longitude": -78.6166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Ambato",
+    "latitude": -1.2490809,
+    "longitude": -78.616745
+  },
+  {
+    "city": "Cuba",
+    "country": "Moron",
+    "latitude": 22.1094444,
+    "longitude": -78.6275024
+  },
+  {
+    "city": "Cuba",
+    "country": "Baragua",
+    "latitude": 21.6966667,
+    "longitude": -78.6327744
+  },
+  {
+    "city": "Ecuador",
+    "country": "Guano",
+    "latitude": -1.5833333,
+    "longitude": -78.6333313
+  },
+  {
+    "city": "Ecuador",
+    "country": "Riobamba",
+    "latitude": -1.6666667,
+    "longitude": -78.6333313
+  },
+  {
+    "city": "United States",
+    "country": "Raleigh",
+    "latitude": 35.772096,
+    "longitude": -78.6386108
+  },
+  {
+    "city": "United States",
+    "country": "West Raleigh",
+    "latitude": 35.7868182,
+    "longitude": -78.6638947
+  },
+  {
+    "city": "Ecuador",
+    "country": "Pujili",
+    "latitude": -0.95,
+    "longitude": -78.6833344
+  },
+  {
+    "city": "Peru",
+    "country": "Viru",
+    "latitude": -8.4166667,
+    "longitude": -78.75
+  },
+  {
+    "city": "Ecuador",
+    "country": "Yantzaza",
+    "latitude": -3.8277778,
+    "longitude": -78.7594452
+  },
+  {
+    "city": "Cuba",
+    "country": "Ciego de Avila",
+    "latitude": 21.84,
+    "longitude": -78.7619476
+  },
+  {
+    "city": "Ecuador",
+    "country": "Gualaceo",
+    "latitude": -2.9,
+    "longitude": -78.7833328
+  },
+  {
+    "city": "Cuba",
+    "country": "Venezuela",
+    "latitude": 21.7352778,
+    "longitude": -78.7963867
+  },
+  {
+    "city": "Peru",
+    "country": "Jaen",
+    "latitude": -5.7080556,
+    "longitude": -78.8047256
+  },
+  {
+    "city": "Colombi",
+    "country": "Tumaco",
+    "latitude": 1.7986111,
+    "longitude": -78.8155594
+  },
+  {
+    "city": "Ecuador",
+    "country": "Alausi",
+    "latitude": -2.2,
+    "longitude": -78.8333359
+  },
+  {
+    "city": "Ecuador",
+    "country": "Azogues",
+    "latitude": -2.7333333,
+    "longitude": -78.8333359
+  },
+  {
+    "city": "Ecuador",
+    "country": "San Lorenzo de Esmeraldas",
+    "latitude": 1.2883333,
+    "longitude": -78.8369446
+  },
+  {
+    "city": "Canada",
+    "country": "Oshawa",
+    "latitude": 43.9001204,
+    "longitude": -78.8495712
+  },
+  {
+    "city": "United States",
+    "country": "Buffalo",
+    "latitude": 42.8864468,
+    "longitude": -78.8783722
+  },
+  {
+    "city": "United States",
+    "country": "Durham",
+    "latitude": 35.9940329,
+    "longitude": -78.8986206
+  },
+  {
+    "city": "Cuba",
+    "country": "Chambas",
+    "latitude": 22.1927778,
+    "longitude": -78.9136124
+  },
+  {
+    "city": "Ecuador",
+    "country": "Canar",
+    "latitude": -2.55,
+    "longitude": -78.9333344
+  },
+  {
+    "city": "Peru",
+    "country": "Laredo",
+    "latitude": -8.1,
+    "longitude": -78.9499969
+  },
+  {
+    "city": "Ecuador",
+    "country": "Zamora",
+    "latitude": -4.0691667,
+    "longitude": -78.956665
+  },
+  {
+    "city": "Ecuador",
+    "country": "Valdez",
+    "latitude": 1.2491667,
+    "longitude": -78.9830551
+  },
+  {
+    "city": "Ecuador",
+    "country": "Cuenca",
+    "latitude": -2.8833333,
+    "longitude": -78.9833298
+  },
+  {
+    "city": "Ecuador",
+    "country": "Guaranda",
+    "latitude": -1.6,
+    "longitude": -79
+  },
+  {
+    "city": "Peru",
+    "country": "Moche",
+    "latitude": -8.1711111,
+    "longitude": -79.0091629
+  },
+  {
+    "city": "Canada",
+    "country": "Rouyn-Noranda",
+    "latitude": 48.2398521,
+    "longitude": -79.0287781
+  },
+  {
+    "city": "Peru",
+    "country": "Trujillo",
+    "latitude": -8.1159943,
+    "longitude": -79.0299759
+  },
+  {
+    "city": "Ecuador",
+    "country": "San Miguel",
+    "latitude": -1.7,
+    "longitude": -79.0333328
+  },
+  {
+    "city": "Panama",
+    "country": "Chepo",
+    "latitude": 9.1666667,
+    "longitude": -79.0999985
+  },
+  {
+    "city": "Panama",
+    "country": "El Progreso",
+    "latitude": 9.2666667,
+    "longitude": -79.1166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Santo Domingo de los Colorados",
+    "latitude": -0.25,
+    "longitude": -79.1500015
+  },
+  {
+    "city": "Cuba",
+    "country": "Jatibonico",
+    "latitude": 21.9419444,
+    "longitude": -79.1699982
+  },
+  {
+    "city": "Ecuador",
+    "country": "Loja",
+    "latitude": -3.9931262,
+    "longitude": -79.204216
+  },
+  {
+    "city": "Ecuador",
+    "country": "La Mana",
+    "latitude": -0.9333333,
+    "longitude": -79.2166672
+  },
+  {
+    "city": "Peru",
+    "country": "Chocope",
+    "latitude": -7.7913889,
+    "longitude": -79.2216644
+  },
+  {
+    "city": "Panama",
+    "country": "Paso Blanco",
+    "latitude": 9.1333333,
+    "longitude": -79.2333298
+  },
+  {
+    "city": "Cuba",
+    "country": "Yaguajay",
+    "latitude": 22.3272222,
+    "longitude": -79.2377777
+  },
+  {
+    "city": "Peru",
+    "country": "Santiago de Cao",
+    "latitude": -7.9588889,
+    "longitude": -79.2391663
+  },
+  {
+    "city": "Panama",
+    "country": "Pacora",
+    "latitude": 9.0833333,
+    "longitude": -79.2833328
+  },
+  {
+    "city": "Peru",
+    "country": "Paijan",
+    "latitude": -7.7333333,
+    "longitude": -79.3022232
+  },
+  {
+    "city": "Ecuador",
+    "country": "Montalvo",
+    "latitude": -1.8,
+    "longitude": -79.3333359
+  },
+  {
+    "city": "Ecuador",
+    "country": "La Troncal",
+    "latitude": -2.4,
+    "longitude": -79.3333359
+  },
+  {
+    "city": "Ecuador",
+    "country": "Catamayo",
+    "latitude": -3.9833333,
+    "longitude": -79.3499985
+  },
+  {
+    "city": "Panama",
+    "country": "Tocumen",
+    "latitude": 9.0833333,
+    "longitude": -79.3833313
+  },
+  {
+    "city": "Peru",
+    "country": "Chongoyape",
+    "latitude": -6.6405556,
+    "longitude": -79.3891678
+  },
+  {
+    "city": "Canada",
+    "country": "Toronto",
+    "latitude": 43.7001138,
+    "longitude": -79.4163055
+  },
+  {
+    "city": "Canada",
+    "country": "Orillia",
+    "latitude": 44.6168093,
+    "longitude": -79.4163208
+  },
+  {
+    "city": "Ecuador",
+    "country": "Coronel Marcelino Mariduena",
+    "latitude": -2.2,
+    "longitude": -79.4166641
+  },
+  {
+    "city": "Cuba",
+    "country": "Sancti Spiritus",
+    "latitude": 21.9297222,
+    "longitude": -79.4424973
+  },
+  {
+    "city": "Ecuador",
+    "country": "Quevedo",
+    "latitude": -1.0333333,
+    "longitude": -79.4499969
+  },
+  {
+    "city": "Peru",
+    "country": "Chepen",
+    "latitude": -7.2166667,
+    "longitude": -79.4499969
+  },
+  {
+    "city": "Canada",
+    "country": "North Bay",
+    "latitude": 46.3168021,
+    "longitude": -79.4663315
+  },
+  {
+    "city": "Ecuador",
+    "country": "Rosa Zarate",
+    "latitude": 0.3333333,
+    "longitude": -79.4666672
+  },
+  {
+    "city": "Ecuador",
+    "country": "Ventanas",
+    "latitude": -1.45,
+    "longitude": -79.4666672
+  },
+  {
+    "city": "Ecuador",
+    "country": "Catarama",
+    "latitude": -1.5833333,
+    "longitude": -79.4666672
+  },
+  {
+    "city": "Cuba",
+    "country": "Caibarien",
+    "latitude": 22.5205556,
+    "longitude": -79.4669418
+  },
+  {
+    "city": "Ecuador",
+    "country": "Naranjito",
+    "latitude": -2.2166667,
+    "longitude": -79.4833298
+  },
+  {
+    "city": "Peru",
+    "country": "Guadalupe",
+    "latitude": -7.25,
+    "longitude": -79.4833298
+  },
+  {
+    "city": "Cuba",
+    "country": "Cabaiguan",
+    "latitude": 22.0788889,
+    "longitude": -79.4991684
+  },
+  {
+    "city": "Panama",
+    "country": "San Miguelito",
+    "latitude": 9.0333333,
+    "longitude": -79.5
+  },
+  {
+    "city": "Peru",
+    "country": "San Pedro de Lloc",
+    "latitude": -7.4327778,
+    "longitude": -79.5058365
+  },
+  {
+    "city": "Ecuador",
+    "country": "Babahoyo",
+    "latitude": -1.8166667,
+    "longitude": -79.5166702
+  },
+  {
+    "city": "Ecuador",
+    "country": "Alfredo Baquerizo Moreno",
+    "latitude": -1.9166667,
+    "longitude": -79.5166702
+  },
+  {
+    "city": "Panama",
+    "country": "La Cabima",
+    "latitude": 9.1333333,
+    "longitude": -79.5333328
+  },
+  {
+    "city": "Panama",
+    "country": "Las Cumbres",
+    "latitude": 9.0833333,
+    "longitude": -79.5333328
+  },
+  {
+    "city": "Panama",
+    "country": "Panama",
+    "latitude": 8.9666667,
+    "longitude": -79.5333328
+  },
+  {
+    "city": "Cuba",
+    "country": "Remedios",
+    "latitude": 22.4947222,
+    "longitude": -79.5458298
+  },
+  {
+    "city": "Panama",
+    "country": "Alcaldediaz",
+    "latitude": 9.1166667,
+    "longitude": -79.5500031
+  },
+  {
+    "city": "Panama",
+    "country": "Ancon",
+    "latitude": 8.9666667,
+    "longitude": -79.5500031
+  },
+  {
+    "city": "Ecuador",
+    "country": "Cariamanga",
+    "latitude": -4.3333333,
+    "longitude": -79.5500031
+  },
+  {
+    "city": "Peru",
+    "country": "Pacasmayo",
+    "latitude": -7.4005556,
+    "longitude": -79.5713882
+  },
+  {
+    "city": "Peru",
+    "country": "Zana",
+    "latitude": -6.9222222,
+    "longitude": -79.5841675
+  },
+  {
+    "city": "Panama",
+    "country": "Nuevo Vigia",
+    "latitude": 9.2447222,
+    "longitude": -79.6086121
+  },
+  {
+    "city": "Canada",
+    "country": "Bradford West Gwillimbury",
+    "latitude": 44.11681,
+    "longitude": -79.6163254
+  },
+  {
+    "city": "Panama",
+    "country": "Chilibre",
+    "latitude": 9.15,
+    "longitude": -79.6166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Velasco Ibarra",
+    "latitude": -1.05,
+    "longitude": -79.6166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Naranjal",
+    "latitude": -2.6666667,
+    "longitude": -79.6166687
+  },
+  {
+    "city": "Ecuador",
+    "country": "Zaruma",
+    "latitude": -3.6833333,
+    "longitude": -79.6166687
   }
 ]
