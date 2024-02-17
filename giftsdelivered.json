@@ -49912,5 +49912,551 @@
     "country": "Porto Alegre",
     "latitude": -30.0330556,
     "longitude": -51.2299995
+  },
+  {
+    "city": "Brazil",
+    "country": "Maringa",
+    "latitude": -23.4252778,
+    "longitude": -51.9386101
+  },
+  {
+    "city": "Brazil",
+    "country": "Pelotas",
+    "latitude": -31.7719444,
+    "longitude": -52.3424988
+  },
+  {
+    "city": "Uruguay",
+    "country": "Rio Branco",
+    "latitude": -32.5666667,
+    "longitude": -53.4166679
+  },
+  {
+    "city": "Uruguay",
+    "country": "Chuy",
+    "latitude": -33.6833333,
+    "longitude": -53.4500008
+  },
+  {
+    "city": "Brazil",
+    "country": "Cascavel",
+    "latitude": -24.9558333,
+    "longitude": -53.4552765
+  },
+  {
+    "city": "Uruguay",
+    "country": "Cebollati",
+    "latitude": -33.2666667,
+    "longitude": -53.7833328
+  },
+  {
+    "city": "Brazil",
+    "country": "Santa Maria",
+    "latitude": -29.6841667,
+    "longitude": -53.8069458
+  },
+  {
+    "city": "Uruguay",
+    "country": "Castillos",
+    "latitude": -34.1666667,
+    "longitude": -53.8333321
+  },
+  {
+    "city": "Uruguay",
+    "country": "Vergara",
+    "latitude": -32.9333333,
+    "longitude": -53.9500008
+  },
+  {
+    "city": "Suriname",
+    "country": "Albina",
+    "latitude": 5.5,
+    "longitude": -54.0499992
+  },
+  {
+    "city": "Suriname",
+    "country": "Kabana-vo",
+    "latitude": 3.6741067,
+    "longitude": -54.0848846
+  },
+  {
+    "city": "Suriname",
+    "country": "Benzdorp (Monte Hermon)",
+    "latitude": 3.672067,
+    "longitude": -54.1035461
+  },
+  {
+    "city": "Uruguay",
+    "country": "Isidoro Noblia",
+    "latitude": -31.8333333,
+    "longitude": -54.1666679
+  },
+  {
+    "city": "Uruguay",
+    "country": "La Paloma",
+    "latitude": -34.6666667,
+    "longitude": -54.1666679
+  },
+  {
+    "city": "Uruguay",
+    "country": "Melo",
+    "latitude": -32.3666667,
+    "longitude": -54.1833344
+  },
+  {
+    "city": "Uruguay",
+    "country": "Acegua",
+    "latitude": -31.8666667,
+    "longitude": -54.2000008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Lascano",
+    "latitude": -33.6666667,
+    "longitude": -54.2000008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Rocha",
+    "latitude": -34.4833333,
+    "longitude": -54.3333321
+  },
+  {
+    "city": "Paraguay",
+    "country": "Salto del Guaira",
+    "latitude": -24.05,
+    "longitude": -54.3499985
+  },
+  {
+    "city": "Uruguay",
+    "country": "Treinta y Tres",
+    "latitude": -33.2333333,
+    "longitude": -54.3833351
+  },
+  {
+    "city": "Suriname",
+    "country": "Moengo",
+    "latitude": 5.6166667,
+    "longitude": -54.4000015
+  },
+  {
+    "city": "Paraguay",
+    "country": "Las Palomas",
+    "latitude": -24.0833333,
+    "longitude": -54.5166664
+  },
+  {
+    "city": "Uruguay",
+    "country": "Jose Pedro Varela",
+    "latitude": -33.45,
+    "longitude": -54.5333328
+  },
+  {
+    "city": "Argentina",
+    "country": "Puerto Iguazu",
+    "latitude": -25.5991157,
+    "longitude": -54.573555
+  },
+  {
+    "city": "Brazil",
+    "country": "Foz do Iguacu",
+    "latitude": -25.5477778,
+    "longitude": -54.5880547
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Catuete",
+    "latitude": -24.1333333,
+    "longitude": -54.6166649
+  },
+  {
+    "city": "Paraguay",
+    "country": "Presidente Franco",
+    "latitude": -25.5333333,
+    "longitude": -54.6166649
+  },
+  {
+    "city": "Brazil",
+    "country": "Campo Grande",
+    "latitude": -20.4427778,
+    "longitude": -54.646389
+  },
+  {
+    "city": "Paraguay",
+    "country": "Los Cedrales",
+    "latitude": -25.65,
+    "longitude": -54.7000008
+  },
+  {
+    "city": "Paraguay",
+    "country": "Puerto Mayor Otano",
+    "latitude": -26.4,
+    "longitude": -54.7000008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Vichadero",
+    "latitude": -31.8,
+    "longitude": -54.7166672
+  },
+  {
+    "city": "Uruguay",
+    "country": "Aigua",
+    "latitude": -34.2,
+    "longitude": -54.75
+  },
+  {
+    "city": "Uruguay",
+    "country": "Mariscala",
+    "latitude": -34.05,
+    "longitude": -54.7833328
+  },
+  {
+    "city": "Paraguay",
+    "country": "San Alberto",
+    "latitude": -24.9666667,
+    "longitude": -54.9000015
+  },
+  {
+    "city": "Uruguay",
+    "country": "San Carlos",
+    "latitude": -34.8,
+    "longitude": -54.9166679
+  },
+  {
+    "city": "Uruguay",
+    "country": "Maldonado",
+    "latitude": -34.9,
+    "longitude": -54.9500008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Punta del Este",
+    "latitude": -34.9666667,
+    "longitude": -54.9500008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Santa Clara de Olimar",
+    "latitude": -32.9166667,
+    "longitude": -54.9666672
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Yguazu",
+    "latitude": -25.45,
+    "longitude": -55
+  },
+  {
+    "city": "Suriname",
+    "country": "Marienburg",
+    "latitude": 5.8833333,
+    "longitude": -55.0499992
+  },
+  {
+    "city": "Paraguay",
+    "country": "Santa Rita",
+    "latitude": -25.7833333,
+    "longitude": -55.0666656
+  },
+  {
+    "city": "Suriname",
+    "country": "Nieuw Amsterdam",
+    "latitude": 5.8833333,
+    "longitude": -55.0833321
+  },
+  {
+    "city": "Paraguay",
+    "country": "Natalio",
+    "latitude": -26.7166667,
+    "longitude": -55.0833321
+  },
+  {
+    "city": "Uruguay",
+    "country": "Jose Batlle y Ordonez",
+    "latitude": -33.4666667,
+    "longitude": -55.1166649
+  },
+  {
+    "city": "Argentina",
+    "country": "Obera",
+    "latitude": -27.4833333,
+    "longitude": -55.1333351
+  },
+  {
+    "city": "Suriname",
+    "country": "Paramaribo",
+    "latitude": 5.8333333,
+    "longitude": -55.1666679
+  },
+  {
+    "city": "Suriname",
+    "country": "Brownsweg",
+    "latitude": 5.0166667,
+    "longitude": -55.1666679
+  },
+  {
+    "city": "Suriname",
+    "country": "Onverwacht",
+    "latitude": 5.5833333,
+    "longitude": -55.1833344
+  },
+  {
+    "city": "Paraguay",
+    "country": "Naranjal",
+    "latitude": -25.9666667,
+    "longitude": -55.1833344
+  },
+  {
+    "city": "Paraguay",
+    "country": "Itaquyry",
+    "latitude": -24.9333333,
+    "longitude": -55.2166672
+  },
+  {
+    "city": "Uruguay",
+    "country": "Minas",
+    "latitude": -34.37,
+    "longitude": -55.2249985
+  },
+  {
+    "city": "Suriname",
+    "country": "Lelydorp",
+    "latitude": 5.7,
+    "longitude": -55.2333336
+  },
+  {
+    "city": "Uruguay",
+    "country": "Pan de Azucar",
+    "latitude": -34.8,
+    "longitude": -55.2333336
+  },
+  {
+    "city": "Paraguay",
+    "country": "Arquitecto Tomas Romero Pereira",
+    "latitude": -26.4833333,
+    "longitude": -55.25
+  },
+  {
+    "city": "Paraguay",
+    "country": "Doctor Juan Leon Mallorquin",
+    "latitude": -25.4,
+    "longitude": -55.2666664
+  },
+  {
+    "city": "Uruguay",
+    "country": "Piriapolis",
+    "latitude": -34.8681866,
+    "longitude": -55.2743645
+  },
+  {
+    "city": "Suriname",
+    "country": "Groningen",
+    "latitude": 5.8,
+    "longitude": -55.4666672
+  },
+  {
+    "city": "Uruguay",
+    "country": "Minas de Corrales",
+    "latitude": -31.5833333,
+    "longitude": -55.4666672
+  },
+  {
+    "city": "Uruguay",
+    "country": "Solis de Mataojo",
+    "latitude": -34.6,
+    "longitude": -55.4833336
+  },
+  {
+    "city": "Paraguay",
+    "country": "Ygatimi",
+    "latitude": -24.0833333,
+    "longitude": -55.5
+  },
+  {
+    "city": "Uruguay",
+    "country": "Rivera",
+    "latitude": -30.9,
+    "longitude": -55.5166664
+  },
+  {
+    "city": "Paraguay",
+    "country": "Capitan Bado",
+    "latitude": -23.2666667,
+    "longitude": -55.5333328
+  },
+  {
+    "city": "Paraguay",
+    "country": "Bella Vista",
+    "latitude": -27.05,
+    "longitude": -55.5499992
+  },
+  {
+    "city": "Uruguay",
+    "country": "Montes",
+    "latitude": -34.5,
+    "longitude": -55.5833321
+  },
+  {
+    "city": "Uruguay",
+    "country": "La Paloma",
+    "latitude": -32.7166667,
+    "longitude": -55.5999985
+  },
+  {
+    "city": "Paraguay",
+    "country": "Obligado",
+    "latitude": -27.0333333,
+    "longitude": -55.6333351
+  },
+  {
+    "city": "Uruguay",
+    "country": "Sarandi del Yi",
+    "latitude": -33.35,
+    "longitude": -55.6333351
+  },
+  {
+    "city": "Uruguay",
+    "country": "Casupa",
+    "latitude": -34.0333333,
+    "longitude": -55.6500015
+  },
+  {
+    "city": "Uruguay",
+    "country": "Migues",
+    "latitude": -34.4833333,
+    "longitude": -55.6500015
+  },
+  {
+    "city": "Uruguay",
+    "country": "Soca",
+    "latitude": -34.6833333,
+    "longitude": -55.6833344
+  },
+  {
+    "city": "Paraguay",
+    "country": "San Isidro de Curuguaty",
+    "latitude": -24.5166667,
+    "longitude": -55.7000008
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia General Alfredo Stroessner",
+    "latitude": -25.3666667,
+    "longitude": -55.7000008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Las Toscas",
+    "latitude": -34.7333333,
+    "longitude": -55.7166672
+  },
+  {
+    "city": "Paraguay",
+    "country": "Hohenau",
+    "latitude": -27.0833333,
+    "longitude": -55.75
+  },
+  {
+    "city": "Uruguay",
+    "country": "Tranqueras",
+    "latitude": -31.2,
+    "longitude": -55.75
+  },
+  {
+    "city": "Uruguay",
+    "country": "Atlantida",
+    "latitude": -34.7666667,
+    "longitude": -55.75
+  },
+  {
+    "city": "Uruguay",
+    "country": "Tala",
+    "latitude": -34.35,
+    "longitude": -55.7666664
+  },
+  {
+    "city": "Paraguay",
+    "country": "Jesus",
+    "latitude": -27.05,
+    "longitude": -55.7833328
+  },
+  {
+    "city": "Paraguay",
+    "country": "Trinidad",
+    "latitude": -27.1166667,
+    "longitude": -55.7833328
+  },
+  {
+    "city": "Paraguay",
+    "country": "Doctor Juan Manuel Frutos",
+    "latitude": -25.3666667,
+    "longitude": -55.7999992
+  },
+  {
+    "city": "Paraguay",
+    "country": "Capitan Miranda",
+    "latitude": -27.2,
+    "longitude": -55.7999992
+  },
+  {
+    "city": "Paraguay",
+    "country": "Fram",
+    "latitude": -26.9833333,
+    "longitude": -55.8833351
+  },
+  {
+    "city": "Argentina",
+    "country": "Posadas",
+    "latitude": -27.3833333,
+    "longitude": -55.8833351
+  },
+  {
+    "city": "Uruguay",
+    "country": "San Jacinto",
+    "latitude": -34.55,
+    "longitude": -55.8833351
+  },
+  {
+    "city": "Paraguay",
+    "country": "Encarnacion",
+    "latitude": -27.3333333,
+    "longitude": -55.9000015
+  },
+  {
+    "city": "Uruguay",
+    "country": "Empalme Olmos",
+    "latitude": -34.7,
+    "longitude": -55.9000015
+  },
+  {
+    "city": "Paraguay",
+    "country": "Abai",
+    "latitude": -26.0333333,
+    "longitude": -55.9333344
+  },
+  {
+    "city": "Paraguay",
+    "country": "Repatriacion",
+    "latitude": -25.5333333,
+    "longitude": -55.9500008
+  },
+  {
+    "city": "Uruguay",
+    "country": "Pando",
+    "latitude": -34.7166667,
+    "longitude": -55.9500008
+  },
+  {
+    "city": "Paraguay",
+    "country": "San Juan Nepomuceno",
+    "latitude": -26.1,
+    "longitude": -55.9666672
+  },
+  {
+    "city": "Uruguay",
+    "country": "San Ramon",
+    "latitude": -34.3,
+    "longitude": -55.9666672
   }
 ]
