@@ -14,7 +14,7 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
-// Define the launch date (March 30th)
+// Define the launch date (February 17th, 2024)
 const launchYear = 2024; // Year 2024
 const launchMonth = 1; // February (0-indexed, so 1 represents February)
 const launchDay = 17; // 17th day of the month
@@ -25,7 +25,7 @@ function calculateTime(time, year, month, day) {
     const [hours, minutes] = time.split(":").map(Number);
 
     // Create a new Date object with the launch date and time (in CST)
-    const launchTime = new Date(Date.UTC(year, month - 1, day, hours - 6, minutes));
+    const launchTime = new Date(Date.UTC(year, month, day, hours - 6, minutes)); // Subtract 6 hours for CST
 
     // Get the current time (in UTC)
     const currentTime = new Date();
@@ -44,10 +44,10 @@ function calculateTime(time, year, month, day) {
 
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
-    "/resetbaskets": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
-    "/unlock": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
-    "/message1set": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
+    "/restarttracker": calculateTime("1:11 PM", launchYear, launchMonth, launchDay),
+    "/resetbaskets": calculateTime("1:11 PM", launchYear, launchMonth, launchDay),
+    "/unlock": calculateTime("1:11 PM", launchYear, launchMonth, launchDay),
+    "/message1set": calculateTime("1:11 PM", launchYear, launchMonth, launchDay),
     "/message2set": calculateTime("4:27 PM", launchYear, launchMonth, launchDay),
     "/message3set": calculateTime("4:57 PM", launchYear, launchMonth, launchDay),
     "/message4set": calculateTime("5:19 PM", launchYear, launchMonth, launchDay),
@@ -57,7 +57,6 @@ const taskIntervals = {
     "/restarttracker_next": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
     "/lock": calculateTime("11:24 AM", launchYear, launchMonth, launchDay + 2)
 };
-
 // Function to execute a task
 function executeTask(taskUrl) {
     console.log(`Executing task: ${taskUrl}`);
@@ -136,21 +135,27 @@ function executeTask(taskUrl) {
         saveTrackerStatusToFile(true);
     }
 }
-
 // Function to schedule tasks
 function scheduleTasks() {
-    // Iterate over each task and schedule its execution
-    Object.entries(taskIntervals).forEach(([taskUrl, time]) => {
-        const currentTime = new Date().getTime();
-        const timeDiff = time - currentTime;
+    // Check for task execution every 60 seconds
+    setInterval(() => {
+        // Get the current time
+        const currentTime = new Date();
 
-        if (timeDiff >= 0) {
-            setTimeout(() => {
-                executeTask(taskUrl);
-            }, timeDiff);
+        // Calculate the time until the next task execution (1:08 PM CST)
+        const nextTaskTime = new Date(currentTime.getFullYear(), currentTime.getMonth(), currentTime.getDate(), 13, 8); // 1:08 PM CST
+
+        // If the current time is past the next task execution time, execute the task
+        if (currentTime >= nextTaskTime) {
+            Object.entries(taskIntervals).forEach(([taskUrl, time]) => {
+                if (time === nextTaskTime.getTime()) {
+                    executeTask(taskUrl);
+                }
+            });
         }
-    });
+    }, 60000); // Check every 60 seconds
 }
+
 
 
 
