@@ -16,20 +16,83 @@ const intervalInSeconds = 7.86;
 let trackerInterval;
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": (11 * 60) * 60 * 1000, // 11:05 AM
-    "/resetbaskets": (11 * 60) * 60 * 1000, // 11:05 AM
-    "/unlock": (11 * 60) * 60 * 1000, // 11:05 AM
-    "/message1set": (11 * 60) * 60 * 1000, // 11:05 AM
-    "/message2set": ((11 * 60) + 5 * 60) * 60 * 1000, // 11:10 AM
-    "/message3set": ((11 * 60) + 5.5 * 60) * 60 * 1000, // 11:33 AM
-    "/message4set": ((11 * 60) + 5.9167 * 60) * 60 * 1000, // 11:55 AM
-    "/starttracker": (11 * 60) * 60 * 1000 // 12:06 PM
+    "/restarttracker": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
+    "/resetbaskets": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
+    "/unlock": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
+    "/message1set": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
+    "/message2set": ((11 * 60 + 13) + 5) * 60 * 1000, // 11:18 AM
+    "/message3set": ((11 * 60 + 13) + 5.5) * 60 * 1000, // 11:35 AM
+    "/message4set": ((11 * 60 + 13) + 5.9167) * 60 * 1000, // 11:56 AM
+    "/starttracker": (11 * 60 + 13) * 60 * 1000 // 11:13 AM
 };
+
+
+
 // Function to execute a task
 function executeTask(taskUrl) {
-    // Placeholder code to simulate executing a task
     console.log(`Executing task: ${taskUrl}`);
+  
+    // Perform specific actions based on the task URL
+    if (taskUrl === "/restarttracker") {
+        currentIndex = 0;
+        saveIndexToFile(); // Save the index to file
+    } else if (taskUrl === "/resetbaskets") {
+        currentIndex = 0;
+        fs.writeFileSync("giftsdelivered.json", "[]");
+    } else if (taskUrl === "/unlock") {
+        isLocked = false;
+        sendTrackerEvent({ unlocked: true });
+        saveTrackerStatusToFile(true);
+    } else if (taskUrl === "/message1set") {
+        // Perform actions for setting message 1
+        fs.writeFile("message.txt", "Easter Bunny is Getting Ready to Launch.", (err) => {
+            if (err) {
+                console.error("Error setting message 1:", err);
+            } else {
+                sendTrackerEvent({
+                    messageupdate: "Easter Bunny is Getting Ready to Launch."
+                });
+            }
+        });
+    } else if (taskUrl === "/message2set") {
+        // Perform actions for setting message 2
+        fs.writeFile("message.txt", "Easter Bunny is expected to launch within the hour.", (err) => {
+            if (err) {
+                console.error("Error setting message 2:", err);
+            } else {
+                sendTrackerEvent({
+                    messageupdate: "Easter Bunny is expected to launch within the hour."
+                });
+            }
+        });
+    } else if (taskUrl === "/message3set") {
+        // Perform actions for setting message 3
+        fs.writeFile("message.txt", "Easter Bunny is about to launch.", (err) => {
+            if (err) {
+                console.error("Error setting message 3:", err);
+            } else {
+                sendTrackerEvent({
+                    messageupdate: "Easter Bunny is about to launch."
+                });
+            }
+        });
+    } else if (taskUrl === "/message4set") {
+        // Perform actions for setting message 4
+        fs.writeFile("message.txt", "Easter Bunny is Launching!", (err) => {
+            if (err) {
+                console.error("Error setting message 4:", err);
+            } else {
+                sendTrackerEvent({
+                    messageupdate: "Easter Bunny is Launching!"
+                });
+            }
+        });
+    } else if (taskUrl === "/starttracker") {
+        currentIndex = 0;
+        saveIndexToFile(); // Save the index to file
+    }
 }
+
 
 // Function to schedule tasks
 function scheduleTasks() {
@@ -37,9 +100,10 @@ function scheduleTasks() {
     Object.entries(taskIntervals).forEach(([taskUrl, interval]) => {
         setInterval(() => {
             executeTask(taskUrl);
-        }, 1000);
+        }, 60*1000);
     });
 }
+
 // Function to save the current index to a file
 function saveIndexToFile() {
   fs.writeFileSync("currentIndex.txt", currentIndex.toString());
