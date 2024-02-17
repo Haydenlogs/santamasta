@@ -290,9 +290,98 @@ app.get("/lock", (req, res) => {
   res.send("Site locked");
   sendTrackerEvent({ unlocked: false });
 });
+// Middleware to log requests
+app.use((req, res, next) => {
+  const ip = req.ip;
+  const time = new Date().toISOString();
+  const country = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+
+  const visitData = { ip, time, country };
+
+  // Log the visit data to SiteVisits.json
+  fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
+    if (err) console.error("Error logging visit:", err);
+  });
+
+  next();
+});
+
+
+// Endpoint to get yearly visits
+app.get("/getyearlyvisits", (req, res) => {
+  getVisits("year", (err, visits) => {
+    if (err) {
+      res.status(500).json({ error: "Internal Server Error" });
+    } else {
+      res.json({ visits: visits.length });
+    }
+  });
+});
+
+// Endpoint to get monthly visits
+app.get("/getmonthlyvisits", (req, res) => {
+  getVisits("month", (err, visits) => {
+    if (err) {
+      res.status(500).json({ error: "Internal Server Error" });
+    } else {
+      res.json({ visits: visits.length });
+    }
+  });
+});
+
+// Endpoint to get lifetime visits
+app.get("/getlifetimevisits", (req, res) => {
+  fs.readFile("SiteVisits.json", "utf8", (err, data) => {
+    if (err) {
+      res.status(500).json({ error: "Internal Server Error" });
+    } else {
+      const visits = data.trim().split("\n").map(JSON.parse);
+      res.json({ visits: visits.length });
+    }
+  });
+});
+
+// Helper function to filter visits based on time criteria
+function getVisits(timeFrame, callback) {
+  fs.readFile("SiteVisits.json", "utf8", (err, data) => {
+    if (err) {
+      callback(err, null);
+    } else {
+      const visits = data
+        .trim()
+        .split("\n")
+        .map(JSON.parse)
+        .filter((visit) => {
+          const visitTime = new Date(visit.time);
+          if (timeFrame === "year") {
+            return visitTime.getFullYear() === new Date().getFullYear();
+          } else if (timeFrame === "month") {
+            const currentDate = new Date();
+            return (
+              visitTime.getFullYear() === currentDate.getFullYear() &&
+              visitTime.getMonth() === currentDate.getMonth()
+            );
+          }
+          return true; // Return all visits for lifetime visits
+        });
+      callback(null, visits);
+    }
+  });
+}
 
 // Default route handler
 app.get("/", (req, res) => {
+  const ip = req.ip;
+  const time = new Date().toISOString();
+  const country = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+
+  const visitData = { ip, time, country };
+
+  // Log the visit data to SiteVisits.json
+  fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
+    if (err) console.error("Error logging visit:", err);
+  });
+
   // Check if the site is locked
   if (isLocked) {
     // If locked, redirect to comeback.html
