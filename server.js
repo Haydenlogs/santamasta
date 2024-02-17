@@ -14,18 +14,49 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
+// Define the launch date (March 30th)
+const launchYear = new Date().getFullYear(); // Get the current year
+const launchMonth = 1; // March (0-indexed, so 2 represents March)
+const launchDay = 17; // 30th day of the month
+// Function to calculate time in milliseconds from launch date
+function calculateTime(time, year, month, day) {
+  // Parse the time string into hours and minutes
+  const [hours, minutes] = time.split(":").map(Number);
+
+  // Create a new Date object with the launch date and time
+  const launchTime = new Date(year, month - 1, day, hours, minutes);
+
+  // Get the current time
+  const currentTime = new Date();
+
+  // Calculate the time difference in milliseconds
+  const timeDiff = launchTime.getTime() - currentTime.getTime();
+
+  // If the launch time is in the past, add one day to the launch date
+  if (timeDiff < 0) {
+    launchTime.setDate(launchTime.getDate() + 1);
+  }
+
+  // Calculate the new time difference in milliseconds
+  const newTimeDiff = launchTime.getTime() - currentTime.getTime();
+
+  return newTimeDiff;
+}
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
-    "/resetbaskets": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
-    "/unlock": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
-    "/message1set": (11 * 60 + 13) * 60 * 1000, // 11:13 AM
-    "/message2set": ((11 * 60 + 13) + 5) * 60 * 1000, // 11:18 AM
-    "/message3set": ((11 * 60 + 13) + 5.5) * 60 * 1000, // 11:35 AM
-    "/message4set": ((11 * 60 + 13) + 5.9167) * 60 * 1000, // 11:56 AM
-    "/starttracker": (11 * 60 + 13) * 60 * 1000 // 11:13 AM
+    "/restarttracker": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
+    "/resetbaskets": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
+    "/unlock": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
+    "/message1set": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
+    "/message2set": calculateTime("4:24 PM", launchYear, launchMonth, launchDay),
+    "/message3set": calculateTime("4:54 PM", launchYear, launchMonth, launchDay),
+    "/message4set": calculateTime("5:19 PM", launchYear, launchMonth, launchDay),
+    "/starttracker": calculateTime("5:24 PM", launchYear, launchMonth, launchDay),
+    "/resetbaskets_next": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
+    "/endtracker": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
+    "/restarttracker_next": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
+    "/lock": calculateTime("11:24 AM", launchYear, launchMonth, launchDay + 2)
 };
-
 
 
 // Function to execute a task
@@ -36,7 +67,7 @@ function executeTask(taskUrl) {
     if (taskUrl === "/restarttracker") {
         currentIndex = 0;
         saveIndexToFile(); // Save the index to file
-    } else if (taskUrl === "/resetbaskets") {
+    } else if (taskUrl === "/resetbaskets" || taskUrl === "/resetbaskets_next") {
         currentIndex = 0;
         fs.writeFileSync("giftsdelivered.json", "[]");
     } else if (taskUrl === "/unlock") {
@@ -90,19 +121,40 @@ function executeTask(taskUrl) {
     } else if (taskUrl === "/starttracker") {
         currentIndex = 0;
         saveIndexToFile(); // Save the index to file
+    } else if (taskUrl === "/endtracker") {
+        // Perform actions for ending the tracker
+        isTrackerStarted = false;
+        clearInterval(trackerInterval);
+        sendTrackerEvent({ ended: true });
+        saveTrackerStatusToFile(false);
+    } else if (taskUrl === "/restarttracker_next") {
+        currentIndex = 0;
+        saveIndexToFile(); // Save the index to file
+    } else if (taskUrl === "/lock") {
+        // Perform actions for locking
+        isLocked = true;
+        sendTrackerEvent({ locked: true });
+        saveTrackerStatusToFile(true);
     }
 }
-
 
 // Function to schedule tasks
 function scheduleTasks() {
     // Iterate over each task and schedule its execution
-    Object.entries(taskIntervals).forEach(([taskUrl, interval]) => {
-        setInterval(() => {
-            executeTask(taskUrl);
-        }, 60*1000);
+    Object.entries(taskIntervals).forEach(([taskUrl, time]) => {
+        const currentTime = new Date().getTime();
+        const timeDiff = time - currentTime;
+
+        if (timeDiff >= 0) {
+            setTimeout(() => {
+                executeTask(taskUrl);
+            }, timeDiff);
+        }
     });
 }
+
+
+
 
 // Function to save the current index to a file
 function saveIndexToFile() {
