@@ -68,7 +68,10 @@
         }
         if (data.trackerEnded === true) {
           // Refresh the page to the home page if the tracker has started
-          window.location.href = "/ended.html";
+          window.location.href = "/";
+        }
+        if (data.refresh === true) {
+          window.location.href = "/"
         }
       }
       // Function to start listening for SSE messages

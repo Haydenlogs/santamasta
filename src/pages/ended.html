@@ -96,6 +96,9 @@ function updateSantaPosition(latitude, longitude) {
         } else {
            basketsInfo.textContent = " ";
         }
+      if (data.refresh === true) {
+          window.location.href = "/"
+        }
     }
 
     // Function to start SSE
