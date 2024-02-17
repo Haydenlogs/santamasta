@@ -344,7 +344,7 @@ app.get("/refreshall", async (req, res) => {
     setTimeout(() => {
         sendTrackerEvent({ refresh: true });
         res.send("Refresh initiated successfully.");
-    }, 1000); // 1000 milliseconds = 1 second
+    }, 5000); // 1000 milliseconds = 1 second
 });
 
 // Function to add delivered location to giftsdelivered.json
