@@ -51562,5 +51562,551 @@
     "country": "San Pedro",
     "latitude": -18.2833333,
     "longitude": -59.8166656
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Menno",
+    "latitude": -22.3666667,
+    "longitude": -59.8166656
+  },
+  {
+    "city": "Argentina",
+    "country": "Azul",
+    "latitude": -36.7833333,
+    "longitude": -59.8499985
+  },
+  {
+    "city": "Canada",
+    "country": "Glace Bay",
+    "latitude": 46.19695,
+    "longitude": -59.9569817
+  },
+  {
+    "city": "Brazil",
+    "country": "Manaus",
+    "latitude": -3.1019444,
+    "longitude": -60.0250015
+  },
+  {
+    "city": "Argentina",
+    "country": "Chivilcoy",
+    "latitude": -34.9083333,
+    "longitude": -60.0305557
+  },
+  {
+    "city": "Paraguay",
+    "country": "Filadelfia",
+    "latitude": -22.35,
+    "longitude": -60.0333328
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Neuland",
+    "latitude": -22.6666667,
+    "longitude": -60.1166649
+  },
+  {
+    "city": "Argentina",
+    "country": "Victoria",
+    "latitude": -32.6184122,
+    "longitude": -60.1547813
+  },
+  {
+    "city": "Argentina",
+    "country": "Veinticinco de Mayo",
+    "latitude": -35.4280556,
+    "longitude": -60.1741676
+  },
+  {
+    "city": "Argentina",
+    "country": "San Nicolas de los Arroyos",
+    "latitude": -33.3302778,
+    "longitude": -60.226944
+  },
+  {
+    "city": "Argentina",
+    "country": "Olavarria",
+    "latitude": -36.9,
+    "longitude": -60.2833328
+  },
+  {
+    "city": "Argentina",
+    "country": "Tres Arroyos",
+    "latitude": -38.3833333,
+    "longitude": -60.2833328
+  },
+  {
+    "city": "Argentina",
+    "country": "Villa Constitucion",
+    "latitude": -33.2333333,
+    "longitude": -60.3333321
+  },
+  {
+    "city": "Argentina",
+    "country": "Presidencia Roque Saenz Pena",
+    "latitude": -26.7833333,
+    "longitude": -60.4500008
+  },
+  {
+    "city": "Argentina",
+    "country": "Chacabuco",
+    "latitude": -34.6416667,
+    "longitude": -60.4738884
+  },
+  {
+    "city": "Argentina",
+    "country": "Parana",
+    "latitude": -31.7333333,
+    "longitude": -60.5333328
+  },
+  {
+    "city": "Argentina",
+    "country": "Pergamino",
+    "latitude": -33.8925,
+    "longitude": -60.5724983
+  },
+  {
+    "city": "Argentina",
+    "country": "Rosario",
+    "latitude": -32.9511111,
+    "longitude": -60.6663895
+  },
+  {
+    "city": "Brazil",
+    "country": "Boa Vista",
+    "latitude": 2.8197222,
+    "longitude": -60.6733322
+  },
+  {
+    "city": "Argentina",
+    "country": "Santa Fe",
+    "latitude": -31.6333333,
+    "longitude": -60.7000008
+  },
+  {
+    "city": "Argentina",
+    "country": "Nueve de Julio",
+    "latitude": -35.4541667,
+    "longitude": -60.8913879
+  },
+  {
+    "city": "Bolivia",
+    "country": "Concepcion",
+    "latitude": -16.4333333,
+    "longitude": -60.9000015
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Ignacio de Velasco",
+    "latitude": -16.3666667,
+    "longitude": -60.9500008
+  },
+  {
+    "city": "Argentina",
+    "country": "Junin",
+    "latitude": -34.585,
+    "longitude": -60.958889
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Georgetown",
+    "latitude": 13.2666667,
+    "longitude": -61.1166649
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Byera Village",
+    "latitude": 13.25,
+    "longitude": -61.1166649
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Biabou",
+    "latitude": 13.2,
+    "longitude": -61.1333351
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Dovers",
+    "latitude": 12.8833333,
+    "longitude": -61.1833344
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Kingstown",
+    "latitude": 13.1333333,
+    "longitude": -61.2166672
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Port Elizabeth",
+    "latitude": 13.0166667,
+    "longitude": -61.2333336
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Kingstown Park",
+    "latitude": 13.1583333,
+    "longitude": -61.2350006
+  },
+  {
+    "city": "Saint Kitts and Nevis",
+    "country": "Chateaubelair",
+    "latitude": 13.2833333,
+    "longitude": -61.25
+  },
+  {
+    "city": "Argentina",
+    "country": "Canada de Gomez",
+    "latitude": -32.8169444,
+    "longitude": -61.4008331
+  },
+  {
+    "city": "Grenada",
+    "country": "Hillsborough",
+    "latitude": 12.4833333,
+    "longitude": -61.4666672
+  },
+  {
+    "city": "Argentina",
+    "country": "Rafaela",
+    "latitude": -31.2666667,
+    "longitude": -61.4833336
+  },
+  {
+    "city": "Argentina",
+    "country": "Lincoln",
+    "latitude": -34.865,
+    "longitude": -61.5319443
+  },
+  {
+    "city": "Grenada",
+    "country": "Grenville",
+    "latitude": 12.1166667,
+    "longitude": -61.6166649
+  },
+  {
+    "city": "Grenada",
+    "country": "Sauteurs",
+    "latitude": 12.2166667,
+    "longitude": -61.6333351
+  },
+  {
+    "city": "Grenada",
+    "country": "Victoria",
+    "latitude": 12.1902072,
+    "longitude": -61.7067719
+  },
+  {
+    "city": "Grenada",
+    "country": "Gouyave",
+    "latitude": 12.1666667,
+    "longitude": -61.7333336
+  },
+  {
+    "city": "Argentina",
+    "country": "Coronel Suarez",
+    "latitude": -37.4666667,
+    "longitude": -61.9166679
+  },
+  {
+    "city": "Argentina",
+    "country": "Venado Tuerto",
+    "latitude": -33.7497222,
+    "longitude": -61.9669456
+  },
+  {
+    "city": "Venezuela",
+    "country": "Tucupita",
+    "latitude": 9.0686111,
+    "longitude": -62.0491676
+  },
+  {
+    "city": "Argentina",
+    "country": "San Francisco",
+    "latitude": -31.4333333,
+    "longitude": -62.0833321
+  },
+  {
+    "city": "Argentina",
+    "country": "Punta Alta",
+    "latitude": -38.8833333,
+    "longitude": -62.0833321
+  },
+  {
+    "city": "Argentina",
+    "country": "Bahia Blanca",
+    "latitude": -38.7166667,
+    "longitude": -62.2833328
+  },
+  {
+    "city": "Venezuela",
+    "country": "Upata",
+    "latitude": 8.0086111,
+    "longitude": -62.3988876
+  },
+  {
+    "city": "Canada",
+    "country": "New Glasgow",
+    "latitude": 45.5834447,
+    "longitude": -62.6486359
+  },
+  {
+    "city": "Venezuela",
+    "country": "Ciudad Guayana",
+    "latitude": 8.3533333,
+    "longitude": -62.6527786
+  },
+  {
+    "city": "Argentina",
+    "country": "Bell Ville",
+    "latitude": -32.6166667,
+    "longitude": -62.7000008
+  },
+  {
+    "city": "Bolivia",
+    "country": "Pailon",
+    "latitude": -17.65,
+    "longitude": -62.75
+  },
+  {
+    "city": "Bolivia",
+    "country": "Puesto de Pailas",
+    "latitude": -17.65,
+    "longitude": -62.7999992
+  },
+  {
+    "city": "Bolivia",
+    "country": "Okinawa Numero Uno",
+    "latitude": -17.2333333,
+    "longitude": -62.8166656
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Julian",
+    "latitude": -17.7833333,
+    "longitude": -62.8666649
+  },
+  {
+    "city": "Bolivia",
+    "country": "Urubicha",
+    "latitude": -15.3833333,
+    "longitude": -62.9500008
+  },
+  {
+    "city": "Argentina",
+    "country": "Viedma",
+    "latitude": -40.8,
+    "longitude": -63
+  },
+  {
+    "city": "Bolivia",
+    "country": "Cotoca",
+    "latitude": -17.8166667,
+    "longitude": -63.0499992
+  },
+  {
+    "city": "Bolivia",
+    "country": "Ascension",
+    "latitude": -15.7,
+    "longitude": -63.0833321
+  },
+  {
+    "city": "Canada",
+    "country": "Charlottetown",
+    "latitude": 46.2352496,
+    "longitude": -63.1267128
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Ramon",
+    "latitude": -14.4833333,
+    "longitude": -63.1500015
+  },
+  {
+    "city": "Bolivia",
+    "country": "Warnes",
+    "latitude": -17.5,
+    "longitude": -63.1666679
+  },
+  {
+    "city": "Bolivia",
+    "country": "Santa Cruz de la Sierra",
+    "latitude": -17.8,
+    "longitude": -63.1666679
+  },
+  {
+    "city": "Venezuela",
+    "country": "Maturin",
+    "latitude": 9.75,
+    "longitude": -63.1766663
+  },
+  {
+    "city": "Bolivia",
+    "country": "La Belgica",
+    "latitude": -17.55,
+    "longitude": -63.2166672
+  },
+  {
+    "city": "Bolivia",
+    "country": "Charagua",
+    "latitude": -19.8,
+    "longitude": -63.2166672
+  },
+  {
+    "city": "Bolivia",
+    "country": "Mineros",
+    "latitude": -17.1166667,
+    "longitude": -63.2333336
+  },
+  {
+    "city": "Venezuela",
+    "country": "Carupano",
+    "latitude": 10.6697222,
+    "longitude": -63.2491684
+  },
+  {
+    "city": "Bolivia",
+    "country": "Montero",
+    "latitude": -17.3333333,
+    "longitude": -63.25
+  },
+  {
+    "city": "Argentina",
+    "country": "Villa Maria",
+    "latitude": -32.4166667,
+    "longitude": -63.25
+  },
+  {
+    "city": "Canada",
+    "country": "Truro",
+    "latitude": 45.366848,
+    "longitude": -63.265377
+  },
+  {
+    "city": "Bolivia",
+    "country": "Boyuibe",
+    "latitude": -20.4166667,
+    "longitude": -63.2833328
+  },
+  {
+    "city": "Bolivia",
+    "country": "Santa Rita",
+    "latitude": -17.9666667,
+    "longitude": -63.3499985
+  },
+  {
+    "city": "Bolivia",
+    "country": "Santiago del Torno",
+    "latitude": -17.9833333,
+    "longitude": -63.3833351
+  },
+  {
+    "city": "Bolivia",
+    "country": "Portachuelo",
+    "latitude": -17.35,
+    "longitude": -63.4000015
+  },
+  {
+    "city": "Bolivia",
+    "country": "Limoncito",
+    "latitude": -18.0166667,
+    "longitude": -63.4000015
+  },
+  {
+    "city": "Bolivia",
+    "country": "Los Negros",
+    "latitude": -17.7333333,
+    "longitude": -63.4333344
+  },
+  {
+    "city": "Bolivia",
+    "country": "Jorochito",
+    "latitude": -18.05,
+    "longitude": -63.4333344
+  },
+  {
+    "city": "Bolivia",
+    "country": "Abapo",
+    "latitude": -18.8333333,
+    "longitude": -63.4666672
+  },
+  {
+    "city": "Bolivia",
+    "country": "Villamontes",
+    "latitude": -21.25,
+    "longitude": -63.5
+  },
+  {
+    "city": "Bolivia",
+    "country": "Camiri",
+    "latitude": -20.05,
+    "longitude": -63.5166664
+  },
+  {
+    "city": "Venezuela",
+    "country": "Ciudad Bolivar",
+    "latitude": 8.1222222,
+    "longitude": -63.5497208
+  },
+  {
+    "city": "Canada",
+    "country": "Halifax",
+    "latitude": 44.6519862,
+    "longitude": -63.5968475
+  },
+  {
+    "city": "Bolivia",
+    "country": "Buena Vista",
+    "latitude": -17.45,
+    "longitude": -63.6666679
+  },
+  {
+    "city": "Bolivia",
+    "country": "Yacuiba",
+    "latitude": -22.0333333,
+    "longitude": -63.6833344
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Juan del Surutu",
+    "latitude": -17.4833333,
+    "longitude": -63.7000008
+  },
+  {
+    "city": "Argentina",
+    "country": "General Pico",
+    "latitude": -35.6666667,
+    "longitude": -63.7333336
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Carlos",
+    "latitude": -17.4,
+    "longitude": -63.75
+  },
+  {
+    "city": "Argentina",
+    "country": "Tartagal",
+    "latitude": -22.5333333,
+    "longitude": -63.8166656
+  },
+  {
+    "city": "Bolivia",
+    "country": "Villa Yapacani",
+    "latitude": -17.4,
+    "longitude": -63.8333321
+  },
+  {
+    "city": "Venezuela",
+    "country": "Porlamar",
+    "latitude": 10.95,
+    "longitude": -63.8499985
+  },
+  {
+    "city": "Venezuela",
+    "country": "La Asuncion",
+    "latitude": 11.0333333,
+    "longitude": -63.8627777
   }
 ]
