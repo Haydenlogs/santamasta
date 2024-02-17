@@ -245,10 +245,7 @@ function sendNextCity() {
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
 
-      presentsDelivered = parseInt(presentsDelivered); // Convert to integer if necessary
-presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents); // Calculate presents delivered
-sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
-
+     
       sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
 
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
@@ -379,20 +376,29 @@ function sendTrackerUpdate() {
 }
 
 function generateTrackerUpdate() {
-  const currentCity = app.get("currentCity");
-  const nextCityIndex = currentIndex;
-  const nextCity = cities[nextCityIndex];
-  const currentTime = Date.now();
-  const elapsedTime = currentTime - startTime;
-  const timeLeft = Math.ceil(intervalInSeconds - elapsedTime / 1000);
+    const currentCity = app.get("currentCity");
+    const nextCityIndex = currentIndex;
+    const nextCity = cities[nextCityIndex];
+    const currentTime = Date.now();
+    const elapsedTime = currentTime - startTime;
 
-  return {
-    currentCity,
-    timeLeft,
-    nextCity,
-    lastCity, // Include lastCity in the tracker update
-  };
+    // Calculate presents delivered based on the current index and elapsed time
+    let presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents);
+    sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
+
+    // Calculate the time left for the current city
+    const timeLeft = Math.ceil(intervalInSeconds - ((elapsedTime / 1000) % intervalInSeconds));
+
+    return {
+        currentCity,
+        timeLeft,
+        nextCity,
+        lastCity, // Include lastCity in the tracker update
+        presentsDelivered,
+    };
 }
+
+
 
 function sendTrackerStartEvent() {
   app.locals.clients.forEach((client) => {

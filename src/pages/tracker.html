@@ -427,13 +427,12 @@
           // Add the basket to the map after a delay of 1 second
           
             addBasket(data.newbasket);
-          }, 9000); // 1000 milliseconds = 1 second
+          
         }
-        if (data.presentsDelivered) {
-           basketsInfo.textContent = `${data.presentsDelivered}`;
-        } else {
-           basketsInfo.textContent = " ";
-        }
+        
+           basketsInfo.textContent = `${data.presentsDelivered.toLocaleString()}`;
+
+        
       }
 
       // Function to start listening for SSE messages
