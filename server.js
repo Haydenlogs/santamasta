@@ -14,7 +14,32 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
+// Define the time intervals for each task in milliseconds (in CST)
+const taskIntervals = {
+    "/restarttracker": (11 * 60) * 60 * 1000, // 11:05 AM
+    "/resetbaskets": (11 * 60) * 60 * 1000, // 11:05 AM
+    "/unlock": (11 * 60) * 60 * 1000, // 11:05 AM
+    "/message1set": (11 * 60) * 60 * 1000, // 11:05 AM
+    "/message2set": ((11 * 60) + 5 * 60) * 60 * 1000, // 11:10 AM
+    "/message3set": ((11 * 60) + 5.5 * 60) * 60 * 1000, // 11:33 AM
+    "/message4set": ((11 * 60) + 5.9167 * 60) * 60 * 1000, // 11:55 AM
+    "/starttracker": (11 * 60) * 60 * 1000 // 12:06 PM
+};
+// Function to execute a task
+function executeTask(taskUrl) {
+    // Placeholder code to simulate executing a task
+    console.log(`Executing task: ${taskUrl}`);
+}
 
+// Function to schedule tasks
+function scheduleTasks() {
+    // Iterate over each task and schedule its execution
+    Object.entries(taskIntervals).forEach(([taskUrl, interval]) => {
+        setInterval(() => {
+            executeTask(taskUrl);
+        }, 1000);
+    });
+}
 // Function to save the current index to a file
 function saveIndexToFile() {
   fs.writeFileSync("currentIndex.txt", currentIndex.toString());
@@ -509,4 +534,5 @@ app.get("/ended.html", (req, res) => {
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
+  scheduleTasks();
 });
