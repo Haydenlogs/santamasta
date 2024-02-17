@@ -10,5 +10,35 @@
     "country": " Unit 24AR",
     "latitude": -21.7667,
     "longitude": 134.6917
+  },
+  {
+    "city": "Fiji",
+    "country": "Lambasa",
+    "latitude": -16.4166667,
+    "longitude": 179.3833313
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Funafuti",
+    "latitude": -8.5166667,
+    "longitude": 179.2166595
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Asau",
+    "latitude": -7.5,
+    "longitude": 178.6666718
+  },
+  {
+    "city": "Fiji",
+    "country": "Suva",
+    "latitude": -18.1333333,
+    "longitude": 178.4166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Gisborne",
+    "latitude": -38.6533333,
+    "longitude": 178.0041656
   }
 ]

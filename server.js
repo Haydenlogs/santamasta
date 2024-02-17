@@ -245,8 +245,10 @@ function sendNextCity() {
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
 
-      // Calculate presents delivered
-      const presentsDelivered = updatePresentsDelivered(currentIndex);
+      presentsDelivered = parseInt(presentsDelivered); // Convert to integer if necessary
+presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents); // Calculate presents delivered
+sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
+
       sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
 
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
@@ -268,6 +270,7 @@ function sendNextCity() {
     clearInterval(trackerInterval); // Stop the tracker interval
   }
 }
+
 
 // Endpoint to set message 1
 app.get("/message1set", async (req, res) => {
