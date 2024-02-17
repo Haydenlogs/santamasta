@@ -15,39 +15,39 @@ let startTime;
 const intervalInSeconds = 7.86;
 let trackerInterval;
 // Define the launch date (March 30th)
-const launchYear = new Date().getFullYear(); // Get the current year
-const launchMonth = 1; // March (0-indexed, so 2 represents March)
-const launchDay = 17; // 30th day of the month
+const launchYear = 2024; // Year 2024
+const launchMonth = 1; // February (0-indexed, so 1 represents February)
+const launchDay = 17; // 17th day of the month
+
 // Function to calculate time in milliseconds from launch date
 function calculateTime(time, year, month, day) {
-  // Parse the time string into hours and minutes
-  const [hours, minutes] = time.split(":").map(Number);
+    // Parse the time string into hours and minutes
+    const [hours, minutes] = time.split(":").map(Number);
 
-  // Create a new Date object with the launch date and time
-  const launchTime = new Date(year, month - 1, day, hours, minutes);
+    // Create a new Date object with the launch date and time (in CST)
+    const launchTime = new Date(Date.UTC(year, month - 1, day, hours - 6, minutes));
 
-  // Get the current time
-  const currentTime = new Date();
+    // Get the current time (in UTC)
+    const currentTime = new Date();
 
-  // Calculate the time difference in milliseconds
-  const timeDiff = launchTime.getTime() - currentTime.getTime();
+    // Calculate the time difference in milliseconds
+    let timeDiff = launchTime.getTime() - currentTime.getTime();
 
-  // If the launch time is in the past, add one day to the launch date
-  if (timeDiff < 0) {
-    launchTime.setDate(launchTime.getDate() + 1);
-  }
+    // If the launch time is in the past, add one day to the launch date
+    if (timeDiff < 0) {
+        launchTime.setDate(launchTime.getDate() + 1);
+        timeDiff = launchTime.getTime() - currentTime.getTime();
+    }
 
-  // Calculate the new time difference in milliseconds
-  const newTimeDiff = launchTime.getTime() - currentTime.getTime();
-
-  return newTimeDiff;
+    return timeDiff;
 }
+
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
-    "/resetbaskets": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
-    "/unlock": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
-    "/message1set": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
+    "/restarttracker": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
+    "/resetbaskets": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
+    "/unlock": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
+    "/message1set": calculateTime("1:00 PM AM", launchYear, launchMonth, launchDay),
     "/message2set": calculateTime("4:27 PM", launchYear, launchMonth, launchDay),
     "/message3set": calculateTime("4:57 PM", launchYear, launchMonth, launchDay),
     "/message4set": calculateTime("5:19 PM", launchYear, launchMonth, launchDay),
