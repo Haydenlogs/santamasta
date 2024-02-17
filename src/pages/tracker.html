@@ -343,8 +343,7 @@
         const data = JSON.parse(event.data);
         updateTracker(data);
       };
-      // Function to update tracker information
-      function updateTracker(data) {
+     function updateTracker(data) {
         if (data.nextCity && data.timeLeft) {
           nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
         } else {
@@ -406,7 +405,6 @@
           santa.style.top = `${y - santa.offsetHeight / 2 + 25}px`; // Adjust for the size of the Santa image
         }
       }
-
       // Function to handle SSE messages
       function handleSSE(event) {
         // Parse the event data
