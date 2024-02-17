@@ -44,20 +44,19 @@ function calculateTime(time, year, month, day) {
 }
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
-    "/resetbaskets": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
-    "/unlock": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
-    "/message1set": calculateTime("11:24 AM", launchYear, launchMonth, launchDay),
-    "/message2set": calculateTime("4:24 PM", launchYear, launchMonth, launchDay),
-    "/message3set": calculateTime("4:54 PM", launchYear, launchMonth, launchDay),
+    "/restarttracker": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
+    "/resetbaskets": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
+    "/unlock": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
+    "/message1set": calculateTime("11:27 AM", launchYear, launchMonth, launchDay),
+    "/message2set": calculateTime("4:27 PM", launchYear, launchMonth, launchDay),
+    "/message3set": calculateTime("4:57 PM", launchYear, launchMonth, launchDay),
     "/message4set": calculateTime("5:19 PM", launchYear, launchMonth, launchDay),
-    "/starttracker": calculateTime("5:24 PM", launchYear, launchMonth, launchDay),
+    "/starttracker": calculateTime("5:27 PM", launchYear, launchMonth, launchDay),
     "/resetbaskets_next": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
     "/endtracker": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
     "/restarttracker_next": calculateTime("5:24 PM", launchYear, launchMonth, launchDay + 1),
     "/lock": calculateTime("11:24 AM", launchYear, launchMonth, launchDay + 2)
 };
-
 
 // Function to execute a task
 function executeTask(taskUrl) {
