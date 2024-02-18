@@ -19966,5 +19966,527 @@
     "country": "Kefar Yona",
     "latitude": 32.3166667,
     "longitude": 34.9333344
+  },
+  {
+    "city": "Israel",
+    "country": "Tel Mond",
+    "latitude": 32.25,
+    "longitude": 34.9333344
+  },
+  {
+    "city": "Israel",
+    "country": "Yeroham",
+    "latitude": 30.9872222,
+    "longitude": 34.9313889
+  },
+  {
+    "city": "Israel",
+    "country": "Hadera",
+    "latitude": 32.4352778,
+    "longitude": 34.9174995
+  },
+  {
+    "city": "Israel",
+    "country": "Elyakhin",
+    "latitude": 32.4,
+    "longitude": 34.9166679
+  },
+  {
+    "city": "Israel",
+    "country": "Pardesiyya",
+    "latitude": 32.3,
+    "longitude": 34.9166679
+  },
+  {
+    "city": "Kenya",
+    "country": "Ahero",
+    "latitude": -0.1833333,
+    "longitude": 34.9166679
+  },
+  {
+    "city": "Malaysia",
+    "country": "Monkey Bay",
+    "latitude": -14.0833333,
+    "longitude": 34.9166679
+  },
+  {
+    "city": "Israel",
+    "country": "Nehalim",
+    "latitude": 32.0619444,
+    "longitude": 34.913887
+  },
+  {
+    "city": "Israel",
+    "country": "Kefar Sava",
+    "latitude": 32.175,
+    "longitude": 34.9069443
+  },
+  {
+    "city": "Israel",
+    "country": "Nordiyya",
+    "latitude": 32.3166667,
+    "longitude": 34.9000015
+  },
+  {
+    "city": "Israel",
+    "country": "Lod",
+    "latitude": 31.9513889,
+    "longitude": 34.8952789
+  },
+  {
+    "city": "Ukraine",
+    "country": "Okhtyrka",
+    "latitude": 50.3086111,
+    "longitude": 34.894165
+  },
+  {
+    "city": "Turkey",
+    "country": "Tarsus",
+    "latitude": 36.9177778,
+    "longitude": 34.8916664
+  },
+  {
+    "city": "Israel",
+    "country": "Hod HaSharon",
+    "latitude": 32.1508333,
+    "longitude": 34.8883324
+  },
+  {
+    "city": "Israel",
+    "country": "Even Yehuda",
+    "latitude": 32.2666667,
+    "longitude": 34.8833351
+  },
+  {
+    "city": "Israel",
+    "country": "Savyon",
+    "latitude": 32.0530556,
+    "longitude": 34.8777771
+  },
+  {
+    "city": "Israel",
+    "country": "Ganne Tiqwa",
+    "latitude": 32.0602778,
+    "longitude": 34.8747215
+  },
+  {
+    "city": "Israel",
+    "country": "Ramla",
+    "latitude": 31.9252778,
+    "longitude": 34.8669434
+  },
+  {
+    "city": "Israel",
+    "country": "Netanya",
+    "latitude": 32.3336111,
+    "longitude": 34.8577766
+  },
+  {
+    "city": "Israel",
+    "country": "Kefar Habad",
+    "latitude": 31.9866667,
+    "longitude": 34.8511124
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mtinko",
+    "latitude": -4.55,
+    "longitude": 34.8499985
+  },
+  {
+    "city": "Israel",
+    "country": "Or Yehuda",
+    "latitude": 32.0311111,
+    "longitude": 34.8458328
+  },
+  {
+    "city": "Israel",
+    "country": "Ramat HaSharon",
+    "latitude": 32.1472222,
+    "longitude": 34.8416672
+  },
+  {
+    "city": "Israel",
+    "country": "Bene Beraq",
+    "latitude": 32.0902778,
+    "longitude": 34.8397217
+  },
+  {
+    "city": "Mozambique",
+    "country": "Beira",
+    "latitude": -19.8436111,
+    "longitude": 34.8388901
+  },
+  {
+    "city": "Israel",
+    "country": "Mazkeret Batya",
+    "latitude": 31.8538889,
+    "longitude": 34.8386116
+  },
+  {
+    "city": "Israel",
+    "country": "Herzliyya",
+    "latitude": 32.1658333,
+    "longitude": 34.8366661
+  },
+  {
+    "city": "Tanzania",
+    "country": "Makumbako",
+    "latitude": -8.85,
+    "longitude": 34.8333321
+  },
+  {
+    "city": "Israel",
+    "country": "Bet Dagan",
+    "latitude": 32.0013889,
+    "longitude": 34.8302765
+  },
+  {
+    "city": "Israel",
+    "country": "Lehavim",
+    "latitude": 31.3728388,
+    "longitude": 34.8161888
+  },
+  {
+    "city": "Israel",
+    "country": "Ramat Gan",
+    "latitude": 32.0805556,
+    "longitude": 34.814167
+  },
+  {
+    "city": "Israel",
+    "country": "Giv`atayim",
+    "latitude": 32.0697222,
+    "longitude": 34.8116684
+  },
+  {
+    "city": "Israel",
+    "country": "Azor",
+    "latitude": 32.0191667,
+    "longitude": 34.8105545
+  },
+  {
+    "city": "Turkey",
+    "country": "Yozgat",
+    "latitude": 39.82,
+    "longitude": 34.8044434
+  },
+  {
+    "city": "Israel",
+    "country": "Rishon LeZiyyon",
+    "latitude": 31.9641667,
+    "longitude": 34.8044434
+  },
+  {
+    "city": "Israel",
+    "country": "Mizpe Ramon",
+    "latitude": 30.6094444,
+    "longitude": 34.8011093
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Dembi Dolo",
+    "latitude": 8.5333333,
+    "longitude": 34.7999992
+  },
+  {
+    "city": "Israel",
+    "country": "Beersheba",
+    "latitude": 31.2333333,
+    "longitude": 34.7833328
+  },
+  {
+    "city": "Ukraine",
+    "country": "Sumy",
+    "latitude": 50.9197222,
+    "longitude": 34.7819443
+  },
+  {
+    "city": "Israel",
+    "country": "Holon",
+    "latitude": 32.0113889,
+    "longitude": 34.7722206
+  },
+  {
+    "city": "Israel",
+    "country": "Gedera",
+    "latitude": 31.8166667,
+    "longitude": 34.7666664
+  },
+  {
+    "city": "Israel",
+    "country": "Qiryat Gat",
+    "latitude": 31.6,
+    "longitude": 34.7666664
+  },
+  {
+    "city": "Kenya",
+    "country": "Webuye",
+    "latitude": 0.6166667,
+    "longitude": 34.7666664
+  },
+  {
+    "city": "Kenya",
+    "country": "Kisii",
+    "latitude": -0.6833333,
+    "longitude": 34.7666664
+  },
+  {
+    "city": "Tanzania",
+    "country": "Njombe",
+    "latitude": -9.3333333,
+    "longitude": 34.7666664
+  },
+  {
+    "city": "Israel",
+    "country": "Tel Aviv-Yafo",
+    "latitude": 32.0677778,
+    "longitude": 34.7647209
+  },
+  {
+    "city": "Israel",
+    "country": "Bat Yam",
+    "latitude": 32.0230556,
+    "longitude": 34.7502785
+  },
+  {
+    "city": "Israel",
+    "country": "Bene `Ayish",
+    "latitude": 31.7833333,
+    "longitude": 34.75
+  },
+  {
+    "city": "Kenya",
+    "country": "Kakamega",
+    "latitude": 0.2833333,
+    "longitude": 34.75
+  },
+  {
+    "city": "Kenya",
+    "country": "Kisumu",
+    "latitude": -0.1,
+    "longitude": 34.75
+  },
+  {
+    "city": "Tanzania",
+    "country": "Singida",
+    "latitude": -4.8166667,
+    "longitude": 34.75
+  },
+  {
+    "city": "Mozambique",
+    "country": "Dondo",
+    "latitude": -19.6094444,
+    "longitude": 34.7430573
+  },
+  {
+    "city": "Israel",
+    "country": "Yavne",
+    "latitude": 31.8763889,
+    "longitude": 34.7400017
+  },
+  {
+    "city": "Israel",
+    "country": "Gan Yavne",
+    "latitude": 31.7833333,
+    "longitude": 34.7166672
+  },
+  {
+    "city": "Kenya",
+    "country": "Oyugis",
+    "latitude": -0.5,
+    "longitude": 34.7166672
+  },
+  {
+    "city": "Kenya",
+    "country": "Ogembo",
+    "latitude": -0.8,
+    "longitude": 34.7166672
+  },
+  {
+    "city": "Turkey",
+    "country": "Nevsehir",
+    "latitude": 38.625,
+    "longitude": 34.7122231
+  },
+  {
+    "city": "Turkey",
+    "country": "Nigde",
+    "latitude": 37.9691667,
+    "longitude": 34.6824989
+  },
+  {
+    "city": "Israel",
+    "country": "Ashdod",
+    "latitude": 31.8166667,
+    "longitude": 34.6500015
+  },
+  {
+    "city": "Sudan",
+    "country": "Al Hawatah",
+    "latitude": 13.4166667,
+    "longitude": 34.6333351
+  },
+  {
+    "city": "Malaysia",
+    "country": "Ntcheu",
+    "latitude": -14.8166667,
+    "longitude": 34.6333351
+  },
+  {
+    "city": "Turkey",
+    "country": "Mercin",
+    "latitude": 36.7952647,
+    "longitude": 34.6179199
+  },
+  {
+    "city": "Israel",
+    "country": "Ofaqim",
+    "latitude": 31.2833333,
+    "longitude": 34.6166649
+  },
+  {
+    "city": "Kenya",
+    "country": "Kinancha",
+    "latitude": -1.1833333,
+    "longitude": 34.6166649
+  },
+  {
+    "city": "Israel",
+    "country": "Ashqelon",
+    "latitude": 31.6666667,
+    "longitude": 34.5833321
+  },
+  {
+    "city": "Israel",
+    "country": "Sederot",
+    "latitude": 31.5166667,
+    "longitude": 34.5833321
+  },
+  {
+    "city": "Israel",
+    "country": "Netivot",
+    "latitude": 31.4166667,
+    "longitude": 34.5833321
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gambela",
+    "latitude": 8.25,
+    "longitude": 34.5833321
+  },
+  {
+    "city": "Ukraine",
+    "country": "Poltava",
+    "latitude": 49.5833333,
+    "longitude": 34.5666656
+  },
+  {
+    "city": "Kenya",
+    "country": "Bungoma",
+    "latitude": 0.5666667,
+    "longitude": 34.5666656
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Asosa",
+    "latitude": 10.0666667,
+    "longitude": 34.5333328
+  },
+  {
+    "city": "Kenya",
+    "country": "Yala",
+    "latitude": 0.1,
+    "longitude": 34.5333328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Sepuka",
+    "latitude": -4.75,
+    "longitude": 34.5333328
+  },
+  {
+    "city": "Malaysia",
+    "country": "Chipoka",
+    "latitude": -13.9833333,
+    "longitude": 34.5166664
+  },
+  {
+    "city": "Malaysia",
+    "country": "Mwanza",
+    "latitude": -15.6166667,
+    "longitude": 34.5166664
+  },
+  {
+    "city": "Kenya",
+    "country": "Butere",
+    "latitude": 0.2094444,
+    "longitude": 34.4927788
+  },
+  {
+    "city": "Kenya",
+    "country": "Mumias",
+    "latitude": 0.3363889,
+    "longitude": 34.4891663
+  },
+  {
+    "city": "Ukraine",
+    "country": "Energodar",
+    "latitude": 47.5,
+    "longitude": 34.4666672
+  },
+  {
+    "city": "Kenya",
+    "country": "Migori",
+    "latitude": -1.0666667,
+    "longitude": 34.4666672
+  },
+  {
+    "city": "Kenya",
+    "country": "Homa Bay",
+    "latitude": -0.5166667,
+    "longitude": 34.4500008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Sirari",
+    "latitude": -1.2333333,
+    "longitude": 34.4333344
+  },
+  {
+    "city": "Malaysia",
+    "country": "Salima",
+    "latitude": -13.7833333,
+    "longitude": 34.4333344
+  },
+  {
+    "city": "Kenya",
+    "country": "Malikisi",
+    "latitude": 0.6769444,
+    "longitude": 34.4216652
+  },
+  {
+    "city": "Sudan",
+    "country": "Ar Rusayris",
+    "latitude": 11.85,
+    "longitude": 34.3833351
+  },
+  {
+    "city": "Tanzania",
+    "country": "Rujewa",
+    "latitude": -8.7,
+    "longitude": 34.3833351
+  },
+  {
+    "city": "Russia",
+    "country": "Bryansk",
+    "latitude": 53.2875,
+    "longitude": 34.3805542
+  },
+  {
+    "city": "Cyprus",
+    "country": "Rizokarpaso",
+    "latitude": 35.6,
+    "longitude": 34.375
   }
 ]
