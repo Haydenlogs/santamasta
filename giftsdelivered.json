@@ -16810,5 +16810,527 @@
     "country": "Gelemso",
     "latitude": 8.8166667,
     "longitude": 40.5166664
+  },
+  {
+    "city": "Mozambique",
+    "country": "Pemba",
+    "latitude": -12.9608333,
+    "longitude": 40.5077782
+  },
+  {
+    "city": "Turkey",
+    "country": "Bingol",
+    "latitude": 38.8847222,
+    "longitude": 40.4963875
+  },
+  {
+    "city": "Kenya",
+    "country": "Witu",
+    "latitude": -2.3905556,
+    "longitude": 40.4530563
+  },
+  {
+    "city": "Syria",
+    "country": "Al Mayadin",
+    "latitude": 35.0166667,
+    "longitude": 40.4500008
+  },
+  {
+    "city": "Russia",
+    "country": "Vladimir",
+    "latitude": 56.1427778,
+    "longitude": 40.398056
+  },
+  {
+    "city": "Mozambique",
+    "country": "Mocimboa",
+    "latitude": -11.3166667,
+    "longitude": 40.3499985
+  },
+  {
+    "city": "Iraq",
+    "country": "Ar Rutbah",
+    "latitude": 33.0380556,
+    "longitude": 40.2844429
+  },
+  {
+    "city": "Georgia",
+    "country": "Gagra",
+    "latitude": 43.3283333,
+    "longitude": 40.2238884
+  },
+  {
+    "city": "Turkey",
+    "country": "Diyarbakir",
+    "latitude": 37.9188889,
+    "longitude": 40.210556
+  },
+  {
+    "city": "Russia",
+    "country": "Shakhty",
+    "latitude": 47.7122222,
+    "longitude": 40.2058334
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mtwara",
+    "latitude": -10.2666667,
+    "longitude": 40.1833344
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Awash",
+    "latitude": 8.9833333,
+    "longitude": 40.1666679
+  },
+  {
+    "city": "Syria",
+    "country": "Dayr az Zawr",
+    "latitude": 35.3333333,
+    "longitude": 40.1500015
+  },
+  {
+    "city": "Kenya",
+    "country": "Malindi",
+    "latitude": -3.2166667,
+    "longitude": 40.1166649
+  },
+  {
+    "city": "Kenya",
+    "country": "Wajir",
+    "latitude": 1.7472222,
+    "longitude": 40.0688896
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bati",
+    "latitude": 11.1833333,
+    "longitude": 40.0166664
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Abomsa",
+    "latitude": 9.9833333,
+    "longitude": 39.9833336
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Goba",
+    "latitude": 7.0166667,
+    "longitude": 39.9833336
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Metahara",
+    "latitude": 8.9,
+    "longitude": 39.9166679
+  },
+  {
+    "city": "Mozambique",
+    "country": "Antonio Enes",
+    "latitude": -16.2325,
+    "longitude": 39.9086113
+  },
+  {
+    "city": "Russia",
+    "country": "Vologda",
+    "latitude": 59.2166667,
+    "longitude": 39.9000015
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Kemise",
+    "latitude": 10.7166667,
+    "longitude": 39.8666649
+  },
+  {
+    "city": "Kenya",
+    "country": "Kilifi",
+    "latitude": -3.6333333,
+    "longitude": 39.8499985
+  },
+  {
+    "city": "Kenya",
+    "country": "Takaungu",
+    "latitude": -3.6833333,
+    "longitude": 39.8499985
+  },
+  {
+    "city": "Russia",
+    "country": "Severodvinsk",
+    "latitude": 64.5722222,
+    "longitude": 39.8474998
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Debre Sina",
+    "latitude": 9.85,
+    "longitude": 39.7666664
+  },
+  {
+    "city": "Turkey",
+    "country": "Viransehir",
+    "latitude": 37.2352778,
+    "longitude": 39.7630539
+  },
+  {
+    "city": "Ukraine",
+    "country": "Krasnodon",
+    "latitude": 48.295,
+    "longitude": 39.7400017
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Kombolcha",
+    "latitude": 11.0833333,
+    "longitude": 39.7333336
+  },
+  {
+    "city": "Russia",
+    "country": "Sochi",
+    "latitude": 43.6,
+    "longitude": 39.730278
+  },
+  {
+    "city": "Turkey",
+    "country": "Trabzon",
+    "latitude": 41.005,
+    "longitude": 39.726944
+  },
+  {
+    "city": "Tanzania",
+    "country": "Wete",
+    "latitude": -5.0666667,
+    "longitude": 39.7166672
+  },
+  {
+    "city": "Tanzania",
+    "country": "Lindi",
+    "latitude": -10,
+    "longitude": 39.7166672
+  },
+  {
+    "city": "Russia",
+    "country": "Rostov-na-Donu",
+    "latitude": 47.2363889,
+    "longitude": 39.7138901
+  },
+  {
+    "city": "Kenya",
+    "country": "Mombasa",
+    "latitude": -4.05,
+    "longitude": 39.6666679
+  },
+  {
+    "city": "Kenya",
+    "country": "Garissa",
+    "latitude": -0.4569444,
+    "longitude": 39.6583328
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Robit",
+    "latitude": 12.0166667,
+    "longitude": 39.6333351
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Dese",
+    "latitude": 11.1333333,
+    "longitude": 39.6333351
+  },
+  {
+    "city": "Russia",
+    "country": "Lipetsk",
+    "latitude": 52.6186111,
+    "longitude": 39.5688896
+  },
+  {
+    "city": "Tanzania",
+    "country": "Sokoni",
+    "latitude": -6.4333333,
+    "longitude": 39.5499992
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Debre Birhan",
+    "latitude": 9.6833333,
+    "longitude": 39.5333328
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Korem",
+    "latitude": 12.5058333,
+    "longitude": 39.5227776
+  },
+  {
+    "city": "Kenya",
+    "country": "Gazi",
+    "latitude": -4.4166667,
+    "longitude": 39.5
+  },
+  {
+    "city": "Turkey",
+    "country": "Erzincan",
+    "latitude": 39.7522222,
+    "longitude": 39.4927788
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Sire",
+    "latitude": 8.3166667,
+    "longitude": 39.4833336
+  },
+  {
+    "city": "Kenya",
+    "country": "Sawasawa",
+    "latitude": -4.4666667,
+    "longitude": 39.4833336
+  },
+  {
+    "city": "Kenya",
+    "country": "Mariakani",
+    "latitude": -3.8666667,
+    "longitude": 39.4666672
+  },
+  {
+    "city": "Kenya",
+    "country": "Kwale",
+    "latitude": -4.1833333,
+    "longitude": 39.4500008
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Were Ilu",
+    "latitude": 10.6,
+    "longitude": 39.4333344
+  },
+  {
+    "city": "Kenya",
+    "country": "Shimoni",
+    "latitude": -4.65,
+    "longitude": 39.3833351
+  },
+  {
+    "city": "Eritrea",
+    "country": "Adi Keyh",
+    "latitude": 14.8444444,
+    "longitude": 39.377224
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Huruta",
+    "latitude": 8.15,
+    "longitude": 39.3499985
+  },
+  {
+    "city": "Tanzania",
+    "country": "Luchingu",
+    "latitude": -10.9,
+    "longitude": 39.3333321
+  },
+  {
+    "city": "Turkey",
+    "country": "Siverek",
+    "latitude": 37.75,
+    "longitude": 39.3166656
+  },
+  {
+    "city": "Kenya",
+    "country": "Kinango",
+    "latitude": -4.1333333,
+    "longitude": 39.3166656
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Wenji",
+    "latitude": 8.45,
+    "longitude": 39.2833328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Dar es Salaam",
+    "latitude": -6.8,
+    "longitude": 39.2833328
+  },
+  {
+    "city": "Tanzania",
+    "country": "Newala Kisimani",
+    "latitude": -10.95,
+    "longitude": 39.2833328
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Nazret",
+    "latitude": 8.55,
+    "longitude": 39.2666664
+  },
+  {
+    "city": "Mozambique",
+    "country": "Nampula",
+    "latitude": -15.1197222,
+    "longitude": 39.2647209
+  },
+  {
+    "city": "Turkey",
+    "country": "Elazig",
+    "latitude": 38.6752778,
+    "longitude": 39.2205544
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Asasa",
+    "latitude": 7.1,
+    "longitude": 39.2000008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mkuranga",
+    "latitude": -7.1166667,
+    "longitude": 39.2000008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Zanzibar",
+    "latitude": -6.1639369,
+    "longitude": 39.1979332
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Dodola",
+    "latitude": 6.9833333,
+    "longitude": 39.1833344
+  },
+  {
+    "city": "Russia",
+    "country": "Voronezh",
+    "latitude": 51.6663889,
+    "longitude": 39.1699982
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Mojo",
+    "latitude": 8.6,
+    "longitude": 39.1166649
+  },
+  {
+    "city": "Tanzania",
+    "country": "Tanga",
+    "latitude": -5.0666667,
+    "longitude": 39.0999985
+  },
+  {
+    "city": "Ukraine",
+    "country": "Antratsit",
+    "latitude": 48.1191667,
+    "longitude": 39.0900002
+  },
+  {
+    "city": "Kenya",
+    "country": "Moyale",
+    "latitude": 3.5163889,
+    "longitude": 39.0691681
+  },
+  {
+    "city": "Tanzania",
+    "country": "Bungu",
+    "latitude": -7.6333333,
+    "longitude": 39.0499992
+  },
+  {
+    "city": "Eritrea",
+    "country": "Dekemhare",
+    "latitude": 15.07,
+    "longitude": 39.0475006
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Lalibela",
+    "latitude": 12.0333333,
+    "longitude": 39.0333328
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Sendafa",
+    "latitude": 9.15,
+    "longitude": 39.0333328
+  },
+  {
+    "city": "Syria",
+    "country": "Ar Raqqah",
+    "latitude": 35.95,
+    "longitude": 39.0166664
+  },
+  {
+    "city": "Mozambique",
+    "country": "Montepuez",
+    "latitude": -13.1255556,
+    "longitude": 38.9997215
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Debre Zeyit",
+    "latitude": 8.75,
+    "longitude": 38.9833336
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Kibre Mengist",
+    "latitude": 5.8833333,
+    "longitude": 38.9833336
+  },
+  {
+    "city": "Russia",
+    "country": "Krasnodar",
+    "latitude": 45.0327778,
+    "longitude": 38.976944
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kibiti",
+    "latitude": -7.7333333,
+    "longitude": 38.9500008
+  },
+  {
+    "city": "Eritrea",
+    "country": "Asmara",
+    "latitude": 15.3333333,
+    "longitude": 38.9333344
+  },
+  {
+    "city": "Ukraine",
+    "country": "Krasnyy Luch",
+    "latitude": 48.1330556,
+    "longitude": 38.9324989
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Shakiso",
+    "latitude": 5.75,
+    "longitude": 38.9166679
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kibaha",
+    "latitude": -6.7666667,
+    "longitude": 38.9166679
+  },
+  {
+    "city": "Russia",
+    "country": "Taganrog",
+    "latitude": 47.2213889,
+    "longitude": 38.9094429
+  },
+  {
+    "city": "Tanzania",
+    "country": "Bagamoyo",
+    "latitude": -6.4333333,
+    "longitude": 38.9000015
+  },
+  {
+    "city": "Russia",
+    "country": "Rybinsk",
+    "latitude": 58.05,
+    "longitude": 38.8333321
   }
 ]
