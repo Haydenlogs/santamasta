@@ -16294,5 +16294,521 @@
     "country": "Patnos",
     "latitude": 39.2347222,
     "longitude": 42.8675003
+  },
+  {
+    "city": "Georgia",
+    "country": "Vale",
+    "latitude": 41.6186111,
+    "longitude": 42.8627777
+  },
+  {
+    "city": "Georgia",
+    "country": "Abastumani",
+    "latitude": 41.7,
+    "longitude": 42.8499985
+  },
+  {
+    "city": "Djibouti",
+    "country": "`Arta",
+    "latitude": 11.5222222,
+    "longitude": 42.8419456
+  },
+  {
+    "city": "Georgia",
+    "country": "Lajanurhesi",
+    "latitude": 42.6180556,
+    "longitude": 42.835556
+  },
+  {
+    "city": "Iraq",
+    "country": "Hit",
+    "latitude": 33.6366667,
+    "longitude": 42.8224983
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Jijiga",
+    "latitude": 9.35,
+    "longitude": 42.7999992
+  },
+  {
+    "city": "Somalia",
+    "country": "Jilib",
+    "latitude": 0.4958333,
+    "longitude": 42.7727776
+  },
+  {
+    "city": "Somalia",
+    "country": "Jamaame",
+    "latitude": 0.0722222,
+    "longitude": 42.7505569
+  },
+  {
+    "city": "Georgia",
+    "country": "Mestia",
+    "latitude": 43.0455556,
+    "longitude": 42.7297211
+  },
+  {
+    "city": "Georgia",
+    "country": "Lentekhi",
+    "latitude": 42.7855556,
+    "longitude": 42.7261124
+  },
+  {
+    "city": "Djibouti",
+    "country": "`Ali Sabieh",
+    "latitude": 11.1558333,
+    "longitude": 42.7125015
+  },
+  {
+    "city": "Georgia",
+    "country": "Adigeni",
+    "latitude": 41.6858333,
+    "longitude": 42.7102776
+  },
+  {
+    "city": "Iraq",
+    "country": "Zakho",
+    "latitude": 37.1441667,
+    "longitude": 42.6872215
+  },
+  {
+    "city": "Georgia",
+    "country": "Tsqaltubo",
+    "latitude": 42.3397222,
+    "longitude": 42.5991669
+  },
+  {
+    "city": "Somalia",
+    "country": "Dujuuma",
+    "latitude": 1.2533333,
+    "longitude": 42.5708351
+  },
+  {
+    "city": "Somalia",
+    "country": "Luuq",
+    "latitude": 3.8,
+    "longitude": 42.5499992
+  },
+  {
+    "city": "Somalia",
+    "country": "Chisimayu",
+    "latitude": -0.3666667,
+    "longitude": 42.5333328
+  },
+  {
+    "city": "Georgia",
+    "country": "Vani",
+    "latitude": 42.0813889,
+    "longitude": 42.5244446
+  },
+  {
+    "city": "Djibouti",
+    "country": "Dorra",
+    "latitude": 12.1494444,
+    "longitude": 42.4775009
+  },
+  {
+    "city": "Turkey",
+    "country": "Silopi",
+    "latitude": 37.2497222,
+    "longitude": 42.4694443
+  },
+  {
+    "city": "Somalia",
+    "country": "Saacow",
+    "latitude": 1.6333333,
+    "longitude": 42.4500008
+  },
+  {
+    "city": "Georgia",
+    "country": "Khoni",
+    "latitude": 42.3241667,
+    "longitude": 42.4300003
+  },
+  {
+    "city": "Georgia",
+    "country": "Dioknisi",
+    "latitude": 41.6311111,
+    "longitude": 42.4152794
+  },
+  {
+    "city": "Iraq",
+    "country": "Hadithah",
+    "latitude": 34.1397222,
+    "longitude": 42.3780556
+  },
+  {
+    "city": "Georgia",
+    "country": "Martvili",
+    "latitude": 42.4152778,
+    "longitude": 42.3738899
+  },
+  {
+    "city": "Djibouti",
+    "country": "Dikhil",
+    "latitude": 11.1086111,
+    "longitude": 42.3738899
+  },
+  {
+    "city": "Georgia",
+    "country": "Kulashi",
+    "latitude": 42.2041667,
+    "longitude": 42.3566666
+  },
+  {
+    "city": "Georgia",
+    "country": "Samtredia",
+    "latitude": 42.1537005,
+    "longitude": 42.3351707
+  },
+  {
+    "city": "Georgia",
+    "country": "Khulo",
+    "latitude": 41.6463889,
+    "longitude": 42.3111115
+  },
+  {
+    "city": "Somalia",
+    "country": "Baardheere",
+    "latitude": 2.35,
+    "longitude": 42.2666664
+  },
+  {
+    "city": "Georgia",
+    "country": "Abasha",
+    "latitude": 42.1941667,
+    "longitude": 42.2241669
+  },
+  {
+    "city": "Somalia",
+    "country": "Garbahaarrey",
+    "latitude": 3.3166667,
+    "longitude": 42.2166672
+  },
+  {
+    "city": "Georgia",
+    "country": "Shuakhevi",
+    "latitude": 41.63,
+    "longitude": 42.190834
+  },
+  {
+    "city": "Turkey",
+    "country": "Cizre",
+    "latitude": 37.3272222,
+    "longitude": 42.1902771
+  },
+  {
+    "city": "Georgia",
+    "country": "Akhaldaba",
+    "latitude": 41.6530556,
+    "longitude": 42.1580544
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Harer",
+    "latitude": 9.3094444,
+    "longitude": 42.1258316
+  },
+  {
+    "city": "Georgia",
+    "country": "Senaki",
+    "latitude": 42.2688889,
+    "longitude": 42.0791664
+  },
+  {
+    "city": "Georgia",
+    "country": "Tsalenjikha",
+    "latitude": 42.6044444,
+    "longitude": 42.0772209
+  },
+  {
+    "city": "Georgia",
+    "country": "Jvari",
+    "latitude": 42.7138889,
+    "longitude": 42.0536118
+  },
+  {
+    "city": "Georgia",
+    "country": "Naruja",
+    "latitude": 41.9069444,
+    "longitude": 41.9541664
+  },
+  {
+    "city": "Turkey",
+    "country": "Siirt",
+    "latitude": 37.9272222,
+    "longitude": 41.9452782
+  },
+  {
+    "city": "Iraq",
+    "country": "`Anah",
+    "latitude": 34.4666667,
+    "longitude": 41.9308319
+  },
+  {
+    "city": "Iraq",
+    "country": "Rawah",
+    "latitude": 34.4686111,
+    "longitude": 41.9169426
+  },
+  {
+    "city": "Georgia",
+    "country": "Khobi",
+    "latitude": 42.3180556,
+    "longitude": 41.898056
+  },
+  {
+    "city": "Georgia",
+    "country": "Zugdidi",
+    "latitude": 42.5122222,
+    "longitude": 41.8691673
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Dire Dawa",
+    "latitude": 9.5930556,
+    "longitude": 41.8661118
+  },
+  {
+    "city": "Iraq",
+    "country": "Sinjar",
+    "latitude": 36.3166667,
+    "longitude": 41.8499985
+  },
+  {
+    "city": "Somalia",
+    "country": "Buur Gaabo",
+    "latitude": -1.2166667,
+    "longitude": 41.8499985
+  },
+  {
+    "city": "Kenya",
+    "country": "Mandera",
+    "latitude": 3.9261111,
+    "longitude": 41.8461113
+  },
+  {
+    "city": "Djibouti",
+    "country": "Galafi",
+    "latitude": 11.7158333,
+    "longitude": 41.836113
+  },
+  {
+    "city": "Georgia",
+    "country": "Ureki",
+    "latitude": 41.9955556,
+    "longitude": 41.7786102
+  },
+  {
+    "city": "Georgia",
+    "country": "Kobuleti",
+    "latitude": 41.82,
+    "longitude": 41.7752762
+  },
+  {
+    "city": "Georgia",
+    "country": "Gali",
+    "latitude": 42.6261111,
+    "longitude": 41.7324982
+  },
+  {
+    "city": "Georgia",
+    "country": "Makhinjauri",
+    "latitude": 41.6752778,
+    "longitude": 41.6947212
+  },
+  {
+    "city": "Eritrea",
+    "country": "Idi",
+    "latitude": 13.9297222,
+    "longitude": 41.6925011
+  },
+  {
+    "city": "Turkey",
+    "country": "Mus",
+    "latitude": 38.7486111,
+    "longitude": 41.4969444
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Deder",
+    "latitude": 9.3166667,
+    "longitude": 41.4500008
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Asaita",
+    "latitude": 11.5636111,
+    "longitude": 41.4394455
+  },
+  {
+    "city": "Russia",
+    "country": "Tambov",
+    "latitude": 52.7316667,
+    "longitude": 41.4338875
+  },
+  {
+    "city": "Turkey",
+    "country": "Midyat",
+    "latitude": 37.4261111,
+    "longitude": 41.3375015
+  },
+  {
+    "city": "Turkey",
+    "country": "Erzurum",
+    "latitude": 39.9086111,
+    "longitude": 41.2769432
+  },
+  {
+    "city": "Turkey",
+    "country": "Nusaybin",
+    "latitude": 37.07,
+    "longitude": 41.2172203
+  },
+  {
+    "city": "Turkey",
+    "country": "Batman",
+    "latitude": 37.8827778,
+    "longitude": 41.1205559
+  },
+  {
+    "city": "Russia",
+    "country": "Armavir",
+    "latitude": 44.98,
+    "longitude": 41.1199989
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Hirna",
+    "latitude": 9.2166667,
+    "longitude": 41.0999985
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Dubti",
+    "latitude": 11.7361111,
+    "longitude": 41.0852776
+  },
+  {
+    "city": "Georgia",
+    "country": "Sokhumi",
+    "latitude": 43.0033333,
+    "longitude": 41.0152779
+  },
+  {
+    "city": "Russia",
+    "country": "Ivanovo",
+    "latitude": 56.9941667,
+    "longitude": 40.9858322
+  },
+  {
+    "city": "Russia",
+    "country": "Kostroma",
+    "latitude": 57.7708333,
+    "longitude": 40.9344444
+  },
+  {
+    "city": "Syria",
+    "country": "Abu Kamal",
+    "latitude": 34.45,
+    "longitude": 40.9186096
+  },
+  {
+    "city": "Kenya",
+    "country": "Lamu",
+    "latitude": -2.2783333,
+    "longitude": 40.9033318
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Asbe Teferi",
+    "latitude": 9.0833333,
+    "longitude": 40.8666649
+  },
+  {
+    "city": "Georgia",
+    "country": "Stantsiya Novyy Afon",
+    "latitude": 43.0805556,
+    "longitude": 40.8383331
+  },
+  {
+    "city": "Syria",
+    "country": "Hajin",
+    "latitude": 34.6897222,
+    "longitude": 40.8300018
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bedesa",
+    "latitude": 8.9,
+    "longitude": 40.7833328
+  },
+  {
+    "city": "Syria",
+    "country": "Al Hasakah",
+    "latitude": 36.4833333,
+    "longitude": 40.75
+  },
+  {
+    "city": "Mozambique",
+    "country": "Ilha de Mocambique",
+    "latitude": -15.0341667,
+    "longitude": 40.7358322
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Ginir",
+    "latitude": 7.1333333,
+    "longitude": 40.7000008
+  },
+  {
+    "city": "Mozambique",
+    "country": "Cidade de Nacala",
+    "latitude": -14.5427778,
+    "longitude": 40.6727791
+  },
+  {
+    "city": "Syria",
+    "country": "Darbasiyah",
+    "latitude": 37.07,
+    "longitude": 40.6525002
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gewane",
+    "latitude": 10.1663889,
+    "longitude": 40.6452789
+  },
+  {
+    "city": "Syria",
+    "country": "Subaykhan",
+    "latitude": 34.8544444,
+    "longitude": 40.6083336
+  },
+  {
+    "city": "Turkey",
+    "country": "Kiziltepe",
+    "latitude": 37.1933333,
+    "longitude": 40.5849991
+  },
+  {
+    "city": "Kenya",
+    "country": "Kipini",
+    "latitude": -2.5227778,
+    "longitude": 40.538887
+  },
+  {
+    "city": "Turkey",
+    "country": "Rize",
+    "latitude": 41.0208333,
+    "longitude": 40.521946
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gelemso",
+    "latitude": 8.8166667,
+    "longitude": 40.5166664
   }
 ]
