@@ -13918,5 +13918,251 @@
     "country": "Ambatofinandrahana",
     "latitude": -20.55,
     "longitude": 46.7999992
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Goranboy",
+    "latitude": 40.6102778,
+    "longitude": 46.7897224
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Xocali",
+    "latitude": 39.9111111,
+    "longitude": 46.7891655
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Susa",
+    "latitude": 39.7563889,
+    "longitude": 46.7511101
+  },
+  {
+    "city": "Malawi",
+    "country": "Soavinandriana",
+    "latitude": -19.1666667,
+    "longitude": 46.7333336
+  },
+  {
+    "city": "Iraq",
+    "country": "Nahiyat al Fuhud",
+    "latitude": 30.9697222,
+    "longitude": 46.7227783
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Mincivan",
+    "latitude": 39.03,
+    "longitude": 46.7186127
+  },
+  {
+    "city": "Malawi",
+    "country": "Ambato Boeny",
+    "latitude": -16.4666667,
+    "longitude": 46.7166672
+  },
+  {
+    "city": "Iraq",
+    "country": "`Ali al Gharbi",
+    "latitude": 32.4641667,
+    "longitude": 46.6786118
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Icari",
+    "latitude": 39.0822222,
+    "longitude": 46.6549988
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Zaqatala",
+    "latitude": 41.6336111,
+    "longitude": 46.6433334
+  },
+  {
+    "city": "Malawi",
+    "country": "Marovoay",
+    "latitude": -16.1,
+    "longitude": 46.6333351
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Aliabad",
+    "latitude": 41.4783333,
+    "longitude": 46.6175003
+  },
+  {
+    "city": "Somalia",
+    "country": "Ceelbuur",
+    "latitude": 4.6833333,
+    "longitude": 46.6166649
+  },
+  {
+    "city": "Malawi",
+    "country": "Ikalamavony",
+    "latitude": -21.15,
+    "longitude": 46.5833321
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Qubadli",
+    "latitude": 39.3438889,
+    "longitude": 46.5797234
+  },
+  {
+    "city": "Malawi",
+    "country": "Fenoarivo Be",
+    "latitude": -18.4333333,
+    "longitude": 46.5666656
+  },
+  {
+    "city": "Armenia",
+    "country": "Agarak",
+    "latitude": 39.2038889,
+    "longitude": 46.5472221
+  },
+  {
+    "city": "Iran",
+    "country": "Ilam",
+    "latitude": 33.6374,
+    "longitude": 46.422699
+  },
+  {
+    "city": "Armenia",
+    "country": "Kapan",
+    "latitude": 39.2011111,
+    "longitude": 46.4150009
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Balakan",
+    "latitude": 41.7258333,
+    "longitude": 46.4083328
+  },
+  {
+    "city": "Somalia",
+    "country": "Dusa Marreb",
+    "latitude": 5.535,
+    "longitude": 46.3861122
+  },
+  {
+    "city": "Malawi",
+    "country": "Amboasary",
+    "latitude": -25.0333333,
+    "longitude": 46.3833351
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Ganca",
+    "latitude": 40.6827778,
+    "longitude": 46.3605537
+  },
+  {
+    "city": "Armenia",
+    "country": "Goris",
+    "latitude": 39.5077778,
+    "longitude": 46.3386116
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Qarayeri",
+    "latitude": 40.7916667,
+    "longitude": 46.3213882
+  },
+  {
+    "city": "Somalia",
+    "country": "Cadale",
+    "latitude": 2.75,
+    "longitude": 46.3166656
+  },
+  {
+    "city": "Malawi",
+    "country": "Mahajanga",
+    "latitude": -15.7166667,
+    "longitude": 46.3166656
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Xanlar",
+    "latitude": 40.5869444,
+    "longitude": 46.315834
+  },
+  {
+    "city": "Iran",
+    "country": "Tabriz",
+    "latitude": 38.08,
+    "longitude": 46.2919426
+  },
+  {
+    "city": "Georgia",
+    "country": "Lagodekhi",
+    "latitude": 41.8227778,
+    "longitude": 46.2755547
+  },
+  {
+    "city": "Iran",
+    "country": "Saqqez",
+    "latitude": 36.249919,
+    "longitude": 46.2734985
+  },
+  {
+    "city": "Iraq",
+    "country": "An Nasiriyah",
+    "latitude": 31.0541667,
+    "longitude": 46.2594452
+  },
+  {
+    "city": "Armenia",
+    "country": "Meghri",
+    "latitude": 38.9022222,
+    "longitude": 46.2383347
+  },
+  {
+    "city": "Iran",
+    "country": "Bukan",
+    "latitude": 36.5219444,
+    "longitude": 46.2150002
+  },
+  {
+    "city": "Iraq",
+    "country": "Ash Shatrah",
+    "latitude": 31.4175,
+    "longitude": 46.1772232
+  },
+  {
+    "city": "Malawi",
+    "country": "Ihosy",
+    "latitude": -22.4,
+    "longitude": 46.1166649
+  },
+  {
+    "city": "Iran",
+    "country": "Miandoab",
+    "latitude": 36.9611111,
+    "longitude": 46.1091652
+  },
+  {
+    "city": "Malawi",
+    "country": "Ambovombe",
+    "latitude": -25.1666667,
+    "longitude": 46.0833321
+  },
+  {
+    "city": "Iran",
+    "country": "Bonab",
+    "latitude": 37.3404,
+    "longitude": 46.0560989
+  },
+  {
+    "city": "Iraq",
+    "country": "Al Hayy",
+    "latitude": 32.1769444,
+    "longitude": 46.0447235
+  },
+  {
+    "city": "Azerbaijan",
+    "country": "Dalilar",
+    "latitude": 40.8627778,
+    "longitude": 46.0366669
   }
 ]
