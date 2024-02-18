@@ -13492,5 +13492,521 @@
     "country": "Hat Yai",
     "latitude": 7.0166667,
     "longitude": 100.4666672
+  },
+  {
+    "city": "Maldives",
+    "country": "Bukit Mertajam",
+    "latitude": 5.3666667,
+    "longitude": 100.4666672
+  },
+  {
+    "city": "Thailand",
+    "country": "Bang Bua Thong",
+    "latitude": 13.9166667,
+    "longitude": 100.4333344
+  },
+  {
+    "city": "Thailand",
+    "country": "Sadao",
+    "latitude": 6.6333333,
+    "longitude": 100.4333344
+  },
+  {
+    "city": "Maldives",
+    "country": "Jitra",
+    "latitude": 6.2666667,
+    "longitude": 100.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Permatang Kuching",
+    "latitude": 5.4833333,
+    "longitude": 100.4000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Butterworth",
+    "latitude": 5.4166667,
+    "longitude": 100.4000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Perai",
+    "latitude": 5.3833333,
+    "longitude": 100.3833313
+  },
+  {
+    "city": "Thailand",
+    "country": "Phichit",
+    "latitude": 16.4333333,
+    "longitude": 100.3666687
+  },
+  {
+    "city": "Maldives",
+    "country": "Alor Setar",
+    "latitude": 6.1166667,
+    "longitude": 100.3666687
+  },
+  {
+    "city": "Indonesia",
+    "country": "Padang",
+    "latitude": -0.949244,
+    "longitude": 100.3542709
+  },
+  {
+    "city": "Maldives",
+    "country": "George Town",
+    "latitude": 5.4166667,
+    "longitude": 100.3333359
+  },
+  {
+    "city": "Maldives",
+    "country": "Tanjong Tokong",
+    "latitude": 5.4666667,
+    "longitude": 100.3000031
+  },
+  {
+    "city": "Thailand",
+    "country": "Samut Sakhon",
+    "latitude": 13.5333333,
+    "longitude": 100.2833328
+  },
+  {
+    "city": "Thailand",
+    "country": "Krathum Baen",
+    "latitude": 13.65,
+    "longitude": 100.2666702
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Sungai Ara",
+    "latitude": 5.3333333,
+    "longitude": 100.2666702
+  },
+  {
+    "city": "Thailand",
+    "country": "Phitsanulok",
+    "latitude": 16.8333333,
+    "longitude": 100.25
+  },
+  {
+    "city": "China",
+    "country": "Dayan",
+    "latitude": 26.8687934,
+    "longitude": 100.2207184
+  },
+  {
+    "city": "Thailand",
+    "country": "Sam Phran",
+    "latitude": 13.7166667,
+    "longitude": 100.2166672
+  },
+  {
+    "city": "Maldives",
+    "country": "Kangar",
+    "latitude": 6.4333333,
+    "longitude": 100.1999969
+  },
+  {
+    "city": "Monaco",
+    "country": "Moron",
+    "latitude": 49.6341667,
+    "longitude": 100.1624985
+  },
+  {
+    "city": "Thailand",
+    "country": "Phrae",
+    "latitude": 18.15,
+    "longitude": 100.1333313
+  },
+  {
+    "city": "Monaco",
+    "country": "Bayanhongor",
+    "latitude": 46.7166667,
+    "longitude": 100.1166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Suphan Buri",
+    "latitude": 14.4666667,
+    "longitude": 100.1166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Phaeo",
+    "latitude": 13.5833333,
+    "longitude": 100.1166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Uttaradit",
+    "latitude": 17.6311111,
+    "longitude": 100.1008301
+  },
+  {
+    "city": "Thailand",
+    "country": "Phatthalung",
+    "latitude": 7.6166667,
+    "longitude": 100.0833359
+  },
+  {
+    "city": "Thailand",
+    "country": "Satun",
+    "latitude": 6.6166667,
+    "longitude": 100.0666656
+  },
+  {
+    "city": "Thailand",
+    "country": "Nakhon Pathom",
+    "latitude": 13.8166667,
+    "longitude": 100.0500031
+  },
+  {
+    "city": "Thailand",
+    "country": "Samut Songkhram",
+    "latitude": 13.4,
+    "longitude": 100
+  },
+  {
+    "city": "Thailand",
+    "country": "Cha-am",
+    "latitude": 12.8,
+    "longitude": 99.9666672
+  },
+  {
+    "city": "Thailand",
+    "country": "Nakhon Si Thammarat",
+    "latitude": 8.4333333,
+    "longitude": 99.9666672
+  },
+  {
+    "city": "Thailand",
+    "country": "Hua Hin",
+    "latitude": 12.5706485,
+    "longitude": 99.9587631
+  },
+  {
+    "city": "Thailand",
+    "country": "Phetchaburi",
+    "latitude": 13.1,
+    "longitude": 99.9499969
+  },
+  {
+    "city": "Thailand",
+    "country": "Ko Samui",
+    "latitude": 9.5342254,
+    "longitude": 99.9353714
+  },
+  {
+    "city": "Thailand",
+    "country": "Bang Phae",
+    "latitude": 13.7,
+    "longitude": 99.9333344
+  },
+  {
+    "city": "Thailand",
+    "country": "Pran Buri",
+    "latitude": 12.3833333,
+    "longitude": 99.9166641
+  },
+  {
+    "city": "Thailand",
+    "country": "Tha Yang",
+    "latitude": 12.9577209,
+    "longitude": 99.9055481
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Pong",
+    "latitude": 13.8166667,
+    "longitude": 99.8833313
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Mae Chan",
+    "latitude": 20.1472222,
+    "longitude": 99.8538895
+  },
+  {
+    "city": "Thailand",
+    "country": "Photharam",
+    "latitude": 13.6833333,
+    "longitude": 99.8499985
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuah",
+    "latitude": 6.3166667,
+    "longitude": 99.8499985
+  },
+  {
+    "city": "Thailand",
+    "country": "Chiang Rai",
+    "latitude": 19.9,
+    "longitude": 99.8333359
+  },
+  {
+    "city": "Thailand",
+    "country": "Ratchaburi",
+    "latitude": 13.5333333,
+    "longitude": 99.8000031
+  },
+  {
+    "city": "Indonesia",
+    "country": "Tanjungbalai",
+    "latitude": 2.9666667,
+    "longitude": 99.8000031
+  },
+  {
+    "city": "Thailand",
+    "country": "Prachuap Khiri Khan",
+    "latitude": 11.8209811,
+    "longitude": 99.7840958
+  },
+  {
+    "city": "Thailand",
+    "country": "Tha Maka",
+    "latitude": 13.9,
+    "longitude": 99.7666702
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Na",
+    "latitude": 17.0305556,
+    "longitude": 99.7525024
+  },
+  {
+    "city": "Indonesia",
+    "country": "Kisaran",
+    "latitude": 2.9833333,
+    "longitude": 99.6166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Trang",
+    "latitude": 7.5563344,
+    "longitude": 99.6114044
+  },
+  {
+    "city": "Thailand",
+    "country": "Kanchanaburi",
+    "latitude": 14.004116,
+    "longitude": 99.5483246
+  },
+  {
+    "city": "Thailand",
+    "country": "Lampang",
+    "latitude": 18.2983333,
+    "longitude": 99.507225
+  },
+  {
+    "city": "Thailand",
+    "country": "Kamphaeng Phet",
+    "latitude": 16.4666667,
+    "longitude": 99.5
+  },
+  {
+    "city": "Thailand",
+    "country": "Surat Thani",
+    "latitude": 9.1333333,
+    "longitude": 99.3166656
+  },
+  {
+    "city": "Thailand",
+    "country": "Chumphon",
+    "latitude": 10.5,
+    "longitude": 99.1666641
+  },
+  {
+    "city": "Thailand",
+    "country": "San Kamphaeng",
+    "latitude": 18.7422222,
+    "longitude": 99.1224976
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pematangsiantar",
+    "latitude": 2.95,
+    "longitude": 99.0500031
+  },
+  {
+    "city": "Thailand",
+    "country": "Chiang Mai",
+    "latitude": 18.7902778,
+    "longitude": 98.9816666
+  },
+  {
+    "city": "Indonesia",
+    "country": "Perbaungan",
+    "latitude": 3.5666667,
+    "longitude": 98.9499969
+  },
+  {
+    "city": "Thailand",
+    "country": "Krabi",
+    "latitude": 8.0666667,
+    "longitude": 98.9166641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Percut",
+    "latitude": 3.6833333,
+    "longitude": 98.75
+  },
+  {
+    "city": "Indonesia",
+    "country": "Medan",
+    "latitude": 3.5833333,
+    "longitude": 98.6666641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sunggal",
+    "latitude": 3.55,
+    "longitude": 98.6166687
+  },
+  {
+    "city": "Myanmar",
+    "country": "Myeik",
+    "latitude": 12.4333333,
+    "longitude": 98.5999985
+  },
+  {
+    "city": "Thailand",
+    "country": "Mae Sot",
+    "latitude": 16.7166667,
+    "longitude": 98.5666656
+  },
+  {
+    "city": "Indonesia",
+    "country": "Binjai",
+    "latitude": 3.6,
+    "longitude": 98.5
+  },
+  {
+    "city": "Thailand",
+    "country": "Phuket",
+    "latitude": 7.8833333,
+    "longitude": 98.4000015
+  },
+  {
+    "city": "Thailand",
+    "country": "Kathu",
+    "latitude": 7.9166667,
+    "longitude": 98.3499985
+  },
+  {
+    "city": "Monaco",
+    "country": "Tosontsengel",
+    "latitude": 48.7566667,
+    "longitude": 98.2838898
+  },
+  {
+    "city": "Myanmar",
+    "country": "Dawei",
+    "latitude": 14.0833333,
+    "longitude": 98.1999969
+  },
+  {
+    "city": "Myanmar",
+    "country": "Lashio",
+    "latitude": 22.9333333,
+    "longitude": 97.75
+  },
+  {
+    "city": "Myanmar",
+    "country": "Mudon",
+    "latitude": 16.2577778,
+    "longitude": 97.7163925
+  },
+  {
+    "city": "Myanmar",
+    "country": "Mawlamyine",
+    "latitude": 16.4913889,
+    "longitude": 97.6255569
+  },
+  {
+    "city": "Myanmar",
+    "country": "Martaban",
+    "latitude": 16.5313889,
+    "longitude": 97.6111145
+  },
+  {
+    "city": "Myanmar",
+    "country": "Kyaikkami",
+    "latitude": 16.08,
+    "longitude": 97.5674973
+  },
+  {
+    "city": "Myanmar",
+    "country": "Myitkyina",
+    "latitude": 25.3833333,
+    "longitude": 97.4000015
+  },
+  {
+    "city": "Myanmar",
+    "country": "Thaton",
+    "latitude": 16.9205556,
+    "longitude": 97.3713913
+  },
+  {
+    "city": "Myanmar",
+    "country": "Bhamo",
+    "latitude": 24.2666667,
+    "longitude": 97.2333298
+  },
+  {
+    "city": "Myanmar",
+    "country": "Loikaw",
+    "latitude": 19.6741667,
+    "longitude": 97.2094421
+  },
+  {
+    "city": "Myanmar",
+    "country": "Taunggyi",
+    "latitude": 20.7833333,
+    "longitude": 97.0333328
+  },
+  {
+    "city": "Myanmar",
+    "country": "Kyaikto",
+    "latitude": 17.3,
+    "longitude": 97.0166702
+  },
+  {
+    "city": "Myanmar",
+    "country": "Nyaunglebin",
+    "latitude": 17.95,
+    "longitude": 96.7333298
+  },
+  {
+    "city": "Myanmar",
+    "country": "Thanatpin",
+    "latitude": 17.3,
+    "longitude": 96.5833359
+  },
+  {
+    "city": "Myanmar",
+    "country": "Kayan",
+    "latitude": 16.9055556,
+    "longitude": 96.5630569
+  },
+  {
+    "city": "Myanmar",
+    "country": "Thongwa",
+    "latitude": 16.7619444,
+    "longitude": 96.5277786
+  },
+  {
+    "city": "Myanmar",
+    "country": "Mogok",
+    "latitude": 22.9166667,
+    "longitude": 96.5
+  },
+  {
+    "city": "Myanmar",
+    "country": "Bago",
+    "latitude": 17.3366667,
+    "longitude": 96.4797211
   }
 ]
