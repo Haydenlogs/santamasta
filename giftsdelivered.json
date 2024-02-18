@@ -11416,5 +11416,515 @@
     "country": "Kaifeng",
     "latitude": 34.7911111,
     "longitude": 114.3483353
+  },
+  {
+    "city": "China",
+    "country": "Anyang",
+    "latitude": 36.0994444,
+    "longitude": 114.3288879
+  },
+  {
+    "city": "Brunei",
+    "country": "Seria",
+    "latitude": 4.6166667,
+    "longitude": 114.3166656
+  },
+  {
+    "city": "China",
+    "country": "Wuhan",
+    "latitude": 30.5833333,
+    "longitude": 114.2666702
+  },
+  {
+    "city": "Brunei",
+    "country": "Kuala Belait",
+    "latitude": 4.5833333,
+    "longitude": 114.1833344
+  },
+  {
+    "city": "China",
+    "country": "Shenzhen",
+    "latitude": 22.5455377,
+    "longitude": 114.0682983
+  },
+  {
+    "city": "China",
+    "country": "Xinyang",
+    "latitude": 32.1227778,
+    "longitude": 114.0655594
+  },
+  {
+    "city": "Indonesia",
+    "country": "Situbondo",
+    "latitude": -7.7062286,
+    "longitude": 114.009758
+  },
+  {
+    "city": "Maldives",
+    "country": "Miri",
+    "latitude": 4.3833333,
+    "longitude": 113.9833298
+  },
+  {
+    "city": "China",
+    "country": "Xinxiang",
+    "latitude": 35.3088889,
+    "longitude": 113.8672256
+  },
+  {
+    "city": "Indonesia",
+    "country": "Jember",
+    "latitude": -8.1660391,
+    "longitude": 113.7031784
+  },
+  {
+    "city": "China",
+    "country": "Zhengzhou",
+    "latitude": 34.7577778,
+    "longitude": 113.648613
+  },
+  {
+    "city": "China",
+    "country": "Shaoguan",
+    "latitude": 24.8,
+    "longitude": 113.5833359
+  },
+  {
+    "city": "Russia",
+    "country": "Chita",
+    "latitude": 52.0333333,
+    "longitude": 113.5500031
+  },
+  {
+    "city": "China",
+    "country": "Pingdingshan",
+    "latitude": 33.7408333,
+    "longitude": 113.3063889
+  },
+  {
+    "city": "China",
+    "country": "Datong",
+    "latitude": 40.0936111,
+    "longitude": 113.2913895
+  },
+  {
+    "city": "Monaco",
+    "country": "Baruun-Urt",
+    "latitude": 46.6805556,
+    "longitude": 113.2791672
+  },
+  {
+    "city": "China",
+    "country": "Guangzhou",
+    "latitude": 23.1166667,
+    "longitude": 113.25
+  },
+  {
+    "city": "Indonesia",
+    "country": "Probolinggo",
+    "latitude": -7.75,
+    "longitude": 113.2166672
+  },
+  {
+    "city": "Indonesia",
+    "country": "Lumajang",
+    "latitude": -8.1333333,
+    "longitude": 113.2166672
+  },
+  {
+    "city": "China",
+    "country": "Zhuzhou",
+    "latitude": 27.8333333,
+    "longitude": 113.1500015
+  },
+  {
+    "city": "China",
+    "country": "Foshan",
+    "latitude": 23.0333333,
+    "longitude": 113.1166687
+  },
+  {
+    "city": "Maldives",
+    "country": "Bintulu",
+    "latitude": 3.1666667,
+    "longitude": 113.0333328
+  },
+  {
+    "city": "China",
+    "country": "Changsha",
+    "latitude": 28.2,
+    "longitude": 112.9666672
+  },
+  {
+    "city": "China",
+    "country": "Xiangtan",
+    "latitude": 27.85,
+    "longitude": 112.9000015
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pasuruan",
+    "latitude": -7.6333333,
+    "longitude": 112.9000015
+  },
+  {
+    "city": "Indonesia",
+    "country": "Surabaya",
+    "latitude": -7.2491667,
+    "longitude": 112.7508316
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sidoarjo",
+    "latitude": -7.4538889,
+    "longitude": 112.7202759
+  },
+  {
+    "city": "Indonesia",
+    "country": "Lawang",
+    "latitude": -7.8263889,
+    "longitude": 112.7019424
+  },
+  {
+    "city": "Indonesia",
+    "country": "Malang",
+    "latitude": -7.9777778,
+    "longitude": 112.6280594
+  },
+  {
+    "city": "China",
+    "country": "Hengyang",
+    "latitude": 26.8880556,
+    "longitude": 112.6149979
+  },
+  {
+    "city": "China",
+    "country": "Taiyuan",
+    "latitude": 37.8694444,
+    "longitude": 112.5602798
+  },
+  {
+    "city": "China",
+    "country": "Luoyang",
+    "latitude": 34.6836111,
+    "longitude": 112.4536133
+  },
+  {
+    "city": "Indonesia",
+    "country": "Jombang",
+    "latitude": -7.5459539,
+    "longitude": 112.2330704
+  },
+  {
+    "city": "Indonesia",
+    "country": "Blitar",
+    "latitude": -8.1,
+    "longitude": 112.1500015
+  },
+  {
+    "city": "China",
+    "country": "Yunfu",
+    "latitude": 22.9333333,
+    "longitude": 112.0333328
+  },
+  {
+    "city": "Indonesia",
+    "country": "Kediri",
+    "latitude": -7.8166667,
+    "longitude": 112.0166702
+  },
+  {
+    "city": "Maldives",
+    "country": "Sibu",
+    "latitude": 2.3,
+    "longitude": 111.8166656
+  },
+  {
+    "city": "China",
+    "country": "Changzhi",
+    "latitude": 35.2088889,
+    "longitude": 111.7386093
+  },
+  {
+    "city": "China",
+    "country": "Hohhot",
+    "latitude": 40.8105556,
+    "longitude": 111.6522217
+  },
+  {
+    "city": "Maldives",
+    "country": "Sarikei",
+    "latitude": 2.1166667,
+    "longitude": 111.5166702
+  },
+  {
+    "city": "Indonesia",
+    "country": "Madiun",
+    "latitude": -7.6166667,
+    "longitude": 111.5166702
+  },
+  {
+    "city": "Maldives",
+    "country": "Simanggang",
+    "latitude": 1.2472222,
+    "longitude": 111.452774
+  },
+  {
+    "city": "Indonesia",
+    "country": "Purwodadi",
+    "latitude": -7.0833333,
+    "longitude": 110.9000015
+  },
+  {
+    "city": "Indonesia",
+    "country": "Surakarta",
+    "latitude": -7.5561111,
+    "longitude": 110.831665
+  },
+  {
+    "city": "China",
+    "country": "Shiyan",
+    "latitude": 32.6475,
+    "longitude": 110.7780533
+  },
+  {
+    "city": "Monaco",
+    "country": "Ondorhaan",
+    "latitude": 47.3194444,
+    "longitude": 110.6555557
+  },
+  {
+    "city": "Indonesia",
+    "country": "Klaten",
+    "latitude": -7.7058333,
+    "longitude": 110.6063919
+  },
+  {
+    "city": "Indonesia",
+    "country": "Salatiga",
+    "latitude": -7.3319444,
+    "longitude": 110.492775
+  },
+  {
+    "city": "Indonesia",
+    "country": "Semarang",
+    "latitude": -6.9666667,
+    "longitude": 110.4166641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Ungaran",
+    "latitude": -7.1397222,
+    "longitude": 110.4049988
+  },
+  {
+    "city": "China",
+    "country": "Zhanjiang",
+    "latitude": 21.2,
+    "longitude": 110.3833313
+  },
+  {
+    "city": "Indonesia",
+    "country": "Yogyakarta",
+    "latitude": -7.7827778,
+    "longitude": 110.3608322
+  },
+  {
+    "city": "China",
+    "country": "Haikou",
+    "latitude": 20.0458333,
+    "longitude": 110.3416672
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuching",
+    "latitude": 1.55,
+    "longitude": 110.3333359
+  },
+  {
+    "city": "China",
+    "country": "Guilin",
+    "latitude": 25.2819444,
+    "longitude": 110.2863922
+  },
+  {
+    "city": "China",
+    "country": "Baotou",
+    "latitude": 40.6522222,
+    "longitude": 109.8222198
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pekalongan",
+    "latitude": -6.8833333,
+    "longitude": 109.6666641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pemalang",
+    "latitude": -6.9,
+    "longitude": 109.3666687
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pontianak",
+    "latitude": -0.0333333,
+    "longitude": 109.3333359
+  },
+  {
+    "city": "Vietnam",
+    "country": "Tuy Hoa",
+    "latitude": 13.0833333,
+    "longitude": 109.3000031
+  },
+  {
+    "city": "Indonesia",
+    "country": "Purwokerto",
+    "latitude": -7.4213889,
+    "longitude": 109.2344437
+  },
+  {
+    "city": "Vietnam",
+    "country": "Quy Nhon",
+    "latitude": 13.7666667,
+    "longitude": 109.2333298
+  },
+  {
+    "city": "Vietnam",
+    "country": "Nha Trang",
+    "latitude": 12.25,
+    "longitude": 109.1833344
+  },
+  {
+    "city": "Vietnam",
+    "country": "Cam Ranh",
+    "latitude": 11.9214391,
+    "longitude": 109.1591263
+  },
+  {
+    "city": "Indonesia",
+    "country": "Tegal",
+    "latitude": -6.8666667,
+    "longitude": 109.1333313
+  },
+  {
+    "city": "Indonesia",
+    "country": "Adiwerna",
+    "latitude": -6.9333333,
+    "longitude": 109.1166687
+  },
+  {
+    "city": "Vietnam",
+    "country": "Phan Rang-Thap Cham",
+    "latitude": 11.5666667,
+    "longitude": 108.9833298
+  },
+  {
+    "city": "Vietnam",
+    "country": "Quang Ngai",
+    "latitude": 15.1166667,
+    "longitude": 108.8000031
+  },
+  {
+    "city": "China",
+    "country": "Xianyang",
+    "latitude": 34.3455556,
+    "longitude": 108.7147217
+  },
+  {
+    "city": "Indonesia",
+    "country": "Astanajapura",
+    "latitude": -6.8,
+    "longitude": 108.5999985
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cirebon",
+    "latitude": -6.7333333,
+    "longitude": 108.5666656
+  },
+  {
+    "city": "Indonesia",
+    "country": "Weru",
+    "latitude": -6.7,
+    "longitude": 108.5
+  },
+  {
+    "city": "Vietnam",
+    "country": "Tam Ky",
+    "latitude": 15.5666667,
+    "longitude": 108.4833298
+  },
+  {
+    "city": "Indonesia",
+    "country": "Plumbon",
+    "latitude": -6.705,
+    "longitude": 108.4727783
+  },
+  {
+    "city": "Vietnam",
+    "country": "Da Lat",
+    "latitude": 11.9333333,
+    "longitude": 108.4166641
+  },
+  {
+    "city": "Monaco",
+    "country": "Choyr",
+    "latitude": 46.3611111,
+    "longitude": 108.3611145
+  },
+  {
+    "city": "Indonesia",
+    "country": "Ciamis",
+    "latitude": -7.3333333,
+    "longitude": 108.3499985
+  },
+  {
+    "city": "Vietnam",
+    "country": "Hoi An",
+    "latitude": 15.8794444,
+    "longitude": 108.3349991
+  },
+  {
+    "city": "China",
+    "country": "Nanning",
+    "latitude": 22.8166667,
+    "longitude": 108.3166656
+  },
+  {
+    "city": "Vietnam",
+    "country": "Da Nang",
+    "latitude": 16.0677778,
+    "longitude": 108.2208328
+  },
+  {
+    "city": "Indonesia",
+    "country": "Tasikmalaya",
+    "latitude": -7.3333333,
+    "longitude": 108.1999969
+  },
+  {
+    "city": "Vietnam",
+    "country": "Phan Thiet",
+    "latitude": 10.9333333,
+    "longitude": 108.0999985
+  },
+  {
+    "city": "Vietnam",
+    "country": "Buon Ma Thuot",
+    "latitude": 12.6666667,
+    "longitude": 108.0500031
+  },
+  {
+    "city": "Vietnam",
+    "country": "Kon Tum",
+    "latitude": 14.35,
+    "longitude": 108
+  },
+  {
+    "city": "Vietnam",
+    "country": "Pleiku",
+    "latitude": 13.9833333,
+    "longitude": 108
   }
 ]
