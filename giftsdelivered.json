@@ -6112,5 +6112,515 @@
     "country": "Tanah Merah",
     "latitude": 5.8,
     "longitude": 102.1500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Sungai Udang",
+    "latitude": 2.2666667,
+    "longitude": 102.1500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Masjid Tanah",
+    "latitude": 2.35,
+    "longitude": 102.1166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Nakhon Ratchasima",
+    "latitude": 14.9706567,
+    "longitude": 102.1019516
+  },
+  {
+    "city": "Thailand",
+    "country": "Chum Phae",
+    "latitude": 16.5333333,
+    "longitude": 102.0999985
+  },
+  {
+    "city": "Thailand",
+    "country": "Chaiyaphum",
+    "latitude": 15.8,
+    "longitude": 102.0333328
+  },
+  {
+    "city": "Thailand",
+    "country": "Sungai Kolok",
+    "latitude": 6.0266667,
+    "longitude": 101.9677811
+  },
+  {
+    "city": "Maldives",
+    "country": "Seremban",
+    "latitude": 2.7166667,
+    "longitude": 101.9333344
+  },
+  {
+    "city": "Maldives",
+    "country": "Bentong Town",
+    "latitude": 3.5166667,
+    "longitude": 101.9000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Raub",
+    "latitude": 3.8,
+    "longitude": 101.8666687
+  },
+  {
+    "city": "Maldives",
+    "country": "Semenyih",
+    "latitude": 2.95,
+    "longitude": 101.8499985
+  },
+  {
+    "city": "Thailand",
+    "country": "Narathiwat",
+    "latitude": 6.4244444,
+    "longitude": 101.8236084
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Baharu Nilai",
+    "latitude": 2.8166667,
+    "longitude": 101.8000031
+  },
+  {
+    "city": "Maldives",
+    "country": "Port Dickson",
+    "latitude": 2.5166667,
+    "longitude": 101.8000031
+  },
+  {
+    "city": "China",
+    "country": "Xining",
+    "latitude": 36.6166667,
+    "longitude": 101.7666702
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Baharu Balakong",
+    "latitude": 3.0333333,
+    "longitude": 101.75
+  },
+  {
+    "city": "Thailand",
+    "country": "Loei",
+    "latitude": 17.4833333,
+    "longitude": 101.7166672
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuala Lumpur",
+    "latitude": 3.1666667,
+    "longitude": 101.6999969
+  },
+  {
+    "city": "Maldives",
+    "country": "Putrajaya",
+    "latitude": 2.9352727,
+    "longitude": 101.6911163
+  },
+  {
+    "city": "Thailand",
+    "country": "Klaeng",
+    "latitude": 12.7833333,
+    "longitude": 101.6500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Serendah",
+    "latitude": 3.3666667,
+    "longitude": 101.6166687
+  },
+  {
+    "city": "Russia",
+    "country": "Bratsk",
+    "latitude": 56.1325,
+    "longitude": 101.6141663
+  },
+  {
+    "city": "Maldives",
+    "country": "Petaling Jaya",
+    "latitude": 3.1072633,
+    "longitude": 101.6067123
+  },
+  {
+    "city": "Maldives",
+    "country": "Rawang",
+    "latitude": 3.3166667,
+    "longitude": 101.5833359
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampung Baru Subang",
+    "latitude": 3.15,
+    "longitude": 101.5333328
+  },
+  {
+    "city": "Maldives",
+    "country": "Shah Alam",
+    "latitude": 3.0850656,
+    "longitude": 101.532814
+  },
+  {
+    "city": "Maldives",
+    "country": "Pengkalan Kundang",
+    "latitude": 3.2833333,
+    "longitude": 101.5166702
+  },
+  {
+    "city": "Maldives",
+    "country": "Jenjarum",
+    "latitude": 2.8833333,
+    "longitude": 101.5
+  },
+  {
+    "city": "Maldives",
+    "country": "Banting",
+    "latitude": 2.8166667,
+    "longitude": 101.5
+  },
+  {
+    "city": "Monaco",
+    "country": "Tsetserleg",
+    "latitude": 47.475,
+    "longitude": 101.4541702
+  },
+  {
+    "city": "Maldives",
+    "country": "Klang",
+    "latitude": 3.0333333,
+    "longitude": 101.4499969
+  },
+  {
+    "city": "Indonesia",
+    "country": "Dumai",
+    "latitude": 1.6833333,
+    "longitude": 101.4499969
+  },
+  {
+    "city": "Thailand",
+    "country": "Pak Chong",
+    "latitude": 14.7041667,
+    "longitude": 101.4130554
+  },
+  {
+    "city": "Thailand",
+    "country": "Prachin Buri",
+    "latitude": 14.0502778,
+    "longitude": 101.3702774
+  },
+  {
+    "city": "Thailand",
+    "country": "Yaring",
+    "latitude": 6.8616667,
+    "longitude": 101.3649979
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Dungun",
+    "latitude": 3.2166667,
+    "longitude": 101.3166656
+  },
+  {
+    "city": "Thailand",
+    "country": "Yala",
+    "latitude": 6.5427778,
+    "longitude": 101.2836075
+  },
+  {
+    "city": "Thailand",
+    "country": "Changwat Rayong",
+    "latitude": 12.6833333,
+    "longitude": 101.2833328
+  },
+  {
+    "city": "Maldives",
+    "country": "Bidur",
+    "latitude": 4.1166667,
+    "longitude": 101.2833328
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuala Selangor",
+    "latitude": 3.35,
+    "longitude": 101.25
+  },
+  {
+    "city": "Maldives",
+    "country": "Tapah Road",
+    "latitude": 4.1666667,
+    "longitude": 101.1999969
+  },
+  {
+    "city": "Thailand",
+    "country": "Phetchabun",
+    "latitude": 16.4190435,
+    "longitude": 101.1605606
+  },
+  {
+    "city": "Thailand",
+    "country": "Wichian Buri",
+    "latitude": 15.6588889,
+    "longitude": 101.1125031
+  },
+  {
+    "city": "Thailand",
+    "country": "Chachoengsao",
+    "latitude": 13.7,
+    "longitude": 101.0833359
+  },
+  {
+    "city": "Thailand",
+    "country": "Betong",
+    "latitude": 5.75,
+    "longitude": 101.0833359
+  },
+  {
+    "city": "Maldives",
+    "country": "Ipoh",
+    "latitude": 4.5833333,
+    "longitude": 101.0833359
+  },
+  {
+    "city": "Maldives",
+    "country": "Batu Gajah",
+    "latitude": 4.4666667,
+    "longitude": 101.0500031
+  },
+  {
+    "city": "Maldives",
+    "country": "Teluk Intan",
+    "latitude": 4.0333333,
+    "longitude": 101.0166702
+  },
+  {
+    "city": "Thailand",
+    "country": "Kaeng Khoi",
+    "latitude": 14.5880556,
+    "longitude": 101.0030594
+  },
+  {
+    "city": "Thailand",
+    "country": "Chon Buri",
+    "latitude": 13.3666667,
+    "longitude": 100.9833298
+  },
+  {
+    "city": "Maldives",
+    "country": "Sungai Besar",
+    "latitude": 3.6666667,
+    "longitude": 100.9833298
+  },
+  {
+    "city": "Thailand",
+    "country": "Si Racha",
+    "latitude": 13.1666667,
+    "longitude": 100.9333344
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuala Kangsar",
+    "latitude": 4.7666667,
+    "longitude": 100.9333344
+  },
+  {
+    "city": "Thailand",
+    "country": "Bang Lamung",
+    "latitude": 13.0470378,
+    "longitude": 100.9289093
+  },
+  {
+    "city": "Thailand",
+    "country": "Sattahip",
+    "latitude": 12.6666667,
+    "longitude": 100.9000015
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Phattha Ya",
+    "latitude": 12.9333333,
+    "longitude": 100.8833313
+  },
+  {
+    "city": "Thailand",
+    "country": "Nong Khae",
+    "latitude": 14.3333333,
+    "longitude": 100.8666687
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Bang Sao Thong",
+    "latitude": 13.6666667,
+    "longitude": 100.8166656
+  },
+  {
+    "city": "Thailand",
+    "country": "Phra Phutthabat",
+    "latitude": 14.7166667,
+    "longitude": 100.8000031
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Lam Luk Ka",
+    "latitude": 13.9773817,
+    "longitude": 100.7777634
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Rangsit",
+    "latitude": 14.0166667,
+    "longitude": 100.7333298
+  },
+  {
+    "city": "Maldives",
+    "country": "Taiping",
+    "latitude": 4.85,
+    "longitude": 100.7333298
+  },
+  {
+    "city": "Thailand",
+    "country": "Khlong Luang",
+    "latitude": 14.0666667,
+    "longitude": 100.6500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Simpang Empat",
+    "latitude": 4.95,
+    "longitude": 100.6333313
+  },
+  {
+    "city": "Maldives",
+    "country": "Lumut",
+    "latitude": 4.2333333,
+    "longitude": 100.6333313
+  },
+  {
+    "city": "Thailand",
+    "country": "Lop Buri",
+    "latitude": 14.8,
+    "longitude": 100.6166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Samut Prakan",
+    "latitude": 13.5993364,
+    "longitude": 100.596756
+  },
+  {
+    "city": "Maldives",
+    "country": "Kulim",
+    "latitude": 5.3666667,
+    "longitude": 100.5666656
+  },
+  {
+    "city": "Thailand",
+    "country": "Phra Nakhon Si Ayutthaya",
+    "latitude": 14.35,
+    "longitude": 100.5500031
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Mai",
+    "latitude": 7.2,
+    "longitude": 100.5500031
+  },
+  {
+    "city": "Thailand",
+    "country": "Phra Pradaeng",
+    "latitude": 13.6666667,
+    "longitude": 100.5333328
+  },
+  {
+    "city": "Thailand",
+    "country": "Bangkok",
+    "latitude": 13.75,
+    "longitude": 100.5166702
+  },
+  {
+    "city": "Maldives",
+    "country": "Bedung",
+    "latitude": 5.7333333,
+    "longitude": 100.5166702
+  },
+  {
+    "city": "Thailand",
+    "country": "Pak Kret",
+    "latitude": 13.9166667,
+    "longitude": 100.5
+  },
+  {
+    "city": "Maldives",
+    "country": "Sungai Petani",
+    "latitude": 5.65,
+    "longitude": 100.5
+  },
+  {
+    "city": "Maldives",
+    "country": "Tasek Gelugur",
+    "latitude": 5.4833333,
+    "longitude": 100.5
+  },
+  {
+    "city": "Maldives",
+    "country": "Parit Buntar",
+    "latitude": 5.1166667,
+    "longitude": 100.5
+  },
+  {
+    "city": "Thailand",
+    "country": "Bang Kruai",
+    "latitude": 13.8,
+    "longitude": 100.4833298
+  },
+  {
+    "city": "Maldives",
+    "country": "Nibung Tebal",
+    "latitude": 5.1666667,
+    "longitude": 100.4833298
+  },
+  {
+    "city": "Thailand",
+    "country": "Hat Yai",
+    "latitude": 7.0166667,
+    "longitude": 100.4666672
+  },
+  {
+    "city": "Maldives",
+    "country": "Bukit Mertajam",
+    "latitude": 5.3666667,
+    "longitude": 100.4666672
+  },
+  {
+    "city": "Thailand",
+    "country": "Bang Bua Thong",
+    "latitude": 13.9166667,
+    "longitude": 100.4333344
+  },
+  {
+    "city": "Thailand",
+    "country": "Sadao",
+    "latitude": 6.6333333,
+    "longitude": 100.4333344
+  },
+  {
+    "city": "Maldives",
+    "country": "Jitra",
+    "latitude": 6.2666667,
+    "longitude": 100.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Permatang Kuching",
+    "latitude": 5.4833333,
+    "longitude": 100.4000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Butterworth",
+    "latitude": 5.4166667,
+    "longitude": 100.4000015
   }
 ]
