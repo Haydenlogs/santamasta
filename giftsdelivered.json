@@ -11926,5 +11926,533 @@
     "country": "Pleiku",
     "latitude": 13.9833333,
     "longitude": 108
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sumedang Utara",
+    "latitude": -6.85,
+    "longitude": 107.9166641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Paseh",
+    "latitude": -7.1,
+    "longitude": 107.75
+  },
+  {
+    "city": "Indonesia",
+    "country": "Bandung",
+    "latitude": -6.9127778,
+    "longitude": 107.6205521
+  },
+  {
+    "city": "Indonesia",
+    "country": "Lembang",
+    "latitude": -6.8116667,
+    "longitude": 107.6175003
+  },
+  {
+    "city": "Russia",
+    "country": "Ulan-Ude",
+    "latitude": 51.8333333,
+    "longitude": 107.6166687
+  },
+  {
+    "city": "Vietnam",
+    "country": "Hue",
+    "latitude": 16.4666667,
+    "longitude": 107.5999985
+  },
+  {
+    "city": "Indonesia",
+    "country": "Banjaran",
+    "latitude": -7.0452778,
+    "longitude": 107.5877762
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cimahi",
+    "latitude": -6.8722222,
+    "longitude": 107.5425034
+  },
+  {
+    "city": "Indonesia",
+    "country": "Soreang",
+    "latitude": -7.0330556,
+    "longitude": 107.5183334
+  },
+  {
+    "city": "Indonesia",
+    "country": "Padalarang",
+    "latitude": -6.8377778,
+    "longitude": 107.4727783
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cikampek",
+    "latitude": -6.4136111,
+    "longitude": 107.4594421
+  },
+  {
+    "city": "Indonesia",
+    "country": "Purwakarta",
+    "latitude": -6.5569444,
+    "longitude": 107.4388885
+  },
+  {
+    "city": "Vietnam",
+    "country": "Cam Pha Mines",
+    "latitude": 21.0166667,
+    "longitude": 107.3000031
+  },
+  {
+    "city": "Indonesia",
+    "country": "Rengasdengklok",
+    "latitude": -6.1483333,
+    "longitude": 107.2830582
+  },
+  {
+    "city": "Cambodia",
+    "country": "Senmonourom",
+    "latitude": 12.45,
+    "longitude": 107.1999969
+  },
+  {
+    "city": "Vietnam",
+    "country": "Dong Ha",
+    "latitude": 16.8166667,
+    "longitude": 107.1333313
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ha Long",
+    "latitude": 20.9511111,
+    "longitude": 107.0800018
+  },
+  {
+    "city": "Vietnam",
+    "country": "Vung Tau",
+    "latitude": 10.35,
+    "longitude": 107.0666656
+  },
+  {
+    "city": "Indonesia",
+    "country": "Bekasi",
+    "latitude": -6.2366667,
+    "longitude": 106.9919434
+  },
+  {
+    "city": "Cambodia",
+    "country": "Lumphat",
+    "latitude": 13.5,
+    "longitude": 106.9833298
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cileungsi",
+    "latitude": -6.3947222,
+    "longitude": 106.9591675
+  },
+  {
+    "city": "Monaco",
+    "country": "Dzuunmod",
+    "latitude": 47.7069444,
+    "longitude": 106.952774
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sukabumi",
+    "latitude": -6.9166667,
+    "longitude": 106.9272232
+  },
+  {
+    "city": "Monaco",
+    "country": "Ulaanbaatar",
+    "latitude": 47.9166667,
+    "longitude": 106.9166641
+  },
+  {
+    "city": "Vietnam",
+    "country": "Dong Xoai",
+    "latitude": 11.5333333,
+    "longitude": 106.9166641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cibinong",
+    "latitude": -6.4816667,
+    "longitude": 106.8541641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Jakarta",
+    "latitude": -6.1744444,
+    "longitude": 106.8294449
+  },
+  {
+    "city": "Indonesia",
+    "country": "Depok",
+    "latitude": -6.4,
+    "longitude": 106.8186111
+  },
+  {
+    "city": "Vietnam",
+    "country": "Bien Hoa",
+    "latitude": 10.95,
+    "longitude": 106.8166656
+  },
+  {
+    "city": "Indonesia",
+    "country": "Bogor",
+    "latitude": -6.5897222,
+    "longitude": 106.7913895
+  },
+  {
+    "city": "Vietnam",
+    "country": "Uong Bi",
+    "latitude": 21.0333333,
+    "longitude": 106.7833328
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pamulang",
+    "latitude": -6.3427778,
+    "longitude": 106.7383347
+  },
+  {
+    "city": "Indonesia",
+    "country": "Parung",
+    "latitude": -6.4213889,
+    "longitude": 106.7330551
+  },
+  {
+    "city": "China",
+    "country": "Guiyang",
+    "latitude": 26.5833333,
+    "longitude": 106.7166672
+  },
+  {
+    "city": "Indonesia",
+    "country": "Ciampea",
+    "latitude": -6.54,
+    "longitude": 106.7102814
+  },
+  {
+    "city": "Indonesia",
+    "country": "Ciputat",
+    "latitude": -6.2375,
+    "longitude": 106.6955566
+  },
+  {
+    "city": "Vietnam",
+    "country": "Haiphong",
+    "latitude": 20.8561111,
+    "longitude": 106.6822205
+  },
+  {
+    "city": "Vietnam",
+    "country": "Thanh pho Ho Chi Minh",
+    "latitude": 10.75,
+    "longitude": 106.6666641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Teluknaga",
+    "latitude": -6.0988889,
+    "longitude": 106.6380539
+  },
+  {
+    "city": "Indonesia",
+    "country": "Tangerang",
+    "latitude": -6.1780556,
+    "longitude": 106.6299973
+  },
+  {
+    "city": "Vietnam",
+    "country": "Dong Hoi",
+    "latitude": 17.4833333,
+    "longitude": 106.5999985
+  },
+  {
+    "city": "Indonesia",
+    "country": "Curug",
+    "latitude": -6.2658333,
+    "longitude": 106.5563889
+  },
+  {
+    "city": "China",
+    "country": "Chongqing",
+    "latitude": 29.5627778,
+    "longitude": 106.5527802
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pasarkemis",
+    "latitude": -6.1702778,
+    "longitude": 106.5302811
+  },
+  {
+    "city": "Indonesia",
+    "country": "Cikupa",
+    "latitude": -6.2363889,
+    "longitude": 106.5083313
+  },
+  {
+    "city": "Monaco",
+    "country": "Dzuunharaa",
+    "latitude": 48.8522914,
+    "longitude": 106.4578629
+  },
+  {
+    "city": "Vietnam",
+    "country": "Tan An",
+    "latitude": 10.5333333,
+    "longitude": 106.4166641
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ben Tre",
+    "latitude": 10.2333333,
+    "longitude": 106.3833313
+  },
+  {
+    "city": "Vietnam",
+    "country": "My Tho",
+    "latitude": 10.35,
+    "longitude": 106.3499985
+  },
+  {
+    "city": "Vietnam",
+    "country": "Tra Vinh",
+    "latitude": 9.9347222,
+    "longitude": 106.3452759
+  },
+  {
+    "city": "Vietnam",
+    "country": "Thai Binh",
+    "latitude": 20.45,
+    "longitude": 106.3333359
+  },
+  {
+    "city": "Vietnam",
+    "country": "Hai Duong",
+    "latitude": 20.9333333,
+    "longitude": 106.3166656
+  },
+  {
+    "city": "Monaco",
+    "country": "Mandalgovi",
+    "latitude": 45.7625,
+    "longitude": 106.2708359
+  },
+  {
+    "city": "Vietnam",
+    "country": "Cao Bang",
+    "latitude": 22.6666667,
+    "longitude": 106.25
+  },
+  {
+    "city": "Indonesia",
+    "country": "Rangkasbitung",
+    "latitude": -6.3547222,
+    "longitude": 106.2472229
+  },
+  {
+    "city": "Monaco",
+    "country": "Suhbaatar",
+    "latitude": 50.2313889,
+    "longitude": 106.2077789
+  },
+  {
+    "city": "Vietnam",
+    "country": "Bac Giang",
+    "latitude": 21.2666667,
+    "longitude": 106.1999969
+  },
+  {
+    "city": "Vietnam",
+    "country": "Nam Dinh",
+    "latitude": 20.4166667,
+    "longitude": 106.1666641
+  },
+  {
+    "city": "Indonesia",
+    "country": "Serang",
+    "latitude": -6.1127778,
+    "longitude": 106.1477814
+  },
+  {
+    "city": "Vietnam",
+    "country": "Phu Khuong",
+    "latitude": 11.2833333,
+    "longitude": 106.1333313
+  },
+  {
+    "city": "Indonesia",
+    "country": "Pangkalpinang",
+    "latitude": -2.1333333,
+    "longitude": 106.1333313
+  },
+  {
+    "city": "China",
+    "country": "Nanchong",
+    "latitude": 30.8,
+    "longitude": 106.0666656
+  },
+  {
+    "city": "Vietnam",
+    "country": "Bac Ninh",
+    "latitude": 21.1833333,
+    "longitude": 106.0500031
+  },
+  {
+    "city": "Cambodia",
+    "country": "Kracheh",
+    "latitude": 12.4833333,
+    "longitude": 106.0166702
+  },
+  {
+    "city": "Vietnam",
+    "country": "Soc Trang",
+    "latitude": 9.6033333,
+    "longitude": 105.9800034
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ninh Binh",
+    "latitude": 20.2538889,
+    "longitude": 105.9749985
+  },
+  {
+    "city": "Vietnam",
+    "country": "Vinh Long",
+    "latitude": 10.25,
+    "longitude": 105.9666672
+  },
+  {
+    "city": "Monaco",
+    "country": "Darhan",
+    "latitude": 49.4866667,
+    "longitude": 105.9227753
+  },
+  {
+    "city": "Vietnam",
+    "country": "Phu Ly",
+    "latitude": 20.5411111,
+    "longitude": 105.913887
+  },
+  {
+    "city": "Vietnam",
+    "country": "Bim Son",
+    "latitude": 20.0780556,
+    "longitude": 105.8602753
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ha Noi",
+    "latitude": 21.0333333,
+    "longitude": 105.8499985
+  },
+  {
+    "city": "Vietnam",
+    "country": "Thai Nguyen",
+    "latitude": 21.5927778,
+    "longitude": 105.8441696
+  },
+  {
+    "city": "Vietnam",
+    "country": "Can Tho",
+    "latitude": 10.0333333,
+    "longitude": 105.7833328
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ha Dong",
+    "latitude": 20.9725,
+    "longitude": 105.7772217
+  },
+  {
+    "city": "Vietnam",
+    "country": "Thanh Hoa",
+    "latitude": 19.8,
+    "longitude": 105.7666702
+  },
+  {
+    "city": "Vietnam",
+    "country": "Sa Dec",
+    "latitude": 10.3,
+    "longitude": 105.7666702
+  },
+  {
+    "city": "Vietnam",
+    "country": "Bac Lieu",
+    "latitude": 9.285,
+    "longitude": 105.7244415
+  },
+  {
+    "city": "Vietnam",
+    "country": "Yen Vinh",
+    "latitude": 18.6666667,
+    "longitude": 105.6666641
+  },
+  {
+    "city": "Vietnam",
+    "country": "Vinh Yen",
+    "latitude": 21.31,
+    "longitude": 105.5966644
+  },
+  {
+    "city": "Vietnam",
+    "country": "Son Tay",
+    "latitude": 21.1377778,
+    "longitude": 105.5049973
+  },
+  {
+    "city": "Cambodia",
+    "country": "Kampong Cham",
+    "latitude": 12,
+    "longitude": 105.4499969
+  },
+  {
+    "city": "Vietnam",
+    "country": "Viet Tri",
+    "latitude": 21.3019444,
+    "longitude": 105.4308319
+  },
+  {
+    "city": "Vietnam",
+    "country": "Long Xuyen",
+    "latitude": 10.3833333,
+    "longitude": 105.4166641
+  },
+  {
+    "city": "Vietnam",
+    "country": "Hoa Binh",
+    "latitude": 20.8133333,
+    "longitude": 105.3383331
+  },
+  {
+    "city": "Indonesia",
+    "country": "Metro",
+    "latitude": -5.1130556,
+    "longitude": 105.3066635
+  },
+  {
+    "city": "Indonesia",
+    "country": "Tanjungkarang-Telukbetung",
+    "latitude": -5.45,
+    "longitude": 105.2666702
+  },
+  {
+    "city": "Vietnam",
+    "country": "Tuyen Quang",
+    "latitude": 21.8233333,
+    "longitude": 105.2180557
+  },
+  {
+    "city": "Vietnam",
+    "country": "Ca Mau",
+    "latitude": 9.1769444,
+    "longitude": 105.1500015
   }
 ]
