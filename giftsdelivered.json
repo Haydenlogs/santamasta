@@ -17860,5 +17860,533 @@
     "country": "Druzhkovka",
     "latitude": 48.6166667,
     "longitude": 37.5499992
+  },
+  {
+    "city": "Syria",
+    "country": "Tadif",
+    "latitude": 36.3333333,
+    "longitude": 37.5333328
+  },
+  {
+    "city": "Syria",
+    "country": "Al Bab",
+    "latitude": 36.3725,
+    "longitude": 37.5177765
+  },
+  {
+    "city": "Turkey",
+    "country": "Fatsa",
+    "latitude": 41.0277778,
+    "longitude": 37.5013885
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Adet",
+    "latitude": 11.2666667,
+    "longitude": 37.4833336
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gonder",
+    "latitude": 12.6,
+    "longitude": 37.4666672
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gedo",
+    "latitude": 9.0166667,
+    "longitude": 37.4500008
+  },
+  {
+    "city": "Kenya",
+    "country": "Embu",
+    "latitude": -0.5333333,
+    "longitude": 37.4500008
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bahir Dar",
+    "latitude": 11.6,
+    "longitude": 37.3833351
+  },
+  {
+    "city": "Turkey",
+    "country": "Gaziantep",
+    "latitude": 37.0594444,
+    "longitude": 37.3824997
+  },
+  {
+    "city": "Syria",
+    "country": "As Safirah",
+    "latitude": 36.0666667,
+    "longitude": 37.3666649
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gidole",
+    "latitude": 5.65,
+    "longitude": 37.3666649
+  },
+  {
+    "city": "Kenya",
+    "country": "Kangundo",
+    "latitude": -1.3,
+    "longitude": 37.3499985
+  },
+  {
+    "city": "Tanzania",
+    "country": "Moshi",
+    "latitude": -3.35,
+    "longitude": 37.3333321
+  },
+  {
+    "city": "Sudan",
+    "country": "Sawakin",
+    "latitude": 19.1038889,
+    "longitude": 37.3300018
+  },
+  {
+    "city": "Kenya",
+    "country": "Keruguya",
+    "latitude": -0.5,
+    "longitude": 37.2833328
+  },
+  {
+    "city": "Turkey",
+    "country": "Unye",
+    "latitude": 41.1313889,
+    "longitude": 37.2825012
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Finote Selam",
+    "latitude": 10.7,
+    "longitude": 37.2666664
+  },
+  {
+    "city": "Kenya",
+    "country": "Machakos",
+    "latitude": -1.5166667,
+    "longitude": 37.2666664
+  },
+  {
+    "city": "Ukraine",
+    "country": "Izyum",
+    "latitude": 49.2127778,
+    "longitude": 37.2569427
+  },
+  {
+    "city": "Syria",
+    "country": "Al Qaryatayn",
+    "latitude": 34.2333333,
+    "longitude": 37.2333336
+  },
+  {
+    "city": "Sudan",
+    "country": "Port Sudan",
+    "latitude": 19.6158333,
+    "longitude": 37.2163887
+  },
+  {
+    "city": "Kenya",
+    "country": "Sagana",
+    "latitude": -0.6666667,
+    "longitude": 37.2000008
+  },
+  {
+    "city": "Turkey",
+    "country": "Elbistan",
+    "latitude": 38.2019444,
+    "longitude": 37.1927795
+  },
+  {
+    "city": "Kenya",
+    "country": "Karuri",
+    "latitude": -0.7,
+    "longitude": 37.1833344
+  },
+  {
+    "city": "Russia",
+    "country": "Zelenograd",
+    "latitude": 55.9825,
+    "longitude": 37.1813889
+  },
+  {
+    "city": "Syria",
+    "country": "Aleppo",
+    "latitude": 36.2027778,
+    "longitude": 37.1586113
+  },
+  {
+    "city": "Kenya",
+    "country": "Maragua",
+    "latitude": -0.7833333,
+    "longitude": 37.1333351
+  },
+  {
+    "city": "Kenya",
+    "country": "Konza",
+    "latitude": -1.75,
+    "longitude": 37.1166649
+  },
+  {
+    "city": "Turkey",
+    "country": "Kilis",
+    "latitude": 36.7161111,
+    "longitude": 37.1150017
+  },
+  {
+    "city": "Syria",
+    "country": "Tall Rif`at",
+    "latitude": 36.4666667,
+    "longitude": 37.0999985
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Shambu",
+    "latitude": 9.5666667,
+    "longitude": 37.0999985
+  },
+  {
+    "city": "Syria",
+    "country": "Mukharram al Fawqani",
+    "latitude": 34.8166667,
+    "longitude": 37.0833321
+  },
+  {
+    "city": "Kenya",
+    "country": "Thika",
+    "latitude": -1.0332596,
+    "longitude": 37.0693283
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bure",
+    "latitude": 10.7,
+    "longitude": 37.0666656
+  },
+  {
+    "city": "Kenya",
+    "country": "Nanyuki",
+    "latitude": 0.0166667,
+    "longitude": 37.0666656
+  },
+  {
+    "city": "Syria",
+    "country": "Salamiyah",
+    "latitude": 35.0166667,
+    "longitude": 37.0499992
+  },
+  {
+    "city": "Kenya",
+    "country": "Naro Moru",
+    "latitude": -0.1666667,
+    "longitude": 37.0166664
+  },
+  {
+    "city": "Turkey",
+    "country": "Sivas",
+    "latitude": 39.7483333,
+    "longitude": 37.0161095
+  },
+  {
+    "city": "Mozambique",
+    "country": "Mutuali",
+    "latitude": -14.8705556,
+    "longitude": 37.0044441
+  },
+  {
+    "city": "Syria",
+    "country": "Nubl",
+    "latitude": 36.3666667,
+    "longitude": 36.9833336
+  },
+  {
+    "city": "Kenya",
+    "country": "Athi River",
+    "latitude": -1.45,
+    "longitude": 36.9833336
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kilosa",
+    "latitude": -6.8333333,
+    "longitude": 36.9833336
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kidodi",
+    "latitude": -7.6,
+    "longitude": 36.9833336
+  },
+  {
+    "city": "Tanzania",
+    "country": "Merelani",
+    "latitude": -3.561823,
+    "longitude": 36.9789505
+  },
+  {
+    "city": "Kenya",
+    "country": "Kangema",
+    "latitude": -0.6833333,
+    "longitude": 36.9666672
+  },
+  {
+    "city": "Kenya",
+    "country": "Nyeri",
+    "latitude": -0.4166667,
+    "longitude": 36.9500008
+  },
+  {
+    "city": "Kenya",
+    "country": "Othaya",
+    "latitude": -0.5666667,
+    "longitude": 36.9500008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Kidatu",
+    "latitude": -7.7,
+    "longitude": 36.9500008
+  },
+  {
+    "city": "Turkey",
+    "country": "Kahramanmaras",
+    "latitude": 37.5875,
+    "longitude": 36.9316673
+  },
+  {
+    "city": "Mozambique",
+    "country": "Quelimane",
+    "latitude": -17.8786111,
+    "longitude": 36.8883324
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Felege Neway",
+    "latitude": 6.3,
+    "longitude": 36.8833351
+  },
+  {
+    "city": "Syria",
+    "country": "`Afrin",
+    "latitude": 36.5166667,
+    "longitude": 36.8666649
+  },
+  {
+    "city": "Tanzania",
+    "country": "Geiro",
+    "latitude": -6.15,
+    "longitude": 36.8666649
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Jima",
+    "latitude": 7.6666667,
+    "longitude": 36.8333321
+  },
+  {
+    "city": "Kenya",
+    "country": "Kiambu",
+    "latitude": -1.1666667,
+    "longitude": 36.8333321
+  },
+  {
+    "city": "Kenya",
+    "country": "Nairobi",
+    "latitude": -1.2833333,
+    "longitude": 36.8166656
+  },
+  {
+    "city": "Syria",
+    "country": "Saraqib",
+    "latitude": 35.8636111,
+    "longitude": 36.8005562
+  },
+  {
+    "city": "Kenya",
+    "country": "Kajiado",
+    "latitude": -1.85,
+    "longitude": 36.7833328
+  },
+  {
+    "city": "Kenya",
+    "country": "Namanga",
+    "latitude": -2.55,
+    "longitude": 36.7833328
+  },
+  {
+    "city": "Syria",
+    "country": "Ad Dana",
+    "latitude": 36.2166667,
+    "longitude": 36.7666664
+  },
+  {
+    "city": "Syria",
+    "country": "Suran",
+    "latitude": 35.2833333,
+    "longitude": 36.75
+  },
+  {
+    "city": "Syria",
+    "country": "Hamah",
+    "latitude": 35.1333333,
+    "longitude": 36.75
+  },
+  {
+    "city": "Syria",
+    "country": "Ar Rastan",
+    "latitude": 34.9166667,
+    "longitude": 36.7333336
+  },
+  {
+    "city": "Syria",
+    "country": "Talbisah",
+    "latitude": 34.8333333,
+    "longitude": 36.7333336
+  },
+  {
+    "city": "Syria",
+    "country": "Qarah",
+    "latitude": 34.15,
+    "longitude": 36.7333336
+  },
+  {
+    "city": "Syria",
+    "country": "An Nabk",
+    "latitude": 34.0166667,
+    "longitude": 36.7333336
+  },
+  {
+    "city": "Syria",
+    "country": "Jayrud",
+    "latitude": 33.8166667,
+    "longitude": 36.7333336
+  },
+  {
+    "city": "Syria",
+    "country": "Binnish",
+    "latitude": 35.9333333,
+    "longitude": 36.7166672
+  },
+  {
+    "city": "Syria",
+    "country": "Tayyibat al Imam",
+    "latitude": 35.2666667,
+    "longitude": 36.7166672
+  },
+  {
+    "city": "Syria",
+    "country": "Hims",
+    "latitude": 34.7333333,
+    "longitude": 36.7166672
+  },
+  {
+    "city": "Kenya",
+    "country": "Maralal",
+    "latitude": 1.1,
+    "longitude": 36.7000008
+  },
+  {
+    "city": "Tanzania",
+    "country": "Arusha",
+    "latitude": -3.3666667,
+    "longitude": 36.6833344
+  },
+  {
+    "city": "Tanzania",
+    "country": "Ifakara",
+    "latitude": -8.1333333,
+    "longitude": 36.6833344
+  },
+  {
+    "city": "Syria",
+    "country": "Ma`arrat Misrin",
+    "latitude": 36.0166667,
+    "longitude": 36.6666679
+  },
+  {
+    "city": "Syria",
+    "country": "Yabrud",
+    "latitude": 33.9666667,
+    "longitude": 36.6666679
+  },
+  {
+    "city": "Kenya",
+    "country": "Kikuyu",
+    "latitude": -1.25,
+    "longitude": 36.6666679
+  },
+  {
+    "city": "Eritrea",
+    "country": "Teseney",
+    "latitude": 15.11,
+    "longitude": 36.6575012
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Agaro",
+    "latitude": 7.85,
+    "longitude": 36.6500015
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Jinka",
+    "latitude": 5.65,
+    "longitude": 36.6500015
+  },
+  {
+    "city": "Kenya",
+    "country": "Limuru",
+    "latitude": -1.1,
+    "longitude": 36.6500015
+  },
+  {
+    "city": "Kenya",
+    "country": "Ngong",
+    "latitude": -1.3666667,
+    "longitude": 36.6500015
+  },
+  {
+    "city": "Syria",
+    "country": "Khan Shaykhun",
+    "latitude": 35.4333333,
+    "longitude": 36.6333351
+  },
+  {
+    "city": "Jordan",
+    "country": "Umm al Qittayn",
+    "latitude": 32.3166667,
+    "longitude": 36.6333351
+  },
+  {
+    "city": "Syria",
+    "country": "Idlib",
+    "latitude": 35.9297222,
+    "longitude": 36.6316681
+  },
+  {
+    "city": "Syria",
+    "country": "Halfaya",
+    "latitude": 35.2666667,
+    "longitude": 36.5999985
+  },
+  {
+    "city": "Syria",
+    "country": "Al Qutayfah",
+    "latitude": 33.75,
+    "longitude": 36.5999985
+  },
+  {
+    "city": "Syria",
+    "country": "Kafr Zayta",
+    "latitude": 35.3666667,
+    "longitude": 36.5833321
+  },
+  {
+    "city": "Syria",
+    "country": "Al Qusayr",
+    "latitude": 34.5166667,
+    "longitude": 36.5833321
   }
 ]
