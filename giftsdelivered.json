@@ -8260,5 +8260,527 @@
     "country": "Shepparton",
     "latitude": -36.3833333,
     "longitude": 145.3999939
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Goroka",
+    "latitude": -6.0833333,
+    "longitude": 145.3833313
+  },
+  {
+    "city": "Australia",
+    "country": "Cranbourne",
+    "latitude": -38.1,
+    "longitude": 145.2833405
+  },
+  {
+    "city": "Australia",
+    "country": "Mornington",
+    "latitude": -38.2166667,
+    "longitude": 145.0333405
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Kundiawa",
+    "latitude": -6.0166667,
+    "longitude": 144.9666595
+  },
+  {
+    "city": "Australia",
+    "country": "Brunswick",
+    "latitude": -37.7666667,
+    "longitude": 144.9666595
+  },
+  {
+    "city": "Australia",
+    "country": "Melbourne",
+    "latitude": -37.8139966,
+    "longitude": 144.9633179
+  },
+  {
+    "city": "Australia",
+    "country": "Craigieburn",
+    "latitude": -37.6,
+    "longitude": 144.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "Echuca",
+    "latitude": -36.1333333,
+    "longitude": 144.75
+  },
+  {
+    "city": "Australia",
+    "country": "Sunbury",
+    "latitude": -37.5833333,
+    "longitude": 144.7333374
+  },
+  {
+    "city": "Australia",
+    "country": "Melton",
+    "latitude": -37.6833333,
+    "longitude": 144.5833282
+  },
+  {
+    "city": "Australia",
+    "country": "Bacchus Marsh",
+    "latitude": -37.6833333,
+    "longitude": 144.4499969
+  },
+  {
+    "city": "Australia",
+    "country": "Geelong",
+    "latitude": -38.1471126,
+    "longitude": 144.3607025
+  },
+  {
+    "city": "Australia",
+    "country": "Geelong West",
+    "latitude": -38.1333333,
+    "longitude": 144.3500061
+  },
+  {
+    "city": "Australia",
+    "country": "Bendigo",
+    "latitude": -36.7666667,
+    "longitude": 144.2833405
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Mount Hagen",
+    "latitude": -5.8666667,
+    "longitude": 144.2166595
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Angoram",
+    "latitude": -4.0666667,
+    "longitude": 144.0666656
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Ialibu",
+    "latitude": -6.2833333,
+    "longitude": 143.9833374
+  },
+  {
+    "city": "Australia",
+    "country": "Ballarat",
+    "latitude": -37.5666667,
+    "longitude": 143.8500061
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Laiagam",
+    "latitude": -5.2833333,
+    "longitude": 143.7666626
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Wabag",
+    "latitude": -5.4833333,
+    "longitude": 143.6999969
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Mendi",
+    "latitude": -6.15,
+    "longitude": 143.6499939
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Wewak",
+    "latitude": -3.55,
+    "longitude": 143.6333313
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Porgera",
+    "latitude": -5.4666667,
+    "longitude": 143.1999969
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Daru",
+    "latitude": -9.0833333,
+    "longitude": 143.1999969
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Ambunti",
+    "latitude": -4.2333333,
+    "longitude": 142.8333282
+  },
+  {
+    "city": "Australia",
+    "country": "Warrnambool",
+    "latitude": -38.3833333,
+    "longitude": 142.4833374
+  },
+  {
+    "city": "Japan",
+    "country": "Asahikawa",
+    "latitude": 43.7677778,
+    "longitude": 142.370285
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Aitape",
+    "latitude": -3.1333333,
+    "longitude": 142.3500061
+  },
+  {
+    "city": "Australia",
+    "country": "Horsham",
+    "latitude": -36.7166667,
+    "longitude": 142.1999969
+  },
+  {
+    "city": "Australia",
+    "country": "Mildura",
+    "latitude": -34.2,
+    "longitude": 142.1499939
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Morehead",
+    "latitude": -8.55,
+    "longitude": 141.6499939
+  },
+  {
+    "city": "Japan",
+    "country": "Hachinohe",
+    "latitude": 40.5,
+    "longitude": 141.5
+  },
+  {
+    "city": "Australia",
+    "country": "Broken Hill",
+    "latitude": -31.95,
+    "longitude": 141.4333344
+  },
+  {
+    "city": "Japan",
+    "country": "Sapporo",
+    "latitude": 43.0547222,
+    "longitude": 141.3538818
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Vanimo",
+    "latitude": -2.6833333,
+    "longitude": 141.3000031
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Kiunga",
+    "latitude": -6.1166667,
+    "longitude": 141.3000031
+  },
+  {
+    "city": "Japan",
+    "country": "Morioka",
+    "latitude": 39.7,
+    "longitude": 141.1499939
+  },
+  {
+    "city": "Japan",
+    "country": "Sendai",
+    "latitude": 38.2547222,
+    "longitude": 140.8847198
+  },
+  {
+    "city": "Japan",
+    "country": "Iwaki",
+    "latitude": 37.05,
+    "longitude": 140.8833313
+  },
+  {
+    "city": "Australia",
+    "country": "Mount Gambier",
+    "latitude": -37.8333333,
+    "longitude": 140.7666626
+  },
+  {
+    "city": "Japan",
+    "country": "Aomori",
+    "latitude": 40.8211111,
+    "longitude": 140.7511139
+  },
+  {
+    "city": "Japan",
+    "country": "Hakodate",
+    "latitude": 41.7758333,
+    "longitude": 140.7366638
+  },
+  {
+    "city": "Indonesia",
+    "country": "Jayapura",
+    "latitude": -2.5333333,
+    "longitude": 140.6999969
+  },
+  {
+    "city": "Japan",
+    "country": "Fukushima",
+    "latitude": 37.75,
+    "longitude": 140.4666595
+  },
+  {
+    "city": "Japan",
+    "country": "Mito",
+    "latitude": 36.3666667,
+    "longitude": 140.4666595
+  },
+  {
+    "city": "Japan",
+    "country": "Koriyama",
+    "latitude": 37.4,
+    "longitude": 140.3833313
+  },
+  {
+    "city": "Japan",
+    "country": "Yamagata",
+    "latitude": 38.2527778,
+    "longitude": 140.3374939
+  },
+  {
+    "city": "Japan",
+    "country": "Akita",
+    "latitude": 39.7166667,
+    "longitude": 140.1166687
+  },
+  {
+    "city": "Japan",
+    "country": "Chiba",
+    "latitude": 35.6,
+    "longitude": 140.1166687
+  },
+  {
+    "city": "Japan",
+    "country": "Ichihara",
+    "latitude": 35.5166667,
+    "longitude": 140.0833282
+  },
+  {
+    "city": "Japan",
+    "country": "Funabashi",
+    "latitude": 35.6930556,
+    "longitude": 139.9833374
+  },
+  {
+    "city": "Japan",
+    "country": "Kashiwa",
+    "latitude": 35.8544444,
+    "longitude": 139.9688873
+  },
+  {
+    "city": "Japan",
+    "country": "Ichikawa",
+    "latitude": 35.7197222,
+    "longitude": 139.9247284
+  },
+  {
+    "city": "Japan",
+    "country": "Matsudo",
+    "latitude": 35.7833333,
+    "longitude": 139.8999939
+  },
+  {
+    "city": "Japan",
+    "country": "Utsunomiya",
+    "latitude": 36.55,
+    "longitude": 139.8666687
+  },
+  {
+    "city": "Japan",
+    "country": "Soka",
+    "latitude": 35.8202778,
+    "longitude": 139.8044434
+  },
+  {
+    "city": "Japan",
+    "country": "Koshigaya",
+    "latitude": 35.8833333,
+    "longitude": 139.7833405
+  },
+  {
+    "city": "Japan",
+    "country": "Kasukabe",
+    "latitude": 35.9763889,
+    "longitude": 139.7536163
+  },
+  {
+    "city": "Japan",
+    "country": "Kawaguchi",
+    "latitude": 35.805,
+    "longitude": 139.7205505
+  },
+  {
+    "city": "Japan",
+    "country": "Kawasaki",
+    "latitude": 35.5205556,
+    "longitude": 139.7172241
+  },
+  {
+    "city": "Japan",
+    "country": "Tokyo",
+    "latitude": 35.6895266,
+    "longitude": 139.6916809
+  },
+  {
+    "city": "Japan",
+    "country": "Yokosuka",
+    "latitude": 35.2836111,
+    "longitude": 139.6672211
+  },
+  {
+    "city": "Japan",
+    "country": "Nerima",
+    "latitude": 35.7333333,
+    "longitude": 139.6499939
+  },
+  {
+    "city": "Japan",
+    "country": "Yokohama",
+    "latitude": 35.45,
+    "longitude": 139.6499939
+  },
+  {
+    "city": "Japan",
+    "country": "Yono",
+    "latitude": 35.8833333,
+    "longitude": 139.6333313
+  },
+  {
+    "city": "Japan",
+    "country": "Ageo",
+    "latitude": 35.9697222,
+    "longitude": 139.5886078
+  },
+  {
+    "city": "Japan",
+    "country": "Chofu",
+    "latitude": 35.6555556,
+    "longitude": 139.5522156
+  },
+  {
+    "city": "Australia",
+    "country": "Mount Isa",
+    "latitude": -20.7333333,
+    "longitude": 139.5
+  },
+  {
+    "city": "Japan",
+    "country": "Kawagoe",
+    "latitude": 35.9086111,
+    "longitude": 139.4852753
+  },
+  {
+    "city": "Japan",
+    "country": "Fuchu",
+    "latitude": 35.6666667,
+    "longitude": 139.4833374
+  },
+  {
+    "city": "Japan",
+    "country": "Fujisawa",
+    "latitude": 35.3419444,
+    "longitude": 139.4700012
+  },
+  {
+    "city": "Japan",
+    "country": "Tokorozawa",
+    "latitude": 35.7991586,
+    "longitude": 139.4690399
+  },
+  {
+    "city": "Japan",
+    "country": "Machida",
+    "latitude": 35.5402778,
+    "longitude": 139.4508362
+  },
+  {
+    "city": "Japan",
+    "country": "Minami-rinkan",
+    "latitude": 35.4833333,
+    "longitude": 139.4499969
+  },
+  {
+    "city": "Japan",
+    "country": "Chigasaki",
+    "latitude": 35.3261111,
+    "longitude": 139.4038849
+  },
+  {
+    "city": "Japan",
+    "country": "Atsugi",
+    "latitude": 35.4388889,
+    "longitude": 139.359726
+  },
+  {
+    "city": "Japan",
+    "country": "Sagamihara",
+    "latitude": 35.5530556,
+    "longitude": 139.3544464
+  },
+  {
+    "city": "Japan",
+    "country": "Hiratsuka",
+    "latitude": 35.3230556,
+    "longitude": 139.3422241
+  },
+  {
+    "city": "Japan",
+    "country": "Hachioji",
+    "latitude": 35.6558333,
+    "longitude": 139.3238831
+  },
+  {
+    "city": "Australia",
+    "country": "Murray Bridge",
+    "latitude": -35.1166667,
+    "longitude": 139.2666626
+  },
+  {
+    "city": "Japan",
+    "country": "Maebashi",
+    "latitude": 36.3833333,
+    "longitude": 139.0666656
+  },
+  {
+    "city": "Japan",
+    "country": "Niigata",
+    "latitude": 37.9166667,
+    "longitude": 139.0500031
+  },
+  {
+    "city": "Japan",
+    "country": "Takasaki",
+    "latitude": 36.3333333,
+    "longitude": 139.0166626
+  },
+  {
+    "city": "Australia",
+    "country": "Gawler",
+    "latitude": -34.6,
+    "longitude": 138.7333374
+  },
+  {
+    "city": "Australia",
+    "country": "Crafers",
+    "latitude": -35,
+    "longitude": 138.6999969
+  },
+  {
+    "city": "Japan",
+    "country": "Fuji",
+    "latitude": 35.1666667,
+    "longitude": 138.6833344
+  },
+  {
+    "city": "Australia",
+    "country": "Adelaide",
+    "latitude": -34.9333333,
+    "longitude": 138.6000061
   }
 ]
