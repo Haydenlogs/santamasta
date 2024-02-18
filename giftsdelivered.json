@@ -10354,5 +10354,557 @@
     "country": "Qiqihar",
     "latitude": 47.3408333,
     "longitude": 123.9672241
+  },
+  {
+    "city": "Philippines",
+    "country": "Lapu-Lapu City",
+    "latitude": 10.3102778,
+    "longitude": 123.9494476
+  },
+  {
+    "city": "China",
+    "country": "Fushun",
+    "latitude": 41.8558333,
+    "longitude": 123.9233322
+  },
+  {
+    "city": "Philippines",
+    "country": "Mandaue City",
+    "latitude": 10.3236111,
+    "longitude": 123.922226
+  },
+  {
+    "city": "Philippines",
+    "country": "Cebu City",
+    "latitude": 10.3111111,
+    "longitude": 123.8916702
+  },
+  {
+    "city": "Philippines",
+    "country": "Tagbilaran",
+    "latitude": 9.6475,
+    "longitude": 123.8555527
+  },
+  {
+    "city": "Philippines",
+    "country": "Talisay",
+    "latitude": 10.2447222,
+    "longitude": 123.8494415
+  },
+  {
+    "city": "Philippines",
+    "country": "Ozamis",
+    "latitude": 8.1458333,
+    "longitude": 123.8444443
+  },
+  {
+    "city": "China",
+    "country": "Benxi",
+    "latitude": 41.2886111,
+    "longitude": 123.7649994
+  },
+  {
+    "city": "Philippines",
+    "country": "Legaspi Port",
+    "latitude": 13.1466667,
+    "longitude": 123.7558365
+  },
+  {
+    "city": "Philippines",
+    "country": "Toledo",
+    "latitude": 10.3791667,
+    "longitude": 123.6419449
+  },
+  {
+    "city": "Indonesia",
+    "country": "Kupang",
+    "latitude": -10.1666667,
+    "longitude": 123.5833359
+  },
+  {
+    "city": "Philippines",
+    "country": "Muricay",
+    "latitude": 7.8263889,
+    "longitude": 123.4797211
+  },
+  {
+    "city": "China",
+    "country": "Shenyang",
+    "latitude": 41.7922222,
+    "longitude": 123.4327774
+  },
+  {
+    "city": "Philippines",
+    "country": "Sagay",
+    "latitude": 10.9447222,
+    "longitude": 123.4241638
+  },
+  {
+    "city": "Philippines",
+    "country": "Iriga",
+    "latitude": 13.425,
+    "longitude": 123.417778
+  },
+  {
+    "city": "Philippines",
+    "country": "Dipolog",
+    "latitude": 8.5894444,
+    "longitude": 123.3413925
+  },
+  {
+    "city": "Philippines",
+    "country": "Dumaguete",
+    "latitude": 9.3102778,
+    "longitude": 123.3080521
+  },
+  {
+    "city": "Philippines",
+    "country": "Cadiz Viejo",
+    "latitude": 10.9505556,
+    "longitude": 123.285553
+  },
+  {
+    "city": "Philippines",
+    "country": "Naga",
+    "latitude": 13.6191667,
+    "longitude": 123.1813889
+  },
+  {
+    "city": "China",
+    "country": "Liaoyang",
+    "latitude": 41.2719444,
+    "longitude": 123.1730576
+  },
+  {
+    "city": "Philippines",
+    "country": "Victorias City",
+    "latitude": 10.9,
+    "longitude": 123.077774
+  },
+  {
+    "city": "Indonesia",
+    "country": "Gorontalo",
+    "latitude": 0.5344444,
+    "longitude": 123.0616684
+  },
+  {
+    "city": "China",
+    "country": "Anshan",
+    "latitude": 41.1236111,
+    "longitude": 122.9899979
+  },
+  {
+    "city": "Philippines",
+    "country": "Binonga",
+    "latitude": 10.7730556,
+    "longitude": 122.9827805
+  },
+  {
+    "city": "Philippines",
+    "country": "Mansilingan",
+    "latitude": 10.6311111,
+    "longitude": 122.9788895
+  },
+  {
+    "city": "Philippines",
+    "country": "Daet",
+    "latitude": 14.1127778,
+    "longitude": 122.9558334
+  },
+  {
+    "city": "Philippines",
+    "country": "Bago",
+    "latitude": 10.5377778,
+    "longitude": 122.8333359
+  },
+  {
+    "city": "Philippines",
+    "country": "Kabankalan",
+    "latitude": 9.9888889,
+    "longitude": 122.8122253
+  },
+  {
+    "city": "Philippines",
+    "country": "Roxas City",
+    "latitude": 11.5852778,
+    "longitude": 122.7511139
+  },
+  {
+    "city": "Philippines",
+    "country": "Iloilo",
+    "latitude": 10.6969444,
+    "longitude": 122.5644455
+  },
+  {
+    "city": "Australia",
+    "country": "Broome",
+    "latitude": -17.9666667,
+    "longitude": 122.2333298
+  },
+  {
+    "city": "China",
+    "country": "Yingkou",
+    "latitude": 40.6680556,
+    "longitude": 122.2247238
+  },
+  {
+    "city": "Philippines",
+    "country": "Zamboanga",
+    "latitude": 6.9102778,
+    "longitude": 122.0738907
+  },
+  {
+    "city": "China",
+    "country": "Panshan",
+    "latitude": 41.1880556,
+    "longitude": 122.0494461
+  },
+  {
+    "city": "Philippines",
+    "country": "Ilagan",
+    "latitude": 17.1480556,
+    "longitude": 121.890831
+  },
+  {
+    "city": "Philippines",
+    "country": "Tuguegarao City",
+    "latitude": 17.6130556,
+    "longitude": 121.726944
+  },
+  {
+    "city": "China",
+    "country": "Fuxin",
+    "latitude": 42.0155556,
+    "longitude": 121.6588898
+  },
+  {
+    "city": "Philippines",
+    "country": "Lucena",
+    "latitude": 13.9313889,
+    "longitude": 121.6172256
+  },
+  {
+    "city": "China",
+    "country": "Dalian",
+    "latitude": 38.9122222,
+    "longitude": 121.6022186
+  },
+  {
+    "city": "Philippines",
+    "country": "Santiago",
+    "latitude": 16.68808,
+    "longitude": 121.5486984
+  },
+  {
+    "city": "China",
+    "country": "Ningbo",
+    "latitude": 29.875,
+    "longitude": 121.5419464
+  },
+  {
+    "city": "Australia",
+    "country": "Kalgoorlie",
+    "latitude": -30.75,
+    "longitude": 121.4666672
+  },
+  {
+    "city": "China",
+    "country": "Shanghai",
+    "latitude": 31.2222222,
+    "longitude": 121.4580536
+  },
+  {
+    "city": "Philippines",
+    "country": "Santa Cruz",
+    "latitude": 14.2786111,
+    "longitude": 121.4155579
+  },
+  {
+    "city": "China",
+    "country": "Yantai",
+    "latitude": 37.5333333,
+    "longitude": 121.4000015
+  },
+  {
+    "city": "Philippines",
+    "country": "San Pablo",
+    "latitude": 14.0669444,
+    "longitude": 121.3258362
+  },
+  {
+    "city": "Philippines",
+    "country": "Los Banos",
+    "latitude": 14.1788889,
+    "longitude": 121.2255554
+  },
+  {
+    "city": "Philippines",
+    "country": "Binangonan",
+    "latitude": 14.4655556,
+    "longitude": 121.1919479
+  },
+  {
+    "city": "Philippines",
+    "country": "Antipolo",
+    "latitude": 14.5863889,
+    "longitude": 121.1752777
+  },
+  {
+    "city": "Philippines",
+    "country": "Lipa",
+    "latitude": 13.9394444,
+    "longitude": 121.1738892
+  },
+  {
+    "city": "Philippines",
+    "country": "Calamba",
+    "latitude": 14.2116667,
+    "longitude": 121.1652756
+  },
+  {
+    "city": "Philippines",
+    "country": "Angono",
+    "latitude": 14.5255556,
+    "longitude": 121.1497192
+  },
+  {
+    "city": "Philippines",
+    "country": "Rodriguez",
+    "latitude": 14.7325,
+    "longitude": 121.1449966
+  },
+  {
+    "city": "China",
+    "country": "Jinzhou",
+    "latitude": 41.1077778,
+    "longitude": 121.1416702
+  },
+  {
+    "city": "Philippines",
+    "country": "Taytay",
+    "latitude": 14.5691667,
+    "longitude": 121.1324997
+  },
+  {
+    "city": "Philippines",
+    "country": "San Mateo",
+    "latitude": 14.6969444,
+    "longitude": 121.1219406
+  },
+  {
+    "city": "Philippines",
+    "country": "Cainta",
+    "latitude": 14.58,
+    "longitude": 121.1169434
+  },
+  {
+    "city": "Philippines",
+    "country": "Santa Rosa",
+    "latitude": 14.3122222,
+    "longitude": 121.1113892
+  },
+  {
+    "city": "Philippines",
+    "country": "Batangas",
+    "latitude": 13.7594444,
+    "longitude": 121.0599976
+  },
+  {
+    "city": "Philippines",
+    "country": "San Pedro",
+    "latitude": 14.3647222,
+    "longitude": 121.0555573
+  },
+  {
+    "city": "Philippines",
+    "country": "Norzagaray",
+    "latitude": 14.9105556,
+    "longitude": 121.0488892
+  },
+  {
+    "city": "Philippines",
+    "country": "San Jose del Monte",
+    "latitude": 14.8138889,
+    "longitude": 121.0452805
+  },
+  {
+    "city": "Philippines",
+    "country": "Jolo",
+    "latitude": 6.0522222,
+    "longitude": 121.0022202
+  },
+  {
+    "city": "Philippines",
+    "country": "Manila",
+    "latitude": 14.6041667,
+    "longitude": 120.9822235
+  },
+  {
+    "city": "Philippines",
+    "country": "Guyong",
+    "latitude": 14.8386111,
+    "longitude": 120.9797211
+  },
+  {
+    "city": "Philippines",
+    "country": "Silang",
+    "latitude": 14.2305556,
+    "longitude": 120.9749985
+  },
+  {
+    "city": "Philippines",
+    "country": "Cabanatuan",
+    "latitude": 15.4869444,
+    "longitude": 120.9674988
+  },
+  {
+    "city": "Philippines",
+    "country": "Meycauayan",
+    "latitude": 14.7369444,
+    "longitude": 120.9608307
+  },
+  {
+    "city": "Philippines",
+    "country": "Marilao",
+    "latitude": 14.7577778,
+    "longitude": 120.9483337
+  },
+  {
+    "city": "Philippines",
+    "country": "Gapan",
+    "latitude": 15.3075,
+    "longitude": 120.9452744
+  },
+  {
+    "city": "Philippines",
+    "country": "Bacoor",
+    "latitude": 14.4577778,
+    "longitude": 120.9424973
+  },
+  {
+    "city": "Philippines",
+    "country": "Tanza",
+    "latitude": 14.6752778,
+    "longitude": 120.9388885
+  },
+  {
+    "city": "Philippines",
+    "country": "Imus",
+    "latitude": 14.4297222,
+    "longitude": 120.9366684
+  },
+  {
+    "city": "Philippines",
+    "country": "Dasmarinas",
+    "latitude": 14.3294444,
+    "longitude": 120.9366684
+  },
+  {
+    "city": "Philippines",
+    "country": "Bocaue",
+    "latitude": 14.7983333,
+    "longitude": 120.9261093
+  },
+  {
+    "city": "Philippines",
+    "country": "Cavite",
+    "latitude": 14.4825,
+    "longitude": 120.9169464
+  },
+  {
+    "city": "Philippines",
+    "country": "Kawit",
+    "latitude": 14.4455556,
+    "longitude": 120.9049988
+  },
+  {
+    "city": "Philippines",
+    "country": "Baliuag",
+    "latitude": 14.9547222,
+    "longitude": 120.8969421
+  },
+  {
+    "city": "Philippines",
+    "country": "Guiguinto",
+    "latitude": 14.8333333,
+    "longitude": 120.8833313
+  },
+  {
+    "city": "Philippines",
+    "country": "General Trias",
+    "latitude": 14.3869444,
+    "longitude": 120.8816681
+  },
+  {
+    "city": "China",
+    "country": "Nantong",
+    "latitude": 32.0302778,
+    "longitude": 120.8747253
+  },
+  {
+    "city": "Philippines",
+    "country": "Pulilan",
+    "latitude": 14.9016667,
+    "longitude": 120.8491669
+  },
+  {
+    "city": "Philippines",
+    "country": "Malolos",
+    "latitude": 14.8419444,
+    "longitude": 120.8116684
+  },
+  {
+    "city": "Philippines",
+    "country": "Arayat",
+    "latitude": 15.1508333,
+    "longitude": 120.773056
+  },
+  {
+    "city": "Philippines",
+    "country": "Apalit",
+    "latitude": 14.9533333,
+    "longitude": 120.7699966
+  },
+  {
+    "city": "Philippines",
+    "country": "Calumpit",
+    "latitude": 14.9163889,
+    "longitude": 120.765831
+  },
+  {
+    "city": "Philippines",
+    "country": "Hagonoy",
+    "latitude": 14.8325,
+    "longitude": 120.7333298
+  },
+  {
+    "city": "Philippines",
+    "country": "San Fernando",
+    "latitude": 15.0302778,
+    "longitude": 120.6855545
+  },
+  {
+    "city": "Philippines",
+    "country": "Bulaon",
+    "latitude": 15.0883333,
+    "longitude": 120.6672211
+  },
+  {
+    "city": "China",
+    "country": "Wenzhou",
+    "latitude": 28.0191667,
+    "longitude": 120.6544418
+  },
+  {
+    "city": "China",
+    "country": "Suzhou",
+    "latitude": 31.3113889,
+    "longitude": 120.6180573
+  },
+  {
+    "city": "Philippines",
+    "country": "Tarlac",
+    "latitude": 15.4888889,
+    "longitude": 120.5986099
   }
 ]
