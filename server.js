@@ -279,6 +279,12 @@ app.get("/message1set", async (req, res) => {
     res.status(500).send("Internal Server Error");
   }
 });
+// Endpoint to get maxpresents
+app.get("/getmaxpresents", (req, res) => {
+  // Send a JSON response with the value of maxpresents
+  res.json({ maxpresents: maxpresents });
+});
+
 
 // Endpoint to set message 2
 app.get("/message2set", async (req, res) => {
@@ -646,8 +652,26 @@ app.get("/updates", (req, res) => {
 app.get("/admin", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "controlpanel.html"));
 });
+app.get("/refresherpage", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "pages", "refreshtokeepup.html"));
+});
 app.get("/ended.html", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
+});// Endpoint to get the current message
+app.get("/en-us/embed/index.html", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
+});// Endpoint to get the current message
+app.get("/getmessage", (req, res) => {
+  // Read the contents of the message.txt file
+  fs.readFile("message.txt", "utf8", (err, data) => {
+    if (err) {
+      console.error("Error reading message:", err);
+      res.status(500).send("Internal Server Error");
+    } else {
+      // Send the message as the response
+      res.send(data);
+    }
+  });
 });
 
 const port = process.env.PORT || 3000;

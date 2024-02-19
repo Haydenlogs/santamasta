@@ -38,7 +38,7 @@
     <div id="lastSeen" style="font-size: 0.8em">Last Seen:</div>
     <div id="lastCityInfo" style="font-weight: bold">Easter Island (Bunny's House)</div>
     <div id="presents" style="font-size: 0.8em">Baskets Delivered:</div>
-    <div id="PresentsDelivered" style="font-weight: bold">8,045,311,447</div>
+    <div id="PresentsDelivered" style="font-weight: bold">0</div>
   </div>
 
   <div id="map-container"></div>
@@ -108,7 +108,20 @@ function updateSantaPosition(latitude, longitude) {
       var eventSource = new EventSource("/updates");
       eventSource.onmessage = handleSSE;
     }
+function updateMaxPresentsValue(value) {
+      document.getElementById("maxPresentsValue").textContent = value.toLocaleString();
+    }
 
+    // Function to fetch maxpresents from the server
+    async function fetchMaxPresents() {
+      try {
+        const response = await fetch("/getmaxpresents");
+        const data = await response.json();
+        updateMaxPresentsValue(data.maxpresents);
+      } catch (error) {
+        console.error("Error fetching maxpresents:", error);
+      }
+    }
     // Function to fetch basket data from the server
     async function fetchBaskets() {
       try {
@@ -132,6 +145,7 @@ function updateSantaPosition(latitude, longitude) {
     window.onload = function () {
       startSSE();
       fetchBaskets();
+      fetchMaxPresents();
     };
   </script>
 </body>

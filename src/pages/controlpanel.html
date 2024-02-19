@@ -58,6 +58,7 @@
       <button onclick="postmessage3()">Message 3</button>
       <button onclick="postmessage4()">Message 4</button>
       <button onclick="resetbaskets()">Reset Baskets</button>
+      <button onclick="refreshpage()">Open Refreshpage</button>
     </div>
 
     <script>
@@ -85,7 +86,9 @@
           })
           .catch((error) => console.error(error));
       }
-
+function refreshpage() {
+  window.location.href = "/refresherpage"
+}
       function lockSite() {
         fetch("/lock")
           .then((response) => {
