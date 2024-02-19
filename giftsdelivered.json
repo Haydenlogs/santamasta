@@ -31054,5 +31054,515 @@
     "country": "Mal Pjec",
     "latitude": 41.4786111,
     "longitude": 19.9547215
+  },
+  {
+    "city": "Albania",
+    "country": "Berat",
+    "latitude": 40.7058333,
+    "longitude": 19.9522228
+  },
+  {
+    "city": "Finland",
+    "country": "Mariehamn",
+    "latitude": 60.1,
+    "longitude": 19.9500008
+  },
+  {
+    "city": "Hungary",
+    "country": "Gyongyos",
+    "latitude": 47.7833333,
+    "longitude": 19.9333324
+  },
+  {
+    "city": "Albania",
+    "country": "Shugyrk",
+    "latitude": 41.44,
+    "longitude": 19.9302769
+  },
+  {
+    "city": "Albania",
+    "country": "Kokli",
+    "latitude": 41.3091667,
+    "longitude": 19.9286118
+  },
+  {
+    "city": "Greece",
+    "country": "Kerkyra",
+    "latitude": 39.62,
+    "longitude": 19.9197216
+  },
+  {
+    "city": "Poland",
+    "country": "Krakow",
+    "latitude": 50.0833333,
+    "longitude": 19.916666
+  },
+  {
+    "city": "Hungary",
+    "country": "Jaszbereny",
+    "latitude": 47.5,
+    "longitude": 19.916666
+  },
+  {
+    "city": "Albania",
+    "country": "Kucove",
+    "latitude": 40.8002778,
+    "longitude": 19.916666
+  },
+  {
+    "city": "Angola",
+    "country": "Luena",
+    "latitude": -11.7833333,
+    "longitude": 19.916666
+  },
+  {
+    "city": "Albania",
+    "country": "Metaj",
+    "latitude": 41.4933333,
+    "longitude": 19.9052773
+  },
+  {
+    "city": "Albania",
+    "country": "Livadhet",
+    "latitude": 41.4080556,
+    "longitude": 19.9047222
+  },
+  {
+    "city": "Albania",
+    "country": "Puke",
+    "latitude": 42.0444444,
+    "longitude": 19.8997231
+  },
+  {
+    "city": "Albania",
+    "country": "Gurra e Vogel",
+    "latitude": 41.2863889,
+    "longitude": 19.8883324
+  },
+  {
+    "city": "Albania",
+    "country": "Shejleret",
+    "latitude": 41.3072222,
+    "longitude": 19.8858337
+  },
+  {
+    "city": "Albania",
+    "country": "Ballaj",
+    "latitude": 41.3222222,
+    "longitude": 19.8802776
+  },
+  {
+    "city": "Albania",
+    "country": "Ura Vajgurore",
+    "latitude": 40.7688889,
+    "longitude": 19.8777771
+  },
+  {
+    "city": "Albania",
+    "country": "Dallashi",
+    "latitude": 41.2830556,
+    "longitude": 19.8763885
+  },
+  {
+    "city": "Albania",
+    "country": "Rreshen",
+    "latitude": 41.7675,
+    "longitude": 19.875555
+  },
+  {
+    "city": "Albania",
+    "country": "Collak",
+    "latitude": 41.3152778,
+    "longitude": 19.8661118
+  },
+  {
+    "city": "Hungary",
+    "country": "Kiskunfelegyhaza",
+    "latitude": 46.7136111,
+    "longitude": 19.8522224
+  },
+  {
+    "city": "Albania",
+    "country": "Celiku",
+    "latitude": 41.2761111,
+    "longitude": 19.8522224
+  },
+  {
+    "city": "Albania",
+    "country": "Kubes",
+    "latitude": 41.4166667,
+    "longitude": 19.8511105
+  },
+  {
+    "city": "Hungary",
+    "country": "Batonyterenye",
+    "latitude": 47.9666667,
+    "longitude": 19.833334
+  },
+  {
+    "city": "Albania",
+    "country": "Melcize",
+    "latitude": 41.3952778,
+    "longitude": 19.8222218
+  },
+  {
+    "city": "Albania",
+    "country": "Tirana",
+    "latitude": 41.3275,
+    "longitude": 19.8188896
+  },
+  {
+    "city": "Hungary",
+    "country": "Salgotarjan",
+    "latitude": 48.098719,
+    "longitude": 19.8030281
+  },
+  {
+    "city": "Hungary",
+    "country": "Cegled",
+    "latitude": 47.1666667,
+    "longitude": 19.7999992
+  },
+  {
+    "city": "Albania",
+    "country": "Kruje",
+    "latitude": 41.5091667,
+    "longitude": 19.792778
+  },
+  {
+    "city": "Albania",
+    "country": "Rubik",
+    "latitude": 41.7744444,
+    "longitude": 19.7861118
+  },
+  {
+    "city": "Hungary",
+    "country": "Nagykoros",
+    "latitude": 47.0333333,
+    "longitude": 19.7833328
+  },
+  {
+    "city": "Albania",
+    "country": "Kamez",
+    "latitude": 41.3816667,
+    "longitude": 19.7602787
+  },
+  {
+    "city": "Albania",
+    "country": "Peqin",
+    "latitude": 41.0461111,
+    "longitude": 19.751112
+  },
+  {
+    "city": "Albania",
+    "country": "Himare",
+    "latitude": 40.1016667,
+    "longitude": 19.7447224
+  },
+  {
+    "city": "Albania",
+    "country": "Ballsh",
+    "latitude": 40.5988889,
+    "longitude": 19.7347221
+  },
+  {
+    "city": "Albania",
+    "country": "Fushe-Kruje",
+    "latitude": 41.4783333,
+    "longitude": 19.7177773
+  },
+  {
+    "city": "Albania",
+    "country": "Milot",
+    "latitude": 41.6838889,
+    "longitude": 19.7155552
+  },
+  {
+    "city": "Albania",
+    "country": "Lac",
+    "latitude": 41.6355556,
+    "longitude": 19.7130547
+  },
+  {
+    "city": "Albania",
+    "country": "Lushnje",
+    "latitude": 40.9419444,
+    "longitude": 19.7049999
+  },
+  {
+    "city": "Albania",
+    "country": "Roskovec",
+    "latitude": 40.7375,
+    "longitude": 19.7022228
+  },
+  {
+    "city": "Poland",
+    "country": "Plock",
+    "latitude": 52.55,
+    "longitude": 19.7000008
+  },
+  {
+    "city": "Albania",
+    "country": "Mamurras",
+    "latitude": 41.5775,
+    "longitude": 19.6922226
+  },
+  {
+    "city": "Hungary",
+    "country": "Kecskemet",
+    "latitude": 46.9061838,
+    "longitude": 19.6912766
+  },
+  {
+    "city": "Poland",
+    "country": "Piotrkow Trybunalski",
+    "latitude": 51.4,
+    "longitude": 19.6833324
+  },
+  {
+    "city": "Hungary",
+    "country": "Hatvan",
+    "latitude": 47.6666667,
+    "longitude": 19.6833324
+  },
+  {
+    "city": "Chad",
+    "country": "Oum Hadjer",
+    "latitude": 13.3,
+    "longitude": 19.6833324
+  },
+  {
+    "city": "Albania",
+    "country": "Rrogozhine",
+    "latitude": 41.0763889,
+    "longitude": 19.6652775
+  },
+  {
+    "city": "Albania",
+    "country": "Vore",
+    "latitude": 41.3908333,
+    "longitude": 19.6550007
+  },
+  {
+    "city": "Albania",
+    "country": "Patos Fshat",
+    "latitude": 40.6427778,
+    "longitude": 19.6508331
+  },
+  {
+    "city": "Albania",
+    "country": "Lezhe",
+    "latitude": 41.7836111,
+    "longitude": 19.6436119
+  },
+  {
+    "city": "Albania",
+    "country": "Selenice",
+    "latitude": 40.5305556,
+    "longitude": 19.6358337
+  },
+  {
+    "city": "Albania",
+    "country": "Shengjin",
+    "latitude": 41.8136111,
+    "longitude": 19.5938892
+  },
+  {
+    "city": "Libya",
+    "country": "Al Burayqah",
+    "latitude": 30.4166667,
+    "longitude": 19.5786114
+  },
+  {
+    "city": "Albania",
+    "country": "Shijak",
+    "latitude": 41.3455556,
+    "longitude": 19.5672226
+  },
+  {
+    "city": "Albania",
+    "country": "Fier-Cifci",
+    "latitude": 40.7166667,
+    "longitude": 19.5666676
+  },
+  {
+    "city": "Albania",
+    "country": "Kavaje",
+    "latitude": 41.1855556,
+    "longitude": 19.5569439
+  },
+  {
+    "city": "Albania",
+    "country": "Shkoder",
+    "latitude": 42.0682829,
+    "longitude": 19.5125771
+  },
+  {
+    "city": "Albania",
+    "country": "Vlore",
+    "latitude": 40.4666667,
+    "longitude": 19.4897213
+  },
+  {
+    "city": "Hungary",
+    "country": "Kiskunhalas",
+    "latitude": 46.4313889,
+    "longitude": 19.4874992
+  },
+  {
+    "city": "Albania",
+    "country": "Orikum",
+    "latitude": 40.3252778,
+    "longitude": 19.4713898
+  },
+  {
+    "city": "Poland",
+    "country": "Lodz",
+    "latitude": 51.75,
+    "longitude": 19.4666672
+  },
+  {
+    "city": "Poland",
+    "country": "Radomsko",
+    "latitude": 51.0666667,
+    "longitude": 19.4500008
+  },
+  {
+    "city": "Hungary",
+    "country": "Monor",
+    "latitude": 47.35,
+    "longitude": 19.4500008
+  },
+  {
+    "city": "Albania",
+    "country": "Durres",
+    "latitude": 41.3230556,
+    "longitude": 19.4413891
+  },
+  {
+    "city": "Albania",
+    "country": "Koplik",
+    "latitude": 42.2136111,
+    "longitude": 19.436388
+  },
+  {
+    "city": "Poland",
+    "country": "Zawiercie",
+    "latitude": 50.5,
+    "longitude": 19.4333324
+  },
+  {
+    "city": "South Africa",
+    "country": "Worcester",
+    "latitude": -33.65,
+    "longitude": 19.4333324
+  },
+  {
+    "city": "Poland",
+    "country": "Zgierz",
+    "latitude": 51.85,
+    "longitude": 19.416666
+  },
+  {
+    "city": "Hungary",
+    "country": "Gyomro",
+    "latitude": 47.4166667,
+    "longitude": 19.3999996
+  },
+  {
+    "city": "Poland",
+    "country": "Elblag",
+    "latitude": 54.1666667,
+    "longitude": 19.3833332
+  },
+  {
+    "city": "Poland",
+    "country": "Belchatow",
+    "latitude": 51.3666667,
+    "longitude": 19.3833332
+  },
+  {
+    "city": "Croatia",
+    "country": "Ilok",
+    "latitude": 45.2222222,
+    "longitude": 19.3769436
+  },
+  {
+    "city": "Poland",
+    "country": "Kutno",
+    "latitude": 52.2333333,
+    "longitude": 19.3666668
+  },
+  {
+    "city": "Poland",
+    "country": "Pabianice",
+    "latitude": 51.6666667,
+    "longitude": 19.3666668
+  },
+  {
+    "city": "Hungary",
+    "country": "Godollo",
+    "latitude": 47.6,
+    "longitude": 19.3666668
+  },
+  {
+    "city": "Hungary",
+    "country": "Dabas",
+    "latitude": 47.1833333,
+    "longitude": 19.3166676
+  },
+  {
+    "city": "South Africa",
+    "country": "Ceres",
+    "latitude": -33.3666667,
+    "longitude": 19.3166676
+  },
+  {
+    "city": "Hungary",
+    "country": "Balassagyarmat",
+    "latitude": 48.0833333,
+    "longitude": 19.2999992
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Visegrad",
+    "latitude": 43.7847222,
+    "longitude": 19.2991676
+  },
+  {
+    "city": "Hungary",
+    "country": "Kiskoros",
+    "latitude": 46.6205556,
+    "longitude": 19.2886105
+  },
+  {
+    "city": "Hungary",
+    "country": "Vecses",
+    "latitude": 47.4,
+    "longitude": 19.2833328
+  },
+  {
+    "city": "Poland",
+    "country": "Jaworzno",
+    "latitude": 50.2053079,
+    "longitude": 19.2749977
+  },
+  {
+    "city": "Hungary",
+    "country": "Gyal",
+    "latitude": 47.3833333,
+    "longitude": 19.2333336
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Bijeljina",
+    "latitude": 44.7569444,
+    "longitude": 19.2161102
+  },
+  {
+    "city": "Poland",
+    "country": "Dabrowa Gornicza",
+    "latitude": 50.3333333,
+    "longitude": 19.2000008
   }
 ]
