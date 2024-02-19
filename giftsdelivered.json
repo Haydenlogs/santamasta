@@ -28348,5 +28348,569 @@
     "country": "Senanga",
     "latitude": -16.1166667,
     "longitude": 23.2666664
+  },
+  {
+    "city": "Latvia",
+    "country": "Plienciems",
+    "latitude": 57.0827778,
+    "longitude": 23.2641659
+  },
+  {
+    "city": "Lithuania",
+    "country": "Zagare",
+    "latitude": 56.3591667,
+    "longitude": 23.25
+  },
+  {
+    "city": "Poland",
+    "country": "Zamosc",
+    "latitude": 50.7166667,
+    "longitude": 23.25
+  },
+  {
+    "city": "Zambia",
+    "country": "Lukulu",
+    "latitude": -14.3833333,
+    "longitude": 23.25
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Lom",
+    "latitude": 43.8138889,
+    "longitude": 23.2361107
+  },
+  {
+    "city": "Lithuania",
+    "country": "Kalvarija",
+    "latitude": 54.4,
+    "longitude": 23.2333336
+  },
+  {
+    "city": "Romania",
+    "country": "Lupeni",
+    "latitude": 45.35,
+    "longitude": 23.2333336
+  },
+  {
+    "city": "Latvia",
+    "country": "Kesterciems",
+    "latitude": 57.1147222,
+    "longitude": 23.2311115
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Montana",
+    "latitude": 43.4125,
+    "longitude": 23.2250004
+  },
+  {
+    "city": "Latvia",
+    "country": "Engure",
+    "latitude": 57.1630556,
+    "longitude": 23.2241669
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Kostinbrod",
+    "latitude": 42.8166667,
+    "longitude": 23.2166672
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Petrich",
+    "latitude": 41.4,
+    "longitude": 23.2166672
+  },
+  {
+    "city": "Latvia",
+    "country": "Abragciems",
+    "latitude": 57.2027778,
+    "longitude": 23.2036114
+  },
+  {
+    "city": "Finland",
+    "country": "Hameenkyro",
+    "latitude": 61.6333333,
+    "longitude": 23.2000008
+  },
+  {
+    "city": "Romania",
+    "country": "Orastie",
+    "latitude": 45.8333333,
+    "longitude": 23.2000008
+  },
+  {
+    "city": "Lithuania",
+    "country": "Tytuveneliai",
+    "latitude": 55.6166667,
+    "longitude": 23.1833324
+  },
+  {
+    "city": "Latvia",
+    "country": "Rauda",
+    "latitude": 57.0086111,
+    "longitude": 23.1813889
+  },
+  {
+    "city": "Latvia",
+    "country": "Berzciems",
+    "latitude": 57.2463889,
+    "longitude": 23.1736107
+  },
+  {
+    "city": "Latvia",
+    "country": "Tukums",
+    "latitude": 56.9669444,
+    "longitude": 23.1552773
+  },
+  {
+    "city": "Poland",
+    "country": "Bialystok",
+    "latitude": 53.1333333,
+    "longitude": 23.1499996
+  },
+  {
+    "city": "Zambia",
+    "country": "Limulunga",
+    "latitude": -15.1,
+    "longitude": 23.1499996
+  },
+  {
+    "city": "Finland",
+    "country": "Salo",
+    "latitude": 60.3833333,
+    "longitude": 23.1333332
+  },
+  {
+    "city": "Poland",
+    "country": "Biala Podlaska",
+    "latitude": 52.0333333,
+    "longitude": 23.1333332
+  },
+  {
+    "city": "Zambia",
+    "country": "Mongu",
+    "latitude": -15.25,
+    "longitude": 23.1333332
+  },
+  {
+    "city": "Latvia",
+    "country": "Seme",
+    "latitude": 57.0422222,
+    "longitude": 23.1277771
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Berkovitsa",
+    "latitude": 43.2361111,
+    "longitude": 23.1258335
+  },
+  {
+    "city": "Lithuania",
+    "country": "Raseiniai",
+    "latitude": 55.3736111,
+    "longitude": 23.121666
+  },
+  {
+    "city": "Latvia",
+    "country": "Mersrags",
+    "latitude": 57.34,
+    "longitude": 23.1213894
+  },
+  {
+    "city": "Finland",
+    "country": "Karleby",
+    "latitude": 63.8333333,
+    "longitude": 23.1166668
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Dupnitsa",
+    "latitude": 42.2666667,
+    "longitude": 23.1166668
+  },
+  {
+    "city": "Zambia",
+    "country": "Zambezi",
+    "latitude": -13.55,
+    "longitude": 23.1166668
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Blagoevgrad",
+    "latitude": 42.0166667,
+    "longitude": 23.1000004
+  },
+  {
+    "city": "Estonia",
+    "country": "Orissaare",
+    "latitude": 58.5591651,
+    "longitude": 23.0826187
+  },
+  {
+    "city": "Romania",
+    "country": "Zalau",
+    "latitude": 47.2,
+    "longitude": 23.0499992
+  },
+  {
+    "city": "South Africa",
+    "country": "Knysna",
+    "latitude": -34.0362664,
+    "longitude": 23.0471268
+  },
+  {
+    "city": "Lithuania",
+    "country": "Sakiai",
+    "latitude": 54.9547222,
+    "longitude": 23.0358334
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Slivnitsa",
+    "latitude": 42.85,
+    "longitude": 23.0333328
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Pernik",
+    "latitude": 42.6,
+    "longitude": 23.0333328
+  },
+  {
+    "city": "Greece",
+    "country": "Panorama",
+    "latitude": 40.5833333,
+    "longitude": 23.0333328
+  },
+  {
+    "city": "Lithuania",
+    "country": "Vilkaviskis",
+    "latitude": 54.6516667,
+    "longitude": 23.0322227
+  },
+  {
+    "city": "Latvia",
+    "country": "Kulciems",
+    "latitude": 57.2655556,
+    "longitude": 23.0319443
+  },
+  {
+    "city": "Latvia",
+    "country": "Kaive",
+    "latitude": 57.0605556,
+    "longitude": 23.0272217
+  },
+  {
+    "city": "Latvia",
+    "country": "Dzedri",
+    "latitude": 57.2486111,
+    "longitude": 23.0266666
+  },
+  {
+    "city": "Greece",
+    "country": "Thermi",
+    "latitude": 40.55,
+    "longitude": 23.0166664
+  },
+  {
+    "city": "Latvia",
+    "country": "Upesgriva",
+    "latitude": 57.3863889,
+    "longitude": 23.0138893
+  },
+  {
+    "city": "Finland",
+    "country": "Lapua",
+    "latitude": 62.95,
+    "longitude": 23
+  },
+  {
+    "city": "Greece",
+    "country": "Pylaia",
+    "latitude": 40.6005556,
+    "longitude": 22.9874992
+  },
+  {
+    "city": "Lithuania",
+    "country": "Gelgaudiskis",
+    "latitude": 55.0791667,
+    "longitude": 22.9758339
+  },
+  {
+    "city": "Romania",
+    "country": "Motru",
+    "latitude": 44.8033333,
+    "longitude": 22.9719448
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Radomir",
+    "latitude": 42.5444444,
+    "longitude": 22.957777
+  },
+  {
+    "city": "Greece",
+    "country": "Sykeai",
+    "latitude": 40.6494444,
+    "longitude": 22.9508324
+  },
+  {
+    "city": "Greece",
+    "country": "Kalamaria",
+    "latitude": 40.5825,
+    "longitude": 22.9502773
+  },
+  {
+    "city": "Greece",
+    "country": "Polichni",
+    "latitude": 40.6667073,
+    "longitude": 22.9488087
+  },
+  {
+    "city": "Greece",
+    "country": "Volos",
+    "latitude": 39.3666667,
+    "longitude": 22.9458332
+  },
+  {
+    "city": "Greece",
+    "country": "Thessaloniki",
+    "latitude": 40.6402778,
+    "longitude": 22.9438896
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Gabrovo",
+    "latitude": 41.8927778,
+    "longitude": 22.9349995
+  },
+  {
+    "city": "Lithuania",
+    "country": "Kelme",
+    "latitude": 55.6338889,
+    "longitude": 22.934166
+  },
+  {
+    "city": "Poland",
+    "country": "Suwalki",
+    "latitude": 54.0994444,
+    "longitude": 22.9330559
+  },
+  {
+    "city": "Greece",
+    "country": "Corinth",
+    "latitude": 37.9377778,
+    "longitude": 22.9322224
+  },
+  {
+    "city": "Greece",
+    "country": "Peraia",
+    "latitude": 40.5002778,
+    "longitude": 22.9249992
+  },
+  {
+    "city": "Lithuania",
+    "country": "Kursenai",
+    "latitude": 55.985,
+    "longitude": 22.9188881
+  },
+  {
+    "city": "Greece",
+    "country": "Oraiokastron",
+    "latitude": 40.7308333,
+    "longitude": 22.917223
+  },
+  {
+    "city": "Finland",
+    "country": "Nurmo",
+    "latitude": 62.8333333,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Finland",
+    "country": "Vammala",
+    "latitude": 61.3333333,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Lithuania",
+    "country": "Naujoji Akmene",
+    "latitude": 56.3166667,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Romania",
+    "country": "Deva",
+    "latitude": 45.8833333,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Romania",
+    "country": "Hunedoara",
+    "latitude": 45.75,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Greece",
+    "country": "Menemeni",
+    "latitude": 40.6569444,
+    "longitude": 22.8999996
+  },
+  {
+    "city": "Latvia",
+    "country": "Auce",
+    "latitude": 56.4666667,
+    "longitude": 22.8833332
+  },
+  {
+    "city": "Romania",
+    "country": "Satu Mare",
+    "latitude": 47.8,
+    "longitude": 22.8833332
+  },
+  {
+    "city": "Macedonia",
+    "country": "Novo Selo",
+    "latitude": 41.4138889,
+    "longitude": 22.8811111
+  },
+  {
+    "city": "Bulgaria",
+    "country": "Vidin",
+    "latitude": 43.99,
+    "longitude": 22.8724995
+  },
+  {
+    "city": "Greece",
+    "country": "Kilkis",
+    "latitude": 40.9919444,
+    "longitude": 22.8708324
+  },
+  {
+    "city": "Lithuania",
+    "country": "Kudirkos Naumiestis",
+    "latitude": 54.7730556,
+    "longitude": 22.8630562
+  },
+  {
+    "city": "Macedonia",
+    "country": "Berovo",
+    "latitude": 41.7030556,
+    "longitude": 22.8577785
+  },
+  {
+    "city": "Finland",
+    "country": "Seinajoki",
+    "latitude": 62.8,
+    "longitude": 22.833334
+  },
+  {
+    "city": "Lithuania",
+    "country": "Virbalis",
+    "latitude": 54.6266667,
+    "longitude": 22.8169441
+  },
+  {
+    "city": "Latvia",
+    "country": "Roja",
+    "latitude": 57.5,
+    "longitude": 22.8166676
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Bangassou",
+    "latitude": 4.7333333,
+    "longitude": 22.8166676
+  },
+  {
+    "city": "Greece",
+    "country": "Nafplio",
+    "latitude": 37.5636111,
+    "longitude": 22.8075008
+  },
+  {
+    "city": "Poland",
+    "country": "Przemysl",
+    "latitude": 49.7833333,
+    "longitude": 22.7833328
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Birao",
+    "latitude": 10.2833333,
+    "longitude": 22.7833328
+  },
+  {
+    "city": "Macedonia",
+    "country": "Delchevo",
+    "latitude": 41.9672222,
+    "longitude": 22.7694435
+  },
+  {
+    "city": "Latvia",
+    "country": "Kandava",
+    "latitude": 57.0333333,
+    "longitude": 22.7666664
+  },
+  {
+    "city": "Lithuania",
+    "country": "Jurbarkas",
+    "latitude": 55.0777778,
+    "longitude": 22.7663898
+  },
+  {
+    "city": "Lithuania",
+    "country": "Akmene",
+    "latitude": 56.25,
+    "longitude": 22.75
+  },
+  {
+    "city": "Estonia",
+    "country": "Kardla",
+    "latitude": 58.9977778,
+    "longitude": 22.7491665
+  },
+  {
+    "city": "Lithuania",
+    "country": "Kybartai",
+    "latitude": 54.6355556,
+    "longitude": 22.7383327
+  },
+  {
+    "city": "Greece",
+    "country": "Argos",
+    "latitude": 37.6333333,
+    "longitude": 22.7333336
+  },
+  {
+    "city": "Macedonia",
+    "country": "Bosilovo",
+    "latitude": 41.4405556,
+    "longitude": 22.7277775
+  },
+  {
+    "city": "Macedonia",
+    "country": "Star Dojran",
+    "latitude": 41.1875,
+    "longitude": 22.7208328
+  },
+  {
+    "city": "Ukraine",
+    "country": "Mukacheve",
+    "latitude": 48.45,
+    "longitude": 22.7166672
+  },
+  {
+    "city": "Finland",
+    "country": "Pietarsaari",
+    "latitude": 63.6666667,
+    "longitude": 22.7000008
+  },
+  {
+    "city": "Lithuania",
+    "country": "Venta",
+    "latitude": 56.2,
+    "longitude": 22.7000008
   }
 ]
