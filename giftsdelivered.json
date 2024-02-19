@@ -29458,5 +29458,557 @@
     "country": "Stalowa Wola",
     "latitude": 50.5666667,
     "longitude": 22.0499992
+  },
+  {
+    "city": "Greece",
+    "country": "Edessa",
+    "latitude": 40.8005556,
+    "longitude": 22.0472221
+  },
+  {
+    "city": "Finland",
+    "country": "Naantali",
+    "latitude": 60.45,
+    "longitude": 22.0333328
+  },
+  {
+    "city": "Macedonia",
+    "country": "Vatasa",
+    "latitude": 41.4169444,
+    "longitude": 22.0188885
+  },
+  {
+    "city": "Latvia",
+    "country": "Skrunda",
+    "latitude": 56.6833333,
+    "longitude": 22.0166664
+  },
+  {
+    "city": "Macedonia",
+    "country": "Kavadarci",
+    "latitude": 41.4330556,
+    "longitude": 22.0119438
+  },
+  {
+    "city": "Poland",
+    "country": "Rzeszow",
+    "latitude": 50.05,
+    "longitude": 22
+  },
+  {
+    "city": "Latvia",
+    "country": "Kuldiga",
+    "latitude": 56.9666667,
+    "longitude": 21.9833336
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Bria",
+    "latitude": 6.5333333,
+    "longitude": 21.9833336
+  },
+  {
+    "city": "Poland",
+    "country": "Pulawy",
+    "latitude": 51.4166667,
+    "longitude": 21.9666672
+  },
+  {
+    "city": "Macedonia",
+    "country": "Sveti Nikole",
+    "latitude": 41.8695608,
+    "longitude": 21.9527435
+  },
+  {
+    "city": "Macedonia",
+    "country": "Rosoman",
+    "latitude": 41.5161111,
+    "longitude": 21.9497223
+  },
+  {
+    "city": "Macedonia",
+    "country": "Gradsko",
+    "latitude": 41.5775,
+    "longitude": 21.9427776
+  },
+  {
+    "city": "Romania",
+    "country": "Oradea",
+    "latitude": 47.0666667,
+    "longitude": 21.9333324
+  },
+  {
+    "city": "Lithuania",
+    "country": "Rietavas",
+    "latitude": 55.7194444,
+    "longitude": 21.9311104
+  },
+  {
+    "city": "Greece",
+    "country": "Karditsa",
+    "latitude": 39.3655556,
+    "longitude": 21.9216671
+  },
+  {
+    "city": "Lithuania",
+    "country": "Pagegiai",
+    "latitude": 55.1380556,
+    "longitude": 21.9088898
+  },
+  {
+    "city": "Macedonia",
+    "country": "Lozovo",
+    "latitude": 41.7838889,
+    "longitude": 21.9055557
+  },
+  {
+    "city": "Romania",
+    "country": "Lugoj",
+    "latitude": 45.6886111,
+    "longitude": 21.9030552
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Kembe",
+    "latitude": 4.6,
+    "longitude": 21.8999996
+  },
+  {
+    "city": "Romania",
+    "country": "Resita",
+    "latitude": 45.3008333,
+    "longitude": 21.8891659
+  },
+  {
+    "city": "Finland",
+    "country": "Ulvila",
+    "latitude": 61.4333333,
+    "longitude": 21.8833332
+  },
+  {
+    "city": "Lithuania",
+    "country": "Plunge",
+    "latitude": 55.9113889,
+    "longitude": 21.8441658
+  },
+  {
+    "city": "Macedonia",
+    "country": "Staro Nagorichane",
+    "latitude": 42.1980556,
+    "longitude": 21.8286114
+  },
+  {
+    "city": "Greece",
+    "country": "Kozani",
+    "latitude": 40.3011111,
+    "longitude": 21.7863884
+  },
+  {
+    "city": "Finland",
+    "country": "Pori",
+    "latitude": 61.4833333,
+    "longitude": 21.7833328
+  },
+  {
+    "city": "Poland",
+    "country": "Krosno",
+    "latitude": 49.6833333,
+    "longitude": 21.7833328
+  },
+  {
+    "city": "Macedonia",
+    "country": "Veles",
+    "latitude": 41.7155556,
+    "longitude": 21.7755547
+  },
+  {
+    "city": "Greece",
+    "country": "Trikala",
+    "latitude": 39.5552778,
+    "longitude": 21.7674999
+  },
+  {
+    "city": "Greece",
+    "country": "Patrai",
+    "latitude": 38.2444444,
+    "longitude": 21.7344437
+  },
+  {
+    "city": "Hungary",
+    "country": "Nyiregyhaza",
+    "latitude": 47.9553868,
+    "longitude": 21.7167091
+  },
+  {
+    "city": "Finland",
+    "country": "Mustasaari",
+    "latitude": 63.1166667,
+    "longitude": 21.7166672
+  },
+  {
+    "city": "Macedonia",
+    "country": "Kumanovo",
+    "latitude": 42.1322222,
+    "longitude": 21.7144451
+  },
+  {
+    "city": "Lithuania",
+    "country": "Zemaiciu Naumiestis",
+    "latitude": 55.3591667,
+    "longitude": 21.7022228
+  },
+  {
+    "city": "Sweden",
+    "country": "Boden",
+    "latitude": 65.8251808,
+    "longitude": 21.6886425
+  },
+  {
+    "city": "Poland",
+    "country": "Tarnobrzeg",
+    "latitude": 50.5833333,
+    "longitude": 21.6833324
+  },
+  {
+    "city": "Hungary",
+    "country": "Ujfeherto",
+    "latitude": 47.8,
+    "longitude": 21.6833324
+  },
+  {
+    "city": "Greece",
+    "country": "Ptolemais",
+    "latitude": 40.5147222,
+    "longitude": 21.6786118
+  },
+  {
+    "city": "Latvia",
+    "country": "Piltene",
+    "latitude": 57.2166667,
+    "longitude": 21.666666
+  },
+  {
+    "city": "Hungary",
+    "country": "Satoraljaujhely",
+    "latitude": 48.4,
+    "longitude": 21.666666
+  },
+  {
+    "city": "Macedonia",
+    "country": "Caska",
+    "latitude": 41.6505556,
+    "longitude": 21.6622219
+  },
+  {
+    "city": "Hungary",
+    "country": "Debrecen",
+    "latitude": 47.5333333,
+    "longitude": 21.6333332
+  },
+  {
+    "city": "Finland",
+    "country": "Vasa",
+    "latitude": 63.0960013,
+    "longitude": 21.6157722
+  },
+  {
+    "city": "Macedonia",
+    "country": "Petrovec",
+    "latitude": 41.9388889,
+    "longitude": 21.6149998
+  },
+  {
+    "city": "Latvia",
+    "country": "Aizpute",
+    "latitude": 56.7166667,
+    "longitude": 21.6000004
+  },
+  {
+    "city": "Macedonia",
+    "country": "Zelenikovo",
+    "latitude": 41.8866667,
+    "longitude": 21.5869446
+  },
+  {
+    "city": "Macedonia",
+    "country": "Lipkovo",
+    "latitude": 42.1563889,
+    "longitude": 21.5852776
+  },
+  {
+    "city": "Latvia",
+    "country": "Priekule",
+    "latitude": 56.4333333,
+    "longitude": 21.583334
+  },
+  {
+    "city": "Hungary",
+    "country": "Sarospatak",
+    "latitude": 48.3166667,
+    "longitude": 21.583334
+  },
+  {
+    "city": "Macedonia",
+    "country": "Ilinden",
+    "latitude": 41.9961111,
+    "longitude": 21.582222
+  },
+  {
+    "city": "Lithuania",
+    "country": "Salantai",
+    "latitude": 56.0666667,
+    "longitude": 21.5666676
+  },
+  {
+    "city": "Poland",
+    "country": "Ostroleka",
+    "latitude": 53.0833333,
+    "longitude": 21.5666676
+  },
+  {
+    "city": "Macedonia",
+    "country": "Arachinovo",
+    "latitude": 42.0263889,
+    "longitude": 21.561945
+  },
+  {
+    "city": "Latvia",
+    "country": "Ventspils",
+    "latitude": 57.3894444,
+    "longitude": 21.5605564
+  },
+  {
+    "city": "Macedonia",
+    "country": "Prilep",
+    "latitude": 41.3463889,
+    "longitude": 21.5544453
+  },
+  {
+    "city": "Hungary",
+    "country": "Berettyoujfalu",
+    "latitude": 47.2166667,
+    "longitude": 21.5499992
+  },
+  {
+    "city": "Libya",
+    "country": "Jalu",
+    "latitude": 29.0333333,
+    "longitude": 21.5499992
+  },
+  {
+    "city": "Lithuania",
+    "country": "Skuodas",
+    "latitude": 56.2666667,
+    "longitude": 21.5333328
+  },
+  {
+    "city": "Macedonia",
+    "country": "Varos",
+    "latitude": 41.3572222,
+    "longitude": 21.5324993
+  },
+  {
+    "city": "Macedonia",
+    "country": "Studenichani",
+    "latitude": 41.9158333,
+    "longitude": 21.5305557
+  },
+  {
+    "city": "Hungary",
+    "country": "Hajduboszormeny",
+    "latitude": 47.6666667,
+    "longitude": 21.5166664
+  },
+  {
+    "city": "Finland",
+    "country": "Rauma",
+    "latitude": 61.1333333,
+    "longitude": 21.5
+  },
+  {
+    "city": "Lithuania",
+    "country": "Silute",
+    "latitude": 55.3488889,
+    "longitude": 21.4830551
+  },
+  {
+    "city": "Macedonia",
+    "country": "Batinci",
+    "latitude": 41.9197222,
+    "longitude": 21.481945
+  },
+  {
+    "city": "Sweden",
+    "country": "Pitea",
+    "latitude": 65.3171748,
+    "longitude": 21.4794407
+  },
+  {
+    "city": "Macedonia",
+    "country": "Dolneni",
+    "latitude": 41.4252778,
+    "longitude": 21.4547215
+  },
+  {
+    "city": "Greece",
+    "country": "Pyrgos",
+    "latitude": 37.6751253,
+    "longitude": 21.441021
+  },
+  {
+    "city": "Hungary",
+    "country": "Hajdunanas",
+    "latitude": 47.85,
+    "longitude": 21.4333324
+  },
+  {
+    "city": "Macedonia",
+    "country": "Skopje",
+    "latitude": 42,
+    "longitude": 21.4333324
+  },
+  {
+    "city": "Macedonia",
+    "country": "Sopishte",
+    "latitude": 41.9547222,
+    "longitude": 21.4274998
+  },
+  {
+    "city": "Finland",
+    "country": "Uusikaupunki",
+    "latitude": 60.8,
+    "longitude": 21.416666
+  },
+  {
+    "city": "Poland",
+    "country": "Mielec",
+    "latitude": 50.2833333,
+    "longitude": 21.416666
+  },
+  {
+    "city": "Poland",
+    "country": "Debica",
+    "latitude": 50.05,
+    "longitude": 21.416666
+  },
+  {
+    "city": "Chad",
+    "country": "Goz Beida",
+    "latitude": 12.2166667,
+    "longitude": 21.416666
+  },
+  {
+    "city": "Greece",
+    "country": "Agrinion",
+    "latitude": 38.6213889,
+    "longitude": 21.4077778
+  },
+  {
+    "city": "Lithuania",
+    "country": "Gargzdai",
+    "latitude": 55.7127778,
+    "longitude": 21.4033337
+  },
+  {
+    "city": "Poland",
+    "country": "Ostrowiec Swietokrzyski",
+    "latitude": 50.9333333,
+    "longitude": 21.3999996
+  },
+  {
+    "city": "Hungary",
+    "country": "Hajduszoboszlo",
+    "latitude": 47.45,
+    "longitude": 21.3999996
+  },
+  {
+    "city": "Macedonia",
+    "country": "Chucher - Sandevo",
+    "latitude": 42.1036111,
+    "longitude": 21.3822231
+  },
+  {
+    "city": "Macedonia",
+    "country": "Mogila",
+    "latitude": 41.1083333,
+    "longitude": 21.3786106
+  },
+  {
+    "city": "Lithuania",
+    "country": "Rusne",
+    "latitude": 55.2963889,
+    "longitude": 21.3758335
+  },
+  {
+    "city": "Macedonia",
+    "country": "Bistrica",
+    "latitude": 40.9833333,
+    "longitude": 21.3666668
+  },
+  {
+    "city": "Latvia",
+    "country": "Durbe",
+    "latitude": 56.5833333,
+    "longitude": 21.3500004
+  },
+  {
+    "city": "Hungary",
+    "country": "Tiszavasvari",
+    "latitude": 47.9666667,
+    "longitude": 21.3500004
+  },
+  {
+    "city": "Hungary",
+    "country": "Balmazujvaros",
+    "latitude": 47.6166667,
+    "longitude": 21.3500004
+  },
+  {
+    "city": "Greece",
+    "country": "Amalias",
+    "latitude": 37.8,
+    "longitude": 21.3500004
+  },
+  {
+    "city": "Macedonia",
+    "country": "Bitola",
+    "latitude": 41.0311111,
+    "longitude": 21.3402786
+  },
+  {
+    "city": "Macedonia",
+    "country": "Krivogashtani",
+    "latitude": 41.3361111,
+    "longitude": 21.3330555
+  },
+  {
+    "city": "Macedonia",
+    "country": "Saraj",
+    "latitude": 42,
+    "longitude": 21.3277779
+  },
+  {
+    "city": "Lithuania",
+    "country": "Priekule",
+    "latitude": 55.5536111,
+    "longitude": 21.3266659
+  },
+  {
+    "city": "Romania",
+    "country": "Arad",
+    "latitude": 46.1833333,
+    "longitude": 21.3166676
+  },
+  {
+    "city": "Macedonia",
+    "country": "Kondovo",
+    "latitude": 42.0116667,
+    "longitude": 21.313612
+  },
+  {
+    "city": "Libya",
+    "country": "Awjilah",
+    "latitude": 29.1080556,
+    "longitude": 21.2869453
   }
 ]
