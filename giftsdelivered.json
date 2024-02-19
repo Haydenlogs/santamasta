@@ -34672,5 +34672,527 @@
     "country": "Yagoua",
     "latitude": 10.3427778,
     "longitude": 15.2405558
+  },
+  {
+    "city": "Croatia",
+    "country": "Otocac",
+    "latitude": 44.8694444,
+    "longitude": 15.2375002
+  },
+  {
+    "city": "Slovenia",
+    "country": "Lasko",
+    "latitude": 46.1519444,
+    "longitude": 15.2363892
+  },
+  {
+    "city": "Poland",
+    "country": "Gorzow Wielkopolski",
+    "latitude": 52.7333333,
+    "longitude": 15.2333336
+  },
+  {
+    "city": "Croatia",
+    "country": "Ogulin",
+    "latitude": 45.2661111,
+    "longitude": 15.228611
+  },
+  {
+    "city": "Slovenia",
+    "country": "Radlje ob Dravi",
+    "latitude": 46.6141667,
+    "longitude": 15.2263889
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Pelhrimov",
+    "latitude": 49.4313373,
+    "longitude": 15.2233572
+  },
+  {
+    "city": "Austria",
+    "country": "Deutschlandsberg",
+    "latitude": 46.8152778,
+    "longitude": 15.2222223
+  },
+  {
+    "city": "Sweden",
+    "country": "Orebro",
+    "latitude": 59.2741206,
+    "longitude": 15.2066011
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Kolin",
+    "latitude": 50.0281362,
+    "longitude": 15.2005682
+  },
+  {
+    "city": "Austria",
+    "country": "Zwettl Stift",
+    "latitude": 48.6166667,
+    "longitude": 15.1999998
+  },
+  {
+    "city": "Slovenia",
+    "country": "Crnomelj",
+    "latitude": 45.5711111,
+    "longitude": 15.1888885
+  },
+  {
+    "city": "Sweden",
+    "country": "Ludvika",
+    "latitude": 60.1495907,
+    "longitude": 15.1877623
+  },
+  {
+    "city": "Croatia",
+    "country": "Preko",
+    "latitude": 44.0811111,
+    "longitude": 15.1875
+  },
+  {
+    "city": "Slovenia",
+    "country": "Radece",
+    "latitude": 46.0680556,
+    "longitude": 15.1838884
+  },
+  {
+    "city": "Croatia",
+    "country": "Popovaca",
+    "latitude": 44.6391667,
+    "longitude": 15.1791668
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Jablonec nad Nisou",
+    "latitude": 50.7243076,
+    "longitude": 15.1710768
+  },
+  {
+    "city": "Slovenia",
+    "country": "Zalec",
+    "latitude": 46.2536111,
+    "longitude": 15.1674995
+  },
+  {
+    "city": "Slovenia",
+    "country": "Muta",
+    "latitude": 46.6113889,
+    "longitude": 15.166111
+  },
+  {
+    "city": "Slovenia",
+    "country": "Novo Mesto",
+    "latitude": 45.7925,
+    "longitude": 15.1647224
+  },
+  {
+    "city": "Austria",
+    "country": "Voitsberg",
+    "latitude": 47.0333333,
+    "longitude": 15.1499996
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Gamboula",
+    "latitude": 4.1333333,
+    "longitude": 15.1499996
+  },
+  {
+    "city": "Sweden",
+    "country": "Kumla",
+    "latitude": 59.1277032,
+    "longitude": 15.1434088
+  },
+  {
+    "city": "Slovenia",
+    "country": "Sempeter v Savinjski Dolini",
+    "latitude": 46.2563889,
+    "longitude": 15.1219444
+  },
+  {
+    "city": "Angola",
+    "country": "Waku Kungo",
+    "latitude": -11.35,
+    "longitude": 15.1166668
+  },
+  {
+    "city": "Slovenia",
+    "country": "Velenje",
+    "latitude": 46.3591667,
+    "longitude": 15.1102781
+  },
+  {
+    "city": "Austria",
+    "country": "Leoben",
+    "latitude": 47.3833333,
+    "longitude": 15.1000004
+  },
+  {
+    "city": "Libya",
+    "country": "Misratah",
+    "latitude": 32.3783333,
+    "longitude": 15.0905552
+  },
+  {
+    "city": "Italy",
+    "country": "Catania",
+    "latitude": 37.502134,
+    "longitude": 15.0871897
+  },
+  {
+    "city": "Austria",
+    "country": "Koflach",
+    "latitude": 47.0666667,
+    "longitude": 15.083333
+  },
+  {
+    "city": "Slovenia",
+    "country": "Hrastnik",
+    "latitude": 46.1461111,
+    "longitude": 15.0813885
+  },
+  {
+    "city": "Slovenia",
+    "country": "Slovenj Gradec",
+    "latitude": 46.5102778,
+    "longitude": 15.0805559
+  },
+  {
+    "city": "Slovenia",
+    "country": "Straza",
+    "latitude": 45.78,
+    "longitude": 15.0727777
+  },
+  {
+    "city": "Slovenia",
+    "country": "Polzela",
+    "latitude": 46.2833333,
+    "longitude": 15.0666666
+  },
+  {
+    "city": "Angola",
+    "country": "Caconda",
+    "latitude": -13.7333333,
+    "longitude": 15.0666666
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Liberec",
+    "latitude": 50.7671119,
+    "longitude": 15.0561914
+  },
+  {
+    "city": "Slovenia",
+    "country": "Trbovlje",
+    "latitude": 46.155,
+    "longitude": 15.0533333
+  },
+  {
+    "city": "Poland",
+    "country": "Stargard Szczecinski",
+    "latitude": 53.3333333,
+    "longitude": 15.0500002
+  },
+  {
+    "city": "Cameroon",
+    "country": "Yokadouma",
+    "latitude": 3.5166667,
+    "longitude": 15.0500002
+  },
+  {
+    "city": "Angola",
+    "country": "Uige",
+    "latitude": -7.6166667,
+    "longitude": 15.0500002
+  },
+  {
+    "city": "Slovenia",
+    "country": "Sostanj",
+    "latitude": 46.38,
+    "longitude": 15.0486107
+  },
+  {
+    "city": "Sweden",
+    "country": "Motala",
+    "latitude": 58.5370581,
+    "longitude": 15.0364857
+  },
+  {
+    "city": "Cameroon",
+    "country": "Kousseri",
+    "latitude": 12.0783333,
+    "longitude": 15.0308332
+  },
+  {
+    "city": "Slovenia",
+    "country": "Trebnje",
+    "latitude": 45.9041667,
+    "longitude": 15.0216665
+  },
+  {
+    "city": "Slovenia",
+    "country": "Dravograd",
+    "latitude": 46.5880556,
+    "longitude": 15.0191669
+  },
+  {
+    "city": "Slovenia",
+    "country": "Ravne",
+    "latitude": 45.9625,
+    "longitude": 15.0127773
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Jindrichuv Hradec",
+    "latitude": 49.1440447,
+    "longitude": 15.0030079
+  },
+  {
+    "city": "Slovenia",
+    "country": "Zagorje ob Savi",
+    "latitude": 46.1341667,
+    "longitude": 15.0013885
+  },
+  {
+    "city": "Austria",
+    "country": "Trofaiach",
+    "latitude": 47.4166667,
+    "longitude": 15
+  },
+  {
+    "city": "Angola",
+    "country": "Quibala",
+    "latitude": -10.7333333,
+    "longitude": 14.9833336
+  },
+  {
+    "city": "Sweden",
+    "country": "Tranas",
+    "latitude": 58.0371717,
+    "longitude": 14.9781952
+  },
+  {
+    "city": "Slovenia",
+    "country": "Mozirje",
+    "latitude": 46.3394444,
+    "longitude": 14.9633331
+  },
+  {
+    "city": "Slovenia",
+    "country": "Prevalje",
+    "latitude": 46.5469444,
+    "longitude": 14.9208336
+  },
+  {
+    "city": "Croatia",
+    "country": "Senj",
+    "latitude": 44.9894444,
+    "longitude": 14.9058332
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Mlada Boleslav",
+    "latitude": 50.4113513,
+    "longitude": 14.9031849
+  },
+  {
+    "city": "Chad",
+    "country": "Pala",
+    "latitude": 9.3666667,
+    "longitude": 14.8999996
+  },
+  {
+    "city": "Austria",
+    "country": "Amstetten",
+    "latitude": 48.1229032,
+    "longitude": 14.8720551
+  },
+  {
+    "city": "Slovenia",
+    "country": "Kocevje",
+    "latitude": 45.6433333,
+    "longitude": 14.8633337
+  },
+  {
+    "city": "Sweden",
+    "country": "Karlshamn",
+    "latitude": 56.1706024,
+    "longitude": 14.8618841
+  },
+  {
+    "city": "Slovenia",
+    "country": "Mezica",
+    "latitude": 46.5213889,
+    "longitude": 14.8544445
+  },
+  {
+    "city": "Austria",
+    "country": "Wolfsberg",
+    "latitude": 46.8405556,
+    "longitude": 14.8441668
+  },
+  {
+    "city": "Austria",
+    "country": "Sankt Andra",
+    "latitude": 46.7661111,
+    "longitude": 14.8236113
+  },
+  {
+    "city": "Slovenia",
+    "country": "Litija",
+    "latitude": 46.0586111,
+    "longitude": 14.8225002
+  },
+  {
+    "city": "Slovenia",
+    "country": "Vir pri Sticni",
+    "latitude": 45.9525,
+    "longitude": 14.8177776
+  },
+  {
+    "city": "Austria",
+    "country": "Knittelfeld",
+    "latitude": 47.2166667,
+    "longitude": 14.8166666
+  },
+  {
+    "city": "Sweden",
+    "country": "Vaexjoe",
+    "latitude": 56.8776684,
+    "longitude": 14.8090553
+  },
+  {
+    "city": "Italy",
+    "country": "Salerno",
+    "latitude": 40.66321,
+    "longitude": 14.8037453
+  },
+  {
+    "city": "Croatia",
+    "country": "Delnice",
+    "latitude": 45.4008333,
+    "longitude": 14.7997227
+  },
+  {
+    "city": "Italy",
+    "country": "Benevento",
+    "latitude": 41.129519,
+    "longitude": 14.7861376
+  },
+  {
+    "city": "Austria",
+    "country": "Waidhofen an der Ybbs",
+    "latitude": 47.9666667,
+    "longitude": 14.7666664
+  },
+  {
+    "city": "Slovenia",
+    "country": "Ribnica",
+    "latitude": 45.7386111,
+    "longitude": 14.7275
+  },
+  {
+    "city": "Italy",
+    "country": "Ragusa",
+    "latitude": 36.92824,
+    "longitude": 14.7171869
+  },
+  {
+    "city": "Denmark",
+    "country": "Ronne",
+    "latitude": 55.1,
+    "longitude": 14.6999998
+  },
+  {
+    "city": "Sweden",
+    "country": "Nassjo",
+    "latitude": 57.6530707,
+    "longitude": 14.6967564
+  },
+  {
+    "city": "Croatia",
+    "country": "Crikvenica",
+    "latitude": 45.1772222,
+    "longitude": 14.6927776
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Benesov",
+    "latitude": 49.7816247,
+    "longitude": 14.6869678
+  },
+  {
+    "city": "Austria",
+    "country": "Fohnsdorf",
+    "latitude": 47.2,
+    "longitude": 14.6833334
+  },
+  {
+    "city": "Angola",
+    "country": "Caluquembe",
+    "latitude": -13.7833333,
+    "longitude": 14.6833334
+  },
+  {
+    "city": "Austria",
+    "country": "Judenburg",
+    "latitude": 47.1666667,
+    "longitude": 14.666667
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Brandys nad Labem-Stara Boleslav",
+    "latitude": 50.1870907,
+    "longitude": 14.6632566
+  },
+  {
+    "city": "Slovenia",
+    "country": "Grosuplje",
+    "latitude": 45.9555556,
+    "longitude": 14.6588888
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Tabor",
+    "latitude": 49.4144125,
+    "longitude": 14.6578035
+  },
+  {
+    "city": "Sweden",
+    "country": "Ostersund",
+    "latitude": 63.1792043,
+    "longitude": 14.6356564
+  },
+  {
+    "city": "Austria",
+    "country": "Volkermarkt",
+    "latitude": 46.6622222,
+    "longitude": 14.6344442
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Varnsdorf",
+    "latitude": 50.911544,
+    "longitude": 14.6182346
+  },
+  {
+    "city": "Cameroon",
+    "country": "Bogo",
+    "latitude": 10.7361111,
+    "longitude": 14.6108332
+  },
+  {
+    "city": "Slovenia",
+    "country": "Kamnik",
+    "latitude": 46.2197222,
+    "longitude": 14.6094446
+  },
+  {
+    "city": "Slovenia",
+    "country": "Domzale",
+    "latitude": 46.1380556,
+    "longitude": 14.5977774
   }
 ]
