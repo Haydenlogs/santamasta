@@ -39358,5 +39358,521 @@
     "country": "Tonder",
     "latitude": 54.9330598,
     "longitude": 8.8667393
+  },
+  {
+    "city": "Cameroon",
+    "country": "Mundemba",
+    "latitude": 4.95,
+    "longitude": 8.8666668
+  },
+  {
+    "city": "Denmark",
+    "country": "Nykobing Mors",
+    "latitude": 56.7933405,
+    "longitude": 8.8528242
+  },
+  {
+    "city": "Italy",
+    "country": "Busto Arsizio",
+    "latitude": 45.6112756,
+    "longitude": 8.849144
+  },
+  {
+    "city": "Switzerland",
+    "country": "Jona",
+    "latitude": 47.2298271,
+    "longitude": 8.8388443
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Rebola",
+    "latitude": 3.7166667,
+    "longitude": 8.833333
+  },
+  {
+    "city": "Tunisia",
+    "country": "Kasserine",
+    "latitude": 35.1672222,
+    "longitude": 8.8288889
+  },
+  {
+    "city": "Switzerland",
+    "country": "Rapperswil",
+    "latitude": 47.2255722,
+    "longitude": 8.822279
+  },
+  {
+    "city": "Italy",
+    "country": "Varese",
+    "latitude": 45.829076,
+    "longitude": 8.8219318
+  },
+  {
+    "city": "Germany",
+    "country": "Bremen",
+    "latitude": 53.0751557,
+    "longitude": 8.8077736
+  },
+  {
+    "city": "Switzerland",
+    "country": "Locarno",
+    "latitude": 46.1708559,
+    "longitude": 8.7995338
+  },
+  {
+    "city": "Tunisia",
+    "country": "Gafsa",
+    "latitude": 34.425,
+    "longitude": 8.7841663
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Malabo",
+    "latitude": 3.75,
+    "longitude": 8.7833328
+  },
+  {
+    "city": "Gabon",
+    "country": "Port-Gentil",
+    "latitude": -0.7166667,
+    "longitude": 8.7833328
+  },
+  {
+    "city": "Tunisia",
+    "country": "Jendouba",
+    "latitude": 36.5011111,
+    "longitude": 8.7794447
+  },
+  {
+    "city": "Switzerland",
+    "country": "Seen (Kreis 3)",
+    "latitude": 47.4764576,
+    "longitude": 8.7699652
+  },
+  {
+    "city": "Switzerland",
+    "country": "Oberwinterthur (Kreis 2)",
+    "latitude": 47.5169195,
+    "longitude": 8.7686348
+  },
+  {
+    "city": "Denmark",
+    "country": "Ribe",
+    "latitude": 55.35,
+    "longitude": 8.7666664
+  },
+  {
+    "city": "Germany",
+    "country": "Offenbach",
+    "latitude": 50.1,
+    "longitude": 8.7666664
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Ciudad de Riaba",
+    "latitude": 3.3833333,
+    "longitude": 8.7666664
+  },
+  {
+    "city": "Switzerland",
+    "country": "Freienbach",
+    "latitude": 47.2053421,
+    "longitude": 8.7584209
+  },
+  {
+    "city": "Tunisia",
+    "country": "Tabarka",
+    "latitude": 36.9544444,
+    "longitude": 8.7580557
+  },
+  {
+    "city": "Germany",
+    "country": "Paderborn",
+    "latitude": 51.7190528,
+    "longitude": 8.7543869
+  },
+  {
+    "city": "Switzerland",
+    "country": "Winterthur",
+    "latitude": 47.5,
+    "longitude": 8.75
+  },
+  {
+    "city": "Switzerland",
+    "country": "Einsiedeln",
+    "latitude": 47.1166667,
+    "longitude": 8.75
+  },
+  {
+    "city": "France",
+    "country": "Ajaccio",
+    "latitude": 41.9166667,
+    "longitude": 8.7333336
+  },
+  {
+    "city": "Switzerland",
+    "country": "Uster",
+    "latitude": 47.347126,
+    "longitude": 8.720911
+  },
+  {
+    "city": "Switzerland",
+    "country": "Stadt Winterthur (Kreis 1)",
+    "latitude": 47.4949431,
+    "longitude": 8.7195454
+  },
+  {
+    "city": "Tunisia",
+    "country": "El Kef",
+    "latitude": 36.1822222,
+    "longitude": 8.7147226
+  },
+  {
+    "city": "Germany",
+    "country": "Pforzheim",
+    "latitude": 48.8833333,
+    "longitude": 8.6999998
+  },
+  {
+    "city": "Denmark",
+    "country": "Thisted",
+    "latitude": 56.9552254,
+    "longitude": 8.6949062
+  },
+  {
+    "city": "Germany",
+    "country": "Heidelberg",
+    "latitude": 49.4076783,
+    "longitude": 8.6907864
+  },
+  {
+    "city": "Germany",
+    "country": "Frankfurt am Main",
+    "latitude": 50.1166667,
+    "longitude": 8.6833334
+  },
+  {
+    "city": "Tunisia",
+    "country": "Thala",
+    "latitude": 35.5744444,
+    "longitude": 8.6722221
+  },
+  {
+    "city": "Switzerland",
+    "country": "Wadenswil",
+    "latitude": 47.226832,
+    "longitude": 8.668704
+  },
+  {
+    "city": "Switzerland",
+    "country": "Schwyz",
+    "latitude": 47.0166667,
+    "longitude": 8.6499996
+  },
+  {
+    "city": "Germany",
+    "country": "Darmstadt",
+    "latitude": 49.8705556,
+    "longitude": 8.6494446
+  },
+  {
+    "city": "Switzerland",
+    "country": "Schaffhausen",
+    "latitude": 47.7,
+    "longitude": 8.6333332
+  },
+  {
+    "city": "Italy",
+    "country": "Alessandria",
+    "latitude": 44.912452,
+    "longitude": 8.6189451
+  },
+  {
+    "city": "Switzerland",
+    "country": "Dubendorf",
+    "latitude": 47.3972428,
+    "longitude": 8.6187162
+  },
+  {
+    "city": "Italy",
+    "country": "Novara",
+    "latitude": 45.440565,
+    "longitude": 8.6168346
+  },
+  {
+    "city": "Denmark",
+    "country": "Holstebro",
+    "latitude": 56.3600916,
+    "longitude": 8.6160707
+  },
+  {
+    "city": "Switzerland",
+    "country": "Horgen",
+    "latitude": 47.2557905,
+    "longitude": 8.6002722
+  },
+  {
+    "city": "Switzerland",
+    "country": "Kloten",
+    "latitude": 47.4515162,
+    "longitude": 8.5849066
+  },
+  {
+    "city": "Denmark",
+    "country": "Struer",
+    "latitude": 56.4912161,
+    "longitude": 8.5837555
+  },
+  {
+    "city": "Germany",
+    "country": "Bremerhaven",
+    "latitude": 53.55,
+    "longitude": 8.583333
+  },
+  {
+    "city": "Niger",
+    "country": "Lere",
+    "latitude": 10.3833333,
+    "longitude": 8.583333
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 7)",
+    "latitude": 47.3732807,
+    "longitude": 8.5803766
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 12)",
+    "latitude": 47.4037214,
+    "longitude": 8.5760794
+  },
+  {
+    "city": "Switzerland",
+    "country": "Thalwil",
+    "latitude": 47.2917531,
+    "longitude": 8.5635052
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 8)",
+    "latitude": 47.3547981,
+    "longitude": 8.5609732
+  },
+  {
+    "city": "Italy",
+    "country": "Sassari",
+    "latitude": 40.7272222,
+    "longitude": 8.5602779
+  },
+  {
+    "city": "Tunisia",
+    "country": "Tajerouine",
+    "latitude": 35.8913889,
+    "longitude": 8.5555553
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zurich",
+    "latitude": 47.3666667,
+    "longitude": 8.5500002
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Luba",
+    "latitude": 3.45,
+    "longitude": 8.5500002
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 11) / Seebach",
+    "latitude": 47.4218142,
+    "longitude": 8.5477915
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 6)",
+    "latitude": 47.3922318,
+    "longitude": 8.543807
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 11) / Oerlikon",
+    "latitude": 47.4082269,
+    "longitude": 8.5425758
+  },
+  {
+    "city": "Switzerland",
+    "country": "Bulach",
+    "latitude": 47.5219672,
+    "longitude": 8.5404949
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 6) / Unterstrass",
+    "latitude": 47.3952963,
+    "longitude": 8.5372124
+  },
+  {
+    "city": "Germany",
+    "country": "Bielefeld",
+    "latitude": 52.0333333,
+    "longitude": 8.5333328
+  },
+  {
+    "city": "Niger",
+    "country": "Makurdi",
+    "latitude": 7.7333333,
+    "longitude": 8.5333328
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 2) / Wollishofen",
+    "latitude": 47.3400952,
+    "longitude": 8.5313387
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 10) / Wipkingen",
+    "latitude": 47.395025,
+    "longitude": 8.5252914
+  },
+  {
+    "city": "Switzerland",
+    "country": "Adliswil",
+    "latitude": 47.309969,
+    "longitude": 8.5246248
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 11)",
+    "latitude": 47.4232576,
+    "longitude": 8.5216589
+  },
+  {
+    "city": "Switzerland",
+    "country": "Aussersihl",
+    "latitude": 47.3775187,
+    "longitude": 8.5212688
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 2)",
+    "latitude": 47.3375644,
+    "longitude": 8.521101
+  },
+  {
+    "city": "Switzerland",
+    "country": "Baar",
+    "latitude": 47.2,
+    "longitude": 8.5166664
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zug",
+    "latitude": 47.1666667,
+    "longitude": 8.5166664
+  },
+  {
+    "city": "Niger",
+    "country": "Kano",
+    "latitude": 11.9963889,
+    "longitude": 8.5166664
+  },
+  {
+    "city": "Niger",
+    "country": "Lafia",
+    "latitude": 8.4833333,
+    "longitude": 8.5166664
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 3) / Alt-Wiedikon",
+    "latitude": 47.3620094,
+    "longitude": 8.5149727
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 11) / Affoltern",
+    "latitude": 47.4181409,
+    "longitude": 8.5122004
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 3) / Sihlfeld",
+    "latitude": 47.3738224,
+    "longitude": 8.5116386
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 3)",
+    "latitude": 47.3578517,
+    "longitude": 8.5029612
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 10)",
+    "latitude": 47.4077332,
+    "longitude": 8.5004988
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 10) / Hoengg",
+    "latitude": 47.4031287,
+    "longitude": 8.4971046
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 9) / Albisrieden",
+    "latitude": 47.3739795,
+    "longitude": 8.4900742
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 9) / Altstetten",
+    "latitude": 47.3894555,
+    "longitude": 8.4853287
+  },
+  {
+    "city": "Denmark",
+    "country": "Varde",
+    "latitude": 55.6211205,
+    "longitude": 8.4806948
+  },
+  {
+    "city": "Switzerland",
+    "country": "Zuerich (Kreis 9)",
+    "latitude": 47.3824493,
+    "longitude": 8.4799318
+  },
+  {
+    "city": "Nigeria",
+    "country": "Matamey",
+    "latitude": 13.4238889,
+    "longitude": 8.4777775
+  },
+  {
+    "city": "Italy",
+    "country": "Savona",
+    "latitude": 44.309048,
+    "longitude": 8.4771538
+  },
+  {
+    "city": "Switzerland",
+    "country": "Cham",
+    "latitude": 47.1833333,
+    "longitude": 8.4666672
+  },
+  {
+    "city": "Germany",
+    "country": "Mannheim",
+    "latitude": 49.4883333,
+    "longitude": 8.4647226
+  },
+  {
+    "city": "Denmark",
+    "country": "Esbjerg",
+    "latitude": 55.4666667,
+    "longitude": 8.4499998
   }
 ]
