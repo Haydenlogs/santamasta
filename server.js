@@ -12,7 +12,7 @@ let isTrackerStarted = false;
 let maxpresents = 8045311447;
 let lastCity;
 let startTime;
-const intervalInSeconds = 7.86;
+const intervalInSeconds = 8.11;
 let trackerInterval;
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
