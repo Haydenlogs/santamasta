@@ -9,7 +9,7 @@ app.locals.clients = []; // Initialize clients array
 let cities = [];
 let currentIndex;
 let isTrackerStarted = false;
-let maxpresents = 8045311447;
+let maxpresents = 8092411974;
 let lastCity;
 let startTime;
 const intervalInSeconds = 8.11;
