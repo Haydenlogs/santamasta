@@ -36238,5 +36238,521 @@
     "country": "Chomutov",
     "latitude": 50.4604754,
     "longitude": 13.4177856
+  },
+  {
+    "city": "Angola",
+    "country": "Benguela",
+    "latitude": -12.5783333,
+    "longitude": 13.4072218
+  },
+  {
+    "city": "Germany",
+    "country": "Berlin",
+    "latitude": 52.5166667,
+    "longitude": 13.3999996
+  },
+  {
+    "city": "Cameroon",
+    "country": "Garoua",
+    "latitude": 9.3,
+    "longitude": 13.3999996
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Plzen",
+    "latitude": 49.7474748,
+    "longitude": 13.3775873
+  },
+  {
+    "city": "Italy",
+    "country": "Palermo",
+    "latitude": 38.1158198,
+    "longitude": 13.3597612
+  },
+  {
+    "city": "Sweden",
+    "country": "Eslov",
+    "latitude": 55.8392774,
+    "longitude": 13.3039284
+  },
+  {
+    "city": "Cameroon",
+    "country": "Belabo",
+    "latitude": 4.9333333,
+    "longitude": 13.3000002
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Klatovy",
+    "latitude": 49.3955201,
+    "longitude": 13.2950544
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Kadan",
+    "latitude": 50.3759833,
+    "longitude": 13.2713079
+  },
+  {
+    "city": "Niger",
+    "country": "Mubi",
+    "latitude": 10.2688889,
+    "longitude": 13.2705555
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Kadan",
+    "latitude": 50.3833333,
+    "longitude": 13.2666664
+  },
+  {
+    "city": "Cameroon",
+    "country": "Poli",
+    "latitude": 8.4833333,
+    "longitude": 13.25
+  },
+  {
+    "city": "Italy",
+    "country": "Udine",
+    "latitude": 46.0619444,
+    "longitude": 13.2422218
+  },
+  {
+    "city": "Angola",
+    "country": "Luanda",
+    "latitude": -8.8383333,
+    "longitude": 13.2344446
+  },
+  {
+    "city": "Austria",
+    "country": "Bischofshofen",
+    "latitude": 47.4166667,
+    "longitude": 13.2166672
+  },
+  {
+    "city": "Sweden",
+    "country": "Staffanstorp",
+    "latitude": 55.6440561,
+    "longitude": 13.2081518
+  },
+  {
+    "city": "Austria",
+    "country": "Sankt Johann im Pongau",
+    "latitude": 47.35,
+    "longitude": 13.1999998
+  },
+  {
+    "city": "Gabon",
+    "country": "Moanda",
+    "latitude": -1.5666667,
+    "longitude": 13.1999998
+  },
+  {
+    "city": "Sweden",
+    "country": "Lund",
+    "latitude": 55.7028025,
+    "longitude": 13.1927347
+  },
+  {
+    "city": "Cameroon",
+    "country": "Abong Mbang",
+    "latitude": 3.9833333,
+    "longitude": 13.1833334
+  },
+  {
+    "city": "Libya",
+    "country": "Tripoli",
+    "latitude": 32.8925,
+    "longitude": 13.1800003
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Klasterec nad Ohri",
+    "latitude": 50.3844523,
+    "longitude": 13.171278
+  },
+  {
+    "city": "Gabon",
+    "country": "Mounana",
+    "latitude": -1.4333333,
+    "longitude": 13.166667
+  },
+  {
+    "city": "Niger",
+    "country": "Maiduguri",
+    "latitude": 11.845,
+    "longitude": 13.1599998
+  },
+  {
+    "city": "Sweden",
+    "country": "Lidkoping",
+    "latitude": 58.5051747,
+    "longitude": 13.1576509
+  },
+  {
+    "city": "Sweden",
+    "country": "Trelleborg",
+    "latitude": 55.375136,
+    "longitude": 13.1569109
+  },
+  {
+    "city": "Austria",
+    "country": "Seekirchen Markt",
+    "latitude": 47.9,
+    "longitude": 13.1333332
+  },
+  {
+    "city": "Nigeria",
+    "country": "Nguigmi",
+    "latitude": 14.2527778,
+    "longitude": 13.1108332
+  },
+  {
+    "city": "Sweden",
+    "country": "Kaevlinge",
+    "latitude": 55.7918786,
+    "longitude": 13.1102085
+  },
+  {
+    "city": "Austria",
+    "country": "Hallein",
+    "latitude": 47.6833333,
+    "longitude": 13.1000004
+  },
+  {
+    "city": "Germany",
+    "country": "Potsdam",
+    "latitude": 52.3988578,
+    "longitude": 13.0656624
+  },
+  {
+    "city": "Austria",
+    "country": "Braunau am Inn",
+    "latitude": 48.2666667,
+    "longitude": 13.0333328
+  },
+  {
+    "city": "Austria",
+    "country": "Salzburg",
+    "latitude": 47.8,
+    "longitude": 13.0333328
+  },
+  {
+    "city": "Libya",
+    "country": "Gasr Garian",
+    "latitude": 32.1722222,
+    "longitude": 13.020278
+  },
+  {
+    "city": "Sweden",
+    "country": "Malmoe",
+    "latitude": 55.6058691,
+    "longitude": 13.0007315
+  },
+  {
+    "city": "Libya",
+    "country": "Mizdah",
+    "latitude": 31.4333333,
+    "longitude": 12.9833336
+  },
+  {
+    "city": "Sweden",
+    "country": "Boras",
+    "latitude": 57.7210078,
+    "longitude": 12.9401026
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Ostrov",
+    "latitude": 50.3059247,
+    "longitude": 12.9390678
+  },
+  {
+    "city": "Nigeria",
+    "country": "Bilma",
+    "latitude": 18.6866667,
+    "longitude": 12.9191666
+  },
+  {
+    "city": "Germany",
+    "country": "Chemnitz",
+    "latitude": 50.8333333,
+    "longitude": 12.916667
+  },
+  {
+    "city": "Italy",
+    "country": "Latina",
+    "latitude": 41.466142,
+    "longitude": 12.9043007
+  },
+  {
+    "city": "Italy",
+    "country": "Pesaro",
+    "latitude": 43.903566,
+    "longitude": 12.8902559
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Karlovy Vary",
+    "latitude": 50.2327126,
+    "longitude": 12.87117
+  },
+  {
+    "city": "Gabon",
+    "country": "Makokou",
+    "latitude": 0.5666667,
+    "longitude": 12.8666668
+  },
+  {
+    "city": "Sweden",
+    "country": "Angelholm",
+    "latitude": 56.2428014,
+    "longitude": 12.8621902
+  },
+  {
+    "city": "Sweden",
+    "country": "Halmstad",
+    "latitude": 56.6744622,
+    "longitude": 12.856761
+  },
+  {
+    "city": "Austria",
+    "country": "Saalfelden am Steinernen Meer",
+    "latitude": 47.4166667,
+    "longitude": 12.8500004
+  },
+  {
+    "city": "Sweden",
+    "country": "Landskrona",
+    "latitude": 55.8707964,
+    "longitude": 12.830164
+  },
+  {
+    "city": "Austria",
+    "country": "Zell am See",
+    "latitude": 47.3166667,
+    "longitude": 12.7833328
+  },
+  {
+    "city": "Libya",
+    "country": "Awbari",
+    "latitude": 26.5833333,
+    "longitude": 12.7666664
+  },
+  {
+    "city": "Austria",
+    "country": "Lienz",
+    "latitude": 46.8311111,
+    "longitude": 12.7597218
+  },
+  {
+    "city": "Italy",
+    "country": "Guidonia",
+    "latitude": 42.0166667,
+    "longitude": 12.75
+  },
+  {
+    "city": "Italy",
+    "country": "Guidonia Montecelio",
+    "latitude": 41.993622,
+    "longitude": 12.7223806
+  },
+  {
+    "city": "Libya",
+    "country": "Harat az Zawiyah",
+    "latitude": 32.7630556,
+    "longitude": 12.7150002
+  },
+  {
+    "city": "Gabon",
+    "country": "Lastoursville",
+    "latitude": -0.8166667,
+    "longitude": 12.6999998
+  },
+  {
+    "city": "Sweden",
+    "country": "Kinna",
+    "latitude": 57.5072824,
+    "longitude": 12.6946268
+  },
+  {
+    "city": "Sweden",
+    "country": "Helsingborg",
+    "latitude": 56.0467266,
+    "longitude": 12.6943693
+  },
+  {
+    "city": "Denmark",
+    "country": "Dragor",
+    "latitude": 55.5945464,
+    "longitude": 12.666378
+  },
+  {
+    "city": "Italy",
+    "country": "Terni",
+    "latitude": 42.567133,
+    "longitude": 12.6498709
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Sokolov",
+    "latitude": 50.1812979,
+    "longitude": 12.6401024
+  },
+  {
+    "city": "Cameroon",
+    "country": "Tibati",
+    "latitude": 6.4666667,
+    "longitude": 12.6333332
+  },
+  {
+    "city": "Denmark",
+    "country": "Helsingor",
+    "latitude": 56.0360649,
+    "longitude": 12.6136026
+  },
+  {
+    "city": "Nigeria",
+    "country": "Diffa",
+    "latitude": 13.3155556,
+    "longitude": 12.6088886
+  },
+  {
+    "city": "Denmark",
+    "country": "Tarnby",
+    "latitude": 55.6302976,
+    "longitude": 12.6003532
+  },
+  {
+    "city": "Sweden",
+    "country": "Arvika",
+    "latitude": 59.6552818,
+    "longitude": 12.5851822
+  },
+  {
+    "city": "Denmark",
+    "country": "Charlottenlund",
+    "latitude": 55.75,
+    "longitude": 12.583333
+  },
+  {
+    "city": "Italy",
+    "country": "Rimini",
+    "latitude": 44.0633333,
+    "longitude": 12.5808334
+  },
+  {
+    "city": "Libya",
+    "country": "Surman",
+    "latitude": 32.7563889,
+    "longitude": 12.5749998
+  },
+  {
+    "city": "Denmark",
+    "country": "Copenhagen",
+    "latitude": 55.6776812,
+    "longitude": 12.5709343
+  },
+  {
+    "city": "Denmark",
+    "country": "Espergaerde",
+    "latitude": 56,
+    "longitude": 12.5666666
+  },
+  {
+    "city": "Sweden",
+    "country": "Hoganas",
+    "latitude": 56.1997096,
+    "longitude": 12.5579519
+  },
+  {
+    "city": "Denmark",
+    "country": "Trorod",
+    "latitude": 55.8333333,
+    "longitude": 12.5500002
+  },
+  {
+    "city": "Denmark",
+    "country": "Frederiksberg",
+    "latitude": 55.679375,
+    "longitude": 12.5346279
+  },
+  {
+    "city": "Denmark",
+    "country": "Humlebaek",
+    "latitude": 55.9618012,
+    "longitude": 12.5341024
+  },
+  {
+    "city": "Sweden",
+    "country": "Alingsas",
+    "latitude": 57.9303341,
+    "longitude": 12.5334473
+  },
+  {
+    "city": "Libya",
+    "country": "Yafran",
+    "latitude": 32.0630556,
+    "longitude": 12.5269442
+  },
+  {
+    "city": "Denmark",
+    "country": "Niva",
+    "latitude": 55.9333333,
+    "longitude": 12.5166664
+  },
+  {
+    "city": "Italy",
+    "country": "Trapani",
+    "latitude": 38.015843,
+    "longitude": 12.510767
+  },
+  {
+    "city": "Denmark",
+    "country": "Kongens Lyngby",
+    "latitude": 55.7704419,
+    "longitude": 12.5037823
+  },
+  {
+    "city": "Denmark",
+    "country": "Horsholm",
+    "latitude": 55.8833333,
+    "longitude": 12.5
+  },
+  {
+    "city": "Germany",
+    "country": "Zwickau",
+    "latitude": 50.7333333,
+    "longitude": 12.5
+  },
+  {
+    "city": "Sweden",
+    "country": "Falkenberg",
+    "latitude": 56.9055168,
+    "longitude": 12.4911757
+  },
+  {
+    "city": "Italy",
+    "country": "Marsala",
+    "latitude": 37.82124,
+    "longitude": 12.4896307
+  },
+  {
+    "city": "Libya",
+    "country": "Sabratah",
+    "latitude": 32.7919444,
+    "longitude": 12.4847221
+  },
+  {
+    "city": "Italy",
+    "country": "Rome",
+    "latitude": 41.9,
+    "longitude": 12.4833336
+  },
+  {
+    "city": "Niger",
+    "country": "Yola",
+    "latitude": 9.2,
+    "longitude": 12.4833336
   }
 ]
