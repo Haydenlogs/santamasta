@@ -40384,5 +40384,101 @@
     "country": "Sion",
     "latitude": 46.2333333,
     "longitude": 7.3499999
+  },
+  {
+    "city": "Niger",
+    "country": "Okigwi",
+    "latitude": 5.8166667,
+    "longitude": 7.3499999
+  },
+  {
+    "city": "Germany",
+    "country": "Witten",
+    "latitude": 51.4333333,
+    "longitude": 7.3333335
+  },
+  {
+    "city": "France",
+    "country": "Mulhouse",
+    "latitude": 47.75,
+    "longitude": 7.3333335
+  },
+  {
+    "city": "Niger",
+    "country": "Funtua",
+    "latitude": 11.5333333,
+    "longitude": 7.3166666
+  },
+  {
+    "city": "France",
+    "country": "Nice",
+    "latitude": 43.7031261,
+    "longitude": 7.2660828
+  },
+  {
+    "city": "Switzerland",
+    "country": "Biel",
+    "latitude": 47.1324032,
+    "longitude": 7.2441101
+  },
+  {
+    "city": "Germany",
+    "country": "Herne",
+    "latitude": 51.55,
+    "longitude": 7.2166667
+  },
+  {
+    "city": "Germany",
+    "country": "Bochum",
+    "latitude": 51.4833333,
+    "longitude": 7.2166667
+  },
+  {
+    "city": "Germany",
+    "country": "Recklinghausen",
+    "latitude": 51.6166667,
+    "longitude": 7.1999998
+  },
+  {
+    "city": "Germany",
+    "country": "Remscheid",
+    "latitude": 51.1833333,
+    "longitude": 7.1999998
+  },
+  {
+    "city": "Germany",
+    "country": "Wuppertal",
+    "latitude": 51.2666667,
+    "longitude": 7.1833334
+  },
+  {
+    "city": "Niger",
+    "country": "Abuja",
+    "latitude": 9.1758333,
+    "longitude": 7.1808333
+  },
+  {
+    "city": "Nigeria",
+    "country": "Madarounfa",
+    "latitude": 13.3075,
+    "longitude": 7.1574998
+  },
+  {
+    "city": "Switzerland",
+    "country": "Fribourg",
+    "latitude": 46.8,
+    "longitude": 7.1500001
+  },
+  {
+    "city": "Germany",
+    "country": "Bergisch Gladbach",
+    "latitude": 50.9833333,
+    "longitude": 7.1333332
+  },
+  {
+    "city": "Germany",
+    "country": "Gelsenkirchen-Alt",
+    "latitude": 51.5166667,
+    "longitude": 7.1166668
   }
 ]
