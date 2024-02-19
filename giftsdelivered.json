@@ -32080,5 +32080,527 @@
     "country": "Josipovac",
     "latitude": 45.5827778,
     "longitude": 18.5813885
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Pale",
+    "latitude": 43.8161111,
+    "longitude": 18.5694447
+  },
+  {
+    "city": "Croatia",
+    "country": "Cepin",
+    "latitude": 45.5236111,
+    "longitude": 18.5633335
+  },
+  {
+    "city": "Poland",
+    "country": "Gdynia",
+    "latitude": 54.5,
+    "longitude": 18.5499992
+  },
+  {
+    "city": "Poland",
+    "country": "Starogard Gdanski",
+    "latitude": 53.9666667,
+    "longitude": 18.5499992
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Bimbo",
+    "latitude": 4.3,
+    "longitude": 18.5499992
+  },
+  {
+    "city": "Poland",
+    "country": "Rybnik",
+    "latitude": 50.1018634,
+    "longitude": 18.5466385
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Karvina",
+    "latitude": 49.8540031,
+    "longitude": 18.5416889
+  },
+  {
+    "city": "Hungary",
+    "country": "Bonyhad",
+    "latitude": 46.3,
+    "longitude": 18.5333328
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Banovici",
+    "latitude": 44.4052778,
+    "longitude": 18.5241661
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Srebrenik",
+    "latitude": 44.7077778,
+    "longitude": 18.4880562
+  },
+  {
+    "city": "South Africa",
+    "country": "Atlantis",
+    "latitude": -33.5666667,
+    "longitude": 18.4833336
+  },
+  {
+    "city": "Poland",
+    "country": "Wodzislaw Slaski",
+    "latitude": 50,
+    "longitude": 18.4666672
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Mionica",
+    "latitude": 44.8672222,
+    "longitude": 18.4630547
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Havirov",
+    "latitude": 49.7798448,
+    "longitude": 18.4368801
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Orlova",
+    "latitude": 49.8452659,
+    "longitude": 18.4301109
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Bileca",
+    "latitude": 42.8719444,
+    "longitude": 18.4297218
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Gradacac",
+    "latitude": 44.8808333,
+    "longitude": 18.4269447
+  },
+  {
+    "city": "Croatia",
+    "country": "Valpovo",
+    "latitude": 45.6608333,
+    "longitude": 18.4186115
+  },
+  {
+    "city": "Hungary",
+    "country": "Tatabanya",
+    "latitude": 47.5666667,
+    "longitude": 18.416666
+  },
+  {
+    "city": "South Africa",
+    "country": "Cape Town",
+    "latitude": -33.9166667,
+    "longitude": 18.416666
+  },
+  {
+    "city": "Hungary",
+    "country": "Szekesfehervar",
+    "latitude": 47.1899458,
+    "longitude": 18.4103394
+  },
+  {
+    "city": "Croatia",
+    "country": "Belisce",
+    "latitude": 45.6802778,
+    "longitude": 18.4058342
+  },
+  {
+    "city": "Poland",
+    "country": "Rumia",
+    "latitude": 54.5833333,
+    "longitude": 18.3999996
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Sarajevo",
+    "latitude": 43.85,
+    "longitude": 18.3833332
+  },
+  {
+    "city": "Chad",
+    "country": "Sarh",
+    "latitude": 9.15,
+    "longitude": 18.3833332
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Bohumin",
+    "latitude": 49.9041062,
+    "longitude": 18.3575459
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Frydek-Mistek",
+    "latitude": 49.6833333,
+    "longitude": 18.3500004
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Frydek-Mistek",
+    "latitude": 49.6853662,
+    "longitude": 18.3483772
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Vogosca",
+    "latitude": 43.9019444,
+    "longitude": 18.3480549
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Trebinje",
+    "latitude": 42.7119444,
+    "longitude": 18.3441658
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Stary Bohumin",
+    "latitude": 49.9166667,
+    "longitude": 18.333334
+  },
+  {
+    "city": "Chad",
+    "country": "Ati",
+    "latitude": 13.2166667,
+    "longitude": 18.333334
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Vares",
+    "latitude": 44.1644444,
+    "longitude": 18.3283329
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Odzak",
+    "latitude": 45.0111111,
+    "longitude": 18.3266659
+  },
+  {
+    "city": "Hungary",
+    "country": "Tata",
+    "latitude": 47.65,
+    "longitude": 18.3166676
+  },
+  {
+    "city": "Hungary",
+    "country": "Oroszlany",
+    "latitude": 47.4833333,
+    "longitude": 18.3166676
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Gracanica",
+    "latitude": 44.7033333,
+    "longitude": 18.3097229
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Batangafo",
+    "latitude": 7.3,
+    "longitude": 18.2999992
+  },
+  {
+    "city": "Sweden",
+    "country": "Akersberga",
+    "latitude": 59.4794352,
+    "longitude": 18.2996712
+  },
+  {
+    "city": "Sweden",
+    "country": "Visby",
+    "latitude": 57.6408932,
+    "longitude": 18.2960243
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Bouca",
+    "latitude": 6.5,
+    "longitude": 18.2833328
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Ostrava",
+    "latitude": 49.8346452,
+    "longitude": 18.2820435
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Ilijas",
+    "latitude": 43.9508333,
+    "longitude": 18.270834
+  },
+  {
+    "city": "Poland",
+    "country": "Inowroclaw",
+    "latitude": 52.8,
+    "longitude": 18.2666664
+  },
+  {
+    "city": "Poland",
+    "country": "Konin",
+    "latitude": 52.2166667,
+    "longitude": 18.2666664
+  },
+  {
+    "city": "Hungary",
+    "country": "Komlo",
+    "latitude": 46.2,
+    "longitude": 18.2666664
+  },
+  {
+    "city": "Poland",
+    "country": "Wejherowo",
+    "latitude": 54.6,
+    "longitude": 18.2333336
+  },
+  {
+    "city": "Hungary",
+    "country": "Pecs",
+    "latitude": 46.0833333,
+    "longitude": 18.2333336
+  },
+  {
+    "city": "Chad",
+    "country": "Bitkine",
+    "latitude": 11.9816667,
+    "longitude": 18.2127781
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Hadzici",
+    "latitude": 43.8222222,
+    "longitude": 18.2066669
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Kovaci",
+    "latitude": 44.4491667,
+    "longitude": 18.2049999
+  },
+  {
+    "city": "Poland",
+    "country": "Kedzierzyn-Kozle",
+    "latitude": 50.35,
+    "longitude": 18.2000008
+  },
+  {
+    "city": "Poland",
+    "country": "Raciborz",
+    "latitude": 50.0833333,
+    "longitude": 18.2000008
+  },
+  {
+    "city": "Hungary",
+    "country": "Mor",
+    "latitude": 47.3833333,
+    "longitude": 18.2000008
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Visoko",
+    "latitude": 43.9888889,
+    "longitude": 18.1780548
+  },
+  {
+    "city": "Italy",
+    "country": "Lecce",
+    "latitude": 40.357027,
+    "longitude": 18.1720238
+  },
+  {
+    "city": "Sweden",
+    "country": "Nacka",
+    "latitude": 59.310527,
+    "longitude": 18.1637154
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Gostovici",
+    "latitude": 44.415,
+    "longitude": 18.1583328
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Zavidovici",
+    "latitude": 44.4458333,
+    "longitude": 18.1497231
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Koprivnice",
+    "latitude": 49.5994713,
+    "longitude": 18.1448002
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Roznov pod Radhostem",
+    "latitude": 49.4585271,
+    "longitude": 18.1430206
+  },
+  {
+    "city": "Sweden",
+    "country": "Lidingo",
+    "latitude": 59.3666667,
+    "longitude": 18.1333332
+  },
+  {
+    "city": "Hungary",
+    "country": "Varpalota",
+    "latitude": 47.2,
+    "longitude": 18.1333332
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Kakanj",
+    "latitude": 44.1272222,
+    "longitude": 18.1180553
+  },
+  {
+    "city": "Hungary",
+    "country": "Komarom",
+    "latitude": 47.7333333,
+    "longitude": 18.1166668
+  },
+  {
+    "city": "Hungary",
+    "country": "Dombovar",
+    "latitude": 46.3833333,
+    "longitude": 18.1166668
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Boali",
+    "latitude": 4.8,
+    "longitude": 18.1166668
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Nevesinje",
+    "latitude": 43.2586111,
+    "longitude": 18.1133327
+  },
+  {
+    "city": "Sweden",
+    "country": "Vasterhaninge",
+    "latitude": 59.1166667,
+    "longitude": 18.1000004
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Maglaj",
+    "latitude": 44.5491667,
+    "longitude": 18.0966663
+  },
+  {
+    "city": "Croatia",
+    "country": "Dubrovnik",
+    "latitude": 42.6480701,
+    "longitude": 18.092165
+  },
+  {
+    "city": "Croatia",
+    "country": "Nasice",
+    "latitude": 45.4886111,
+    "longitude": 18.0877781
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Doboj",
+    "latitude": 44.7347222,
+    "longitude": 18.0877781
+  },
+  {
+    "city": "Poland",
+    "country": "Kalisz",
+    "latitude": 51.75,
+    "longitude": 18.083334
+  },
+  {
+    "city": "Sweden",
+    "country": "Vallentuna",
+    "latitude": 59.5343615,
+    "longitude": 18.0775852
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Kiseljak",
+    "latitude": 43.9425,
+    "longitude": 18.0766659
+  },
+  {
+    "city": "Sweden",
+    "country": "Taby",
+    "latitude": 59.443897,
+    "longitude": 18.0687218
+  },
+  {
+    "city": "Sweden",
+    "country": "Stockholm",
+    "latitude": 59.3325765,
+    "longitude": 18.0649033
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Gromiljak",
+    "latitude": 43.9666667,
+    "longitude": 18.0530548
+  },
+  {
+    "city": "Hungary",
+    "country": "Siofok",
+    "latitude": 46.9,
+    "longitude": 18.0499992
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Zepce",
+    "latitude": 44.4266667,
+    "longitude": 18.0377769
+  },
+  {
+    "city": "Croatia",
+    "country": "Podvinje",
+    "latitude": 45.1902778,
+    "longitude": 18.0269451
+  },
+  {
+    "city": "Croatia",
+    "country": "Slavonski Brod",
+    "latitude": 45.1602778,
+    "longitude": 18.0155563
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Tesanjka",
+    "latitude": 44.6730556,
+    "longitude": 18.0127773
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Novy Jicin",
+    "latitude": 49.5943755,
+    "longitude": 18.0102749
+  },
+  {
+    "city": "Poland",
+    "country": "Bydgoszcz",
+    "latitude": 53.15,
+    "longitude": 18
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Mbaiki",
+    "latitude": 3.8833333,
+    "longitude": 18
   }
 ]
