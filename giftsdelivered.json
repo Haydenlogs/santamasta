@@ -32602,5 +32602,527 @@
     "country": "Mbaiki",
     "latitude": 3.8833333,
     "longitude": 18
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Vsetin",
+    "latitude": 49.3387089,
+    "longitude": 17.996191
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Bosanski Brod",
+    "latitude": 45.1375,
+    "longitude": 17.9897213
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Tesanj",
+    "latitude": 44.6116667,
+    "longitude": 17.9872227
+  },
+  {
+    "city": "Sweden",
+    "country": "Huddinge",
+    "latitude": 59.2370497,
+    "longitude": 17.9819164
+  },
+  {
+    "city": "Sweden",
+    "country": "Sundbyberg",
+    "latitude": 59.3612775,
+    "longitude": 17.9711437
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Valasske Mezirici",
+    "latitude": 49.4718053,
+    "longitude": 17.9711266
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Konjic",
+    "latitude": 43.6519444,
+    "longitude": 17.9613895
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Stolac",
+    "latitude": 43.0844444,
+    "longitude": 17.9575005
+  },
+  {
+    "city": "Sweden",
+    "country": "Sollentuna",
+    "latitude": 59.4280429,
+    "longitude": 17.9509315
+  },
+  {
+    "city": "Poland",
+    "country": "Opole",
+    "latitude": 50.6666667,
+    "longitude": 17.9500008
+  },
+  {
+    "city": "South Africa",
+    "country": "Saldanha",
+    "latitude": -33.0166667,
+    "longitude": 17.9500008
+  },
+  {
+    "city": "Sweden",
+    "country": "Nynashamn",
+    "latitude": 58.9033657,
+    "longitude": 17.9479256
+  },
+  {
+    "city": "Sweden",
+    "country": "Kista",
+    "latitude": 59.4031612,
+    "longitude": 17.9447937
+  },
+  {
+    "city": "Sweden",
+    "country": "Harnosand",
+    "latitude": 62.6322752,
+    "longitude": 17.9379387
+  },
+  {
+    "city": "Italy",
+    "country": "Brindisi",
+    "latitude": 40.627731,
+    "longitude": 17.9368153
+  },
+  {
+    "city": "Chad",
+    "country": "Melfi",
+    "latitude": 11.0597222,
+    "longitude": 17.9330559
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Zeljezno Polje",
+    "latitude": 44.4083333,
+    "longitude": 17.9319439
+  },
+  {
+    "city": "Hungary",
+    "country": "Veszprem",
+    "latitude": 47.1,
+    "longitude": 17.916666
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Derventa",
+    "latitude": 44.9772222,
+    "longitude": 17.9102783
+  },
+  {
+    "city": "Sweden",
+    "country": "Upplands-Vasby",
+    "latitude": 59.5204002,
+    "longitude": 17.9082718
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Zenica",
+    "latitude": 44.2013889,
+    "longitude": 17.9063892
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Opava",
+    "latitude": 49.9386635,
+    "longitude": 17.9025707
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Fojnica",
+    "latitude": 43.9625,
+    "longitude": 17.8983326
+  },
+  {
+    "city": "Croatia",
+    "country": "Orahovica",
+    "latitude": 45.54,
+    "longitude": 17.8847218
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Potoci",
+    "latitude": 43.4086111,
+    "longitude": 17.8786106
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Crnici",
+    "latitude": 43.1288889,
+    "longitude": 17.8666668
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Teslic",
+    "latitude": 44.6063889,
+    "longitude": 17.8597221
+  },
+  {
+    "city": "Sweden",
+    "country": "Marsta",
+    "latitude": 59.6166667,
+    "longitude": 17.8500004
+  },
+  {
+    "city": "Sweden",
+    "country": "Jakobsberg",
+    "latitude": 59.4226784,
+    "longitude": 17.8350811
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Kalenderovci Donji",
+    "latitude": 44.945,
+    "longitude": 17.833889
+  },
+  {
+    "city": "Sweden",
+    "country": "Tumba",
+    "latitude": 59.1985759,
+    "longitude": 17.8331718
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Blatnica",
+    "latitude": 44.4863889,
+    "longitude": 17.8233337
+  },
+  {
+    "city": "Poland",
+    "country": "Ostrow Wielkopolski",
+    "latitude": 51.65,
+    "longitude": 17.8166676
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Mostar",
+    "latitude": 43.3433333,
+    "longitude": 17.8080559
+  },
+  {
+    "city": "Croatia",
+    "country": "Pleternica",
+    "latitude": 45.2886111,
+    "longitude": 17.8063889
+  },
+  {
+    "city": "Hungary",
+    "country": "Kaposvar",
+    "latitude": 46.3666667,
+    "longitude": 17.7999992
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Vitez",
+    "latitude": 44.1544444,
+    "longitude": 17.7902775
+  },
+  {
+    "city": "Chad",
+    "country": "Moissala",
+    "latitude": 8.35,
+    "longitude": 17.7666664
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Jablanica",
+    "latitude": 43.6602778,
+    "longitude": 17.7616673
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Hranice",
+    "latitude": 49.5479644,
+    "longitude": 17.7346916
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Krnov",
+    "latitude": 50.0896685,
+    "longitude": 17.703846
+  },
+  {
+    "city": "Croatia",
+    "country": "Slatina",
+    "latitude": 45.7033333,
+    "longitude": 17.7027779
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Citluk",
+    "latitude": 43.2286111,
+    "longitude": 17.7008324
+  },
+  {
+    "city": "Croatia",
+    "country": "Pozega",
+    "latitude": 45.3402778,
+    "longitude": 17.6852779
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Capljina",
+    "latitude": 43.1213889,
+    "longitude": 17.6844444
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Travnik",
+    "latitude": 44.2266667,
+    "longitude": 17.6705551
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Zlin",
+    "latitude": 49.2166667,
+    "longitude": 17.666666
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Prnjavor",
+    "latitude": 44.8702778,
+    "longitude": 17.6627769
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Novi Travnik",
+    "latitude": 44.1711111,
+    "longitude": 17.6574993
+  },
+  {
+    "city": "Croatia",
+    "country": "Metkovic",
+    "latitude": 43.0541667,
+    "longitude": 17.6483326
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Uhersky Brod",
+    "latitude": 49.0251299,
+    "longitude": 17.64715
+  },
+  {
+    "city": "Sweden",
+    "country": "Uppsala",
+    "latitude": 59.8585015,
+    "longitude": 17.6454277
+  },
+  {
+    "city": "Hungary",
+    "country": "Gyor",
+    "latitude": 47.6833322,
+    "longitude": 17.6351166
+  },
+  {
+    "city": "Sweden",
+    "country": "Soedertaelje",
+    "latitude": 59.1955377,
+    "longitude": 17.625246
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Prozor",
+    "latitude": 43.8222222,
+    "longitude": 17.6091671
+  },
+  {
+    "city": "Poland",
+    "country": "Gniezno",
+    "latitude": 52.55,
+    "longitude": 17.6000004
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Siroki Brijeg",
+    "latitude": 43.3833333,
+    "longitude": 17.5927773
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Gornji Vakuf",
+    "latitude": 43.9380556,
+    "longitude": 17.5883331
+  },
+  {
+    "city": "Hungary",
+    "country": "Ajka",
+    "latitude": 47.1,
+    "longitude": 17.5666676
+  },
+  {
+    "city": "Chad",
+    "country": "Koumra",
+    "latitude": 8.9166667,
+    "longitude": 17.5499992
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Ljubuski",
+    "latitude": 43.1969444,
+    "longitude": 17.5450001
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Otrokovice",
+    "latitude": 49.2093401,
+    "longitude": 17.5394421
+  },
+  {
+    "city": "Sweden",
+    "country": "Balsta",
+    "latitude": 59.5670983,
+    "longitude": 17.5278072
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Srbac",
+    "latitude": 45.0977778,
+    "longitude": 17.5249996
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Otrokovice",
+    "latitude": 49.2166667,
+    "longitude": 17.5166664
+  },
+  {
+    "city": "Angola",
+    "country": "Camacupa",
+    "latitude": -12.0166667,
+    "longitude": 17.4833336
+  },
+  {
+    "city": "Croatia",
+    "country": "Blato",
+    "latitude": 42.7625,
+    "longitude": 17.4822216
+  },
+  {
+    "city": "Hungary",
+    "country": "Papa",
+    "latitude": 47.3333333,
+    "longitude": 17.4666672
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Boda",
+    "latitude": 4.3166667,
+    "longitude": 17.4666672
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Bruntal",
+    "latitude": 49.9884449,
+    "longitude": 17.4647026
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Uherske Hradiste",
+    "latitude": 49.0697498,
+    "longitude": 17.4596863
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Prerov",
+    "latitude": 49.455109,
+    "longitude": 17.4509029
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Bugojno",
+    "latitude": 44.0572222,
+    "longitude": 17.4508324
+  },
+  {
+    "city": "Central African Republic",
+    "country": "Bossangoa",
+    "latitude": 6.4833333,
+    "longitude": 17.4500008
+  },
+  {
+    "city": "Hungary",
+    "country": "Tapolca",
+    "latitude": 46.8833333,
+    "longitude": 17.4333324
+  },
+  {
+    "city": "Chad",
+    "country": "Aozou",
+    "latitude": 21.8375,
+    "longitude": 17.4274998
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Donji Vakuf",
+    "latitude": 44.1436111,
+    "longitude": 17.3999996
+  },
+  {
+    "city": "Czech Republic",
+    "country": "Kromeriz",
+    "latitude": 49.2978514,
+    "longitude": 17.393116
+  },
+  {
+    "city": "Croatia",
+    "country": "Virovitica",
+    "latitude": 45.8319444,
+    "longitude": 17.3838882
+  },
+  {
+    "city": "Croatia",
+    "country": "Nova Gradiska",
+    "latitude": 45.255,
+    "longitude": 17.3830547
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Skender Vakuf",
+    "latitude": 44.4908333,
+    "longitude": 17.3775005
+  },
+  {
+    "city": "Chad",
+    "country": "Goundi",
+    "latitude": 9.3666667,
+    "longitude": 17.3666668
+  },
+  {
+    "city": "Angola",
+    "country": "Chissamba",
+    "latitude": -12.1666667,
+    "longitude": 17.333334
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Celinac",
+    "latitude": 44.7227778,
+    "longitude": 17.3277779
+  },
+  {
+    "city": "Bosnia and Herzegovina",
+    "country": "Divicani",
+    "latitude": 44.3666667,
+    "longitude": 17.3261108
+  },
+  {
+    "city": "Poland",
+    "country": "Nysa Zamlmie",
+    "latitude": 50.4666667,
+    "longitude": 17.3166676
+  },
+  {
+    "city": "Sweden",
+    "country": "Sundsvall",
+    "latitude": 62.3912893,
+    "longitude": 17.3062992
   }
 ]
