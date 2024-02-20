@@ -76,23 +76,23 @@ function executeTask(taskUrl) {
         saveTrackerStatusToFile(true);
     } else if (taskUrl === "/message1set") {
         // Perform actions for setting message 1
-        fs.writeFile("message.txt", "Easter Bunny is Getting Ready to Launch.", (err) => {
+        fs.writeFile("message.txt", "Weather on Easter Island is indicating perfect weather for traveling.", (err) => {
             if (err) {
                 console.error("Error setting message 1:", err);
             } else {
                 sendTrackerEvent({
-                    messageupdate: "Easter Bunny is Getting Ready to Launch."
+                    messageupdate: "Weather on Easter Island is indicating perfect weather for traveling."
                 });
             }
         });
     } else if (taskUrl === "/message2set") {
         // Perform actions for setting message 2
-        fs.writeFile("message.txt", "Easter Bunny is expected to launch within the hour.", (err) => {
+        fs.writeFile("message.txt", "Are you ready? Easter Bunny is expected to launch within the hour.", (err) => {
             if (err) {
                 console.error("Error setting message 2:", err);
             } else {
                 sendTrackerEvent({
-                    messageupdate: "Easter Bunny is expected to launch within the hour."
+                    messageupdate: "Are you ready? Easter Bunny is expected to launch within the hour."
                 });
             }
         });
