@@ -26,6 +26,37 @@ const taskIntervals = {
     "/starttracker": (13 * 60 * 60 * 1000) + (27 * 60 * 1000) // 1:27:00 PM
 };
 
+const countdownDate = new Date("2024-03-31T00:00:00Z");
+
+// Endpoint to set the countdown date
+app.post("/setcountdowndate", (req, res) => {
+  // Assuming the client sends the countdown date in the request body
+  const { date } = req.body;
+
+  // Validate the date format (you may need to adjust this based on your requirements)
+  if (isValidDate(date)) {
+    countdownDate = new Date(date);
+    res.send("Countdown date set successfully.");
+  } else {
+    res.status(400).send("Invalid date format. Please provide a valid date.");
+  }
+});
+
+// Function to validate date format
+function isValidDate(dateString) {
+  // Regular expression to match date format (YYYY-MM-DD)
+  const datePattern = /^\d{4}-\d{2}-\d{2}$/;
+  return dateString.match(datePattern);
+}
+
+// Endpoint to get the countdown date
+app.get("/getcountdowndate", (req, res) => {
+  if (countdownDate) {
+    res.send(countdownDate.toISOString()); // Sending the date in ISO string format
+  } else {
+    res.status(404).send("Countdown date not set.");
+  }
+});
 
 let isscheduled = true;
 // Function to execute a task
