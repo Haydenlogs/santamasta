@@ -508,5 +508,11 @@
     "country": "Taipa",
     "latitude": -34.9833333,
     "longitude": 173.4666595
+  },
+  {
+    "city": "Kiribati",
+    "country": "Rawannawi",
+    "latitude": 2.05,
+    "longitude": 173.2666626
   }
 ]
