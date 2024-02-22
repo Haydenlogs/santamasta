@@ -294,14 +294,14 @@ app.get("/message1set", async (req, res) => {
   try {
     await fs.writeFile(
       "message.txt",
-      "Easter Bunny is Getting Ready to Launch.",
+      "Weather on Easter Island is indicating perfect weather for traveling.",
       (err) => {
         if (err) {
           res.status(500).send("Internal Server Error");
         } else {
           res.send("Message 1 set.");
           sendTrackerEvent({
-            messageupdate: "Easter Bunny is Getting Ready to Launch.",
+            messageupdate: "Weather on Easter Island is indicating perfect weather for traveling.",
           });
         }
       }
@@ -322,7 +322,7 @@ app.get("/message2set", async (req, res) => {
   try {
     await fs.writeFile(
       "message.txt",
-      "Easter Bunny is expected to launch within the hour.",
+      "Are you ready? Easter Bunny is expected to launch within the hour.",
       (err) => {
         if (err) {
           res.status(500).send("Internal Server Error");
@@ -330,7 +330,7 @@ app.get("/message2set", async (req, res) => {
           res.send("Message 2 set.");
           sendTrackerEvent({
             messageupdate:
-              "Easter Bunny is expected to launch within the hour.",
+              "Are you ready? Easter Bunny is expected to launch within the hour.",
           });
         }
       }

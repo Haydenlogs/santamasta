@@ -59,6 +59,7 @@
       <button onclick="postmessage4()">Message 4</button>
       <button onclick="resetbaskets()">Reset Baskets</button>
       <button onclick="refreshpage()">Open Refreshpage</button>
+      <button onclick="refreshallpages()">Refresh All (5 Seconds)</button>
     </div>
 
     <script>
@@ -152,6 +153,16 @@ function refreshpage() {
 
       function endTracker() {
         fetch("/endtracker")
+          .then((response) => {
+            if (!response.ok) {
+              throw new Error("Failed to end tracker");
+            }
+            console.log("Tracker ended successfully");
+          })
+          .catch((error) => console.error(error));
+      }
+      function refreshallpages() {
+        fetch("/refreshall")
           .then((response) => {
             if (!response.ok) {
               throw new Error("Failed to end tracker");
