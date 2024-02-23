@@ -42886,5 +42886,533 @@
     "country": "Nimes",
     "latitude": 43.8333333,
     "longitude": 4.3499999
+  },
+  {
+    "city": "Niger",
+    "country": "Gbongan",
+    "latitude": 7.4666667,
+    "longitude": 4.3499999
+  },
+  {
+    "city": "Netherlands",
+    "country": "Vlaardingen",
+    "latitude": 51.9125,
+    "longitude": 4.3416672
+  },
+  {
+    "city": "Belgium",
+    "country": "Nivelles",
+    "latitude": 50.6,
+    "longitude": 4.3333335
+  },
+  {
+    "city": "Niger",
+    "country": "Inisa",
+    "latitude": 7.85,
+    "longitude": 4.3333335
+  },
+  {
+    "city": "Netherlands",
+    "country": "Spijkenisse",
+    "latitude": 51.845,
+    "longitude": 4.3291669
+  },
+  {
+    "city": "Netherlands",
+    "country": "Rijswijk",
+    "latitude": 52.0363367,
+    "longitude": 4.3250084
+  },
+  {
+    "city": "Niger",
+    "country": "Ejigbo",
+    "latitude": 7.9,
+    "longitude": 4.3166666
+  },
+  {
+    "city": "Belgium",
+    "country": "Beersel",
+    "latitude": 50.7666667,
+    "longitude": 4.3000002
+  },
+  {
+    "city": "Netherlands",
+    "country": "The Hague",
+    "latitude": 52.076667,
+    "longitude": 4.2986112
+  },
+  {
+    "city": "Netherlands",
+    "country": "Bergen op Zoom",
+    "latitude": 51.495,
+    "longitude": 4.291667
+  },
+  {
+    "city": "Belgium",
+    "country": "Dilbeek",
+    "latitude": 50.85,
+    "longitude": 4.2666669
+  },
+  {
+    "city": "Algeria",
+    "country": "Timizart",
+    "latitude": 36.8,
+    "longitude": 4.2666669
+  },
+  {
+    "city": "Niger",
+    "country": "Modakeke",
+    "latitude": 7.3833333,
+    "longitude": 4.2666669
+  },
+  {
+    "city": "Netherlands",
+    "country": "Maassluis",
+    "latitude": 51.923333,
+    "longitude": 4.25
+  },
+  {
+    "city": "Belgium",
+    "country": "Beveren",
+    "latitude": 51.2166667,
+    "longitude": 4.25
+  },
+  {
+    "city": "Belgium",
+    "country": "Sint-Pieters-Leeuw",
+    "latitude": 50.7833333,
+    "longitude": 4.2333331
+  },
+  {
+    "city": "Belgium",
+    "country": "Halle",
+    "latitude": 50.7410179,
+    "longitude": 4.2324829
+  },
+  {
+    "city": "Belgium",
+    "country": "Temse",
+    "latitude": 51.1333333,
+    "longitude": 4.2166667
+  },
+  {
+    "city": "Belgium",
+    "country": "Manage",
+    "latitude": 50.5,
+    "longitude": 4.2166667
+  },
+  {
+    "city": "Belgium",
+    "country": "Asse",
+    "latitude": 50.9166667,
+    "longitude": 4.1999998
+  },
+  {
+    "city": "Belgium",
+    "country": "Tubize",
+    "latitude": 50.6833333,
+    "longitude": 4.1999998
+  },
+  {
+    "city": "Niger",
+    "country": "Birnin-Kebbi",
+    "latitude": 12.4538889,
+    "longitude": 4.1975002
+  },
+  {
+    "city": "Belgium",
+    "country": "La Louviere",
+    "latitude": 50.4865658,
+    "longitude": 4.187851
+  },
+  {
+    "city": "Niger",
+    "country": "Iwo",
+    "latitude": 7.6333333,
+    "longitude": 4.1833334
+  },
+  {
+    "city": "Niger",
+    "country": "Olupona",
+    "latitude": 7.6,
+    "longitude": 4.1833334
+  },
+  {
+    "city": "Niger",
+    "country": "Ikire",
+    "latitude": 7.35,
+    "longitude": 4.1833334
+  },
+  {
+    "city": "Belgium",
+    "country": "Binche",
+    "latitude": 50.4,
+    "longitude": 4.1666665
+  },
+  {
+    "city": "Belgium",
+    "country": "Sint-Niklaas",
+    "latitude": 51.1666667,
+    "longitude": 4.1333332
+  },
+  {
+    "city": "Belgium",
+    "country": "Hamme",
+    "latitude": 51.1,
+    "longitude": 4.1333332
+  },
+  {
+    "city": "Belgium",
+    "country": "Dendermonde",
+    "latitude": 51.0333333,
+    "longitude": 4.1166668
+  },
+  {
+    "city": "France",
+    "country": "Troyes",
+    "latitude": 48.3,
+    "longitude": 4.0833335
+  },
+  {
+    "city": "Belgium",
+    "country": "Soignies",
+    "latitude": 50.57904,
+    "longitude": 4.0712929
+  },
+  {
+    "city": "Belgium",
+    "country": "Aalst",
+    "latitude": 50.9333333,
+    "longitude": 4.0333333
+  },
+  {
+    "city": "France",
+    "country": "Reims",
+    "latitude": 49.25,
+    "longitude": 4.0333333
+  },
+  {
+    "city": "Nigeria",
+    "country": "Dogondoutchi",
+    "latitude": 13.6461111,
+    "longitude": 4.0288887
+  },
+  {
+    "city": "Belgium",
+    "country": "Ninove",
+    "latitude": 50.8333333,
+    "longitude": 4.0166669
+  },
+  {
+    "city": "Niger",
+    "country": "Ijebu Igbo",
+    "latitude": 6.9666667,
+    "longitude": 4
+  },
+  {
+    "city": "Belgium",
+    "country": "Lokeren",
+    "latitude": 51.1,
+    "longitude": 3.9833333
+  },
+  {
+    "city": "Niger",
+    "country": "Epe",
+    "latitude": 6.5833333,
+    "longitude": 3.9833333
+  },
+  {
+    "city": "Algeria",
+    "country": "Boghni",
+    "latitude": 36.5422222,
+    "longitude": 3.9530556
+  },
+  {
+    "city": "Belgium",
+    "country": "Mons",
+    "latitude": 50.4541296,
+    "longitude": 3.9522886
+  },
+  {
+    "city": "Niger",
+    "country": "Oyo",
+    "latitude": 7.85,
+    "longitude": 3.9333334
+  },
+  {
+    "city": "Niger",
+    "country": "Ijebu Ode",
+    "latitude": 6.8166667,
+    "longitude": 3.9333334
+  },
+  {
+    "city": "Niger",
+    "country": "Ibadan",
+    "latitude": 7.3877778,
+    "longitude": 3.896389
+  },
+  {
+    "city": "Netherlands",
+    "country": "Goes",
+    "latitude": 51.504167,
+    "longitude": 3.8888891
+  },
+  {
+    "city": "Belgium",
+    "country": "Wetteren",
+    "latitude": 51,
+    "longitude": 3.8833332
+  },
+  {
+    "city": "France",
+    "country": "Montpellier",
+    "latitude": 43.6,
+    "longitude": 3.8833332
+  },
+  {
+    "city": "Algeria",
+    "country": "`Ain el Hadjel",
+    "latitude": 35.6758333,
+    "longitude": 3.8822222
+  },
+  {
+    "city": "Belgium",
+    "country": "Geraardsbergen",
+    "latitude": 50.7666667,
+    "longitude": 3.8666668
+  },
+  {
+    "city": "Niger",
+    "country": "Kishi",
+    "latitude": 9.0833333,
+    "longitude": 3.8499999
+  },
+  {
+    "city": "Algeria",
+    "country": "Draa el Mizan",
+    "latitude": 36.535,
+    "longitude": 3.833611
+  },
+  {
+    "city": "Belgium",
+    "country": "Saint-Ghislain",
+    "latitude": 50.4481589,
+    "longitude": 3.8188648
+  },
+  {
+    "city": "Belgium",
+    "country": "Zottegem",
+    "latitude": 50.8666667,
+    "longitude": 3.8
+  },
+  {
+    "city": "Belgium",
+    "country": "Ath",
+    "latitude": 50.6293744,
+    "longitude": 3.7780094
+  },
+  {
+    "city": "Algeria",
+    "country": "Sidi Aissa",
+    "latitude": 35.8913889,
+    "longitude": 3.771111
+  },
+  {
+    "city": "Algeria",
+    "country": "Berriane",
+    "latitude": 32.8333333,
+    "longitude": 3.7666667
+  },
+  {
+    "city": "Belgium",
+    "country": "Merelbeke",
+    "latitude": 51,
+    "longitude": 3.75
+  },
+  {
+    "city": "Niger",
+    "country": "Igboho",
+    "latitude": 8.8333333,
+    "longitude": 3.75
+  },
+  {
+    "city": "Belgium",
+    "country": "Gent",
+    "latitude": 51.05,
+    "longitude": 3.7166667
+  },
+  {
+    "city": "Belgium",
+    "country": "Evergem",
+    "latitude": 51.1166667,
+    "longitude": 3.7
+  },
+  {
+    "city": "Algeria",
+    "country": "Sour el Ghozlane",
+    "latitude": 36.1502778,
+    "longitude": 3.6891668
+  },
+  {
+    "city": "Niger",
+    "country": "Sagamu",
+    "latitude": 6.85,
+    "longitude": 3.6500001
+  },
+  {
+    "city": "Algeria",
+    "country": "Metlili Chaamba",
+    "latitude": 32.2666667,
+    "longitude": 3.6333332
+  },
+  {
+    "city": "Netherlands",
+    "country": "Middelburg",
+    "latitude": 51.5,
+    "longitude": 3.613889
+  },
+  {
+    "city": "Belgium",
+    "country": "Oudenaarde",
+    "latitude": 50.85,
+    "longitude": 3.5999999
+  },
+  {
+    "city": "Belgium",
+    "country": "Ronse",
+    "latitude": 50.75,
+    "longitude": 3.5999999
+  },
+  {
+    "city": "Algeria",
+    "country": "Lakhdaria",
+    "latitude": 36.5622222,
+    "longitude": 3.5944445
+  },
+  {
+    "city": "Netherlands",
+    "country": "Vlissingen",
+    "latitude": 51.4425,
+    "longitude": 3.573611
+  },
+  {
+    "city": "Belgium",
+    "country": "Deinze",
+    "latitude": 50.9833333,
+    "longitude": 3.5333333
+  },
+  {
+    "city": "Algeria",
+    "country": "Messaad",
+    "latitude": 34.1666667,
+    "longitude": 3.5
+  },
+  {
+    "city": "Niger",
+    "country": "Ebute Ikorodu",
+    "latitude": 6.6027778,
+    "longitude": 3.491111
+  },
+  {
+    "city": "Algeria",
+    "country": "Dar Chioukh",
+    "latitude": 34.9,
+    "longitude": 3.4833333
+  },
+  {
+    "city": "Belgium",
+    "country": "Maldegem",
+    "latitude": 51.2166667,
+    "longitude": 3.45
+  },
+  {
+    "city": "Nigeria",
+    "country": "Gaya",
+    "latitude": 11.8877778,
+    "longitude": 3.4466667
+  },
+  {
+    "city": "Belgium",
+    "country": "Waregem",
+    "latitude": 50.8833333,
+    "longitude": 3.4166667
+  },
+  {
+    "city": "Algeria",
+    "country": "Boudouaou",
+    "latitude": 36.7305556,
+    "longitude": 3.4102778
+  },
+  {
+    "city": "Niger",
+    "country": "Lagos",
+    "latitude": 6.4530556,
+    "longitude": 3.3958333
+  },
+  {
+    "city": "Benin",
+    "country": "Malanville",
+    "latitude": 11.8613889,
+    "longitude": 3.3858333
+  },
+  {
+    "city": "Belgium",
+    "country": "Tournai",
+    "latitude": 50.6,
+    "longitude": 3.3833332
+  },
+  {
+    "city": "Niger",
+    "country": "Saki",
+    "latitude": 8.6666667,
+    "longitude": 3.3833332
+  },
+  {
+    "city": "Niger",
+    "country": "Abeokuta",
+    "latitude": 7.15,
+    "longitude": 3.3499999
+  },
+  {
+    "city": "Algeria",
+    "country": "Reghaia",
+    "latitude": 36.7422222,
+    "longitude": 3.3413889
+  },
+  {
+    "city": "Belgium",
+    "country": "Zwevegem",
+    "latitude": 50.8,
+    "longitude": 3.3333333
+  },
+  {
+    "city": "Algeria",
+    "country": "Khemis el Khechna",
+    "latitude": 36.6486111,
+    "longitude": 3.3305557
+  },
+  {
+    "city": "Nigeria",
+    "country": "Filingue",
+    "latitude": 14.35,
+    "longitude": 3.3166666
+  },
+  {
+    "city": "Belgium",
+    "country": "Harelbeke",
+    "latitude": 50.85,
+    "longitude": 3.3
+  },
+  {
+    "city": "France",
+    "country": "Saint-Quentin",
+    "latitude": 49.8488865,
+    "longitude": 3.2875729
+  },
+  {
+    "city": "Niger",
+    "country": "Igbo Ora",
+    "latitude": 7.4333333,
+    "longitude": 3.2833333
   }
 ]
