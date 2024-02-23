@@ -610,5 +610,503 @@
     "country": "Mapua",
     "latitude": -41.25,
     "longitude": 173.1000061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wakefield",
+    "latitude": -41.4,
+    "longitude": 173.0500031
+  },
+  {
+    "city": "Kiribati",
+    "country": "Tabiauea",
+    "latitude": 0.9,
+    "longitude": 173.0333405
+  },
+  {
+    "city": "Kiribati",
+    "country": "Taburao",
+    "latitude": 1.8166667,
+    "longitude": 173.0166626
+  },
+  {
+    "city": "New Zealand",
+    "country": "Motueka",
+    "latitude": -41.1333333,
+    "longitude": 173.0166626
+  },
+  {
+    "city": "Kiribati",
+    "country": "Bairiki",
+    "latitude": 1.3291406,
+    "longitude": 172.9780121
+  },
+  {
+    "city": "Kiribati",
+    "country": "Butaritari",
+    "latitude": 3.0833333,
+    "longitude": 172.8166656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Takaka",
+    "latitude": -40.85,
+    "longitude": 172.8000031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Amberley",
+    "latitude": -43.1666667,
+    "longitude": 172.7333374
+  },
+  {
+    "city": "New Zealand",
+    "country": "Woodend",
+    "latitude": -43.3166667,
+    "longitude": 172.6666718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Christchurch",
+    "latitude": -43.5333333,
+    "longitude": 172.6333313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Lincoln",
+    "latitude": -43.65,
+    "longitude": 172.4833374
+  },
+  {
+    "city": "New Zealand",
+    "country": "Rolleston",
+    "latitude": -43.5833333,
+    "longitude": 172.3833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Burnham",
+    "latitude": -43.6166667,
+    "longitude": 172.3166656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Leeston",
+    "latitude": -43.7666667,
+    "longitude": 172.3000031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Oxford",
+    "latitude": -43.3,
+    "longitude": 172.1833344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Darfield",
+    "latitude": -43.4833333,
+    "longitude": 172.1166687
+  },
+  {
+    "city": "Marshall Islands",
+    "country": "Ine",
+    "latitude": 6.9833333,
+    "longitude": 171.6999969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Methven",
+    "latitude": -43.6333333,
+    "longitude": 171.6499939
+  },
+  {
+    "city": "New Zealand",
+    "country": "Westport",
+    "latitude": -41.7526171,
+    "longitude": 171.6036987
+  },
+  {
+    "city": "Marshall Islands",
+    "country": "Majuro",
+    "latitude": 7.1,
+    "longitude": 171.3833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Timaru",
+    "latitude": -44.4,
+    "longitude": 171.25
+  },
+  {
+    "city": "New Zealand",
+    "country": "Greymouth",
+    "latitude": -42.4666667,
+    "longitude": 171.1999969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Pleasant Point",
+    "latitude": -44.2666667,
+    "longitude": 171.1333313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Oamaru",
+    "latitude": -45.0783623,
+    "longitude": 170.9800873
+  },
+  {
+    "city": "New Zealand",
+    "country": "Hokitika",
+    "latitude": -42.7166667,
+    "longitude": 170.9666595
+  },
+  {
+    "city": "New Zealand",
+    "country": "Dunedin",
+    "latitude": -45.8741595,
+    "longitude": 170.5036163
+  },
+  {
+    "city": "New Zealand",
+    "country": "Milton",
+    "latitude": -46.1208333,
+    "longitude": 169.9694519
+  },
+  {
+    "city": "New Zealand",
+    "country": "Balclutha",
+    "latitude": -46.2338889,
+    "longitude": 169.75
+  },
+  {
+    "city": "Marshall Islands",
+    "country": "Jabor",
+    "latitude": 5.9166667,
+    "longitude": 169.6499939
+  },
+  {
+    "city": "Kiribati",
+    "country": "Ooma",
+    "latitude": -0.9,
+    "longitude": 169.5500031
+  },
+  {
+    "city": "Kiribati",
+    "country": "Tarawa",
+    "latitude": -0.869217,
+    "longitude": 169.5406342
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wanaka",
+    "latitude": -44.7,
+    "longitude": 169.1499939
+  },
+  {
+    "city": "New Zealand",
+    "country": "Gore",
+    "latitude": -46.1028235,
+    "longitude": 168.943573
+  },
+  {
+    "city": "New Zealand",
+    "country": "Queenstown",
+    "latitude": -45.0302262,
+    "longitude": 168.6627045
+  },
+  {
+    "city": "New Zealand",
+    "country": "Invercargill",
+    "latitude": -46.4,
+    "longitude": 168.3500061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Winton",
+    "latitude": -46.15,
+    "longitude": 168.3333282
+  },
+  {
+    "city": "New Zealand",
+    "country": "Bluff",
+    "latitude": -46.6,
+    "longitude": 168.3333282
+  },
+  {
+    "city": "New Zealand",
+    "country": "Riverton",
+    "latitude": -46.35,
+    "longitude": 168.0166626
+  },
+  {
+    "city": "New Zealand",
+    "country": "Te Anau",
+    "latitude": -45.4166667,
+    "longitude": 167.7166595
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Lata",
+    "latitude": -10.7166667,
+    "longitude": 165.8333282
+  },
+  {
+    "city": "Micronesia",
+    "country": "Malem",
+    "latitude": 5.2886111,
+    "longitude": 163.0238953
+  },
+  {
+    "city": "Micronesia",
+    "country": "Toynim",
+    "latitude": 5.3147222,
+    "longitude": 163.0036163
+  },
+  {
+    "city": "Micronesia",
+    "country": "Tafunsak",
+    "latitude": 5.3630556,
+    "longitude": 162.9822235
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Kirakira",
+    "latitude": -10.45,
+    "longitude": 161.9166718
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Auki",
+    "latitude": -8.7666667,
+    "longitude": 160.6999969
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Tulaghi",
+    "latitude": -9.1,
+    "longitude": 160.1499939
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Honiara",
+    "latitude": -9.4333333,
+    "longitude": 159.9499969
+  },
+  {
+    "city": "Russia",
+    "country": "Petropavlovsk-Kamchatskiy",
+    "latitude": 53.0166667,
+    "longitude": 158.6499939
+  },
+  {
+    "city": "Micronesia",
+    "country": "Nan Uh",
+    "latitude": 6.9502778,
+    "longitude": 158.2711182
+  },
+  {
+    "city": "Micronesia",
+    "country": "Kolonia",
+    "latitude": 6.9638889,
+    "longitude": 158.2083282
+  },
+  {
+    "city": "Micronesia",
+    "country": "Palikir",
+    "latitude": 6.9166667,
+    "longitude": 158.1499939
+  },
+  {
+    "city": "Solomon Islands",
+    "country": "Gizo",
+    "latitude": -8.1,
+    "longitude": 156.8500061
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Buin",
+    "latitude": -6.8333333,
+    "longitude": 155.7333374
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Kieta",
+    "latitude": -6.2166667,
+    "longitude": 155.6333313
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Arawa",
+    "latitude": -6.2166667,
+    "longitude": 155.5500031
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Panguna",
+    "latitude": -6.25,
+    "longitude": 155.5
+  },
+  {
+    "city": "Australia",
+    "country": "Ballina",
+    "latitude": -28.8666667,
+    "longitude": 153.5666656
+  },
+  {
+    "city": "Australia",
+    "country": "Gold Coast",
+    "latitude": -28,
+    "longitude": 153.4333344
+  },
+  {
+    "city": "Australia",
+    "country": "Surfers Paradise",
+    "latitude": -28.0027378,
+    "longitude": 153.4299927
+  },
+  {
+    "city": "Australia",
+    "country": "Nerang",
+    "latitude": -27.9833333,
+    "longitude": 153.3333282
+  },
+  {
+    "city": "Australia",
+    "country": "Lismore",
+    "latitude": -28.8135438,
+    "longitude": 153.277298
+  },
+  {
+    "city": "Australia",
+    "country": "Cleveland",
+    "latitude": -27.5333333,
+    "longitude": 153.2666626
+  },
+  {
+    "city": "Australia",
+    "country": "Bongaree",
+    "latitude": -27.0797222,
+    "longitude": 153.1586151
+  },
+  {
+    "city": "Australia",
+    "country": "Caloundra",
+    "latitude": -26.8,
+    "longitude": 153.1333313
+  },
+  {
+    "city": "Australia",
+    "country": "Coffs Harbour",
+    "latitude": -30.3,
+    "longitude": 153.1333313
+  },
+  {
+    "city": "Australia",
+    "country": "Mooloolaba",
+    "latitude": -26.6833333,
+    "longitude": 153.1166687
+  },
+  {
+    "city": "Australia",
+    "country": "Sawtell",
+    "latitude": -30.3833333,
+    "longitude": 153.1000061
+  },
+  {
+    "city": "Australia",
+    "country": "Buderim",
+    "latitude": -26.6833333,
+    "longitude": 153.0500031
+  },
+  {
+    "city": "Australia",
+    "country": "Deception Bay",
+    "latitude": -27.2,
+    "longitude": 153.0333405
+  },
+  {
+    "city": "Australia",
+    "country": "Brisbane",
+    "latitude": -27.4679357,
+    "longitude": 153.0280914
+  },
+  {
+    "city": "Australia",
+    "country": "South Brisbane",
+    "latitude": -27.4833333,
+    "longitude": 153.0166626
+  },
+  {
+    "city": "Australia",
+    "country": "Nambour",
+    "latitude": -26.6333333,
+    "longitude": 152.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "Caboolture",
+    "latitude": -27.0833333,
+    "longitude": 152.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "South Grafton",
+    "latitude": -29.7,
+    "longitude": 152.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "Port Macquarie",
+    "latitude": -31.4333333,
+    "longitude": 152.9166718
+  },
+  {
+    "city": "Australia",
+    "country": "Torquay",
+    "latitude": -25.2833333,
+    "longitude": 152.8666687
+  },
+  {
+    "city": "Australia",
+    "country": "Maryborough",
+    "latitude": -25.5333333,
+    "longitude": 152.6999969
+  },
+  {
+    "city": "Australia",
+    "country": "Forster",
+    "latitude": -32.1666667,
+    "longitude": 152.5166626
+  },
+  {
+    "city": "Australia",
+    "country": "Taree",
+    "latitude": -31.9,
+    "longitude": 152.4666595
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Namatanai",
+    "latitude": -3.6666667,
+    "longitude": 152.4333344
+  },
+  {
+    "city": "Australia",
+    "country": "Bundaberg",
+    "latitude": -24.85,
+    "longitude": 152.3500061
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Kokopo",
+    "latitude": -4.35,
+    "longitude": 152.2666626
+  },
+  {
+    "city": "Papua New Guinea",
+    "country": "Rabaul",
+    "latitude": -4.2,
+    "longitude": 152.1833344
   }
 ]
