@@ -38290,5 +38290,539 @@
     "country": "Rades",
     "latitude": 36.7680556,
     "longitude": 10.2752781
+  },
+  {
+    "city": "Nigeria",
+    "country": "Goure",
+    "latitude": 13.9869444,
+    "longitude": 10.2700005
+  },
+  {
+    "city": "Cameroon",
+    "country": "Fundong",
+    "latitude": 6.25,
+    "longitude": 10.2666664
+  },
+  {
+    "city": "Cameroon",
+    "country": "Bana",
+    "latitude": 5.15,
+    "longitude": 10.2666664
+  },
+  {
+    "city": "Italy",
+    "country": "Viareggio",
+    "latitude": 43.873543,
+    "longitude": 10.2557993
+  },
+  {
+    "city": "Denmark",
+    "country": "Lystrup",
+    "latitude": 56.2333333,
+    "longitude": 10.25
+  },
+  {
+    "city": "Cameroon",
+    "country": "Belo",
+    "latitude": 6.1333333,
+    "longitude": 10.25
+  },
+  {
+    "city": "Cameroon",
+    "country": "Babanki",
+    "latitude": 6.1166667,
+    "longitude": 10.25
+  },
+  {
+    "city": "Cameroon",
+    "country": "Mbouda",
+    "latitude": 5.6333333,
+    "longitude": 10.25
+  },
+  {
+    "city": "Denmark",
+    "country": "Faaborg",
+    "latitude": 55.0951047,
+    "longitude": 10.2422647
+  },
+  {
+    "city": "Cameroon",
+    "country": "Mme-Bafumen",
+    "latitude": 6.3333333,
+    "longitude": 10.2333336
+  },
+  {
+    "city": "Italy",
+    "country": "Brescia",
+    "latitude": 45.524782,
+    "longitude": 10.2272692
+  },
+  {
+    "city": "Gabon",
+    "country": "Lambarene",
+    "latitude": -0.7,
+    "longitude": 10.2166672
+  },
+  {
+    "city": "Denmark",
+    "country": "Arhus",
+    "latitude": 56.1567366,
+    "longitude": 10.210762
+  },
+  {
+    "city": "Niger",
+    "country": "Azare",
+    "latitude": 11.6783333,
+    "longitude": 10.1919441
+  },
+  {
+    "city": "Tunisia",
+    "country": "Rafraf",
+    "latitude": 37.1833333,
+    "longitude": 10.1833334
+  },
+  {
+    "city": "Cameroon",
+    "country": "Bafang",
+    "latitude": 5.15,
+    "longitude": 10.1833334
+  },
+  {
+    "city": "Tunisia",
+    "country": "Tunis",
+    "latitude": 36.8027778,
+    "longitude": 10.1797218
+  },
+  {
+    "city": "Libya",
+    "country": "Ghat",
+    "latitude": 24.9647222,
+    "longitude": 10.1727781
+  },
+  {
+    "city": "Cameroon",
+    "country": "Bamenda",
+    "latitude": 5.9333333,
+    "longitude": 10.166667
+  },
+  {
+    "city": "Tunisia",
+    "country": "La Mohammedia",
+    "latitude": 36.6769444,
+    "longitude": 10.1555557
+  },
+  {
+    "city": "Denmark",
+    "country": "Odder",
+    "latitude": 55.9731258,
+    "longitude": 10.152998
+  },
+  {
+    "city": "Denmark",
+    "country": "Tranbjerg",
+    "latitude": 56.1,
+    "longitude": 10.1499996
+  },
+  {
+    "city": "Tunisia",
+    "country": "Zaghouan",
+    "latitude": 36.4,
+    "longitude": 10.1499996
+  },
+  {
+    "city": "Germany",
+    "country": "Kiel",
+    "latitude": 54.3213293,
+    "longitude": 10.1348877
+  },
+  {
+    "city": "Cameroon",
+    "country": "Edea",
+    "latitude": 3.8,
+    "longitude": 10.1333332
+  },
+  {
+    "city": "Tunisia",
+    "country": "Gabes",
+    "latitude": 33.8833333,
+    "longitude": 10.1166668
+  },
+  {
+    "city": "Italy",
+    "country": "Massa",
+    "latitude": 44.022045,
+    "longitude": 10.1140928
+  },
+  {
+    "city": "Tunisia",
+    "country": "Kairouan",
+    "latitude": 35.6744444,
+    "longitude": 10.1016665
+  },
+  {
+    "city": "Tunisia",
+    "country": "Manouba",
+    "latitude": 36.8077778,
+    "longitude": 10.1011114
+  },
+  {
+    "city": "Tunisia",
+    "country": "Skhira",
+    "latitude": 34.2833333,
+    "longitude": 10.1000004
+  },
+  {
+    "city": "Cameroon",
+    "country": "Wum",
+    "latitude": 6.3833333,
+    "longitude": 10.0666666
+  },
+  {
+    "city": "Cameroon",
+    "country": "Dschang",
+    "latitude": 5.45,
+    "longitude": 10.0666666
+  },
+  {
+    "city": "Italy",
+    "country": "Carrara",
+    "latitude": 44.062945,
+    "longitude": 10.0606909
+  },
+  {
+    "city": "Denmark",
+    "country": "Randers",
+    "latitude": 56.4666667,
+    "longitude": 10.0500002
+  },
+  {
+    "city": "Niger",
+    "country": "Hadejia",
+    "latitude": 12.4480556,
+    "longitude": 10.0436115
+  },
+  {
+    "city": "Tunisia",
+    "country": "Oued Lill",
+    "latitude": 36.8341667,
+    "longitude": 10.042222
+  },
+  {
+    "city": "Tunisia",
+    "country": "Al `Aliyah",
+    "latitude": 37.1666667,
+    "longitude": 10.0333328
+  },
+  {
+    "city": "Italy",
+    "country": "Cremona",
+    "latitude": 45.136171,
+    "longitude": 10.0279722
+  },
+  {
+    "city": "Tunisia",
+    "country": "Sbikha",
+    "latitude": 35.9338889,
+    "longitude": 10.020833
+  },
+  {
+    "city": "Cameroon",
+    "country": "Bali",
+    "latitude": 5.8833333,
+    "longitude": 10.0166664
+  },
+  {
+    "city": "Germany",
+    "country": "Hamburg",
+    "latitude": 53.55,
+    "longitude": 10
+  },
+  {
+    "city": "Cameroon",
+    "country": "Mbengwi",
+    "latitude": 6.0166667,
+    "longitude": 10
+  },
+  {
+    "city": "Gabon",
+    "country": "Gamba",
+    "latitude": -2.65,
+    "longitude": 10
+  },
+  {
+    "city": "Germany",
+    "country": "Ulm",
+    "latitude": 48.3984084,
+    "longitude": 9.9915504
+  },
+  {
+    "city": "Cameroon",
+    "country": "Dizangue",
+    "latitude": 3.7666667,
+    "longitude": 9.9833336
+  },
+  {
+    "city": "Denmark",
+    "country": "Hjorring",
+    "latitude": 57.4641694,
+    "longitude": 9.9822912
+  },
+  {
+    "city": "Germany",
+    "country": "Hildesheim",
+    "latitude": 52.15,
+    "longitude": 9.9666672
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Machinda",
+    "latitude": 1.8833333,
+    "longitude": 9.9666672
+  },
+  {
+    "city": "Cameroon",
+    "country": "Yabassi",
+    "latitude": 4.4544444,
+    "longitude": 9.9655552
+  },
+  {
+    "city": "Cameroon",
+    "country": "Melong",
+    "latitude": 5.1166667,
+    "longitude": 9.9499998
+  },
+  {
+    "city": "Denmark",
+    "country": "Bronderslev",
+    "latitude": 57.2702091,
+    "longitude": 9.9410172
+  },
+  {
+    "city": "Germany",
+    "country": "Wurzburg",
+    "latitude": 49.7877778,
+    "longitude": 9.9361115
+  },
+  {
+    "city": "Germany",
+    "country": "Gottingen",
+    "latitude": 51.5333333,
+    "longitude": 9.9333334
+  },
+  {
+    "city": "Cameroon",
+    "country": "Nkongsamba",
+    "latitude": 4.9533333,
+    "longitude": 9.9324999
+  },
+  {
+    "city": "Denmark",
+    "country": "Skanderborg",
+    "latitude": 56.0399128,
+    "longitude": 9.9271994
+  },
+  {
+    "city": "Denmark",
+    "country": "Aalborg",
+    "latitude": 57.047999,
+    "longitude": 9.9187012
+  },
+  {
+    "city": "Tunisia",
+    "country": "Menzel Jemil",
+    "latitude": 37.2358333,
+    "longitude": 9.9174995
+  },
+  {
+    "city": "Cameroon",
+    "country": "Kribi",
+    "latitude": 2.95,
+    "longitude": 9.916667
+  },
+  {
+    "city": "Tunisia",
+    "country": "El Fahs",
+    "latitude": 36.3669444,
+    "longitude": 9.9049997
+  },
+  {
+    "city": "Cameroon",
+    "country": "Fontem",
+    "latitude": 5.4666667,
+    "longitude": 9.8833332
+  },
+  {
+    "city": "Tunisia",
+    "country": "Bizerte",
+    "latitude": 37.2744444,
+    "longitude": 9.873889
+  },
+  {
+    "city": "Cameroon",
+    "country": "Batibo",
+    "latitude": 5.8333333,
+    "longitude": 9.8666668
+  },
+  {
+    "city": "Tunisia",
+    "country": "Menzel Abderhaman",
+    "latitude": 37.2336111,
+    "longitude": 9.8633337
+  },
+  {
+    "city": "Denmark",
+    "country": "Horsens",
+    "latitude": 55.8606582,
+    "longitude": 9.850337
+  },
+  {
+    "city": "Niger",
+    "country": "Bauchi",
+    "latitude": 10.3158333,
+    "longitude": 9.8441668
+  },
+  {
+    "city": "Italy",
+    "country": "La Spezia",
+    "latitude": 44.110545,
+    "longitude": 9.8433857
+  },
+  {
+    "city": "Cameroon",
+    "country": "Manjo",
+    "latitude": 4.8452778,
+    "longitude": 9.8247223
+  },
+  {
+    "city": "Austria",
+    "country": "Bludenz",
+    "latitude": 47.1497222,
+    "longitude": 9.8166666
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Rio Campo",
+    "latitude": 2.3333333,
+    "longitude": 9.8166666
+  },
+  {
+    "city": "Denmark",
+    "country": "Sonderborg",
+    "latitude": 54.9092625,
+    "longitude": 9.8073654
+  },
+  {
+    "city": "Tunisia",
+    "country": "El Hamma",
+    "latitude": 33.9,
+    "longitude": 9.8000002
+  },
+  {
+    "city": "Tunisia",
+    "country": "Menzel Bourguiba",
+    "latitude": 37.1558333,
+    "longitude": 9.7936115
+  },
+  {
+    "city": "Denmark",
+    "country": "Hobro",
+    "latitude": 56.6430616,
+    "longitude": 9.790288
+  },
+  {
+    "city": "Tunisia",
+    "country": "Ar Riqab",
+    "latitude": 34.8666667,
+    "longitude": 9.7833328
+  },
+  {
+    "city": "Niger",
+    "country": "Wukari",
+    "latitude": 7.85,
+    "longitude": 9.7833328
+  },
+  {
+    "city": "Gabon",
+    "country": "Ntoum",
+    "latitude": 0.3833333,
+    "longitude": 9.7833328
+  },
+  {
+    "city": "Denmark",
+    "country": "Fredericia",
+    "latitude": 55.5656763,
+    "longitude": 9.7525654
+  },
+  {
+    "city": "Denmark",
+    "country": "Nordborg",
+    "latitude": 55.05,
+    "longitude": 9.75
+  },
+  {
+    "city": "Austria",
+    "country": "Wolfurt",
+    "latitude": 47.4666667,
+    "longitude": 9.75
+  },
+  {
+    "city": "Tunisia",
+    "country": "Dawwar Tinjah",
+    "latitude": 37.1666667,
+    "longitude": 9.75
+  },
+  {
+    "city": "Equatorial Guinea",
+    "country": "Bata",
+    "latitude": 1.85,
+    "longitude": 9.75
+  },
+  {
+    "city": "Austria",
+    "country": "Bregenz",
+    "latitude": 47.5031127,
+    "longitude": 9.7471046
+  },
+  {
+    "city": "Cameroon",
+    "country": "Loum",
+    "latitude": 4.7161111,
+    "longitude": 9.7463884
+  },
+  {
+    "city": "Germany",
+    "country": "Hannover",
+    "latitude": 52.3705163,
+    "longitude": 9.7332211
+  },
+  {
+    "city": "Austria",
+    "country": "Lauterach",
+    "latitude": 47.4830556,
+    "longitude": 9.7330561
+  },
+  {
+    "city": "Austria",
+    "country": "Dornbirn",
+    "latitude": 47.4166667,
+    "longitude": 9.7330561
+  },
+  {
+    "city": "Denmark",
+    "country": "Middelfart",
+    "latitude": 55.5059099,
+    "longitude": 9.7305422
+  },
+  {
+    "city": "Denmark",
+    "country": "Hedensted",
+    "latitude": 55.7704298,
+    "longitude": 9.7010994
+  },
+  {
+    "city": "Cameroon",
+    "country": "Douala",
+    "latitude": 4.0502778,
+    "longitude": 9.6999998
   }
 ]
