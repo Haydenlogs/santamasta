@@ -40750,5 +40750,539 @@
     "country": "Skikda",
     "latitude": 36.8791667,
     "longitude": 6.9066668
+  },
+  {
+    "city": "Netherlands",
+    "country": "Enschede",
+    "latitude": 52.218333,
+    "longitude": 6.895833
+  },
+  {
+    "city": "Germany",
+    "country": "Mulheim an der Ruhr",
+    "latitude": 51.4333333,
+    "longitude": 6.8833332
+  },
+  {
+    "city": "Algeria",
+    "country": "Ain Fakroun",
+    "latitude": 35.9763889,
+    "longitude": 6.8755555
+  },
+  {
+    "city": "France",
+    "country": "Belfort",
+    "latitude": 47.6333333,
+    "longitude": 6.8666668
+  },
+  {
+    "city": "Niger",
+    "country": "Buguma",
+    "latitude": 4.7358333,
+    "longitude": 6.8636112
+  },
+  {
+    "city": "Germany",
+    "country": "Oberhausen",
+    "latitude": 51.4666667,
+    "longitude": 6.8499999
+  },
+  {
+    "city": "Germany",
+    "country": "Ratingen",
+    "latitude": 51.2972421,
+    "longitude": 6.8492889
+  },
+  {
+    "city": "Switzerland",
+    "country": "Vevey",
+    "latitude": 46.4611568,
+    "longitude": 6.8432808
+  },
+  {
+    "city": "Niger",
+    "country": "Nkpor",
+    "latitude": 6.15,
+    "longitude": 6.8333335
+  },
+  {
+    "city": "Switzerland",
+    "country": "La Chaux-de-Fonds",
+    "latitude": 47.0999278,
+    "longitude": 6.8258572
+  },
+  {
+    "city": "Niger",
+    "country": "Onitsha",
+    "latitude": 6.1666667,
+    "longitude": 6.7833333
+  },
+  {
+    "city": "Germany",
+    "country": "Dusseldorf",
+    "latitude": 51.2217226,
+    "longitude": 6.7761612
+  },
+  {
+    "city": "Nigeria",
+    "country": "Dakoro",
+    "latitude": 14.5105556,
+    "longitude": 6.7649999
+  },
+  {
+    "city": "Germany",
+    "country": "Duisburg",
+    "latitude": 51.4333333,
+    "longitude": 6.75
+  },
+  {
+    "city": "Netherlands",
+    "country": "Coevorden",
+    "latitude": 52.6625,
+    "longitude": 6.7416668
+  },
+  {
+    "city": "Sao Tome and Principe",
+    "country": "Sao Tome",
+    "latitude": 0.3333333,
+    "longitude": 6.7333331
+  },
+  {
+    "city": "Algeria",
+    "country": "Reguiba",
+    "latitude": 33.5666667,
+    "longitude": 6.7166667
+  },
+  {
+    "city": "Algeria",
+    "country": "El Khroub",
+    "latitude": 36.2633333,
+    "longitude": 6.6936111
+  },
+  {
+    "city": "Germany",
+    "country": "Neuss",
+    "latitude": 51.2,
+    "longitude": 6.6833334
+  },
+  {
+    "city": "Niger",
+    "country": "Gusau",
+    "latitude": 12.1641667,
+    "longitude": 6.6666665
+  },
+  {
+    "city": "Netherlands",
+    "country": "Almelo",
+    "latitude": 52.356667,
+    "longitude": 6.6624999
+  },
+  {
+    "city": "Switzerland",
+    "country": "Pully",
+    "latitude": 46.5102668,
+    "longitude": 6.6618347
+  },
+  {
+    "city": "Germany",
+    "country": "Moers",
+    "latitude": 51.45,
+    "longitude": 6.6500001
+  },
+  {
+    "city": "Switzerland",
+    "country": "Yverdon-les-Bains",
+    "latitude": 46.7833333,
+    "longitude": 6.6500001
+  },
+  {
+    "city": "Germany",
+    "country": "Trier",
+    "latitude": 49.7556526,
+    "longitude": 6.6393471
+  },
+  {
+    "city": "Switzerland",
+    "country": "Lausanne",
+    "latitude": 46.5159963,
+    "longitude": 6.6328239
+  },
+  {
+    "city": "Netherlands",
+    "country": "Hardenberg",
+    "latitude": 52.575833,
+    "longitude": 6.6194439
+  },
+  {
+    "city": "Algeria",
+    "country": "Constantine",
+    "latitude": 36.365,
+    "longitude": 6.6147223
+  },
+  {
+    "city": "Algeria",
+    "country": "Hamma Bouziane",
+    "latitude": 36.4130556,
+    "longitude": 6.5974998
+  },
+  {
+    "city": "Algeria",
+    "country": "Kerkera",
+    "latitude": 36.9291667,
+    "longitude": 6.5855556
+  },
+  {
+    "city": "Switzerland",
+    "country": "Renens",
+    "latitude": 46.5333333,
+    "longitude": 6.5833335
+  },
+  {
+    "city": "Netherlands",
+    "country": "Groningen",
+    "latitude": 53.219167,
+    "longitude": 6.5666671
+  },
+  {
+    "city": "Germany",
+    "country": "Krefeld",
+    "latitude": 51.3333333,
+    "longitude": 6.5666666
+  },
+  {
+    "city": "Netherlands",
+    "country": "Assen",
+    "latitude": 52.996667,
+    "longitude": 6.5625
+  },
+  {
+    "city": "Niger",
+    "country": "Minna",
+    "latitude": 9.6138889,
+    "longitude": 6.5569444
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Wasserbillig",
+    "latitude": 49.71,
+    "longitude": 6.500278
+  },
+  {
+    "city": "Switzerland",
+    "country": "Morges",
+    "latitude": 46.511271,
+    "longitude": 6.4985418
+  },
+  {
+    "city": "Germany",
+    "country": "Duren",
+    "latitude": 50.8,
+    "longitude": 6.4833331
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Mertert",
+    "latitude": 49.6961111,
+    "longitude": 6.481389
+  },
+  {
+    "city": "Netherlands",
+    "country": "Hoogeveen",
+    "latitude": 52.7225,
+    "longitude": 6.4763889
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Grevenmacher",
+    "latitude": 49.6747222,
+    "longitude": 6.4419446
+  },
+  {
+    "city": "Germany",
+    "country": "Monchengladbach",
+    "latitude": 51.2,
+    "longitude": 6.4333334
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Echternach",
+    "latitude": 49.8055556,
+    "longitude": 6.4222221
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Remich",
+    "latitude": 49.545,
+    "longitude": 6.3669443
+  },
+  {
+    "city": "Algeria",
+    "country": "Telerghma",
+    "latitude": 36.1152778,
+    "longitude": 6.3641667
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Berdorf",
+    "latitude": 49.8136111,
+    "longitude": 6.3502779
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Consdorf",
+    "latitude": 49.7730556,
+    "longitude": 6.3383331
+  },
+  {
+    "city": "Niger",
+    "country": "Uromi",
+    "latitude": 6.7,
+    "longitude": 6.3333335
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Canach",
+    "latitude": 49.6069444,
+    "longitude": 6.3258333
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Mensdorf",
+    "latitude": 49.6508333,
+    "longitude": 6.3036113
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Roodt-sur-Syre",
+    "latitude": 49.6625,
+    "longitude": 6.3027778
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Beaufort",
+    "latitude": 49.8358333,
+    "longitude": 6.2916665
+  },
+  {
+    "city": "Netherlands",
+    "country": "Doetinchem",
+    "latitude": 51.965,
+    "longitude": 6.2888889
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Mondorf-les-Bains",
+    "latitude": 49.505,
+    "longitude": 6.2811112
+  },
+  {
+    "city": "Nigeria",
+    "country": "Abalak",
+    "latitude": 15.4522222,
+    "longitude": 6.2783332
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Schuttrange",
+    "latitude": 49.6205556,
+    "longitude": 6.268611
+  },
+  {
+    "city": "Algeria",
+    "country": "Mila",
+    "latitude": 36.4502778,
+    "longitude": 6.2644444
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Niederanven",
+    "latitude": 49.6475,
+    "longitude": 6.2600002
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Dalheim",
+    "latitude": 49.5408333,
+    "longitude": 6.2597222
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Schrassig",
+    "latitude": 49.6058333,
+    "longitude": 6.2588887
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Moutfort",
+    "latitude": 49.5852778,
+    "longitude": 6.2555556
+  },
+  {
+    "city": "Algeria",
+    "country": "Tazoult-Lambese",
+    "latitude": 35.4863889,
+    "longitude": 6.2552776
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Junglinster",
+    "latitude": 49.7072222,
+    "longitude": 6.2530556
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Gonderange",
+    "latitude": 49.6888889,
+    "longitude": 6.2483335
+  },
+  {
+    "city": "Switzerland",
+    "country": "Nyon",
+    "latitude": 46.3831754,
+    "longitude": 6.2395477
+  },
+  {
+    "city": "Niger",
+    "country": "Okene",
+    "latitude": 7.55,
+    "longitude": 6.2333331
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Contern",
+    "latitude": 49.5819444,
+    "longitude": 6.2266669
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Aspelt",
+    "latitude": 49.5227778,
+    "longitude": 6.2247224
+  },
+  {
+    "city": "Nigeria",
+    "country": "Atako",
+    "latitude": 14.553868,
+    "longitude": 6.2232809
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Larochette",
+    "latitude": 49.7769444,
+    "longitude": 6.2211113
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Sandweiler",
+    "latitude": 49.6133333,
+    "longitude": 6.2188888
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Medernach",
+    "latitude": 49.8019444,
+    "longitude": 6.2183332
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Bettendorf",
+    "latitude": 49.8766667,
+    "longitude": 6.2180557
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Vianden",
+    "latitude": 49.935,
+    "longitude": 6.208889
+  },
+  {
+    "city": "Netherlands",
+    "country": "Zutphen",
+    "latitude": 52.138333,
+    "longitude": 6.2013888
+  },
+  {
+    "city": "France",
+    "country": "Nancy",
+    "latitude": 48.6833333,
+    "longitude": 6.1999998
+  },
+  {
+    "city": "Switzerland",
+    "country": "Thonex",
+    "latitude": 46.1881498,
+    "longitude": 6.1990356
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Frisange",
+    "latitude": 49.515,
+    "longitude": 6.1916666
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Gilsdorf",
+    "latitude": 49.8669444,
+    "longitude": 6.1824999
+  },
+  {
+    "city": "Algeria",
+    "country": "Batna",
+    "latitude": 35.555971,
+    "longitude": 6.1741447
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Itzig",
+    "latitude": 49.5841667,
+    "longitude": 6.1736112
+  },
+  {
+    "city": "France",
+    "country": "Metz",
+    "latitude": 49.1191076,
+    "longitude": 6.1726856
+  },
+  {
+    "city": "Netherlands",
+    "country": "Venlo",
+    "latitude": 51.37,
+    "longitude": 6.168056
+  },
+  {
+    "city": "Algeria",
+    "country": "Chelghoum el Aid",
+    "latitude": 36.1594444,
+    "longitude": 6.165
+  },
+  {
+    "city": "Netherlands",
+    "country": "Deventer",
+    "latitude": 52.255,
+    "longitude": 6.1638889
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Alzingen",
+    "latitude": 49.565,
+    "longitude": 6.1636109
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Diekirch",
+    "latitude": 49.8677778,
+    "longitude": 6.1558332
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Fentange",
+    "latitude": 49.5627778,
+    "longitude": 6.1538887
+  },
+  {
+    "city": "Luxembourg",
+    "country": "Hesperange",
+    "latitude": 49.5680556,
+    "longitude": 6.1513891
   }
 ]
