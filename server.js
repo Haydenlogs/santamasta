@@ -470,8 +470,16 @@ app.get("/lock", (req, res) => {
   sendTrackerEvent({ unlocked: false });
   saveTrackerStatusToFile(true);
 });
+app.use((req, res, next) => {
+    if (req.path !== "/" && req.path !== "") {
+        res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
+    } else {
+        next(); // Pass the request to the next middleware
+    }
+});
 // Middleware to log requests
 app.use((req, res, next) => {
+
   const ip = req.ip;
   const time = new Date().toISOString();
   const country =
@@ -485,7 +493,7 @@ app.use((req, res, next) => {
   });
 
   next();
-});
+  });
 
 // Endpoint to get yearly visits with visit data
 app.get("/getyearlyvisits", (req, res) => {
