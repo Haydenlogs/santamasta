@@ -43414,5 +43414,365 @@
     "country": "Igbo Ora",
     "latitude": 7.4333333,
     "longitude": 3.2833333
+  },
+  {
+    "city": "Belgium",
+    "country": "Knokke-Heist",
+    "latitude": 51.35,
+    "longitude": 3.2666667
+  },
+  {
+    "city": "Belgium",
+    "country": "Kortrijk",
+    "latitude": 50.8280326,
+    "longitude": 3.2648706
+  },
+  {
+    "city": "France",
+    "country": "Beziers",
+    "latitude": 43.35,
+    "longitude": 3.25
+  },
+  {
+    "city": "Algeria",
+    "country": "Meftah",
+    "latitude": 36.6194444,
+    "longitude": 3.2252779
+  },
+  {
+    "city": "Belgium",
+    "country": "Brugge",
+    "latitude": 51.2097871,
+    "longitude": 3.2250023
+  },
+  {
+    "city": "Algeria",
+    "country": "Birine",
+    "latitude": 35.635,
+    "longitude": 3.2249999
+  },
+  {
+    "city": "Belgium",
+    "country": "Mouscron",
+    "latitude": 50.7333333,
+    "longitude": 3.2166667
+  },
+  {
+    "city": "Benin",
+    "country": "Nikki",
+    "latitude": 9.9338889,
+    "longitude": 3.2044444
+  },
+  {
+    "city": "Belgium",
+    "country": "Izegem",
+    "latitude": 50.9166667,
+    "longitude": 3.2
+  },
+  {
+    "city": "Niger",
+    "country": "Ifo",
+    "latitude": 6.8166667,
+    "longitude": 3.2
+  },
+  {
+    "city": "Nigeria",
+    "country": "Dosso",
+    "latitude": 13.0444444,
+    "longitude": 3.1947222
+  },
+  {
+    "city": "Algeria",
+    "country": "Bordj el Kiffan",
+    "latitude": 36.7475,
+    "longitude": 3.1930556
+  },
+  {
+    "city": "Algeria",
+    "country": "Bab Ezzouar",
+    "latitude": 36.7166667,
+    "longitude": 3.1833334
+  },
+  {
+    "city": "Belgium",
+    "country": "Wevelgem",
+    "latitude": 50.8,
+    "longitude": 3.1666667
+  },
+  {
+    "city": "France",
+    "country": "Roubaix",
+    "latitude": 50.7,
+    "longitude": 3.1666667
+  },
+  {
+    "city": "France",
+    "country": "Tourcoing",
+    "latitude": 50.7166667,
+    "longitude": 3.1500001
+  },
+  {
+    "city": "Algeria",
+    "country": "Larba",
+    "latitude": 36.5666667,
+    "longitude": 3.1500001
+  },
+  {
+    "city": "Belgium",
+    "country": "Zedelgem",
+    "latitude": 51.15,
+    "longitude": 3.1333332
+  },
+  {
+    "city": "Belgium",
+    "country": "Roeselare",
+    "latitude": 50.9465313,
+    "longitude": 3.1226921
+  },
+  {
+    "city": "Belgium",
+    "country": "Menen",
+    "latitude": 50.8,
+    "longitude": 3.1166668
+  },
+  {
+    "city": "Algeria",
+    "country": "Baraki",
+    "latitude": 36.6691667,
+    "longitude": 3.0952778
+  },
+  {
+    "city": "Algeria",
+    "country": "Sidi Moussa",
+    "latitude": 36.6044444,
+    "longitude": 3.0902779
+  },
+  {
+    "city": "Algeria",
+    "country": "Bougara",
+    "latitude": 36.5405556,
+    "longitude": 3.0852778
+  },
+  {
+    "city": "France",
+    "country": "Clermont-Ferrand",
+    "latitude": 45.7833333,
+    "longitude": 3.0833333
+  },
+  {
+    "city": "France",
+    "country": "Lille",
+    "latitude": 50.6333333,
+    "longitude": 3.0666666
+  },
+  {
+    "city": "Algeria",
+    "country": "Birkhadem",
+    "latitude": 36.7127778,
+    "longitude": 3.0616667
+  },
+  {
+    "city": "Algeria",
+    "country": "Algiers",
+    "latitude": 36.7630556,
+    "longitude": 3.0505557
+  },
+  {
+    "city": "Benin",
+    "country": "Kandi",
+    "latitude": 11.1341667,
+    "longitude": 2.938611
+  },
+  {
+    "city": "Belgium",
+    "country": "Oostende",
+    "latitude": 51.2166667,
+    "longitude": 2.9166667
+  },
+  {
+    "city": "Algeria",
+    "country": "Berrouaghia",
+    "latitude": 36.1366667,
+    "longitude": 2.9130557
+  },
+  {
+    "city": "Algeria",
+    "country": "Boufarik",
+    "latitude": 36.5705556,
+    "longitude": 2.9108334
+  },
+  {
+    "city": "Algeria",
+    "country": "Ain Oussera",
+    "latitude": 35.4513889,
+    "longitude": 2.9058332
+  },
+  {
+    "city": "Algeria",
+    "country": "Souma",
+    "latitude": 36.5183333,
+    "longitude": 2.9052777
+  },
+  {
+    "city": "France",
+    "country": "Perpignan",
+    "latitude": 42.6976397,
+    "longitude": 2.8954124
+  },
+  {
+    "city": "Belgium",
+    "country": "Ieper",
+    "latitude": 50.85,
+    "longitude": 2.8833332
+  },
+  {
+    "city": "Algeria",
+    "country": "Laghouat",
+    "latitude": 33.8,
+    "longitude": 2.8833332
+  },
+  {
+    "city": "France",
+    "country": "Meaux",
+    "latitude": 48.95,
+    "longitude": 2.8666668
+  },
+  {
+    "city": "Algeria",
+    "country": "Beni Mered",
+    "latitude": 36.5230556,
+    "longitude": 2.8625
+  },
+  {
+    "city": "Spain",
+    "country": "Girona",
+    "latitude": 41.983113,
+    "longitude": 2.8249347
+  },
+  {
+    "city": "Algeria",
+    "country": "Bou Arfa",
+    "latitude": 36.4666667,
+    "longitude": 2.8166666
+  },
+  {
+    "city": "Algeria",
+    "country": "Ksar el Boukhari",
+    "latitude": 35.8855556,
+    "longitude": 2.7508333
+  },
+  {
+    "city": "Algeria",
+    "country": "Medea",
+    "latitude": 36.2675,
+    "longitude": 2.75
+  },
+  {
+    "city": "Benin",
+    "country": "Pobe",
+    "latitude": 6.9666667,
+    "longitude": 2.6833334
+  },
+  {
+    "city": "Benin",
+    "country": "Sakete",
+    "latitude": 6.7166667,
+    "longitude": 2.6666667
+  },
+  {
+    "city": "Benin",
+    "country": "Bembereke",
+    "latitude": 10.2288889,
+    "longitude": 2.6652777
+  },
+  {
+    "city": "Spain",
+    "country": "Palma",
+    "latitude": 39.5693908,
+    "longitude": 2.6502371
+  },
+  {
+    "city": "Algeria",
+    "country": "El Affroun",
+    "latitude": 36.4669444,
+    "longitude": 2.6252778
+  },
+  {
+    "city": "Benin",
+    "country": "Parakou",
+    "latitude": 9.35,
+    "longitude": 2.6166668
+  },
+  {
+    "city": "Benin",
+    "country": "Porto-Novo",
+    "latitude": 6.4833333,
+    "longitude": 2.6166668
+  },
+  {
+    "city": "Benin",
+    "country": "Tchaourou",
+    "latitude": 8.8833333,
+    "longitude": 2.5999999
+  },
+  {
+    "city": "Benin",
+    "country": "Ketou",
+    "latitude": 7.3666667,
+    "longitude": 2.5999999
+  },
+  {
+    "city": "France",
+    "country": "Noisy-le-Grand",
+    "latitude": 48.85,
+    "longitude": 2.5666666
+  },
+  {
+    "city": "France",
+    "country": "Aulnay-sous-Bois",
+    "latitude": 48.95,
+    "longitude": 2.5166667
+  },
+  {
+    "city": "France",
+    "country": "Champigny-sur-Marne",
+    "latitude": 48.8166667,
+    "longitude": 2.5166667
+  },
+  {
+    "city": "France",
+    "country": "Saint-Maur-des-Fosses",
+    "latitude": 48.8,
+    "longitude": 2.5
+  },
+  {
+    "city": "Benin",
+    "country": "Save",
+    "latitude": 8.0333333,
+    "longitude": 2.4833333
+  },
+  {
+    "city": "France",
+    "country": "Creteil",
+    "latitude": 48.7833333,
+    "longitude": 2.4666667
+  },
+  {
+    "city": "Algeria",
+    "country": "I-n-Salah",
+    "latitude": 27.2166667,
+    "longitude": 2.4666667
+  },
+  {
+    "city": "France",
+    "country": "Drancy",
+    "latitude": 48.9333333,
+    "longitude": 2.45
+  },
+  {
+    "city": "Spain",
+    "country": "Mataro",
+    "latitude": 41.5333333,
+    "longitude": 2.45
   }
 ]
