@@ -470,13 +470,6 @@ app.get("/lock", (req, res) => {
   sendTrackerEvent({ unlocked: false });
   saveTrackerStatusToFile(true);
 });
-app.use((req, res, next) => {
-    if (req.path !== "/" && req.path !== "") {
-        res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
-    } else {
-        next(); // Pass the request to the next middleware
-    }
-});
 // Middleware to log requests
 app.use((req, res, next) => {
 
@@ -712,7 +705,23 @@ app.get("/getmessage", (req, res) => {
     }
   });
 });
+// Handle 404 Not Found for all paths except "/", "/admin", and an empty path
 
+app.use((req, res, next) => {
+
+    const excludedPaths = ["/", "/admin", ""];
+
+    if (!excludedPaths.includes(req.path)) {
+
+        res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
+
+    } else {
+
+        next(); // Pass the request to the next middleware
+
+    }
+
+});
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
   console.log(`Server is running on port ${port}`);
