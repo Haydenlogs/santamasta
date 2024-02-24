@@ -62332,5 +62332,539 @@
     "country": "Colima",
     "latitude": 19.2333333,
     "longitude": -103.7166672
+  },
+  {
+    "city": "Mexico",
+    "country": "Manzanillo",
+    "latitude": 19.0501111,
+    "longitude": -104.3187866
+  },
+  {
+    "city": "Canada",
+    "country": "Regina",
+    "latitude": 50.4500801,
+    "longitude": -104.6177979
+  },
+  {
+    "city": "Mexico",
+    "country": "Durango",
+    "latitude": 24.0333333,
+    "longitude": -104.6666641
+  },
+  {
+    "city": "United States",
+    "country": "Colorado Springs",
+    "latitude": 38.8338816,
+    "longitude": -104.8213654
+  },
+  {
+    "city": "United States",
+    "country": "Aurora",
+    "latitude": 39.7294319,
+    "longitude": -104.8319168
+  },
+  {
+    "city": "Mexico",
+    "country": "Tepic",
+    "latitude": 21.5,
+    "longitude": -104.9000015
+  },
+  {
+    "city": "United States",
+    "country": "Denver",
+    "latitude": 39.7391536,
+    "longitude": -104.9847031
+  },
+  {
+    "city": "Mexico",
+    "country": "Puerto Vallarta",
+    "latitude": 20.6204136,
+    "longitude": -105.2306595
+  },
+  {
+    "city": "Canada",
+    "country": "Moose Jaw",
+    "latitude": 50.4000528,
+    "longitude": -105.5344467
+  },
+  {
+    "city": "Canada",
+    "country": "Prince Albert",
+    "latitude": 53.200082,
+    "longitude": -105.7677231
+  },
+  {
+    "city": "Mexico",
+    "country": "Chihuahua",
+    "latitude": 28.6333333,
+    "longitude": -106.0833359
+  },
+  {
+    "city": "Mexico",
+    "country": "Mazatlan",
+    "latitude": 23.2166667,
+    "longitude": -106.4166641
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Juarez",
+    "latitude": 31.7333333,
+    "longitude": -106.4833298
+  },
+  {
+    "city": "United States",
+    "country": "El Paso",
+    "latitude": 31.7587198,
+    "longitude": -106.4869308
+  },
+  {
+    "city": "Canada",
+    "country": "Saskatoon",
+    "latitude": 52.1167863,
+    "longitude": -106.6345215
+  },
+  {
+    "city": "United States",
+    "country": "Albuquerque",
+    "latitude": 35.0844909,
+    "longitude": -106.6511383
+  },
+  {
+    "city": "Mexico",
+    "country": "Culiacan",
+    "latitude": 24.7994444,
+    "longitude": -107.3897247
+  },
+  {
+    "city": "Canada",
+    "country": "North Battleford",
+    "latitude": 52.7834372,
+    "longitude": -108.2846527
+  },
+  {
+    "city": "Mexico",
+    "country": "Los Mochis",
+    "latitude": 25.7666667,
+    "longitude": -108.9666672
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Obregon",
+    "latitude": 27.4833333,
+    "longitude": -109.9333344
+  },
+  {
+    "city": "Canada",
+    "country": "Lloydminster",
+    "latitude": 53.2834618,
+    "longitude": -110.0015717
+  },
+  {
+    "city": "Mexico",
+    "country": "La Paz",
+    "latitude": 24.1666667,
+    "longitude": -110.3000031
+  },
+  {
+    "city": "Canada",
+    "country": "Medicine Hat",
+    "latitude": 50.0500596,
+    "longitude": -110.6683426
+  },
+  {
+    "city": "United States",
+    "country": "Tucson",
+    "latitude": 32.2217429,
+    "longitude": -110.9264755
+  },
+  {
+    "city": "Mexico",
+    "country": "Heroica Nogales",
+    "latitude": 31.3333333,
+    "longitude": -110.9333344
+  },
+  {
+    "city": "Mexico",
+    "country": "Hermosillo",
+    "latitude": 29.0666667,
+    "longitude": -110.9666672
+  },
+  {
+    "city": "United States",
+    "country": "Mesa",
+    "latitude": 33.4222685,
+    "longitude": -111.8226395
+  },
+  {
+    "city": "United States",
+    "country": "Chandler",
+    "latitude": 33.3061605,
+    "longitude": -111.8412476
+  },
+  {
+    "city": "United States",
+    "country": "Scottsdale",
+    "latitude": 33.5092103,
+    "longitude": -111.8990326
+  },
+  {
+    "city": "United States",
+    "country": "Phoenix",
+    "latitude": 33.4483771,
+    "longitude": -112.0740356
+  },
+  {
+    "city": "United States",
+    "country": "Glendale",
+    "latitude": 33.5386523,
+    "longitude": -112.1859894
+  },
+  {
+    "city": "Canada",
+    "country": "Lethbridge",
+    "latitude": 49.6999934,
+    "longitude": -112.8185577
+  },
+  {
+    "city": "Canada",
+    "country": "Sherwood Park",
+    "latitude": 53.516836,
+    "longitude": -113.3187027
+  },
+  {
+    "city": "Canada",
+    "country": "Edmonton",
+    "latitude": 53.5501359,
+    "longitude": -113.4687119
+  },
+  {
+    "city": "Canada",
+    "country": "Red Deer",
+    "latitude": 52.2668171,
+    "longitude": -113.8019943
+  },
+  {
+    "city": "Canada",
+    "country": "Spruce Grove",
+    "latitude": 53.5334352,
+    "longitude": -113.9187469
+  },
+  {
+    "city": "Canada",
+    "country": "Airdrie",
+    "latitude": 51.3001121,
+    "longitude": -114.0352859
+  },
+  {
+    "city": "Canada",
+    "country": "Calgary",
+    "latitude": 51.0501123,
+    "longitude": -114.085289
+  },
+  {
+    "city": "Mexico",
+    "country": "San Luis Rio Colorado",
+    "latitude": 32.4630556,
+    "longitude": -114.7766647
+  },
+  {
+    "city": "United States",
+    "country": "Henderson",
+    "latitude": 36.0396988,
+    "longitude": -114.9819336
+  },
+  {
+    "city": "United States",
+    "country": "Las Vegas",
+    "latitude": 36.1749705,
+    "longitude": -115.1372223
+  },
+  {
+    "city": "United States",
+    "country": "Paradise",
+    "latitude": 36.0971945,
+    "longitude": -115.1466675
+  },
+  {
+    "city": "Mexico",
+    "country": "Mexicali",
+    "latitude": 32.6519444,
+    "longitude": -115.4683304
+  },
+  {
+    "city": "Canada",
+    "country": "Cranbrook",
+    "latitude": 49.4999124,
+    "longitude": -115.7687912
+  },
+  {
+    "city": "Mexico",
+    "country": "Ensenada",
+    "latitude": 31.8666667,
+    "longitude": -116.6166687
+  },
+  {
+    "city": "Mexico",
+    "country": "Tijuana",
+    "latitude": 32.5333333,
+    "longitude": -117.0166702
+  },
+  {
+    "city": "United States",
+    "country": "Chula Vista",
+    "latitude": 32.6400541,
+    "longitude": -117.084198
+  },
+  {
+    "city": "United States",
+    "country": "San Diego",
+    "latitude": 32.7153292,
+    "longitude": -117.1572571
+  },
+  {
+    "city": "United States",
+    "country": "Riverside",
+    "latitude": 33.9533487,
+    "longitude": -117.3961563
+  },
+  {
+    "city": "United States",
+    "country": "Santa Ana",
+    "latitude": 33.7455731,
+    "longitude": -117.867836
+  },
+  {
+    "city": "United States",
+    "country": "Anaheim",
+    "latitude": 33.8352932,
+    "longitude": -117.914505
+  },
+  {
+    "city": "United States",
+    "country": "Long Beach",
+    "latitude": 33.7669623,
+    "longitude": -118.1892319
+  },
+  {
+    "city": "United States",
+    "country": "Los Angeles",
+    "latitude": 34.0522342,
+    "longitude": -118.2436829
+  },
+  {
+    "city": "United States",
+    "country": "North Glendale",
+    "latitude": 34.1605626,
+    "longitude": -118.2645187
+  },
+  {
+    "city": "Canada",
+    "country": "Grande Prairie",
+    "latitude": 55.1666735,
+    "longitude": -118.8027115
+  },
+  {
+    "city": "United States",
+    "country": "Bakersfield",
+    "latitude": 35.3732921,
+    "longitude": -119.0187149
+  },
+  {
+    "city": "Canada",
+    "country": "Vernon",
+    "latitude": 50.2580886,
+    "longitude": -119.2690506
+  },
+  {
+    "city": "Canada",
+    "country": "Kelowna",
+    "latitude": 49.8830737,
+    "longitude": -119.485672
+  },
+  {
+    "city": "Canada",
+    "country": "Penticton",
+    "latitude": 49.4997646,
+    "longitude": -119.5856934
+  },
+  {
+    "city": "United States",
+    "country": "Fresno",
+    "latitude": 36.7477272,
+    "longitude": -119.7723694
+  },
+  {
+    "city": "Canada",
+    "country": "Kamloops",
+    "latitude": 50.6664769,
+    "longitude": -120.3191986
+  },
+  {
+    "city": "United States",
+    "country": "Modesto",
+    "latitude": 37.6390972,
+    "longitude": -120.9968796
+  },
+  {
+    "city": "United States",
+    "country": "Stockton",
+    "latitude": 37.9577016,
+    "longitude": -121.2907791
+  },
+  {
+    "city": "United States",
+    "country": "Sacramento",
+    "latitude": 38.5815719,
+    "longitude": -121.4944
+  },
+  {
+    "city": "United States",
+    "country": "San Jose",
+    "latitude": 37.3393857,
+    "longitude": -121.8949585
+  },
+  {
+    "city": "Canada",
+    "country": "Chilliwack",
+    "latitude": 49.1746816,
+    "longitude": -121.9442673
+  },
+  {
+    "city": "Canada",
+    "country": "Abbotsford",
+    "latitude": 49.0579767,
+    "longitude": -122.2525711
+  },
+  {
+    "city": "United States",
+    "country": "Oakland",
+    "latitude": 37.8043722,
+    "longitude": -122.2708054
+  },
+  {
+    "city": "United States",
+    "country": "Seattle",
+    "latitude": 47.6062095,
+    "longitude": -122.3320694
+  },
+  {
+    "city": "United States",
+    "country": "San Francisco",
+    "latitude": 37.7749295,
+    "longitude": -122.4194183
+  },
+  {
+    "city": "United States",
+    "country": "Portland",
+    "latitude": 45.5234515,
+    "longitude": -122.6762085
+  },
+  {
+    "city": "Canada",
+    "country": "Prince George",
+    "latitude": 53.9166032,
+    "longitude": -122.7530136
+  },
+  {
+    "city": "Canada",
+    "country": "White Rock",
+    "latitude": 49.0163644,
+    "longitude": -122.8026047
+  },
+  {
+    "city": "Canada",
+    "country": "New Westminster",
+    "latitude": 49.2067756,
+    "longitude": -122.9109192
+  },
+  {
+    "city": "Canada",
+    "country": "North Vancouver",
+    "latitude": 49.3163619,
+    "longitude": -123.0693436
+  },
+  {
+    "city": "Canada",
+    "country": "Vancouver",
+    "latitude": 49.2496574,
+    "longitude": -123.119339
+  },
+  {
+    "city": "Canada",
+    "country": "Richmond",
+    "latitude": 49.1700323,
+    "longitude": -123.1368256
+  },
+  {
+    "city": "Canada",
+    "country": "Victoria",
+    "latitude": 48.4329357,
+    "longitude": -123.3693008
+  },
+  {
+    "city": "Canada",
+    "country": "North Cowichan",
+    "latitude": 48.8413317,
+    "longitude": -123.6859665
+  },
+  {
+    "city": "Canada",
+    "country": "Duncan",
+    "latitude": 48.7829312,
+    "longitude": -123.7026596
+  },
+  {
+    "city": "Canada",
+    "country": "Nanaimo",
+    "latitude": 49.1663374,
+    "longitude": -123.9360123
+  },
+  {
+    "city": "Canada",
+    "country": "Parksville",
+    "latitude": 49.3163258,
+    "longitude": -124.3194504
+  },
+  {
+    "city": "Canada",
+    "country": "Port Alberni",
+    "latitude": 49.2413251,
+    "longitude": -124.802803
+  },
+  {
+    "city": "Canada",
+    "country": "Courtenay",
+    "latitude": 49.6829411,
+    "longitude": -124.9861298
+  },
+  {
+    "city": "Canada",
+    "country": "Campbell River",
+    "latitude": 50.0163393,
+    "longitude": -125.2445908
+  },
+  {
+    "city": "Canada",
+    "country": "Terrace",
+    "latitude": 54.51634,
+    "longitude": -128.6034546
+  },
+  {
+    "city": "Canada",
+    "country": "Whitehorse",
+    "latitude": 60.7161148,
+    "longitude": -135.0537415
+  },
+  {
+    "city": "United States",
+    "country": "Anchorage",
+    "latitude": 61.2180556,
+    "longitude": -149.9002838
+  },
+  {
+    "city": "United States",
+    "country": "Honolulu",
+    "latitude": 21.3069444,
+    "longitude": -157.8583374
   }
 ]
