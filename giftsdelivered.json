@@ -58606,5 +58606,539 @@
     "country": "Guacimo",
     "latitude": 10.2166667,
     "longitude": -83.6833344
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Turrialba",
+    "latitude": 9.9,
+    "longitude": -83.6833344
+  },
+  {
+    "city": "Cuba",
+    "country": "Pinar del Rio",
+    "latitude": 22.4175,
+    "longitude": -83.6980591
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Isidro",
+    "latitude": 9.3833333,
+    "longitude": -83.6999969
+  },
+  {
+    "city": "Cuba",
+    "country": "Vinales",
+    "latitude": 22.6163889,
+    "longitude": -83.7077789
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Bluefields",
+    "latitude": 12,
+    "longitude": -83.75
+  },
+  {
+    "city": "Honduras",
+    "country": "Puerto Lempira",
+    "latitude": 15.2666667,
+    "longitude": -83.7666702
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Guapiles",
+    "latitude": 10.2166667,
+    "longitude": -83.7833328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Orosi",
+    "latitude": 9.8,
+    "longitude": -83.8499985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Cot",
+    "latitude": 9.9,
+    "longitude": -83.8666687
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Paraiso",
+    "latitude": 9.8333333,
+    "longitude": -83.8666687
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Cartago",
+    "latitude": 9.8666667,
+    "longitude": -83.9166641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Waspam",
+    "latitude": 14.7333333,
+    "longitude": -83.9666672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Tres Rios",
+    "latitude": 9.9,
+    "longitude": -83.9833298
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Tobosi",
+    "latitude": 9.8333333,
+    "longitude": -83.9833298
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Concepcion",
+    "latitude": 9.9333333,
+    "longitude": -84
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Diego",
+    "latitude": 9.9,
+    "longitude": -84
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Ipis",
+    "latitude": 9.9666667,
+    "longitude": -84.0166702
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Granadilla",
+    "latitude": 9.9333333,
+    "longitude": -84.0166702
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Purral",
+    "latitude": 9.95,
+    "longitude": -84.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Sabanilla",
+    "latitude": 9.95,
+    "longitude": -84.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Curridabat",
+    "latitude": 9.9166667,
+    "longitude": -84.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Patarra",
+    "latitude": 9.8833333,
+    "longitude": -84.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Marcos",
+    "latitude": 9.6666667,
+    "longitude": -84.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Vicente de Moravia",
+    "latitude": 9.9616439,
+    "longitude": -84.0487976
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Vicente",
+    "latitude": 9.9666667,
+    "longitude": -84.0500031
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Pedro",
+    "latitude": 9.9333333,
+    "longitude": -84.0500031
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Guadalupe",
+    "latitude": 9.946111,
+    "longitude": -84.0527878
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Calle Blancos",
+    "latitude": 9.95,
+    "longitude": -84.0666656
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Miguel",
+    "latitude": 9.8833333,
+    "longitude": -84.0666656
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Pablo",
+    "latitude": 10,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Juan",
+    "latitude": 9.9666667,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Colima",
+    "latitude": 9.95,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Jose",
+    "latitude": 9.9333333,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Juan de Dios",
+    "latitude": 9.8833333,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Rafael Arriba",
+    "latitude": 9.8833333,
+    "longitude": -84.0833359
+  },
+  {
+    "city": "Cuba",
+    "country": "Guane",
+    "latitude": 22.2025,
+    "longitude": -84.0875015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Josecito",
+    "latitude": 10.0166667,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Rafael",
+    "latitude": 10.0166667,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Felipe",
+    "latitude": 9.9,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Alajuelita",
+    "latitude": 9.9,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Aserri",
+    "latitude": 9.8666667,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Salitrillos",
+    "latitude": 9.85,
+    "longitude": -84.0999985
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Heredia",
+    "latitude": 10,
+    "longitude": -84.1166687
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Mercedes",
+    "latitude": 10.0166667,
+    "longitude": -84.1333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Francisco",
+    "latitude": 9.9833333,
+    "longitude": -84.1333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Rafael",
+    "latitude": 9.9333333,
+    "longitude": -84.1333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Escazu",
+    "latitude": 9.9166667,
+    "longitude": -84.1333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Santo Domingo",
+    "latitude": 10.0666667,
+    "longitude": -84.1500015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Llorente",
+    "latitude": 10,
+    "longitude": -84.1500015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Quepos",
+    "latitude": 9.45,
+    "longitude": -84.1500015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "La Asuncion",
+    "latitude": 9.9833333,
+    "longitude": -84.1666641
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Ignacio",
+    "latitude": 9.8,
+    "longitude": -84.1666641
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Antonio",
+    "latitude": 9.9833333,
+    "longitude": -84.1833344
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Santa Ana",
+    "latitude": 9.9333333,
+    "longitude": -84.1833344
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Salitral",
+    "latitude": 9.9166667,
+    "longitude": -84.1833344
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Rama",
+    "latitude": 12.15,
+    "longitude": -84.2166672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Alajuela",
+    "latitude": 10.0166667,
+    "longitude": -84.2166672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Tejar",
+    "latitude": 9.75,
+    "longitude": -84.2333298
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Colon",
+    "latitude": 9.9149129,
+    "longitude": -84.2417068
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Carrillos",
+    "latitude": 10.0333333,
+    "longitude": -84.2666702
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Rafael Abajo",
+    "latitude": 9.8333333,
+    "longitude": -84.2833328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Rio Segundo",
+    "latitude": 10.2333333,
+    "longitude": -84.3000031
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Juan",
+    "latitude": 10.1,
+    "longitude": -84.3166656
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Santiago",
+    "latitude": 9.85,
+    "longitude": -84.3166656
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Parrita",
+    "latitude": 9.5166667,
+    "longitude": -84.3166656
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Naranjo",
+    "latitude": 10.1,
+    "longitude": -84.3833313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Atenas",
+    "latitude": 9.9833333,
+    "longitude": -84.3833313
+  },
+  {
+    "city": "United States",
+    "country": "Atlanta",
+    "latitude": 33.7489954,
+    "longitude": -84.3879852
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Zarcero",
+    "latitude": 10.1833333,
+    "longitude": -84.4000015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Quesada",
+    "latitude": 10.3333333,
+    "longitude": -84.4333344
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Nueva Guinea",
+    "latitude": 11.6833333,
+    "longitude": -84.4499969
+  },
+  {
+    "city": "United States",
+    "country": "Cincinnati",
+    "latitude": 39.1620036,
+    "longitude": -84.4568863
+  },
+  {
+    "city": "United States",
+    "country": "Lexington-Fayette",
+    "latitude": 38.0497996,
+    "longitude": -84.4585495
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Ramon",
+    "latitude": 10.0833333,
+    "longitude": -84.4666672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Rafael",
+    "latitude": 10.0666667,
+    "longitude": -84.4666672
+  },
+  {
+    "city": "United States",
+    "country": "Lexington",
+    "latitude": 37.9886892,
+    "longitude": -84.4777145
+  },
+  {
+    "city": "Honduras",
+    "country": "Brus Laguna",
+    "latitude": 15.75,
+    "longitude": -84.4833298
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Desamparados",
+    "latitude": 9.95,
+    "longitude": -84.5
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Muelle de los Bueyes",
+    "latitude": 12.0666667,
+    "longitude": -84.5333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Orotina",
+    "latitude": 9.9,
+    "longitude": -84.5333328
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Bonanza",
+    "latitude": 14.0166667,
+    "longitude": -84.5833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Pocosol",
+    "latitude": 10.3666667,
+    "longitude": -84.6166687
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Jaco",
+    "latitude": 9.6166667,
+    "longitude": -84.6333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Fortuna",
+    "latitude": 10.4833333,
+    "longitude": -84.6500015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Esparza",
+    "latitude": 9.9833333,
+    "longitude": -84.6666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Almendro",
+    "latitude": 11.6833333,
+    "longitude": -84.6999969
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Los Chiles",
+    "latitude": 11.0333333,
+    "longitude": -84.7166672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Miramar",
+    "latitude": 10.1,
+    "longitude": -84.7333298
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Siuna",
+    "latitude": 13.7333333,
+    "longitude": -84.7666702
   }
 ]
