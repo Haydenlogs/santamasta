@@ -66,11 +66,19 @@
     animation: flip 1s ease-in-out infinite alternate;
     transform-style: preserve-3d;
 }
+  
+  .correctspacing {
+    font-size: 1.6rem;
+    color: white;
+    alignment: left;
+      font-weight: bold;
+  }
 
 </style>
 </head>
 <body>
     <header>
+      <span class="correctspacing" id="local-time"></span> <!-- Local time -->
         <h1>Welcome to the Easter Bunny's Village</h1>
     </header>
   
@@ -161,7 +169,23 @@ function startCountdown(targetDate) {
         }
     }, 1000);
 }
+  
+  // Function to update local time
+    function updateLocalTime() {
+      var now = new Date();
+      var hours = now.getHours() % 12 || 12;
+      var minutes = now.getMinutes().toString().padStart(2, '0');
+      var seconds = now.getSeconds().toString().padStart(2, '0');
+      var ampm = now.getHours() >= 12 ? 'PM' : 'AM';
+      document.getElementById('local-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + " LOCAL";
+    }
 
+  setInterval(function() {
+      updateLocalTime();
+    }, 1000);
+setInterval(function () {
+        window.location.href = "/";
+      }, 60000);
 function padNumber(number) {
     return (number < 10 ? '0' : '') + number;
 }
