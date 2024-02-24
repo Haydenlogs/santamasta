@@ -12,6 +12,7 @@ let isTrackerStarted = false;
 let maxpresents = 8092411974;
 let lastCity;
 let startTime;
+let started = false;
 const intervalInSeconds = 8.11;
 let trackerInterval;
 const countdownDate = new Date("2024-02-29T00:00:00Z");
@@ -191,6 +192,10 @@ function saveIndexToFile() {
   console.log("Current index saved to file:", currentIndex);
 }
 
+async function dosomethingtorefresh() {
+   sendTrackerEvent({ refresh: true });
+    
+}
 async function readCitiesFromFile(filePath) {
   return new Promise((resolve, reject) => {
     fs.readFile(filePath, "utf8", (err, data) => {
@@ -299,6 +304,7 @@ function sendNextCity() {
 
 // Endpoint to set message 1
 app.get("/message1set", async (req, res) => {
+  dosomethingtorefresh()
   try {
     await fs.writeFile(
       "message.txt",
@@ -327,6 +333,7 @@ app.get("/getmaxpresents", (req, res) => {
 
 // Endpoint to set message 2
 app.get("/message2set", async (req, res) => {
+  dosomethingtorefresh()
   try {
     await fs.writeFile(
       "message.txt",
@@ -350,6 +357,7 @@ app.get("/message2set", async (req, res) => {
 
 // Endpoint to set message 3
 app.get("/message3set", async (req, res) => {
+  dosomethingtorefresh()
   try {
     await fs.writeFile(
       "message.txt",
@@ -372,6 +380,7 @@ app.get("/message3set", async (req, res) => {
 
 // Endpoint to set message 4
 app.get("/message4set", async (req, res) => {
+  dosomethingtorefresh()
   try {
     await fs.writeFile("message.txt", "Easter Bunny is Launching!", (err) => {
       if (err) {
@@ -450,13 +459,16 @@ function sendTrackerStartEvent() {
 }
 
 app.get("/starttracker", (req, res) => {
+  dosomethingtorefresh()
   startTracker("cities2.csv");
   res.send("Tracker started.");
+  started = true;
   sendTrackerEvent({ trackerStarted: true });
 });
 
 // Endpoint to reset the index to 0
 app.get("/restarttracker", (req, res) => {
+  dosomethingtorefresh()
   currentIndex = 0;
   saveIndexToFile(); // Save the index to file
   res.send("Tracker index reset.");
@@ -467,6 +479,7 @@ let isLocked = true;
 
 // Endpoint to unlock the site
 app.get("/unlock", (req, res) => {
+  dosomethingtorefresh()
   isLocked = false;
   res.send("Site unlocked");
   sendTrackerEvent({ unlocked: true });
@@ -475,6 +488,7 @@ app.get("/unlock", (req, res) => {
 
 // Endpoint to lock the site
 app.get("/lock", (req, res) => {
+  dosomethingtorefresh()
   isLocked = true;
   res.send("Site locked");
   sendTrackerEvent({ unlocked: false });
@@ -575,30 +589,38 @@ app.get("/", (req, res) => {
   fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
     if (err) console.error("Error logging visit:", err);
   });
-  const trackerStarted = isTrackerStartedFromFile();
+
+  const trackerStarted = started;
+
   // Check if the site is locked
-  if (isSameMonthAsCountdown(currentDate) === true) {
-    if (trackerStarted === false) {
-    res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
+  if (isLocked) {
+    // If locked, redirect to comeback.html
+    if (isSameMonthAsCountdown(currentDate)) {
+      if (started === true) {
+        // If tracker started, serve map.html
+        res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
+      } else {
+        // If not started, serve games.html
+        res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
+      }
+    } else {
+      res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
+    }
+  } else if (isSameMonthAsCountdown(currentDate)) {
+    // If unlocked and same month
+    if (trackerStarted) {
+      // If tracker started, serve map.html
+      res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
+    } else {
+      // If not started, serve index.html
+      res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
     }
   } else {
-    if (isLocked) {
-      // If locked, redirect to comeback.html
-      res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
-    } else {
-      if (trackerStarted === false) {
-        res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
-      } else {
-        // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
-        if (!isTrackerStarted) {
-          res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
-        } else {
-          res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
-        }
-      }
-    }
+    // If unlocked and not in the same month, serve ended.html
+    res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
   }
 });
+
 
 // Endpoint to reset the baskets
 app.get("/resetbaskets", (req, res) => {
@@ -675,6 +697,7 @@ app.get("/endtracker", (req, res) => {
   lastCity = null; // Reset lastCity when the tracker ends
   res.send("Tracker ended.");
   currentIndex = 0;
+  started = false;
   saveIndexToFile(); // Save the index to file
   sendTrackerEvent({ trackerEnded: true });
 
