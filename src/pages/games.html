@@ -40,12 +40,40 @@
         height: auto;
         border-radius: 10px;
     }
+  .countdown-container {
+    display: flex;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+
+.flip-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; /* Added to vertically center the digits */
+    margin: 0 20px;
+}
+
+.flip-digit {
+    font-size: 30px;
+    font-weight: bold;
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    margin: 5px;
+    animation: flip 1s ease-in-out infinite alternate;
+    transform-style: preserve-3d;
+}
+
 </style>
 </head>
 <body>
     <header>
         <h1>Welcome to the Easter Bunny's Village</h1>
     </header>
+  
     <div class="container">
         <h2>About Us</h2>
         <p>The Easter Bunny's Village is a magical place where bunnies and all sorts of creatures live and prepare for Easter.</p>
@@ -58,16 +86,124 @@
                 <a href="https://www.abcya.com/games/make_an_easter_egg"><img src="https://th.bing.com/th/id/OIP.DaA7BgIhXMVMG70T3yZ8dQHaHa?rs=1&pid=ImgDetMain" alt="Picture 2"></a>
             </div>
             <div class="picture-item">
-                <a href="https://www.abcya.com/games/easter_crossword_puzzle"><img src="" alt="Picture 2"></a>
+                <a href="https://www.abcya.com/games/easter_crossword_puzzle"><img src="https://ecdn.teacherspayteachers.com/thumbitem/Easter-Crossword-Puzzle-Activity-Sheet-7629330-1656584505/original-7629330-1.jpg" alt="Picture 2"></a>
             </div>
             <div class="picture-item">
-                <a href=""><img src="https://th.bing.com/th/id/OIP.DaA7BgIhXMVMG70T3yZ8dQHaHa?rs=1&pid=ImgDetMain" alt="Picture 2"></a>
+                <a href="https://www.abcya.com/printables/easter-basket"><img src="https://th.bing.com/th/id/OIP.DHdz8GZ4bMEBS2vN7Xs6-AHaHa?rs=1&pid=ImgDetMain" alt="Picture 2"></a>
             </div>
             <!-- Add more picture items as needed -->
         </div>
     </div>
-    <footer>
-        <center><p>&copy; 2024 Master Bunny Tracker</p></center>
-    </footer>
+    
+    <div class="countdown-container">
+        <div class="flip-container">
+            <div class="flip-digit" id="days">00</div>
+        </div>
+        <div class="flip-container">
+            <div class="flip-digit" id="hours">00</div>
+        </div>
+        <div class="flip-container">
+            <div class="flip-digit" id="minutes">00</div>
+        </div>
+        <div class="flip-container">
+            <div class="flip-digit" id="seconds">00</div>
+        </div>
+    </div>
+  
+<script>// Fetch countdown date and start countdown
+window.onload = function () {
+    fetchCountdownDate();
+};
+
+function fetchCountdownDate() {
+    fetch("/getcountdowndate")
+        .then((response) => {
+            if (!response.ok) {
+                throw new Error("Network response was not ok");
+            }
+            return response.text();
+        })
+        .then((countdownDate) => {
+            startCountdown(countdownDate);
+        })
+        .catch((error) => {
+            console.error("There was a problem with the fetch operation:", error);
+        });
+}
+
+function startCountdown(targetDate) {
+    // Calculate the target date for the countdown (the day before the specified day to 3 am)
+    const targetTime = new Date(targetDate);
+    targetTime.setDate(targetTime.getDate() - 1);
+    targetTime.setHours(3, 0, 0, 0); // Set to 3 am
+
+    // Update the countdown every second
+    const countdownInterval = setInterval(function () {
+        const now = new Date().getTime();
+        const distance = targetTime.getTime() - now;
+
+        if (distance < 0) {
+            // If the countdown is over, display "Expired" or take any appropriate action
+            clearInterval(countdownInterval);
+            document.querySelectorAll('.flip-digit').forEach(digit => digit.textContent = '00');
+        } else {
+            // Calculate days, hours, minutes, and seconds
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            // Display the countdown
+            document.getElementById("days").textContent = padNumber(days);
+            document.getElementById("hours").textContent = padNumber(hours);
+            document.getElementById("minutes").textContent = padNumber(minutes);
+            document.getElementById("seconds").textContent = padNumber(seconds);
+        }
+    }, 1000);
+}
+
+function padNumber(number) {
+    return (number < 10 ? '0' : '') + number;
+}
+        function handleSSE(event) {
+        // Parse the event data
+        const data = JSON.parse(event.data);
+
+        // Check if the tracker has started
+        if (data.messageupdate) {
+          // Refresh the page to the home page if the tracker has started
+          document.getElementById("main-message").textContent =
+            data.messageupdate;
+        }
+        if (data.trackerStarted === true) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.unlocked === false) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.trackerEnded === true) {
+          // Refresh the page to the home page if the tracker has started
+          window.location.href = "/";
+        }
+        if (data.refresh === true) {
+          window.location.href = "/";
+        }
+      }
+
+      // Function to start listening for SSE messages
+      function startSSE() {
+        const eventSource = new EventSource("/updates");
+        eventSource.onmessage = handleSSE;
+      }
+
+      // Start listening for SSE messages
+      startSSE();
+</script>
+    
+<footer>
+    <center><p>&copy; 2024 Master Bunny Tracker</p></center>
+</footer>
 </body>
 </html>

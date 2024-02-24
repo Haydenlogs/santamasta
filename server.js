@@ -14,7 +14,7 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 8.11;
 let trackerInterval;
-const countdownDate = new Date("2024-02-31T00:00:00Z");
+const countdownDate = new Date("2024-02-29T00:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
   "/restarttracker": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
@@ -48,7 +48,7 @@ function isValidDate(dateString) {
   return dateString.match(datePattern);
 }
 function isSameMonthAsCountdown(date) {
-  const countdownDate = new Date("2024-02-29T00:00:00Z");
+  
   return date.getMonth() === countdownDate.getMonth();
 }
 
@@ -578,7 +578,9 @@ app.get("/", (req, res) => {
   const trackerStarted = isTrackerStartedFromFile();
   // Check if the site is locked
   if (isSameMonthAsCountdown(currentDate) === true) {
+    if (trackerStarted === false) {
     res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
+    }
   } else {
     if (isLocked) {
       // If locked, redirect to comeback.html
