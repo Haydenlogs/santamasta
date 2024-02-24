@@ -47470,5 +47470,539 @@
     "country": "Aveiro",
     "latitude": 40.6333333,
     "longitude": -8.6499996
+  },
+  {
+    "city": "Portugal",
+    "country": "Ilhavo",
+    "latitude": 40.6,
+    "longitude": -8.666667
+  },
+  {
+    "city": "Portugal",
+    "country": "Lagos",
+    "latitude": 37.102015,
+    "longitude": -8.674221
+  },
+  {
+    "city": "Portugal",
+    "country": "Santarem",
+    "latitude": 39.2333333,
+    "longitude": -8.6833334
+  },
+  {
+    "city": "Portugal",
+    "country": "Leca da Palmeira",
+    "latitude": 41.2,
+    "longitude": -8.6999998
+  },
+  {
+    "city": "Portugal",
+    "country": "Matosinhos",
+    "latitude": 41.1833333,
+    "longitude": -8.6999998
+  },
+  {
+    "city": "Spain",
+    "country": "Vigo",
+    "latitude": 42.2333333,
+    "longitude": -8.7166672
+  },
+  {
+    "city": "Portugal",
+    "country": "Monsanto",
+    "latitude": 39.4666667,
+    "longitude": -8.7166672
+  },
+  {
+    "city": "Ireland",
+    "country": "Droichead na Bandon",
+    "latitude": 51.7469444,
+    "longitude": -8.7425003
+  },
+  {
+    "city": "Portugal",
+    "country": "Pedroso",
+    "latitude": 41.4166667,
+    "longitude": -8.75
+  },
+  {
+    "city": "Portugal",
+    "country": "Vila do Conde",
+    "latitude": 41.35,
+    "longitude": -8.75
+  },
+  {
+    "city": "Portugal",
+    "country": "Povoa de Varzim",
+    "latitude": 41.3833333,
+    "longitude": -8.7666664
+  },
+  {
+    "city": "Portugal",
+    "country": "Esposende",
+    "latitude": 41.5333333,
+    "longitude": -8.7833328
+  },
+  {
+    "city": "Portugal",
+    "country": "Leiria",
+    "latitude": 39.75,
+    "longitude": -8.8000002
+  },
+  {
+    "city": "Ireland",
+    "country": "Tuaim",
+    "latitude": 53.5166667,
+    "longitude": -8.8500004
+  },
+  {
+    "city": "Morocco",
+    "country": "Taroudant",
+    "latitude": 30.48,
+    "longitude": -8.8599997
+  },
+  {
+    "city": "Ireland",
+    "country": "Sionainn",
+    "latitude": 52.7038889,
+    "longitude": -8.8641663
+  },
+  {
+    "city": "Ireland",
+    "country": "Clonakilty",
+    "latitude": 51.6230556,
+    "longitude": -8.8705559
+  },
+  {
+    "city": "Portugal",
+    "country": "Setubal",
+    "latitude": 38.5243986,
+    "longitude": -8.8881969
+  },
+  {
+    "city": "Portugal",
+    "country": "Pinhal Novo",
+    "latitude": 38.6333333,
+    "longitude": -8.916667
+  },
+  {
+    "city": "Portugal",
+    "country": "Marinha Grande",
+    "latitude": 39.75,
+    "longitude": -8.9333334
+  },
+  {
+    "city": "Ireland",
+    "country": "Macroom",
+    "latitude": 51.9,
+    "longitude": -8.9499998
+  },
+  {
+    "city": "Portugal",
+    "country": "Montijo",
+    "latitude": 38.7,
+    "longitude": -8.9666672
+  },
+  {
+    "city": "Portugal",
+    "country": "Vila Franca de Xira",
+    "latitude": 38.95,
+    "longitude": -8.9833336
+  },
+  {
+    "city": "Portugal",
+    "country": "Moita",
+    "latitude": 38.65,
+    "longitude": -8.9833336
+  },
+  {
+    "city": "Ireland",
+    "country": "Inis",
+    "latitude": 52.8436111,
+    "longitude": -8.9863892
+  },
+  {
+    "city": "Morocco",
+    "country": "Tafraout",
+    "latitude": 29.71,
+    "longitude": -9
+  },
+  {
+    "city": "Ireland",
+    "country": "Galway",
+    "latitude": 53.2719444,
+    "longitude": -9.0488892
+  },
+  {
+    "city": "Ireland",
+    "country": "An Caislean Nua",
+    "latitude": 52.4491667,
+    "longitude": -9.0611115
+  },
+  {
+    "city": "Portugal",
+    "country": "Povoa de Santa Iria",
+    "latitude": 38.85,
+    "longitude": -9.0666666
+  },
+  {
+    "city": "Portugal",
+    "country": "Barreiro",
+    "latitude": 38.6666667,
+    "longitude": -9.0666666
+  },
+  {
+    "city": "Portugal",
+    "country": "Santa Iria da Azoia",
+    "latitude": 38.85,
+    "longitude": -9.083333
+  },
+  {
+    "city": "Portugal",
+    "country": "Sao Joao da Talha",
+    "latitude": 38.8166667,
+    "longitude": -9.083333
+  },
+  {
+    "city": "Portugal",
+    "country": "Sacavem",
+    "latitude": 38.7833333,
+    "longitude": -9.1000004
+  },
+  {
+    "city": "Portugal",
+    "country": "Arrentela",
+    "latitude": 38.6166667,
+    "longitude": -9.1000004
+  },
+  {
+    "city": "Portugal",
+    "country": "Sesimbra",
+    "latitude": 38.4445141,
+    "longitude": -9.1014862
+  },
+  {
+    "city": "Portugal",
+    "country": "Amora",
+    "latitude": 38.6166667,
+    "longitude": -9.1166668
+  },
+  {
+    "city": "Portugal",
+    "country": "Caldas da Rainha",
+    "latitude": 39.4,
+    "longitude": -9.1333332
+  },
+  {
+    "city": "Portugal",
+    "country": "Camarate",
+    "latitude": 38.8,
+    "longitude": -9.1333332
+  },
+  {
+    "city": "Portugal",
+    "country": "Lisbon",
+    "latitude": 38.7166667,
+    "longitude": -9.1333332
+  },
+  {
+    "city": "Portugal",
+    "country": "Almada",
+    "latitude": 38.6833333,
+    "longitude": -9.1499996
+  },
+  {
+    "city": "Portugal",
+    "country": "Cova da Piedade",
+    "latitude": 38.6666667,
+    "longitude": -9.1499996
+  },
+  {
+    "city": "Portugal",
+    "country": "Corroios",
+    "latitude": 38.6333333,
+    "longitude": -9.1499996
+  },
+  {
+    "city": "Ireland",
+    "country": "Beal An Atha",
+    "latitude": 54.1166667,
+    "longitude": -9.166667
+  },
+  {
+    "city": "Portugal",
+    "country": "Loures",
+    "latitude": 38.8309147,
+    "longitude": -9.1684504
+  },
+  {
+    "city": "Portugal",
+    "country": "Ramada",
+    "latitude": 38.8,
+    "longitude": -9.1833334
+  },
+  {
+    "city": "Portugal",
+    "country": "Odivelas",
+    "latitude": 38.7833333,
+    "longitude": -9.1833334
+  },
+  {
+    "city": "Portugal",
+    "country": "Charneca",
+    "latitude": 38.6166667,
+    "longitude": -9.1833334
+  },
+  {
+    "city": "Portugal",
+    "country": "Pontinha",
+    "latitude": 38.7666667,
+    "longitude": -9.1999998
+  },
+  {
+    "city": "Portugal",
+    "country": "Caparica",
+    "latitude": 38.6666667,
+    "longitude": -9.1999998
+  },
+  {
+    "city": "Morocco",
+    "country": "Oulad Teima",
+    "latitude": 30.4,
+    "longitude": -9.21
+  },
+  {
+    "city": "Morocco",
+    "country": "Safi",
+    "latitude": 32.3,
+    "longitude": -9.2299995
+  },
+  {
+    "city": "Portugal",
+    "country": "Amadora",
+    "latitude": 38.7538155,
+    "longitude": -9.2308331
+  },
+  {
+    "city": "Portugal",
+    "country": "Alges",
+    "latitude": 38.7,
+    "longitude": -9.2333336
+  },
+  {
+    "city": "Portugal",
+    "country": "Queluz",
+    "latitude": 38.75,
+    "longitude": -9.25
+  },
+  {
+    "city": "Portugal",
+    "country": "Carnaxide",
+    "latitude": 38.7166667,
+    "longitude": -9.25
+  },
+  {
+    "city": "Portugal",
+    "country": "Linda-a-Velha",
+    "latitude": 38.7166667,
+    "longitude": -9.25
+  },
+  {
+    "city": "Portugal",
+    "country": "Torres Vedras",
+    "latitude": 39.1,
+    "longitude": -9.2666664
+  },
+  {
+    "city": "Portugal",
+    "country": "Belas",
+    "latitude": 38.7666667,
+    "longitude": -9.2666664
+  },
+  {
+    "city": "Portugal",
+    "country": "Paco de Arcos",
+    "latitude": 38.6956928,
+    "longitude": -9.2914295
+  },
+  {
+    "city": "Ireland",
+    "country": "Castlebar",
+    "latitude": 53.85,
+    "longitude": -9.3000002
+  },
+  {
+    "city": "Portugal",
+    "country": "Cacem",
+    "latitude": 38.7666667,
+    "longitude": -9.3000002
+  },
+  {
+    "city": "Portugal",
+    "country": "Rio de Mouro",
+    "latitude": 38.7666667,
+    "longitude": -9.333333
+  },
+  {
+    "city": "Portugal",
+    "country": "Sao Domingos de Rana",
+    "latitude": 38.7,
+    "longitude": -9.333333
+  },
+  {
+    "city": "Portugal",
+    "country": "Carcavelos",
+    "latitude": 38.6833333,
+    "longitude": -9.333333
+  },
+  {
+    "city": "Portugal",
+    "country": "Parede",
+    "latitude": 38.6833333,
+    "longitude": -9.3500004
+  },
+  {
+    "city": "Portugal",
+    "country": "Sintra",
+    "latitude": 38.8,
+    "longitude": -9.3833332
+  },
+  {
+    "city": "Portugal",
+    "country": "Estoril",
+    "latitude": 38.7057069,
+    "longitude": -9.3977308
+  },
+  {
+    "city": "Portugal",
+    "country": "Monte Estoril",
+    "latitude": 38.7027933,
+    "longitude": -9.4160557
+  },
+  {
+    "city": "Portugal",
+    "country": "Alcabideche",
+    "latitude": 38.7333333,
+    "longitude": -9.416667
+  },
+  {
+    "city": "Portugal",
+    "country": "Cascais",
+    "latitude": 38.6979034,
+    "longitude": -9.421463
+  },
+  {
+    "city": "Ireland",
+    "country": "Beanntrai",
+    "latitude": 51.6833333,
+    "longitude": -9.4499998
+  },
+  {
+    "city": "Liberia",
+    "country": "Gbarnga",
+    "latitude": 6.9955556,
+    "longitude": -9.4722223
+  },
+  {
+    "city": "Malta",
+    "country": "Kita",
+    "latitude": 13.05,
+    "longitude": -9.4833336
+  },
+  {
+    "city": "Ireland",
+    "country": "Lios Tuathail",
+    "latitude": 52.4463889,
+    "longitude": -9.4849997
+  },
+  {
+    "city": "Ireland",
+    "country": "Cathair na Mart",
+    "latitude": 53.8,
+    "longitude": -9.5166664
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Airne",
+    "latitude": 52.05,
+    "longitude": -9.5166664
+  },
+  {
+    "city": "Morocco",
+    "country": "Agadir",
+    "latitude": 30.4,
+    "longitude": -9.6000004
+  },
+  {
+    "city": "Morocco",
+    "country": "Tiznit",
+    "latitude": 29.71,
+    "longitude": -9.71
+  },
+  {
+    "city": "Ireland",
+    "country": "Tra Li",
+    "latitude": 52.2666667,
+    "longitude": -9.7166672
+  },
+  {
+    "city": "Morocco",
+    "country": "Essaouira",
+    "latitude": 31.51,
+    "longitude": -9.7600002
+  },
+  {
+    "city": "Liberia",
+    "country": "Buchanan",
+    "latitude": 5.8808333,
+    "longitude": -10.0466671
+  },
+  {
+    "city": "Morocco",
+    "country": "Guelmim",
+    "latitude": 28.98,
+    "longitude": -10.0600004
+  },
+  {
+    "city": "Morocco",
+    "country": "Sidi Ifni",
+    "latitude": 29.38,
+    "longitude": -10.1599998
+  },
+  {
+    "city": "Liberia",
+    "country": "Bensonville",
+    "latitude": 6.4461111,
+    "longitude": -10.6125002
+  },
+  {
+    "city": "Liberia",
+    "country": "Monrovia",
+    "latitude": 6.3105556,
+    "longitude": -10.8047218
+  },
+  {
+    "city": "Liberia",
+    "country": "Tubmanburg",
+    "latitude": 6.8708333,
+    "longitude": -10.8172226
+  },
+  {
+    "city": "Malta",
+    "country": "Bafoulabe",
+    "latitude": 13.8,
+    "longitude": -10.833333
+  },
+  {
+    "city": "Malta",
+    "country": "Dire",
+    "latitude": 12.2833333,
+    "longitude": -10.9666672
+  },
+  {
+    "city": "Morocco",
+    "country": "Tan-Tan",
+    "latitude": 28.43,
+    "longitude": -11.1000004
   }
 ]
