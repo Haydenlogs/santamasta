@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Santa Tracker</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment-timezone/0.5.34/moment-timezone-with-data-10-year-range.min.js"></script>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -43,46 +42,6 @@
     </div>
 
     <script>
-        const timezoneMap = {
-            "-180": "Pacific/Midway",
-            "-165": "Pacific/Pago_Pago",
-            "-150": "Pacific/Honolulu",
-            "-135": "Pacific/Marquesas",
-            "-120": "America/Adak",
-            "-105": "Pacific/Gambier",
-            "-90": "America/Anchorage",
-            "-75": "America/Los_Angeles",
-            "-60": "America/Denver",
-            "-45": "America/Chicago",
-            "-30": "America/New_York",
-            "-15": "America/Caracas",
-            "0": "Atlantic/Azores",
-            "15": "Europe/London",
-            "30": "Europe/Paris",
-            "45": "Europe/Istanbul",
-            "60": "Asia/Dubai",
-            "75": "Asia/Kabul",
-            "90": "Asia/Tashkent",
-            "105": "Asia/Kolkata",
-            "120": "Asia/Dhaka",
-            "135": "Asia/Rangoon",
-            "150": "Asia/Bangkok",
-            "165": "Asia/Shanghai",
-            "180": "Asia/Tokyo",
-            "195": "Asia/Seoul",
-            "210": "Australia/Darwin",
-            "225": "Australia/Brisbane",
-            "240": "Pacific/Guam",
-            "255": "Australia/Lord_Howe",
-            "270": "Pacific/Noumea",
-            "285": "Pacific/Norfolk",
-            "300": "Pacific/Auckland",
-            "315": "Pacific/Tongatapu",
-            "330": "Pacific/Apia",
-            "345": "Pacific/Fakaofo"
-            // Add more mappings as needed
-        };
-
         const eventSource = new EventSource('/updates');
 
         eventSource.onmessage = function(event) {
@@ -90,11 +49,23 @@
             const currentCity = data.currentCity;
             if (currentCity) {
                 const { city, latitude, longitude } = currentCity;
-                const timezoneOffset = Math.round(longitude / 15) * 15; // Round longitude to the nearest 15-degree interval
-                const timezone = timezoneMap[timezoneOffset];
-                const localTime = timezone ? moment().tz(timezone).format('h:mm:ss A') : 'Unknown';
-                document.getElementById('time').innerText = localTime;
-                document.getElementById('city').innerText = `${data.currentCity.country}, ${data.currentCity.city}`;
+                fetchTimezone(latitude, longitude)
+                    .then(timezone => {
+                        if (timezone) {
+                            const localTime = moment.tz(timezone).format('h:mm:ss A');
+                            document.getElementById('time').innerText = localTime;
+                            document.getElementById('city').innerText = `${data.currentCity.country}, ${data.currentCity.city}`;
+                        } else {
+                            console.error('Timezone for coordinates not found');
+                            document.getElementById('time').innerText = 'Unknown';
+                            document.getElementById('city').innerText = `${data.currentCity.country}, ${data.currentCity.city}`;
+                        }
+                    })
+                    .catch(error => {
+                        console.error('Error fetching timezone:', error);
+                        document.getElementById('time').innerText = 'Unknown';
+                        document.getElementById('city').innerText = `${data.currentCity.country}, ${data.currentCity.city}`;
+                    });
             }
         };
 
@@ -102,6 +73,19 @@
             console.error('EventSource failed:', error);
             eventSource.close();
         };
+
+        async function fetchTimezone(latitude, longitude) {
+            try {
+                const response = await fetch(`https://worldtimeapi.org/api/timezone/${latitude}/${longitude}`);
+                if (!response.ok) {
+                    throw new Error('Failed to fetch timezone');
+                }
+                const data = await response.json();
+                return data.timezone;
+            } catch (error) {
+                throw error;
+            }
+        }
     </script>
 </body>
 </html>

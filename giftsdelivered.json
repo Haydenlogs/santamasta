@@ -45388,5 +45388,497 @@
     "country": "Rennes",
     "latitude": 48.0833333,
     "longitude": -1.6833333
+  },
+  {
+    "city": "Spain",
+    "country": "Lorca",
+    "latitude": 37.6666667,
+    "longitude": -1.7
+  },
+  {
+    "city": "Ghana",
+    "country": "Sekondi",
+    "latitude": 4.9333333,
+    "longitude": -1.7
+  },
+  {
+    "city": "Ghana",
+    "country": "Kintampo",
+    "latitude": 8.05,
+    "longitude": -1.7166667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bradford",
+    "latitude": 53.7833333,
+    "longitude": -1.75
+  },
+  {
+    "city": "Ghana",
+    "country": "Takoradi",
+    "latitude": 4.8833333,
+    "longitude": -1.75
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Huddersfield",
+    "latitude": 53.65,
+    "longitude": -1.7833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Solihull",
+    "latitude": 52.4166667,
+    "longitude": -1.7833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Swindon",
+    "latitude": 51.5166667,
+    "longitude": -1.7833333
+  },
+  {
+    "city": "Ghana",
+    "country": "Dunkwa",
+    "latitude": 5.9666667,
+    "longitude": -1.7833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Sutton Coldfield",
+    "latitude": 52.5651864,
+    "longitude": -1.8223572
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Halifax",
+    "latitude": 53.7166667,
+    "longitude": -1.85
+  },
+  {
+    "city": "Spain",
+    "country": "Albacete",
+    "latitude": 38.9833333,
+    "longitude": -1.85
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bournemouth",
+    "latitude": 50.7166667,
+    "longitude": -1.8833333
+  },
+  {
+    "city": "Morocco",
+    "country": "Oujda",
+    "latitude": 34.68,
+    "longitude": -1.91
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Birmingham",
+    "latitude": 52.4666667,
+    "longitude": -1.9166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Techiman",
+    "latitude": 7.5833333,
+    "longitude": -1.9333333
+  },
+  {
+    "city": "Ghana",
+    "country": "Aboso",
+    "latitude": 5.3666667,
+    "longitude": -1.9333333
+  },
+  {
+    "city": "Spain",
+    "country": "San Sebastian",
+    "latitude": 43.3128301,
+    "longitude": -1.9749933
+  },
+  {
+    "city": "Ghana",
+    "country": "Tarkwa",
+    "latitude": 5.3,
+    "longitude": -1.9833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Walsall",
+    "latitude": 52.6,
+    "longitude": -2
+  },
+  {
+    "city": "United Kingdom",
+    "country": "West Bromwich",
+    "latitude": 52.5166667,
+    "longitude": -2
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Poole",
+    "latitude": 50.7166667,
+    "longitude": -2
+  },
+  {
+    "city": "Ghana",
+    "country": "Bechem",
+    "latitude": 7.0833333,
+    "longitude": -2.0333333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Dudley",
+    "latitude": 52.5,
+    "longitude": -2.0833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Cheltenham",
+    "latitude": 51.9,
+    "longitude": -2.0833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Aberdeen",
+    "latitude": 57.1333333,
+    "longitude": -2.0999999
+  },
+  {
+    "city": "Morocco",
+    "country": "Ahfir",
+    "latitude": 34.95,
+    "longitude": -2.0999999
+  },
+  {
+    "city": "Ghana",
+    "country": "Wenchi",
+    "latitude": 7.7333333,
+    "longitude": -2.0999999
+  },
+  {
+    "city": "Ghana",
+    "country": "Duayaw Nkwanta",
+    "latitude": 7.1666667,
+    "longitude": -2.0999999
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Oldham",
+    "latitude": 53.5405114,
+    "longitude": -2.1183014
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Wolverhampton",
+    "latitude": 52.5833333,
+    "longitude": -2.1333332
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Rochdale",
+    "latitude": 53.6166667,
+    "longitude": -2.1500001
+  },
+  {
+    "city": "Ghana",
+    "country": "Prestea",
+    "latitude": 5.4333333,
+    "longitude": -2.1500001
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Stockport",
+    "latitude": 53.4097877,
+    "longitude": -2.1576118
+  },
+  {
+    "city": "Morocco",
+    "country": "Jerada",
+    "latitude": 34.31,
+    "longitude": -2.1600001
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Stoke-on-Trent",
+    "latitude": 53,
+    "longitude": -2.1833334
+  },
+  {
+    "city": "France",
+    "country": "Saint-Nazaire",
+    "latitude": 47.2833333,
+    "longitude": -2.2
+  },
+  {
+    "city": "Algeria",
+    "country": "Bechar",
+    "latitude": 31.6166667,
+    "longitude": -2.2166667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Worcester",
+    "latitude": 52.1893517,
+    "longitude": -2.2200108
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Manchester",
+    "latitude": 53.4809464,
+    "longitude": -2.2374344
+  },
+  {
+    "city": "Ghana",
+    "country": "Axim",
+    "latitude": 4.8683333,
+    "longitude": -2.2413888
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Gloucester",
+    "latitude": 51.8656801,
+    "longitude": -2.2430992
+  },
+  {
+    "city": "Morocco",
+    "country": "Berkane",
+    "latitude": 34.92,
+    "longitude": -2.3199999
+  },
+  {
+    "city": "Ghana",
+    "country": "Sunyani",
+    "latitude": 7.3333333,
+    "longitude": -2.3333333
+  },
+  {
+    "city": "Ghana",
+    "country": "Bibiani",
+    "latitude": 6.4666667,
+    "longitude": -2.3333333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bath",
+    "latitude": 51.3794444,
+    "longitude": -2.3655555
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bolton",
+    "latitude": 53.5833333,
+    "longitude": -2.4333334
+  },
+  {
+    "city": "Spain",
+    "country": "Logrono",
+    "latitude": 42.4666667,
+    "longitude": -2.45
+  },
+  {
+    "city": "Spain",
+    "country": "Almeria",
+    "latitude": 36.8381412,
+    "longitude": -2.4597359
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Blackburn",
+    "latitude": 53.75,
+    "longitude": -2.4833333
+  },
+  {
+    "city": "Ghana",
+    "country": "Wa",
+    "latitude": 10.05,
+    "longitude": -2.4833333
+  },
+  {
+    "city": "Morocco",
+    "country": "El Aioun",
+    "latitude": 34.58,
+    "longitude": -2.5
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bristol",
+    "latitude": 51.45,
+    "longitude": -2.5833333
+  },
+  {
+    "city": "Ghana",
+    "country": "Berekum",
+    "latitude": 7.45,
+    "longitude": -2.5833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Warrington",
+    "latitude": 53.3833333,
+    "longitude": -2.5999999
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Wigan",
+    "latitude": 53.5333333,
+    "longitude": -2.6166668
+  },
+  {
+    "city": "Spain",
+    "country": "Vitoria-Gasteiz",
+    "latitude": 42.85,
+    "longitude": -2.6666667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Preston",
+    "latitude": 53.7666667,
+    "longitude": -2.7166667
+  },
+  {
+    "city": "Morocco",
+    "country": "Zaio",
+    "latitude": 34.93,
+    "longitude": -2.73
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Saint Helens",
+    "latitude": 53.45,
+    "longitude": -2.7333333
+  },
+  {
+    "city": "France",
+    "country": "Vannes",
+    "latitude": 47.6666667,
+    "longitude": -2.75
+  },
+  {
+    "city": "Spain",
+    "country": "El Ejido",
+    "latitude": 36.7762925,
+    "longitude": -2.8145599
+  },
+  {
+    "city": "Morocco",
+    "country": "Taourirt",
+    "latitude": 34.41,
+    "longitude": -2.8900001
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Chester",
+    "latitude": 53.2,
+    "longitude": -2.9166667
+  },
+  {
+    "city": "Spain",
+    "country": "Bilbao",
+    "latitude": 43.2627062,
+    "longitude": -2.9252815
+  },
+  {
+    "city": "Morocco",
+    "country": "Nador",
+    "latitude": 35.17,
+    "longitude": -2.9300001
+  },
+  {
+    "city": "Spain",
+    "country": "Melilla",
+    "latitude": 35.2936912,
+    "longitude": -2.9383278
+  },
+  {
+    "city": "Malta",
+    "country": "Douentza",
+    "latitude": 15,
+    "longitude": -2.95
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Dundee",
+    "latitude": 56.5,
+    "longitude": -2.9666667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Weston-super-Mare",
+    "latitude": 51.3458333,
+    "longitude": -2.9677777
+  },
+  {
+    "city": "Spain",
+    "country": "Barakaldo",
+    "latitude": 43.2956367,
+    "longitude": -2.9972935
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Newport",
+    "latitude": 51.5877364,
+    "longitude": -2.9983504
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Southport",
+    "latitude": 53.6666667,
+    "longitude": -3
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Liverpool",
+    "latitude": 53.4166667,
+    "longitude": -3
+  },
+  {
+    "city": "Malta",
+    "country": "Tombouctou",
+    "latitude": 16.77348,
+    "longitude": -3.0074215
+  },
+  {
+    "city": "Spain",
+    "country": "Algorta",
+    "latitude": 43.3492745,
+    "longitude": -3.0093956
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Birkenhead",
+    "latitude": 53.4,
+    "longitude": -3.0333333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Blackpool",
+    "latitude": 53.8166667,
+    "longitude": -3.05
+  },
+  {
+    "city": "Spain",
+    "country": "Guadalajara",
+    "latitude": 40.6333333,
+    "longitude": -3.1666667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Cardiff",
+    "latitude": 51.48,
+    "longitude": -3.1800001
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Edinburgh",
+    "latitude": 55.95,
+    "longitude": -3.2
+  },
+  {
+    "city": "Morocco",
+    "country": "Guercif",
+    "latitude": 34.23,
+    "longitude": -3.3599999
   }
 ]
