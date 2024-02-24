@@ -53860,5 +53860,545 @@
     "country": "Cornillon",
     "latitude": 18.6747222,
     "longitude": -71.953331
+  },
+  {
+    "city": "Canada",
+    "country": "Victoriaville",
+    "latitude": 46.050067,
+    "longitude": -71.9657898
+  },
+  {
+    "city": "Haiti",
+    "country": "Thomonde",
+    "latitude": 19.0166667,
+    "longitude": -71.9666672
+  },
+  {
+    "city": "Chile",
+    "country": "San Carlos",
+    "latitude": -36.4166667,
+    "longitude": -71.9666672
+  },
+  {
+    "city": "Haiti",
+    "country": "Fond Parisien",
+    "latitude": 18.5058333,
+    "longitude": -71.9766693
+  },
+  {
+    "city": "Peru",
+    "country": "Cusco",
+    "latitude": -13.5183333,
+    "longitude": -71.9780579
+  },
+  {
+    "city": "Peru",
+    "country": "Mollendo",
+    "latitude": -17.0230556,
+    "longitude": -72.0147247
+  },
+  {
+    "city": "Haiti",
+    "country": "Caracol",
+    "latitude": 19.6908333,
+    "longitude": -72.0161133
+  },
+  {
+    "city": "Haiti",
+    "country": "Trou du Nord",
+    "latitude": 19.6333333,
+    "longitude": -72.0166702
+  },
+  {
+    "city": "Haiti",
+    "country": "Hinche",
+    "latitude": 19.15,
+    "longitude": -72.0166702
+  },
+  {
+    "city": "Haiti",
+    "country": "Belle-Anse",
+    "latitude": 18.2372222,
+    "longitude": -72.0655594
+  },
+  {
+    "city": "Chile",
+    "country": "Coihaique",
+    "latitude": -45.5752397,
+    "longitude": -72.0661926
+  },
+  {
+    "city": "Haiti",
+    "country": "Ranquitte",
+    "latitude": 19.4166667,
+    "longitude": -72.0833359
+  },
+  {
+    "city": "Haiti",
+    "country": "Thomazeau",
+    "latitude": 18.6519444,
+    "longitude": -72.0947189
+  },
+  {
+    "city": "Haiti",
+    "country": "Mirebalais",
+    "latitude": 18.8333333,
+    "longitude": -72.105278
+  },
+  {
+    "city": "Haiti",
+    "country": "Bahon",
+    "latitude": 19.4666667,
+    "longitude": -72.1166687
+  },
+  {
+    "city": "Haiti",
+    "country": "Pignon",
+    "latitude": 19.3333333,
+    "longitude": -72.1166687
+  },
+  {
+    "city": "Chile",
+    "country": "Chillan",
+    "latitude": -36.6,
+    "longitude": -72.1166687
+  },
+  {
+    "city": "Haiti",
+    "country": "Limonade",
+    "latitude": 19.6697222,
+    "longitude": -72.1252747
+  },
+  {
+    "city": "Haiti",
+    "country": "Maissade",
+    "latitude": 19.1666667,
+    "longitude": -72.1333313
+  },
+  {
+    "city": "Haiti",
+    "country": "Quartier Morin",
+    "latitude": 19.6966667,
+    "longitude": -72.1569443
+  },
+  {
+    "city": "Haiti",
+    "country": "Grande Riviere du Nord",
+    "latitude": 19.5833333,
+    "longitude": -72.1833344
+  },
+  {
+    "city": "Haiti",
+    "country": "Saint-Raphael",
+    "latitude": 19.4333333,
+    "longitude": -72.1999969
+  },
+  {
+    "city": "Haiti",
+    "country": "Cap-Haitien",
+    "latitude": 19.7577778,
+    "longitude": -72.2041702
+  },
+  {
+    "city": "Haiti",
+    "country": "Milot",
+    "latitude": 19.6166667,
+    "longitude": -72.2166672
+  },
+  {
+    "city": "Venezuela",
+    "country": "Tariba",
+    "latitude": 7.8236111,
+    "longitude": -72.2213898
+  },
+  {
+    "city": "Haiti",
+    "country": "Croix des Bouquets",
+    "latitude": 18.575,
+    "longitude": -72.2249985
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Cristobal",
+    "latitude": 7.7669444,
+    "longitude": -72.2249985
+  },
+  {
+    "city": "Chile",
+    "country": "Villarrica",
+    "latitude": -39.2856855,
+    "longitude": -72.2278976
+  },
+  {
+    "city": "Haiti",
+    "country": "Dondon",
+    "latitude": 19.5333333,
+    "longitude": -72.2333298
+  },
+  {
+    "city": "Chile",
+    "country": "Mulchen",
+    "latitude": -37.7166667,
+    "longitude": -72.2333298
+  },
+  {
+    "city": "Colombi",
+    "country": "Maicao",
+    "latitude": 11.3841667,
+    "longitude": -72.2441635
+  },
+  {
+    "city": "Venezuela",
+    "country": "La Fria",
+    "latitude": 8.2188889,
+    "longitude": -72.2483368
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Juan de Colon",
+    "latitude": 8.0377778,
+    "longitude": -72.2519455
+  },
+  {
+    "city": "Haiti",
+    "country": "Plaine du Nord",
+    "latitude": 19.6833333,
+    "longitude": -72.2666702
+  },
+  {
+    "city": "Argentina",
+    "country": "El Calafate",
+    "latitude": -50.3407497,
+    "longitude": -72.2768173
+  },
+  {
+    "city": "Haiti",
+    "country": "Petionville",
+    "latitude": 18.5125,
+    "longitude": -72.2852783
+  },
+  {
+    "city": "Haiti",
+    "country": "Kenscoff",
+    "latitude": 18.4505556,
+    "longitude": -72.2869415
+  },
+  {
+    "city": "Chile",
+    "country": "Bulnes",
+    "latitude": -36.7333333,
+    "longitude": -72.3000031
+  },
+  {
+    "city": "Haiti",
+    "country": "Delmas 73",
+    "latitude": 18.5447222,
+    "longitude": -72.3027802
+  },
+  {
+    "city": "Haiti",
+    "country": "Acul du Nord",
+    "latitude": 19.6833333,
+    "longitude": -72.3166656
+  },
+  {
+    "city": "Haiti",
+    "country": "Marigot",
+    "latitude": 18.2338889,
+    "longitude": -72.3166656
+  },
+  {
+    "city": "Venezuela",
+    "country": "Rosario",
+    "latitude": 10.3166667,
+    "longitude": -72.3166656
+  },
+  {
+    "city": "Chile",
+    "country": "Victoria",
+    "latitude": -38.2166667,
+    "longitude": -72.3333359
+  },
+  {
+    "city": "Chile",
+    "country": "Panguipulli",
+    "latitude": -39.6333333,
+    "longitude": -72.3333359
+  },
+  {
+    "city": "Haiti",
+    "country": "Port-au-Prince",
+    "latitude": 18.5391667,
+    "longitude": -72.3349991
+  },
+  {
+    "city": "Haiti",
+    "country": "Marmelade",
+    "latitude": 19.5166667,
+    "longitude": -72.3499985
+  },
+  {
+    "city": "Chile",
+    "country": "Cauquenes",
+    "latitude": -35.9666667,
+    "longitude": -72.3499985
+  },
+  {
+    "city": "Chile",
+    "country": "Los Angeles",
+    "latitude": -37.4666667,
+    "longitude": -72.3499985
+  },
+  {
+    "city": "Venezuela",
+    "country": "Rubio",
+    "latitude": 7.7072222,
+    "longitude": -72.3538895
+  },
+  {
+    "city": "Haiti",
+    "country": "Desarmes",
+    "latitude": 18.9916667,
+    "longitude": -72.3888855
+  },
+  {
+    "city": "Colombi",
+    "country": "Yopal",
+    "latitude": 5.3394444,
+    "longitude": -72.394165
+  },
+  {
+    "city": "Haiti",
+    "country": "Cayes Jacmel",
+    "latitude": 18.2302778,
+    "longitude": -72.3961105
+  },
+  {
+    "city": "Haiti",
+    "country": "Carrefour",
+    "latitude": 18.5411401,
+    "longitude": -72.3992157
+  },
+  {
+    "city": "Haiti",
+    "country": "Limbe",
+    "latitude": 19.7,
+    "longitude": -72.4000015
+  },
+  {
+    "city": "Chile",
+    "country": "Cabrero",
+    "latitude": -37.0333333,
+    "longitude": -72.4000015
+  },
+  {
+    "city": "Chile",
+    "country": "Constitucion",
+    "latitude": -35.3333333,
+    "longitude": -72.4166641
+  },
+  {
+    "city": "Haiti",
+    "country": "Cabaret",
+    "latitude": 18.7358333,
+    "longitude": -72.4175034
+  },
+  {
+    "city": "Haiti",
+    "country": "Port Margot",
+    "latitude": 19.75,
+    "longitude": -72.4333344
+  },
+  {
+    "city": "Chile",
+    "country": "Collipulli",
+    "latitude": -37.95,
+    "longitude": -72.4333344
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Antonio del Tachira",
+    "latitude": 7.8177778,
+    "longitude": -72.4424973
+  },
+  {
+    "city": "Chile",
+    "country": "Lautaro",
+    "latitude": -38.5166667,
+    "longitude": -72.4499969
+  },
+  {
+    "city": "Haiti",
+    "country": "Plaisance",
+    "latitude": 19.6,
+    "longitude": -72.4666672
+  },
+  {
+    "city": "Haiti",
+    "country": "Verrettes",
+    "latitude": 19.05,
+    "longitude": -72.4666672
+  },
+  {
+    "city": "Colombi",
+    "country": "Villa del Rosario",
+    "latitude": 7.8338889,
+    "longitude": -72.4741669
+  },
+  {
+    "city": "Canada",
+    "country": "Drummondville",
+    "latitude": 45.8833647,
+    "longitude": -72.4824142
+  },
+  {
+    "city": "Haiti",
+    "country": "Ennery",
+    "latitude": 19.4833333,
+    "longitude": -72.4833298
+  },
+  {
+    "city": "Chile",
+    "country": "Puerto Natales",
+    "latitude": -51.7236255,
+    "longitude": -72.4874496
+  },
+  {
+    "city": "Haiti",
+    "country": "Dessalines",
+    "latitude": 19.2833333,
+    "longitude": -72.5
+  },
+  {
+    "city": "Colombi",
+    "country": "Cucuta",
+    "latitude": 7.8833333,
+    "longitude": -72.5052795
+  },
+  {
+    "city": "Colombi",
+    "country": "Los Patios",
+    "latitude": 7.8383333,
+    "longitude": -72.5133362
+  },
+  {
+    "city": "Haiti",
+    "country": "Gressier",
+    "latitude": 18.55,
+    "longitude": -72.5166702
+  },
+  {
+    "city": "Haiti",
+    "country": "Le Borgne",
+    "latitude": 19.85,
+    "longitude": -72.5333328
+  },
+  {
+    "city": "Haiti",
+    "country": "Jacmel",
+    "latitude": 18.2341667,
+    "longitude": -72.5347214
+  },
+  {
+    "city": "Venezuela",
+    "country": "Machiques",
+    "latitude": 10.0644444,
+    "longitude": -72.5449982
+  },
+  {
+    "city": "Canada",
+    "country": "Trois-Rivieres",
+    "latitude": 46.3500609,
+    "longitude": -72.549118
+  },
+  {
+    "city": "Haiti",
+    "country": "Pilate",
+    "latitude": 19.6666667,
+    "longitude": -72.5500031
+  },
+  {
+    "city": "Chile",
+    "country": "Yumbel",
+    "latitude": -37.0833333,
+    "longitude": -72.5666656
+  },
+  {
+    "city": "Chile",
+    "country": "Temuco",
+    "latitude": -38.7333333,
+    "longitude": -72.5999985
+  },
+  {
+    "city": "Chile",
+    "country": "Loncoche",
+    "latitude": -39.3666667,
+    "longitude": -72.6333313
+  },
+  {
+    "city": "Haiti",
+    "country": "Leogane",
+    "latitude": 18.5108333,
+    "longitude": -72.6338882
+  },
+  {
+    "city": "Chile",
+    "country": "Pitrufquen",
+    "latitude": -38.9833333,
+    "longitude": -72.6500015
+  },
+  {
+    "city": "Colombi",
+    "country": "Pamplona",
+    "latitude": 7.3780556,
+    "longitude": -72.6524963
+  },
+  {
+    "city": "Chile",
+    "country": "Nacimiento",
+    "latitude": -37.5,
+    "longitude": -72.6666641
+  },
+  {
+    "city": "Haiti",
+    "country": "Gros Morne",
+    "latitude": 19.6666667,
+    "longitude": -72.6833344
+  },
+  {
+    "city": "Haiti",
+    "country": "Gonaives",
+    "latitude": 19.45,
+    "longitude": -72.6833344
+  },
+  {
+    "city": "Chile",
+    "country": "Traiguen",
+    "latitude": -38.25,
+    "longitude": -72.6833344
+  },
+  {
+    "city": "Haiti",
+    "country": "Saint-Marc",
+    "latitude": 19.1166667,
+    "longitude": -72.6999969
+  },
+  {
+    "city": "Chile",
+    "country": "La Laja",
+    "latitude": -37.2666667,
+    "longitude": -72.6999969
+  },
+  {
+    "city": "Peru",
+    "country": "Camana",
+    "latitude": -16.6227778,
+    "longitude": -72.711113
+  },
+  {
+    "city": "Haiti",
+    "country": "Saint-Louis du Nord",
+    "latitude": 19.9333333,
+    "longitude": -72.7166672
   }
 ]
