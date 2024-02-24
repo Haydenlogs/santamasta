@@ -58078,5 +58078,533 @@
     "country": "Paita",
     "latitude": -5.0891667,
     "longitude": -81.1144409
+  },
+  {
+    "city": "Cuba",
+    "country": "Jaguey Grande",
+    "latitude": 22.5269444,
+    "longitude": -81.1286087
+  },
+  {
+    "city": "Panama",
+    "country": "La Mesa",
+    "latitude": 8.15,
+    "longitude": -81.1833344
+  },
+  {
+    "city": "Cuba",
+    "country": "Jovellanos",
+    "latitude": 22.8044444,
+    "longitude": -81.1944427
+  },
+  {
+    "city": "Cuba",
+    "country": "Cardenas",
+    "latitude": 23.0375,
+    "longitude": -81.2047195
+  },
+  {
+    "city": "Panama",
+    "country": "Canazas",
+    "latitude": 8.3166667,
+    "longitude": -81.2166672
+  },
+  {
+    "city": "Canada",
+    "country": "London",
+    "latitude": 42.9833893,
+    "longitude": -81.2330399
+  },
+  {
+    "city": "Cuba",
+    "country": "Varadero",
+    "latitude": 23.1536111,
+    "longitude": -81.2513885
+  },
+  {
+    "city": "Peru",
+    "country": "Talara",
+    "latitude": -4.5772222,
+    "longitude": -81.2719421
+  },
+  {
+    "city": "Cuba",
+    "country": "Pedro Betancourt",
+    "latitude": 22.7272222,
+    "longitude": -81.2900009
+  },
+  {
+    "city": "Panama",
+    "country": "Sona",
+    "latitude": 8.0166667,
+    "longitude": -81.3166656
+  },
+  {
+    "city": "Canada",
+    "country": "Timmins",
+    "latitude": 48.4668636,
+    "longitude": -81.3331223
+  },
+  {
+    "city": "Panama",
+    "country": "San Francisco",
+    "latitude": 8.0666667,
+    "longitude": -81.3666687
+  },
+  {
+    "city": "United States",
+    "country": "Orlando",
+    "latitude": 28.5383355,
+    "longitude": -81.3792343
+  },
+  {
+    "city": "United States",
+    "country": "Akron",
+    "latitude": 41.0814447,
+    "longitude": -81.5190048
+  },
+  {
+    "city": "Cuba",
+    "country": "Union de Reyes",
+    "latitude": 22.7952778,
+    "longitude": -81.5374985
+  },
+  {
+    "city": "Cuba",
+    "country": "Matanzas",
+    "latitude": 23.0411111,
+    "longitude": -81.5774994
+  },
+  {
+    "city": "United States",
+    "country": "Jacksonville",
+    "latitude": 30.3321838,
+    "longitude": -81.6556473
+  },
+  {
+    "city": "United States",
+    "country": "Cleveland",
+    "latitude": 41.4994954,
+    "longitude": -81.6954117
+  },
+  {
+    "city": "Colombi",
+    "country": "San Andres",
+    "latitude": 12.5847222,
+    "longitude": -81.7005539
+  },
+  {
+    "city": "Panama",
+    "country": "Quebrada Canoa",
+    "latitude": 8.4333333,
+    "longitude": -81.7833328
+  },
+  {
+    "city": "Cuba",
+    "country": "Madruga",
+    "latitude": 22.9113889,
+    "longitude": -81.8561096
+  },
+  {
+    "city": "Cuba",
+    "country": "Santa Cruz del Norte",
+    "latitude": 23.1538889,
+    "longitude": -81.9236145
+  },
+  {
+    "city": "Cuba",
+    "country": "Jaruco",
+    "latitude": 23.0430556,
+    "longitude": -82.0108337
+  },
+  {
+    "city": "Cuba",
+    "country": "Guines",
+    "latitude": 22.8361111,
+    "longitude": -82.0280533
+  },
+  {
+    "city": "Cuba",
+    "country": "San Jose de las Lajas",
+    "latitude": 22.9613889,
+    "longitude": -82.1511078
+  },
+  {
+    "city": "Canada",
+    "country": "Chatham-Kent",
+    "latitude": 42.4167869,
+    "longitude": -82.1664963
+  },
+  {
+    "city": "Panama",
+    "country": "Bocas del Toro",
+    "latitude": 9.3333333,
+    "longitude": -82.25
+  },
+  {
+    "city": "Panama",
+    "country": "Gualaca",
+    "latitude": 8.5333333,
+    "longitude": -82.3000031
+  },
+  {
+    "city": "Panama",
+    "country": "Chiriqui",
+    "latitude": 8.4,
+    "longitude": -82.3166656
+  },
+  {
+    "city": "Cuba",
+    "country": "Havana",
+    "latitude": 23.1319444,
+    "longitude": -82.3641663
+  },
+  {
+    "city": "Canada",
+    "country": "Sarnia",
+    "latitude": 42.9667758,
+    "longitude": -82.3831253
+  },
+  {
+    "city": "Cuba",
+    "country": "Santiago de las Vegas",
+    "latitude": 22.97,
+    "longitude": -82.3869476
+  },
+  {
+    "city": "Cuba",
+    "country": "Bejucal",
+    "latitude": 22.9286111,
+    "longitude": -82.3886108
+  },
+  {
+    "city": "Panama",
+    "country": "Almirante",
+    "latitude": 9.3,
+    "longitude": -82.4000015
+  },
+  {
+    "city": "Panama",
+    "country": "Las Lomas",
+    "latitude": 8.4333333,
+    "longitude": -82.4000015
+  },
+  {
+    "city": "Panama",
+    "country": "Boquete",
+    "latitude": 8.7833333,
+    "longitude": -82.4333344
+  },
+  {
+    "city": "Panama",
+    "country": "Los Algarrobos",
+    "latitude": 8.5,
+    "longitude": -82.4333344
+  },
+  {
+    "city": "Panama",
+    "country": "David",
+    "latitude": 8.4333333,
+    "longitude": -82.4333344
+  },
+  {
+    "city": "Panama",
+    "country": "Pedregal",
+    "latitude": 8.3666667,
+    "longitude": -82.4333344
+  },
+  {
+    "city": "United States",
+    "country": "Tampa",
+    "latitude": 27.9475216,
+    "longitude": -82.4584274
+  },
+  {
+    "city": "Cuba",
+    "country": "San Antonio de los Banos",
+    "latitude": 22.8911111,
+    "longitude": -82.4991684
+  },
+  {
+    "city": "Cuba",
+    "country": "Guira de Melena",
+    "latitude": 22.7905556,
+    "longitude": -82.5052795
+  },
+  {
+    "city": "Panama",
+    "country": "Changuinola",
+    "latitude": 9.4333333,
+    "longitude": -82.5166702
+  },
+  {
+    "city": "Cuba",
+    "country": "Bauta",
+    "latitude": 22.9827778,
+    "longitude": -82.5463867
+  },
+  {
+    "city": "Canada",
+    "country": "Leamington",
+    "latitude": 42.0833864,
+    "longitude": -82.5665131
+  },
+  {
+    "city": "Panama",
+    "country": "Cerro Punta",
+    "latitude": 8.85,
+    "longitude": -82.5666656
+  },
+  {
+    "city": "Cuba",
+    "country": "Alquizar",
+    "latitude": 22.8058333,
+    "longitude": -82.5841675
+  },
+  {
+    "city": "Panama",
+    "country": "Guabito",
+    "latitude": 9.5,
+    "longitude": -82.6166687
+  },
+  {
+    "city": "Panama",
+    "country": "La Concepcion",
+    "latitude": 8.5166667,
+    "longitude": -82.6166687
+  },
+  {
+    "city": "Panama",
+    "country": "Bugaba",
+    "latitude": 8.4833333,
+    "longitude": -82.6166687
+  },
+  {
+    "city": "Panama",
+    "country": "Volcan",
+    "latitude": 8.7666667,
+    "longitude": -82.6333313
+  },
+  {
+    "city": "Panama",
+    "country": "Siogui Abajo",
+    "latitude": 8.5,
+    "longitude": -82.6666641
+  },
+  {
+    "city": "United States",
+    "country": "Saint Petersburg",
+    "latitude": 27.7708606,
+    "longitude": -82.6792679
+  },
+  {
+    "city": "Cuba",
+    "country": "Guanajay",
+    "latitude": 22.9263889,
+    "longitude": -82.6875
+  },
+  {
+    "city": "Panama",
+    "country": "Santa Marta",
+    "latitude": 8.5166667,
+    "longitude": -82.6999969
+  },
+  {
+    "city": "Panama",
+    "country": "Divala",
+    "latitude": 8.4166667,
+    "longitude": -82.7166672
+  },
+  {
+    "city": "Cuba",
+    "country": "Mariel",
+    "latitude": 22.9875,
+    "longitude": -82.7536087
+  },
+  {
+    "city": "Cuba",
+    "country": "Artemisa",
+    "latitude": 22.8130556,
+    "longitude": -82.7619476
+  },
+  {
+    "city": "Cuba",
+    "country": "Nueva Gerona",
+    "latitude": 21.8833333,
+    "longitude": -82.8000031
+  },
+  {
+    "city": "Panama",
+    "country": "La Esperanza",
+    "latitude": 8.4,
+    "longitude": -82.8000031
+  },
+  {
+    "city": "Panama",
+    "country": "Monte Lirio",
+    "latitude": 8.7833333,
+    "longitude": -82.8333359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Canoas",
+    "latitude": 8.5333333,
+    "longitude": -82.8333359
+  },
+  {
+    "city": "Panama",
+    "country": "Progreso",
+    "latitude": 8.45,
+    "longitude": -82.8333359
+  },
+  {
+    "city": "Panama",
+    "country": "Rio Sereno",
+    "latitude": 8.8166667,
+    "longitude": -82.8666687
+  },
+  {
+    "city": "Panama",
+    "country": "Puerto Armuelles",
+    "latitude": 8.2833333,
+    "longitude": -82.8666687
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Corredor",
+    "latitude": 8.6333333,
+    "longitude": -82.9499969
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Vito",
+    "latitude": 8.8333333,
+    "longitude": -82.9666672
+  },
+  {
+    "city": "United States",
+    "country": "Columbus",
+    "latitude": 39.9611755,
+    "longitude": -82.9987946
+  },
+  {
+    "city": "Canada",
+    "country": "Windsor",
+    "latitude": 42.3000836,
+    "longitude": -83.0165405
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Corn Island",
+    "latitude": 12.1666667,
+    "longitude": -83.0333328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Puerto Limon",
+    "latitude": 10,
+    "longitude": -83.0333328
+  },
+  {
+    "city": "United States",
+    "country": "Detroit",
+    "latitude": 42.331427,
+    "longitude": -83.0457535
+  },
+  {
+    "city": "Cuba",
+    "country": "San Cristobal",
+    "latitude": 22.7141667,
+    "longitude": -83.0480576
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Golfito",
+    "latitude": 8.65,
+    "longitude": -83.1500015
+  },
+  {
+    "city": "Cuba",
+    "country": "Bahia Honda",
+    "latitude": 22.9036111,
+    "longitude": -83.1591644
+  },
+  {
+    "city": "Cuba",
+    "country": "Los Palacios",
+    "latitude": 22.5872222,
+    "longitude": -83.2486115
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Batan",
+    "latitude": 10.0833333,
+    "longitude": -83.3333359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Buenos Aires",
+    "latitude": 9.1666667,
+    "longitude": -83.3333359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Puerto Cabezas",
+    "latitude": 14.0333333,
+    "longitude": -83.3833313
+  },
+  {
+    "city": "Cuba",
+    "country": "Consolacion del Sur",
+    "latitude": 22.5047222,
+    "longitude": -83.5136108
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Siquirres",
+    "latitude": 10.1,
+    "longitude": -83.5166702
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Ciudad Cortes",
+    "latitude": 8.9666667,
+    "longitude": -83.5333328
+  },
+  {
+    "city": "United States",
+    "country": "Toledo",
+    "latitude": 41.6639383,
+    "longitude": -83.5552139
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Mercedes",
+    "latitude": 9.2666667,
+    "longitude": -83.5833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Pocora",
+    "latitude": 10.1833333,
+    "longitude": -83.5999985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Laguna de Perlas",
+    "latitude": 12.35,
+    "longitude": -83.6666641
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Daniel Flores",
+    "latitude": 9.3333333,
+    "longitude": -83.6666641
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Guacimo",
+    "latitude": 10.2166667,
+    "longitude": -83.6833344
   }
 ]
