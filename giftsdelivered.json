@@ -62866,5 +62866,539 @@
     "country": "Honolulu",
     "latitude": 21.3069444,
     "longitude": -157.8583374
+  },
+  {
+    "city": "Samoa",
+    "country": "Samusu",
+    "latitude": -13.9666667,
+    "longitude": -171.3666687
+  },
+  {
+    "city": "Samoa",
+    "country": "Saleaaumua",
+    "latitude": -13.9666667,
+    "longitude": -171.3666687
+  },
+  {
+    "city": "Samoa",
+    "country": "Satitoa",
+    "latitude": -13.9833333,
+    "longitude": -171.3666687
+  },
+  {
+    "city": "Samoa",
+    "country": "Mutiatele",
+    "latitude": -13.9833333,
+    "longitude": -171.3666687
+  },
+  {
+    "city": "Samoa",
+    "country": "Vailoa",
+    "latitude": -14,
+    "longitude": -171.3833313
+  },
+  {
+    "city": "Samoa",
+    "country": "Lalomanu",
+    "latitude": -14,
+    "longitude": -171.3999939
+  },
+  {
+    "city": "Samoa",
+    "country": "Uafato",
+    "latitude": -13.9333333,
+    "longitude": -171.4333344
+  },
+  {
+    "city": "Samoa",
+    "country": "Aufaga",
+    "latitude": -14.0166667,
+    "longitude": -171.4666595
+  },
+  {
+    "city": "Samoa",
+    "country": "Vavau",
+    "latitude": -14.0166667,
+    "longitude": -171.4833374
+  },
+  {
+    "city": "Samoa",
+    "country": "Lotofaga",
+    "latitude": -14.0166667,
+    "longitude": -171.5166626
+  },
+  {
+    "city": "Samoa",
+    "country": "Falevao",
+    "latitude": -13.9,
+    "longitude": -171.5333405
+  },
+  {
+    "city": "Samoa",
+    "country": "Matatufu",
+    "latitude": -14.0166667,
+    "longitude": -171.5333405
+  },
+  {
+    "city": "Samoa",
+    "country": "Falefa",
+    "latitude": -13.8833333,
+    "longitude": -171.5500031
+  },
+  {
+    "city": "Samoa",
+    "country": "Falepuna",
+    "latitude": -13.8666667,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Lalomauga",
+    "latitude": -13.9,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Manunu",
+    "latitude": -13.9,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Samauga",
+    "latitude": -13.9166667,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Salani",
+    "latitude": -14,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Sapunaoa",
+    "latitude": -14,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Salesatele",
+    "latitude": -14,
+    "longitude": -171.5666656
+  },
+  {
+    "city": "Samoa",
+    "country": "Lufilufi",
+    "latitude": -13.85,
+    "longitude": -171.5833282
+  },
+  {
+    "city": "Samoa",
+    "country": "Salelesi",
+    "latitude": -13.8666667,
+    "longitude": -171.5833282
+  },
+  {
+    "city": "Samoa",
+    "country": "Satalo",
+    "latitude": -14.0166667,
+    "longitude": -171.5833282
+  },
+  {
+    "city": "Samoa",
+    "country": "Solosolo",
+    "latitude": -13.85,
+    "longitude": -171.6000061
+  },
+  {
+    "city": "Samoa",
+    "country": "Matavai",
+    "latitude": -14.0166667,
+    "longitude": -171.6166687
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaovai",
+    "latitude": -14.0166667,
+    "longitude": -171.6499939
+  },
+  {
+    "city": "Samoa",
+    "country": "Leusoalii",
+    "latitude": -13.85,
+    "longitude": -171.6666718
+  },
+  {
+    "city": "Samoa",
+    "country": "Poutasi",
+    "latitude": -14.0166667,
+    "longitude": -171.6833344
+  },
+  {
+    "city": "Samoa",
+    "country": "Letogo",
+    "latitude": -13.8333333,
+    "longitude": -171.6999969
+  },
+  {
+    "city": "Samoa",
+    "country": "Saleilua",
+    "latitude": -14.0166667,
+    "longitude": -171.6999969
+  },
+  {
+    "city": "Samoa",
+    "country": "Apia",
+    "latitude": -13.8333333,
+    "longitude": -171.7333374
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaiusu",
+    "latitude": -13.8166667,
+    "longitude": -171.7666626
+  },
+  {
+    "city": "Samoa",
+    "country": "Toamua",
+    "latitude": -13.8,
+    "longitude": -171.7833405
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaitele",
+    "latitude": -13.8166667,
+    "longitude": -171.7833405
+  },
+  {
+    "city": "Samoa",
+    "country": "Saaga",
+    "latitude": -14.0166667,
+    "longitude": -171.7833405
+  },
+  {
+    "city": "Samoa",
+    "country": "Maninoa",
+    "latitude": -14.0166667,
+    "longitude": -171.7833405
+  },
+  {
+    "city": "Samoa",
+    "country": "Faleula",
+    "latitude": -13.8,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaigaga",
+    "latitude": -13.8166667,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Nuusuatia",
+    "latitude": -13.9666667,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Fusi",
+    "latitude": -14,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Mulivai",
+    "latitude": -14.0166667,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Tafitoala",
+    "latitude": -14.0166667,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Fausaga",
+    "latitude": -14.0166667,
+    "longitude": -171.8000031
+  },
+  {
+    "city": "Samoa",
+    "country": "Malie",
+    "latitude": -13.8,
+    "longitude": -171.8166656
+  },
+  {
+    "city": "Samoa",
+    "country": "Afenga",
+    "latitude": -13.8,
+    "longitude": -171.8166656
+  },
+  {
+    "city": "Samoa",
+    "country": "Siusega",
+    "latitude": -13.8333333,
+    "longitude": -171.8166656
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaijee`itai",
+    "latitude": -14,
+    "longitude": -171.8166656
+  },
+  {
+    "city": "Samoa",
+    "country": "Salepoua`e",
+    "latitude": -13.8,
+    "longitude": -171.8500061
+  },
+  {
+    "city": "Samoa",
+    "country": "Sapulu",
+    "latitude": -13.8,
+    "longitude": -171.8833313
+  },
+  {
+    "city": "Samoa",
+    "country": "Tufulele",
+    "latitude": -13.8,
+    "longitude": -171.8833313
+  },
+  {
+    "city": "Samoa",
+    "country": "Malua",
+    "latitude": -13.8,
+    "longitude": -171.8833313
+  },
+  {
+    "city": "Samoa",
+    "country": "Fasitoouta",
+    "latitude": -13.8166667,
+    "longitude": -171.9166718
+  },
+  {
+    "city": "Samoa",
+    "country": "Nofoalii",
+    "latitude": -13.8166667,
+    "longitude": -171.9166718
+  },
+  {
+    "city": "Samoa",
+    "country": "Leulumoega",
+    "latitude": -13.8166667,
+    "longitude": -171.9166718
+  },
+  {
+    "city": "Samoa",
+    "country": "Tafagamanu",
+    "latitude": -13.95,
+    "longitude": -171.9166718
+  },
+  {
+    "city": "Samoa",
+    "country": "Faleatiu",
+    "latitude": -13.8166667,
+    "longitude": -171.9333344
+  },
+  {
+    "city": "Samoa",
+    "country": "Savaia",
+    "latitude": -13.9333333,
+    "longitude": -171.9333344
+  },
+  {
+    "city": "Samoa",
+    "country": "Matautu",
+    "latitude": -13.95,
+    "longitude": -171.9333344
+  },
+  {
+    "city": "Samoa",
+    "country": "Satapuala",
+    "latitude": -13.8333333,
+    "longitude": -171.9666595
+  },
+  {
+    "city": "Samoa",
+    "country": "Pata",
+    "latitude": -13.9166667,
+    "longitude": -171.9833374
+  },
+  {
+    "city": "Samoa",
+    "country": "Levi",
+    "latitude": -13.9166667,
+    "longitude": -172
+  },
+  {
+    "city": "Samoa",
+    "country": "Lalovi",
+    "latitude": -13.85,
+    "longitude": -172.0333405
+  },
+  {
+    "city": "Samoa",
+    "country": "Samatau",
+    "latitude": -13.9,
+    "longitude": -172.0333405
+  },
+  {
+    "city": "Samoa",
+    "country": "Tuasivi",
+    "latitude": -13.6666667,
+    "longitude": -172.1166687
+  },
+  {
+    "city": "Samoa",
+    "country": "Sapapalii",
+    "latitude": -13.6833333,
+    "longitude": -172.1166687
+  },
+  {
+    "city": "Samoa",
+    "country": "Asaga",
+    "latitude": -13.5833333,
+    "longitude": -172.1333313
+  },
+  {
+    "city": "Samoa",
+    "country": "Lano",
+    "latitude": -13.6,
+    "longitude": -172.1333313
+  },
+  {
+    "city": "Samoa",
+    "country": "Saipipi",
+    "latitude": -13.6166667,
+    "longitude": -172.1333313
+  },
+  {
+    "city": "Samoa",
+    "country": "Saasaai",
+    "latitude": -13.6166667,
+    "longitude": -172.1333313
+  },
+  {
+    "city": "Samoa",
+    "country": "Lalomalava",
+    "latitude": -13.7,
+    "longitude": -172.1333313
+  },
+  {
+    "city": "Samoa",
+    "country": "Tafua",
+    "latitude": -13.7833333,
+    "longitude": -172.2166595
+  },
+  {
+    "city": "Samoa",
+    "country": "Samalaeulu",
+    "latitude": -13.4666667,
+    "longitude": -172.2666626
+  },
+  {
+    "city": "Samoa",
+    "country": "Patamea",
+    "latitude": -13.4833333,
+    "longitude": -172.2666626
+  },
+  {
+    "city": "Samoa",
+    "country": "Vaialoa",
+    "latitude": -13.7333333,
+    "longitude": -172.2833405
+  },
+  {
+    "city": "Samoa",
+    "country": "Saleaula",
+    "latitude": -13.4333333,
+    "longitude": -172.3333282
+  },
+  {
+    "city": "Samoa",
+    "country": "Fagamalo",
+    "latitude": -13.4166667,
+    "longitude": -172.3500061
+  },
+  {
+    "city": "Samoa",
+    "country": "Sili",
+    "latitude": -13.7166667,
+    "longitude": -172.3500061
+  },
+  {
+    "city": "Samoa",
+    "country": "Avao",
+    "latitude": -13.45,
+    "longitude": -172.3666687
+  },
+  {
+    "city": "Samoa",
+    "country": "Gataivai",
+    "latitude": -13.75,
+    "longitude": -172.3833313
+  },
+  {
+    "city": "Samoa",
+    "country": "Safotu",
+    "latitude": -13.45,
+    "longitude": -172.3999939
+  },
+  {
+    "city": "Samoa",
+    "country": "Paia",
+    "latitude": -13.4666667,
+    "longitude": -172.3999939
+  },
+  {
+    "city": "Samoa",
+    "country": "Sasina",
+    "latitude": -13.45,
+    "longitude": -172.4333344
+  },
+  {
+    "city": "Samoa",
+    "country": "Taga",
+    "latitude": -13.7666667,
+    "longitude": -172.4666595
+  },
+  {
+    "city": "Samoa",
+    "country": "Aopo",
+    "latitude": -13.4833333,
+    "longitude": -172.5
+  },
+  {
+    "city": "Samoa",
+    "country": "Siutu",
+    "latitude": -13.6833333,
+    "longitude": -172.5500031
+  },
+  {
+    "city": "Samoa",
+    "country": "Satuiatua",
+    "latitude": -13.6833333,
+    "longitude": -172.5500031
+  },
+  {
+    "city": "Samoa",
+    "country": "Sagone",
+    "latitude": -13.65,
+    "longitude": -172.5833282
+  },
+  {
+    "city": "Samoa",
+    "country": "Auala",
+    "latitude": -13.4666667,
+    "longitude": -172.6000061
+  },
+  {
+    "city": "Samoa",
+    "country": "Fogasavaii",
+    "latitude": -13.6333333,
+    "longitude": -172.6000061
   }
 ]
