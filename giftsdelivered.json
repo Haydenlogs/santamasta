@@ -59674,5 +59674,533 @@
     "country": "El Crucero",
     "latitude": 11.9833333,
     "longitude": -86.3166656
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Ciudad Sandino",
+    "latitude": 12.1588889,
+    "longitude": -86.3441696
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Esteli",
+    "latitude": 13.0833333,
+    "longitude": -86.3499985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Rosario",
+    "latitude": 11.7833333,
+    "longitude": -86.3666687
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Santa Rosa del Penon",
+    "latitude": 12.8011111,
+    "longitude": -86.3705521
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Palacaguina",
+    "latitude": 13.45,
+    "longitude": -86.4000015
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Condega",
+    "latitude": 13.35,
+    "longitude": -86.4000015
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Mozonte",
+    "latitude": 13.65,
+    "longitude": -86.4499969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Rafael del Sur",
+    "latitude": 11.85,
+    "longitude": -86.4499969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Ocotal",
+    "latitude": 13.6333333,
+    "longitude": -86.4833298
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Pueblo Nuevo",
+    "latitude": 13.3833333,
+    "longitude": -86.4833298
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Carlos Fonseca Amador",
+    "latitude": 11.9833333,
+    "longitude": -86.5166702
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Sauce",
+    "latitude": 12.8869444,
+    "longitude": -86.5380554
+  },
+  {
+    "city": "Honduras",
+    "country": "Roatan",
+    "latitude": 16.3,
+    "longitude": -86.5500031
+  },
+  {
+    "city": "Honduras",
+    "country": "El Paraiso",
+    "latitude": 13.8666667,
+    "longitude": -86.5500031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Nagarote",
+    "latitude": 12.2675,
+    "longitude": -86.5652771
+  },
+  {
+    "city": "Honduras",
+    "country": "Olanchito",
+    "latitude": 15.5,
+    "longitude": -86.5666656
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Larreynaga",
+    "latitude": 12.6744444,
+    "longitude": -86.5708313
+  },
+  {
+    "city": "Honduras",
+    "country": "Danli",
+    "latitude": 14.0333333,
+    "longitude": -86.5833359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Somoto",
+    "latitude": 13.4833333,
+    "longitude": -86.5833359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Achuapa",
+    "latitude": 13.05,
+    "longitude": -86.5833359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Juan de Limay",
+    "latitude": 13.1666667,
+    "longitude": -86.6166687
+  },
+  {
+    "city": "Honduras",
+    "country": "Campamento",
+    "latitude": 14.55,
+    "longitude": -86.6500015
+  },
+  {
+    "city": "Nicaragua",
+    "country": "La Paz Centro",
+    "latitude": 12.34,
+    "longitude": -86.6752777
+  },
+  {
+    "city": "Honduras",
+    "country": "Teupasenti",
+    "latitude": 14.2166667,
+    "longitude": -86.6999969
+  },
+  {
+    "city": "United States",
+    "country": "Nashville",
+    "latitude": 36.1658899,
+    "longitude": -86.7844467
+  },
+  {
+    "city": "Honduras",
+    "country": "La Ceiba",
+    "latitude": 15.7833333,
+    "longitude": -86.8000031
+  },
+  {
+    "city": "Honduras",
+    "country": "San Marcos de Colon",
+    "latitude": 13.4333333,
+    "longitude": -86.8000031
+  },
+  {
+    "city": "United States",
+    "country": "Birmingham",
+    "latitude": 33.5206608,
+    "longitude": -86.8024902
+  },
+  {
+    "city": "Honduras",
+    "country": "Guaimaca",
+    "latitude": 14.5333333,
+    "longitude": -86.8166656
+  },
+  {
+    "city": "Mexico",
+    "country": "Cancun",
+    "latitude": 21.1742876,
+    "longitude": -86.8465576
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Telica",
+    "latitude": 12.5205556,
+    "longitude": -86.8600006
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Leon",
+    "latitude": 12.4355556,
+    "longitude": -86.8794479
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Somotillo",
+    "latitude": 13.0333333,
+    "longitude": -86.9166641
+  },
+  {
+    "city": "Honduras",
+    "country": "Villa de San Francisco",
+    "latitude": 14.1666667,
+    "longitude": -86.9666672
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Posoltega",
+    "latitude": 12.5430556,
+    "longitude": -86.9788895
+  },
+  {
+    "city": "Honduras",
+    "country": "El Triunfo",
+    "latitude": 13.1166667,
+    "longitude": -87
+  },
+  {
+    "city": "Honduras",
+    "country": "San Juan de Flores",
+    "latitude": 14.2666667,
+    "longitude": -87.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "Valle de Angeles",
+    "latitude": 14.15,
+    "longitude": -87.0333328
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Chichigalpa",
+    "latitude": 12.5666667,
+    "longitude": -87.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Ana",
+    "latitude": 15.65,
+    "longitude": -87.0666656
+  },
+  {
+    "city": "Honduras",
+    "country": "Talanga",
+    "latitude": 14.4,
+    "longitude": -87.0833359
+  },
+  {
+    "city": "Honduras",
+    "country": "La Masica",
+    "latitude": 15.6166667,
+    "longitude": -87.1166687
+  },
+  {
+    "city": "Honduras",
+    "country": "Yoro",
+    "latitude": 15.1333333,
+    "longitude": -87.1333313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Chinandega",
+    "latitude": 12.6166667,
+    "longitude": -87.1500015
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Viejo",
+    "latitude": 12.6666667,
+    "longitude": -87.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Realejo",
+    "latitude": 12.5333333,
+    "longitude": -87.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Corinto",
+    "latitude": 12.4833333,
+    "longitude": -87.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Puerto Morazan",
+    "latitude": 12.85,
+    "longitude": -87.1833344
+  },
+  {
+    "city": "Honduras",
+    "country": "Ciudad Choluteca",
+    "latitude": 13.3002778,
+    "longitude": -87.190834
+  },
+  {
+    "city": "Honduras",
+    "country": "Tegucigalpa",
+    "latitude": 14.1,
+    "longitude": -87.2166672
+  },
+  {
+    "city": "Honduras",
+    "country": "San Juan Pueblo",
+    "latitude": 15.5833333,
+    "longitude": -87.2333298
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Rita",
+    "latitude": 15.1666667,
+    "longitude": -87.2833328
+  },
+  {
+    "city": "Honduras",
+    "country": "Arizona",
+    "latitude": 15.6333333,
+    "longitude": -87.3166656
+  },
+  {
+    "city": "Honduras",
+    "country": "Minas de Oro",
+    "latitude": 14.8,
+    "longitude": -87.3499985
+  },
+  {
+    "city": "Honduras",
+    "country": "Monjaras",
+    "latitude": 13.2005556,
+    "longitude": -87.3741684
+  },
+  {
+    "city": "Honduras",
+    "country": "Zambrano",
+    "latitude": 14.2666667,
+    "longitude": -87.4000015
+  },
+  {
+    "city": "Honduras",
+    "country": "San Lorenzo",
+    "latitude": 13.4241667,
+    "longitude": -87.4472198
+  },
+  {
+    "city": "Honduras",
+    "country": "Tela",
+    "latitude": 15.7833333,
+    "longitude": -87.4499969
+  },
+  {
+    "city": "Honduras",
+    "country": "Nacaome",
+    "latitude": 13.5361111,
+    "longitude": -87.4875031
+  },
+  {
+    "city": "Honduras",
+    "country": "Agua Fria",
+    "latitude": 13.4688889,
+    "longitude": -87.5511093
+  },
+  {
+    "city": "Honduras",
+    "country": "Morazan",
+    "latitude": 15.3166667,
+    "longitude": -87.5999985
+  },
+  {
+    "city": "Honduras",
+    "country": "La Libertad",
+    "latitude": 14.75,
+    "longitude": -87.6166687
+  },
+  {
+    "city": "Honduras",
+    "country": "Villa de San Antonio",
+    "latitude": 14.3166667,
+    "longitude": -87.6166687
+  },
+  {
+    "city": "Honduras",
+    "country": "Comayagua",
+    "latitude": 14.45,
+    "longitude": -87.6333313
+  },
+  {
+    "city": "Honduras",
+    "country": "Mezapa",
+    "latitude": 15.5833333,
+    "longitude": -87.6500015
+  },
+  {
+    "city": "United States",
+    "country": "Chicago",
+    "latitude": 41.850033,
+    "longitude": -87.6500549
+  },
+  {
+    "city": "Honduras",
+    "country": "Langue",
+    "latitude": 13.6208333,
+    "longitude": -87.6524963
+  },
+  {
+    "city": "Honduras",
+    "country": "La Paz",
+    "latitude": 14.3166667,
+    "longitude": -87.6833344
+  },
+  {
+    "city": "Honduras",
+    "country": "El Negrito",
+    "latitude": 15.3166667,
+    "longitude": -87.6999969
+  },
+  {
+    "city": "Honduras",
+    "country": "Ajuterique",
+    "latitude": 14.3833333,
+    "longitude": -87.6999969
+  },
+  {
+    "city": "Honduras",
+    "country": "Lejamani",
+    "latitude": 14.3666667,
+    "longitude": -87.6999969
+  },
+  {
+    "city": "Honduras",
+    "country": "El Progreso",
+    "latitude": 15.4,
+    "longitude": -87.8000031
+  },
+  {
+    "city": "Honduras",
+    "country": "Siguatepeque",
+    "latitude": 14.6,
+    "longitude": -87.8333359
+  },
+  {
+    "city": "El Salvador",
+    "country": "Nueva Esparta",
+    "latitude": 13.7836111,
+    "longitude": -87.8386078
+  },
+  {
+    "city": "El Salvador",
+    "country": "Pasaquina",
+    "latitude": 13.5844444,
+    "longitude": -87.8411102
+  },
+  {
+    "city": "El Salvador",
+    "country": "La Union",
+    "latitude": 13.3369444,
+    "longitude": -87.8438873
+  },
+  {
+    "city": "Honduras",
+    "country": "Baracoa",
+    "latitude": 15.7666667,
+    "longitude": -87.8499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Conchagua",
+    "latitude": 13.3077778,
+    "longitude": -87.8647232
+  },
+  {
+    "city": "El Salvador",
+    "country": "Anamoros",
+    "latitude": 13.7405556,
+    "longitude": -87.8736115
+  },
+  {
+    "city": "Honduras",
+    "country": "Agua Blanca Sur",
+    "latitude": 15.25,
+    "longitude": -87.8833313
+  },
+  {
+    "city": "El Salvador",
+    "country": "Santa Rosa de Lima",
+    "latitude": 13.6247222,
+    "longitude": -87.8936081
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Cruz de Yojoa",
+    "latitude": 14.9833333,
+    "longitude": -87.9000015
+  },
+  {
+    "city": "United States",
+    "country": "Milwaukee",
+    "latitude": 43.0389025,
+    "longitude": -87.9064713
+  },
+  {
+    "city": "Honduras",
+    "country": "La Lima",
+    "latitude": 15.4333333,
+    "longitude": -87.9166641
+  },
+  {
+    "city": "Honduras",
+    "country": "San Manuel",
+    "latitude": 15.3333333,
+    "longitude": -87.9166641
+  },
+  {
+    "city": "Belize",
+    "country": "San Pedro",
+    "latitude": 17.9166667,
+    "longitude": -87.9499969
+  },
+  {
+    "city": "Honduras",
+    "country": "Puerto Cortez",
+    "latitude": 15.8333333,
+    "longitude": -87.9499969
+  },
+  {
+    "city": "Honduras",
+    "country": "Choloma",
+    "latitude": 15.6144401,
+    "longitude": -87.9530258
   }
 ]
