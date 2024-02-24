@@ -52798,5 +52798,539 @@
     "country": "Catia La Mar",
     "latitude": 10.6,
     "longitude": -67.0333328
+  },
+  {
+    "city": "Bolivia",
+    "country": "Machacamarca",
+    "latitude": -18.1666667,
+    "longitude": -67.0333328
+  },
+  {
+    "city": "Bolivia",
+    "country": "Colquiri",
+    "latitude": -17.4166667,
+    "longitude": -67.1333313
+  },
+  {
+    "city": "Bolivia",
+    "country": "Oruro",
+    "latitude": -17.9833333,
+    "longitude": -67.1500015
+  },
+  {
+    "city": "Venezuela",
+    "country": "Las Tejerias",
+    "latitude": 10.25,
+    "longitude": -67.1666641
+  },
+  {
+    "city": "Bolivia",
+    "country": "Quime",
+    "latitude": -16.9833333,
+    "longitude": -67.2166672
+  },
+  {
+    "city": "Venezuela",
+    "country": "La Victoria",
+    "latitude": 10.2333333,
+    "longitude": -67.3333359
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Juan de los Morros",
+    "latitude": 9.9111111,
+    "longitude": -67.3583298
+  },
+  {
+    "city": "Bolivia",
+    "country": "Reyes",
+    "latitude": -14.3166667,
+    "longitude": -67.3833313
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Mateo",
+    "latitude": 10.2166667,
+    "longitude": -67.4166641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Calabozo",
+    "latitude": 8.9344444,
+    "longitude": -67.4266663
+  },
+  {
+    "city": "Venezuela",
+    "country": "Cagua",
+    "latitude": 10.1833333,
+    "longitude": -67.4499969
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Fernando Apure",
+    "latitude": 7.8966667,
+    "longitude": -67.4672241
+  },
+  {
+    "city": "Venezuela",
+    "country": "Turmero",
+    "latitude": 10.2333333,
+    "longitude": -67.4833298
+  },
+  {
+    "city": "Venezuela",
+    "country": "Villa de Cura",
+    "latitude": 10.0333333,
+    "longitude": -67.4833298
+  },
+  {
+    "city": "Argentina",
+    "country": "Comodoro Rivadavia",
+    "latitude": -45.8666667,
+    "longitude": -67.5
+  },
+  {
+    "city": "Bolivia",
+    "country": "Tomas Barron",
+    "latitude": -17.5833333,
+    "longitude": -67.5166702
+  },
+  {
+    "city": "Bolivia",
+    "country": "Chulumani",
+    "latitude": -16.4096164,
+    "longitude": -67.526268
+  },
+  {
+    "city": "Bolivia",
+    "country": "Rurrenabaque",
+    "latitude": -14.4412467,
+    "longitude": -67.5278091
+  },
+  {
+    "city": "Venezuela",
+    "country": "Palo Negro",
+    "latitude": 10.1738889,
+    "longitude": -67.5419464
+  },
+  {
+    "city": "Bolivia",
+    "country": "Viloco",
+    "latitude": -16.95,
+    "longitude": -67.5500031
+  },
+  {
+    "city": "Argentina",
+    "country": "General Roca",
+    "latitude": -39.0333333,
+    "longitude": -67.5833359
+  },
+  {
+    "city": "Bolivia",
+    "country": "Coripata",
+    "latitude": -16.3,
+    "longitude": -67.5999985
+  },
+  {
+    "city": "Venezuela",
+    "country": "Puerto Ayacucho",
+    "latitude": 5.6638889,
+    "longitude": -67.6236115
+  },
+  {
+    "city": "Venezuela",
+    "country": "El Limon",
+    "latitude": 10.3091667,
+    "longitude": -67.6324997
+  },
+  {
+    "city": "Bolivia",
+    "country": "Lahuachaca",
+    "latitude": -17.3666667,
+    "longitude": -67.6666641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Mariara",
+    "latitude": 10.2983333,
+    "longitude": -67.7161102
+  },
+  {
+    "city": "Bolivia",
+    "country": "Coroico",
+    "latitude": -16.188892,
+    "longitude": -67.7271347
+  },
+  {
+    "city": "Venezuela",
+    "country": "Guigue",
+    "latitude": 10.0852778,
+    "longitude": -67.7791672
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Joaquin",
+    "latitude": 10.2625,
+    "longitude": -67.7922211
+  },
+  {
+    "city": "Brazil",
+    "country": "Rio Branco",
+    "latitude": -9.9747222,
+    "longitude": -67.8099976
+  },
+  {
+    "city": "Venezuela",
+    "country": "Guacara",
+    "latitude": 10.2297222,
+    "longitude": -67.8738861
+  },
+  {
+    "city": "Bolivia",
+    "country": "Patacamaya",
+    "latitude": -17.2333333,
+    "longitude": -67.9166641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Tacarigua",
+    "latitude": 10.09,
+    "longitude": -67.9197235
+  },
+  {
+    "city": "Venezuela",
+    "country": "Valencia",
+    "latitude": 10.1805556,
+    "longitude": -68.003891
+  },
+  {
+    "city": "Venezuela",
+    "country": "Puerto Cabello",
+    "latitude": 10.4730556,
+    "longitude": -68.0124969
+  },
+  {
+    "city": "Argentina",
+    "country": "Neuquen",
+    "latitude": -38.95,
+    "longitude": -68.0666656
+  },
+  {
+    "city": "Bolivia",
+    "country": "La Paz",
+    "latitude": -16.5,
+    "longitude": -68.1500015
+  },
+  {
+    "city": "Bolivia",
+    "country": "Mapiri",
+    "latitude": -15.25,
+    "longitude": -68.1666641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Moron",
+    "latitude": 10.4888889,
+    "longitude": -68.2002792
+  },
+  {
+    "city": "Argentina",
+    "country": "Ushuaia",
+    "latitude": -54.8,
+    "longitude": -68.3000031
+  },
+  {
+    "city": "Venezuela",
+    "country": "Tinaquillo",
+    "latitude": 9.9186111,
+    "longitude": -68.3047256
+  },
+  {
+    "city": "Argentina",
+    "country": "San Rafael",
+    "latitude": -34.6,
+    "longitude": -68.3333359
+  },
+  {
+    "city": "Argentina",
+    "country": "San Martin",
+    "latitude": -33.0666667,
+    "longitude": -68.4666672
+  },
+  {
+    "city": "Argentina",
+    "country": "San Juan",
+    "latitude": -31.5375,
+    "longitude": -68.5363922
+  },
+  {
+    "city": "Venezuela",
+    "country": "Nirgua",
+    "latitude": 10.155,
+    "longitude": -68.5630569
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Carlos",
+    "latitude": 9.6666667,
+    "longitude": -68.5999985
+  },
+  {
+    "city": "Bolivia",
+    "country": "Sorata",
+    "latitude": -15.7666667,
+    "longitude": -68.6333313
+  },
+  {
+    "city": "Bolivia",
+    "country": "Achacachi",
+    "latitude": -16.05,
+    "longitude": -68.6833344
+  },
+  {
+    "city": "Bolivia",
+    "country": "Huatajata",
+    "latitude": -16.2,
+    "longitude": -68.6833344
+  },
+  {
+    "city": "Bolivia",
+    "country": "Tiahuanaco",
+    "latitude": -16.55,
+    "longitude": -68.6999969
+  },
+  {
+    "city": "Venezuela",
+    "country": "El Diario de Yaracuy",
+    "latitude": 10.341692,
+    "longitude": -68.7328033
+  },
+  {
+    "city": "Bolivia",
+    "country": "Cobija",
+    "latitude": -11.0333333,
+    "longitude": -68.7333298
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Felipe",
+    "latitude": 10.3405556,
+    "longitude": -68.7372208
+  },
+  {
+    "city": "Argentina",
+    "country": "Mendoza",
+    "latitude": -32.8833333,
+    "longitude": -68.8166656
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Pablo",
+    "latitude": -16.2166667,
+    "longitude": -68.8333359
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Pedro",
+    "latitude": -16.2333333,
+    "longitude": -68.8499985
+  },
+  {
+    "city": "Venezuela",
+    "country": "Chivacoa",
+    "latitude": 10.1602778,
+    "longitude": -68.8949966
+  },
+  {
+    "city": "Chile",
+    "country": "Calama",
+    "latitude": -22.4666667,
+    "longitude": -68.9333344
+  },
+  {
+    "city": "Bolivia",
+    "country": "Copacabana",
+    "latitude": -16.15,
+    "longitude": -69.0833359
+  },
+  {
+    "city": "Peru",
+    "country": "Yunguyo",
+    "latitude": -16.25,
+    "longitude": -69.0833359
+  },
+  {
+    "city": "Venezuela",
+    "country": "Villa Bruzual",
+    "latitude": 9.3327778,
+    "longitude": -69.1208344
+  },
+  {
+    "city": "Venezuela",
+    "country": "Yaritagua",
+    "latitude": 10.08,
+    "longitude": -69.1261139
+  },
+  {
+    "city": "Bolivia",
+    "country": "Isla del Sol",
+    "latitude": -16.0166667,
+    "longitude": -69.1500015
+  },
+  {
+    "city": "Peru",
+    "country": "Puerto Maldonado",
+    "latitude": -12.6,
+    "longitude": -69.1833344
+  },
+  {
+    "city": "Peru",
+    "country": "Tambopata",
+    "latitude": -12.7333333,
+    "longitude": -69.1833344
+  },
+  {
+    "city": "Venezuela",
+    "country": "Acarigua",
+    "latitude": 9.5597222,
+    "longitude": -69.2019424
+  },
+  {
+    "city": "Venezuela",
+    "country": "Araure",
+    "latitude": 9.5666667,
+    "longitude": -69.2166672
+  },
+  {
+    "city": "Argentina",
+    "country": "Rio Gallegos",
+    "latitude": -51.6333333,
+    "longitude": -69.2166672
+  },
+  {
+    "city": "Argentina",
+    "country": "Cutral-Co",
+    "latitude": -38.9333333,
+    "longitude": -69.2333298
+  },
+  {
+    "city": "Venezuela",
+    "country": "Los Rastrojos",
+    "latitude": 10.0227778,
+    "longitude": -69.2444458
+  },
+  {
+    "city": "Venezuela",
+    "country": "Barquisimeto",
+    "latitude": 10.0738889,
+    "longitude": -69.3227768
+  },
+  {
+    "city": "Venezuela",
+    "country": "Quibor",
+    "latitude": 9.9255556,
+    "longitude": -69.6202774
+  },
+  {
+    "city": "Peru",
+    "country": "Ilave",
+    "latitude": -16.0833333,
+    "longitude": -69.6666641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Coro",
+    "latitude": 11.4091667,
+    "longitude": -69.6672211
+  },
+  {
+    "city": "Venezuela",
+    "country": "Guanare",
+    "latitude": 9.05,
+    "longitude": -69.75
+  },
+  {
+    "city": "Venezuela",
+    "country": "El Tocuyo",
+    "latitude": 9.7861111,
+    "longitude": -69.789444
+  },
+  {
+    "city": "Peru",
+    "country": "Puno",
+    "latitude": -15.8333333,
+    "longitude": -70.0333328
+  },
+  {
+    "city": "Chile",
+    "country": "Diego de Almagro",
+    "latitude": -26.3666667,
+    "longitude": -70.0500031
+  },
+  {
+    "city": "Venezuela",
+    "country": "Carora",
+    "latitude": 10.1777778,
+    "longitude": -70.0805588
+  },
+  {
+    "city": "Peru",
+    "country": "Juliaca",
+    "latitude": -15.5,
+    "longitude": -70.1333313
+  },
+  {
+    "city": "Chile",
+    "country": "Iquique",
+    "latitude": -20.2166667,
+    "longitude": -70.1666641
+  },
+  {
+    "city": "Venezuela",
+    "country": "Punto Fijo",
+    "latitude": 11.6997222,
+    "longitude": -70.1991653
+  },
+  {
+    "city": "Chile",
+    "country": "Tocopilla",
+    "latitude": -22.0833333,
+    "longitude": -70.1999969
+  },
+  {
+    "city": "Venezuela",
+    "country": "Punta Cardon",
+    "latitude": 11.6580556,
+    "longitude": -70.2149963
+  },
+  {
+    "city": "Venezuela",
+    "country": "Alto Barinas",
+    "latitude": 8.5944444,
+    "longitude": -70.2222214
+  },
+  {
+    "city": "Peru",
+    "country": "Tacna",
+    "latitude": -18.0055556,
+    "longitude": -70.2483368
+  },
+  {
+    "city": "Chile",
+    "country": "Arica",
+    "latitude": -18.4833333,
+    "longitude": -70.3333359
+  },
+  {
+    "city": "Chile",
+    "country": "Copiapo",
+    "latitude": -27.3666667,
+    "longitude": -70.3333359
+  },
+  {
+    "city": "Chile",
+    "country": "Antofagasta",
+    "latitude": -23.65,
+    "longitude": -70.4000015
   }
 ]
