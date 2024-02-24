@@ -51202,5 +51202,533 @@
     "country": "Bella Union",
     "latitude": -30.25,
     "longitude": -57.5833321
+  },
+  {
+    "city": "Guyana",
+    "country": "Fort Wellington",
+    "latitude": 6.4,
+    "longitude": -57.5999985
+  },
+  {
+    "city": "Paraguay",
+    "country": "Fernando de la Mora",
+    "latitude": -25.3166667,
+    "longitude": -57.5999985
+  },
+  {
+    "city": "Paraguay",
+    "country": "Nemby",
+    "latitude": -25.3666667,
+    "longitude": -57.5999985
+  },
+  {
+    "city": "Paraguay",
+    "country": "Villa Elisa",
+    "latitude": -25.3666667,
+    "longitude": -57.6166649
+  },
+  {
+    "city": "Uruguay",
+    "country": "Tarariras",
+    "latitude": -34.2833333,
+    "longitude": -57.6166649
+  },
+  {
+    "city": "Paraguay",
+    "country": "San Antonio",
+    "latitude": -25.3833333,
+    "longitude": -57.6333351
+  },
+  {
+    "city": "Uruguay",
+    "country": "Young",
+    "latitude": -32.6833333,
+    "longitude": -57.6333351
+  },
+  {
+    "city": "Paraguay",
+    "country": "Lambare",
+    "latitude": -25.35,
+    "longitude": -57.6500015
+  },
+  {
+    "city": "Paraguay",
+    "country": "Asuncion",
+    "latitude": -25.2666667,
+    "longitude": -57.6666679
+  },
+  {
+    "city": "Paraguay",
+    "country": "Nanawa",
+    "latitude": -25.2666667,
+    "longitude": -57.6666679
+  },
+  {
+    "city": "Argentina",
+    "country": "Dolores",
+    "latitude": -36.3333333,
+    "longitude": -57.6666679
+  },
+  {
+    "city": "Argentina",
+    "country": "Clorinda",
+    "latitude": -25.2833333,
+    "longitude": -57.7166672
+  },
+  {
+    "city": "Bolivia",
+    "country": "Puerto Quijarro",
+    "latitude": -17.7833333,
+    "longitude": -57.7666664
+  },
+  {
+    "city": "Uruguay",
+    "country": "Belen",
+    "latitude": -30.7833333,
+    "longitude": -57.7833328
+  },
+  {
+    "city": "Uruguay",
+    "country": "Ombues de Lavalle",
+    "latitude": -33.9166667,
+    "longitude": -57.7833328
+  },
+  {
+    "city": "Guyana",
+    "country": "Mahaicony Village",
+    "latitude": 6.55,
+    "longitude": -57.7999992
+  },
+  {
+    "city": "Uruguay",
+    "country": "Constitucion",
+    "latitude": -31.0833333,
+    "longitude": -57.8333321
+  },
+  {
+    "city": "Uruguay",
+    "country": "Palmitas",
+    "latitude": -33.5166667,
+    "longitude": -57.8333321
+  },
+  {
+    "city": "Uruguay",
+    "country": "Colonia del Sacramento",
+    "latitude": -34.4666667,
+    "longitude": -57.8499985
+  },
+  {
+    "city": "Paraguay",
+    "country": "Fuerte Olimpo",
+    "latitude": -21.0415286,
+    "longitude": -57.8737679
+  },
+  {
+    "city": "Uruguay",
+    "country": "Quebracho",
+    "latitude": -31.95,
+    "longitude": -57.8833351
+  },
+  {
+    "city": "Guyana",
+    "country": "Mahaica Village",
+    "latitude": 6.6833333,
+    "longitude": -57.9166679
+  },
+  {
+    "city": "Canada",
+    "country": "Corner Brook",
+    "latitude": 48.9667069,
+    "longitude": -57.9484024
+  },
+  {
+    "city": "Argentina",
+    "country": "La Plata",
+    "latitude": -34.9313889,
+    "longitude": -57.9488907
+  },
+  {
+    "city": "Uruguay",
+    "country": "Salto",
+    "latitude": -31.3833333,
+    "longitude": -57.9666672
+  },
+  {
+    "city": "Uruguay",
+    "country": "Mercedes",
+    "latitude": -33.2558333,
+    "longitude": -58.019165
+  },
+  {
+    "city": "Argentina",
+    "country": "Concordia",
+    "latitude": -31.4,
+    "longitude": -58.0333328
+  },
+  {
+    "city": "Uruguay",
+    "country": "Nuevo Berlin",
+    "latitude": -32.9833333,
+    "longitude": -58.0499992
+  },
+  {
+    "city": "Uruguay",
+    "country": "Paysandu",
+    "latitude": -32.3213889,
+    "longitude": -58.0755539
+  },
+  {
+    "city": "Argentina",
+    "country": "Mercedes",
+    "latitude": -29.2,
+    "longitude": -58.0833321
+  },
+  {
+    "city": "Uruguay",
+    "country": "San Javier",
+    "latitude": -32.6833333,
+    "longitude": -58.1333351
+  },
+  {
+    "city": "Guyana",
+    "country": "Georgetown",
+    "latitude": 6.8,
+    "longitude": -58.1666679
+  },
+  {
+    "city": "Argentina",
+    "country": "Formosa",
+    "latitude": -26.1833333,
+    "longitude": -58.1833344
+  },
+  {
+    "city": "Guyana",
+    "country": "Vreed en Hoop",
+    "latitude": 6.8075,
+    "longitude": -58.1869431
+  },
+  {
+    "city": "Uruguay",
+    "country": "Dolores",
+    "latitude": -33.5441667,
+    "longitude": -58.1972237
+  },
+  {
+    "city": "Argentina",
+    "country": "Concepcion del Uruguay",
+    "latitude": -32.4833333,
+    "longitude": -58.2283325
+  },
+  {
+    "city": "Argentina",
+    "country": "Quilmes",
+    "latitude": -34.7202778,
+    "longitude": -58.2694435
+  },
+  {
+    "city": "Uruguay",
+    "country": "Carmelo",
+    "latitude": -33.9891667,
+    "longitude": -58.2855568
+  },
+  {
+    "city": "Uruguay",
+    "country": "Fray Bentos",
+    "latitude": -33.1325,
+    "longitude": -58.2955551
+  },
+  {
+    "city": "Guyana",
+    "country": "Linden",
+    "latitude": 6,
+    "longitude": -58.2999992
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Matias",
+    "latitude": -16.3666667,
+    "longitude": -58.4000015
+  },
+  {
+    "city": "Argentina",
+    "country": "Buenos Aires",
+    "latitude": -34.5761256,
+    "longitude": -58.4088135
+  },
+  {
+    "city": "Uruguay",
+    "country": "Nueva Palmira",
+    "latitude": -33.8833333,
+    "longitude": -58.4166679
+  },
+  {
+    "city": "Argentina",
+    "country": "Colegiales",
+    "latitude": -34.5833333,
+    "longitude": -58.4500008
+  },
+  {
+    "city": "Argentina",
+    "country": "Villa Santa Rita",
+    "latitude": -34.6147735,
+    "longitude": -58.4797096
+  },
+  {
+    "city": "Argentina",
+    "country": "Gualeguaychu",
+    "latitude": -33.0102778,
+    "longitude": -58.5141678
+  },
+  {
+    "city": "Guyana",
+    "country": "Bartica",
+    "latitude": 6.4,
+    "longitude": -58.6166649
+  },
+  {
+    "city": "Argentina",
+    "country": "Necochea",
+    "latitude": -38.55,
+    "longitude": -58.75
+  },
+  {
+    "city": "Argentina",
+    "country": "San Lorenzo",
+    "latitude": -28.1333333,
+    "longitude": -58.7666664
+  },
+  {
+    "city": "Argentina",
+    "country": "Corrientes",
+    "latitude": -27.4666667,
+    "longitude": -58.8333321
+  },
+  {
+    "city": "Argentina",
+    "country": "Campana",
+    "latitude": -34.1769444,
+    "longitude": -58.9208336
+  },
+  {
+    "city": "Argentina",
+    "country": "Resistencia",
+    "latitude": -27.45,
+    "longitude": -58.9833336
+  },
+  {
+    "city": "Argentina",
+    "country": "Larroque",
+    "latitude": -33.0333333,
+    "longitude": -59.0166664
+  },
+  {
+    "city": "Argentina",
+    "country": "Zarate",
+    "latitude": -34.0922222,
+    "longitude": -59.0349998
+  },
+  {
+    "city": "Argentina",
+    "country": "Lujan",
+    "latitude": -34.5702778,
+    "longitude": -59.1049995
+  },
+  {
+    "city": "Argentina",
+    "country": "Tandil",
+    "latitude": -37.3166667,
+    "longitude": -59.1500015
+  },
+  {
+    "city": "Argentina",
+    "country": "Goya",
+    "latitude": -29.1333333,
+    "longitude": -59.2666664
+  },
+  {
+    "city": "Argentina",
+    "country": "Gualeguay",
+    "latitude": -33.1444444,
+    "longitude": -59.3291664
+  },
+  {
+    "city": "Argentina",
+    "country": "Mercedes",
+    "latitude": -34.6544444,
+    "longitude": -59.4344444
+  },
+  {
+    "city": "Barbados",
+    "country": "The Crane",
+    "latitude": 13.1,
+    "longitude": -59.4500008
+  },
+  {
+    "city": "Barbados",
+    "country": "Bathsheba",
+    "latitude": 13.2166667,
+    "longitude": -59.5166664
+  },
+  {
+    "city": "Barbados",
+    "country": "Blackmans",
+    "latitude": 13.1833333,
+    "longitude": -59.5333328
+  },
+  {
+    "city": "Barbados",
+    "country": "Oistins",
+    "latitude": 13.0666667,
+    "longitude": -59.5333328
+  },
+  {
+    "city": "Barbados",
+    "country": "Greenland",
+    "latitude": 13.25,
+    "longitude": -59.5666656
+  },
+  {
+    "city": "Barbados",
+    "country": "Hillaby",
+    "latitude": 13.2166667,
+    "longitude": -59.5833321
+  },
+  {
+    "city": "Barbados",
+    "country": "Bridgetown",
+    "latitude": 13.1,
+    "longitude": -59.6166649
+  },
+  {
+    "city": "Barbados",
+    "country": "Crab Hill",
+    "latitude": 13.3166667,
+    "longitude": -59.6333351
+  },
+  {
+    "city": "Barbados",
+    "country": "Speightstown",
+    "latitude": 13.25,
+    "longitude": -59.6500015
+  },
+  {
+    "city": "Barbados",
+    "country": "Holetown",
+    "latitude": 13.1833333,
+    "longitude": -59.6500015
+  },
+  {
+    "city": "Argentina",
+    "country": "Reconquista",
+    "latitude": -29.15,
+    "longitude": -59.6500015
+  },
+  {
+    "city": "Bolivia",
+    "country": "Robore",
+    "latitude": -18.3333333,
+    "longitude": -59.75
+  },
+  {
+    "city": "Guyana",
+    "country": "Mabaruma",
+    "latitude": 8.2,
+    "longitude": -59.7833328
+  },
+  {
+    "city": "Guyana",
+    "country": "Lethem",
+    "latitude": 3.3833333,
+    "longitude": -59.7999992
+  },
+  {
+    "city": "Bolivia",
+    "country": "San Pedro",
+    "latitude": -18.2833333,
+    "longitude": -59.8166656
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Menno",
+    "latitude": -22.3666667,
+    "longitude": -59.8166656
+  },
+  {
+    "city": "Argentina",
+    "country": "Azul",
+    "latitude": -36.7833333,
+    "longitude": -59.8499985
+  },
+  {
+    "city": "Canada",
+    "country": "Glace Bay",
+    "latitude": 46.19695,
+    "longitude": -59.9569817
+  },
+  {
+    "city": "Brazil",
+    "country": "Manaus",
+    "latitude": -3.1019444,
+    "longitude": -60.0250015
+  },
+  {
+    "city": "Argentina",
+    "country": "Chivilcoy",
+    "latitude": -34.9083333,
+    "longitude": -60.0305557
+  },
+  {
+    "city": "Paraguay",
+    "country": "Filadelfia",
+    "latitude": -22.35,
+    "longitude": -60.0333328
+  },
+  {
+    "city": "Paraguay",
+    "country": "Colonia Neuland",
+    "latitude": -22.6666667,
+    "longitude": -60.1166649
+  },
+  {
+    "city": "Argentina",
+    "country": "Victoria",
+    "latitude": -32.6184122,
+    "longitude": -60.1547813
+  },
+  {
+    "city": "Argentina",
+    "country": "Veinticinco de Mayo",
+    "latitude": -35.4280556,
+    "longitude": -60.1741676
+  },
+  {
+    "city": "Argentina",
+    "country": "San Nicolas de los Arroyos",
+    "latitude": -33.3302778,
+    "longitude": -60.226944
+  },
+  {
+    "city": "Argentina",
+    "country": "Olavarria",
+    "latitude": -36.9,
+    "longitude": -60.2833328
+  },
+  {
+    "city": "Argentina",
+    "country": "Tres Arroyos",
+    "latitude": -38.3833333,
+    "longitude": -60.2833328
+  },
+  {
+    "city": "Argentina",
+    "country": "Villa Constitucion",
+    "latitude": -33.2333333,
+    "longitude": -60.3333321
+  },
+  {
+    "city": "Argentina",
+    "country": "Presidencia Roque Saenz Pena",
+    "latitude": -26.7833333,
+    "longitude": -60.4500008
   }
 ]
