@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tracker</title>
+  <style>
+    /* Disable scrolling for the entire page */
+    body, html {
+      overflow: hidden;
+      height: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    /* Enable scrolling only inside the iframe */
+    iframe {
+      width: 100%;
+      height: 100%;
+      border: none;
+      overflow: auto; /* Allow scrolling inside the iframe */
+    }
+  </style>
+</head>
+<body>
+  <!-- Embedded map iframe -->
+  <iframe src="/en-us/embed/map"></iframe>
+</body>
+</html>
