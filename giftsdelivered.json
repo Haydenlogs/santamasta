@@ -61270,5 +61270,539 @@
     "country": "San Miguel Chicaj",
     "latitude": 15.1,
     "longitude": -90.4000015
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Jose Pinula",
+    "latitude": 14.5461111,
+    "longitude": -90.4113922
+  },
+  {
+    "city": "Guatemala",
+    "country": "Fraijanes",
+    "latitude": 14.4652778,
+    "longitude": -90.440834
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Pedro Ayampuc",
+    "latitude": 14.7866667,
+    "longitude": -90.4511108
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Catarina Pinula",
+    "latitude": 14.5688889,
+    "longitude": -90.4952774
+  },
+  {
+    "city": "Guatemala",
+    "country": "Chinautla",
+    "latitude": 14.7083333,
+    "longitude": -90.4994431
+  },
+  {
+    "city": "Guatemala",
+    "country": "Guatemala City",
+    "latitude": 14.62111,
+    "longitude": -90.5269394
+  },
+  {
+    "city": "Guatemala",
+    "country": "Villa Canales",
+    "latitude": 14.4813889,
+    "longitude": -90.5316696
+  },
+  {
+    "city": "Mexico",
+    "country": "Campeche",
+    "latitude": 19.85,
+    "longitude": -90.5333328
+  },
+  {
+    "city": "Guatemala",
+    "country": "Petapa",
+    "latitude": 14.5027778,
+    "longitude": -90.5516663
+  },
+  {
+    "city": "Guatemala",
+    "country": "Villa Nueva",
+    "latitude": 14.5269444,
+    "longitude": -90.5875015
+  },
+  {
+    "city": "Guatemala",
+    "country": "Mixco",
+    "latitude": 14.6333333,
+    "longitude": -90.6063919
+  },
+  {
+    "city": "Guatemala",
+    "country": "Amatitlan",
+    "latitude": 14.4875,
+    "longitude": -90.6152802
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Juan Sacatepequez",
+    "latitude": 14.7188889,
+    "longitude": -90.644165
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Pedro Sacatepequez",
+    "latitude": 14.6841667,
+    "longitude": -90.644165
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Lucas Sacatepequez",
+    "latitude": 14.6097222,
+    "longitude": -90.6569443
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santiago Sacatepequez",
+    "latitude": 14.6352778,
+    "longitude": -90.6763916
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Lucia Milpas Altas",
+    "latitude": 14.5758333,
+    "longitude": -90.6786118
+  },
+  {
+    "city": "Guatemala",
+    "country": "Palin",
+    "latitude": 14.4055556,
+    "longitude": -90.6983337
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Maria de Jesus",
+    "latitude": 14.5183333,
+    "longitude": -90.7266693
+  },
+  {
+    "city": "Guatemala",
+    "country": "Sumpango",
+    "latitude": 14.6463889,
+    "longitude": -90.7338867
+  },
+  {
+    "city": "Guatemala",
+    "country": "Antigua Guatemala",
+    "latitude": 14.5611111,
+    "longitude": -90.7344437
+  },
+  {
+    "city": "Guatemala",
+    "country": "Jocotenango",
+    "latitude": 14.5819444,
+    "longitude": -90.7436142
+  },
+  {
+    "city": "Guatemala",
+    "country": "Ciudad Vieja",
+    "latitude": 14.5263889,
+    "longitude": -90.7597198
+  },
+  {
+    "city": "Guatemala",
+    "country": "Escuintla",
+    "latitude": 14.305,
+    "longitude": -90.7850037
+  },
+  {
+    "city": "Guatemala",
+    "country": "El Tejar",
+    "latitude": 14.6477778,
+    "longitude": -90.792778
+  },
+  {
+    "city": "Guatemala",
+    "country": "Joyabaj",
+    "latitude": 14.995,
+    "longitude": -90.8061142
+  },
+  {
+    "city": "Guatemala",
+    "country": "Alotenango",
+    "latitude": 14.4802778,
+    "longitude": -90.8075027
+  },
+  {
+    "city": "Guatemala",
+    "country": "Chimaltenango",
+    "latitude": 14.6686111,
+    "longitude": -90.8166656
+  },
+  {
+    "city": "Guatemala",
+    "country": "Puerto San Jose",
+    "latitude": 13.9255556,
+    "longitude": -90.8244476
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Andres Itzapa",
+    "latitude": 14.62,
+    "longitude": -90.8441696
+  },
+  {
+    "city": "Guatemala",
+    "country": "Comalapa",
+    "latitude": 14.7411111,
+    "longitude": -90.8874969
+  },
+  {
+    "city": "Guatemala",
+    "country": "Patzicia",
+    "latitude": 14.6316667,
+    "longitude": -90.9269409
+  },
+  {
+    "city": "Guatemala",
+    "country": "Tecpan Guatemala",
+    "latitude": 14.7669444,
+    "longitude": -90.9941635
+  },
+  {
+    "city": "Guatemala",
+    "country": "Patzun",
+    "latitude": 14.6833333,
+    "longitude": -91.0166702
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Lucia Cotzumalguapa",
+    "latitude": 14.3333333,
+    "longitude": -91.0166702
+  },
+  {
+    "city": "Guatemala",
+    "country": "La Gomera",
+    "latitude": 14.0833333,
+    "longitude": -91.0500031
+  },
+  {
+    "city": "Guatemala",
+    "country": "Chichicastenango",
+    "latitude": 14.9333333,
+    "longitude": -91.1166687
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Lucas Toliman",
+    "latitude": 14.6333333,
+    "longitude": -91.1333313
+  },
+  {
+    "city": "Guatemala",
+    "country": "Nebaj",
+    "latitude": 15.4058333,
+    "longitude": -91.1461105
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Cruz del Quiche",
+    "latitude": 15.0305556,
+    "longitude": -91.1488876
+  },
+  {
+    "city": "Guatemala",
+    "country": "Panajachel",
+    "latitude": 14.7333333,
+    "longitude": -91.1500015
+  },
+  {
+    "city": "United States",
+    "country": "Baton Rouge",
+    "latitude": 30.4507462,
+    "longitude": -91.1545486
+  },
+  {
+    "city": "Guatemala",
+    "country": "Patulul",
+    "latitude": 14.4166667,
+    "longitude": -91.1666641
+  },
+  {
+    "city": "Guatemala",
+    "country": "Solola",
+    "latitude": 14.7666667,
+    "longitude": -91.1833344
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santiago Atitlan",
+    "latitude": 14.6382337,
+    "longitude": -91.2290115
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Barbara",
+    "latitude": 14.4333333,
+    "longitude": -91.2333298
+  },
+  {
+    "city": "Guatemala",
+    "country": "Barillas",
+    "latitude": 15.8036111,
+    "longitude": -91.315834
+  },
+  {
+    "city": "Guatemala",
+    "country": "Nahuala",
+    "latitude": 14.85,
+    "longitude": -91.3166656
+  },
+  {
+    "city": "Guatemala",
+    "country": "Chicacao",
+    "latitude": 14.5333333,
+    "longitude": -91.3166656
+  },
+  {
+    "city": "Guatemala",
+    "country": "Totonicapan",
+    "latitude": 14.9166667,
+    "longitude": -91.3666687
+  },
+  {
+    "city": "Guatemala",
+    "country": "Santa Catarina Ixtahuacan",
+    "latitude": 14.8,
+    "longitude": -91.3666687
+  },
+  {
+    "city": "Guatemala",
+    "country": "Pueblo Nuevo Tiquisate",
+    "latitude": 14.2833333,
+    "longitude": -91.3666687
+  },
+  {
+    "city": "Guatemala",
+    "country": "Momostenango",
+    "latitude": 15.0436111,
+    "longitude": -91.4086075
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Francisco El Alto",
+    "latitude": 14.95,
+    "longitude": -91.4499969
+  },
+  {
+    "city": "Guatemala",
+    "country": "Cantel",
+    "latitude": 14.8166667,
+    "longitude": -91.4499969
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Pablo Jocopilas",
+    "latitude": 14.5833333,
+    "longitude": -91.4499969
+  },
+  {
+    "city": "Guatemala",
+    "country": "Huehuetenango",
+    "latitude": 15.3197222,
+    "longitude": -91.4708328
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Mateo Ixtatan",
+    "latitude": 15.8319444,
+    "longitude": -91.4780579
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Andres Xecul",
+    "latitude": 14.9,
+    "longitude": -91.4833298
+  },
+  {
+    "city": "Guatemala",
+    "country": "Mazatenango",
+    "latitude": 14.5333333,
+    "longitude": -91.5
+  },
+  {
+    "city": "Guatemala",
+    "country": "Quetzaltenango",
+    "latitude": 14.8333333,
+    "longitude": -91.5166702
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Francisco Zapotitlan",
+    "latitude": 14.5833333,
+    "longitude": -91.5166702
+  },
+  {
+    "city": "Guatemala",
+    "country": "La Esperanza",
+    "latitude": 14.8666667,
+    "longitude": -91.5666656
+  },
+  {
+    "city": "Guatemala",
+    "country": "El Palmar",
+    "latitude": 14.65,
+    "longitude": -91.5833359
+  },
+  {
+    "city": "Guatemala",
+    "country": "Ostuncalco",
+    "latitude": 14.8666667,
+    "longitude": -91.6166687
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Sebastian",
+    "latitude": 14.5666667,
+    "longitude": -91.6500015
+  },
+  {
+    "city": "Guatemala",
+    "country": "Retalhuleu",
+    "latitude": 14.5333333,
+    "longitude": -91.6833344
+  },
+  {
+    "city": "Guatemala",
+    "country": "Nuevo San Carlos",
+    "latitude": 14.6,
+    "longitude": -91.6999969
+  },
+  {
+    "city": "Guatemala",
+    "country": "Comitancillo",
+    "latitude": 15.0833333,
+    "longitude": -91.7166672
+  },
+  {
+    "city": "Guatemala",
+    "country": "Jacaltenango",
+    "latitude": 15.6666667,
+    "longitude": -91.7333298
+  },
+  {
+    "city": "Guatemala",
+    "country": "Colomba",
+    "latitude": 14.7166667,
+    "longitude": -91.7333298
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Pedro Sacatepequez",
+    "latitude": 14.9666667,
+    "longitude": -91.7666702
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Marcos",
+    "latitude": 14.9666667,
+    "longitude": -91.8000031
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad del Carmen",
+    "latitude": 18.6333333,
+    "longitude": -91.8333359
+  },
+  {
+    "city": "Guatemala",
+    "country": "Coatepeque",
+    "latitude": 14.7,
+    "longitude": -91.8666687
+  },
+  {
+    "city": "Guatemala",
+    "country": "San Pablo",
+    "latitude": 14.9333333,
+    "longitude": -92
+  },
+  {
+    "city": "Guatemala",
+    "country": "Malacatan",
+    "latitude": 14.9,
+    "longitude": -92.0500031
+  },
+  {
+    "city": "Mexico",
+    "country": "Tapachula",
+    "latitude": 14.9,
+    "longitude": -92.2833328
+  },
+  {
+    "city": "Mexico",
+    "country": "San Cristobal de Las Casas",
+    "latitude": 16.75,
+    "longitude": -92.6333313
+  },
+  {
+    "city": "Mexico",
+    "country": "Villahermosa",
+    "latitude": 17.9833333,
+    "longitude": -92.9166641
+  },
+  {
+    "city": "United States",
+    "country": "Saint Paul",
+    "latitude": 44.9444101,
+    "longitude": -93.093277
+  },
+  {
+    "city": "Mexico",
+    "country": "Tuxtla Gutierrez",
+    "latitude": 16.75,
+    "longitude": -93.1166687
+  },
+  {
+    "city": "United States",
+    "country": "Minneapolis",
+    "latitude": 44.9799654,
+    "longitude": -93.2638397
+  },
+  {
+    "city": "Mexico",
+    "country": "Coatzacoalcos",
+    "latitude": 18.15,
+    "longitude": -94.4166641
+  },
+  {
+    "city": "Mexico",
+    "country": "Minatitlan",
+    "latitude": 17.9833333,
+    "longitude": -94.5166702
+  },
+  {
+    "city": "United States",
+    "country": "North Kansas City",
+    "latitude": 39.130004,
+    "longitude": -94.5621796
+  },
+  {
+    "city": "United States",
+    "country": "Kansas City",
+    "latitude": 39.0997266,
+    "longitude": -94.5785675
+  },
+  {
+    "city": "United States",
+    "country": "Houston",
+    "latitude": 29.7632836,
+    "longitude": -95.3632736
+  },
+  {
+    "city": "United States",
+    "country": "Omaha",
+    "latitude": 41.2586096,
+    "longitude": -95.9377899
   }
 ]
