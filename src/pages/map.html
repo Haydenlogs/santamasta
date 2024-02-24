@@ -46,7 +46,7 @@
     }
 
     .left-section span {
-      font-size: 1.2rem;
+      font-size: 1.6rem;
       font-weight: bold;
     }
 
@@ -64,6 +64,9 @@
       overflow: auto; /* Allow scrolling inside the iframe */
       margin-top: 80px; /* Adjust for top bar height */
     }
+    .correctspacing {
+      padding-left: 30px;
+    }
   </style>
 </head>
 <body>
@@ -76,7 +79,11 @@
     </div>
     <!-- Right section -->
     <div class="right-section">
-      <span id="local-time"></span>
+       <span class="correctspacing" id="utc-time"></span> <!-- UTC time -->
+       <span class="correctspacing" id="london-time"></span> <!-- London time -->
+       <span class="correctspacing" id="nyc-time"></span> <!-- New York City time -->
+       <span class="correctspacing" id="tokyo-time"></span> <!-- Tokyo time -->
+       <span class="correctspacing" id="local-time"></span> <!-- Local time -->
     </div>
   </div>
 
@@ -91,14 +98,64 @@
       var minutes = now.getMinutes().toString().padStart(2, '0');
       var seconds = now.getSeconds().toString().padStart(2, '0');
       var ampm = now.getHours() >= 12 ? 'PM' : 'AM';
-      document.getElementById('local-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm;
+      document.getElementById('local-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + " LOCAL";
     }
 
-    // Update local time every second
-    setInterval(updateLocalTime, 1000);
+    // Function to update UTC time
+    function updateUTCTime() {
+      var now = new Date();
+      var hours = now.getHours() % 12 || 12;
+      var minutes = now.getUTCMinutes().toString().padStart(2, '0');
+      var seconds = now.getUTCSeconds().toString().padStart(2, '0');
+      var ampm = now.getHours() >= 12 ? 'PM' : 'AM';
+      document.getElementById('utc-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + ' UTC/GMT';
+    }
 
-    // Initial call to display local time
+    // Function to update London time
+    function updateLondonTime() {
+      var now = new Date();
+      var hours = (now.getUTCHours() + 0) % 12 || 12; // London is in the GMT/UTC time zone
+      var minutes = now.getUTCMinutes().toString().padStart(2, '0');
+      var seconds = now.getUTCSeconds().toString().padStart(2, '0');
+      var ampm = now.getUTCHours() >= 12 ? 'PM' : 'AM';
+      document.getElementById('london-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + ' LONDON';
+    }
+
+    // Function to update New York City time
+    function updateNYCTime() {
+      var now = new Date();
+      var hours = (now.getUTCHours() - 5) % 12 || 12; // New York City is in the Eastern Time Zone
+      var minutes = now.getUTCMinutes().toString().padStart(2, '0');
+      var seconds = now.getUTCSeconds().toString().padStart(2, '0');
+      var ampm = (now.getUTCHours() - 5) >= 12 ? 'PM' : 'AM';
+      document.getElementById('nyc-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + ' NYC';
+    }
+
+    // Function to update Tokyo time
+    function updateTokyoTime() {
+      var now = new Date();
+      var hours = (now.getUTCHours() + 9) % 12 || 12; // Tokyo is in the Japan Standard Time zone
+      var minutes = now.getUTCMinutes().toString().padStart(2, '0');
+      var seconds = now.getUTCSeconds().toString().padStart(2, '0');
+      var ampm = (now.getUTCHours() + 9) >= 12 ? 'PM' : 'AM';
+      document.getElementById('tokyo-time').textContent = hours + ':' + minutes + ':' + seconds + ' ' + ampm + ' TOKYO';
+    }
+
+    // Update local time, UTC time, London time, New York City time, and Tokyo time every second
+    setInterval(function() {
+      updateLocalTime();
+      updateUTCTime();
+      updateLondonTime();
+      updateNYCTime();
+      updateTokyoTime();
+    }, 1000);
+
+    // Initial call to display local time, UTC time, London time, New York City time, and Tokyo time
     updateLocalTime();
+    updateUTCTime();
+    updateLondonTime();
+    updateNYCTime();
+    updateTokyoTime();
   </script>
 </body>
 </html>
