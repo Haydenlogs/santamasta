@@ -53332,5 +53332,533 @@
     "country": "Antofagasta",
     "latitude": -23.65,
     "longitude": -70.4000015
+  },
+  {
+    "city": "Venezuela",
+    "country": "Barinitas",
+    "latitude": 8.7622222,
+    "longitude": -70.4111099
+  },
+  {
+    "city": "Venezuela",
+    "country": "Trujillo",
+    "latitude": 9.3666667,
+    "longitude": -70.4333344
+  },
+  {
+    "city": "Chile",
+    "country": "Taltal",
+    "latitude": -25.4,
+    "longitude": -70.4833298
+  },
+  {
+    "city": "Chile",
+    "country": "vina causino",
+    "latitude": -33.6166667,
+    "longitude": -70.5833359
+  },
+  {
+    "city": "Peru",
+    "country": "Ayaviri",
+    "latitude": -14.8863889,
+    "longitude": -70.5888901
+  },
+  {
+    "city": "Chile",
+    "country": "Los Andes",
+    "latitude": -32.8336862,
+    "longitude": -70.5982742
+  },
+  {
+    "city": "Venezuela",
+    "country": "Valera",
+    "latitude": 9.3177778,
+    "longitude": -70.6036148
+  },
+  {
+    "city": "Chile",
+    "country": "Santiago",
+    "latitude": -33.45,
+    "longitude": -70.6666641
+  },
+  {
+    "city": "Chile",
+    "country": "Machali",
+    "latitude": -34.1833333,
+    "longitude": -70.6666641
+  },
+  {
+    "city": "Chile",
+    "country": "Vicuna",
+    "latitude": -30.0319444,
+    "longitude": -70.7080536
+  },
+  {
+    "city": "Chile",
+    "country": "San Bernardo",
+    "latitude": -33.6,
+    "longitude": -70.7166672
+  },
+  {
+    "city": "Venezuela",
+    "country": "Guasdalito",
+    "latitude": 7.2472222,
+    "longitude": -70.7294464
+  },
+  {
+    "city": "Chile",
+    "country": "San Felipe",
+    "latitude": -32.75,
+    "longitude": -70.7333298
+  },
+  {
+    "city": "Chile",
+    "country": "Graneros",
+    "latitude": -34.0666667,
+    "longitude": -70.7333298
+  },
+  {
+    "city": "Chile",
+    "country": "Buin",
+    "latitude": -33.7333333,
+    "longitude": -70.75
+  },
+  {
+    "city": "Chile",
+    "country": "Paine",
+    "latitude": -33.8166667,
+    "longitude": -70.75
+  },
+  {
+    "city": "Chile",
+    "country": "Rancagua",
+    "latitude": -34.1666667,
+    "longitude": -70.75
+  },
+  {
+    "city": "Chile",
+    "country": "Vallenar",
+    "latitude": -28.5708333,
+    "longitude": -70.7580566
+  },
+  {
+    "city": "Colombi",
+    "country": "Arauca",
+    "latitude": 7.0902778,
+    "longitude": -70.7616653
+  },
+  {
+    "city": "Chile",
+    "country": "Rengo",
+    "latitude": -34.4166667,
+    "longitude": -70.8666687
+  },
+  {
+    "city": "Chile",
+    "country": "Lampa",
+    "latitude": -33.2833333,
+    "longitude": -70.9000015
+  },
+  {
+    "city": "Chile",
+    "country": "Penaflor",
+    "latitude": -33.6166667,
+    "longitude": -70.9166641
+  },
+  {
+    "city": "Chile",
+    "country": "Punta Arenas",
+    "latitude": -53.15,
+    "longitude": -70.9166641
+  },
+  {
+    "city": "Chile",
+    "country": "Talagante",
+    "latitude": -33.6666667,
+    "longitude": -70.9333344
+  },
+  {
+    "city": "Peru",
+    "country": "Moquegua",
+    "latitude": -17.1955556,
+    "longitude": -70.9352798
+  },
+  {
+    "city": "Chile",
+    "country": "Monte Patria",
+    "latitude": -30.6919444,
+    "longitude": -70.9466629
+  },
+  {
+    "city": "Chile",
+    "country": "Llaillay",
+    "latitude": -32.85,
+    "longitude": -70.9666672
+  },
+  {
+    "city": "Chile",
+    "country": "Salamanca",
+    "latitude": -31.775,
+    "longitude": -70.9722214
+  },
+  {
+    "city": "Chile",
+    "country": "El Monte",
+    "latitude": -33.6833333,
+    "longitude": -71.0166702
+  },
+  {
+    "city": "United States",
+    "country": "South Boston",
+    "latitude": 42.3334312,
+    "longitude": -71.0494919
+  },
+  {
+    "city": "Chile",
+    "country": "Chimbarongo",
+    "latitude": -34.7,
+    "longitude": -71.0500031
+  },
+  {
+    "city": "United States",
+    "country": "Boston",
+    "latitude": 42.3584308,
+    "longitude": -71.0597763
+  },
+  {
+    "city": "Chile",
+    "country": "San Vicente",
+    "latitude": -34.4333333,
+    "longitude": -71.0833359
+  },
+  {
+    "city": "Venezuela",
+    "country": "Mucumpiz",
+    "latitude": 8.4166667,
+    "longitude": -71.1333313
+  },
+  {
+    "city": "Venezuela",
+    "country": "Merida",
+    "latitude": 8.5983333,
+    "longitude": -71.1449966
+  },
+  {
+    "city": "Chile",
+    "country": "Illapel",
+    "latitude": -31.6308333,
+    "longitude": -71.1652756
+  },
+  {
+    "city": "Canada",
+    "country": "Levis",
+    "latitude": 46.8032615,
+    "longitude": -71.1779327
+  },
+  {
+    "city": "Chile",
+    "country": "Ovalle",
+    "latitude": -30.5983333,
+    "longitude": -71.2002792
+  },
+  {
+    "city": "Canada",
+    "country": "Quebec",
+    "latitude": 46.8122791,
+    "longitude": -71.2145386
+  },
+  {
+    "city": "Chile",
+    "country": "Hacienda La Calera",
+    "latitude": -32.7833333,
+    "longitude": -71.2166672
+  },
+  {
+    "city": "Chile",
+    "country": "Melipilla",
+    "latitude": -33.7,
+    "longitude": -71.2166672
+  },
+  {
+    "city": "Peru",
+    "country": "Sicuani",
+    "latitude": -14.2694444,
+    "longitude": -71.2261124
+  },
+  {
+    "city": "Chile",
+    "country": "La Ligua",
+    "latitude": -32.4524177,
+    "longitude": -71.2310562
+  },
+  {
+    "city": "Chile",
+    "country": "Curico",
+    "latitude": -34.9833333,
+    "longitude": -71.2333298
+  },
+  {
+    "city": "Venezuela",
+    "country": "Ejido",
+    "latitude": 8.5513889,
+    "longitude": -71.2375031
+  },
+  {
+    "city": "Chile",
+    "country": "La Serena",
+    "latitude": -29.9077778,
+    "longitude": -71.2541656
+  },
+  {
+    "city": "Venezuela",
+    "country": "Lagunillas",
+    "latitude": 10.1408333,
+    "longitude": -71.2613907
+  },
+  {
+    "city": "Chile",
+    "country": "Quillota",
+    "latitude": -32.8833333,
+    "longitude": -71.2666702
+  },
+  {
+    "city": "Chile",
+    "country": "Limache",
+    "latitude": -33.0166667,
+    "longitude": -71.2666702
+  },
+  {
+    "city": "Chile",
+    "country": "Molina",
+    "latitude": -35.1166667,
+    "longitude": -71.2833328
+  },
+  {
+    "city": "Argentina",
+    "country": "San Carlos de Bariloche",
+    "latitude": -41.15,
+    "longitude": -71.3000031
+  },
+  {
+    "city": "Peru",
+    "country": "Ilo",
+    "latitude": -17.6394444,
+    "longitude": -71.3375015
+  },
+  {
+    "city": "Chile",
+    "country": "Coquimbo",
+    "latitude": -29.9533333,
+    "longitude": -71.3436127
+  },
+  {
+    "city": "Chile",
+    "country": "Santa Cruz",
+    "latitude": -34.6333333,
+    "longitude": -71.3666687
+  },
+  {
+    "city": "Chile",
+    "country": "Villa Alemana",
+    "latitude": -33.0422222,
+    "longitude": -71.3733368
+  },
+  {
+    "city": "Argentina",
+    "country": "Villa Catedral",
+    "latitude": -41.1673478,
+    "longitude": -71.4387741
+  },
+  {
+    "city": "Venezuela",
+    "country": "Cabimas",
+    "latitude": 10.4019444,
+    "longitude": -71.4461136
+  },
+  {
+    "city": "Chile",
+    "country": "Quilpue",
+    "latitude": -33.045,
+    "longitude": -71.4494476
+  },
+  {
+    "city": "Chile",
+    "country": "San Clemente",
+    "latitude": -35.55,
+    "longitude": -71.4833298
+  },
+  {
+    "city": "Venezuela",
+    "country": "Santa Rita",
+    "latitude": 10.5380556,
+    "longitude": -71.5169449
+  },
+  {
+    "city": "Peru",
+    "country": "Arequipa",
+    "latitude": -16.3988889,
+    "longitude": -71.5350037
+  },
+  {
+    "city": "Chile",
+    "country": "Vina del Mar",
+    "latitude": -33.0229137,
+    "longitude": -71.552536
+  },
+  {
+    "city": "Chile",
+    "country": "Linares",
+    "latitude": -35.85,
+    "longitude": -71.5999985
+  },
+  {
+    "city": "Chile",
+    "country": "San Antonio",
+    "latitude": -33.5933333,
+    "longitude": -71.621666
+  },
+  {
+    "city": "Chile",
+    "country": "Valparaiso",
+    "latitude": -33.0393202,
+    "longitude": -71.6272583
+  },
+  {
+    "city": "Venezuela",
+    "country": "Maracaibo",
+    "latitude": 10.6316667,
+    "longitude": -71.6405563
+  },
+  {
+    "city": "Canada",
+    "country": "Alma",
+    "latitude": 48.5500931,
+    "longitude": -71.6491013
+  },
+  {
+    "city": "Venezuela",
+    "country": "El Vigia",
+    "latitude": 8.6219444,
+    "longitude": -71.6505585
+  },
+  {
+    "city": "Chile",
+    "country": "Talca",
+    "latitude": -35.4333333,
+    "longitude": -71.6666641
+  },
+  {
+    "city": "Haiti",
+    "country": "Ouanaminthe",
+    "latitude": 19.55,
+    "longitude": -71.7333298
+  },
+  {
+    "city": "Haiti",
+    "country": "Anse-a-Pitres",
+    "latitude": 18.05,
+    "longitude": -71.75
+  },
+  {
+    "city": "Chile",
+    "country": "San Javier",
+    "latitude": -35.6,
+    "longitude": -71.75
+  },
+  {
+    "city": "Haiti",
+    "country": "Ferrier",
+    "latitude": 19.6166667,
+    "longitude": -71.7833328
+  },
+  {
+    "city": "Haiti",
+    "country": "Mont Organise",
+    "latitude": 19.4,
+    "longitude": -71.7833328
+  },
+  {
+    "city": "Haiti",
+    "country": "Cerca la Source",
+    "latitude": 19.1666667,
+    "longitude": -71.7833328
+  },
+  {
+    "city": "Haiti",
+    "country": "Derac",
+    "latitude": 19.65,
+    "longitude": -71.8166656
+  },
+  {
+    "city": "Haiti",
+    "country": "Carice",
+    "latitude": 19.3833333,
+    "longitude": -71.8333359
+  },
+  {
+    "city": "Haiti",
+    "country": "Thomassique",
+    "latitude": 19.0833333,
+    "longitude": -71.8333359
+  },
+  {
+    "city": "Chile",
+    "country": "Parral",
+    "latitude": -36.15,
+    "longitude": -71.8333359
+  },
+  {
+    "city": "Haiti",
+    "country": "Fort Liberte",
+    "latitude": 19.6677778,
+    "longitude": -71.8397217
+  },
+  {
+    "city": "Haiti",
+    "country": "Thiote",
+    "latitude": 18.25,
+    "longitude": -71.8499985
+  },
+  {
+    "city": "Haiti",
+    "country": "Fond Verrettes",
+    "latitude": 18.3913889,
+    "longitude": -71.8569412
+  },
+  {
+    "city": "Haiti",
+    "country": "Phaeton",
+    "latitude": 19.6741667,
+    "longitude": -71.8972244
+  },
+  {
+    "city": "Canada",
+    "country": "Sherbrooke",
+    "latitude": 45.400083,
+    "longitude": -71.8990784
+  },
+  {
+    "city": "Venezuela",
+    "country": "San Carlos del Zulia",
+    "latitude": 9.0041667,
+    "longitude": -71.9163895
+  },
+  {
+    "city": "Haiti",
+    "country": "Perches",
+    "latitude": 19.5166667,
+    "longitude": -71.9166641
+  },
+  {
+    "city": "Haiti",
+    "country": "Lascahobas",
+    "latitude": 18.8294444,
+    "longitude": -71.9363861
+  },
+  {
+    "city": "Haiti",
+    "country": "Cornillon",
+    "latitude": 18.6747222,
+    "longitude": -71.953331
   }
 ]
