@@ -14,20 +14,18 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 8.11;
 let trackerInterval;
-const countdownDate = new Date("2024-03-31T00:00:00Z");
+const countdownDate = new Date("2024-02-31T00:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
-    "/restarttracker": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
-    "/resetbaskets": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
-    "/unlock": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
-    "/message1set": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
-    "/message2set": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
-    "/message3set": (13 * 60 * 60 * 1000) + (27 * 60 * 1000), // 1:27:00 PM
-    "/message4set": (13 * 60 * 60 * 1000) + (27 * 60 * 1000), // 1:27:00 PM
-    "/starttracker": (13 * 60 * 60 * 1000) + (27 * 60 * 1000) // 1:27:00 PM
+  "/restarttracker": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
+  "/resetbaskets": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
+  "/unlock": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
+  "/message1set": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
+  "/message2set": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
+  "/message3set": 13 * 60 * 60 * 1000 + 27 * 60 * 1000, // 1:27:00 PM
+  "/message4set": 13 * 60 * 60 * 1000 + 27 * 60 * 1000, // 1:27:00 PM
+  "/starttracker": 13 * 60 * 60 * 1000 + 27 * 60 * 1000, // 1:27:00 PM
 };
-
-
 
 // Endpoint to set the countdown date
 app.post("/setcountdowndate", (req, res) => {
@@ -50,10 +48,9 @@ function isValidDate(dateString) {
   return dateString.match(datePattern);
 }
 function isSameMonthAsCountdown(date) {
-    const countdownDate = new Date("2024-03-31T00:00:00Z");
-    return date.getMonth() === countdownDate.getMonth();
+  const countdownDate = new Date("2024-02-29T00:00:00Z");
+  return date.getMonth() === countdownDate.getMonth();
 }
-
 
 // Endpoint to get the countdown date
 app.get("/getcountdowndate", (req, res) => {
@@ -67,119 +64,126 @@ app.get("/getcountdowndate", (req, res) => {
 let isscheduled = true;
 // Function to execute a task
 function executeTask(taskUrl) {
-    console.log(`Executing task: ${taskUrl}`);
-  
-    // Perform specific actions based on the task URL
-    if (taskUrl === "/restarttracker") {
-        currentIndex = 0;
-        saveIndexToFile(); // Save the index to file
-    } else if (taskUrl === "/resetbaskets" || taskUrl === "/resetbaskets_next") {
-        currentIndex = 0;
-        fs.writeFileSync("giftsdelivered.json", "[]");
-    } else if (taskUrl === "/unlock") {
-        isLocked = false;
-        sendTrackerEvent({ unlocked: true });
-        saveTrackerStatusToFile(true);
-    } else if (taskUrl === "/message1set") {
-        // Perform actions for setting message 1
-        fs.writeFile("message.txt", "Weather on Easter Island is indicating perfect weather for traveling.", (err) => {
-            if (err) {
-                console.error("Error setting message 1:", err);
-            } else {
-                sendTrackerEvent({
-                    messageupdate: "Weather on Easter Island is indicating perfect weather for traveling."
-                });
-            }
+  console.log(`Executing task: ${taskUrl}`);
+
+  // Perform specific actions based on the task URL
+  if (taskUrl === "/restarttracker") {
+    currentIndex = 0;
+    saveIndexToFile(); // Save the index to file
+  } else if (taskUrl === "/resetbaskets" || taskUrl === "/resetbaskets_next") {
+    currentIndex = 0;
+    fs.writeFileSync("giftsdelivered.json", "[]");
+  } else if (taskUrl === "/unlock") {
+    isLocked = false;
+    sendTrackerEvent({ unlocked: true });
+    saveTrackerStatusToFile(true);
+  } else if (taskUrl === "/message1set") {
+    // Perform actions for setting message 1
+    fs.writeFile(
+      "message.txt",
+      "Weather on Easter Island is indicating perfect weather for traveling.",
+      (err) => {
+        if (err) {
+          console.error("Error setting message 1:", err);
+        } else {
+          sendTrackerEvent({
+            messageupdate:
+              "Weather on Easter Island is indicating perfect weather for traveling.",
+          });
+        }
+      }
+    );
+  } else if (taskUrl === "/message2set") {
+    // Perform actions for setting message 2
+    fs.writeFile(
+      "message.txt",
+      "Are you ready? Easter Bunny is expected to launch within the hour.",
+      (err) => {
+        if (err) {
+          console.error("Error setting message 2:", err);
+        } else {
+          sendTrackerEvent({
+            messageupdate:
+              "Are you ready? Easter Bunny is expected to launch within the hour.",
+          });
+        }
+      }
+    );
+  } else if (taskUrl === "/message3set") {
+    // Perform actions for setting message 3
+    fs.writeFile("message.txt", "Easter Bunny is about to launch.", (err) => {
+      if (err) {
+        console.error("Error setting message 3:", err);
+      } else {
+        sendTrackerEvent({
+          messageupdate: "Easter Bunny is about to launch.",
         });
-    } else if (taskUrl === "/message2set") {
-        // Perform actions for setting message 2
-        fs.writeFile("message.txt", "Are you ready? Easter Bunny is expected to launch within the hour.", (err) => {
-            if (err) {
-                console.error("Error setting message 2:", err);
-            } else {
-                sendTrackerEvent({
-                    messageupdate: "Are you ready? Easter Bunny is expected to launch within the hour."
-                });
-            }
+      }
+    });
+  } else if (taskUrl === "/message4set") {
+    // Perform actions for setting message 4
+    fs.writeFile("message.txt", "Easter Bunny is Launching!", (err) => {
+      if (err) {
+        console.error("Error setting message 4:", err);
+      } else {
+        sendTrackerEvent({
+          messageupdate: "Easter Bunny is Launching!",
         });
-    } else if (taskUrl === "/message3set") {
-        // Perform actions for setting message 3
-        fs.writeFile("message.txt", "Easter Bunny is about to launch.", (err) => {
-            if (err) {
-                console.error("Error setting message 3:", err);
-            } else {
-                sendTrackerEvent({
-                    messageupdate: "Easter Bunny is about to launch."
-                });
-            }
-        });
-    } else if (taskUrl === "/message4set") {
-        // Perform actions for setting message 4
-        fs.writeFile("message.txt", "Easter Bunny is Launching!", (err) => {
-            if (err) {
-                console.error("Error setting message 4:", err);
-            } else {
-                sendTrackerEvent({
-                    messageupdate: "Easter Bunny is Launching!"
-                });
-            }
-        });
-    } else if (taskUrl === "/starttracker") {
-        currentIndex = 0;
-        saveIndexToFile(); // Save the index to file
-    } else if (taskUrl === "/endtracker") {
-        // Perform actions for ending the tracker
-        isTrackerStarted = false;
-        clearInterval(trackerInterval);
-        sendTrackerEvent({ ended: true });
-        saveTrackerStatusToFile(false);
-    } else if (taskUrl === "/restarttracker_next") {
-        currentIndex = 0;
-        saveIndexToFile(); // Save the index to file
-    } else if (taskUrl === "/lock") {
-        // Perform actions for locking
-        isLocked = true;
-        sendTrackerEvent({ locked: true });
-        saveTrackerStatusToFile(true);
-    }
+      }
+    });
+  } else if (taskUrl === "/starttracker") {
+    currentIndex = 0;
+    saveIndexToFile(); // Save the index to file
+  } else if (taskUrl === "/endtracker") {
+    // Perform actions for ending the tracker
+    isTrackerStarted = false;
+    clearInterval(trackerInterval);
+    sendTrackerEvent({ ended: true });
+    saveTrackerStatusToFile(false);
+  } else if (taskUrl === "/restarttracker_next") {
+    currentIndex = 0;
+    saveIndexToFile(); // Save the index to file
+  } else if (taskUrl === "/lock") {
+    // Perform actions for locking
+    isLocked = true;
+    sendTrackerEvent({ locked: true });
+    saveTrackerStatusToFile(true);
+  }
 }
 
 function scheduleTasks() {
-    setInterval(() => {
-        // Get the current time in UTC
-        const currentTime = new Date();
-        const currentHour = currentTime.getUTCHours();
-        const currentMinute = currentTime.getUTCMinutes();
-        const currentSecond = currentTime.getUTCSeconds();
+  setInterval(() => {
+    // Get the current time in UTC
+    const currentTime = new Date();
+    const currentHour = currentTime.getUTCHours();
+    const currentMinute = currentTime.getUTCMinutes();
+    const currentSecond = currentTime.getUTCSeconds();
 
-        // Iterate over each task and check if it's time to execute
-        Object.entries(taskIntervals).forEach(([taskUrl, interval]) => {
-            // Extract scheduled hour, minute, and second from the interval
-            const scheduledHour = Math.floor(interval / (60 * 60 * 1000));
-            const scheduledMinute = Math.floor((interval % (60 * 60 * 1000)) / (60 * 1000));
-            const scheduledSecond = Math.floor((interval % (60 * 1000)) / 1000);
+    // Iterate over each task and check if it's time to execute
+    Object.entries(taskIntervals).forEach(([taskUrl, interval]) => {
+      // Extract scheduled hour, minute, and second from the interval
+      const scheduledHour = Math.floor(interval / (60 * 60 * 1000));
+      const scheduledMinute = Math.floor(
+        (interval % (60 * 60 * 1000)) / (60 * 1000)
+      );
+      const scheduledSecond = Math.floor((interval % (60 * 1000)) / 1000);
 
-            // Check if the current time matches the scheduled time for the task
-            if (
-                currentHour === scheduledHour &&
-                currentMinute === scheduledMinute &&
-                currentSecond === scheduledSecond &&
-                !isscheduled
-            ) {
-                executeTask(taskUrl);
-                isscheduled = true;
-            }
-        });
+      // Check if the current time matches the scheduled time for the task
+      if (
+        currentHour === scheduledHour &&
+        currentMinute === scheduledMinute &&
+        currentSecond === scheduledSecond &&
+        !isscheduled
+      ) {
+        executeTask(taskUrl);
+        isscheduled = true;
+      }
+    });
 
-        // Reset isscheduled flag after each iteration
-        isscheduled = false;
-    }, 1000); // Check every second
+    // Reset isscheduled flag after each iteration
+    isscheduled = false;
+  }, 1000); // Check every second
 }
-
-
-
-
-
 
 // Function to save the current index to a file
 function saveIndexToFile() {
@@ -271,7 +275,6 @@ function sendNextCity() {
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
 
-     
       sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
 
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
@@ -294,7 +297,6 @@ function sendNextCity() {
   }
 }
 
-
 // Endpoint to set message 1
 app.get("/message1set", async (req, res) => {
   try {
@@ -307,7 +309,8 @@ app.get("/message1set", async (req, res) => {
         } else {
           res.send("Message 1 set.");
           sendTrackerEvent({
-            messageupdate: "Weather on Easter Island is indicating perfect weather for traveling.",
+            messageupdate:
+              "Weather on Easter Island is indicating perfect weather for traveling.",
           });
         }
       }
@@ -321,7 +324,6 @@ app.get("/getmaxpresents", (req, res) => {
   // Send a JSON response with the value of maxpresents
   res.json({ maxpresents: maxpresents });
 });
-
 
 // Endpoint to set message 2
 app.get("/message2set", async (req, res) => {
@@ -384,10 +386,10 @@ app.get("/message4set", async (req, res) => {
   }
 });
 app.get("/refreshall", async (req, res) => {
-    setTimeout(() => {
-        sendTrackerEvent({ refresh: true });
-        res.send("Refresh initiated successfully.");
-    }, 5000); // 1000 milliseconds = 1 second
+  setTimeout(() => {
+    sendTrackerEvent({ refresh: true });
+    res.send("Refresh initiated successfully.");
+  }, 5000); // 1000 milliseconds = 1 second
 });
 
 // Function to add delivered location to giftsdelivered.json
@@ -414,29 +416,31 @@ function sendTrackerUpdate() {
 }
 
 function generateTrackerUpdate() {
-    const currentCity = app.get("currentCity");
-    const nextCityIndex = currentIndex;
-    const nextCity = cities[nextCityIndex];
-    const currentTime = Date.now();
-    const elapsedTime = currentTime - startTime;
+  const currentCity = app.get("currentCity");
+  const nextCityIndex = currentIndex;
+  const nextCity = cities[nextCityIndex];
+  const currentTime = Date.now();
+  const elapsedTime = currentTime - startTime;
 
-    // Calculate presents delivered based on the current index and elapsed time
-    let presentsDelivered = Math.floor((currentIndex / cities.length) * maxpresents);
-    sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
+  // Calculate presents delivered based on the current index and elapsed time
+  let presentsDelivered = Math.floor(
+    (currentIndex / cities.length) * maxpresents
+  );
+  sendTrackerEvent({ presentsDelivered: presentsDelivered }); // Send server update
 
-    // Calculate the time left for the current city
-    const timeLeft = Math.ceil(intervalInSeconds - ((elapsedTime / 1000) % intervalInSeconds));
+  // Calculate the time left for the current city
+  const timeLeft = Math.ceil(
+    intervalInSeconds - ((elapsedTime / 1000) % intervalInSeconds)
+  );
 
-    return {
-        currentCity,
-        timeLeft,
-        nextCity,
-        lastCity, // Include lastCity in the tracker update
-        presentsDelivered,
-    };
+  return {
+    currentCity,
+    timeLeft,
+    nextCity,
+    lastCity, // Include lastCity in the tracker update
+    presentsDelivered,
+  };
 }
-
-
 
 function sendTrackerStartEvent() {
   app.locals.clients.forEach((client) => {
@@ -478,7 +482,6 @@ app.get("/lock", (req, res) => {
 });
 // Middleware to log requests
 app.use((req, res, next) => {
-
   const ip = req.ip;
   const time = new Date().toISOString();
   const country =
@@ -492,7 +495,7 @@ app.use((req, res, next) => {
   });
 
   next();
-  });
+});
 
 // Endpoint to get yearly visits with visit data
 app.get("/getyearlyvisits", (req, res) => {
@@ -555,6 +558,8 @@ function getVisitsWithData(timeFrame, callback) {
     }
   });
 }
+const currentDate = new Date(); // Assuming this is the current date
+console.log(isSameMonthAsCountdown(currentDate)); // Output: true or false
 
 // Default route handler
 app.get("/", (req, res) => {
@@ -564,7 +569,7 @@ app.get("/", (req, res) => {
     req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
   const visitData = { ip, time, country };
-const currentDate = new Date(); // Assuming this is the current date
+  const currentDate = new Date(); // Assuming this is the current date
 
   // Log the visit data to SiteVisits.json
   fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
@@ -572,23 +577,22 @@ const currentDate = new Date(); // Assuming this is the current date
   });
   const trackerStarted = isTrackerStartedFromFile();
   // Check if the site is locked
-  if (isLocked) {
-    // If locked, redirect to comeback.html
-    res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
+  if (isSameMonthAsCountdown(currentDate) === true) {
+    res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
   } else {
-    if (trackerStarted === false) {
-      if (isSameMonthAsCountdown(currentDate) === true){
-        res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
-      } else {
-        res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
-      }
-      
+    if (isLocked) {
+      // If locked, redirect to comeback.html
+      res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
     } else {
-      // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
-      if (!isTrackerStarted) {
-        res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
+      if (trackerStarted === false) {
+        res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
       } else {
-        res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
+        // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
+        if (!isTrackerStarted) {
+          res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
+        } else {
+          res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
+        }
       }
     }
   }
@@ -701,7 +705,7 @@ app.get("/refresherpage", (req, res) => {
 });
 app.get("/en-us/embed/ended.html", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
-});// Endpoint to get the current message
+}); // Endpoint to get the current message
 app.get("/en-us/embed/index.html", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
 });
@@ -730,19 +734,13 @@ app.get("/getmessage", (req, res) => {
 // Handle 404 Not Found for all paths except "/", "/admin", and an empty path
 
 app.use((req, res, next) => {
+  const excludedPaths = ["/", "/admin", "", "/localtime"];
 
-    const excludedPaths = ["/", "/admin", "", "/localtime"];
-
-    if (!excludedPaths.includes(req.path)) {
-
-        res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
-
-    } else {
-
-        next(); // Pass the request to the next middleware
-
-    }
-
+  if (!excludedPaths.includes(req.path)) {
+    res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
+  } else {
+    next(); // Pass the request to the next middleware
+  }
 });
 const port = process.env.PORT || 3000;
 app.listen(port, () => {
