@@ -46408,5 +46408,533 @@
     "country": "Markala",
     "latitude": 13.6833333,
     "longitude": -6.0833335
+  },
+  {
+    "city": "Ireland",
+    "country": "An Ros",
+    "latitude": 53.5222986,
+    "longitude": -6.0930777
+  },
+  {
+    "city": "Ireland",
+    "country": "Bray",
+    "latitude": 53.2027778,
+    "longitude": -6.0983334
+  },
+  {
+    "city": "Ireland",
+    "country": "Na Sceiri",
+    "latitude": 53.5827778,
+    "longitude": -6.1083331
+  },
+  {
+    "city": "Spain",
+    "country": "Jerez de la Frontera",
+    "latitude": 36.6833333,
+    "longitude": -6.1333332
+  },
+  {
+    "city": "Spain",
+    "country": "Chiclana de la Frontera",
+    "latitude": 36.4166667,
+    "longitude": -6.1333332
+  },
+  {
+    "city": "Malta",
+    "country": "Sokolo",
+    "latitude": 14.7333333,
+    "longitude": -6.1333332
+  },
+  {
+    "city": "Ireland",
+    "country": "Dun Laoghaire",
+    "latitude": 53.2939516,
+    "longitude": -6.1358643
+  },
+  {
+    "city": "Ireland",
+    "country": "Portmarnock",
+    "latitude": 53.4230556,
+    "longitude": -6.1374998
+  },
+  {
+    "city": "Ireland",
+    "country": "Arklow",
+    "latitude": 52.7930556,
+    "longitude": -6.1413889
+  },
+  {
+    "city": "Morocco",
+    "country": "Larache",
+    "latitude": 35.19,
+    "longitude": -6.1500001
+  },
+  {
+    "city": "Ireland",
+    "country": "Donabate",
+    "latitude": 53.4872222,
+    "longitude": -6.1519446
+  },
+  {
+    "city": "Ireland",
+    "country": "Malahide",
+    "latitude": 53.4508333,
+    "longitude": -6.1544442
+  },
+  {
+    "city": "Ireland",
+    "country": "Balbriggan",
+    "latitude": 53.6127778,
+    "longitude": -6.1819444
+  },
+  {
+    "city": "Spain",
+    "country": "San Fernando",
+    "latitude": 36.4666667,
+    "longitude": -6.1999998
+  },
+  {
+    "city": "Ireland",
+    "country": "Sord",
+    "latitude": 53.4597222,
+    "longitude": -6.2180557
+  },
+  {
+    "city": "Spain",
+    "country": "El Puerto de Santa Maria",
+    "latitude": 36.5938924,
+    "longitude": -6.2329817
+  },
+  {
+    "city": "Ireland",
+    "country": "An Inse",
+    "latitude": 53.6819444,
+    "longitude": -6.2391667
+  },
+  {
+    "city": "Ireland",
+    "country": "Dublin",
+    "latitude": 53.3330556,
+    "longitude": -6.248889
+  },
+  {
+    "city": "Morocco",
+    "country": "Kasba Tadla",
+    "latitude": 32.6,
+    "longitude": -6.2600002
+  },
+  {
+    "city": "Malta",
+    "country": "Segou",
+    "latitude": 13.45,
+    "longitude": -6.2666669
+  },
+  {
+    "city": "Ireland",
+    "country": "Gorey",
+    "latitude": 52.6747222,
+    "longitude": -6.2925
+  },
+  {
+    "city": "Spain",
+    "country": "Cadiz",
+    "latitude": 36.5336111,
+    "longitude": -6.2994442
+  },
+  {
+    "city": "Morocco",
+    "country": "Sidi Yahia el Gharb",
+    "latitude": 34.3,
+    "longitude": -6.3099999
+  },
+  {
+    "city": "Morocco",
+    "country": "Tiflet",
+    "latitude": 33.9,
+    "longitude": -6.3299999
+  },
+  {
+    "city": "Ireland",
+    "country": "Drogheda",
+    "latitude": 53.7188889,
+    "longitude": -6.3477778
+  },
+  {
+    "city": "Morocco",
+    "country": "Beni Mellal",
+    "latitude": 32.33,
+    "longitude": -6.3499999
+  },
+  {
+    "city": "Morocco",
+    "country": "Ifrane",
+    "latitude": 31.7,
+    "longitude": -6.3499999
+  },
+  {
+    "city": "Spain",
+    "country": "Caceres",
+    "latitude": 39.4764856,
+    "longitude": -6.372242
+  },
+  {
+    "city": "Ireland",
+    "country": "Tallaght",
+    "latitude": 53.2858965,
+    "longitude": -6.3734436
+  },
+  {
+    "city": "Ireland",
+    "country": "Dun Dealgan",
+    "latitude": 54,
+    "longitude": -6.4166665
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Dheaglain",
+    "latitude": 53.5108333,
+    "longitude": -6.4272223
+  },
+  {
+    "city": "Ireland",
+    "country": "Loch Garman",
+    "latitude": 52.3341667,
+    "longitude": -6.4575
+  },
+  {
+    "city": "Ireland",
+    "country": "Rath To",
+    "latitude": 53.5080556,
+    "longitude": -6.4625001
+  },
+  {
+    "city": "Ireland",
+    "country": "Dunboyne",
+    "latitude": 53.4,
+    "longitude": -6.4666667
+  },
+  {
+    "city": "Ireland",
+    "country": "Leixlip",
+    "latitude": 53.3658333,
+    "longitude": -6.4955554
+  },
+  {
+    "city": "Ireland",
+    "country": "Dunshaughlin",
+    "latitude": 53.5125,
+    "longitude": -6.54
+  },
+  {
+    "city": "Ireland",
+    "country": "Baile Atha Fhirdhia",
+    "latitude": 53.8597222,
+    "longitude": -6.5405555
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Droichid",
+    "latitude": 53.3386111,
+    "longitude": -6.543611
+  },
+  {
+    "city": "Ireland",
+    "country": "Inis Corthaidh",
+    "latitude": 52.5008333,
+    "longitude": -6.5577779
+  },
+  {
+    "city": "Morocco",
+    "country": "Oued Zem",
+    "latitude": 32.86,
+    "longitude": -6.5599999
+  },
+  {
+    "city": "Morocco",
+    "country": "Kenitra",
+    "latitude": 34.26,
+    "longitude": -6.5700002
+  },
+  {
+    "city": "Spain",
+    "country": "Ponferrada",
+    "latitude": 42.55,
+    "longitude": -6.5833335
+  },
+  {
+    "city": "Ireland",
+    "country": "Maynooth",
+    "latitude": 53.385,
+    "longitude": -6.5936112
+  },
+  {
+    "city": "Ireland",
+    "country": "Na Sollain",
+    "latitude": 53.2488889,
+    "longitude": -6.666111
+  },
+  {
+    "city": "Ireland",
+    "country": "An Nas",
+    "latitude": 53.2158333,
+    "longitude": -6.6669445
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Choca",
+    "latitude": 53.4022222,
+    "longitude": -6.6708331
+  },
+  {
+    "city": "Ireland",
+    "country": "An Uaimh",
+    "latitude": 53.6527778,
+    "longitude": -6.6813889
+  },
+  {
+    "city": "Ireland",
+    "country": "Claonadh",
+    "latitude": 53.2913889,
+    "longitude": -6.6891665
+  },
+  {
+    "city": "Morocco",
+    "country": "Fkih Ben Salah",
+    "latitude": 32.5,
+    "longitude": -6.6999998
+  },
+  {
+    "city": "Ireland",
+    "country": "Carraig Mhachaire Rois",
+    "latitude": 53.9727778,
+    "longitude": -6.7188888
+  },
+  {
+    "city": "Ireland",
+    "country": "Newtown Trim",
+    "latitude": 53.5561111,
+    "longitude": -6.77
+  },
+  {
+    "city": "Ireland",
+    "country": "Droichead Nua",
+    "latitude": 53.1819444,
+    "longitude": -6.7966666
+  },
+  {
+    "city": "Morocco",
+    "country": "Rabat",
+    "latitude": 34.02,
+    "longitude": -6.8299999
+  },
+  {
+    "city": "Ireland",
+    "country": "Ceanannas",
+    "latitude": 53.7263889,
+    "longitude": -6.8791666
+  },
+  {
+    "city": "Morocco",
+    "country": "Khouribga",
+    "latitude": 32.88,
+    "longitude": -6.9000001
+  },
+  {
+    "city": "Malta",
+    "country": "Kolondieba",
+    "latitude": 11.0833333,
+    "longitude": -6.9000001
+  },
+  {
+    "city": "Morocco",
+    "country": "Ouarzazat",
+    "latitude": 30.92,
+    "longitude": -6.9099998
+  },
+  {
+    "city": "Ireland",
+    "country": "Ceatharlach",
+    "latitude": 52.8408333,
+    "longitude": -6.9261112
+  },
+  {
+    "city": "Ireland",
+    "country": "Ros Mhic Thriuin",
+    "latitude": 52.3966667,
+    "longitude": -6.9366665
+  },
+  {
+    "city": "Spain",
+    "country": "Huelva",
+    "latitude": 37.2583333,
+    "longitude": -6.9508333
+  },
+  {
+    "city": "Ireland",
+    "country": "Muineachan",
+    "latitude": 54.25,
+    "longitude": -6.9666667
+  },
+  {
+    "city": "Ireland",
+    "country": "Cherryville",
+    "latitude": 53.1569444,
+    "longitude": -6.9666667
+  },
+  {
+    "city": "Spain",
+    "country": "Badajoz",
+    "latitude": 38.8833333,
+    "longitude": -6.9666667
+  },
+  {
+    "city": "Ireland",
+    "country": "Baile Atha I",
+    "latitude": 52.9913889,
+    "longitude": -6.980278
+  },
+  {
+    "city": "Morocco",
+    "country": "Skhirat",
+    "latitude": 33.85,
+    "longitude": -7.0300002
+  },
+  {
+    "city": "Ireland",
+    "country": "Edenderry",
+    "latitude": 53.3452778,
+    "longitude": -7.0497222
+  },
+  {
+    "city": "Ireland",
+    "country": "Port Lairge",
+    "latitude": 52.2583333,
+    "longitude": -7.1119442
+  },
+  {
+    "city": "Morocco",
+    "country": "Bouznika",
+    "latitude": 33.78,
+    "longitude": -7.1500001
+  },
+  {
+    "city": "Ireland",
+    "country": "Tra Mhor",
+    "latitude": 52.16235,
+    "longitude": -7.1524429
+  },
+  {
+    "city": "Ireland",
+    "country": "Portarlington",
+    "latitude": 53.1622222,
+    "longitude": -7.1911111
+  },
+  {
+    "city": "Portugal",
+    "country": "Sequeira",
+    "latitude": 40.55,
+    "longitude": -7.2333331
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Chainnigh",
+    "latitude": 52.6541667,
+    "longitude": -7.2522221
+  },
+  {
+    "city": "Ireland",
+    "country": "Port Laoise",
+    "latitude": 53.0344136,
+    "longitude": -7.2997928
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Londonderry County Borough",
+    "latitude": 54.9972135,
+    "longitude": -7.3091698
+  },
+  {
+    "city": "Portugal",
+    "country": "Custoias",
+    "latitude": 41.1,
+    "longitude": -7.3166666
+  },
+  {
+    "city": "Ireland",
+    "country": "Mountmellick",
+    "latitude": 53.1136111,
+    "longitude": -7.3200002
+  },
+  {
+    "city": "Ireland",
+    "country": "An Muileann gCearr",
+    "latitude": 53.5333333,
+    "longitude": -7.3499999
+  },
+  {
+    "city": "Ireland",
+    "country": "An Cabhan",
+    "latitude": 53.9908333,
+    "longitude": -7.3605556
+  },
+  {
+    "city": "Ireland",
+    "country": "Carrick-on-Suir",
+    "latitude": 52.3491667,
+    "longitude": -7.4130554
+  },
+  {
+    "city": "Ireland",
+    "country": "Bun Cranncha",
+    "latitude": 55.1333333,
+    "longitude": -7.4499998
+  },
+  {
+    "city": "Malta",
+    "country": "Banamba",
+    "latitude": 13.55,
+    "longitude": -7.4499998
+  },
+  {
+    "city": "Malta",
+    "country": "Bougouni",
+    "latitude": 11.4166667,
+    "longitude": -7.4833331
+  },
+  {
+    "city": "Ireland",
+    "country": "Tullamore",
+    "latitude": 53.2738889,
+    "longitude": -7.4888887
+  },
+  {
+    "city": "Portugal",
+    "country": "Covilha",
+    "latitude": 40.2833333,
+    "longitude": -7.5
+  },
+  {
+    "city": "Portugal",
+    "country": "Castelo Branco",
+    "latitude": 39.8166667,
+    "longitude": -7.5
+  },
+  {
+    "city": "Malta",
+    "country": "Koulikoro",
+    "latitude": 12.8661111,
+    "longitude": -7.5605555
+  },
+  {
+    "city": "Spain",
+    "country": "Lugo",
+    "latitude": 43,
+    "longitude": -7.5666666
+  },
+  {
+    "city": "Morocco",
+    "country": "Berrechid",
+    "latitude": 33.26,
+    "longitude": -7.5799999
   }
 ]
