@@ -49072,5 +49072,533 @@
     "country": "Grenivik",
     "latitude": 65.95,
     "longitude": -18.1833324
+  },
+  {
+    "city": "Iceland",
+    "country": "Hjalteyri",
+    "latitude": 65.85,
+    "longitude": -18.2000008
+  },
+  {
+    "city": "Iceland",
+    "country": "Litli-Arskogssandur",
+    "latitude": 65.95,
+    "longitude": -18.3666668
+  },
+  {
+    "city": "Iceland",
+    "country": "Dalvik",
+    "latitude": 65.9701754,
+    "longitude": -18.528614
+  },
+  {
+    "city": "Iceland",
+    "country": "Olafsfjordur",
+    "latitude": 66.0666667,
+    "longitude": -18.6499996
+  },
+  {
+    "city": "Iceland",
+    "country": "Siglufjordur",
+    "latitude": 66.15,
+    "longitude": -18.916666
+  },
+  {
+    "city": "Iceland",
+    "country": "Holar",
+    "latitude": 65.7333333,
+    "longitude": -19.1333332
+  },
+  {
+    "city": "Iceland",
+    "country": "Hofsos",
+    "latitude": 65.9,
+    "longitude": -19.4333324
+  },
+  {
+    "city": "Iceland",
+    "country": "Saudarkrokur",
+    "latitude": 65.75,
+    "longitude": -19.6499996
+  },
+  {
+    "city": "Iceland",
+    "country": "Hvolsvollur",
+    "latitude": 63.75,
+    "longitude": -20.2333336
+  },
+  {
+    "city": "Iceland",
+    "country": "Blonduos",
+    "latitude": 65.6666667,
+    "longitude": -20.2999992
+  },
+  {
+    "city": "Iceland",
+    "country": "Skagastrond",
+    "latitude": 65.8333333,
+    "longitude": -20.3166676
+  },
+  {
+    "city": "Iceland",
+    "country": "Hella",
+    "latitude": 63.8333333,
+    "longitude": -20.3999996
+  },
+  {
+    "city": "Iceland",
+    "country": "Solheimar",
+    "latitude": 64.0805297,
+    "longitude": -20.6448555
+  },
+  {
+    "city": "Iceland",
+    "country": "Laugarvatn",
+    "latitude": 64.2166667,
+    "longitude": -20.7333336
+  },
+  {
+    "city": "Iceland",
+    "country": "Hvammstangi",
+    "latitude": 65.4,
+    "longitude": -20.9500008
+  },
+  {
+    "city": "Iceland",
+    "country": "Selfoss",
+    "latitude": 63.9333333,
+    "longitude": -21
+  },
+  {
+    "city": "Iceland",
+    "country": "Stokkseyri",
+    "latitude": 63.8333333,
+    "longitude": -21.0666676
+  },
+  {
+    "city": "Iceland",
+    "country": "Bordeyri",
+    "latitude": 65.2,
+    "longitude": -21.1000004
+  },
+  {
+    "city": "Iceland",
+    "country": "Eyrarbakki",
+    "latitude": 63.8666667,
+    "longitude": -21.1499996
+  },
+  {
+    "city": "Iceland",
+    "country": "Hveragerdi",
+    "latitude": 64,
+    "longitude": -21.2000008
+  },
+  {
+    "city": "Iceland",
+    "country": "Reykholt",
+    "latitude": 64.6666667,
+    "longitude": -21.2999992
+  },
+  {
+    "city": "Iceland",
+    "country": "Torlakshofn",
+    "latitude": 63.85,
+    "longitude": -21.3666668
+  },
+  {
+    "city": "Iceland",
+    "country": "Drangsnes",
+    "latitude": 65.6833333,
+    "longitude": -21.4500008
+  },
+  {
+    "city": "Iceland",
+    "country": "Holmavik",
+    "latitude": 65.7166667,
+    "longitude": -21.6833324
+  },
+  {
+    "city": "Iceland",
+    "country": "Budardalur",
+    "latitude": 65.1166667,
+    "longitude": -21.7666664
+  },
+  {
+    "city": "Iceland",
+    "country": "Hvanneyri",
+    "latitude": 64.5666667,
+    "longitude": -21.7666664
+  },
+  {
+    "city": "Iceland",
+    "country": "Borgarnes",
+    "latitude": 64.5333333,
+    "longitude": -21.916666
+  },
+  {
+    "city": "Iceland",
+    "country": "Kopavogur",
+    "latitude": 64.1,
+    "longitude": -21.916666
+  },
+  {
+    "city": "Iceland",
+    "country": "Reykjavik",
+    "latitude": 64.15,
+    "longitude": -21.9500008
+  },
+  {
+    "city": "Iceland",
+    "country": "Hafnarfjordur",
+    "latitude": 64.0666667,
+    "longitude": -21.9500008
+  },
+  {
+    "city": "Iceland",
+    "country": "Gardabar",
+    "latitude": 64.0833333,
+    "longitude": -21.9833336
+  },
+  {
+    "city": "Iceland",
+    "country": "Akranes",
+    "latitude": 64.3166667,
+    "longitude": -22.1000004
+  },
+  {
+    "city": "Iceland",
+    "country": "Reykholar",
+    "latitude": 65.45,
+    "longitude": -22.2000008
+  },
+  {
+    "city": "Iceland",
+    "country": "Vogar",
+    "latitude": 63.9666667,
+    "longitude": -22.3666668
+  },
+  {
+    "city": "Iceland",
+    "country": "Grindavik",
+    "latitude": 63.8333333,
+    "longitude": -22.4333324
+  },
+  {
+    "city": "Iceland",
+    "country": "Njardvik",
+    "latitude": 63.9666667,
+    "longitude": -22.5166664
+  },
+  {
+    "city": "Iceland",
+    "country": "Keflavik",
+    "latitude": 64.0166667,
+    "longitude": -22.5666676
+  },
+  {
+    "city": "Iceland",
+    "country": "Hafnir",
+    "latitude": 63.9333333,
+    "longitude": -22.6833324
+  },
+  {
+    "city": "Iceland",
+    "country": "Sandgerdi",
+    "latitude": 64.05,
+    "longitude": -22.7000008
+  },
+  {
+    "city": "Iceland",
+    "country": "Stykkisholmur",
+    "latitude": 65.0666667,
+    "longitude": -22.7333336
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Santa Maria",
+    "latitude": 16.6,
+    "longitude": -22.8999996
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Sal Rei",
+    "latitude": 16.1833333,
+    "longitude": -22.916666
+  },
+  {
+    "city": "Iceland",
+    "country": "Sudavik",
+    "latitude": 66.0333333,
+    "longitude": -23
+  },
+  {
+    "city": "Iceland",
+    "country": "Hnifsdalur",
+    "latitude": 66.1166667,
+    "longitude": -23.1333332
+  },
+  {
+    "city": "Iceland",
+    "country": "Isafjordur",
+    "latitude": 66.0833333,
+    "longitude": -23.1499996
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Vila do Maio",
+    "latitude": 15.1333333,
+    "longitude": -23.2166672
+  },
+  {
+    "city": "Iceland",
+    "country": "Bolungarvik",
+    "latitude": 66.15,
+    "longitude": -23.25
+  },
+  {
+    "city": "Iceland",
+    "country": "Tingeyri",
+    "latitude": 65.8666667,
+    "longitude": -23.5
+  },
+  {
+    "city": "Iceland",
+    "country": "Flateyri",
+    "latitude": 66.05,
+    "longitude": -23.5166664
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Praia",
+    "latitude": 14.9166667,
+    "longitude": -23.5166664
+  },
+  {
+    "city": "Iceland",
+    "country": "Sudureyri",
+    "latitude": 66.1166667,
+    "longitude": -23.5333328
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Santa Cruz",
+    "latitude": 15.1333333,
+    "longitude": -23.5666676
+  },
+  {
+    "city": "Iceland",
+    "country": "Bildudalur",
+    "latitude": 65.6833333,
+    "longitude": -23.6000004
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Assomada",
+    "latitude": 15.1,
+    "longitude": -23.6833324
+  },
+  {
+    "city": "Iceland",
+    "country": "Olafsvik",
+    "latitude": 64.8833333,
+    "longitude": -23.7166672
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Tarrafal",
+    "latitude": 15.2833333,
+    "longitude": -23.7666664
+  },
+  {
+    "city": "Iceland",
+    "country": "Hellissandur",
+    "latitude": 64.9166667,
+    "longitude": -23.8999996
+  },
+  {
+    "city": "Iceland",
+    "country": "Patreksfjordur",
+    "latitude": 65.5833333,
+    "longitude": -24
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Vila da Ribeira Brava",
+    "latitude": 16.6166667,
+    "longitude": -24.2999992
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Porto dos Mosteiros",
+    "latitude": 15.0333333,
+    "longitude": -24.333334
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Sao Filipe",
+    "latitude": 14.9,
+    "longitude": -24.5166664
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Mindelo",
+    "latitude": 16.8833333,
+    "longitude": -25
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Pombas",
+    "latitude": 17.15,
+    "longitude": -25.0166664
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Porto Novo",
+    "latitude": 17.0196919,
+    "longitude": -25.0647068
+  },
+  {
+    "city": "Cape Verde",
+    "country": "Ponta do Sol",
+    "latitude": 17.2,
+    "longitude": -25.1000004
+  },
+  {
+    "city": "Portugal",
+    "country": "Ponta Delgada",
+    "latitude": 37.7333333,
+    "longitude": -25.666666
+  },
+  {
+    "city": "Brazil",
+    "country": "Olinda",
+    "latitude": -8.0088889,
+    "longitude": -34.855278
+  },
+  {
+    "city": "Brazil",
+    "country": "Joao Pessoa",
+    "latitude": -7.115,
+    "longitude": -34.8630562
+  },
+  {
+    "city": "Brazil",
+    "country": "Paulista",
+    "latitude": -7.9408333,
+    "longitude": -34.8730545
+  },
+  {
+    "city": "Brazil",
+    "country": "Recife",
+    "latitude": -8.0538889,
+    "longitude": -34.8811111
+  },
+  {
+    "city": "Brazil",
+    "country": "Jaboatao",
+    "latitude": -8.1802778,
+    "longitude": -35.0013885
+  },
+  {
+    "city": "Brazil",
+    "country": "Jaboatao dos Guararapes",
+    "latitude": -8.1127778,
+    "longitude": -35.0147209
+  },
+  {
+    "city": "Brazil",
+    "country": "Natal",
+    "latitude": -5.795,
+    "longitude": -35.209446
+  },
+  {
+    "city": "Brazil",
+    "country": "Maceio",
+    "latitude": -9.6658333,
+    "longitude": -35.7352791
+  },
+  {
+    "city": "Brazil",
+    "country": "Campina Grande",
+    "latitude": -7.2305556,
+    "longitude": -35.8811111
+  },
+  {
+    "city": "Brazil",
+    "country": "Caruaru",
+    "latitude": -8.2833333,
+    "longitude": -35.9761124
+  },
+  {
+    "city": "Brazil",
+    "country": "Aracaju",
+    "latitude": -10.9111111,
+    "longitude": -37.0716667
+  },
+  {
+    "city": "Brazil",
+    "country": "Salvador",
+    "latitude": -12.9711111,
+    "longitude": -38.5108337
+  },
+  {
+    "city": "Brazil",
+    "country": "Fortaleza",
+    "latitude": -3.7172222,
+    "longitude": -38.5430565
+  },
+  {
+    "city": "Brazil",
+    "country": "Caucaia",
+    "latitude": -3.7361111,
+    "longitude": -38.6530571
+  },
+  {
+    "city": "Brazil",
+    "country": "Feira de Santana",
+    "latitude": -12.2666667,
+    "longitude": -38.9666672
+  },
+  {
+    "city": "Brazil",
+    "country": "Juazeiro do Norte",
+    "latitude": -7.2130556,
+    "longitude": -39.3152771
+  },
+  {
+    "city": "Brazil",
+    "country": "Vila Velha",
+    "latitude": -20.3297222,
+    "longitude": -40.2924995
+  },
+  {
+    "city": "Brazil",
+    "country": "Serra",
+    "latitude": -20.1286111,
+    "longitude": -40.3077774
+  },
+  {
+    "city": "Brazil",
+    "country": "Vitoria",
+    "latitude": -20.3194444,
+    "longitude": -40.3377762
+  },
+  {
+    "city": "Brazil",
+    "country": "Vitoria da Conquista",
+    "latitude": -14.8661111,
+    "longitude": -40.8394432
+  },
+  {
+    "city": "Brazil",
+    "country": "Campos",
+    "latitude": -21.75,
+    "longitude": -41.2999992
+  },
+  {
+    "city": "Brazil",
+    "country": "Governador Valadares",
+    "latitude": -18.8511111,
+    "longitude": -41.9494438
   }
 ]
