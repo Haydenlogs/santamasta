@@ -48004,5 +48004,539 @@
     "country": "Tan-Tan",
     "latitude": 28.43,
     "longitude": -11.1000004
+  },
+  {
+    "city": "Liberia",
+    "country": "Robertsport",
+    "latitude": 6.7533333,
+    "longitude": -11.3686113
+  },
+  {
+    "city": "Malta",
+    "country": "Kayes Ndi",
+    "latitude": 14.4666667,
+    "longitude": -11.4333334
+  },
+  {
+    "city": "Senegal",
+    "country": "Kedougou",
+    "latitude": 12.55,
+    "longitude": -12.1833334
+  },
+  {
+    "city": "Mauritania",
+    "country": "Barkewol",
+    "latitude": 16.6403889,
+    "longitude": -12.4984932
+  },
+  {
+    "city": "Senegal",
+    "country": "Diawara",
+    "latitude": 15.0333333,
+    "longitude": -12.5500002
+  },
+  {
+    "city": "Senegal",
+    "country": "Ouaounde",
+    "latitude": 15.2666667,
+    "longitude": -12.8666668
+  },
+  {
+    "city": "Senegal",
+    "country": "Semme",
+    "latitude": 15.2,
+    "longitude": -12.9499998
+  },
+  {
+    "city": "Senegal",
+    "country": "Polel Diaoube-http://polel-diaoube.info",
+    "latitude": 15.2666667,
+    "longitude": -13
+  },
+  {
+    "city": "Senegal",
+    "country": "Kanel",
+    "latitude": 15.4833333,
+    "longitude": -13.166667
+  },
+  {
+    "city": "Senegal",
+    "country": "Ouro Sogui",
+    "latitude": 15.6,
+    "longitude": -13.3166666
+  },
+  {
+    "city": "Iceland",
+    "country": "Neskaupstadur",
+    "latitude": 65.15,
+    "longitude": -13.6999998
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sun Kunda",
+    "latitude": 13.3833333,
+    "longitude": -13.8500004
+  },
+  {
+    "city": "Gambia",
+    "country": " The Koina",
+    "latitude": 13.4833333,
+    "longitude": -13.8666668
+  },
+  {
+    "city": "Gambia",
+    "country": " The Nyamanari",
+    "latitude": 13.3333333,
+    "longitude": -13.8666668
+  },
+  {
+    "city": "Iceland",
+    "country": "Stodvarfjordur",
+    "latitude": 64.835,
+    "longitude": -13.876667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Brifu",
+    "latitude": 13.5,
+    "longitude": -13.9333334
+  },
+  {
+    "city": "Gambia",
+    "country": " The Diabugu Basilla",
+    "latitude": 13.3333333,
+    "longitude": -13.9499998
+  },
+  {
+    "city": "Senegal",
+    "country": "Ranerou",
+    "latitude": 15.3,
+    "longitude": -13.9666672
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sudowol",
+    "latitude": 13.3666667,
+    "longitude": -13.9666672
+  },
+  {
+    "city": "Iceland",
+    "country": "Seydisfjordur",
+    "latitude": 65.2666667,
+    "longitude": -14
+  },
+  {
+    "city": "Iceland",
+    "country": "Breiddalsvik",
+    "latitude": 64.8,
+    "longitude": -14
+  },
+  {
+    "city": "Iceland",
+    "country": "Eskifjordur",
+    "latitude": 65.0666667,
+    "longitude": -14.0166664
+  },
+  {
+    "city": "Iceland",
+    "country": "Faskrudsfjordur",
+    "latitude": 64.9333333,
+    "longitude": -14.0166664
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sutukoba",
+    "latitude": 13.5,
+    "longitude": -14.0166664
+  },
+  {
+    "city": "Gambia",
+    "country": " The Perai",
+    "latitude": 13.3833333,
+    "longitude": -14.0333328
+  },
+  {
+    "city": "Gambia",
+    "country": " The Banto Nding",
+    "latitude": 13.4666667,
+    "longitude": -14.083333
+  },
+  {
+    "city": "Senegal",
+    "country": "Golere",
+    "latitude": 16.25,
+    "longitude": -14.1000004
+  },
+  {
+    "city": "Gambia",
+    "country": " The Gunjur Kuta",
+    "latitude": 13.5333333,
+    "longitude": -14.1166668
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sanunding",
+    "latitude": 13.2833333,
+    "longitude": -14.1166668
+  },
+  {
+    "city": "Senegal",
+    "country": "Velingara",
+    "latitude": 13.15,
+    "longitude": -14.1166668
+  },
+  {
+    "city": "Gambia",
+    "country": " The Kumbija",
+    "latitude": 13.2666667,
+    "longitude": -14.1833334
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sabi",
+    "latitude": 13.2333333,
+    "longitude": -14.1999998
+  },
+  {
+    "city": "Iceland",
+    "country": "Reydarfjordur",
+    "latitude": 65.0333333,
+    "longitude": -14.2166672
+  },
+  {
+    "city": "Gambia",
+    "country": " The Basse Santa Su",
+    "latitude": 13.3166667,
+    "longitude": -14.2166672
+  },
+  {
+    "city": "Gambia",
+    "country": " The Tuba-Wuli",
+    "latitude": 13.4333333,
+    "longitude": -14.25
+  },
+  {
+    "city": "Gambia",
+    "country": " The Demba Kunda",
+    "latitude": 13.25,
+    "longitude": -14.2666664
+  },
+  {
+    "city": "Iceland",
+    "country": "Djupivogur",
+    "latitude": 64.65,
+    "longitude": -14.2833328
+  },
+  {
+    "city": "Gambia",
+    "country": " The Daba Kunda",
+    "latitude": 13.3166667,
+    "longitude": -14.3000002
+  },
+  {
+    "city": "Gambia",
+    "country": " The Gambissara",
+    "latitude": 13.2333333,
+    "longitude": -14.3166666
+  },
+  {
+    "city": "Iceland",
+    "country": "Eidar",
+    "latitude": 65.3666667,
+    "longitude": -14.3500004
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bakadagy",
+    "latitude": 13.3,
+    "longitude": -14.3833332
+  },
+  {
+    "city": "Iceland",
+    "country": "Egilsstadir",
+    "latitude": 65.265327,
+    "longitude": -14.3948364
+  },
+  {
+    "city": "Gambia",
+    "country": " The Diabugu",
+    "latitude": 13.3833333,
+    "longitude": -14.3999996
+  },
+  {
+    "city": "Gambia",
+    "country": " The Cha Kunda",
+    "latitude": 13.3833333,
+    "longitude": -14.5333328
+  },
+  {
+    "city": "Gambia",
+    "country": " The Dobbo",
+    "latitude": 13.4666667,
+    "longitude": -14.6333332
+  },
+  {
+    "city": "Senegal",
+    "country": "Ndioum",
+    "latitude": 16.5166667,
+    "longitude": -14.6499996
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bansang",
+    "latitude": 13.4333333,
+    "longitude": -14.6499996
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bantanto",
+    "latitude": 13.4166667,
+    "longitude": -14.6499996
+  },
+  {
+    "city": "Gambia",
+    "country": " The Kunting",
+    "latitude": 13.5333333,
+    "longitude": -14.666667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sulolor",
+    "latitude": 13.45,
+    "longitude": -14.666667
+  },
+  {
+    "city": "Iceland",
+    "country": "Hallormsstadur",
+    "latitude": 65.1,
+    "longitude": -14.75
+  },
+  {
+    "city": "Gambia",
+    "country": " The Madina Tunjang",
+    "latitude": 13.4333333,
+    "longitude": -14.75
+  },
+  {
+    "city": "Gambia",
+    "country": " The Georgetown",
+    "latitude": 13.5333333,
+    "longitude": -14.7666664
+  },
+  {
+    "city": "Gambia",
+    "country": " The Galleh Manda",
+    "latitude": 13.4333333,
+    "longitude": -14.7833328
+  },
+  {
+    "city": "Iceland",
+    "country": "Bakkafjordur",
+    "latitude": 66.0333333,
+    "longitude": -14.8000002
+  },
+  {
+    "city": "Senegal",
+    "country": "Koungheul",
+    "latitude": 13.9833333,
+    "longitude": -14.8000002
+  },
+  {
+    "city": "Iceland",
+    "country": "Vopnafjordur",
+    "latitude": 65.75,
+    "longitude": -14.833333
+  },
+  {
+    "city": "Gambia",
+    "country": " The Madina",
+    "latitude": 13.7,
+    "longitude": -14.8833332
+  },
+  {
+    "city": "Gambia",
+    "country": " The Wassu",
+    "latitude": 13.6833333,
+    "longitude": -14.8833332
+  },
+  {
+    "city": "Gambia",
+    "country": " The Kuntaur",
+    "latitude": 13.6666667,
+    "longitude": -14.8833332
+  },
+  {
+    "city": "Gambia",
+    "country": " The Jakaba",
+    "latitude": 13.65,
+    "longitude": -14.8833332
+  },
+  {
+    "city": "Gambia",
+    "country": " The Tuba Koto",
+    "latitude": 13.6333333,
+    "longitude": -14.8999996
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sukuta",
+    "latitude": 13.6166667,
+    "longitude": -14.916667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Saruja",
+    "latitude": 13.55,
+    "longitude": -14.916667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Mara Magai",
+    "latitude": 13.5166667,
+    "longitude": -14.916667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Kass Wollof",
+    "latitude": 13.7833333,
+    "longitude": -14.9333334
+  },
+  {
+    "city": "Gambia",
+    "country": " The Brikama Nding",
+    "latitude": 13.5333333,
+    "longitude": -14.9333334
+  },
+  {
+    "city": "Gambia",
+    "country": " The Denton",
+    "latitude": 13.5,
+    "longitude": -14.9333334
+  },
+  {
+    "city": "Senegal",
+    "country": "Kolda",
+    "latitude": 12.8833333,
+    "longitude": -14.9499998
+  },
+  {
+    "city": "Gambia",
+    "country": " The Jakhaly",
+    "latitude": 13.55,
+    "longitude": -14.9666672
+  },
+  {
+    "city": "Gambia",
+    "country": " The Fass",
+    "latitude": 13.8,
+    "longitude": -15.0666666
+  },
+  {
+    "city": "Gambia",
+    "country": " The Pateh Sam",
+    "latitude": 13.6166667,
+    "longitude": -15.0666666
+  },
+  {
+    "city": "Gambia",
+    "country": " The Jarreng",
+    "latitude": 13.6166667,
+    "longitude": -15.1833334
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bati Ndar",
+    "latitude": 13.7,
+    "longitude": -15.1999998
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sami",
+    "latitude": 13.5833333,
+    "longitude": -15.1999998
+  },
+  {
+    "city": "Iceland",
+    "country": "Hofn",
+    "latitude": 64.25,
+    "longitude": -15.2166672
+  },
+  {
+    "city": "Gambia",
+    "country": " The Baro Kunda",
+    "latitude": 13.4833333,
+    "longitude": -15.2666664
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sutukung",
+    "latitude": 13.4666667,
+    "longitude": -15.2666664
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bureng",
+    "latitude": 13.4166667,
+    "longitude": -15.2833328
+  },
+  {
+    "city": "Gambia",
+    "country": " The Dankunku",
+    "latitude": 13.5666667,
+    "longitude": -15.3166666
+  },
+  {
+    "city": "Gambia",
+    "country": " The Jassong",
+    "latitude": 13.4,
+    "longitude": -15.3166666
+  },
+  {
+    "city": "Iceland",
+    "country": "Torshofn",
+    "latitude": 66.2,
+    "longitude": -15.333333
+  },
+  {
+    "city": "Gambia",
+    "country": " The Buniadu",
+    "latitude": 13.55,
+    "longitude": -15.333333
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sambang",
+    "latitude": 13.5333333,
+    "longitude": -15.333333
+  },
+  {
+    "city": "Gambia",
+    "country": " The Bambali",
+    "latitude": 13.4833333,
+    "longitude": -15.333333
+  },
+  {
+    "city": "Gambia",
+    "country": " The Wellingara Ba",
+    "latitude": 13.4166667,
+    "longitude": -15.3999996
+  },
+  {
+    "city": "Spain",
+    "country": "Las Palmas de Gran Canaria",
+    "latitude": 28.1,
+    "longitude": -15.416667
+  },
+  {
+    "city": "Spain",
+    "country": "Telde",
+    "latitude": 28,
+    "longitude": -15.416667
+  },
+  {
+    "city": "Gambia",
+    "country": " The Sara Kunda",
+    "latitude": 13.5333333,
+    "longitude": -15.416667
   }
 ]
