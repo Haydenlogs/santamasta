@@ -59140,5 +59140,539 @@
     "country": "Siuna",
     "latitude": 13.7333333,
     "longitude": -84.7666702
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Carlos",
+    "latitude": 11.1166667,
+    "longitude": -84.7833328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Chacarita",
+    "latitude": 9.9833333,
+    "longitude": -84.7833328
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Puntarenas",
+    "latitude": 9.9762473,
+    "longitude": -84.838356
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Miguelito",
+    "latitude": 11.4,
+    "longitude": -84.9000015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Juntas",
+    "latitude": 10.2833333,
+    "longitude": -84.9499969
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Tilaran",
+    "latitude": 10.4666667,
+    "longitude": -84.9666672
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Villa Sandino",
+    "latitude": 12.05,
+    "longitude": -84.9833298
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Upala",
+    "latitude": 10.9,
+    "longitude": -85.0333328
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Santo Domingo",
+    "latitude": 12.2666667,
+    "longitude": -85.0833359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Santo Tomas",
+    "latitude": 12.0666667,
+    "longitude": -85.0833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Canas",
+    "latitude": 10.4333333,
+    "longitude": -85.0999985
+  },
+  {
+    "city": "United States",
+    "country": "Fort Wayne",
+    "latitude": 41.1306041,
+    "longitude": -85.1288605
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Bocana de Paiwas",
+    "latitude": 12.8,
+    "longitude": -85.1333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "San Jose",
+    "latitude": 10.9666667,
+    "longitude": -85.1333313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "La Libertad",
+    "latitude": 12.2166667,
+    "longitude": -85.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Acoyapa",
+    "latitude": 11.9666667,
+    "longitude": -85.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Rio Blanco",
+    "latitude": 12.9333333,
+    "longitude": -85.2166672
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Bagaces",
+    "latitude": 10.5333333,
+    "longitude": -85.25
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Ayote",
+    "latitude": 12.1833333,
+    "longitude": -85.2833328
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Waslala",
+    "latitude": 13.2333333,
+    "longitude": -85.3833313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Cuapa",
+    "latitude": 12.2666667,
+    "longitude": -85.3833313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Juigalpa",
+    "latitude": 12.0833333,
+    "longitude": -85.4000015
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Liberia",
+    "latitude": 10.6333333,
+    "longitude": -85.4333344
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Nicoya",
+    "latitude": 10.15,
+    "longitude": -85.4499969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Matiguas",
+    "latitude": 12.8333333,
+    "longitude": -85.4666672
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Camoapa",
+    "latitude": 12.3833333,
+    "longitude": -85.5166702
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Jose de Bocay",
+    "latitude": 13.5333333,
+    "longitude": -85.5333328
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Altagracia",
+    "latitude": 11.5666667,
+    "longitude": -85.5833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Santa Cruz",
+    "latitude": 10.2666667,
+    "longitude": -85.5833359
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Belen",
+    "latitude": 10.4,
+    "longitude": -85.5999985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Muy Muy",
+    "latitude": 12.7666667,
+    "longitude": -85.6333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "La Cruz",
+    "latitude": 11.0666667,
+    "longitude": -85.6333313
+  },
+  {
+    "city": "Costa Rica",
+    "country": "Sardinal",
+    "latitude": 10.5166667,
+    "longitude": -85.6500015
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Boaco",
+    "latitude": 12.4666667,
+    "longitude": -85.6666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Lorenzo",
+    "latitude": 12.3833333,
+    "longitude": -85.6666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Moyogalpa",
+    "latitude": 11.5333333,
+    "longitude": -85.6999969
+  },
+  {
+    "city": "Honduras",
+    "country": "Bonito Oriental",
+    "latitude": 15.7333333,
+    "longitude": -85.7333298
+  },
+  {
+    "city": "Honduras",
+    "country": "San Esteban",
+    "latitude": 15.2,
+    "longitude": -85.75
+  },
+  {
+    "city": "United States",
+    "country": "Louisville",
+    "latitude": 38.2542376,
+    "longitude": -85.759407
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Teustepe",
+    "latitude": 12.4166667,
+    "longitude": -85.8000031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Jorge",
+    "latitude": 11.45,
+    "longitude": -85.8000031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Wiwili",
+    "latitude": 13.6166667,
+    "longitude": -85.8333359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Ramon",
+    "latitude": 12.9166667,
+    "longitude": -85.8333359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Rivas",
+    "latitude": 11.4333333,
+    "longitude": -85.8333359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Dionisio",
+    "latitude": 12.75,
+    "longitude": -85.8499985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Juan del Sur",
+    "latitude": 11.25,
+    "longitude": -85.8666687
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Belen",
+    "latitude": 11.5,
+    "longitude": -85.8833313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Potosi",
+    "latitude": 11.5,
+    "longitude": -85.8833313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Matagalpa",
+    "latitude": 12.9166667,
+    "longitude": -85.9166641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Tola",
+    "latitude": 11.4333333,
+    "longitude": -85.9333344
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Maria del Real",
+    "latitude": 14.7666667,
+    "longitude": -85.9499969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Granada",
+    "latitude": 11.9333333,
+    "longitude": -85.9499969
+  },
+  {
+    "city": "Honduras",
+    "country": "Las Trojes",
+    "latitude": 14.0666667,
+    "longitude": -85.9833298
+  },
+  {
+    "city": "Honduras",
+    "country": "Trujillo",
+    "latitude": 15.9166667,
+    "longitude": -86
+  },
+  {
+    "city": "Honduras",
+    "country": "Tocoa",
+    "latitude": 15.6833333,
+    "longitude": -86
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Jinotega",
+    "latitude": 13.1,
+    "longitude": -86
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Tisma",
+    "latitude": 12.0838889,
+    "longitude": -86.0175018
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Quilali",
+    "latitude": 13.5666667,
+    "longitude": -86.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "Gualaco",
+    "latitude": 15.05,
+    "longitude": -86.0500031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Diria",
+    "latitude": 11.8833333,
+    "longitude": -86.0500031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Diriomo",
+    "latitude": 11.8666667,
+    "longitude": -86.0500031
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Nandaime",
+    "latitude": 11.75,
+    "longitude": -86.0500031
+  },
+  {
+    "city": "Honduras",
+    "country": "Jutiquile",
+    "latitude": 14.7166667,
+    "longitude": -86.0833359
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Tipitapa",
+    "latitude": 12.2005556,
+    "longitude": -86.0938873
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Masaya",
+    "latitude": 11.9666667,
+    "longitude": -86.0999985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Niquinohomo",
+    "latitude": 11.9,
+    "longitude": -86.0999985
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Rafael del Norte",
+    "latitude": 13.2166667,
+    "longitude": -86.1166687
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Nandasmo",
+    "latitude": 11.9333333,
+    "longitude": -86.1166687
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Nindiri",
+    "latitude": 12.0047222,
+    "longitude": -86.1194458
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Ciudad Dario",
+    "latitude": 12.7305556,
+    "longitude": -86.125
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Jalapa",
+    "latitude": 13.9166667,
+    "longitude": -86.1333313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "La Paz de Oriente",
+    "latitude": 11.8166667,
+    "longitude": -86.1333313
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Masatepe",
+    "latitude": 11.9166667,
+    "longitude": -86.1500015
+  },
+  {
+    "city": "United States",
+    "country": "Indianapolis",
+    "latitude": 39.7683765,
+    "longitude": -86.1580429
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Juan de Rio Coco",
+    "latitude": 13.55,
+    "longitude": -86.1666641
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Sebastian de Yali",
+    "latitude": 13.3,
+    "longitude": -86.1833344
+  },
+  {
+    "city": "Nicaragua",
+    "country": "La Concepcion",
+    "latitude": 11.9333333,
+    "longitude": -86.1833344
+  },
+  {
+    "city": "Honduras",
+    "country": "San Francisco de la Paz",
+    "latitude": 14.9,
+    "longitude": -86.1999969
+  },
+  {
+    "city": "Honduras",
+    "country": "Juticalpa",
+    "latitude": 14.65,
+    "longitude": -86.1999969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Marcos",
+    "latitude": 11.9166667,
+    "longitude": -86.1999969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Jinotepe",
+    "latitude": 11.85,
+    "longitude": -86.1999969
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Ticuantepe",
+    "latitude": 12.0233333,
+    "longitude": -86.2005539
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Dolores",
+    "latitude": 11.85,
+    "longitude": -86.2166672
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Santa Teresa",
+    "latitude": 11.7333333,
+    "longitude": -86.2166672
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Diriamba",
+    "latitude": 11.85,
+    "longitude": -86.2333298
+  },
+  {
+    "city": "Honduras",
+    "country": "Saba",
+    "latitude": 15.4666667,
+    "longitude": -86.25
+  },
+  {
+    "city": "Nicaragua",
+    "country": "Managua",
+    "latitude": 12.1508333,
+    "longitude": -86.2683334
+  },
+  {
+    "city": "Nicaragua",
+    "country": "San Fernando",
+    "latitude": 13.6833333,
+    "longitude": -86.3166656
+  },
+  {
+    "city": "Nicaragua",
+    "country": "El Crucero",
+    "latitude": 11.9833333,
+    "longitude": -86.3166656
   }
 ]
