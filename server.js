@@ -14,6 +14,7 @@ let lastCity;
 let startTime;
 const intervalInSeconds = 8.11;
 let trackerInterval;
+const countdownDate = new Date("2024-03-31T00:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
     "/restarttracker": (13 * 60 * 60 * 1000) + (31 * 60 * 1000), // 1:27:00 PM
@@ -26,7 +27,7 @@ const taskIntervals = {
     "/starttracker": (13 * 60 * 60 * 1000) + (27 * 60 * 1000) // 1:27:00 PM
 };
 
-const countdownDate = new Date("2024-03-31T00:00:00Z");
+
 
 // Endpoint to set the countdown date
 app.post("/setcountdowndate", (req, res) => {
@@ -48,6 +49,11 @@ function isValidDate(dateString) {
   const datePattern = /^\d{4}-\d{2}-\d{2}$/;
   return dateString.match(datePattern);
 }
+function isSameMonthAsCountdown(date) {
+    const countdownDate = new Date("2024-03-31T00:00:00Z");
+    return date.getMonth() === countdownDate.getMonth();
+}
+
 
 // Endpoint to get the countdown date
 app.get("/getcountdowndate", (req, res) => {
@@ -558,6 +564,7 @@ app.get("/", (req, res) => {
     req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
   const visitData = { ip, time, country };
+const currentDate = new Date(); // Assuming this is the current date
 
   // Log the visit data to SiteVisits.json
   fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
@@ -570,7 +577,12 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
   } else {
     if (trackerStarted === false) {
-      res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
+      if (isSameMonthAsCountdown(currentDate) === true){
+        res.sendFile(path.join(__dirname, "src", "pages", "games.html"));
+      } else {
+        res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
+      }
+      
     } else {
       // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
       if (!isTrackerStarted) {
