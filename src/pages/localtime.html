@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Tracker</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.29.1/moment.min.js"></script>
+</head>
+<body>
+    <div id="liveTime" style="font-size: 24px;"></div>
+
+    <script>
+        const eventSource = new EventSource('/updates');
+
+        eventSource.onmessage = function(event) {
+            const data = JSON.parse(event.data.replace(/^data: /, ''));
+            const currentCity = data.currentCity;
+            if (currentCity) {
+                const { city, latitude, longitude, timezoneOffset } = currentCity;
+                const utcOffset = timezoneOffset / 60; // Convert seconds to minutes
+                const localTime = moment().utcOffset(utcOffset).format('YYYY-MM-DD h:mm:ss A');
+                document.getElementById('liveTime').innerText = `${city}: ${localTime}`;
+            }
+        };
+
+        eventSource.onerror = function(error) {
+            console.error('EventSource failed:', error);
+            eventSource.close();
+        };
+    </script>
+</body>
+</html>

@@ -692,7 +692,11 @@ app.get("/ended.html", (req, res) => {
 });// Endpoint to get the current message
 app.get("/en-us/embed/index.html", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
-});// Endpoint to get the current message
+});
+app.get("/localtime", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "pages", "localtime.html"));
+});
+// Endpoint to get the current message
 app.get("/getmessage", (req, res) => {
   // Read the contents of the message.txt file
   fs.readFile("message.txt", "utf8", (err, data) => {
@@ -709,7 +713,7 @@ app.get("/getmessage", (req, res) => {
 
 app.use((req, res, next) => {
 
-    const excludedPaths = ["/", "/admin", ""];
+    const excludedPaths = ["/", "/admin", "", "/localtime"];
 
     if (!excludedPaths.includes(req.path)) {
 

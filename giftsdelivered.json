@@ -44316,6 +44316,12 @@
     "longitude": 1.3277777
   },
   {
+    "city": "United Kingdom",
+    "country": "Norwich",
+    "latitude": 52.6278273,
+    "longitude": 1.2983394
+  },
+  {
     "city": "Togo",
     "country": "Bafilo",
     "latitude": 9.35,
@@ -44626,5 +44632,227 @@
     "country": "Mostaganem",
     "latitude": 35.9333333,
     "longitude": 0.0902778
+  },
+  {
+    "city": "Ghana",
+    "country": "Yendi",
+    "latitude": 9.4333333,
+    "longitude": -0.0166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Kpandae",
+    "latitude": 8.4666667,
+    "longitude": -0.0166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Kete Krachi",
+    "latitude": 7.8,
+    "longitude": -0.0166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Tema",
+    "latitude": 5.6166667,
+    "longitude": -0.0166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Nungua",
+    "latitude": 5.6,
+    "longitude": -0.0666667
+  },
+  {
+    "city": "Ghana",
+    "country": "Akropong",
+    "latitude": 5.9666667,
+    "longitude": -0.0833333
+  },
+  {
+    "city": "Ghana",
+    "country": "Teshi",
+    "latitude": 5.5833333,
+    "longitude": -0.1
+  },
+  {
+    "city": "United Kingdom",
+    "country": "London",
+    "latitude": 51.5084153,
+    "longitude": -0.1255327
+  },
+  {
+    "city": "Spain",
+    "country": "Benidorm",
+    "latitude": 38.5381628,
+    "longitude": -0.1309776
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Brighton",
+    "latitude": 50.8283849,
+    "longitude": -0.1394749
+  },
+  {
+    "city": "Ghana",
+    "country": "Madina",
+    "latitude": 5.6833333,
+    "longitude": -0.1666667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Crawley",
+    "latitude": 51.1166667,
+    "longitude": -0.1833333
+  },
+  {
+    "city": "Ghana",
+    "country": "Aburi",
+    "latitude": 5.85,
+    "longitude": -0.1833333
+  },
+  {
+    "city": "Algeria",
+    "country": "Sig",
+    "latitude": 35.5277778,
+    "longitude": -0.1952778
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Stevenage",
+    "latitude": 51.9166667,
+    "longitude": -0.2166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Accra",
+    "latitude": 5.55,
+    "longitude": -0.2166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Dom",
+    "latitude": 5.65,
+    "longitude": -0.2333333
+  },
+  {
+    "city": "Ghana",
+    "country": "Bawku",
+    "latitude": 11.0580556,
+    "longitude": -0.2416667
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Peterborough",
+    "latitude": 52.5833333,
+    "longitude": -0.25
+  },
+  {
+    "city": "Ghana",
+    "country": "Koforidua",
+    "latitude": 6.0833333,
+    "longitude": -0.25
+  },
+  {
+    "city": "Ghana",
+    "country": "Gbawe",
+    "latitude": 5.5833333,
+    "longitude": -0.3
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Saint Albans",
+    "latitude": 51.75,
+    "longitude": -0.3333333
+  },
+  {
+    "city": "Ghana",
+    "country": "Achiaman",
+    "latitude": 5.7,
+    "longitude": -0.3333333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Kingston upon Hull",
+    "latitude": 53.7445995,
+    "longitude": -0.3352547
+  },
+  {
+    "city": "Ghana",
+    "country": "Nsawam",
+    "latitude": 5.8,
+    "longitude": -0.35
+  },
+  {
+    "city": "France",
+    "country": "Pau",
+    "latitude": 43.3,
+    "longitude": -0.3666667
+  },
+  {
+    "city": "France",
+    "country": "Caen",
+    "latitude": 49.1810862,
+    "longitude": -0.3712177
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Worthing",
+    "latitude": 50.8114669,
+    "longitude": -0.3716469
+  },
+  {
+    "city": "Spain",
+    "country": "Valencia",
+    "latitude": 39.4697524,
+    "longitude": -0.3773868
+  },
+  {
+    "city": "Ghana",
+    "country": "Begoro",
+    "latitude": 6.3833333,
+    "longitude": -0.3833333
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Watford",
+    "latitude": 51.6553059,
+    "longitude": -0.3960228
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Luton",
+    "latitude": 51.8833333,
+    "longitude": -0.4166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Oduponkpehe",
+    "latitude": 5.5333333,
+    "longitude": -0.4166667
+  },
+  {
+    "city": "Ghana",
+    "country": "Suhum",
+    "latitude": 6.0333333,
+    "longitude": -0.45
+  },
+  {
+    "city": "Spain",
+    "country": "Torrent",
+    "latitude": 39.4370548,
+    "longitude": -0.4654598
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Bedford",
+    "latitude": 52.1345944,
+    "longitude": -0.4663181
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Hemel Hempstead",
+    "latitude": 51.75,
+    "longitude": -0.4666667
   }
 ]
