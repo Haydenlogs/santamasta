@@ -60202,5 +60202,545 @@
     "country": "Choloma",
     "latitude": 15.6144401,
     "longitude": -87.9530258
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Alejo",
+    "latitude": 13.4313889,
+    "longitude": -87.9630585
+  },
+  {
+    "city": "Honduras",
+    "country": "Potrerillos",
+    "latitude": 15.2333333,
+    "longitude": -87.9666672
+  },
+  {
+    "city": "Honduras",
+    "country": "Pimienta Vieja",
+    "latitude": 15.2333333,
+    "longitude": -87.9666672
+  },
+  {
+    "city": "Honduras",
+    "country": "Taulabe",
+    "latitude": 14.7,
+    "longitude": -87.9666672
+  },
+  {
+    "city": "El Salvador",
+    "country": "Corinto",
+    "latitude": 13.8108333,
+    "longitude": -87.9713898
+  },
+  {
+    "city": "Honduras",
+    "country": "Rio Lindo",
+    "latitude": 15.0333333,
+    "longitude": -87.9833298
+  },
+  {
+    "city": "Honduras",
+    "country": "Jesus de Otoro",
+    "latitude": 14.4833333,
+    "longitude": -87.9833298
+  },
+  {
+    "city": "Honduras",
+    "country": "La Jutosa",
+    "latitude": 15.6333333,
+    "longitude": -88
+  },
+  {
+    "city": "Honduras",
+    "country": "Villanueva",
+    "latitude": 15.3166667,
+    "longitude": -88
+  },
+  {
+    "city": "Honduras",
+    "country": "Pueblo Nuevo",
+    "latitude": 15.2833333,
+    "longitude": -88.0166702
+  },
+  {
+    "city": "El Salvador",
+    "country": "Sociedad",
+    "latitude": 13.7,
+    "longitude": -88.0166702
+  },
+  {
+    "city": "El Salvador",
+    "country": "Jocoro",
+    "latitude": 13.6166667,
+    "longitude": -88.0166702
+  },
+  {
+    "city": "Honduras",
+    "country": "Omoa",
+    "latitude": 15.7666667,
+    "longitude": -88.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "San Pedro Sula",
+    "latitude": 15.5,
+    "longitude": -88.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "San Antonio de Cortes",
+    "latitude": 15.1166667,
+    "longitude": -88.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "Marcala",
+    "latitude": 14.15,
+    "longitude": -88.0333328
+  },
+  {
+    "city": "Honduras",
+    "country": "Pena Blanca",
+    "latitude": 15.5333333,
+    "longitude": -88.0500031
+  },
+  {
+    "city": "El Salvador",
+    "country": "Intipuca",
+    "latitude": 13.1969444,
+    "longitude": -88.0544434
+  },
+  {
+    "city": "Honduras",
+    "country": "Las Vegas",
+    "latitude": 14.8666667,
+    "longitude": -88.0666656
+  },
+  {
+    "city": "El Salvador",
+    "country": "Cacaopera",
+    "latitude": 13.7666667,
+    "longitude": -88.0833359
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Francisco",
+    "latitude": 13.7,
+    "longitude": -88.0999985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Chirilagua",
+    "latitude": 13.2202778,
+    "longitude": -88.1386108
+  },
+  {
+    "city": "Honduras",
+    "country": "Cofradia",
+    "latitude": 15.4,
+    "longitude": -88.1500015
+  },
+  {
+    "city": "Honduras",
+    "country": "Intibuca",
+    "latitude": 14.3166667,
+    "longitude": -88.1666641
+  },
+  {
+    "city": "Honduras",
+    "country": "Naco",
+    "latitude": 15.3833333,
+    "longitude": -88.1833344
+  },
+  {
+    "city": "Honduras",
+    "country": "La Esperanza",
+    "latitude": 14.3,
+    "longitude": -88.1833344
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Miquel",
+    "latitude": 13.4833333,
+    "longitude": -88.1833344
+  },
+  {
+    "city": "Belize",
+    "country": "Belize City",
+    "latitude": 17.4995177,
+    "longitude": -88.1975555
+  },
+  {
+    "city": "Honduras",
+    "country": "Cuyamel",
+    "latitude": 15.6666667,
+    "longitude": -88.1999969
+  },
+  {
+    "city": "El Salvador",
+    "country": "Guatajiagua",
+    "latitude": 13.6666667,
+    "longitude": -88.1999969
+  },
+  {
+    "city": "Belize",
+    "country": "Dangriga",
+    "latitude": 16.9666667,
+    "longitude": -88.2166672
+  },
+  {
+    "city": "Honduras",
+    "country": "Trinidad",
+    "latitude": 15.1333333,
+    "longitude": -88.2333298
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Barbara",
+    "latitude": 14.9166667,
+    "longitude": -88.2333298
+  },
+  {
+    "city": "El Salvador",
+    "country": "Jucuaran",
+    "latitude": 13.2538889,
+    "longitude": -88.2477798
+  },
+  {
+    "city": "El Salvador",
+    "country": "Moncagua",
+    "latitude": 13.5333333,
+    "longitude": -88.25
+  },
+  {
+    "city": "El Salvador",
+    "country": "Ciudad Barrios",
+    "latitude": 13.7666667,
+    "longitude": -88.2666702
+  },
+  {
+    "city": "El Salvador",
+    "country": "Chapeltique",
+    "latitude": 13.6333333,
+    "longitude": -88.2666702
+  },
+  {
+    "city": "Mexico",
+    "country": "Chetumal",
+    "latitude": 18.5,
+    "longitude": -88.3000031
+  },
+  {
+    "city": "Honduras",
+    "country": "San Jose de Colinas",
+    "latitude": 15.0333333,
+    "longitude": -88.3000031
+  },
+  {
+    "city": "Honduras",
+    "country": "San Nicolas",
+    "latitude": 14.9333333,
+    "longitude": -88.3166656
+  },
+  {
+    "city": "El Salvador",
+    "country": "Lolotique",
+    "latitude": 13.55,
+    "longitude": -88.3499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Nueva Guadalupe",
+    "latitude": 13.5333333,
+    "longitude": -88.3499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Chinameca",
+    "latitude": 13.5,
+    "longitude": -88.3499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Rafael Oriente",
+    "latitude": 13.3833333,
+    "longitude": -88.3499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "El Transito",
+    "latitude": 13.35,
+    "longitude": -88.3499985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Sesori",
+    "latitude": 13.7166667,
+    "longitude": -88.3666687
+  },
+  {
+    "city": "El Salvador",
+    "country": "Concepcion Batres",
+    "latitude": 13.35,
+    "longitude": -88.3666687
+  },
+  {
+    "city": "Belize",
+    "country": "Corozal",
+    "latitude": 18.3833333,
+    "longitude": -88.3833313
+  },
+  {
+    "city": "Honduras",
+    "country": "San Luis",
+    "latitude": 15.0833333,
+    "longitude": -88.3833313
+  },
+  {
+    "city": "El Salvador",
+    "country": "Jucuapa",
+    "latitude": 13.5166667,
+    "longitude": -88.3833313
+  },
+  {
+    "city": "Honduras",
+    "country": "Pinalejo",
+    "latitude": 15.3833333,
+    "longitude": -88.4000015
+  },
+  {
+    "city": "Honduras",
+    "country": "Quimistan",
+    "latitude": 15.35,
+    "longitude": -88.4000015
+  },
+  {
+    "city": "Honduras",
+    "country": "San Marcos",
+    "latitude": 15.3,
+    "longitude": -88.4166641
+  },
+  {
+    "city": "El Salvador",
+    "country": "Santa Elena",
+    "latitude": 13.3833333,
+    "longitude": -88.4166641
+  },
+  {
+    "city": "El Salvador",
+    "country": "Usulutan",
+    "latitude": 13.35,
+    "longitude": -88.4499969
+  },
+  {
+    "city": "El Salvador",
+    "country": "Santiago de Maria",
+    "latitude": 13.4833333,
+    "longitude": -88.4666672
+  },
+  {
+    "city": "El Salvador",
+    "country": "Ozatlan",
+    "latitude": 13.3833333,
+    "longitude": -88.5
+  },
+  {
+    "city": "El Salvador",
+    "country": "Berlin",
+    "latitude": 13.5,
+    "longitude": -88.5333328
+  },
+  {
+    "city": "Belize",
+    "country": "Orange Walk",
+    "latitude": 18.0666667,
+    "longitude": -88.5500031
+  },
+  {
+    "city": "El Salvador",
+    "country": "Puerto El Triunfo",
+    "latitude": 13.2833333,
+    "longitude": -88.5500031
+  },
+  {
+    "city": "Honduras",
+    "country": "Azacualpa",
+    "latitude": 15.3433333,
+    "longitude": -88.5513916
+  },
+  {
+    "city": "Honduras",
+    "country": "Gracias",
+    "latitude": 14.5833333,
+    "longitude": -88.5833359
+  },
+  {
+    "city": "El Salvador",
+    "country": "Jiquilisco",
+    "latitude": 13.3166667,
+    "longitude": -88.5833359
+  },
+  {
+    "city": "Guatemala",
+    "country": "Puerto Barrios",
+    "latitude": 15.7166667,
+    "longitude": -88.5999985
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Agustin",
+    "latitude": 13.4333333,
+    "longitude": -88.5999985
+  },
+  {
+    "city": "El Salvador",
+    "country": "Victoria",
+    "latitude": 13.95,
+    "longitude": -88.6333313
+  },
+  {
+    "city": "El Salvador",
+    "country": "Sensuntepeque",
+    "latitude": 13.8666667,
+    "longitude": -88.6333313
+  },
+  {
+    "city": "Honduras",
+    "country": "Tras Cerros",
+    "latitude": 15.3,
+    "longitude": -88.6666641
+  },
+  {
+    "city": "Honduras",
+    "country": "Naranjito",
+    "latitude": 14.95,
+    "longitude": -88.6833344
+  },
+  {
+    "city": "Honduras",
+    "country": "La Entrada",
+    "latitude": 15.05,
+    "longitude": -88.7333298
+  },
+  {
+    "city": "Guatemala",
+    "country": "Livingston",
+    "latitude": 15.8333333,
+    "longitude": -88.75
+  },
+  {
+    "city": "Belize",
+    "country": "Belmopan",
+    "latitude": 17.25,
+    "longitude": -88.7666702
+  },
+  {
+    "city": "Honduras",
+    "country": "Santa Rosa de Copan",
+    "latitude": 14.7666667,
+    "longitude": -88.7833328
+  },
+  {
+    "city": "El Salvador",
+    "country": "Apastepeque",
+    "latitude": 13.6666667,
+    "longitude": -88.7833328
+  },
+  {
+    "city": "Belize",
+    "country": "Punta Gorda",
+    "latitude": 16.1,
+    "longitude": -88.8000031
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Vicente",
+    "latitude": 13.6333333,
+    "longitude": -88.8000031
+  },
+  {
+    "city": "Guatemala",
+    "country": "Morales",
+    "latitude": 15.4833333,
+    "longitude": -88.8166656
+  },
+  {
+    "city": "Honduras",
+    "country": "Florida",
+    "latitude": 15.0333333,
+    "longitude": -88.8333359
+  },
+  {
+    "city": "Honduras",
+    "country": "Dulce Nombre",
+    "latitude": 14.85,
+    "longitude": -88.8333359
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Sebastian",
+    "latitude": 13.7333333,
+    "longitude": -88.8333359
+  },
+  {
+    "city": "Belize",
+    "country": "Valley of Peace",
+    "latitude": 17.3347222,
+    "longitude": -88.8347244
+  },
+  {
+    "city": "Honduras",
+    "country": "Corquin",
+    "latitude": 14.5666667,
+    "longitude": -88.8666687
+  },
+  {
+    "city": "El Salvador",
+    "country": "Zacatecoluca",
+    "latitude": 13.5,
+    "longitude": -88.8666687
+  },
+  {
+    "city": "El Salvador",
+    "country": "San Martin",
+    "latitude": 13.7833333,
+    "longitude": -88.9166641
+  },
+  {
+    "city": "El Salvador",
+    "country": "Chalatenango",
+    "latitude": 14.0333333,
+    "longitude": -88.9333344
+  },
+  {
+    "city": "El Salvador",
+    "country": "Cojutepeque",
+    "latitude": 13.7166667,
+    "longitude": -88.9333344
+  },
+  {
+    "city": "Honduras",
+    "country": "San Marcos",
+    "latitude": 14.4,
+    "longitude": -88.9499969
+  },
+  {
+    "city": "El Salvador",
+    "country": "Santiago Nonualco",
+    "latitude": 13.5166667,
+    "longitude": -88.9499969
+  },
+  {
+    "city": "El Salvador",
+    "country": "Tenancingo",
+    "latitude": 13.8333333,
+    "longitude": -88.9833298
+  },
+  {
+    "city": "El Salvador",
+    "country": "Tecoluca",
+    "latitude": 13.7891667,
+    "longitude": -89.0052795
   }
 ]
