@@ -45880,5 +45880,533 @@
     "country": "Guercif",
     "latitude": 34.23,
     "longitude": -3.3599999
+  },
+  {
+    "city": "France",
+    "country": "Lorient",
+    "latitude": 47.75,
+    "longitude": -3.3666668
+  },
+  {
+    "city": "Spain",
+    "country": "Alcala de Henares",
+    "latitude": 40.4833333,
+    "longitude": -3.3666668
+  },
+  {
+    "city": "Spain",
+    "country": "Torrejon de Ardoz",
+    "latitude": 40.45,
+    "longitude": -3.4833333
+  },
+  {
+    "city": "Malta",
+    "country": "Araouane",
+    "latitude": 18.904761,
+    "longitude": -3.5264919
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Exeter",
+    "latitude": 50.7235979,
+    "longitude": -3.5275073
+  },
+  {
+    "city": "Spain",
+    "country": "Coslada",
+    "latitude": 40.4333333,
+    "longitude": -3.5666666
+  },
+  {
+    "city": "Spain",
+    "country": "Granada",
+    "latitude": 37.1881684,
+    "longitude": -3.6066699
+  },
+  {
+    "city": "Malta",
+    "country": "Bandiagara",
+    "latitude": 14.3500468,
+    "longitude": -3.6103821
+  },
+  {
+    "city": "Spain",
+    "country": "Alcobendas",
+    "latitude": 40.5474611,
+    "longitude": -3.6419678
+  },
+  {
+    "city": "Malta",
+    "country": "Goundam",
+    "latitude": 16.4166667,
+    "longitude": -3.6666667
+  },
+  {
+    "city": "Spain",
+    "country": "Burgos",
+    "latitude": 42.35,
+    "longitude": -3.7
+  },
+  {
+    "city": "Spain",
+    "country": "Madrid",
+    "latitude": 40.4165021,
+    "longitude": -3.7025642
+  },
+  {
+    "city": "Spain",
+    "country": "Getafe",
+    "latitude": 40.3057127,
+    "longitude": -3.7329483
+  },
+  {
+    "city": "Spain",
+    "country": "Leganes",
+    "latitude": 40.3271784,
+    "longitude": -3.763504
+  },
+  {
+    "city": "Spain",
+    "country": "Parla",
+    "latitude": 40.2333333,
+    "longitude": -3.7666667
+  },
+  {
+    "city": "Spain",
+    "country": "Jaen",
+    "latitude": 37.7666667,
+    "longitude": -3.7833333
+  },
+  {
+    "city": "Spain",
+    "country": "Fuenlabrada",
+    "latitude": 40.2833333,
+    "longitude": -3.8
+  },
+  {
+    "city": "Spain",
+    "country": "Santander",
+    "latitude": 43.4647222,
+    "longitude": -3.8044443
+  },
+  {
+    "city": "Spain",
+    "country": "Pozuelo de Alarcon",
+    "latitude": 40.4333333,
+    "longitude": -3.8166666
+  },
+  {
+    "city": "Spain",
+    "country": "Alcorcon",
+    "latitude": 40.3458245,
+    "longitude": -3.824873
+  },
+  {
+    "city": "Morocco",
+    "country": "Imzourene",
+    "latitude": 35.15,
+    "longitude": -3.8599999
+  },
+  {
+    "city": "Spain",
+    "country": "Mostoles",
+    "latitude": 40.3223361,
+    "longitude": -3.8649559
+  },
+  {
+    "city": "Spain",
+    "country": "Las Rozas de Madrid",
+    "latitude": 40.492915,
+    "longitude": -3.8737106
+  },
+  {
+    "city": "Spain",
+    "country": "Ciudad Real",
+    "latitude": 38.9833333,
+    "longitude": -3.9333334
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Swansea",
+    "latitude": 51.6207877,
+    "longitude": -3.9432335
+  },
+  {
+    "city": "Morocco",
+    "country": "Tirhanimine",
+    "latitude": 35.23,
+    "longitude": -3.96
+  },
+  {
+    "city": "Malta",
+    "country": "Taoudenni",
+    "latitude": 22.6783333,
+    "longitude": -3.9836111
+  },
+  {
+    "city": "Malta",
+    "country": "Niafounke",
+    "latitude": 15.9333333,
+    "longitude": -4
+  },
+  {
+    "city": "Morocco",
+    "country": "Taza",
+    "latitude": 34.21,
+    "longitude": -4.0100002
+  },
+  {
+    "city": "Spain",
+    "country": "Toledo",
+    "latitude": 39.8581006,
+    "longitude": -4.0226269
+  },
+  {
+    "city": "France",
+    "country": "Quimper",
+    "latitude": 48,
+    "longitude": -4.0999999
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Plymouth",
+    "latitude": 50.3715254,
+    "longitude": -4.1430473
+  },
+  {
+    "city": "Malta",
+    "country": "Mopti",
+    "latitude": 14.4930237,
+    "longitude": -4.1942024
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Glasgow",
+    "latitude": 55.8333333,
+    "longitude": -4.25
+  },
+  {
+    "city": "Morocco",
+    "country": "Tahala",
+    "latitude": 34.05,
+    "longitude": -4.4099998
+  },
+  {
+    "city": "Spain",
+    "country": "Malaga",
+    "latitude": 36.7201559,
+    "longitude": -4.4203448
+  },
+  {
+    "city": "France",
+    "country": "Brest",
+    "latitude": 48.4,
+    "longitude": -4.4833331
+  },
+  {
+    "city": "Spain",
+    "country": "Palencia",
+    "latitude": 42.0166667,
+    "longitude": -4.5333333
+  },
+  {
+    "city": "Malta",
+    "country": "Djenne",
+    "latitude": 13.906075,
+    "longitude": -4.553318
+  },
+  {
+    "city": "Morocco",
+    "country": "Taounate",
+    "latitude": 34.55,
+    "longitude": -4.6500001
+  },
+  {
+    "city": "Spain",
+    "country": "Valladolid",
+    "latitude": 41.65,
+    "longitude": -4.7166667
+  },
+  {
+    "city": "Morocco",
+    "country": "Midelt",
+    "latitude": 32.68,
+    "longitude": -4.7399998
+  },
+  {
+    "city": "Spain",
+    "country": "Cordoba",
+    "latitude": 37.8833333,
+    "longitude": -4.7666669
+  },
+  {
+    "city": "Malta",
+    "country": "Yorosso",
+    "latitude": 12.3666667,
+    "longitude": -4.7833333
+  },
+  {
+    "city": "Morocco",
+    "country": "Sefrou",
+    "latitude": 33.83,
+    "longitude": -4.8299999
+  },
+  {
+    "city": "Spain",
+    "country": "Talavera de la Reina",
+    "latitude": 39.95,
+    "longitude": -4.8333335
+  },
+  {
+    "city": "Spain",
+    "country": "Marbella",
+    "latitude": 36.5154308,
+    "longitude": -4.8858261
+  },
+  {
+    "city": "Malta",
+    "country": "San",
+    "latitude": 13.3,
+    "longitude": -4.9000001
+  },
+  {
+    "city": "Malta",
+    "country": "Tenenkou",
+    "latitude": 14.4666667,
+    "longitude": -4.9166665
+  },
+  {
+    "city": "Malta",
+    "country": "Kemparana",
+    "latitude": 12.8333333,
+    "longitude": -4.9333334
+  },
+  {
+    "city": "Morocco",
+    "country": "Fes",
+    "latitude": 34.05,
+    "longitude": -4.98
+  },
+  {
+    "city": "Morocco",
+    "country": "Jebel Tiskaouine",
+    "latitude": 31.05,
+    "longitude": -5.1500001
+  },
+  {
+    "city": "Morocco",
+    "country": "Azrou",
+    "latitude": 33.43,
+    "longitude": -5.21
+  },
+  {
+    "city": "Morocco",
+    "country": "Chefchaouene",
+    "latitude": 35.17,
+    "longitude": -5.2600002
+  },
+  {
+    "city": "Morocco",
+    "country": "Martil",
+    "latitude": 35.61,
+    "longitude": -5.27
+  },
+  {
+    "city": "Spain",
+    "country": "Ceuta",
+    "latitude": 35.8893282,
+    "longitude": -5.3197861
+  },
+  {
+    "city": "Morocco",
+    "country": "El Hajeb",
+    "latitude": 33.7,
+    "longitude": -5.3600001
+  },
+  {
+    "city": "Malta",
+    "country": "Ke Massina",
+    "latitude": 13.9666667,
+    "longitude": -5.3666668
+  },
+  {
+    "city": "Morocco",
+    "country": "Tetouan",
+    "latitude": 35.57,
+    "longitude": -5.3699999
+  },
+  {
+    "city": "Spain",
+    "country": "Algeciras",
+    "latitude": 36.1275,
+    "longitude": -5.4538889
+  },
+  {
+    "city": "Malta",
+    "country": "Koutiala",
+    "latitude": 12.3833333,
+    "longitude": -5.4666667
+  },
+  {
+    "city": "Morocco",
+    "country": "Tineghir",
+    "latitude": 31.51,
+    "longitude": -5.5300002
+  },
+  {
+    "city": "Morocco",
+    "country": "Meknes",
+    "latitude": 33.9,
+    "longitude": -5.5500002
+  },
+  {
+    "city": "Spain",
+    "country": "Leon",
+    "latitude": 42.6,
+    "longitude": -5.5666666
+  },
+  {
+    "city": "Morocco",
+    "country": "Ouazzane",
+    "latitude": 34.8,
+    "longitude": -5.5999999
+  },
+  {
+    "city": "Spain",
+    "country": "Salamanca",
+    "latitude": 40.9666667,
+    "longitude": -5.6500001
+  },
+  {
+    "city": "Morocco",
+    "country": "Khenifra",
+    "latitude": 32.93,
+    "longitude": -5.6599998
+  },
+  {
+    "city": "Spain",
+    "country": "Gijon",
+    "latitude": 43.5411111,
+    "longitude": -5.6644444
+  },
+  {
+    "city": "Malta",
+    "country": "Sikasso",
+    "latitude": 11.3166667,
+    "longitude": -5.6666665
+  },
+  {
+    "city": "Morocco",
+    "country": "mohammed  boulaich el habate ksar sghir",
+    "latitude": 35.7,
+    "longitude": -5.6999998
+  },
+  {
+    "city": "Morocco",
+    "country": "Sidi Qacem",
+    "latitude": 34.21,
+    "longitude": -5.6999998
+  },
+  {
+    "city": "Spain",
+    "country": "Zamora",
+    "latitude": 41.5,
+    "longitude": -5.75
+  },
+  {
+    "city": "Morocco",
+    "country": "Tangier",
+    "latitude": 35.78,
+    "longitude": -5.8099999
+  },
+  {
+    "city": "Morocco",
+    "country": "Zagora",
+    "latitude": 30.31,
+    "longitude": -5.8299999
+  },
+  {
+    "city": "Spain",
+    "country": "Oviedo",
+    "latitude": 43.3666667,
+    "longitude": -5.8333335
+  },
+  {
+    "city": "Morocco",
+    "country": "Ksar el Kebir",
+    "latitude": 35,
+    "longitude": -5.9000001
+  },
+  {
+    "city": "Spain",
+    "country": "Dos Hermanas",
+    "latitude": 37.2844444,
+    "longitude": -5.9241667
+  },
+  {
+    "city": "Spain",
+    "country": "Aviles",
+    "latitude": 43.5569444,
+    "longitude": -5.9247222
+  },
+  {
+    "city": "Morocco",
+    "country": "Sidi Slimane",
+    "latitude": 34.26,
+    "longitude": -5.9299998
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Belfast",
+    "latitude": 54.5833333,
+    "longitude": -5.9333334
+  },
+  {
+    "city": "Morocco",
+    "country": "Mechra Belqsiri",
+    "latitude": 34.56,
+    "longitude": -5.9499998
+  },
+  {
+    "city": "Spain",
+    "country": "Sevilla",
+    "latitude": 37.3772222,
+    "longitude": -5.9869442
+  },
+  {
+    "city": "United Kingdom",
+    "country": "Lisburn",
+    "latitude": 54.523373,
+    "longitude": -6.0352707
+  },
+  {
+    "city": "Morocco",
+    "country": "Asilah",
+    "latitude": 35.46,
+    "longitude": -6.04
+  },
+  {
+    "city": "Ireland",
+    "country": "Cill Mhantain",
+    "latitude": 52.975,
+    "longitude": -6.0494442
+  },
+  {
+    "city": "Morocco",
+    "country": "Khemisset",
+    "latitude": 33.81,
+    "longitude": -6.0599999
+  },
+  {
+    "city": "Ireland",
+    "country": "Greystones",
+    "latitude": 53.1408333,
+    "longitude": -6.0630555
+  },
+  {
+    "city": "Malta",
+    "country": "Markala",
+    "latitude": 13.6833333,
+    "longitude": -6.0833335
   }
 ]
