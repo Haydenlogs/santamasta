@@ -120,8 +120,8 @@ function executeTask(taskUrl) {
         });
     } else if (taskUrl === "/starttracker") {
         currentIndex = 0;
-        saveIndexToFile(); // Save the index to file
-    } else if (taskUrl === "/endtracker") {
+        saveIndexToFile(); // Save the index to file    } else if (taskUrl === "/endtracker") {
+      setTrackerStartedTrue()
         // Perform actions for ending the tracker
         isTrackerStarted = false;
         clearInterval(trackerInterval);
@@ -221,6 +221,7 @@ async function readIndexFromFile() {
 async function startTracker(filePath) {
   if (!isTrackerStarted) {
     try {
+      setTrackerStartedTrue();
       await readCitiesFromFile(filePath); // Wait for cities to be loaded
       currentIndex = await readIndexFromFile(); // Read index from file
       isTrackerStarted = true;
@@ -452,6 +453,75 @@ app.get("/restarttracker", (req, res) => {
   res.send("Tracker index reset.");
 });
 
+
+
+
+
+
+// Function to check if the site is locked
+function isLocked2() {
+    // Read the content of hasbeenstarted.txt
+    const content = fs.readFileSync('hasbeenstarted.txt', 'utf8');
+    // Check if the content is 'true'
+    return content.trim().toLowerCase() === 'true';
+}
+// Function to read the value from hasbeenstarted.txt
+function isTrackerStartedFromFile() {
+    const content = fs.readFileSync('hasbeenstarted.txt', 'utf8');
+    return content.trim().toLowerCase() === 'true';
+}
+
+// Function to set the value of hasbeenstarted.txt to true
+function setTrackerStartedTrue() {
+    fs.writeFileSync('hasbeenstarted.txt', 'true');
+}
+
+// Function to set the value of hasbeenstarted.txt to false
+function setTrackerStartedFalse() {
+    fs.writeFileSync('hasbeenstarted.txt', 'false');
+}
+app.get("/", (req, res) => {
+    const ip = req.ip;
+    const time = new Date().toISOString();
+    const country = req.headers["x-forwarded-for"] || req.connection.remoteAddress;
+
+    const visitData = { ip, time, country };
+
+    // Log the visit data to SiteVisits.json
+    fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
+        if (err) console.error("Error logging visit:", err);
+    });
+
+    const trackerStarted = isTrackerStartedFromFile();
+    const locked = isLocked2();
+
+    // If the tracker is started and the site is locked, redirect to losttrack.html
+    if (trackerStarted && locked) {
+        res.sendFile(path.join(__dirname, "src", "pages", "losttrack.html"));
+    } else if (!trackerStarted) {
+        // If the tracker is not started, redirect to ended.html
+        res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
+    } else {
+        // If the tracker is started and the site is unlocked, serve the tracker page
+        res.sendFile(path.join(__dirname, "src", "pages", "tracker.html"));
+    }
+});
+
+
+// Route to set the tracker started flag to true
+app.get("/set-tracker-true", (req, res) => {
+    setTrackerStartedTrue();
+    res.send("Tracker started set to true.");
+});
+
+// Route to set the tracker started flag to false
+app.get("/set-tracker-false", (req, res) => {
+    setTrackerStartedFalse();
+    res.send("Tracker started set to false.");
+});
+
+
+
 // Define a variable to track whether the site is locked
 let isLocked = true;
 
@@ -550,37 +620,7 @@ function getVisitsWithData(timeFrame, callback) {
   });
 }
 
-// Default route handler
-app.get("/", (req, res) => {
-  const ip = req.ip;
-  const time = new Date().toISOString();
-  const country =
-    req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
-  const visitData = { ip, time, country };
-
-  // Log the visit data to SiteVisits.json
-  fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
-    if (err) console.error("Error logging visit:", err);
-  });
-  const trackerStarted = isTrackerStartedFromFile();
-  // Check if the site is locked
-  if (isLocked) {
-    // If locked, redirect to comeback.html
-    res.sendFile(path.join(__dirname, "src", "pages", "comeback.html"));
-  } else {
-    if (trackerStarted === false) {
-      res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
-    } else {
-      // If unlocked, serve the default page (index.html or tracker.html based on tracker status)
-      if (!isTrackerStarted) {
-        res.sendFile(path.join(__dirname, "src", "pages", "index.html"));
-      } else {
-        res.sendFile(path.join(__dirname, "src", "pages", "tracker.html"));
-      }
-    }
-  }
-});
 
 // Endpoint to reset the baskets
 app.get("/resetbaskets", (req, res) => {
@@ -638,17 +678,7 @@ function saveTrackerStatusToFile(status) {
   fs.writeFileSync("ended.json", data);
 }
 
-// Function to check if the tracker is started from the file
-function isTrackerStartedFromFile() {
-  try {
-    const data = fs.readFileSync("ended.json");
-    const { trackerStarted } = JSON.parse(data);
-    return trackerStarted;
-  } catch (err) {
-    // If file doesn't exist or any error occurs, return false
-    return false;
-  }
-}
+
 
 app.get("/endtracker", (req, res) => {
   isTrackerStarted = false;
@@ -659,6 +689,7 @@ app.get("/endtracker", (req, res) => {
   currentIndex = 0;
   saveIndexToFile(); // Save the index to file
   sendTrackerEvent({ trackerEnded: true });
+  setTrackerStartedFalse()
 
   // Save the tracker status to file
   saveTrackerStatusToFile(false);
