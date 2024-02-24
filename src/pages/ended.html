@@ -54,8 +54,8 @@ const initialZoomLevel = 2;
 const map = L.map('map-container').setView(initialCoordinates, initialZoomLevel);
 
 // Add the base map layer
-L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+  subdomains:['mt0','mt1','mt2','mt3']
 }).addTo(map);
 
 // Function to update Santa's position on the map

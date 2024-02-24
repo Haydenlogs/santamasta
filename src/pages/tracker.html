@@ -1,453 +1,134 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Tracker</title>
-    <style>
-      body {
-        font-family: Arial, sans-serif;
-        margin: 0;
-        padding: 0;
-        background-image: linear-gradient(
-          to bottom,
-          #d3e4ff 0%,
-          #f0f8ff 100%
-        ); /* Snowy gradient */
-      }
-      .top-bar {
-        background-image: url("https://th.bing.com/th/id/OIP.O7w2ykIqulaDtXqxYyPtNwHaDt?rs=1&pid=ImgDetMain");
-        background-color: #333;
-        color: white;
-        padding: 10px;
-        text-align: center;
-        position: fixed;
-        top: 0;
-        left: 0;
-        right: 0;
-        z-index: 999; /* Ensure top-bar is above other elements */
-        background-repeat: repeat;
-        text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000,
-          1px 1px 0 #000;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        flex-direction: row;
-      }
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tracker</title>
+  <!-- Leaflet CSS -->
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <!-- Leaflet.label CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.label/0.2.4/leaflet.label.css" />
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-image: linear-gradient(to bottom, #d3e4ff 0%, #f0f8ff 100%);
+    }
+    .top-bar {
+      background-image: url("https://th.bing.com/th/id/OIP.O7w2ykIqulaDtXqxYyPtNwHaDt?rs=1&pid=ImgDetMain");
+      background-color: #333;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      position: fixed;
+      top: 0;
+      left: 0;
+      right: 0;
+      z-index: 999;
+      background-repeat: repeat;
+      text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-direction: row;
+    }
+    .title {
+      font-size: 0.8em;
+      margin-bottom: 5px;
+      color: white; /* White text */
+    }
+    .data {
+      font-weight: bold;
+      font-size: 1.2em;
+      color: white; /* White text */
+    }
+    #map-container {
+      position: relative;
+      width: 100%;
+      height: calc(100vh - 50px);
+      margin-top: 50px;
+      border: 2px solid white; /* White border */
+    }
+    .basket-icon {
+      width: 25px;
+      height: 25px;
+    }
+  </style>
+</head>
+<body>
+  <div class="top-bar">
+    <div id="headingFor" class="title">Heading for:</div>
+    <div id="nextCityInfo" class="data">LOADING!!</div>
+    <div id="lastSeen" class="title">Last Seen:</div>
+    <div id="lastCityInfo" class="data">LOADING!!</div>
+    <div id="baskets" class="title">Baskets Delivered:</div>
+    <div id="basketsInfo" class="data">LOADING!!</div>
+  </div>
 
-      .data-container {
-        width: 33.333%;
-        text-align: center;
-      }
+  <div id="map-container"></div>
 
-      .title {
-        font-size: 0.8em;
-        margin-bottom: 5px;
-      }
+  <!-- Leaflet JavaScript -->
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <!-- Leaflet.label JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.label/0.2.4/leaflet.label.js"></script>
+  <script>
+    // Initialize Leaflet map
+    var map = L.map('map-container').setView([0, 0], 2); // Set initial center and zoom
 
-      .data {
-        font-weight: bold;
-        font-size: 1.2em;
-      }
+    // Add the tile layer (satellite imagery with labels)
+    L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+      maxZoom: 20,
+      subdomains:['mt0','mt1','mt2','mt3']
+    }).addTo(map);
 
-      #map-container {
-        position: relative;
-        width: 100%; /* Adjust the width to cover the whole screen */
-        height: calc(
-          100vh - 50px
-        ); /* Adjust the height to cover the screen minus the top-bar height */
-        margin-top: 50px; /* Add margin to make space for top-bar */
-        overflow: hidden; /* Hide overflow to prevent image from overflowing */
-      }
-      .basket-container {
-        position: absolute;
-      }
+    // Add Santa marker
+    var santaMarker = L.marker([0, 0], {
+      icon: L.icon({
+        iconUrl: 'https://cdn-icons-png.flaticon.com/512/347/347485.png',
+        iconSize: [50, 50], // size of the icon
+        iconAnchor: [25, 25] // point of the icon which will correspond to marker's location
+      })
+    }).addTo(map);
 
-      .basket-image {
-        border: 2px solid white;
-        width: 50px; /* Set the width of the basket image */
-        height: 50px; /* Set the height of the basket image */
-      }
+    // Function to handle SSE messages
+    function handleSSE(event) {
+      // Parse the event data
+      const data = JSON.parse(event.data);
 
-      .arrow {
-        position: relative;
-        width: 0;
-        height: 0;
-        border-left: 5px solid transparent; /* Adjust arrow size */
-        border-right: 5px solid transparent; /* Adjust arrow size */
-        border-top: 8px solid white; /* Adjust arrow size */
-        margin-top: -5px; /* Adjust vertical position of the arrow */
-        margin-left: 22px; /* Adjust horizontal position of the arrow */
-      }
-      #basketList li {
-        margin-bottom: 5px;
-      }
+      // Update other information
+      document.getElementById('nextCityInfo').textContent = data.nextCity ? `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.` : "";
+      document.getElementById('lastCityInfo').textContent = data.lastCity ? `${data.lastCity.country}, ${data.lastCity.city}` : "";
+      document.getElementById('basketsInfo').textContent = data.presentsDelivered ? data.presentsDelivered.toLocaleString() : "";
 
-      #basketList button {
-        padding: 5px 10px;
-        background-color: #4caf50;
-        color: white;
-        border: none;
-        border-radius: 5px;
-        cursor: pointer;
-      }
-
-      #basketList button:hover {
-        background-color: #45a049;
-      }
-
-      #santa {
-        position: absolute;
-        width: 5%; /* Adjust size relative to the container */
-        max-width: 50px; /* Limit maximum width */
-        height: auto; /* Maintain aspect ratio */
-        transition: left 0.5s ease, top 0.5s ease; /* Smooth transition for Santa's movement */
-        cursor: pointer; /* Change cursor to pointer when hovering over Santa */
-        z-index: 1000; /* Ensure bunny icon is above everything else */
-      }
-
-      @keyframes floating {
-        0% {
-          transform: translateY(0);
-        }
-        50% {
-          transform: translateY(-10px);
-        }
-        100% {
-          transform: translateY(0);
-        }
+      // Teleport Santa to the next city
+      if (data.currentCity && data.nextCity) {
+        santaMarker.setLatLng([data.nextCity.latitude, data.nextCity.longitude]);
+        map.setView([data.nextCity.latitude, data.nextCity.longitude], map.getZoom());
       }
 
-      .floating {
-        animation: floating 3s ease-in-out infinite; /* Adjust animation duration as needed */
+      // Add basket to the map
+      if (data.newBasket) {
+        addBasket(data.newBasket);
       }
-    </style>
-  </head>
-  <body>
-    <div class="top-bar">
-      <div id="headingFor" style="font-size: 0.8em">Heading for:</div>
-      <div id="nextCityInfo" style="font-weight: bold">LOADING!!</div>
-      <div id="lastSeen" style="font-size: 0.8em">Last Seen:</div>
-      <div id="lastCityInfo" style="font-weight: bold">LOADING!!</div>
-      <div id="baskets" style="font-size: 0.8em">Baskets Delivered:</div>
-      <div id="basketsInfo" style="font-weight: bold">LOADING!!</div>
-    </div>
+    }
 
-    <div id="map-container">
-      <img
-        id="santa"
-        src="https://cdn-icons-png.flaticon.com/512/347/347485.png"
-      />
-      <img
-        id="map-image"
-        width="100%"
-        height="100%"
-        src="https://cdn.glitch.global/00096ffa-1c6f-46f0-aa52-09cd4de366d6/satellite-map-of-the-world_wm00875.jpg?v=1707770779809"
-      />
-    </div>
-    <center>
-      <div class="description-container">
-        <h2>Tracker Information</h2>
-        <a
-          >This tracker is based solely on satellite technology. The bunny
-          usually does the same route every year, with some years changing it.
-          He starts around New Zealand's outlying islands, and he moves west
-          from there. Once he boots up and hits the first satellite, he speeds
-          up more, and goes about 1,017,241.38 mph to get to places, although
-          moving slower in condensed areas, because he has to go to a ton of
-          houses in condensed areas. He travels from Europe/Africa area to
-          Ireland in about 8.5 seconds and then he manages to finish his night
-          on the US Minor outlying islands. After he delivers all the baskets he
-          usually likes to cruise back to Easter Island, which is about a 13 1/2
-          minute cruise. Nobody knows why he does this but he does. He schedules
-          most things, like when he launches and when he goes back, and his trek
-          is usually about 23-24 hours depending on how he feels.</a
-        >
-      </div>
-      <div class="baskets-container">
-        <h2>Baskets</h2>
-        <input
-          type="text"
-          id="searchInput"
-          placeholder="Search for a city..."
-        />
-        <ul id="basketList"></ul>
-      </div>
-    </center>
-    <script>
-      // Function to add a basket item to the list
-      function addBasketToList(cityInfo) {
-        const basketList = document.getElementById("basketList");
+    // Start listening for SSE messages
+    const eventSource = new EventSource("/updates");
+    eventSource.onmessage = handleSSE;
 
-        // Create list item
-        const listItem = document.createElement("li");
-        const cityCountry = `${cityInfo.city}, ${cityInfo.country}`;
-        listItem.textContent = cityCountry;
+    // Function to add a basket to the map
+    function addBasket(basketInfo) {
+      const basketMarker = L.marker([basketInfo.latitude, basketInfo.longitude], {
+        icon: L.icon({
+          iconUrl: 'https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0',
+          iconSize: [50, 50], // size of the icon
+          iconAnchor: [25, 50] // point of the icon which will correspond to marker's location
+        })
+      }).addTo(map);
 
-        // Create research button
-        const researchButton = document.createElement("button");
-        researchButton.textContent = "Research";
-        researchButton.addEventListener("click", function () {
-          // Construct the Google search URL
-          const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
-          const googleURL = `https://www.google.com/search?q=${encodeURIComponent(
-            searchQuery
-          )}`;
-          // Open the URL in a new tab
-          window.open(googleURL, "_blank");
-        });
-
-        // Append research button to list item
-        listItem.appendChild(researchButton);
-
-        // Append list item to basket list
-        basketList.appendChild(listItem);
-      }
-
-      // Function to filter basket list based on search input
-      function filterBasketList() {
-        const searchInput = document.getElementById("searchInput");
-        const searchText = searchInput.value.toLowerCase();
-        const basketList = document.getElementById("basketList");
-        const basketItems = basketList.getElementsByTagName("li");
-
-        // Loop through basket items
-        for (let i = 0; i < basketItems.length; i++) {
-          const cityCountry = basketItems[i].textContent.toLowerCase();
-          // Check if city or country matches search text
-          if (cityCountry.includes(searchText)) {
-            basketItems[i].style.display = ""; // Show item
-          } else {
-            basketItems[i].style.display = "none"; // Hide item
-          }
-        }
-      }
-
-      // Add event listener for search input
-      document
-        .getElementById("searchInput")
-        .addEventListener("input", filterBasketList);
-
-      // Update Santa's position on the zoomed-in map
-      function updateZoomedMap() {
-        const { width, height } = mapContainer.getBoundingClientRect();
-        const { left, top } = mapImage.getBoundingClientRect();
-        const santaX = parseFloat(santa.style.left) || 0;
-        const santaY = parseFloat(santa.style.top) || 0;
-        const x = (santaX + left) * (width / mapImage.offsetWidth);
-        const y = (santaY + top) * (height / mapImage.offsetHeight);
-        const zoomedMapX = (x - width / 2) * 2; // Adjust for zoom level
-        const zoomedMapY = (y - height / 2) * 2; // Adjust for zoom level
-        zoomedMapImage.style.left = `${-zoomedMapX}px`;
-        zoomedMapImage.style.top = `${-zoomedMapY}px`;
-      }
-      function addBasket(cityInfo) {
-        addBasketToList(cityInfo);
-        // Create a new container for the basket
-        const basketContainer = document.createElement("div");
-        basketContainer.className = "basket-container";
-
-        // Create the basket image element
-        const basketImage = document.createElement("img");
-        basketImage.src =
-          "https://th.bing.com/th/id/R.d9bb1c753e4b03ac4d9a9c743287b75b?rik=h8SVGaZXv7uVPg&riu=http%3a%2f%2fclipart-library.com%2fimages_k%2feaster-basket-transparent%2feaster-basket-transparent-23.png&ehk=eTqJD5CcGIxAtijBhZ63ykr2tQ57gjaWCxMh4P80w4Y%3d&risl=&pid=ImgRaw&r=0";
-        basketImage.className = "basket-image";
-        basketImage.width = "50px";
-        basketImage.height = "50px";
-
-        // Create the arrow element
-        const arrow = document.createElement("div");
-        arrow.className = "arrow";
-
-        // Add basket image and arrow to the container
-        basketContainer.appendChild(basketImage);
-        basketContainer.appendChild(arrow);
-
-        // Calculate the position of the basket on the map
-        const { width, height } = mapContainer.getBoundingClientRect();
-        const x = (cityInfo.longitude + 180) * (width / 360);
-        const y = (90 - cityInfo.latitude) * (height / 180);
-
-        // Set the position of the basket container
-        basketContainer.style.left = `${x - basketImage.width / 2 - 50}px`;
-        basketContainer.style.top = `${y - basketImage.height + 20}px`;
-
-        // Add click event listener to the basket container
-        basketContainer.addEventListener("click", function () {
-          // Construct the Google search URL
-          const searchQuery = `${cityInfo.city} ${cityInfo.country}`;
-          const googleURL = `https://www.google.com/search?q=${encodeURIComponent(
-            searchQuery
-          )}`;
-
-          // Open the URL in a new tab
-          window.open(googleURL, "_blank");
-        });
-
-        // Add the basket container to the map
-        mapContainer.appendChild(basketContainer);
-      }
-      // Start listening for SSE messages
-      window.onload = function () {
-        fetchBaskets(); // Fetch all baskets onload
-        startSSE(); // Start listening for SSE messages
-
-        // Update the zoomed-in map on page load
-        updateZoomedMap();
-      };
-      // Function to fetch all baskets from the server
-      async function fetchBaskets() {
-        try {
-          const response = await fetch("/getbaskets");
-          const data = await response.json();
-          console.log("Response data:", data); // Log the response data
-          data.forEach((basket) => {
-            addBasket(basket);
-          });
-        } catch (error) {
-          console.error("Error fetching baskets:", error);
-        }
-      }
-
-      function changeSantaImage() {
-        // Change the src attribute to the GIF link
-       // santa.classList.remove("floating");
-        santa.src =
-          "https://media1.giphy.com/media/bNqm3VOAUAIuggP4Eo/giphy.gif?cid=6c09b952d1f0s1pgwowursq9n37uofrw8bmkme4zu8owfko7&ep=v1_stickers_related&rid=giphy.gif&ct=s";
-
-        // Add floating animation class
-
-        // Set a timeout to revert back to the original image after one second
-        setTimeout(function () {
-         // santa.classList.add("floating");
-          santa.src = "https://cdn-icons-png.flaticon.com/512/347/347485.png";
-          // Remove floating animation class
-        }, 1000); // 1000 milliseconds = 1 second
-      }
-
-      const nextCityInfo = document.getElementById("nextCityInfo");
-      const lastCityInfo = document.getElementById("lastCityInfo");
-      const basketsInfo = document.getElementById("basketsInfo");
-      const santa = document.getElementById("santa");
-      const mapContainer = document.getElementById("map-container");
-      const mapImage = document.getElementById("map-image");
-      let scale = 1;
-
-      const eventSource = new EventSource("/updates");
-      let followingSanta = false;
-
-      // Array to store line elements
-      let lines = [];
-
-      eventSource.onmessage = function (event) {
-        const data = JSON.parse(event.data);
-        updateTracker(data);
-      };
-     function updateTracker(data) {
-        if (data.nextCity && data.timeLeft) {
-          nextCityInfo.textContent = `${data.nextCity.country}, ${data.nextCity.city} in ${data.timeLeft} seconds.`;
-        } else {
-          nextCityInfo.textContent = " ";
-        }
-
-        if (data.lastCity) {
-          lastCityInfo.textContent = `${data.lastCity.country}, ${data.lastCity.city}`;
-        } else {
-          lastCityInfo.textContent = " ";
-        }
-
-        if (
-          data.lastCity &&
-          data.nextCity &&
-          data.timeLeft &&
-          data.lastCity.latitude &&
-          data.lastCity.longitude &&
-          data.nextCity.latitude &&
-          data.nextCity.longitude
-        ) {
-          const { width, height } = mapContainer.getBoundingClientRect();
-
-          // Calculate Santa's position based on last seen and heading for coordinates
-          const lastLatitude = data.lastCity.latitude;
-          const lastLongitude = data.lastCity.longitude;
-          const nextLatitude = data.nextCity.latitude;
-          const nextLongitude = data.nextCity.longitude;
-          const timeLeft = data.timeLeft;
-
-          // Calculate the distance between last seen and heading for coordinates
-          const distance = Math.sqrt(
-            Math.pow(nextLatitude - lastLatitude, 2) +
-              Math.pow(nextLongitude - lastLongitude, 2)
-          );
-
-          // Estimate Santa's speed (e.g., pixels per second)
-          const speed = 50; // Adjust as needed
-
-          // Calculate the total time needed to travel the distance
-          const totalTime = (distance / speed) * 1000; // Convert to milliseconds
-
-          // Calculate progress ratio based on time left and total time
-          const progressRatio = (totalTime - timeLeft) / totalTime;
-
-          // Interpolate Santa's position between last seen and heading for coordinates
-          const interpolatedLatitude =
-            lastLatitude + progressRatio * (nextLatitude - lastLatitude);
-          const interpolatedLongitude =
-            lastLongitude + progressRatio * (nextLongitude - lastLongitude);
-
-          // Calculate Santa's position on the map
-          const x = (interpolatedLongitude + 180) * (width / 360);
-          const y = (90 - interpolatedLatitude) * (height / 180);
-
-          // Smoothly transition Santa's position
-          santa.style.transition = `left ${timeLeft}s linear, top ${timeLeft}s linear`;
-          santa.style.left = `${x - santa.offsetWidth / 2 - 10}px`; // Adjust for the size of the Santa image
-          santa.style.top = `${y - santa.offsetHeight / 2 + 25}px`; // Adjust for the size of the Santa image
-        }
-      }
-      // Function to handle SSE messages
-      function handleSSE(event) {
-        // Parse the event data
-        const data = JSON.parse(event.data);
-
-        // Check if the tracker has ended
-        if (data.trackerEnded === true) {
-          // Refresh the page to the home page if the tracker has ended
-          window.location.href = "/";
-        }
-        if (data.santaMoving === true) {
-          // Refresh the page to the home page if the tracker has ended
-          changeSantaImage();
-        }
-        if (data.unlocked === false) {
-          // Refresh the page to the home page if the tracker has started
-          window.location.href = "/";
-        }
-        if (data.refresh === true) {
-          window.location.href = "/"
-        }
-        if (data.newbasket) {
-          // Add the basket to the map after a delay of 1 second
-          
-            addBasket(data.newbasket);
-          
-        }
-        
-           basketsInfo.textContent = `${data.presentsDelivered.toLocaleString()}`;
-
-        
-      }
-
-      // Function to start listening for SSE messages
-      function startSSE() {
-        const eventSource = new EventSource("/updates");
-        eventSource.onmessage = handleSSE;
-      }
-
-      window.onload = function () {
-        fetchBaskets(); // Fetch all baskets onload
-        startSSE(); // Start listening for SSE messages
-      };
-    </script>
-  </body>
+      basketMarker.bindLabel("Basket", { noHide: true });
+    }
+  </script>
+</body>
 </html>
