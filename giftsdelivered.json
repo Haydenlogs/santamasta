@@ -61804,5 +61804,533 @@
     "country": "Omaha",
     "latitude": 41.2586096,
     "longitude": -95.9377899
+  },
+  {
+    "city": "United States",
+    "country": "Tulsa",
+    "latitude": 36.1539816,
+    "longitude": -95.992775
+  },
+  {
+    "city": "Mexico",
+    "country": "Veracruz",
+    "latitude": 19.2,
+    "longitude": -96.1333313
+  },
+  {
+    "city": "United States",
+    "country": "Garland",
+    "latitude": 32.912624,
+    "longitude": -96.6388855
+  },
+  {
+    "city": "United States",
+    "country": "Lincoln",
+    "latitude": 40.8000011,
+    "longitude": -96.6669617
+  },
+  {
+    "city": "United States",
+    "country": "Plano",
+    "latitude": 33.0198431,
+    "longitude": -96.6988831
+  },
+  {
+    "city": "Mexico",
+    "country": "Oaxaca de Juarez",
+    "latitude": 17.05,
+    "longitude": -96.7166672
+  },
+  {
+    "city": "United States",
+    "country": "Dallas",
+    "latitude": 32.7830556,
+    "longitude": -96.8066635
+  },
+  {
+    "city": "Mexico",
+    "country": "Jalapa Enriquez",
+    "latitude": 19.5333333,
+    "longitude": -96.9166641
+  },
+  {
+    "city": "Mexico",
+    "country": "Cordoba",
+    "latitude": 18.8833333,
+    "longitude": -96.9333344
+  },
+  {
+    "city": "Mexico",
+    "country": "Orizaba",
+    "latitude": 18.85,
+    "longitude": -97.0999985
+  },
+  {
+    "city": "United States",
+    "country": "Arlington",
+    "latitude": 32.735687,
+    "longitude": -97.1080627
+  },
+  {
+    "city": "Canada",
+    "country": "Winnipeg",
+    "latitude": 49.8843986,
+    "longitude": -97.1470413
+  },
+  {
+    "city": "United States",
+    "country": "Fort Worth",
+    "latitude": 32.725409,
+    "longitude": -97.3208466
+  },
+  {
+    "city": "United States",
+    "country": "Wichita",
+    "latitude": 37.6922361,
+    "longitude": -97.3375473
+  },
+  {
+    "city": "Mexico",
+    "country": "Tehuacan",
+    "latitude": 18.45,
+    "longitude": -97.3833313
+  },
+  {
+    "city": "United States",
+    "country": "Corpus Christi",
+    "latitude": 27.8005828,
+    "longitude": -97.3963776
+  },
+  {
+    "city": "Mexico",
+    "country": "Poza Rica de Hidalgo",
+    "latitude": 20.5331483,
+    "longitude": -97.4594574
+  },
+  {
+    "city": "Mexico",
+    "country": "Matamoros",
+    "latitude": 25.8833333,
+    "longitude": -97.5
+  },
+  {
+    "city": "United States",
+    "country": "Oklahoma City",
+    "latitude": 35.4675602,
+    "longitude": -97.5164261
+  },
+  {
+    "city": "United States",
+    "country": "Austin",
+    "latitude": 30.267153,
+    "longitude": -97.7430573
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Madero",
+    "latitude": 22.2666667,
+    "longitude": -97.8333359
+  },
+  {
+    "city": "Mexico",
+    "country": "Tampico",
+    "latitude": 22.2166667,
+    "longitude": -97.8499985
+  },
+  {
+    "city": "Mexico",
+    "country": "Puebla de Zaragoza",
+    "latitude": 19.05,
+    "longitude": -98.1999969
+  },
+  {
+    "city": "Mexico",
+    "country": "Reynosa",
+    "latitude": 26.0833333,
+    "longitude": -98.2833328
+  },
+  {
+    "city": "Mexico",
+    "country": "Cholula",
+    "latitude": 19.0640649,
+    "longitude": -98.3035202
+  },
+  {
+    "city": "United States",
+    "country": "San Antonio",
+    "latitude": 29.4241219,
+    "longitude": -98.4936295
+  },
+  {
+    "city": "Mexico",
+    "country": "Pachuca de Soto",
+    "latitude": 20.1169732,
+    "longitude": -98.7332916
+  },
+  {
+    "city": "Mexico",
+    "country": "Texcoco de Mora",
+    "latitude": 19.5166667,
+    "longitude": -98.8833313
+  },
+  {
+    "city": "Mexico",
+    "country": "Ixtapaluca",
+    "latitude": 19.3166667,
+    "longitude": -98.8833313
+  },
+  {
+    "city": "Mexico",
+    "country": "Chalco de Diaz Covarrubias",
+    "latitude": 19.2666667,
+    "longitude": -98.9000015
+  },
+  {
+    "city": "Mexico",
+    "country": "Xico",
+    "latitude": 19.2666667,
+    "longitude": -98.9333344
+  },
+  {
+    "city": "Mexico",
+    "country": "Cuautla Morelos",
+    "latitude": 18.8,
+    "longitude": -98.9499969
+  },
+  {
+    "city": "Mexico",
+    "country": "Los Reyes",
+    "latitude": 19.35,
+    "longitude": -98.9666672
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Valles",
+    "latitude": 21.9833333,
+    "longitude": -99.0166702
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Nezahualcoyotl",
+    "latitude": 19.4136111,
+    "longitude": -99.0330582
+  },
+  {
+    "city": "Mexico",
+    "country": "Ecatepec",
+    "latitude": 19.6011111,
+    "longitude": -99.0524979
+  },
+  {
+    "city": "Mexico",
+    "country": "San Pablo de las Salinas",
+    "latitude": 19.6658333,
+    "longitude": -99.0963898
+  },
+  {
+    "city": "Mexico",
+    "country": "Coacalco",
+    "latitude": 19.6316667,
+    "longitude": -99.1102753
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Victoria",
+    "latitude": 23.7333333,
+    "longitude": -99.1333313
+  },
+  {
+    "city": "Mexico",
+    "country": "Mexico City",
+    "latitude": 19.4341667,
+    "longitude": -99.1386108
+  },
+  {
+    "city": "Mexico",
+    "country": "Jiutepec",
+    "latitude": 18.8666667,
+    "longitude": -99.1833344
+  },
+  {
+    "city": "Mexico",
+    "country": "Tlalnepantla",
+    "latitude": 19.5269444,
+    "longitude": -99.2216644
+  },
+  {
+    "city": "Mexico",
+    "country": "Naucalpan de Juarez",
+    "latitude": 19.4785079,
+    "longitude": -99.2396317
+  },
+  {
+    "city": "Mexico",
+    "country": "Cuautitlan Izcalli",
+    "latitude": 19.6469444,
+    "longitude": -99.246666
+  },
+  {
+    "city": "Mexico",
+    "country": "Cuernavaca",
+    "latitude": 18.9166667,
+    "longitude": -99.25
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Lopez Mateos",
+    "latitude": 19.5583333,
+    "longitude": -99.2613907
+  },
+  {
+    "city": "Mexico",
+    "country": "Nicolas Romero",
+    "latitude": 19.6219444,
+    "longitude": -99.3130569
+  },
+  {
+    "city": "Mexico",
+    "country": "Huixquilucan",
+    "latitude": 19.3602778,
+    "longitude": -99.351387
+  },
+  {
+    "city": "Mexico",
+    "country": "Chilpancingo de los Bravos",
+    "latitude": 17.55,
+    "longitude": -99.5
+  },
+  {
+    "city": "United States",
+    "country": "Laredo",
+    "latitude": 27.506407,
+    "longitude": -99.5075455
+  },
+  {
+    "city": "Mexico",
+    "country": "Nuevo Laredo",
+    "latitude": 27.5,
+    "longitude": -99.5166702
+  },
+  {
+    "city": "Mexico",
+    "country": "Iguala de la Independencia",
+    "latitude": 18.35,
+    "longitude": -99.5333328
+  },
+  {
+    "city": "Mexico",
+    "country": "Metepec",
+    "latitude": 19.2536111,
+    "longitude": -99.6077805
+  },
+  {
+    "city": "Mexico",
+    "country": "Toluca",
+    "latitude": 19.2883333,
+    "longitude": -99.6672211
+  },
+  {
+    "city": "Mexico",
+    "country": "Acapulco de Juarez",
+    "latitude": 16.8633624,
+    "longitude": -99.8900986
+  },
+  {
+    "city": "Canada",
+    "country": "Brandon",
+    "latitude": 49.846921,
+    "longitude": -99.953064
+  },
+  {
+    "city": "Mexico",
+    "country": "San Juan del Rio",
+    "latitude": 20.3833333,
+    "longitude": -100
+  },
+  {
+    "city": "Mexico",
+    "country": "Apodaca",
+    "latitude": 25.7666667,
+    "longitude": -100.1999969
+  },
+  {
+    "city": "Mexico",
+    "country": "Guadalupe",
+    "latitude": 25.6833333,
+    "longitude": -100.25
+  },
+  {
+    "city": "Mexico",
+    "country": "San Nicolas de los Garzas",
+    "latitude": 25.75,
+    "longitude": -100.3000031
+  },
+  {
+    "city": "Mexico",
+    "country": "Monterrey",
+    "latitude": 25.6666667,
+    "longitude": -100.3166656
+  },
+  {
+    "city": "Mexico",
+    "country": "General Escobedo",
+    "latitude": 25.8166667,
+    "longitude": -100.3333359
+  },
+  {
+    "city": "Mexico",
+    "country": "Queretaro",
+    "latitude": 20.6,
+    "longitude": -100.3833313
+  },
+  {
+    "city": "Mexico",
+    "country": "Garza Garcia",
+    "latitude": 25.6666667,
+    "longitude": -100.4000015
+  },
+  {
+    "city": "Mexico",
+    "country": "Santa Catarina",
+    "latitude": 25.6833333,
+    "longitude": -100.4666672
+  },
+  {
+    "city": "Mexico",
+    "country": "Piedras Negras",
+    "latitude": 28.7,
+    "longitude": -100.5166702
+  },
+  {
+    "city": "Mexico",
+    "country": "Celaya",
+    "latitude": 20.5166667,
+    "longitude": -100.8166656
+  },
+  {
+    "city": "Mexico",
+    "country": "Ciudad Acuna",
+    "latitude": 29.3,
+    "longitude": -100.9166641
+  },
+  {
+    "city": "Mexico",
+    "country": "Soledad Diez Gutierrez",
+    "latitude": 22.2,
+    "longitude": -100.9499969
+  },
+  {
+    "city": "Mexico",
+    "country": "San Luis Potosi",
+    "latitude": 22.15,
+    "longitude": -100.9833298
+  },
+  {
+    "city": "Mexico",
+    "country": "Saltillo",
+    "latitude": 25.4166667,
+    "longitude": -101
+  },
+  {
+    "city": "Mexico",
+    "country": "Morelia",
+    "latitude": 19.7007789,
+    "longitude": -101.1844254
+  },
+  {
+    "city": "Mexico",
+    "country": "Salamanca",
+    "latitude": 20.5666667,
+    "longitude": -101.1999969
+  },
+  {
+    "city": "Mexico",
+    "country": "Irapuato",
+    "latitude": 20.6833333,
+    "longitude": -101.3499985
+  },
+  {
+    "city": "Mexico",
+    "country": "Monclova",
+    "latitude": 26.9,
+    "longitude": -101.4166641
+  },
+  {
+    "city": "Mexico",
+    "country": "Leon",
+    "latitude": 21.1166667,
+    "longitude": -101.6666641
+  },
+  {
+    "city": "United States",
+    "country": "Lubbock",
+    "latitude": 33.5778631,
+    "longitude": -101.8551636
+  },
+  {
+    "city": "Mexico",
+    "country": "Uruapan del Progreso",
+    "latitude": 19.4166667,
+    "longitude": -102.0666656
+  },
+  {
+    "city": "Mexico",
+    "country": "Zamora de Hidalgo",
+    "latitude": 19.9833333,
+    "longitude": -102.2666702
+  },
+  {
+    "city": "Mexico",
+    "country": "Aguascalientes",
+    "latitude": 21.8833333,
+    "longitude": -102.3000031
+  },
+  {
+    "city": "Mexico",
+    "country": "Zacatecas",
+    "latitude": 22.775588,
+    "longitude": -102.5721817
+  },
+  {
+    "city": "Mexico",
+    "country": "Tonala",
+    "latitude": 20.6166667,
+    "longitude": -103.2333298
+  },
+  {
+    "city": "Mexico",
+    "country": "Tlaquepaque",
+    "latitude": 20.65,
+    "longitude": -103.3166656
+  },
+  {
+    "city": "Mexico",
+    "country": "Guadalajara",
+    "latitude": 20.6666667,
+    "longitude": -103.3333359
+  },
+  {
+    "city": "Mexico",
+    "country": "Zapopan",
+    "latitude": 20.7166667,
+    "longitude": -103.4000015
+  },
+  {
+    "city": "Mexico",
+    "country": "Torreon",
+    "latitude": 25.55,
+    "longitude": -103.4333344
+  },
+  {
+    "city": "Mexico",
+    "country": "Gomez Palacio",
+    "latitude": 25.5666667,
+    "longitude": -103.5
+  },
+  {
+    "city": "Mexico",
+    "country": "Colima",
+    "latitude": 19.2333333,
+    "longitude": -103.7166672
   }
 ]
