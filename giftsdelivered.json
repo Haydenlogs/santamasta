@@ -54928,5 +54928,539 @@
     "country": "Jersey City",
     "latitude": 40.7281575,
     "longitude": -74.0776443
+  },
+  {
+    "city": "Colombi",
+    "country": "Bogota",
+    "latitude": 4.6,
+    "longitude": -74.0833359
+  },
+  {
+    "city": "Haiti",
+    "country": "Port-a-Piment",
+    "latitude": 18.25,
+    "longitude": -74.0999985
+  },
+  {
+    "city": "Haiti",
+    "country": "Jeremie",
+    "latitude": 18.65,
+    "longitude": -74.1166687
+  },
+  {
+    "city": "Canada",
+    "country": "Salaberry-de-Valleyfield",
+    "latitude": 45.2500834,
+    "longitude": -74.1325378
+  },
+  {
+    "city": "Haiti",
+    "country": "Chardonniere",
+    "latitude": 18.2666667,
+    "longitude": -74.1666641
+  },
+  {
+    "city": "United States",
+    "country": "Newark",
+    "latitude": 40.735657,
+    "longitude": -74.1723633
+  },
+  {
+    "city": "Colombi",
+    "country": "Fundacion",
+    "latitude": 10.5213889,
+    "longitude": -74.1866684
+  },
+  {
+    "city": "Colombi",
+    "country": "Santa Marta",
+    "latitude": 11.2472222,
+    "longitude": -74.2016678
+  },
+  {
+    "city": "Haiti",
+    "country": "Les Anglais",
+    "latitude": 18.3,
+    "longitude": -74.2166672
+  },
+  {
+    "city": "Colombi",
+    "country": "Funza",
+    "latitude": 4.7166667,
+    "longitude": -74.2166672
+  },
+  {
+    "city": "Colombi",
+    "country": "Soacha",
+    "latitude": 4.5872222,
+    "longitude": -74.2213898
+  },
+  {
+    "city": "Peru",
+    "country": "Ayacucho",
+    "latitude": -13.1583333,
+    "longitude": -74.2238922
+  },
+  {
+    "city": "Haiti",
+    "country": "Moron",
+    "latitude": 18.5666667,
+    "longitude": -74.25
+  },
+  {
+    "city": "Peru",
+    "country": "Huanta",
+    "latitude": -12.9333333,
+    "longitude": -74.25
+  },
+  {
+    "city": "Colombi",
+    "country": "Cienaga",
+    "latitude": 11.0094444,
+    "longitude": -74.2541656
+  },
+  {
+    "city": "Colombi",
+    "country": "Madrid",
+    "latitude": 4.7344444,
+    "longitude": -74.2683334
+  },
+  {
+    "city": "Haiti",
+    "country": "Abricots",
+    "latitude": 18.6333333,
+    "longitude": -74.3000031
+  },
+  {
+    "city": "Haiti",
+    "country": "Chambellan",
+    "latitude": 18.5666667,
+    "longitude": -74.3166656
+  },
+  {
+    "city": "Colombi",
+    "country": "Facatativa",
+    "latitude": 4.8166667,
+    "longitude": -74.3666687
+  },
+  {
+    "city": "Colombi",
+    "country": "Fusagasuga",
+    "latitude": 4.3438889,
+    "longitude": -74.367775
+  },
+  {
+    "city": "Haiti",
+    "country": "Tiburon",
+    "latitude": 18.3333333,
+    "longitude": -74.4000015
+  },
+  {
+    "city": "Haiti",
+    "country": "Dame-Marie",
+    "latitude": 18.5666667,
+    "longitude": -74.4166641
+  },
+  {
+    "city": "Haiti",
+    "country": "Les Irois",
+    "latitude": 18.4,
+    "longitude": -74.4499969
+  },
+  {
+    "city": "Cuba",
+    "country": "Baracoa",
+    "latitude": 20.3466667,
+    "longitude": -74.4958344
+  },
+  {
+    "city": "Peru",
+    "country": "Pucallpa",
+    "latitude": -8.3791474,
+    "longitude": -74.5538635
+  },
+  {
+    "city": "Peru",
+    "country": "Satipo",
+    "latitude": -11.2522222,
+    "longitude": -74.6386108
+  },
+  {
+    "city": "Colombi",
+    "country": "La Dorada",
+    "latitude": 5.4522222,
+    "longitude": -74.6691666
+  },
+  {
+    "city": "Colombi",
+    "country": "Segovia",
+    "latitude": 7.0833333,
+    "longitude": -74.7036133
+  },
+  {
+    "city": "Canada",
+    "country": "Cornwall",
+    "latitude": 45.0333933,
+    "longitude": -74.7325821
+  },
+  {
+    "city": "Colombi",
+    "country": "Magangue",
+    "latitude": 9.2413889,
+    "longitude": -74.753334
+  },
+  {
+    "city": "Colombi",
+    "country": "Soledad",
+    "latitude": 10.9172222,
+    "longitude": -74.7666702
+  },
+  {
+    "city": "Colombi",
+    "country": "Malambo",
+    "latitude": 10.8588889,
+    "longitude": -74.773056
+  },
+  {
+    "city": "Colombi",
+    "country": "Plato",
+    "latitude": 9.7919444,
+    "longitude": -74.7872238
+  },
+  {
+    "city": "Colombi",
+    "country": "Barranquilla",
+    "latitude": 10.9638889,
+    "longitude": -74.7963867
+  },
+  {
+    "city": "Colombi",
+    "country": "Girardot",
+    "latitude": 4.3030556,
+    "longitude": -74.8008347
+  },
+  {
+    "city": "Colombi",
+    "country": "El Bagre",
+    "latitude": 7.5941667,
+    "longitude": -74.8119431
+  },
+  {
+    "city": "Colombi",
+    "country": "Espinal",
+    "latitude": 4.1527778,
+    "longitude": -74.8886108
+  },
+  {
+    "city": "Colombi",
+    "country": "Baranoa",
+    "latitude": 10.7997222,
+    "longitude": -74.918335
+  },
+  {
+    "city": "Colombi",
+    "country": "Sabanalarga",
+    "latitude": 10.6377778,
+    "longitude": -74.9227753
+  },
+  {
+    "city": "Cuba",
+    "country": "Moa",
+    "latitude": 20.6569444,
+    "longitude": -74.9402771
+  },
+  {
+    "city": "Peru",
+    "country": "Nazca",
+    "latitude": -14.8333333,
+    "longitude": -74.9499969
+  },
+  {
+    "city": "Peru",
+    "country": "Huancavelica",
+    "latitude": -12.7666667,
+    "longitude": -74.9833298
+  },
+  {
+    "city": "Cuba",
+    "country": "Rio Guayabal de Yateras",
+    "latitude": 20.3666667,
+    "longitude": -75.0166702
+  },
+  {
+    "city": "Colombi",
+    "country": "El Carmen de Bolivar",
+    "latitude": 9.7222222,
+    "longitude": -75.1330566
+  },
+  {
+    "city": "United States",
+    "country": "Philadelphia",
+    "latitude": 39.952335,
+    "longitude": -75.1637878
+  },
+  {
+    "city": "Colombi",
+    "country": "Caucasia",
+    "latitude": 7.9869444,
+    "longitude": -75.1972198
+  },
+  {
+    "city": "Cuba",
+    "country": "Guantanamo",
+    "latitude": 20.1444444,
+    "longitude": -75.2091675
+  },
+  {
+    "city": "Colombi",
+    "country": "Ibague",
+    "latitude": 4.4388889,
+    "longitude": -75.2322235
+  },
+  {
+    "city": "Peru",
+    "country": "Huancayo",
+    "latitude": -12.0666667,
+    "longitude": -75.2333298
+  },
+  {
+    "city": "Cuba",
+    "country": "Sagua de Tanamo",
+    "latitude": 20.5819444,
+    "longitude": -75.2413864
+  },
+  {
+    "city": "Colombi",
+    "country": "Corozal",
+    "latitude": 9.3177778,
+    "longitude": -75.2958298
+  },
+  {
+    "city": "Colombi",
+    "country": "Neiva",
+    "latitude": 2.9305556,
+    "longitude": -75.3302765
+  },
+  {
+    "city": "Colombi",
+    "country": "Arjona",
+    "latitude": 10.2544444,
+    "longitude": -75.3438873
+  },
+  {
+    "city": "Colombi",
+    "country": "Rionegro",
+    "latitude": 6.1552778,
+    "longitude": -75.3888855
+  },
+  {
+    "city": "Colombi",
+    "country": "Sincelejo",
+    "latitude": 9.3047222,
+    "longitude": -75.3977814
+  },
+  {
+    "city": "Colombi",
+    "country": "Turbaco",
+    "latitude": 10.3294444,
+    "longitude": -75.4083328
+  },
+  {
+    "city": "Colombi",
+    "country": "Sahagun",
+    "latitude": 8.9494444,
+    "longitude": -75.4477768
+  },
+  {
+    "city": "Peru",
+    "country": "Jauja",
+    "latitude": -11.8,
+    "longitude": -75.5
+  },
+  {
+    "city": "Colombi",
+    "country": "Copacabana",
+    "latitude": 6.3488889,
+    "longitude": -75.5130539
+  },
+  {
+    "city": "Colombi",
+    "country": "Cartagena",
+    "latitude": 10.3997222,
+    "longitude": -75.5144424
+  },
+  {
+    "city": "Colombi",
+    "country": "Manizales",
+    "latitude": 5.07,
+    "longitude": -75.5205536
+  },
+  {
+    "city": "Colombi",
+    "country": "Medellin",
+    "latitude": 6.2913889,
+    "longitude": -75.5361099
+  },
+  {
+    "city": "Colombi",
+    "country": "Bello",
+    "latitude": 6.3388889,
+    "longitude": -75.5622253
+  },
+  {
+    "city": "Colombi",
+    "country": "Envigado",
+    "latitude": 6.1730556,
+    "longitude": -75.5638885
+  },
+  {
+    "city": "Colombi",
+    "country": "Planeta Rica",
+    "latitude": 8.4147222,
+    "longitude": -75.5883331
+  },
+  {
+    "city": "Colombi",
+    "country": "Chinchina",
+    "latitude": 4.9825,
+    "longitude": -75.6036148
+  },
+  {
+    "city": "Colombi",
+    "country": "Itagui",
+    "latitude": 6.1719444,
+    "longitude": -75.6113892
+  },
+  {
+    "city": "Colombi",
+    "country": "Florencia",
+    "latitude": 1.6175,
+    "longitude": -75.6175003
+  },
+  {
+    "city": "Colombi",
+    "country": "Santa Rosa de Cabal",
+    "latitude": 4.8680556,
+    "longitude": -75.6213913
+  },
+  {
+    "city": "Colombi",
+    "country": "Caldas",
+    "latitude": 6.09,
+    "longitude": -75.6374969
+  },
+  {
+    "city": "Colombi",
+    "country": "Calarca",
+    "latitude": 4.5325,
+    "longitude": -75.6436081
+  },
+  {
+    "city": "Colombi",
+    "country": "La Estrella",
+    "latitude": 6.1605556,
+    "longitude": -75.6469421
+  },
+  {
+    "city": "Colombi",
+    "country": "Dos Quebradas",
+    "latitude": 4.8347222,
+    "longitude": -75.6725006
+  },
+  {
+    "city": "Colombi",
+    "country": "Armenia",
+    "latitude": 4.5338889,
+    "longitude": -75.6811142
+  },
+  {
+    "city": "Canada",
+    "country": "Brockville",
+    "latitude": 44.5834124,
+    "longitude": -75.6826401
+  },
+  {
+    "city": "Canada",
+    "country": "Ottawa",
+    "latitude": 45.4209405,
+    "longitude": -75.6902847
+  },
+  {
+    "city": "Peru",
+    "country": "Tarma",
+    "latitude": -11.4197222,
+    "longitude": -75.690834
+  },
+  {
+    "city": "Colombi",
+    "country": "Pereira",
+    "latitude": 4.8133333,
+    "longitude": -75.6961136
+  },
+  {
+    "city": "Cuba",
+    "country": "Banes",
+    "latitude": 20.9625,
+    "longitude": -75.7186127
+  },
+  {
+    "city": "Peru",
+    "country": "Ica",
+    "latitude": -14.0680556,
+    "longitude": -75.7255554
+  },
+  {
+    "city": "Colombi",
+    "country": "Cerete",
+    "latitude": 8.8855556,
+    "longitude": -75.796669
+  },
+  {
+    "city": "Colombi",
+    "country": "Lorica",
+    "latitude": 9.2316667,
+    "longitude": -75.819725
+  },
+  {
+    "city": "Cuba",
+    "country": "Santiago de Cuba",
+    "latitude": 20.0247222,
+    "longitude": -75.8219452
+  },
+  {
+    "city": "Cuba",
+    "country": "San Luis",
+    "latitude": 20.1875,
+    "longitude": -75.8508301
+  },
+  {
+    "city": "Colombi",
+    "country": "Monteria",
+    "latitude": 8.7575,
+    "longitude": -75.8899994
+  },
+  {
+    "city": "Peru",
+    "country": "La Oroya",
+    "latitude": -11.5333333,
+    "longitude": -75.9000015
+  },
+  {
+    "city": "Colombi",
+    "country": "Cartago",
+    "latitude": 4.7463889,
+    "longitude": -75.9116669
+  },
+  {
+    "city": "Cuba",
+    "country": "Cueto",
+    "latitude": 20.6438889,
+    "longitude": -75.9355545
+  },
+  {
+    "city": "Colombi",
+    "country": "Sevilla",
+    "latitude": 4.2688889,
+    "longitude": -75.9361115
   }
 ]
