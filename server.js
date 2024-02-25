@@ -5,6 +5,43 @@ const ejs = require("ejs");
 
 const app = express();
 app.locals.clients = []; // Initialize clients array
+let liveUsers = 0; // Initialize live users count
+// Function to send SSE updates to all clients
+function sendSSEUpdate(data) {
+  app.locals.clients.forEach(client => {
+    client.res.write(`data: ${JSON.stringify(data)}\n\n`);
+  });
+}
+
+// Endpoint to track live users
+app.get("/updates2", (req, res) => {
+  res.setHeader("Content-Type", "text/event-stream");
+  res.setHeader("Cache-Control", "no-cache");
+  res.setHeader("Connection", "keep-alive");
+  res.flushHeaders();
+
+  // Increment live users count and send updates
+  liveUsers++;
+  sendSSEUpdate({ liveUsers });
+
+  const clientId = Date.now();
+  const client = { id: clientId, res };
+  app.locals.clients.push(client);
+
+  // Send initial live users count to the client
+  res.write(`data: ${JSON.stringify({ liveUsers })}\n\n`);
+
+  // Handle client disconnect
+  req.on("close", () => {
+    // Decrement live users count and send updates when client disconnects
+    liveUsers--;
+    sendSSEUpdate({ liveUsers });
+
+    // Remove the client from the clients array
+    app.locals.clients = app.locals.clients.filter(c => c.id !== clientId);
+  });
+});
+
 
 let cities = [];
 let currentIndex;
