@@ -2,14 +2,19 @@ const express = require("express");
 const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
+const session = require("express-session");
 
 const app = express();
 app.locals.clients = []; // Initialize clients array
 let liveUsers = 0; // Initialize live users count
-// Function to send SSE updates to all clients
-function sendSSEUpdate(data) {
+
+// Function to send live user count updates to all clients
+function sendLiveUserCount() {
+  const timestamp = new Date().toISOString();
+  const data = JSON.stringify({ liveUsers, timestamp });
+
   app.locals.clients.forEach(client => {
-    client.res.write(`data: ${JSON.stringify(data)}\n\n`);
+    client.res.write(`data: ${data}\n\n`);
   });
 }
 
@@ -20,28 +25,23 @@ app.get("/updates2", (req, res) => {
   res.setHeader("Connection", "keep-alive");
   res.flushHeaders();
 
-  // Increment live users count and send updates
+  // Increment live users count and send it to the client
   liveUsers++;
-  sendSSEUpdate({ liveUsers });
+  sendLiveUserCount();
 
-  const clientId = Date.now();
-  const client = { id: clientId, res };
+  const client = { id: Date.now(), res };
   app.locals.clients.push(client);
-
-  // Send initial live users count to the client
-  res.write(`data: ${JSON.stringify({ liveUsers })}\n\n`);
 
   // Handle client disconnect
   req.on("close", () => {
-    // Decrement live users count and send updates when client disconnects
+    // Decrement live users count when client disconnects
     liveUsers--;
-    sendSSEUpdate({ liveUsers });
-
     // Remove the client from the clients array
-    app.locals.clients = app.locals.clients.filter(c => c.id !== clientId);
+    app.locals.clients = app.locals.clients.filter(c => c.id !== client.id);
+    // Send updated live user count to all clients
+    sendLiveUserCount();
   });
 });
-
 
 let cities = [];
 let currentIndex;
