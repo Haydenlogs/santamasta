@@ -19714,5 +19714,539 @@
     "country": "Muscat",
     "latitude": 23.6133333,
     "longitude": 58.5933342
+  },
+  {
+    "city": "Russia",
+    "country": "Orsk",
+    "latitude": 51.2252778,
+    "longitude": 58.5699997
+  },
+  {
+    "city": "Oman",
+    "country": "Ibra",
+    "latitude": 22.6902778,
+    "longitude": 58.5469437
+  },
+  {
+    "city": "Iran",
+    "country": "Quchan",
+    "latitude": 37.1069444,
+    "longitude": 58.5097237
+  },
+  {
+    "city": "Iran",
+    "country": "Kashmar",
+    "latitude": 35.2363889,
+    "longitude": 58.481945
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Khromtau",
+    "latitude": 50.2502778,
+    "longitude": 58.4347229
+  },
+  {
+    "city": "Oman",
+    "country": "Bawshar",
+    "latitude": 23.5316667,
+    "longitude": 58.3894463
+  },
+  {
+    "city": "Iran",
+    "country": "Bam",
+    "latitude": 29.1077778,
+    "longitude": 58.3619461
+  },
+  {
+    "city": "Oman",
+    "country": "As Sib",
+    "latitude": 23.6802778,
+    "longitude": 58.1824989
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Emba",
+    "latitude": 48.8263889,
+    "longitude": 58.144165
+  },
+  {
+    "city": "Oman",
+    "country": "Bidbid",
+    "latitude": 23.4063889,
+    "longitude": 58.1263885
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grande Riviere Sud Est",
+    "latitude": -20.2861111,
+    "longitude": 57.7758331
+  },
+  {
+    "city": "Mauritius",
+    "country": "Quatre Soeurs",
+    "latitude": -20.2991667,
+    "longitude": 57.7705574
+  },
+  {
+    "city": "Oman",
+    "country": "Izki",
+    "latitude": 22.9333333,
+    "longitude": 57.7666664
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Sable",
+    "latitude": -20.3141667,
+    "longitude": 57.7644463
+  },
+  {
+    "city": "Mauritius",
+    "country": "Quatre Cocos",
+    "latitude": -20.2077778,
+    "longitude": 57.7625008
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bambous Virieux",
+    "latitude": -20.3427778,
+    "longitude": 57.7574997
+  },
+  {
+    "city": "Mauritius",
+    "country": "Mare La Chaux",
+    "latitude": -20.1980556,
+    "longitude": 57.7494431
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp Ithier",
+    "latitude": -20.2158333,
+    "longitude": 57.7455559
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bel Air",
+    "latitude": -20.2541667,
+    "longitude": 57.7452774
+  },
+  {
+    "city": "Mauritius",
+    "country": "Ecroignard",
+    "latitude": -20.2261111,
+    "longitude": 57.7361107
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bois des Amourettes",
+    "latitude": -20.3630556,
+    "longitude": 57.7311096
+  },
+  {
+    "city": "Mauritius",
+    "country": "Poste de Flacq",
+    "latitude": -20.1630556,
+    "longitude": 57.7305565
+  },
+  {
+    "city": "Mauritius",
+    "country": "Olivia",
+    "latitude": -20.2975,
+    "longitude": 57.7255554
+  },
+  {
+    "city": "Mauritius",
+    "country": "Centre de Flacq",
+    "latitude": -20.1897222,
+    "longitude": 57.7144432
+  },
+  {
+    "city": "Mauritius",
+    "country": "Roches Noire",
+    "latitude": -20.1111111,
+    "longitude": 57.7122231
+  },
+  {
+    "city": "Mauritius",
+    "country": "Queen Victoria",
+    "latitude": -20.22,
+    "longitude": 57.7075005
+  },
+  {
+    "city": "Mauritius",
+    "country": "Clemencia",
+    "latitude": -20.2638889,
+    "longitude": 57.7061119
+  },
+  {
+    "city": "Mauritius",
+    "country": "Mahebourg",
+    "latitude": -20.4080556,
+    "longitude": 57.7000008
+  },
+  {
+    "city": "Mauritius",
+    "country": "Beau Vallon",
+    "latitude": -20.4188889,
+    "longitude": 57.6952782
+  },
+  {
+    "city": "Mauritius",
+    "country": "Plaines des Roches",
+    "latitude": -20.1116667,
+    "longitude": 57.690834
+  },
+  {
+    "city": "Mauritius",
+    "country": "Sebastopol",
+    "latitude": -20.2888889,
+    "longitude": 57.6875
+  },
+  {
+    "city": "Mauritius",
+    "country": "Riviere du Rempart",
+    "latitude": -20.1030556,
+    "longitude": 57.6847229
+  },
+  {
+    "city": "Iran",
+    "country": "Sabzevar",
+    "latitude": 36.2144444,
+    "longitude": 57.6797218
+  },
+  {
+    "city": "Mauritius",
+    "country": "Laventure",
+    "latitude": -20.1458333,
+    "longitude": 57.6766663
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp de Masque",
+    "latitude": -20.2369444,
+    "longitude": 57.6633339
+  },
+  {
+    "city": "Mauritius",
+    "country": "Lalmatie",
+    "latitude": -20.1897222,
+    "longitude": 57.6611099
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Gaube",
+    "latitude": -20.0063889,
+    "longitude": 57.6608315
+  },
+  {
+    "city": "Mauritius",
+    "country": "Amaury",
+    "latitude": -20.1308333,
+    "longitude": 57.6591682
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bon Accueil",
+    "latitude": -20.1708333,
+    "longitude": 57.6563873
+  },
+  {
+    "city": "Mauritius",
+    "country": "Montagne Blanche",
+    "latitude": -20.2827778,
+    "longitude": 57.6544456
+  },
+  {
+    "city": "Mauritius",
+    "country": "Plaine Magnien",
+    "latitude": -20.4286111,
+    "longitude": 57.6530571
+  },
+  {
+    "city": "Mauritius",
+    "country": "Brisee Verdiere",
+    "latitude": -20.1638889,
+    "longitude": 57.6466675
+  },
+  {
+    "city": "Mauritius",
+    "country": "Roche Terre",
+    "latitude": -20.0186111,
+    "longitude": 57.644722
+  },
+  {
+    "city": "Mauritius",
+    "country": "Goodlands",
+    "latitude": -20.035,
+    "longitude": 57.643055
+  },
+  {
+    "city": "Mauritius",
+    "country": "Esperance Trebuchet",
+    "latitude": -20.0697222,
+    "longitude": 57.6419449
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Hubert",
+    "latitude": -20.3641667,
+    "longitude": 57.6383324
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Julien",
+    "latitude": -20.2263889,
+    "longitude": 57.6363907
+  },
+  {
+    "city": "Mauritius",
+    "country": "Melrose",
+    "latitude": -20.2697222,
+    "longitude": 57.6319427
+  },
+  {
+    "city": "Mauritius",
+    "country": "Piton",
+    "latitude": -20.0902778,
+    "longitude": 57.6302795
+  },
+  {
+    "city": "Mauritius",
+    "country": "Cottage",
+    "latitude": -20.0597222,
+    "longitude": 57.6291656
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp Thorel",
+    "latitude": -20.2147222,
+    "longitude": 57.6161118
+  },
+  {
+    "city": "Mauritius",
+    "country": "Cap Malheureux",
+    "latitude": -19.9841667,
+    "longitude": 57.6141663
+  },
+  {
+    "city": "Mauritius",
+    "country": "New Grove",
+    "latitude": -20.4086111,
+    "longitude": 57.6136093
+  },
+  {
+    "city": "Mauritius",
+    "country": "Providence",
+    "latitude": -20.2447222,
+    "longitude": 57.6122208
+  },
+  {
+    "city": "Mauritius",
+    "country": "Petit Raffray",
+    "latitude": -20.0133333,
+    "longitude": 57.6119461
+  },
+  {
+    "city": "Mauritius",
+    "country": "Cluny",
+    "latitude": -20.3669444,
+    "longitude": 57.6038895
+  },
+  {
+    "city": "Mauritius",
+    "country": "Mapou",
+    "latitude": -20.0758333,
+    "longitude": 57.601387
+  },
+  {
+    "city": "Mauritius",
+    "country": "Rose Belle",
+    "latitude": -20.4002778,
+    "longitude": 57.5966682
+  },
+  {
+    "city": "Mauritius",
+    "country": "Dubreuil",
+    "latitude": -20.2975,
+    "longitude": 57.5950012
+  },
+  {
+    "city": "Mauritius",
+    "country": "Congomah",
+    "latitude": -20.1488889,
+    "longitude": 57.5908318
+  },
+  {
+    "city": "Mauritius",
+    "country": "Quartier Militaire",
+    "latitude": -20.2438889,
+    "longitude": 57.5891685
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bananes",
+    "latitude": -20.3466667,
+    "longitude": 57.5886116
+  },
+  {
+    "city": "Mauritius",
+    "country": "The Vale",
+    "latitude": -20.0283333,
+    "longitude": 57.5877762
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp Diable",
+    "latitude": -20.4627778,
+    "longitude": 57.5788879
+  },
+  {
+    "city": "Mauritius",
+    "country": "Fond du Sac",
+    "latitude": -20.0430556,
+    "longitude": 57.5786095
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Baie",
+    "latitude": -20.0136111,
+    "longitude": 57.5738907
+  },
+  {
+    "city": "Mauritius",
+    "country": "Plaine des Papayes",
+    "latitude": -20.065,
+    "longitude": 57.5724983
+  },
+  {
+    "city": "Mauritius",
+    "country": "Pamplemousses",
+    "latitude": -20.1038889,
+    "longitude": 57.5702782
+  },
+  {
+    "city": "Mauritius",
+    "country": "Long Mountain",
+    "latitude": -20.1430556,
+    "longitude": 57.5622215
+  },
+  {
+    "city": "Mauritius",
+    "country": "Nouvelle France",
+    "latitude": -20.3705556,
+    "longitude": 57.5611115
+  },
+  {
+    "city": "Mauritius",
+    "country": "Midlands",
+    "latitude": -20.3325,
+    "longitude": 57.5583344
+  },
+  {
+    "city": "Mauritius",
+    "country": "Morcellemont Saint Andre",
+    "latitude": -20.0730556,
+    "longitude": 57.5580559
+  },
+  {
+    "city": "Mauritius",
+    "country": "Creve Coeur",
+    "latitude": -20.1911111,
+    "longitude": 57.5572205
+  },
+  {
+    "city": "Mauritius",
+    "country": "La Dagotiere",
+    "latitude": -20.2444444,
+    "longitude": 57.5541649
+  },
+  {
+    "city": "Mauritius",
+    "country": "Calebasses",
+    "latitude": -20.1116667,
+    "longitude": 57.5538902
+  },
+  {
+    "city": "Mauritius",
+    "country": "Notre Dame",
+    "latitude": -20.1405556,
+    "longitude": 57.5530548
+  },
+  {
+    "city": "Mauritius",
+    "country": "Riviere des Anguilles",
+    "latitude": -20.4852778,
+    "longitude": 57.5508347
+  },
+  {
+    "city": "Mauritius",
+    "country": "Triolet",
+    "latitude": -20.0547222,
+    "longitude": 57.5452766
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Bois",
+    "latitude": -20.4188889,
+    "longitude": 57.5441666
+  },
+  {
+    "city": "Mauritius",
+    "country": "Verdun",
+    "latitude": -20.2283333,
+    "longitude": 57.5438881
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Aubin",
+    "latitude": -20.4916667,
+    "longitude": 57.5413895
+  },
+  {
+    "city": "Mauritius",
+    "country": "Arsenal",
+    "latitude": -20.1055556,
+    "longitude": 57.5352783
+  },
+  {
+    "city": "Oman",
+    "country": "Nizwa",
+    "latitude": 22.9333333,
+    "longitude": 57.5333328
+  },
+  {
+    "city": "Oman",
+    "country": "Adam",
+    "latitude": 22.3833333,
+    "longitude": 57.5333328
+  },
+  {
+    "city": "Oman",
+    "country": "Bayt al `Awabi",
+    "latitude": 23.2997222,
+    "longitude": 57.5294456
+  },
+  {
+    "city": "Mauritius",
+    "country": "Terre Rouge",
+    "latitude": -20.1261111,
+    "longitude": 57.5244446
+  },
+  {
+    "city": "Mauritius",
+    "country": "Le Hochet",
+    "latitude": -20.135,
+    "longitude": 57.5211105
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Pierre",
+    "latitude": -20.2175,
+    "longitude": 57.5208321
+  },
+  {
+    "city": "Mauritius",
+    "country": "Curepipe",
+    "latitude": -20.3147222,
+    "longitude": 57.5202789
   }
 ]
