@@ -17038,5 +17038,539 @@
     "country": "Mulleriyawa",
     "latitude": 6.9333333,
     "longitude": 79.9333344
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Maharagama",
+    "latitude": 6.8461111,
+    "longitude": 79.9280548
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Sarkand",
+    "latitude": 45.41,
+    "longitude": 79.9186096
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kotikawatta",
+    "latitude": 6.9333333,
+    "longitude": 79.9166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Battaramulla",
+    "latitude": 6.9,
+    "longitude": 79.9166641
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Sri Jayewardenepura Kotte",
+    "latitude": 6.9027778,
+    "longitude": 79.9083328
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Panadura",
+    "latitude": 6.7133333,
+    "longitude": 79.9041672
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Welisara",
+    "latitude": 7.0333333,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Peliyagoda",
+    "latitude": 6.95,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Pita Kotte",
+    "latitude": 6.8833333,
+    "longitude": 79.9000015
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kelaniya",
+    "latitude": 6.96,
+    "longitude": 79.8977814
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Ja-Ela",
+    "latitude": 7.0844444,
+    "longitude": 79.894722
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kolonnawa",
+    "latitude": 6.9316667,
+    "longitude": 79.8944473
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Kandana",
+    "latitude": 7.0477778,
+    "longitude": 79.8938904
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Wattala",
+    "latitude": 6.9897222,
+    "longitude": 79.8933334
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Moratuwa",
+    "latitude": 6.7733333,
+    "longitude": 79.8824997
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Hendala",
+    "latitude": 6.9838889,
+    "longitude": 79.8763885
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Katunayaka",
+    "latitude": 7.1647222,
+    "longitude": 79.8730545
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Galkissa",
+    "latitude": 6.8333333,
+    "longitude": 79.8666687
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Colombo",
+    "latitude": 6.9319444,
+    "longitude": 79.8477783
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Negombo",
+    "latitude": 7.2086111,
+    "longitude": 79.8358307
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Puttalam",
+    "latitude": 8.0333333,
+    "longitude": 79.8166656
+  },
+  {
+    "city": "Sri Lanka",
+    "country": "Chilaw",
+    "latitude": 7.5758333,
+    "longitude": 79.7952805
+  },
+  {
+    "city": "India",
+    "country": "Warangal",
+    "latitude": 18,
+    "longitude": 79.5833359
+  },
+  {
+    "city": "India",
+    "country": "Bareilly",
+    "latitude": 28.35,
+    "longitude": 79.4166641
+  },
+  {
+    "city": "India",
+    "country": "Nagpur",
+    "latitude": 21.15,
+    "longitude": 79.0999985
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Tekeli",
+    "latitude": 44.83,
+    "longitude": 78.8238907
+  },
+  {
+    "city": "India",
+    "country": "Moradabad",
+    "latitude": 28.8333333,
+    "longitude": 78.7833328
+  },
+  {
+    "city": "India",
+    "country": "Tiruchchirappalli",
+    "latitude": 10.8166667,
+    "longitude": 78.6833344
+  },
+  {
+    "city": "India",
+    "country": "Jhansi",
+    "latitude": 25.4333333,
+    "longitude": 78.5833359
+  },
+  {
+    "city": "India",
+    "country": "Hyderabad",
+    "latitude": 17.3752778,
+    "longitude": 78.4744415
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Balpyk Bi",
+    "latitude": 44.8947222,
+    "longitude": 78.2083359
+  },
+  {
+    "city": "India",
+    "country": "Gwalior",
+    "latitude": 26.2236111,
+    "longitude": 78.1791687
+  },
+  {
+    "city": "India",
+    "country": "Salem",
+    "latitude": 11.65,
+    "longitude": 78.1666641
+  },
+  {
+    "city": "India",
+    "country": "Madurai",
+    "latitude": 9.9333333,
+    "longitude": 78.1166687
+  },
+  {
+    "city": "India",
+    "country": "Aligarh",
+    "latitude": 27.8833333,
+    "longitude": 78.0833359
+  },
+  {
+    "city": "India",
+    "country": "Dehra Dun",
+    "latitude": 30.3166667,
+    "longitude": 78.0333328
+  },
+  {
+    "city": "India",
+    "country": "Agra",
+    "latitude": 27.1833333,
+    "longitude": 78.0166702
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ushtobe",
+    "latitude": 45.2422222,
+    "longitude": 77.9822235
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Saryozek",
+    "latitude": 44.3583333,
+    "longitude": 77.9752808
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Taldyqorghan",
+    "latitude": 45,
+    "longitude": 77.9166641
+  },
+  {
+    "city": "India",
+    "country": "Amravati",
+    "latitude": 20.9333333,
+    "longitude": 77.75
+  },
+  {
+    "city": "India",
+    "country": "Meerut",
+    "latitude": 28.9833333,
+    "longitude": 77.6999969
+  },
+  {
+    "city": "India",
+    "country": "Tirunelveli",
+    "latitude": 8.7333333,
+    "longitude": 77.6999969
+  },
+  {
+    "city": "India",
+    "country": "Bengaluru",
+    "latitude": 12.9762267,
+    "longitude": 77.6032944
+  },
+  {
+    "city": "India",
+    "country": "Saharanpur",
+    "latitude": 29.9666667,
+    "longitude": 77.5500031
+  },
+  {
+    "city": "India",
+    "country": "Teni",
+    "latitude": 10,
+    "longitude": 77.4833298
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Yesik",
+    "latitude": 43.355,
+    "longitude": 77.4633331
+  },
+  {
+    "city": "India",
+    "country": "Ghaziabad",
+    "latitude": 28.6666667,
+    "longitude": 77.4333344
+  },
+  {
+    "city": "India",
+    "country": "Bhopal",
+    "latitude": 23.2666667,
+    "longitude": 77.4000015
+  },
+  {
+    "city": "India",
+    "country": "Tiruppur",
+    "latitude": 11.1,
+    "longitude": 77.3499985
+  },
+  {
+    "city": "India",
+    "country": "Faridabad",
+    "latitude": 28.4333333,
+    "longitude": 77.3166656
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Talghar",
+    "latitude": 43.3044444,
+    "longitude": 77.2327805
+  },
+  {
+    "city": "India",
+    "country": "Delhi",
+    "latitude": 28.6666667,
+    "longitude": 77.2166672
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Kapchagai",
+    "latitude": 43.8833333,
+    "longitude": 77.0833359
+  },
+  {
+    "city": "India",
+    "country": "Akola",
+    "latitude": 20.7333333,
+    "longitude": 77
+  },
+  {
+    "city": "India",
+    "country": "Coimbatore",
+    "latitude": 11,
+    "longitude": 76.9666672
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Pavlodar",
+    "latitude": 52.3,
+    "longitude": 76.9499969
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Almaty",
+    "latitude": 43.25,
+    "longitude": 76.9499969
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Aqsu",
+    "latitude": 52.0333333,
+    "longitude": 76.9166641
+  },
+  {
+    "city": "India",
+    "country": "Thiruvananthapuram",
+    "latitude": 8.4833333,
+    "longitude": 76.9166641
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Burunday",
+    "latitude": 43.3602778,
+    "longitude": 76.8577805
+  },
+  {
+    "city": "India",
+    "country": "Gulbarga",
+    "latitude": 17.3333333,
+    "longitude": 76.8333359
+  },
+  {
+    "city": "India",
+    "country": "Chandigarh",
+    "latitude": 30.7372222,
+    "longitude": 76.7872238
+  },
+  {
+    "city": "India",
+    "country": "Mysore",
+    "latitude": 12.3072222,
+    "longitude": 76.6497192
+  },
+  {
+    "city": "India",
+    "country": "Quilon",
+    "latitude": 8.8833333,
+    "longitude": 76.5999985
+  },
+  {
+    "city": "Russia",
+    "country": "Nizhnevartovsk",
+    "latitude": 60.9333333,
+    "longitude": 76.5666656
+  },
+  {
+    "city": "India",
+    "country": "Cochin",
+    "latitude": 9.9666667,
+    "longitude": 76.2333298
+  },
+  {
+    "city": "India",
+    "country": "Solapur",
+    "latitude": 17.6833333,
+    "longitude": 75.9166641
+  },
+  {
+    "city": "India",
+    "country": "Ludhiana",
+    "latitude": 30.9,
+    "longitude": 75.8499985
+  },
+  {
+    "city": "India",
+    "country": "Kota",
+    "latitude": 25.1833333,
+    "longitude": 75.8333359
+  },
+  {
+    "city": "India",
+    "country": "Indore",
+    "latitude": 22.7179235,
+    "longitude": 75.8332977
+  },
+  {
+    "city": "India",
+    "country": "Jaipur",
+    "latitude": 26.9166667,
+    "longitude": 75.8166656
+  },
+  {
+    "city": "India",
+    "country": "Ujjain",
+    "latitude": 23.1833333,
+    "longitude": 75.7666702
+  },
+  {
+    "city": "India",
+    "country": "Calicut",
+    "latitude": 11.25,
+    "longitude": 75.7666702
+  },
+  {
+    "city": "India",
+    "country": "Gorakhpur",
+    "latitude": 29.45,
+    "longitude": 75.6833344
+  },
+  {
+    "city": "India",
+    "country": "Jalandhar",
+    "latitude": 31.3255556,
+    "longitude": 75.5791702
+  },
+  {
+    "city": "India",
+    "country": "Jalgaon",
+    "latitude": 21.0166667,
+    "longitude": 75.5666656
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ekibastuz",
+    "latitude": 51.6666667,
+    "longitude": 75.3666687
+  },
+  {
+    "city": "India",
+    "country": "Aurangabad",
+    "latitude": 19.8833333,
+    "longitude": 75.3333359
+  },
+  {
+    "city": "India",
+    "country": "Hubli",
+    "latitude": 15.35,
+    "longitude": 75.1666641
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Balkhash",
+    "latitude": 46.8480556,
+    "longitude": 74.9950027
+  },
+  {
+    "city": "Pakistan",
+    "country": "Narowal",
+    "latitude": 32.1,
+    "longitude": 74.8833313
+  },
+  {
+    "city": "India",
+    "country": "Mangalore",
+    "latitude": 12.8666667,
+    "longitude": 74.8833313
+  },
+  {
+    "city": "India",
+    "country": "Jammu",
+    "latitude": 32.7333333,
+    "longitude": 74.8666687
+  },
+  {
+    "city": "India",
+    "country": "Amritsar",
+    "latitude": 31.6330556,
+    "longitude": 74.8655548
+  },
+  {
+    "city": "India",
+    "country": "Srinagar",
+    "latitude": 34.0833333,
+    "longitude": 74.8166656
+  },
+  {
+    "city": "India",
+    "country": "Ahmadnagar",
+    "latitude": 19.0833333,
+    "longitude": 74.7333298
+  },
+  {
+    "city": "India",
+    "country": "Ajmer",
+    "latitude": 26.45,
+    "longitude": 74.6333313
+  },
+  {
+    "city": "India",
+    "country": "Malegaon",
+    "latitude": 20.55,
+    "longitude": 74.5333328
   }
 ]
