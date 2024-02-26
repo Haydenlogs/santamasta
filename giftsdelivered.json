@@ -11332,5 +11332,539 @@
     "country": "Rudnyy",
     "latitude": 52.9594444,
     "longitude": 63.1205559
+  },
+  {
+    "city": "Pakistan",
+    "country": "Turbat",
+    "latitude": 26.0027778,
+    "longitude": 63.0505562
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Kachar",
+    "latitude": 53.3905556,
+    "longitude": 62.9297218
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Khash",
+    "latitude": 31.5291667,
+    "longitude": 62.7924995
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Rudbar",
+    "latitude": 30.15,
+    "longitude": 62.5999985
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Karokh",
+    "latitude": 34.4791667,
+    "longitude": 62.5869446
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Lisakovsk",
+    "latitude": 52.5369444,
+    "longitude": 62.4936104
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Herat",
+    "latitude": 34.34,
+    "longitude": 62.1899986
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Char Burj",
+    "latitude": 34.24,
+    "longitude": 62.1899986
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Ayteke Bi",
+    "latitude": 45.8536111,
+    "longitude": 62.1561127
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Sindand",
+    "latitude": 33.3,
+    "longitude": 62.1399994
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Farakh",
+    "latitude": 32.37,
+    "longitude": 62.1100006
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Kushk",
+    "latitude": 33.2961111,
+    "longitude": 61.9527779
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Mirabad",
+    "latitude": 30.4352778,
+    "longitude": 61.8347206
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Qareh Bagh",
+    "latitude": 34.9405556,
+    "longitude": 61.7775002
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Zendeh Jan",
+    "latitude": 34.3455556,
+    "longitude": 61.7316666
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Aral",
+    "latitude": 46.8,
+    "longitude": 61.6666679
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Anar Darreh",
+    "latitude": 32.7622222,
+    "longitude": 61.6525002
+  },
+  {
+    "city": "Iran",
+    "country": "Zabol",
+    "latitude": 31.0297222,
+    "longitude": 61.497776
+  },
+  {
+    "city": "Russia",
+    "country": "Chelyabinsk",
+    "latitude": 55.1544444,
+    "longitude": 61.4297218
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Tir Pol",
+    "latitude": 34.5952778,
+    "longitude": 61.2669449
+  },
+  {
+    "city": "Iran",
+    "country": "Khash",
+    "latitude": 28.2197222,
+    "longitude": 61.2130547
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Dzhetygara",
+    "latitude": 52.1908333,
+    "longitude": 61.2005539
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Kuhestan",
+    "latitude": 34.6538889,
+    "longitude": 61.1977768
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Eslam Qal`eh",
+    "latitude": 34.6666667,
+    "longitude": 61.0666656
+  },
+  {
+    "city": "Iran",
+    "country": "Zahedan",
+    "latitude": 29.4977778,
+    "longitude": 60.872776
+  },
+  {
+    "city": "Iran",
+    "country": "Iranshahr",
+    "latitude": 27.2038889,
+    "longitude": 60.6919441
+  },
+  {
+    "city": "Russia",
+    "country": "Yekaterinburg",
+    "latitude": 56.8575,
+    "longitude": 60.6124992
+  },
+  {
+    "city": "Russia",
+    "country": "Nizhniy Tagil",
+    "latitude": 57.9194444,
+    "longitude": 59.9650002
+  },
+  {
+    "city": "Russia",
+    "country": "Zlatoust",
+    "latitude": 55.1711111,
+    "longitude": 59.6508331
+  },
+  {
+    "city": "Iran",
+    "country": "Mashhad",
+    "latitude": 36.2958333,
+    "longitude": 59.6119461
+  },
+  {
+    "city": "Oman",
+    "country": "Sur",
+    "latitude": 22.5666667,
+    "longitude": 59.5288887
+  },
+  {
+    "city": "Iran",
+    "country": "Torbat-e Heydariyeh",
+    "latitude": 35.2736111,
+    "longitude": 59.2200012
+  },
+  {
+    "city": "Iran",
+    "country": "Birjand",
+    "latitude": 32.8738889,
+    "longitude": 59.2144432
+  },
+  {
+    "city": "Russia",
+    "country": "Magnitogorsk",
+    "latitude": 53.4186111,
+    "longitude": 59.0472221
+  },
+  {
+    "city": "Oman",
+    "country": "Badiyah",
+    "latitude": 22.45,
+    "longitude": 58.7999992
+  },
+  {
+    "city": "Iran",
+    "country": "Neyshabur",
+    "latitude": 36.2097222,
+    "longitude": 58.7988892
+  },
+  {
+    "city": "Oman",
+    "country": "Al Qabil",
+    "latitude": 22.5666667,
+    "longitude": 58.7000008
+  },
+  {
+    "city": "Oman",
+    "country": "Muscat",
+    "latitude": 23.6133333,
+    "longitude": 58.5933342
+  },
+  {
+    "city": "Russia",
+    "country": "Orsk",
+    "latitude": 51.2252778,
+    "longitude": 58.5699997
+  },
+  {
+    "city": "Oman",
+    "country": "Ibra",
+    "latitude": 22.6902778,
+    "longitude": 58.5469437
+  },
+  {
+    "city": "Iran",
+    "country": "Quchan",
+    "latitude": 37.1069444,
+    "longitude": 58.5097237
+  },
+  {
+    "city": "Iran",
+    "country": "Kashmar",
+    "latitude": 35.2363889,
+    "longitude": 58.481945
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Khromtau",
+    "latitude": 50.2502778,
+    "longitude": 58.4347229
+  },
+  {
+    "city": "Oman",
+    "country": "Bawshar",
+    "latitude": 23.5316667,
+    "longitude": 58.3894463
+  },
+  {
+    "city": "Iran",
+    "country": "Bam",
+    "latitude": 29.1077778,
+    "longitude": 58.3619461
+  },
+  {
+    "city": "Oman",
+    "country": "As Sib",
+    "latitude": 23.6802778,
+    "longitude": 58.1824989
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Emba",
+    "latitude": 48.8263889,
+    "longitude": 58.144165
+  },
+  {
+    "city": "Oman",
+    "country": "Bidbid",
+    "latitude": 23.4063889,
+    "longitude": 58.1263885
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grande Riviere Sud Est",
+    "latitude": -20.2861111,
+    "longitude": 57.7758331
+  },
+  {
+    "city": "Mauritius",
+    "country": "Quatre Soeurs",
+    "latitude": -20.2991667,
+    "longitude": 57.7705574
+  },
+  {
+    "city": "Oman",
+    "country": "Izki",
+    "latitude": 22.9333333,
+    "longitude": 57.7666664
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Sable",
+    "latitude": -20.3141667,
+    "longitude": 57.7644463
+  },
+  {
+    "city": "Mauritius",
+    "country": "Quatre Cocos",
+    "latitude": -20.2077778,
+    "longitude": 57.7625008
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bambous Virieux",
+    "latitude": -20.3427778,
+    "longitude": 57.7574997
+  },
+  {
+    "city": "Mauritius",
+    "country": "Mare La Chaux",
+    "latitude": -20.1980556,
+    "longitude": 57.7494431
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp Ithier",
+    "latitude": -20.2158333,
+    "longitude": 57.7455559
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bel Air",
+    "latitude": -20.2541667,
+    "longitude": 57.7452774
+  },
+  {
+    "city": "Mauritius",
+    "country": "Ecroignard",
+    "latitude": -20.2261111,
+    "longitude": 57.7361107
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bois des Amourettes",
+    "latitude": -20.3630556,
+    "longitude": 57.7311096
+  },
+  {
+    "city": "Mauritius",
+    "country": "Poste de Flacq",
+    "latitude": -20.1630556,
+    "longitude": 57.7305565
+  },
+  {
+    "city": "Mauritius",
+    "country": "Olivia",
+    "latitude": -20.2975,
+    "longitude": 57.7255554
+  },
+  {
+    "city": "Mauritius",
+    "country": "Centre de Flacq",
+    "latitude": -20.1897222,
+    "longitude": 57.7144432
+  },
+  {
+    "city": "Mauritius",
+    "country": "Roches Noire",
+    "latitude": -20.1111111,
+    "longitude": 57.7122231
+  },
+  {
+    "city": "Mauritius",
+    "country": "Queen Victoria",
+    "latitude": -20.22,
+    "longitude": 57.7075005
+  },
+  {
+    "city": "Mauritius",
+    "country": "Clemencia",
+    "latitude": -20.2638889,
+    "longitude": 57.7061119
+  },
+  {
+    "city": "Mauritius",
+    "country": "Mahebourg",
+    "latitude": -20.4080556,
+    "longitude": 57.7000008
+  },
+  {
+    "city": "Mauritius",
+    "country": "Beau Vallon",
+    "latitude": -20.4188889,
+    "longitude": 57.6952782
+  },
+  {
+    "city": "Mauritius",
+    "country": "Plaines des Roches",
+    "latitude": -20.1116667,
+    "longitude": 57.690834
+  },
+  {
+    "city": "Mauritius",
+    "country": "Sebastopol",
+    "latitude": -20.2888889,
+    "longitude": 57.6875
+  },
+  {
+    "city": "Mauritius",
+    "country": "Riviere du Rempart",
+    "latitude": -20.1030556,
+    "longitude": 57.6847229
+  },
+  {
+    "city": "Iran",
+    "country": "Sabzevar",
+    "latitude": 36.2144444,
+    "longitude": 57.6797218
+  },
+  {
+    "city": "Mauritius",
+    "country": "Laventure",
+    "latitude": -20.1458333,
+    "longitude": 57.6766663
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp de Masque",
+    "latitude": -20.2369444,
+    "longitude": 57.6633339
+  },
+  {
+    "city": "Mauritius",
+    "country": "Lalmatie",
+    "latitude": -20.1897222,
+    "longitude": 57.6611099
+  },
+  {
+    "city": "Mauritius",
+    "country": "Grand Gaube",
+    "latitude": -20.0063889,
+    "longitude": 57.6608315
+  },
+  {
+    "city": "Mauritius",
+    "country": "Amaury",
+    "latitude": -20.1308333,
+    "longitude": 57.6591682
+  },
+  {
+    "city": "Mauritius",
+    "country": "Bon Accueil",
+    "latitude": -20.1708333,
+    "longitude": 57.6563873
+  },
+  {
+    "city": "Mauritius",
+    "country": "Montagne Blanche",
+    "latitude": -20.2827778,
+    "longitude": 57.6544456
+  },
+  {
+    "city": "Mauritius",
+    "country": "Plaine Magnien",
+    "latitude": -20.4286111,
+    "longitude": 57.6530571
+  },
+  {
+    "city": "Mauritius",
+    "country": "Brisee Verdiere",
+    "latitude": -20.1638889,
+    "longitude": 57.6466675
+  },
+  {
+    "city": "Mauritius",
+    "country": "Roche Terre",
+    "latitude": -20.0186111,
+    "longitude": 57.644722
+  },
+  {
+    "city": "Mauritius",
+    "country": "Goodlands",
+    "latitude": -20.035,
+    "longitude": 57.643055
+  },
+  {
+    "city": "Mauritius",
+    "country": "Esperance Trebuchet",
+    "latitude": -20.0697222,
+    "longitude": 57.6419449
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Hubert",
+    "latitude": -20.3641667,
+    "longitude": 57.6383324
+  },
+  {
+    "city": "Mauritius",
+    "country": "Saint Julien",
+    "latitude": -20.2263889,
+    "longitude": 57.6363907
+  },
+  {
+    "city": "Mauritius",
+    "country": "Melrose",
+    "latitude": -20.2697222,
+    "longitude": 57.6319427
+  },
+  {
+    "city": "Mauritius",
+    "country": "Piton",
+    "latitude": -20.0902778,
+    "longitude": 57.6302795
+  },
+  {
+    "city": "Mauritius",
+    "country": "Cottage",
+    "latitude": -20.0597222,
+    "longitude": 57.6291656
+  },
+  {
+    "city": "Mauritius",
+    "country": "Camp Thorel",
+    "latitude": -20.2147222,
+    "longitude": 57.6161118
   }
 ]
