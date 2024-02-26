@@ -5806,5 +5806,497 @@
     "country": "Erdenet",
     "latitude": 49.0333333,
     "longitude": 104.0833359
+  },
+  {
+    "city": "China",
+    "country": "Chengdu",
+    "latitude": 30.6666667,
+    "longitude": 104.0666656
+  },
+  {
+    "city": "Vietnam",
+    "country": "Lao Cai",
+    "latitude": 22.4833333,
+    "longitude": 103.9499969
+  },
+  {
+    "city": "Cambodia",
+    "country": "Pouthisat",
+    "latitude": 12.5333333,
+    "longitude": 103.9166641
+  },
+  {
+    "city": "Vietnam",
+    "country": "Son La",
+    "latitude": 21.3166667,
+    "longitude": 103.9000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Kota Tinggi",
+    "latitude": 1.7333333,
+    "longitude": 103.9000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampung Pasir Gudang",
+    "latitude": 1.45,
+    "longitude": 103.8833313
+  },
+  {
+    "city": "Russia",
+    "country": "Angarsk",
+    "latitude": 52.53,
+    "longitude": 103.8799973
+  },
+  {
+    "city": "Cambodia",
+    "country": "Siemreab",
+    "latitude": 13.3666667,
+    "longitude": 103.8499985
+  },
+  {
+    "city": "Maldives",
+    "country": "Ulu Tiram",
+    "latitude": 1.6,
+    "longitude": 103.8166656
+  },
+  {
+    "city": "China",
+    "country": "Lanzhou",
+    "latitude": 36.0563889,
+    "longitude": 103.7922211
+  },
+  {
+    "city": "Maldives",
+    "country": "Johor Bahru",
+    "latitude": 1.4666667,
+    "longitude": 103.75
+  },
+  {
+    "city": "Maldives",
+    "country": "Sekudai",
+    "latitude": 1.5333333,
+    "longitude": 103.6666641
+  },
+  {
+    "city": "Thailand",
+    "country": "Roi Et",
+    "latitude": 16.0567014,
+    "longitude": 103.6530838
+  },
+  {
+    "city": "Maldives",
+    "country": "Senai",
+    "latitude": 1.6,
+    "longitude": 103.6500015
+  },
+  {
+    "city": "Indonesia",
+    "country": "Jambi",
+    "latitude": -1.6,
+    "longitude": 103.6166687
+  },
+  {
+    "city": "Maldives",
+    "country": "Kulai",
+    "latitude": 1.6666667,
+    "longitude": 103.5999985
+  },
+  {
+    "city": "Monaco",
+    "country": "Bulgan",
+    "latitude": 48.8125,
+    "longitude": 103.5347214
+  },
+  {
+    "city": "Maldives",
+    "country": "Pekan Nanas",
+    "latitude": 1.5166667,
+    "longitude": 103.5166702
+  },
+  {
+    "city": "Thailand",
+    "country": "Kalasin",
+    "latitude": 16.4333333,
+    "longitude": 103.5
+  },
+  {
+    "city": "Cambodia",
+    "country": "Kampong Saom",
+    "latitude": 10.6333333,
+    "longitude": 103.5
+  },
+  {
+    "city": "Thailand",
+    "country": "Surin",
+    "latitude": 14.8833333,
+    "longitude": 103.4833298
+  },
+  {
+    "city": "Maldives",
+    "country": "Kertih",
+    "latitude": 4.5166667,
+    "longitude": 103.4499969
+  },
+  {
+    "city": "Maldives",
+    "country": "Cukai",
+    "latitude": 4.25,
+    "longitude": 103.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Pekan",
+    "latitude": 3.5,
+    "longitude": 103.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Pontian Kecil",
+    "latitude": 1.4833333,
+    "longitude": 103.3833313
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuantan",
+    "latitude": 3.8,
+    "longitude": 103.3333359
+  },
+  {
+    "city": "Maldives",
+    "country": "Keluang",
+    "latitude": 2.0333333,
+    "longitude": 103.3166656
+  },
+  {
+    "city": "Thailand",
+    "country": "Maha Sarakham",
+    "latitude": 16.1833333,
+    "longitude": 103.3000031
+  },
+  {
+    "city": "Cambodia",
+    "country": "Batdambang",
+    "latitude": 13.1,
+    "longitude": 103.1999969
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuala Terengganu",
+    "latitude": 5.3333333,
+    "longitude": 103.1333313
+  },
+  {
+    "city": "Maldives",
+    "country": "Yong Peng",
+    "latitude": 2.0166667,
+    "longitude": 103.0666656
+  },
+  {
+    "city": "Vietnam",
+    "country": "Dien Bien Phu",
+    "latitude": 21.3833333,
+    "longitude": 103.0166702
+  },
+  {
+    "city": "Cambodia",
+    "country": "Sisophon",
+    "latitude": 13.5833333,
+    "longitude": 102.9833298
+  },
+  {
+    "city": "Cambodia",
+    "country": "Krong Kaoh Kong",
+    "latitude": 11.6175,
+    "longitude": 102.9805527
+  },
+  {
+    "city": "Maldives",
+    "country": "Batu Pahat",
+    "latitude": 1.85,
+    "longitude": 102.9333344
+  },
+  {
+    "city": "Indonesia",
+    "country": "Lubuklinggau",
+    "latitude": -3.3,
+    "longitude": 102.8666687
+  },
+  {
+    "city": "Thailand",
+    "country": "Khon Kaen",
+    "latitude": 16.4333333,
+    "longitude": 102.8333359
+  },
+  {
+    "city": "Monaco",
+    "country": "Harhorin",
+    "latitude": 47.1975279,
+    "longitude": 102.8237915
+  },
+  {
+    "city": "Maldives",
+    "country": "Segamat",
+    "latitude": 2.5,
+    "longitude": 102.8166656
+  },
+  {
+    "city": "Thailand",
+    "country": "Udon Thani",
+    "latitude": 17.4075,
+    "longitude": 102.7930527
+  },
+  {
+    "city": "Thailand",
+    "country": "Nong Khai",
+    "latitude": 17.8761111,
+    "longitude": 102.7444458
+  },
+  {
+    "city": "Thailand",
+    "country": "Ban Phai",
+    "latitude": 16.0666667,
+    "longitude": 102.7333298
+  },
+  {
+    "city": "China",
+    "country": "Kunming",
+    "latitude": 25.0388889,
+    "longitude": 102.7183304
+  },
+  {
+    "city": "Maldives",
+    "country": "Bakri",
+    "latitude": 2.05,
+    "longitude": 102.6666641
+  },
+  {
+    "city": "Cambodia",
+    "country": "Pailin",
+    "latitude": 12.8505556,
+    "longitude": 102.609726
+  },
+  {
+    "city": "Thailand",
+    "country": "Amphoe Tha Bo",
+    "latitude": 17.845,
+    "longitude": 102.5841675
+  },
+  {
+    "city": "Maldives",
+    "country": "Muar",
+    "latitude": 2.0333333,
+    "longitude": 102.5666656
+  },
+  {
+    "city": "Maldives",
+    "country": "Tangkak",
+    "latitude": 2.2666667,
+    "longitude": 102.5500031
+  },
+  {
+    "city": "Maldives",
+    "country": "Temerluh",
+    "latitude": 3.45,
+    "longitude": 102.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Bahau",
+    "latitude": 2.8166667,
+    "longitude": 102.4166641
+  },
+  {
+    "city": "Maldives",
+    "country": "Jerantut",
+    "latitude": 3.9333333,
+    "longitude": 102.3666687
+  },
+  {
+    "city": "Maldives",
+    "country": "Mentekab",
+    "latitude": 3.4833333,
+    "longitude": 102.3499985
+  },
+  {
+    "city": "Maldives",
+    "country": "Air Keruh",
+    "latitude": 2.2666667,
+    "longitude": 102.2833328
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Bukit Baru",
+    "latitude": 2.2166667,
+    "longitude": 102.2833328
+  },
+  {
+    "city": "Indonesia",
+    "country": "Bengkulu",
+    "latitude": -3.800443,
+    "longitude": 102.2655411
+  },
+  {
+    "city": "Maldives",
+    "country": "Kota Baharu",
+    "latitude": 6.1333333,
+    "longitude": 102.25
+  },
+  {
+    "city": "Maldives",
+    "country": "Batu Berendam",
+    "latitude": 2.25,
+    "longitude": 102.25
+  },
+  {
+    "city": "Maldives",
+    "country": "Melaka",
+    "latitude": 2.1969444,
+    "longitude": 102.2480545
+  },
+  {
+    "city": "Maldives",
+    "country": "Tampin",
+    "latitude": 2.4666667,
+    "longitude": 102.2333298
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Pangkal Kalong",
+    "latitude": 5.9166667,
+    "longitude": 102.2166672
+  },
+  {
+    "city": "Maldives",
+    "country": "Kelebang Besar",
+    "latitude": 2.2166667,
+    "longitude": 102.1999969
+  },
+  {
+    "city": "Thailand",
+    "country": "Amphoe Na Klang",
+    "latitude": 17.3075,
+    "longitude": 102.1794434
+  },
+  {
+    "city": "Monaco",
+    "country": "Hovd",
+    "latitude": 44.6702399,
+    "longitude": 102.1749115
+  },
+  {
+    "city": "Thailand",
+    "country": "Chanthaburi",
+    "latitude": 12.6,
+    "longitude": 102.1500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Tanah Merah",
+    "latitude": 5.8,
+    "longitude": 102.1500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Sungai Udang",
+    "latitude": 2.2666667,
+    "longitude": 102.1500015
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Masjid Tanah",
+    "latitude": 2.35,
+    "longitude": 102.1166687
+  },
+  {
+    "city": "Thailand",
+    "country": "Nakhon Ratchasima",
+    "latitude": 14.9706567,
+    "longitude": 102.1019516
+  },
+  {
+    "city": "Thailand",
+    "country": "Chum Phae",
+    "latitude": 16.5333333,
+    "longitude": 102.0999985
+  },
+  {
+    "city": "Thailand",
+    "country": "Chaiyaphum",
+    "latitude": 15.8,
+    "longitude": 102.0333328
+  },
+  {
+    "city": "Thailand",
+    "country": "Sungai Kolok",
+    "latitude": 6.0266667,
+    "longitude": 101.9677811
+  },
+  {
+    "city": "Maldives",
+    "country": "Seremban",
+    "latitude": 2.7166667,
+    "longitude": 101.9333344
+  },
+  {
+    "city": "Maldives",
+    "country": "Bentong Town",
+    "latitude": 3.5166667,
+    "longitude": 101.9000015
+  },
+  {
+    "city": "Maldives",
+    "country": "Raub",
+    "latitude": 3.8,
+    "longitude": 101.8666687
+  },
+  {
+    "city": "Maldives",
+    "country": "Semenyih",
+    "latitude": 2.95,
+    "longitude": 101.8499985
+  },
+  {
+    "city": "Thailand",
+    "country": "Narathiwat",
+    "latitude": 6.4244444,
+    "longitude": 101.8236084
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Baharu Nilai",
+    "latitude": 2.8166667,
+    "longitude": 101.8000031
+  },
+  {
+    "city": "Maldives",
+    "country": "Port Dickson",
+    "latitude": 2.5166667,
+    "longitude": 101.8000031
+  },
+  {
+    "city": "China",
+    "country": "Xining",
+    "latitude": 36.6166667,
+    "longitude": 101.7666702
+  },
+  {
+    "city": "Maldives",
+    "country": "Kampong Baharu Balakong",
+    "latitude": 3.0333333,
+    "longitude": 101.75
+  },
+  {
+    "city": "Thailand",
+    "country": "Loei",
+    "latitude": 17.4833333,
+    "longitude": 101.7166672
+  },
+  {
+    "city": "Maldives",
+    "country": "Kuala Lumpur",
+    "latitude": 3.1666667,
+    "longitude": 101.6999969
   }
 ]
