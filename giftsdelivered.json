@@ -15976,5 +15976,539 @@
     "country": "Mirzapur",
     "latitude": 24.1,
     "longitude": 90.0999985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bhandaria",
+    "latitude": 22.4833333,
+    "longitude": 90.0666656
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sherpur",
+    "latitude": 25.0166667,
+    "longitude": 90.0166702
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Pirojpur",
+    "latitude": 22.5666667,
+    "longitude": 89.9833298
+  },
+  {
+    "city": "Monaco",
+    "country": "OElgiy",
+    "latitude": 48.9683333,
+    "longitude": 89.9625015
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Mathbaria",
+    "latitude": 22.3,
+    "longitude": 89.9499969
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Jamalpur",
+    "latitude": 24.9166667,
+    "longitude": 89.9333344
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Tangail",
+    "latitude": 24.25,
+    "longitude": 89.9166641
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Tungipara",
+    "latitude": 22.9,
+    "longitude": 89.9166641
+  },
+  {
+    "city": "Bhutan",
+    "country": "Pajo",
+    "latitude": 27.5333333,
+    "longitude": 89.8833313
+  },
+  {
+    "city": "Bhutan",
+    "country": "Daga",
+    "latitude": 27.0666667,
+    "longitude": 89.8833313
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Morrelganj",
+    "latitude": 22.4666667,
+    "longitude": 89.8499985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sarishabari",
+    "latitude": 24.7333333,
+    "longitude": 89.8333359
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Faridpur",
+    "latitude": 23.6,
+    "longitude": 89.8333359
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sarankhola",
+    "latitude": 22.3,
+    "longitude": 89.7833328
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Nageswari",
+    "latitude": 25.9666667,
+    "longitude": 89.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Chilmari",
+    "latitude": 25.55,
+    "longitude": 89.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sirajganj",
+    "latitude": 24.45,
+    "longitude": 89.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kalia",
+    "latitude": 23.05,
+    "longitude": 89.6333313
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bera",
+    "latitude": 24.0833333,
+    "longitude": 89.6166687
+  },
+  {
+    "city": "Bhutan",
+    "country": "Thimphu",
+    "latitude": 27.4833333,
+    "longitude": 89.5999985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Shahzadpur",
+    "latitude": 24.1666667,
+    "longitude": 89.5999985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Khulna",
+    "latitude": 22.8,
+    "longitude": 89.5500031
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Phultala",
+    "latitude": 22.7,
+    "longitude": 89.5166702
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Narail",
+    "latitude": 23.1666667,
+    "longitude": 89.5
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Abhaynagar",
+    "latitude": 23.0166667,
+    "longitude": 89.4666672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Lalmanir Hat",
+    "latitude": 25.9,
+    "longitude": 89.4499969
+  },
+  {
+    "city": "Bhutan",
+    "country": "Paro",
+    "latitude": 27.4333333,
+    "longitude": 89.4166641
+  },
+  {
+    "city": "Bhutan",
+    "country": "Phuntsholing",
+    "latitude": 26.85,
+    "longitude": 89.3833313
+  },
+  {
+    "city": "Bhutan",
+    "country": "Ha",
+    "latitude": 27.3666667,
+    "longitude": 89.2833328
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Rangpur",
+    "latitude": 25.75,
+    "longitude": 89.25
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Pabna",
+    "latitude": 24,
+    "longitude": 89.25
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Jessore",
+    "latitude": 23.1666667,
+    "longitude": 89.2166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kesabpur",
+    "latitude": 22.9166667,
+    "longitude": 89.2166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kaliganj",
+    "latitude": 23.4166667,
+    "longitude": 89.1333313
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kushtia",
+    "latitude": 23.9166667,
+    "longitude": 89.1166687
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Jhikergacha",
+    "latitude": 23.1166667,
+    "longitude": 89.1166687
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Satkhira",
+    "latitude": 22.7166667,
+    "longitude": 89.0999985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Ishurdi",
+    "latitude": 24.1333333,
+    "longitude": 89.0833359
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Badarganj",
+    "latitude": 25.6666667,
+    "longitude": 89.0500031
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Jaipur Hat",
+    "latitude": 25.1,
+    "longitude": 89.0166702
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bheramara",
+    "latitude": 24.0333333,
+    "longitude": 88.9666672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Par Naogaon",
+    "latitude": 24.8,
+    "longitude": 88.9499969
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Parbatipur",
+    "latitude": 25.65,
+    "longitude": 88.9166641
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Saidpur",
+    "latitude": 25.7776918,
+    "longitude": 88.8916931
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Dinajpur",
+    "latitude": 25.6333333,
+    "longitude": 88.6333313
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Rajshahi",
+    "latitude": 24.3666667,
+    "longitude": 88.5999985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Panchagarh",
+    "latitude": 26.3333333,
+    "longitude": 88.5666656
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Thakurgaon",
+    "latitude": 26.0333333,
+    "longitude": 88.4666672
+  },
+  {
+    "city": "India",
+    "country": "Shiliguri",
+    "latitude": 26.7,
+    "longitude": 88.4333344
+  },
+  {
+    "city": "India",
+    "country": "Bhatpara",
+    "latitude": 22.8713889,
+    "longitude": 88.4088898
+  },
+  {
+    "city": "India",
+    "country": "Panihati",
+    "latitude": 22.6941667,
+    "longitude": 88.3744431
+  },
+  {
+    "city": "India",
+    "country": "Calcutta",
+    "latitude": 22.5697222,
+    "longitude": 88.3697205
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Pirganj",
+    "latitude": 25.8666667,
+    "longitude": 88.3666687
+  },
+  {
+    "city": "India",
+    "country": "Haora",
+    "latitude": 22.5891667,
+    "longitude": 88.3102798
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Nawabganj",
+    "latitude": 24.6,
+    "longitude": 88.2833328
+  },
+  {
+    "city": "India",
+    "country": "Nangi",
+    "latitude": 22.5083333,
+    "longitude": 88.2152786
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Shibganj",
+    "latitude": 24.6833333,
+    "longitude": 88.1666641
+  },
+  {
+    "city": "Nepa",
+    "country": "Bhadrapur",
+    "latitude": 26.5333333,
+    "longitude": 88.0833359
+  },
+  {
+    "city": "Nepa",
+    "country": "Ilam",
+    "latitude": 26.9,
+    "longitude": 87.9333344
+  },
+  {
+    "city": "China",
+    "country": "Urumqi",
+    "latitude": 43.8,
+    "longitude": 87.5833359
+  },
+  {
+    "city": "Nepa",
+    "country": "Dhankuta",
+    "latitude": 26.9833333,
+    "longitude": 87.3333359
+  },
+  {
+    "city": "India",
+    "country": "Durgapur",
+    "latitude": 23.4833333,
+    "longitude": 87.3166656
+  },
+  {
+    "city": "Nepa",
+    "country": "Dharan Bazar",
+    "latitude": 26.8166667,
+    "longitude": 87.2833328
+  },
+  {
+    "city": "Nepa",
+    "country": "Ithari",
+    "latitude": 26.6666667,
+    "longitude": 87.2833328
+  },
+  {
+    "city": "Nepa",
+    "country": "Biratnagar",
+    "latitude": 26.4833333,
+    "longitude": 87.2833328
+  },
+  {
+    "city": "Nepa",
+    "country": "Khandbari",
+    "latitude": 27.3666667,
+    "longitude": 87.2166672
+  },
+  {
+    "city": "Russia",
+    "country": "Novokuznetsk",
+    "latitude": 53.75,
+    "longitude": 87.0999985
+  },
+  {
+    "city": "India",
+    "country": "Asansol",
+    "latitude": 23.6833333,
+    "longitude": 86.9833298
+  },
+  {
+    "city": "Nepa",
+    "country": "Rajbiraj",
+    "latitude": 26.5333333,
+    "longitude": 86.75
+  },
+  {
+    "city": "Nepa",
+    "country": "Lahan",
+    "latitude": 26.7166667,
+    "longitude": 86.4833298
+  },
+  {
+    "city": "Nepa",
+    "country": "Siraha",
+    "latitude": 26.65,
+    "longitude": 86.1999969
+  },
+  {
+    "city": "India",
+    "country": "Jamshedpur",
+    "latitude": 22.8,
+    "longitude": 86.1833344
+  },
+  {
+    "city": "Russia",
+    "country": "Kemerovo",
+    "latitude": 55.3333333,
+    "longitude": 86.0833359
+  },
+  {
+    "city": "China",
+    "country": "Shihezi",
+    "latitude": 44.3,
+    "longitude": 86.0333328
+  },
+  {
+    "city": "India",
+    "country": "Bokaro",
+    "latitude": 23.7833333,
+    "longitude": 85.9666672
+  },
+  {
+    "city": "Nepa",
+    "country": "Kodari",
+    "latitude": 27.9666667,
+    "longitude": 85.9333344
+  },
+  {
+    "city": "Nepa",
+    "country": "Janakpur",
+    "latitude": 26.7,
+    "longitude": 85.9166641
+  },
+  {
+    "city": "India",
+    "country": "Cuttack",
+    "latitude": 20.4649727,
+    "longitude": 85.8792648
+  },
+  {
+    "city": "India",
+    "country": "Bhubaneshwar",
+    "latitude": 20.2333333,
+    "longitude": 85.8333359
+  },
+  {
+    "city": "Nepa",
+    "country": "Jaleswar",
+    "latitude": 26.6333333,
+    "longitude": 85.8000031
+  },
+  {
+    "city": "Nepa",
+    "country": "Malangwa",
+    "latitude": 26.8666667,
+    "longitude": 85.5666656
+  },
+  {
+    "city": "Nepa",
+    "country": "Banepa",
+    "latitude": 27.6333333,
+    "longitude": 85.5166702
+  },
+  {
+    "city": "Nepa",
+    "country": "Panaoti",
+    "latitude": 27.5833333,
+    "longitude": 85.5166702
+  },
+  {
+    "city": "Nepa",
+    "country": "Bhaktapur",
+    "latitude": 27.6673377,
+    "longitude": 85.4167252
+  },
+  {
+    "city": "Nepa",
+    "country": "Patan",
+    "latitude": 27.6666667,
+    "longitude": 85.3333359
+  },
+  {
+    "city": "India",
+    "country": "Ranchi",
+    "latitude": 23.35,
+    "longitude": 85.3333359
+  },
+  {
+    "city": "Nepa",
+    "country": "Kathmandu",
+    "latitude": 27.7166667,
+    "longitude": 85.3166656
+  },
+  {
+    "city": "Nepa",
+    "country": "Kirtipur",
+    "latitude": 27.6666667,
+    "longitude": 85.2833328
+  },
+  {
+    "city": "Nepa",
+    "country": "Gaur",
+    "latitude": 26.7666667,
+    "longitude": 85.2666702
   }
 ]
