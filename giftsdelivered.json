@@ -15442,5 +15442,539 @@
     "country": "Pyapon",
     "latitude": 16.2833333,
     "longitude": 95.6833344
+  },
+  {
+    "city": "Myanmar",
+    "country": "Nyaungdon",
+    "latitude": 17.0333333,
+    "longitude": 95.6500015
+  },
+  {
+    "city": "Myanmar",
+    "country": "Maubin",
+    "latitude": 16.7333333,
+    "longitude": 95.6500015
+  },
+  {
+    "city": "Myanmar",
+    "country": "Taungdwingyi",
+    "latitude": 20.0166667,
+    "longitude": 95.5500031
+  },
+  {
+    "city": "Myanmar",
+    "country": "Paungde",
+    "latitude": 18.4833333,
+    "longitude": 95.5
+  },
+  {
+    "city": "Myanmar",
+    "country": "Hinthada",
+    "latitude": 17.6333333,
+    "longitude": 95.4666672
+  },
+  {
+    "city": "Myanmar",
+    "country": "Bogale",
+    "latitude": 16.2833333,
+    "longitude": 95.4000015
+  },
+  {
+    "city": "Myanmar",
+    "country": "Myingyan",
+    "latitude": 21.4666667,
+    "longitude": 95.3833313
+  },
+  {
+    "city": "Indonesia",
+    "country": "Banda Aceh",
+    "latitude": 5.5616667,
+    "longitude": 95.3258362
+  },
+  {
+    "city": "Myanmar",
+    "country": "Myanaung",
+    "latitude": 18.2833333,
+    "longitude": 95.3166656
+  },
+  {
+    "city": "Myanmar",
+    "country": "Mawlamyinegyunn",
+    "latitude": 16.3833333,
+    "longitude": 95.2666702
+  },
+  {
+    "city": "Myanmar",
+    "country": "Myaydo",
+    "latitude": 19.3666667,
+    "longitude": 95.2166672
+  },
+  {
+    "city": "Myanmar",
+    "country": "Prome",
+    "latitude": 18.8166667,
+    "longitude": 95.2166672
+  },
+  {
+    "city": "Myanmar",
+    "country": "Thayetmyo",
+    "latitude": 19.3166667,
+    "longitude": 95.1833344
+  },
+  {
+    "city": "Myanmar",
+    "country": "Wakema",
+    "latitude": 16.6,
+    "longitude": 95.1833344
+  },
+  {
+    "city": "Myanmar",
+    "country": "Monywa",
+    "latitude": 22.1166667,
+    "longitude": 95.1333313
+  },
+  {
+    "city": "Myanmar",
+    "country": "Pakokku",
+    "latitude": 21.3333333,
+    "longitude": 95.0999985
+  },
+  {
+    "city": "Myanmar",
+    "country": "Magway",
+    "latitude": 20.15,
+    "longitude": 94.9166641
+  },
+  {
+    "city": "Myanmar",
+    "country": "Yenangyaung",
+    "latitude": 20.4666667,
+    "longitude": 94.8833313
+  },
+  {
+    "city": "Myanmar",
+    "country": "Minbu",
+    "latitude": 20.1833333,
+    "longitude": 94.8833313
+  },
+  {
+    "city": "Myanmar",
+    "country": "Pagan",
+    "latitude": 21.1666667,
+    "longitude": 94.8666687
+  },
+  {
+    "city": "Myanmar",
+    "country": "Chauk",
+    "latitude": 20.8833333,
+    "longitude": 94.8166656
+  },
+  {
+    "city": "Myanmar",
+    "country": "Pathein",
+    "latitude": 16.7833333,
+    "longitude": 94.7333298
+  },
+  {
+    "city": "Myanmar",
+    "country": "Mawlaik",
+    "latitude": 23.6333333,
+    "longitude": 94.4166641
+  },
+  {
+    "city": "Myanmar",
+    "country": "Falam",
+    "latitude": 22.9166667,
+    "longitude": 93.6833344
+  },
+  {
+    "city": "Myanmar",
+    "country": "Akyab",
+    "latitude": 20.15,
+    "longitude": 92.9000015
+  },
+  {
+    "city": "Russia",
+    "country": "Krasnoyarsk",
+    "latitude": 56.0097222,
+    "longitude": 92.7916641
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Teknaf",
+    "latitude": 20.8666667,
+    "longitude": 92.3000031
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kaptaimukh",
+    "latitude": 22.4713889,
+    "longitude": 92.2322235
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bandarban",
+    "latitude": 22.1980556,
+    "longitude": 92.2197189
+  },
+  {
+    "city": "Bhutan",
+    "country": "Daifam",
+    "latitude": 26.9,
+    "longitude": 92.0999985
+  },
+  {
+    "city": "Monaco",
+    "country": "Ulaangom",
+    "latitude": 49.9811111,
+    "longitude": 92.0666656
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Satkania",
+    "latitude": 22.0755556,
+    "longitude": 92.0513916
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Patiya",
+    "latitude": 22.2947222,
+    "longitude": 91.9791641
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Khagrachari",
+    "latitude": 23.1,
+    "longitude": 91.9666672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Raojan",
+    "latitude": 22.5383333,
+    "longitude": 91.9147186
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sylhet",
+    "latitude": 24.8966667,
+    "longitude": 91.871666
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Manikchhari",
+    "latitude": 22.8625,
+    "longitude": 91.8450012
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Chittagong",
+    "latitude": 22.3330556,
+    "longitude": 91.8363876
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Fatikchari",
+    "latitude": 22.6883333,
+    "longitude": 91.7908325
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Moulvi Bazar",
+    "latitude": 24.4833333,
+    "longitude": 91.7833328
+  },
+  {
+    "city": "India",
+    "country": "Guwahati",
+    "latitude": 26.1861736,
+    "longitude": 91.750946
+  },
+  {
+    "city": "Bhutan",
+    "country": "Bhangtar",
+    "latitude": 26.8166667,
+    "longitude": 91.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Chhatak",
+    "latitude": 25.0333333,
+    "longitude": 91.6666641
+  },
+  {
+    "city": "Monaco",
+    "country": "Hovd",
+    "latitude": 48.0055556,
+    "longitude": 91.6419449
+  },
+  {
+    "city": "Bhutan",
+    "country": "Tashigang",
+    "latitude": 27.3166667,
+    "longitude": 91.5666656
+  },
+  {
+    "city": "Bhutan",
+    "country": "Wamrong",
+    "latitude": 27.0666667,
+    "longitude": 91.5666656
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Chhagalnaiya",
+    "latitude": 23.03,
+    "longitude": 91.5069427
+  },
+  {
+    "city": "Bhutan",
+    "country": "Tashi Yangtse",
+    "latitude": 27.5833333,
+    "longitude": 91.4666672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sandwip",
+    "latitude": 22.4677778,
+    "longitude": 91.4561081
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Habiganj",
+    "latitude": 24.3833333,
+    "longitude": 91.4166641
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Feni",
+    "latitude": 23.0186111,
+    "longitude": 91.4100037
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Baniachang",
+    "latitude": 24.5166667,
+    "longitude": 91.3666687
+  },
+  {
+    "city": "Bhutan",
+    "country": "Nganglam",
+    "latitude": 26.7833333,
+    "longitude": 91.25
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Comilla",
+    "latitude": 23.4577778,
+    "longitude": 91.2044449
+  },
+  {
+    "city": "Bhutan",
+    "country": "Mongar",
+    "latitude": 27.25,
+    "longitude": 91.1999969
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Laksham",
+    "latitude": 23.2472222,
+    "longitude": 91.1425018
+  },
+  {
+    "city": "Bhutan",
+    "country": "Panbang",
+    "latitude": 26.8666667,
+    "longitude": 90.9833298
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Nabinagar",
+    "latitude": 23.8916667,
+    "longitude": 90.9733353
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bhairab Bazar",
+    "latitude": 24.0666667,
+    "longitude": 90.9666672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bajitpur",
+    "latitude": 24.2166667,
+    "longitude": 90.9499969
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Hajiganj",
+    "latitude": 23.2511111,
+    "longitude": 90.859169
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Ramganj",
+    "latitude": 23.1,
+    "longitude": 90.8499985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Lakshmipur",
+    "latitude": 22.95,
+    "longitude": 90.8333359
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Kishorganj",
+    "latitude": 24.4333333,
+    "longitude": 90.7666702
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Raipur",
+    "latitude": 23.05,
+    "longitude": 90.7666702
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Dakshin Char Fasson",
+    "latitude": 22.2166667,
+    "longitude": 90.7333298
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Narsingdi",
+    "latitude": 23.9208333,
+    "longitude": 90.7180557
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Netrakona",
+    "latitude": 24.8833333,
+    "longitude": 90.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Barahanuddin",
+    "latitude": 22.5,
+    "longitude": 90.7166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Lalmohan",
+    "latitude": 22.3166667,
+    "longitude": 90.7166672
+  },
+  {
+    "city": "Bhutan",
+    "country": "Shemgang",
+    "latitude": 27.2333333,
+    "longitude": 90.6500015
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Bhola",
+    "latitude": 22.6833333,
+    "longitude": 90.6500015
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Gafargaon",
+    "latitude": 24.4333333,
+    "longitude": 90.5666656
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Mehendiganj",
+    "latitude": 22.8166667,
+    "longitude": 90.5333328
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Narayanganj",
+    "latitude": 23.6233333,
+    "longitude": 90.5011139
+  },
+  {
+    "city": "Bhutan",
+    "country": "Tongsa",
+    "latitude": 27.5166667,
+    "longitude": 90.5
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Dhaka",
+    "latitude": 23.7230556,
+    "longitude": 90.4086075
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Tungi",
+    "latitude": 23.89,
+    "longitude": 90.4058304
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Mymensingh",
+    "latitude": 24.75,
+    "longitude": 90.4000015
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Barisal",
+    "latitude": 22.7019444,
+    "longitude": 90.371109
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Palang",
+    "latitude": 23.2166667,
+    "longitude": 90.3499985
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Nalchiti",
+    "latitude": 22.6333333,
+    "longitude": 90.2833328
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Muktagacha",
+    "latitude": 24.7666667,
+    "longitude": 90.2333298
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Gaurnadi",
+    "latitude": 22.9666667,
+    "longitude": 90.2333298
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Char Bhadrasan",
+    "latitude": 23.3166667,
+    "longitude": 90.2166672
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Madaripur",
+    "latitude": 23.1752778,
+    "longitude": 90.207222
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Sakhipur",
+    "latitude": 24.3,
+    "longitude": 90.1833344
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Dohar",
+    "latitude": 23.5883333,
+    "longitude": 90.1469421
+  },
+  {
+    "city": "Bangladesh",
+    "country": "Mirzapur",
+    "latitude": 24.1,
+    "longitude": 90.0999985
   }
 ]
