@@ -142,5 +142,533 @@
     "country": "Tabukiniberu",
     "latitude": -1.3419259,
     "longitude": 175.9894714
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waihi Beach",
+    "latitude": -37.4,
+    "longitude": 175.9333344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Turangi",
+    "latitude": -39,
+    "longitude": 175.9333344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Katikati",
+    "latitude": -37.55,
+    "longitude": 175.9166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Whangamata",
+    "latitude": -37.2,
+    "longitude": 175.8666687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Tokoroa",
+    "latitude": -38.2333333,
+    "longitude": 175.8666687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Tairua",
+    "latitude": -37.0166667,
+    "longitude": 175.8500061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waihi",
+    "latitude": -37.3833333,
+    "longitude": 175.8333282
+  },
+  {
+    "city": "Australia",
+    "country": "Casey Station",
+    "latitude": -66.2833,
+    "longitude": 110.5167
+  },
+  {
+    "city": "Australia",
+    "country": "Davis Station",
+    "latitude": -68.5833,
+    "longitude": 77.9667
+  },
+  {
+    "city": "Australia",
+    "country": "Mawson Station",
+    "latitude": -67.6,
+    "longitude": 62.8833
+  },
+  {
+    "city": "Australia",
+    "country": "Macquarie Island Station",
+    "latitude": -54.5,
+    "longitude": 158.95
+  },
+  {
+    "city": "France",
+    "country": "Dumont d'Urville Station",
+    "latitude": -66.6667,
+    "longitude": 140.0167
+  },
+  {
+    "city": "Russia",
+    "country": "Mirny Station",
+    "latitude": -66.55,
+    "longitude": 93.0167
+  },
+  {
+    "city": "Russia",
+    "country": "Vostok Station",
+    "latitude": -78.4667,
+    "longitude": 106.8667
+  },
+  {
+    "city": "China",
+    "country": "Great Wall Station",
+    "latitude": -62.2167,
+    "longitude": 58.9667
+  },
+  {
+    "city": "Uruguay",
+    "country": "Artigas Base",
+    "latitude": -62.1958,
+    "longitude": -58.935
+  },
+  {
+    "city": "Chile",
+    "country": "Felipe Camarão Base",
+    "latitude": -62.2031,
+    "longitude": -58.9508
+  },
+  {
+    "city": "Chile",
+    "country": "Felipe Camarao Base",
+    "latitude": -62.2031,
+    "longitude": -58.9508
+  },
+  {
+    "city": "Chile",
+    "country": "Escudero Base",
+    "latitude": -63.3311,
+    "longitude": -57.8972
+  },
+  {
+    "city": "Chile",
+    "country": "Presidente Eduardo Frei Montalva Station",
+    "latitude": -62.1908,
+    "longitude": -58.9075
+  },
+  {
+    "city": "United States",
+    "country": "McMurdo Station",
+    "latitude": -77.8467,
+    "longitude": 166.6667
+  },
+  {
+    "city": "New Zealand",
+    "country": "Whitianga",
+    "latitude": -36.8333333,
+    "longitude": 175.6999969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Paeroa",
+    "latitude": -37.3666667,
+    "longitude": 175.6666718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waiouru",
+    "latitude": -39.4833333,
+    "longitude": 175.6666718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Masterton",
+    "latitude": -40.9597222,
+    "longitude": 175.6575012
+  },
+  {
+    "city": "New Zealand",
+    "country": "Palmerston North",
+    "latitude": -40.35,
+    "longitude": 175.6166687
+  },
+  {
+    "city": "Kiribati",
+    "country": "Ijaki",
+    "latitude": -1.9166667,
+    "longitude": 175.5833282
+  },
+  {
+    "city": "New Zealand",
+    "country": "Thames",
+    "latitude": -37.1333333,
+    "longitude": 175.5333405
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waipawa",
+    "latitude": -41.4122222,
+    "longitude": 175.515274
+  },
+  {
+    "city": "New Zealand",
+    "country": "Coromandel",
+    "latitude": -36.7666667,
+    "longitude": 175.5
+  },
+  {
+    "city": "New Zealand",
+    "country": "Ngatea",
+    "latitude": -37.2833333,
+    "longitude": 175.5
+  },
+  {
+    "city": "New Zealand",
+    "country": "Bulls",
+    "latitude": -40.1666667,
+    "longitude": 175.3833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Foxton",
+    "latitude": -40.4666667,
+    "longitude": 175.3000031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Hamilton",
+    "latitude": -37.7833333,
+    "longitude": 175.2833405
+  },
+  {
+    "city": "New Zealand",
+    "country": "Levin",
+    "latitude": -40.6333333,
+    "longitude": 175.2749939
+  },
+  {
+    "city": "New Zealand",
+    "country": "Manakau",
+    "latitude": -40.7166667,
+    "longitude": 175.2166595
+  },
+  {
+    "city": "New Zealand",
+    "country": "Otorohanga",
+    "latitude": -38.1833333,
+    "longitude": 175.1999969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Te Kauwhata",
+    "latitude": -37.4,
+    "longitude": 175.1499939
+  },
+  {
+    "city": "New Zealand",
+    "country": "Otaki",
+    "latitude": -40.7583333,
+    "longitude": 175.1499939
+  },
+  {
+    "city": "Kiribati",
+    "country": "Buariki",
+    "latitude": -1.4833333,
+    "longitude": 175.0666656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Upper Hutt",
+    "latitude": -41.1382712,
+    "longitude": 175.0502014
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wanganui",
+    "latitude": -39.9333333,
+    "longitude": 175.0500031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Pukekohe East",
+    "latitude": -37.2,
+    "longitude": 174.9499969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Lower Hutt",
+    "latitude": -41.2166667,
+    "longitude": 174.9166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Raglan",
+    "latitude": -37.8,
+    "longitude": 174.8833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Porirua",
+    "latitude": -41.1333333,
+    "longitude": 174.8500061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wellington",
+    "latitude": -41.2785362,
+    "longitude": 174.7766418
+  },
+  {
+    "city": "New Zealand",
+    "country": "Auckland",
+    "latitude": -36.8666667,
+    "longitude": 174.7666626
+  },
+  {
+    "city": "Kiribati",
+    "country": "Utiroa",
+    "latitude": -1.2166667,
+    "longitude": 174.75
+  },
+  {
+    "city": "New Zealand",
+    "country": "North Shore",
+    "latitude": -36.8,
+    "longitude": 174.75
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waiuku",
+    "latitude": -37.25,
+    "longitude": 174.75
+  },
+  {
+    "city": "New Zealand",
+    "country": "Warkworth",
+    "latitude": -36.4,
+    "longitude": 174.6666718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waitakere",
+    "latitude": -36.85,
+    "longitude": 174.5500031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wellsford",
+    "latitude": -36.2833333,
+    "longitude": 174.5166626
+  },
+  {
+    "city": "New Zealand",
+    "country": "Ngunguru",
+    "latitude": -35.6166667,
+    "longitude": 174.5
+  },
+  {
+    "city": "New Zealand",
+    "country": "Patea",
+    "latitude": -39.7583333,
+    "longitude": 174.4833374
+  },
+  {
+    "city": "Kiribati",
+    "country": "Temaraia",
+    "latitude": -0.6666667,
+    "longitude": 174.4499969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Muriwai Beach",
+    "latitude": -36.8166667,
+    "longitude": 174.4499969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Parakai",
+    "latitude": -36.65,
+    "longitude": 174.4333344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Whangarei",
+    "latitude": -35.7316731,
+    "longitude": 174.3239136
+  },
+  {
+    "city": "New Zealand",
+    "country": "Eltham",
+    "latitude": -39.4291667,
+    "longitude": 174.3000031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Hawera",
+    "latitude": -39.5916667,
+    "longitude": 174.2833405
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waitara",
+    "latitude": -38.925,
+    "longitude": 174.25
+  },
+  {
+    "city": "New Zealand",
+    "country": "Paihia",
+    "latitude": -35.2833333,
+    "longitude": 174.0833282
+  },
+  {
+    "city": "New Zealand",
+    "country": "New Plymouth",
+    "latitude": -39.0666667,
+    "longitude": 174.0833282
+  },
+  {
+    "city": "New Zealand",
+    "country": "Kawakawa",
+    "latitude": -35.3833333,
+    "longitude": 174.0666656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Moerewa",
+    "latitude": -35.3833333,
+    "longitude": 174.0333405
+  },
+  {
+    "city": "New Zealand",
+    "country": "Picton",
+    "latitude": -41.2882693,
+    "longitude": 174.0101776
+  },
+  {
+    "city": "New Zealand",
+    "country": "Kerikeri",
+    "latitude": -35.2166667,
+    "longitude": 173.9666595
+  },
+  {
+    "city": "New Zealand",
+    "country": "Blenheim",
+    "latitude": -41.5160328,
+    "longitude": 173.9528046
+  },
+  {
+    "city": "Kiribati",
+    "country": "Binoinano",
+    "latitude": 0.4166667,
+    "longitude": 173.9166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waimate North",
+    "latitude": -35.3166667,
+    "longitude": 173.8833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Dargaville",
+    "latitude": -35.9333333,
+    "longitude": 173.8833313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Opunake",
+    "latitude": -39.4555556,
+    "longitude": 173.8583374
+  },
+  {
+    "city": "New Zealand",
+    "country": "Taipa",
+    "latitude": -34.9833333,
+    "longitude": 173.4666595
+  },
+  {
+    "city": "Kiribati",
+    "country": "Rawannawi",
+    "latitude": 2.05,
+    "longitude": 173.2666626
+  },
+  {
+    "city": "New Zealand",
+    "country": "Brightwater",
+    "latitude": -41.3833333,
+    "longitude": 173.1166687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Mapua",
+    "latitude": -41.25,
+    "longitude": 173.1000061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wakefield",
+    "latitude": -41.4,
+    "longitude": 173.0500031
+  },
+  {
+    "city": "Kiribati",
+    "country": "Tabiauea",
+    "latitude": 0.9,
+    "longitude": 173.0333405
+  },
+  {
+    "city": "Kiribati",
+    "country": "Taburao",
+    "latitude": 1.8166667,
+    "longitude": 173.0166626
+  },
+  {
+    "city": "New Zealand",
+    "country": "Motueka",
+    "latitude": -41.1333333,
+    "longitude": 173.0166626
+  },
+  {
+    "city": "Kiribati",
+    "country": "Bairiki",
+    "latitude": 1.3291406,
+    "longitude": 172.9780121
+  },
+  {
+    "city": "Kiribati",
+    "country": "Butaritari",
+    "latitude": 3.0833333,
+    "longitude": 172.8166656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Takaka",
+    "latitude": -40.85,
+    "longitude": 172.8000031
+  },
+  {
+    "city": "New Zealand",
+    "country": "Amberley",
+    "latitude": -43.1666667,
+    "longitude": 172.7333374
+  },
+  {
+    "city": "New Zealand",
+    "country": "Woodend",
+    "latitude": -43.3166667,
+    "longitude": 172.6666718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Christchurch",
+    "latitude": -43.5333333,
+    "longitude": 172.6333313
   }
 ]
