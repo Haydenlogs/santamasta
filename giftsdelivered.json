@@ -9736,5 +9736,539 @@
     "country": "Sahiwal",
     "latitude": 30.6666667,
     "longitude": 73.0999985
+  },
+  {
+    "city": "Mali",
+    "country": "Dhidhdhoo",
+    "latitude": 6.8833333,
+    "longitude": 73.0999985
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Qaraghandy",
+    "latitude": 49.7988889,
+    "longitude": 73.0994415
+  },
+  {
+    "city": "Pakistan",
+    "country": "Faisalabad",
+    "latitude": 31.4166667,
+    "longitude": 73.0833359
+  },
+  {
+    "city": "Mali",
+    "country": "Hithadhoo",
+    "latitude": -0.6,
+    "longitude": 73.0833359
+  },
+  {
+    "city": "Mali",
+    "country": "Kulhudhuffushi",
+    "latitude": 6.6220656,
+    "longitude": 73.0699844
+  },
+  {
+    "city": "Pakistan",
+    "country": "Rawalpindi",
+    "latitude": 33.6,
+    "longitude": 73.0666656
+  },
+  {
+    "city": "Pakistan",
+    "country": "Arifwala",
+    "latitude": 30.2833333,
+    "longitude": 73.0666656
+  },
+  {
+    "city": "India",
+    "country": "Bhiwandi",
+    "latitude": 19.3,
+    "longitude": 73.0666656
+  },
+  {
+    "city": "Pakistan",
+    "country": "Islamabad",
+    "latitude": 33.6100446,
+    "longitude": 73.059082
+  },
+  {
+    "city": "Mali",
+    "country": "Eydhafushi",
+    "latitude": 5.1166667,
+    "longitude": 73.0333328
+  },
+  {
+    "city": "India",
+    "country": "Jodhpur",
+    "latitude": 26.2866667,
+    "longitude": 73.0299988
+  },
+  {
+    "city": "Mali",
+    "country": "Ugoofaaru",
+    "latitude": 5.6666667,
+    "longitude": 73
+  },
+  {
+    "city": "Pakistan",
+    "country": "Chiniot",
+    "latitude": 31.72,
+    "longitude": 72.9788895
+  },
+  {
+    "city": "India",
+    "country": "Thane",
+    "latitude": 19.2,
+    "longitude": 72.9666672
+  },
+  {
+    "city": "Mali",
+    "country": "Mahibadhoo",
+    "latitude": 3.7833333,
+    "longitude": 72.9666672
+  },
+  {
+    "city": "Mali",
+    "country": "Magoodhoo",
+    "latitude": 3.1,
+    "longitude": 72.9666672
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Temirtau",
+    "latitude": 50.0544444,
+    "longitude": 72.9483337
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Moyynqum",
+    "latitude": 44.2913889,
+    "longitude": 72.9469452
+  },
+  {
+    "city": "Mali",
+    "country": "Thinadhoo",
+    "latitude": 0.5333333,
+    "longitude": 72.9333344
+  },
+  {
+    "city": "Pakistan",
+    "country": "Bhalwal",
+    "latitude": 32.2658333,
+    "longitude": 72.9008331
+  },
+  {
+    "city": "Mali",
+    "country": "Kudahuvadhoo",
+    "latitude": 2.6666667,
+    "longitude": 72.9000015
+  },
+  {
+    "city": "Pakistan",
+    "country": "Chakwal",
+    "latitude": 32.9333333,
+    "longitude": 72.8666687
+  },
+  {
+    "city": "Pakistan",
+    "country": "Chishtian Mandi",
+    "latitude": 29.8,
+    "longitude": 72.8666687
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Abay",
+    "latitude": 49.6311111,
+    "longitude": 72.8538895
+  },
+  {
+    "city": "India",
+    "country": "Mumbai",
+    "latitude": 19.01441,
+    "longitude": 72.8479385
+  },
+  {
+    "city": "India",
+    "country": "Surat",
+    "latitude": 21.1666667,
+    "longitude": 72.8333359
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Lugovoy",
+    "latitude": 42.9472222,
+    "longitude": 72.7644424
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Qulan",
+    "latitude": 42.9152778,
+    "longitude": 72.7080536
+  },
+  {
+    "city": "Pakistan",
+    "country": "Chichawatni",
+    "latitude": 30.5333333,
+    "longitude": 72.6999969
+  },
+  {
+    "city": "Pakistan",
+    "country": "Gojra",
+    "latitude": 31.15,
+    "longitude": 72.6833344
+  },
+  {
+    "city": "Pakistan",
+    "country": "Sargodha",
+    "latitude": 32.0836111,
+    "longitude": 72.6711121
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kamalia",
+    "latitude": 30.7333333,
+    "longitude": 72.6500015
+  },
+  {
+    "city": "Pakistan",
+    "country": "Burewala",
+    "latitude": 30.1666667,
+    "longitude": 72.6500015
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Shakhan",
+    "latitude": 49.8233333,
+    "longitude": 72.6341629
+  },
+  {
+    "city": "India",
+    "country": "Ahmadabad",
+    "latitude": 23.0333333,
+    "longitude": 72.6166687
+  },
+  {
+    "city": "Pakistan",
+    "country": "Hasilpur",
+    "latitude": 29.7122222,
+    "longitude": 72.555275
+  },
+  {
+    "city": "Pakistan",
+    "country": "Toba Tek Singh",
+    "latitude": 30.9666667,
+    "longitude": 72.4833298
+  },
+  {
+    "city": "Pakistan",
+    "country": "Swabi",
+    "latitude": 34.12,
+    "longitude": 72.4722214
+  },
+  {
+    "city": "Pakistan",
+    "country": "Attock City",
+    "latitude": 33.7722222,
+    "longitude": 72.3683319
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mian Channun",
+    "latitude": 30.45,
+    "longitude": 72.3666687
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mingaora",
+    "latitude": 34.7761111,
+    "longitude": 72.3611145
+  },
+  {
+    "city": "Pakistan",
+    "country": "Khushab",
+    "latitude": 32.2966667,
+    "longitude": 72.3525009
+  },
+  {
+    "city": "Pakistan",
+    "country": "Vihari",
+    "latitude": 30.0333333,
+    "longitude": 72.3499985
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Khandud",
+    "latitude": 36.9488889,
+    "longitude": 72.3169479
+  },
+  {
+    "city": "Pakistan",
+    "country": "Jhang Sadr",
+    "latitude": 31.2741667,
+    "longitude": 72.3119431
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mailsi",
+    "latitude": 29.8002778,
+    "longitude": 72.1758347
+  },
+  {
+    "city": "India",
+    "country": "Bhavnagar",
+    "latitude": 21.7666667,
+    "longitude": 72.1500015
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mardan",
+    "latitude": 34.1983333,
+    "longitude": 72.0458298
+  },
+  {
+    "city": "Pakistan",
+    "country": "Nowshera Cantonment",
+    "latitude": 33.9966667,
+    "longitude": 72.0130539
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kahror Pakka",
+    "latitude": 29.6166667,
+    "longitude": 71.9166641
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Stepnogorsk",
+    "latitude": 52.3544444,
+    "longitude": 71.8869476
+  },
+  {
+    "city": "Pakistan",
+    "country": "Charsadda",
+    "latitude": 34.1452778,
+    "longitude": 71.7313919
+  },
+  {
+    "city": "Pakistan",
+    "country": "Bahawalpur",
+    "latitude": 29.4,
+    "longitude": 71.6833344
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Atasu",
+    "latitude": 48.6813889,
+    "longitude": 71.6433334
+  },
+  {
+    "city": "Pakistan",
+    "country": "Lodhran",
+    "latitude": 29.5333333,
+    "longitude": 71.6333313
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Ishkashim",
+    "latitude": 36.7272222,
+    "longitude": 71.6116638
+  },
+  {
+    "city": "Pakistan",
+    "country": "Peshawar",
+    "latitude": 34.0077778,
+    "longitude": 71.5733337
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Khorugh",
+    "latitude": 37.4916667,
+    "longitude": 71.5558319
+  },
+  {
+    "city": "Pakistan",
+    "country": "Shabqadar",
+    "latitude": 34.2152778,
+    "longitude": 71.555275
+  },
+  {
+    "city": "Pakistan",
+    "country": "Mianwali",
+    "latitude": 32.5833333,
+    "longitude": 71.5500031
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Ashkasham",
+    "latitude": 36.6833333,
+    "longitude": 71.5333328
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Karakenja",
+    "latitude": 39.2422222,
+    "longitude": 71.5261078
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Sarykemer",
+    "latitude": 43,
+    "longitude": 71.5
+  },
+  {
+    "city": "Pakistan",
+    "country": "Multan",
+    "latitude": 30.1955556,
+    "longitude": 71.4752808
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kohat",
+    "latitude": 33.5869444,
+    "longitude": 71.4422226
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Astana",
+    "latitude": 51.1811111,
+    "longitude": 71.4277802
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Taraz",
+    "latitude": 42.9,
+    "longitude": 71.3666687
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Asmar",
+    "latitude": 35.03,
+    "longitude": 71.3499985
+  },
+  {
+    "city": "Pakistan",
+    "country": "Shujaabad",
+    "latitude": 29.8833333,
+    "longitude": 71.3000031
+  },
+  {
+    "city": "Pakistan",
+    "country": "Ahmadpur East",
+    "latitude": 29.15,
+    "longitude": 71.2666702
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Munay",
+    "latitude": 34.98,
+    "longitude": 71.25
+  },
+  {
+    "city": "Pakistan",
+    "country": "Muzaffargarh",
+    "latitude": 30.0666667,
+    "longitude": 71.1999969
+  },
+  {
+    "city": "Pakistan",
+    "country": "Bhakkar",
+    "latitude": 31.6333333,
+    "longitude": 71.0666656
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Mulkanah",
+    "latitude": 34.94,
+    "longitude": 71.0599976
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Darwazkay",
+    "latitude": 35.02,
+    "longitude": 71.0400009
+  },
+  {
+    "city": "Pakistan",
+    "country": "Kot Addu",
+    "latitude": 30.47,
+    "longitude": 70.964447
+  },
+  {
+    "city": "Pakistan",
+    "country": "Leiah",
+    "latitude": 30.9666667,
+    "longitude": 70.9333344
+  },
+  {
+    "city": "Pakistan",
+    "country": "Dera Ismail Khan",
+    "latitude": 31.8327778,
+    "longitude": 70.9024963
+  },
+  {
+    "city": "Pakistan",
+    "country": "Shorko",
+    "latitude": 31.9102778,
+    "longitude": 70.8777771
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Mohmand Darrah",
+    "latitude": 34.24,
+    "longitude": 70.8700027
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Jorm",
+    "latitude": 36.8666667,
+    "longitude": 70.8344421
+  },
+  {
+    "city": "Kazakhstan",
+    "country": "Qarazhal",
+    "latitude": 48.0077778,
+    "longitude": 70.7902756
+  },
+  {
+    "city": "India",
+    "country": "Rajkot",
+    "latitude": 22.3,
+    "longitude": 70.7833328
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Achin",
+    "latitude": 34.12,
+    "longitude": 70.6999969
+  },
+  {
+    "city": "Pakistan",
+    "country": "Khanpur",
+    "latitude": 28.65,
+    "longitude": 70.6500015
+  },
+  {
+    "city": "Pakistan",
+    "country": "Dera Ghazi Khan",
+    "latitude": 30.0561111,
+    "longitude": 70.6344452
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Isfara",
+    "latitude": 40.1166667,
+    "longitude": 70.6333313
+  },
+  {
+    "city": "Afghanistan",
+    "country": "Feyzabad",
+    "latitude": 37.1175,
+    "longitude": 70.5797195
+  },
+  {
+    "city": "Tajikistan",
+    "country": "Vorukh",
+    "latitude": 39.8533333,
+    "longitude": 70.5769424
   }
 ]
