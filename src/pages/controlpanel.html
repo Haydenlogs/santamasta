@@ -63,11 +63,29 @@
       <button onclick="resetbaskets()">Reset Baskets</button>
       <button onclick="refreshpage()">Open Refreshpage</button>
       <button onclick="refreshallpages()">Refresh All (5 Seconds)</button>
-      <a class="status">Last Seen:</a><br/><a class="status">Headed For: </a><br/><a class="status">Seconds</a><br/>
-    <br/><a>Live User Count: </a>
+      <center><a class="status" id="lastCityInfo">Last Seen:</a><br/><a class="status" id="nextCityInfo">Headed For: </a><br/><a class="status" id="seconds">Seconds</a><br/>
+    <br/><a id="basketsInfo">Live Basket Count: </a></center>
     </div>
 
     <script>
+      // Function to handle SSE messages
+    function handleSSE(event) {
+      // Parse the event data
+      const data = JSON.parse(event.data);
+      const presents = data.presentsDelivered.toLocaleString()
+      // Update other information
+      document.getElementById('nextCityInfo').textContent = data.nextCity ? `Headed For: ${data.nextCity.country}, ${data.nextCity.city}` : "";
+      document.getElementById('lastCityInfo').textContent = data.lastCity ? `Last Seen: ${data.lastCity.country}, ${data.lastCity.city}` : "";
+      document.getElementById('seconds').textContent = `Seconds Left: ${data.timeLeft} seconds.`;
+      document.getElementById('basketsInfo').textContent = `Live Baskets Delivered: ${presents}`;
+
+      
+    }
+
+    // Start listening for SSE messages
+    const eventSource = new EventSource("/updates");
+    eventSource.onmessage = handleSSE;
+
       //Easter Bunny is Getting Ready to Launch.
       //Easter Bunny is expected to launch within the hour.
       //Easter Bunny is about to launch.
