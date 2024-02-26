@@ -6,42 +6,6 @@ const session = require("express-session");
 
 const app = express();
 app.locals.clients = []; // Initialize clients array
-let liveUsers = 0; // Initialize live users count
-
-// Function to send live user count updates to all clients
-function sendLiveUserCount() {
-  const timestamp = new Date().toISOString();
-  const data = JSON.stringify({ liveUsers, timestamp });
-
-  app.locals.clients.forEach(client => {
-    client.res.write(`data: ${data}\n\n`);
-  });
-}
-
-// Endpoint to track live users
-app.get("/updates2", (req, res) => {
-  res.setHeader("Content-Type", "text/event-stream");
-  res.setHeader("Cache-Control", "no-cache");
-  res.setHeader("Connection", "keep-alive");
-  res.flushHeaders();
-
-  // Increment live users count and send it to the client
-  liveUsers++;
-  sendLiveUserCount();
-
-  const client = { id: Date.now(), res };
-  app.locals.clients.push(client);
-
-  // Handle client disconnect
-  req.on("close", () => {
-    // Decrement live users count when client disconnects
-    liveUsers--;
-    // Remove the client from the clients array
-    app.locals.clients = app.locals.clients.filter(c => c.id !== client.id);
-    // Send updated live user count to all clients
-    sendLiveUserCount();
-  });
-});
 
 let cities = [];
 let currentIndex;
@@ -52,7 +16,7 @@ let startTime;
 let started = false;
 const intervalInSeconds = 8.11;
 let trackerInterval;
-const countdownDate = new Date("2024-03-31T08:00:00Z");
+const countdownDate = new Date("2024-02-27T08:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
   "/restarttracker": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
