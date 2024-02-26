@@ -18604,5 +18604,509 @@
     "country": "Nyahururu",
     "latitude": 0.0333333,
     "longitude": 36.3666649
+  },
+  {
+    "city": "Syria",
+    "country": "Masyaf",
+    "latitude": 35.05,
+    "longitude": 36.3499985
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bedele",
+    "latitude": 8.45,
+    "longitude": 36.3499985
+  },
+  {
+    "city": "Turkey",
+    "country": "Samsun",
+    "latitude": 41.2866667,
+    "longitude": 36.3300018
+  },
+  {
+    "city": "Syria",
+    "country": "Jisr ash Shughur",
+    "latitude": 35.8155556,
+    "longitude": 36.3175011
+  },
+  {
+    "city": "Sudan",
+    "country": "Gebeit",
+    "latitude": 21.0666667,
+    "longitude": 36.3166656
+  },
+  {
+    "city": "Syria",
+    "country": "Al Harak",
+    "latitude": 32.7333333,
+    "longitude": 36.3002777
+  },
+  {
+    "city": "Syria",
+    "country": "At Tall",
+    "latitude": 33.6,
+    "longitude": 36.2999992
+  },
+  {
+    "city": "Syria",
+    "country": "Damascus",
+    "latitude": 33.5,
+    "longitude": 36.2999992
+  },
+  {
+    "city": "Kenya",
+    "country": "Magadi",
+    "latitude": -1.9,
+    "longitude": 36.2833328
+  },
+  {
+    "city": "Lebanon",
+    "country": "Cheikhlar",
+    "latitude": 34.6211111,
+    "longitude": 36.273056
+  },
+  {
+    "city": "Russia",
+    "country": "Kaluga",
+    "latitude": 54.5358333,
+    "longitude": 36.2705574
+  },
+  {
+    "city": "Syria",
+    "country": "Izra`",
+    "latitude": 32.8577778,
+    "longitude": 36.2544441
+  },
+  {
+    "city": "Ukraine",
+    "country": "Kharkiv",
+    "latitude": 50,
+    "longitude": 36.25
+  },
+  {
+    "city": "Syria",
+    "country": "Tall Kalakh",
+    "latitude": 34.6666667,
+    "longitude": 36.25
+  },
+  {
+    "city": "Syria",
+    "country": "Darayya",
+    "latitude": 33.45,
+    "longitude": 36.25
+  },
+  {
+    "city": "Turkey",
+    "country": "Osmaniye",
+    "latitude": 37.0741667,
+    "longitude": 36.247776
+  },
+  {
+    "city": "Syria",
+    "country": "Al Kiswah",
+    "latitude": 33.35,
+    "longitude": 36.2333336
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Bonga",
+    "latitude": 7.2833333,
+    "longitude": 36.2333336
+  },
+  {
+    "city": "Lebanon",
+    "country": "Baalbek",
+    "latitude": 34.0058333,
+    "longitude": 36.2180557
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Jafr",
+    "latitude": 30.2933333,
+    "longitude": 36.2138901
+  },
+  {
+    "city": "Sudan",
+    "country": "Wagar",
+    "latitude": 16.1527778,
+    "longitude": 36.2041664
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Mafraq",
+    "latitude": 32.35,
+    "longitude": 36.2000008
+  },
+  {
+    "city": "Russia",
+    "country": "Kursk",
+    "latitude": 51.7302778,
+    "longitude": 36.1938896
+  },
+  {
+    "city": "Syria",
+    "country": "As Sanamayn",
+    "latitude": 33.0833333,
+    "longitude": 36.1666679
+  },
+  {
+    "city": "Turkey",
+    "country": "Iskenderun",
+    "latitude": 36.5816667,
+    "longitude": 36.1650009
+  },
+  {
+    "city": "Turkey",
+    "country": "Antioch",
+    "latitude": 36.1988889,
+    "longitude": 36.1605568
+  },
+  {
+    "city": "Syria",
+    "country": "Shaykh Miskin",
+    "latitude": 32.8166667,
+    "longitude": 36.1500015
+  },
+  {
+    "city": "Syria",
+    "country": "Duraykish",
+    "latitude": 34.8833333,
+    "longitude": 36.1333351
+  },
+  {
+    "city": "Sudan",
+    "country": "Aroma",
+    "latitude": 15.8166667,
+    "longitude": 36.1333351
+  },
+  {
+    "city": "Tanzania",
+    "country": "Malinyi",
+    "latitude": -8.9333333,
+    "longitude": 36.1333351
+  },
+  {
+    "city": "Syria",
+    "country": "Safita",
+    "latitude": 34.8166667,
+    "longitude": 36.1166649
+  },
+  {
+    "city": "Syria",
+    "country": "Inkhil",
+    "latitude": 33,
+    "longitude": 36.1166649
+  },
+  {
+    "city": "Syria",
+    "country": "Az Zabadani",
+    "latitude": 33.7166667,
+    "longitude": 36.0833321
+  },
+  {
+    "city": "Syria",
+    "country": "Qatana",
+    "latitude": 33.4333333,
+    "longitude": 36.0833321
+  },
+  {
+    "city": "Syria",
+    "country": "Qasim",
+    "latitude": 32.9833333,
+    "longitude": 36.0833321
+  },
+  {
+    "city": "Turkey",
+    "country": "Turhal",
+    "latitude": 40.3875,
+    "longitude": 36.0811119
+  },
+  {
+    "city": "Russia",
+    "country": "Orel",
+    "latitude": 52.9658333,
+    "longitude": 36.0802765
+  },
+  {
+    "city": "Syria",
+    "country": "Tafas",
+    "latitude": 32.7380556,
+    "longitude": 36.0686111
+  },
+  {
+    "city": "Kenya",
+    "country": "Nakuru",
+    "latitude": -0.2833333,
+    "longitude": 36.0666656
+  },
+  {
+    "city": "Tanzania",
+    "country": "Ilula",
+    "latitude": -7.6833333,
+    "longitude": 36.0333328
+  },
+  {
+    "city": "Jordan",
+    "country": "Ar Ramtha",
+    "latitude": 32.5591667,
+    "longitude": 36.0069427
+  },
+  {
+    "city": "Jordan",
+    "country": "Sahab",
+    "latitude": 31.8786111,
+    "longitude": 36.0044441
+  },
+  {
+    "city": "Jordan",
+    "country": "At Turrah",
+    "latitude": 32.6413889,
+    "longitude": 35.9919434
+  },
+  {
+    "city": "Kenya",
+    "country": "Baringo",
+    "latitude": 0.4666667,
+    "longitude": 35.9666672
+  },
+  {
+    "city": "Syria",
+    "country": "Baniyas",
+    "latitude": 35.1833333,
+    "longitude": 35.9500008
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Quwaysimah",
+    "latitude": 31.9166667,
+    "longitude": 35.9500008
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Jizah",
+    "latitude": 31.7,
+    "longitude": 35.9500008
+  },
+  {
+    "city": "Jordan",
+    "country": "Qafqafa",
+    "latitude": 32.3505556,
+    "longitude": 35.9375
+  },
+  {
+    "city": "Jordan",
+    "country": "Ash Shajarah",
+    "latitude": 32.65,
+    "longitude": 35.9333344
+  },
+  {
+    "city": "Jordan",
+    "country": "Amman",
+    "latitude": 31.95,
+    "longitude": 35.9333344
+  },
+  {
+    "city": "Jordan",
+    "country": "Jawa",
+    "latitude": 31.85,
+    "longitude": 35.9333344
+  },
+  {
+    "city": "Jordan",
+    "country": "Balila",
+    "latitude": 32.3847222,
+    "longitude": 35.9324989
+  },
+  {
+    "city": "Syria",
+    "country": "Jablah",
+    "latitude": 35.35,
+    "longitude": 35.9166679
+  },
+  {
+    "city": "Jordan",
+    "country": "Sal",
+    "latitude": 32.5694444,
+    "longitude": 35.9119453
+  },
+  {
+    "city": "Turkey",
+    "country": "Bafra",
+    "latitude": 41.5677778,
+    "longitude": 35.9069443
+  },
+  {
+    "city": "Lebanon",
+    "country": "Zahle",
+    "latitude": 33.8497222,
+    "longitude": 35.9041672
+  },
+  {
+    "city": "Jordan",
+    "country": "Kitim",
+    "latitude": 32.4394444,
+    "longitude": 35.896946
+  },
+  {
+    "city": "Jordan",
+    "country": "Jarash",
+    "latitude": 32.2805556,
+    "longitude": 35.8952789
+  },
+  {
+    "city": "Jordan",
+    "country": "Hakama",
+    "latitude": 32.595,
+    "longitude": 35.8861122
+  },
+  {
+    "city": "Syria",
+    "country": "Tartus",
+    "latitude": 34.8833333,
+    "longitude": 35.8833351
+  },
+  {
+    "city": "Jordan",
+    "country": "Kharja",
+    "latitude": 32.6666667,
+    "longitude": 35.8833351
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Bunayyat ash Shamaliyah",
+    "latitude": 31.9,
+    "longitude": 35.8833351
+  },
+  {
+    "city": "Ukraine",
+    "country": "Pavlohrad",
+    "latitude": 48.5166667,
+    "longitude": 35.8666649
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Jubayhah",
+    "latitude": 32.0166667,
+    "longitude": 35.8666649
+  },
+  {
+    "city": "Kenya",
+    "country": "Narok",
+    "latitude": -1.0833333,
+    "longitude": 35.8666649
+  },
+  {
+    "city": "Jordan",
+    "country": "Aydun",
+    "latitude": 32.5072222,
+    "longitude": 35.8574982
+  },
+  {
+    "city": "Jordan",
+    "country": "Irbid",
+    "latitude": 32.5555556,
+    "longitude": 35.8499985
+  },
+  {
+    "city": "Jordan",
+    "country": "Umm as Summaq",
+    "latitude": 31.8833333,
+    "longitude": 35.8499985
+  },
+  {
+    "city": "Kenya",
+    "country": "Rongai",
+    "latitude": -0.1666667,
+    "longitude": 35.8499985
+  },
+  {
+    "city": "Lebanon",
+    "country": "Tripoli",
+    "latitude": 34.4366667,
+    "longitude": 35.8497238
+  },
+  {
+    "city": "Jordan",
+    "country": "Sakhrah",
+    "latitude": 32.3697222,
+    "longitude": 35.8450012
+  },
+  {
+    "city": "Jordan",
+    "country": "Al Kittah",
+    "latitude": 32.2783333,
+    "longitude": 35.8424988
+  },
+  {
+    "city": "Jordan",
+    "country": "Suf",
+    "latitude": 32.3175,
+    "longitude": 35.835556
+  },
+  {
+    "city": "Jordan",
+    "country": "Raymun",
+    "latitude": 32.2833333,
+    "longitude": 35.8333321
+  },
+  {
+    "city": "Ethiopia",
+    "country": "Gimbi",
+    "latitude": 9.1666667,
+    "longitude": 35.8333321
+  },
+  {
+    "city": "Turkey",
+    "country": "Amasya",
+    "latitude": 40.6533333,
+    "longitude": 35.8330574
+  },
+  {
+    "city": "Syria",
+    "country": "Al Qunaytirah",
+    "latitude": 33.1252778,
+    "longitude": 35.8236122
+  },
+  {
+    "city": "Turkey",
+    "country": "Ceyhan",
+    "latitude": 37.0247222,
+    "longitude": 35.8175011
+  },
+  {
+    "city": "Jordan",
+    "country": "Wadi as Sir",
+    "latitude": 31.95,
+    "longitude": 35.8166656
+  },
+  {
+    "city": "Tanzania",
+    "country": "Mlimba",
+    "latitude": -8.8,
+    "longitude": 35.8166656
+  },
+  {
+    "city": "Turkey",
+    "country": "Kozan",
+    "latitude": 37.4505556,
+    "longitude": 35.8163872
+  },
+  {
+    "city": "Jordan",
+    "country": "Sakib",
+    "latitude": 32.2852778,
+    "longitude": 35.8097229
+  },
+  {
+    "city": "Jordan",
+    "country": "Kafr Sawm",
+    "latitude": 32.6833333,
+    "longitude": 35.7999992
+  },
+  {
+    "city": "Jordan",
+    "country": "Madaba",
+    "latitude": 31.7166667,
+    "longitude": 35.7999992
   }
 ]
