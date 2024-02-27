@@ -2050,5 +2050,509 @@
     "country": "Ichinomiya",
     "latitude": 35.3,
     "longitude": 136.8000031
+  },
+  {
+    "city": "Japan",
+    "country": "Gifu",
+    "latitude": 35.4229095,
+    "longitude": 136.7603912
+  },
+  {
+    "city": "Japan",
+    "country": "Kanazawa",
+    "latitude": 36.5666667,
+    "longitude": 136.6499939
+  },
+  {
+    "city": "Japan",
+    "country": "Yokkaichi",
+    "latitude": 34.9666667,
+    "longitude": 136.6166687
+  },
+  {
+    "city": "Japan",
+    "country": "Fukui",
+    "latitude": 36.0644338,
+    "longitude": 136.2225647
+  },
+  {
+    "city": "Japan",
+    "country": "Otsu",
+    "latitude": 35,
+    "longitude": 135.8666687
+  },
+  {
+    "city": "Japan",
+    "country": "Nara",
+    "latitude": 34.6850548,
+    "longitude": 135.8048553
+  },
+  {
+    "city": "Japan",
+    "country": "Kyoto",
+    "latitude": 35.02107,
+    "longitude": 135.7538452
+  },
+  {
+    "city": "Japan",
+    "country": "Hirakata",
+    "latitude": 34.8135214,
+    "longitude": 135.6491394
+  },
+  {
+    "city": "Japan",
+    "country": "Takatsuki",
+    "latitude": 34.8483254,
+    "longitude": 135.6167755
+  },
+  {
+    "city": "Japan",
+    "country": "Yao",
+    "latitude": 34.6166667,
+    "longitude": 135.6000061
+  },
+  {
+    "city": "Japan",
+    "country": "Ibaraki",
+    "latitude": 34.8164106,
+    "longitude": 135.5682831
+  },
+  {
+    "city": "Japan",
+    "country": "Suita",
+    "latitude": 34.761429,
+    "longitude": 135.5156708
+  },
+  {
+    "city": "Japan",
+    "country": "Osaka",
+    "latitude": 34.6937398,
+    "longitude": 135.502182
+  },
+  {
+    "city": "Japan",
+    "country": "Toyonaka",
+    "latitude": 34.7824391,
+    "longitude": 135.4693146
+  },
+  {
+    "city": "Japan",
+    "country": "Sakai",
+    "latitude": 34.5833333,
+    "longitude": 135.4666595
+  },
+  {
+    "city": "Japan",
+    "country": "Amagasaki",
+    "latitude": 34.7166667,
+    "longitude": 135.4166718
+  },
+  {
+    "city": "Japan",
+    "country": "Takarazuka",
+    "latitude": 34.7993561,
+    "longitude": 135.3569641
+  },
+  {
+    "city": "Japan",
+    "country": "Nishinomiya",
+    "latitude": 34.7166667,
+    "longitude": 135.3333282
+  },
+  {
+    "city": "Japan",
+    "country": "Shimminatocho",
+    "latitude": 34.1833333,
+    "longitude": 135.1999969
+  },
+  {
+    "city": "Japan",
+    "country": "Kobe",
+    "latitude": 34.6833333,
+    "longitude": 135.1666718
+  },
+  {
+    "city": "Russia",
+    "country": "Khabarovsk Vtoroy",
+    "latitude": 48.4430556,
+    "longitude": 135.1355591
+  },
+  {
+    "city": "Russia",
+    "country": "Khabarovsk",
+    "latitude": 48.4808333,
+    "longitude": 135.0927734
+  },
+  {
+    "city": "Japan",
+    "country": "Wakayama",
+    "latitude": 34.0902778,
+    "longitude": 135.0899963
+  },
+  {
+    "city": "Japan",
+    "country": "Akashi",
+    "latitude": 34.6333333,
+    "longitude": 134.9833374
+  },
+  {
+    "city": "Japan",
+    "country": "Kakogawa",
+    "latitude": 34.7666667,
+    "longitude": 134.8500061
+  },
+  {
+    "city": "Japan",
+    "country": "Himeji",
+    "latitude": 34.8166667,
+    "longitude": 134.6999969
+  },
+  {
+    "city": "Palau",
+    "country": "Ulimang",
+    "latitude": 7.6216667,
+    "longitude": 134.6388855
+  },
+  {
+    "city": "Palau",
+    "country": "Melekeok",
+    "latitude": 7.4933333,
+    "longitude": 134.6341705
+  },
+  {
+    "city": "Palau",
+    "country": "Ngermechau",
+    "latitude": 7.5513889,
+    "longitude": 134.6330566
+  },
+  {
+    "city": "Palau",
+    "country": "Ollei",
+    "latitude": 7.7172222,
+    "longitude": 134.6122284
+  },
+  {
+    "city": "Palau",
+    "country": "Oikull",
+    "latitude": 7.3655556,
+    "longitude": 134.5836182
+  },
+  {
+    "city": "Japan",
+    "country": "Tokushima",
+    "latitude": 34.0666667,
+    "longitude": 134.5666656
+  },
+  {
+    "city": "Palau",
+    "country": "Airai",
+    "latitude": 7.3575,
+    "longitude": 134.557785
+  },
+  {
+    "city": "Palau",
+    "country": "Imeong",
+    "latitude": 7.5275,
+    "longitude": 134.5255585
+  },
+  {
+    "city": "Palau",
+    "country": "Ngetkib",
+    "latitude": 7.3619444,
+    "longitude": 134.5122223
+  },
+  {
+    "city": "Palau",
+    "country": "Meyungs",
+    "latitude": 7.3519444,
+    "longitude": 134.4544373
+  },
+  {
+    "city": "Palau",
+    "country": "Kloulklubed",
+    "latitude": 7.0394444,
+    "longitude": 134.2525024
+  },
+  {
+    "city": "Palau",
+    "country": "Ngaramasch",
+    "latitude": 6.9013889,
+    "longitude": 134.1294403
+  },
+  {
+    "city": "Japan",
+    "country": "Takamatsu",
+    "latitude": 34.3333333,
+    "longitude": 134.0500031
+  },
+  {
+    "city": "Japan",
+    "country": "Okayama",
+    "latitude": 34.65,
+    "longitude": 133.9166718
+  },
+  {
+    "city": "Australia",
+    "country": "Alice Springs",
+    "latitude": -23.7,
+    "longitude": 133.8833313
+  },
+  {
+    "city": "Japan",
+    "country": "Kurashiki",
+    "latitude": 34.5833333,
+    "longitude": 133.7666626
+  },
+  {
+    "city": "Japan",
+    "country": "Kochi",
+    "latitude": 33.55,
+    "longitude": 133.5500031
+  },
+  {
+    "city": "Japan",
+    "country": "Fukuyama",
+    "latitude": 34.4833333,
+    "longitude": 133.3666687
+  },
+  {
+    "city": "Japan",
+    "country": "Hiroshima",
+    "latitude": 34.4,
+    "longitude": 132.4499969
+  },
+  {
+    "city": "Russia",
+    "country": "Vladivostok",
+    "latitude": 43.1056202,
+    "longitude": 131.8735352
+  },
+  {
+    "city": "Japan",
+    "country": "Oita",
+    "latitude": 33.2372222,
+    "longitude": 131.6044464
+  },
+  {
+    "city": "Japan",
+    "country": "Miyazaki",
+    "latitude": 31.9,
+    "longitude": 131.4333344
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sorong",
+    "latitude": -0.8833333,
+    "longitude": 131.25
+  },
+  {
+    "city": "China",
+    "country": "Shuangyashan",
+    "latitude": 46.6361111,
+    "longitude": 131.1538849
+  },
+  {
+    "city": "Australia",
+    "country": "Palmerston",
+    "latitude": -12.4860237,
+    "longitude": 130.9832916
+  },
+  {
+    "city": "Japan",
+    "country": "Shimonoseki",
+    "latitude": 33.95,
+    "longitude": 130.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "Darwin",
+    "latitude": -12.4611337,
+    "longitude": 130.8418427
+  },
+  {
+    "city": "Japan",
+    "country": "Kitakyushu",
+    "latitude": 33.8333333,
+    "longitude": 130.8333282
+  },
+  {
+    "city": "Japan",
+    "country": "Kumamoto",
+    "latitude": 32.8,
+    "longitude": 130.7166595
+  },
+  {
+    "city": "Japan",
+    "country": "Kagoshima",
+    "latitude": 31.6,
+    "longitude": 130.5500031
+  },
+  {
+    "city": "Japan",
+    "country": "Kurume",
+    "latitude": 33.3166667,
+    "longitude": 130.5166626
+  },
+  {
+    "city": "Norway",
+    "country": "Ungsang-nodongjagu",
+    "latitude": 42.3577778,
+    "longitude": 130.4622192
+  },
+  {
+    "city": "Japan",
+    "country": "Fukuoka",
+    "latitude": 33.5833333,
+    "longitude": 130.3999939
+  },
+  {
+    "city": "Norway",
+    "country": "Sonbong",
+    "latitude": 42.3422222,
+    "longitude": 130.3966675
+  },
+  {
+    "city": "Norway",
+    "country": "Aoji-ri",
+    "latitude": 42.5205556,
+    "longitude": 130.3952789
+  },
+  {
+    "city": "China",
+    "country": "Hegang",
+    "latitude": 47.4,
+    "longitude": 130.3666687
+  },
+  {
+    "city": "Norway",
+    "country": "Najin",
+    "latitude": 42.2488889,
+    "longitude": 130.3002777
+  },
+  {
+    "city": "Norway",
+    "country": "Kyongwon",
+    "latitude": 42.8136111,
+    "longitude": 130.152771
+  },
+  {
+    "city": "Norway",
+    "country": "Onsong",
+    "latitude": 42.9572222,
+    "longitude": 129.9933319
+  },
+  {
+    "city": "Japan",
+    "country": "Nagasaki",
+    "latitude": 32.755,
+    "longitude": 129.8683319
+  },
+  {
+    "city": "Norway",
+    "country": "Namyang-dong",
+    "latitude": 42.95,
+    "longitude": 129.8666687
+  },
+  {
+    "city": "Norway",
+    "country": "Chongjin",
+    "latitude": 41.7955556,
+    "longitude": 129.7758331
+  },
+  {
+    "city": "Norway",
+    "country": "Hoeryong",
+    "latitude": 42.4427778,
+    "longitude": 129.7508392
+  },
+  {
+    "city": "Russia",
+    "country": "Yakutsk",
+    "latitude": 62.0338889,
+    "longitude": 129.7330627
+  },
+  {
+    "city": "Japan",
+    "country": "Sasebo",
+    "latitude": 33.1591667,
+    "longitude": 129.7227783
+  },
+  {
+    "city": "Norway",
+    "country": "Puryong",
+    "latitude": 42.0605556,
+    "longitude": 129.7116699
+  },
+  {
+    "city": "Norway",
+    "country": "Komusan 1-tong",
+    "latitude": 42.1091667,
+    "longitude": 129.6999969
+  },
+  {
+    "city": "Norway",
+    "country": "Nanam",
+    "latitude": 41.7136111,
+    "longitude": 129.6844482
+  },
+  {
+    "city": "Norway",
+    "country": "Hoemul-li",
+    "latitude": 41.4338889,
+    "longitude": 129.6699982
+  },
+  {
+    "city": "Norway",
+    "country": "Sungam-nodongjagu",
+    "latitude": 41.6697222,
+    "longitude": 129.6688843
+  },
+  {
+    "city": "Norway",
+    "country": "Kyongsong",
+    "latitude": 41.5877778,
+    "longitude": 129.6061096
+  },
+  {
+    "city": "China",
+    "country": "Mudanjiang",
+    "latitude": 44.5833333,
+    "longitude": 129.6000061
+  },
+  {
+    "city": "Norway",
+    "country": "Hau-ri",
+    "latitude": 41.2005556,
+    "longitude": 129.4702759
+  },
+  {
+    "city": "South Korea",
+    "country": "Hunghae",
+    "latitude": 36.1125,
+    "longitude": 129.3522186
+  },
+  {
+    "city": "South Korea",
+    "country": "Yonil",
+    "latitude": 35.9941667,
+    "longitude": 129.3450012
+  },
+  {
+    "city": "Norway",
+    "country": "Kilju",
+    "latitude": 40.9641667,
+    "longitude": 129.327774
+  },
+  {
+    "city": "South Korea",
+    "country": "Ulsan",
+    "latitude": 35.5372222,
+    "longitude": 129.3166656
+  },
+  {
+    "city": "South Korea",
+    "country": "Kijang",
+    "latitude": 35.2441667,
+    "longitude": 129.2138824
   }
 ]
