@@ -16,7 +16,7 @@ let startTime;
 let started = false;
 const intervalInSeconds = 8.11;
 let trackerInterval;
-const countdownDate = new Date("2024-03-31T08:00:00Z");
+const countdownDate = new Date("2024-02-29T08:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
   "/restarttracker": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
