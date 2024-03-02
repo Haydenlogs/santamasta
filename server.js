@@ -16,7 +16,7 @@ let startTime;
 let started = false;
 const intervalInSeconds = 8.11;
 let trackerInterval;
-const countdownDate = new Date("2024-02-29T08:00:00Z");
+const countdownDate = new Date("2024-03-31T08:00:00Z");
 // Define the time intervals for each task in milliseconds (in CST)
 const taskIntervals = {
   "/restarttracker": 13 * 60 * 60 * 1000 + 31 * 60 * 1000, // 1:27:00 PM
@@ -495,22 +495,7 @@ app.get("/lock", (req, res) => {
   sendTrackerEvent({ unlocked: false });
   saveTrackerStatusToFile(true);
 });
-// Middleware to log requests
-app.use((req, res, next) => {
-  const ip = req.ip;
-  const time = new Date().toISOString();
-  const country =
-    req.headers["x-forwarded-for"] || req.connection.remoteAddress;
 
-  const visitData = { ip, time, country };
-
-  // Log the visit data to SiteVisits.json
-  fs.appendFile("SiteVisits.json", JSON.stringify(visitData) + "\n", (err) => {
-    if (err) console.error("Error logging visit:", err);
-  });
-
-  next();
-});
 
 // Endpoint to get yearly visits with visit data
 app.get("/getyearlyvisits", (req, res) => {
@@ -534,45 +519,8 @@ app.get("/getmonthlyvisits", (req, res) => {
   });
 });
 
-// Endpoint to get lifetime visits with visit data
-app.get("/getlifetimevisits", (req, res) => {
-  fs.readFile("SiteVisits.json", "utf8", (err, data) => {
-    if (err) {
-      res.status(500).json({ error: "Internal Server Error" });
-    } else {
-      const visits = data.trim().split("\n").map(JSON.parse);
-      res.json({ visits: visits.length, visitData: visits });
-    }
-  });
-});
 
-// Helper function to filter visits based on time criteria and return visit data
-function getVisitsWithData(timeFrame, callback) {
-  fs.readFile("SiteVisits.json", "utf8", (err, data) => {
-    if (err) {
-      callback(err, null);
-    } else {
-      const visits = data
-        .trim()
-        .split("\n")
-        .map(JSON.parse)
-        .filter((visit) => {
-          const visitTime = new Date(visit.time);
-          if (timeFrame === "year") {
-            return visitTime.getFullYear() === new Date().getFullYear();
-          } else if (timeFrame === "month") {
-            const currentDate = new Date();
-            return (
-              visitTime.getFullYear() === currentDate.getFullYear() &&
-              visitTime.getMonth() === currentDate.getMonth()
-            );
-          }
-          return true; // Return all visits for lifetime visits
-        });
-      callback(null, visits);
-    }
-  });
-}
+
 const currentDate = new Date(); // Assuming this is the current date
 console.log(isSameMonthAsCountdown(currentDate)); // Output: true or false
 
