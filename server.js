@@ -17,7 +17,7 @@ async function sendMessageToWebhook(message) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        content: message,
+        content: "<@&1213936947156881448> "+message,message,
       }),
     });
 
@@ -44,7 +44,7 @@ async function sendMessageToWebhook2(message) {
         "Content-Type": "application/json",
       },
       body: JSON.stringify({
-        content: message,
+        content: "<@&1213936810015588372> "+message,
       }),
     });
 
@@ -302,7 +302,7 @@ async function startTracker(filePath) {
       trackerInterval = setInterval(() => {
         sendTrackerUpdate();
         const now = new Date();
-        if (now.getMinutes() === 0) {
+        if (now.getMinutes() === 1 && now.getSeconds() === 0) {
           console.log("New hour");
           sendMessageToWebhook2(lastcountries);
           lastcountries = "Bunny went to the places of: "
