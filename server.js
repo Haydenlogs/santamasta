@@ -3,9 +3,33 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const session = require("express-session");
-
+const fetch = require('node-fetch');
 const app = express();
 app.locals.clients = []; // Initialize clients array
+async function sendMessageToWebhook(message) {
+    const webhookUrl = 'https://discord.com/api/webhooks/1213932233971204238/f6wIr0PPCAOhWg_4-AZBw2b6oknGabpuk41BfcZjCAOXCWUkB5WdyO4WsiJoF3oL8s_S';
+
+    try {
+        const response = await fetch(webhookUrl, {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json',
+            },
+            body: JSON.stringify({
+                content: message,
+            }),
+        });
+
+        if (!response.ok) {
+            console.error(`Failed to send message to webhook: ${response.statusText}`);
+            return;
+        }
+
+        console.log('Message sent successfully!');
+    } catch (error) {
+        console.error('Error sending message to webhook:', error);
+    }
+}
 
 let cities = [];
 let currentIndex;
@@ -280,7 +304,7 @@ function sendNextCity() {
       console.log("Sent next city:", cityInfo);
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
-
+sendMessageToWebhook("Satelites are saying that Easter Bunny will be going to **"+city.city+", "+city.country+"**");
       sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
 
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city

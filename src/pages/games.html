@@ -259,47 +259,51 @@ if (days <= 5) {
   countdownButton.addEventListener("click", () => {
     chatPopup.style.display = "block";
   });
-const apiKey = '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'; // Replace with your actual API key
+// Define keyword-response mappings
+    const keywordResponses = {
+      "when is easter": "Easter is on March 31st, 2024.",
+      "how are you": "I'm fine, thank you!",
+      // Add more keyword-response pairs as needed
+    };
 
-// Function to send a message and get a response from AI
-    async function sendMessage() {
-      const userInput = document.getElementById("userInput");
-      const message = userInput.value.trim();
-      const chatMessages = document.getElementById("chatMessages");
+    // Function to get response based on user input
+    function sendMessage() {
+      const userInput = document.getElementById("userInput").value.toLowerCase();
+      const responseElement = document.getElementById("response");
 
-      if (message !== "") {
-        const userMessageElement = document.createElement("div");
-        userMessageElement.textContent = "You: " + message;
-        chatMessages.appendChild(userMessageElement);
+      // Search for keywords in the user input and retrieve the corresponding response
+      const response = Object.keys(keywordResponses).find(keyword => userInput.includes(keyword));
+      if (response) {
+        responseElement.textContent = keywordResponses[response];
+      } else {
+        responseElement.textContent = "Sorry, I don't understand.";
+      }
+    }
+ // Define keyword-response mappings in a table
+    const keywordResponses = {
+      "when is easter": "Easter is on March 31st, 2024.",
+      "how are you": "I'm fine, thank you!",
+      // Add more keyword-response pairs as needed
+    };
 
-        try {
-          const response = await fetch('https://api.openai.com/v1/completions', {
-            method: 'POST',
-            headers: {
-              'Content-Type': 'application/json',
-              'Authorization': 'Bearer ' + apiKey,
-            },
-            body: JSON.stringify({
-              model: 'davinci',
-              prompt: message,
-              max_tokens: 50,
-            }),
-          });
+    // Function to send message and get response based on keywords
+    function sendMessage() {
+      const userInput = document.getElementById("userInput").value.toLowerCase();
+      const responseElement = document.getElementById("response");
 
-          if (!response.ok) {
-            throw new Error('Failed to fetch AI response');
-          }
-
-          const responseData = await response.json();
-
-          const aiMessageElement = document.createElement("div");
-          aiMessageElement.textContent = "AI: " + responseData.choices[0].text.trim();
-          chatMessages.appendChild(aiMessageElement);
-        } catch (error) {
-          console.error('Error fetching AI response:', error);
+      // Search for keywords in the user input and retrieve the corresponding response
+      let responseFound = false;
+      for (const keyword in keywordResponses) {
+        if (userInput.includes(keyword)) {
+          responseElement.textContent = keywordResponses[keyword];
+          responseFound = true;
+          break;
         }
+      }
 
-        userInput.value = "";
+      // If no response is found, display a default message
+      if (!responseFound) {
+        responseElement.textContent = "Sorry, I don't understand.";
       }
     }
    document.getElementById("sendButton").addEventListener("click", sendMessage);
