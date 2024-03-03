@@ -302,7 +302,7 @@ async function startTracker(filePath) {
       trackerInterval = setInterval(() => {
         sendTrackerUpdate();
         const now = new Date();
-        if (now.getMinutes() === 1 && now.getSeconds() === 0) {
+        if (now.getMinutes() === 0 && now.getSeconds() === 0) {
           console.log("New hour");
           sendMessageToWebhook2(lastcountries);
           lastcountries = "Bunny went to the places of: "
@@ -386,6 +386,7 @@ app.get("/message1set", async (req, res) => {
             messageupdate:
               "Weather on Easter Island is indicating perfect weather for traveling.",
           });
+          sendMessageToWebhook2("Weather on Easter Island is indicating perfect weather for traveling.");
         }
       }
     );
@@ -415,6 +416,7 @@ app.get("/message2set", async (req, res) => {
             messageupdate:
               "Are you ready? Easter Bunny is expected to launch within the hour.",
           });
+          sendMessageToWebhook2("Are you ready? Easter Bunny is expected to launch within the hour.");
         }
       }
     );
@@ -438,6 +440,7 @@ app.get("/message3set", async (req, res) => {
           sendTrackerEvent({
             messageupdate: "Easter Bunny is about to launch.",
           });
+          sendMessageToWebhook2("Easter Bunny is about to launch.");
         }
       }
     );
@@ -458,6 +461,7 @@ app.get("/message4set", async (req, res) => {
         sendTrackerEvent({ messageupdate: "Easter Bunny is Launching!" });
       }
     });
+          sendMessageToWebhook2("Easter Bunny is Launching!");
   } catch (error) {
     res.status(500).send("Internal Server Error");
   }

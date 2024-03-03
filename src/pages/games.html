@@ -11,11 +11,7 @@
         padding: 0;
         background-color: #f0f0f0;
     }
-    header {
-        background-color: #88c6e7;
-        padding: 20px;
-        text-align: center;
-    }
+    
     h1 {
         color: #fff;
     }
@@ -130,16 +126,21 @@
   cursor: pointer;
   color: #999;
 }
-
+.logo {
+      width: 30px;
+      margin-right: 1px; /* Add right margin to create space between the logo and the text */
+    }
 
 </style>
 </head>
 <body>
     <header>
-      <span class="correctspacing" id="local-time"></span> <!-- Local time -->
+     <span class="correctspacing" id="local-time"></span> <!-- Local time -->
         <h1>Welcome to the Easter Bunny's Village</h1>
     </header>
-  
+  <h1>
+    Welcome to Easter Village
+  </h1>
     <div class="container">
         <h2>About Us</h2>
         <p>The Easter Bunny's Village is a magical place where bunnies and all sorts of creatures live and prepare for Easter.</p>
@@ -175,7 +176,7 @@
             <div class="flip-digit" id="seconds">00</div>
         </div>
     </div><div id="countdownButtonContainer">
-    <button id="countdownButton" style="display: block;">
+    <button id="countdownButton" style="display: none;">
       <img src="https://media.tenor.com/MP8oSlpFsHwAAAAj/kinder-egg.gif" alt="Kinder Egg">
     </button>
   </div>
@@ -280,12 +281,7 @@ if (days <= 5) {
       }
     }
  // Define keyword-response mappings in a table
-    const keywordResponses = {
-      "when is easter": "Easter is on March 31st, 2024.",
-      "how are you": "I'm fine, thank you!",
-      // Add more keyword-response pairs as needed
-    };
-
+    
     // Function to send message and get response based on keywords
     function sendMessage() {
       const userInput = document.getElementById("userInput").value.toLowerCase();
@@ -364,7 +360,11 @@ function padNumber(number) {
 </script>
     
 <footer>
-    <center><p>&copy; 2024 Master Bunny Tracker</p></center>
+    <center><p>&copy; 2024 Master Bunny Tracker</p>
+  <a href="https://discord.gg/cfd9TR6s3m"><img class="logo" width="30px;" src="https://cdn.freebiesupply.com/logos/large/2x/discord-logo-png-transparent.png">
+      </a>
+  </center>
+   
 </footer>
 </body>
 </html>
