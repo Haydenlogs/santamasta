@@ -3,34 +3,64 @@ const fs = require("fs");
 const path = require("path");
 const ejs = require("ejs");
 const session = require("express-session");
-const fetch = require('node-fetch');
+const fetch = require("node-fetch");
 const app = express();
 app.locals.clients = []; // Initialize clients array
 async function sendMessageToWebhook(message) {
-    const webhookUrl = 'https://discord.com/api/webhooks/1213932233971204238/f6wIr0PPCAOhWg_4-AZBw2b6oknGabpuk41BfcZjCAOXCWUkB5WdyO4WsiJoF3oL8s_S';
+  const webhookUrl =
+    "https://discord.com/api/webhooks/1213932233971204238/f6wIr0PPCAOhWg_4-AZBw2b6oknGabpuk41BfcZjCAOXCWUkB5WdyO4WsiJoF3oL8s_S";
 
-    try {
-        const response = await fetch(webhookUrl, {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json',
-            },
-            body: JSON.stringify({
-                content: message,
-            }),
-        });
+  try {
+    const response = await fetch(webhookUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        content: message,
+      }),
+    });
 
-        if (!response.ok) {
-            console.error(`Failed to send message to webhook: ${response.statusText}`);
-            return;
-        }
-
-        console.log('Message sent successfully!');
-    } catch (error) {
-        console.error('Error sending message to webhook:', error);
+    if (!response.ok) {
+      console.error(
+        `Failed to send message to webhook: ${response.statusText}`
+      );
+      return;
     }
-}
 
+    console.log("Message sent successfully!");
+  } catch (error) {
+    console.error("Error sending message to webhook:", error);
+  }
+}
+async function sendMessageToWebhook2(message) {
+  const webhookUrl =
+    "https://discord.com/api/webhooks/1213934842396549140/KrTMuFx1kPHHI7ghkZazbzPPAlN2ItKWmVq6vSTMlQNz8h0Q36KgnfRG1-ZKFncfL0NF";
+
+  try {
+    const response = await fetch(webhookUrl, {
+      method: "POST",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify({
+        content: message,
+      }),
+    });
+
+    if (!response.ok) {
+      console.error(
+        `Failed to send message to webhook: ${response.statusText}`
+      );
+      return;
+    }
+
+    console.log("Message sent successfully!");
+  } catch (error) {
+    console.error("Error sending message to webhook:", error);
+  }
+}
+let lastcountries = "Bunny went to the places of: ";
 let cities = [];
 let currentIndex;
 let isTrackerStarted = false;
@@ -74,7 +104,6 @@ function isValidDate(dateString) {
   return dateString.match(datePattern);
 }
 function isSameMonthAsCountdown(date) {
-  
   return date.getMonth() === countdownDate.getMonth();
 }
 
@@ -218,8 +247,7 @@ function saveIndexToFile() {
 }
 
 async function dosomethingtorefresh() {
-   sendTrackerEvent({ refresh: true });
-    
+  sendTrackerEvent({ refresh: true });
 }
 async function readCitiesFromFile(filePath) {
   return new Promise((resolve, reject) => {
@@ -273,7 +301,15 @@ async function startTracker(filePath) {
       sendNextCity();
       trackerInterval = setInterval(() => {
         sendTrackerUpdate();
+        const now = new Date();
+        if (now.getMinutes() === 0) {
+          console.log("New hour");
+          sendMessageToWebhook2(lastcountries);
+          lastcountries = "Bunny went to the places of: "
+          // You can send a message to the webhook here if needed
+        }
       }, 1000); // Update tracker every second
+
       sendTrackerStartEvent(); // Send SSE event when the tracker starts
     } catch (error) {
       console.error("Error loading cities:", error);
@@ -298,13 +334,20 @@ function sendNextCity() {
         latitude: city.latitude,
         longitude: city.longitude,
       };
+      lastcountries = lastcountries + city.country + ", " + city.city + " | ";
       app.set("currentCity", cityInfo);
       lastCity = cityInfo; // Update lastCity when sending a new city
       startTime = Date.now(); // Set the start time when sending a new city
       console.log("Sent next city:", cityInfo);
       currentIndex++; // Increment currentIndex after sending the city
       saveIndexToFile(); // Save current index to file
-sendMessageToWebhook("Satelites are saying that Easter Bunny will be going to **"+city.city+", "+city.country+"**");
+      sendMessageToWebhook(
+        "Satelites are saying that Easter Bunny will be going to **" +
+          city.city +
+          ", " +
+          city.country +
+          "**"
+      );
       sendTrackerEvent({ newbasket: cityInfo }); // Include presentsDelivered in the event
 
       setTimeout(sendNextCity, intervalInSeconds * 1000); // Wait for intervalInSeconds before sending the next city
@@ -329,7 +372,7 @@ sendMessageToWebhook("Satelites are saying that Easter Bunny will be going to **
 
 // Endpoint to set message 1
 app.get("/message1set", async (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   try {
     await fs.writeFile(
       "message.txt",
@@ -358,7 +401,7 @@ app.get("/getmaxpresents", (req, res) => {
 
 // Endpoint to set message 2
 app.get("/message2set", async (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   try {
     await fs.writeFile(
       "message.txt",
@@ -382,7 +425,7 @@ app.get("/message2set", async (req, res) => {
 
 // Endpoint to set message 3
 app.get("/message3set", async (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   try {
     await fs.writeFile(
       "message.txt",
@@ -405,7 +448,7 @@ app.get("/message3set", async (req, res) => {
 
 // Endpoint to set message 4
 app.get("/message4set", async (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   try {
     await fs.writeFile("message.txt", "Easter Bunny is Launching!", (err) => {
       if (err) {
@@ -484,7 +527,7 @@ function sendTrackerStartEvent() {
 }
 
 app.get("/starttracker", (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   startTracker("cities2.csv");
   res.send("Tracker started.");
   started = true;
@@ -493,7 +536,7 @@ app.get("/starttracker", (req, res) => {
 
 // Endpoint to reset the index to 0
 app.get("/restarttracker", (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   currentIndex = 0;
   saveIndexToFile(); // Save the index to file
   res.send("Tracker index reset.");
@@ -504,7 +547,7 @@ let isLocked = true;
 
 // Endpoint to unlock the site
 app.get("/unlock", (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   isLocked = false;
   res.send("Site unlocked");
   sendTrackerEvent({ unlocked: true });
@@ -513,13 +556,12 @@ app.get("/unlock", (req, res) => {
 
 // Endpoint to lock the site
 app.get("/lock", (req, res) => {
-  dosomethingtorefresh()
+  dosomethingtorefresh();
   isLocked = true;
   res.send("Site locked");
   sendTrackerEvent({ unlocked: false });
   saveTrackerStatusToFile(true);
 });
-
 
 // Endpoint to get yearly visits with visit data
 app.get("/getyearlyvisits", (req, res) => {
@@ -542,8 +584,6 @@ app.get("/getmonthlyvisits", (req, res) => {
     }
   });
 });
-
-
 
 const currentDate = new Date(); // Assuming this is the current date
 console.log(isSameMonthAsCountdown(currentDate)); // Output: true or false
@@ -593,7 +633,6 @@ app.get("/", (req, res) => {
     res.sendFile(path.join(__dirname, "src", "pages", "ended.html"));
   }
 });
-
 
 // Endpoint to reset the baskets
 app.get("/resetbaskets", (req, res) => {

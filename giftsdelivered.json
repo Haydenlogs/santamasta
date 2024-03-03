@@ -4,5 +4,221 @@
     "country": " Easter Island",
     "latitude": -27.1167,
     "longitude": 90
+  },
+  {
+    "city": "Bunny World Tracking Units",
+    "country": " Unit 24AR",
+    "latitude": -21.7667,
+    "longitude": 134.6917
+  },
+  {
+    "city": "Fiji",
+    "country": "Lambasa",
+    "latitude": -16.4166667,
+    "longitude": 179.3833313
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Funafuti",
+    "latitude": -8.5166667,
+    "longitude": 179.2166595
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Asau",
+    "latitude": -7.5,
+    "longitude": 178.6666718
+  },
+  {
+    "city": "Fiji",
+    "country": "Suva",
+    "latitude": -18.1333333,
+    "longitude": 178.4166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Gisborne",
+    "latitude": -38.6533333,
+    "longitude": 178.0041656
+  },
+  {
+    "city": "Fiji",
+    "country": "Nandi",
+    "latitude": -17.8,
+    "longitude": 177.4166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Wairoa",
+    "latitude": -39.0333333,
+    "longitude": 177.3666687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Opotiki",
+    "latitude": -38.0833333,
+    "longitude": 177.2833405
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Tanrake",
+    "latitude": -7.25,
+    "longitude": 177.1499939
+  },
+  {
+    "city": "New Zealand",
+    "country": "Whakatane",
+    "latitude": -37.9833333,
+    "longitude": 177
+  },
+  {
+    "city": "New Zealand",
+    "country": "Napier",
+    "latitude": -39.4833333,
+    "longitude": 176.9166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Hastings",
+    "latitude": -39.6381,
+    "longitude": 176.8491821
+  },
+  {
+    "city": "New Zealand",
+    "country": "Edgecumbe",
+    "latitude": -37.9833333,
+    "longitude": 176.8333282
+  },
+  {
+    "city": "New Zealand",
+    "country": "Kawerau",
+    "latitude": -38.1,
+    "longitude": 176.6999969
+  },
+  {
+    "city": "New Zealand",
+    "country": "Murupara",
+    "latitude": -38.4666667,
+    "longitude": 176.6999969
+  },
+  {
+    "city": "Kiribati",
+    "country": "Rungata",
+    "latitude": -1.35,
+    "longitude": 176.4333344
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Tonga",
+    "latitude": -6.2833333,
+    "longitude": 176.3166656
+  },
+  {
+    "city": "New Zealand",
+    "country": "Rotorua",
+    "latitude": -38.1387422,
+    "longitude": 176.245163
+  },
+  {
+    "city": "New Zealand",
+    "country": "Tauranga",
+    "latitude": -37.6861111,
+    "longitude": 176.1666718
+  },
+  {
+    "city": "Tuvalu",
+    "country": "Lolua",
+    "latitude": -5.6666667,
+    "longitude": 176.1333313
+  },
+  {
+    "city": "New Zealand",
+    "country": "Taupo",
+    "latitude": -38.6833333,
+    "longitude": 176.0833282
+  },
+  {
+    "city": "Kiribati",
+    "country": "Tabukiniberu",
+    "latitude": -1.3419259,
+    "longitude": 175.9894714
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waihi Beach",
+    "latitude": -37.4,
+    "longitude": 175.9333344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Turangi",
+    "latitude": -39,
+    "longitude": 175.9333344
+  },
+  {
+    "city": "New Zealand",
+    "country": "Katikati",
+    "latitude": -37.55,
+    "longitude": 175.9166718
+  },
+  {
+    "city": "New Zealand",
+    "country": "Whangamata",
+    "latitude": -37.2,
+    "longitude": 175.8666687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Tokoroa",
+    "latitude": -38.2333333,
+    "longitude": 175.8666687
+  },
+  {
+    "city": "New Zealand",
+    "country": "Tairua",
+    "latitude": -37.0166667,
+    "longitude": 175.8500061
+  },
+  {
+    "city": "New Zealand",
+    "country": "Waihi",
+    "latitude": -37.3833333,
+    "longitude": 175.8333282
+  },
+  {
+    "city": "Australia",
+    "country": "Casey Station",
+    "latitude": -66.2833,
+    "longitude": 110.5167
+  },
+  {
+    "city": "Australia",
+    "country": "Davis Station",
+    "latitude": -68.5833,
+    "longitude": 77.9667
+  },
+  {
+    "city": "Australia",
+    "country": "Mawson Station",
+    "latitude": -67.6,
+    "longitude": 62.8833
+  },
+  {
+    "city": "Australia",
+    "country": "Macquarie Island Station",
+    "latitude": -54.5,
+    "longitude": 158.95
+  },
+  {
+    "city": "France",
+    "country": "Dumont d'Urville Station",
+    "latitude": -66.6667,
+    "longitude": 140.0167
+  },
+  {
+    "city": "Russia",
+    "country": "Mirny Station",
+    "latitude": -66.55,
+    "longitude": 93.0167
   }
 ]
