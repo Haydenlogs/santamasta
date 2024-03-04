@@ -2320,5 +2320,539 @@
     "country": "Hiroshima",
     "latitude": 34.4,
     "longitude": 132.4499969
+  },
+  {
+    "city": "Russia",
+    "country": "Vladivostok",
+    "latitude": 43.1056202,
+    "longitude": 131.8735352
+  },
+  {
+    "city": "Japan",
+    "country": "Oita",
+    "latitude": 33.2372222,
+    "longitude": 131.6044464
+  },
+  {
+    "city": "Japan",
+    "country": "Miyazaki",
+    "latitude": 31.9,
+    "longitude": 131.4333344
+  },
+  {
+    "city": "Indonesia",
+    "country": "Sorong",
+    "latitude": -0.8833333,
+    "longitude": 131.25
+  },
+  {
+    "city": "China",
+    "country": "Shuangyashan",
+    "latitude": 46.6361111,
+    "longitude": 131.1538849
+  },
+  {
+    "city": "Australia",
+    "country": "Palmerston",
+    "latitude": -12.4860237,
+    "longitude": 130.9832916
+  },
+  {
+    "city": "Japan",
+    "country": "Shimonoseki",
+    "latitude": 33.95,
+    "longitude": 130.9499969
+  },
+  {
+    "city": "Australia",
+    "country": "Darwin",
+    "latitude": -12.4611337,
+    "longitude": 130.8418427
+  },
+  {
+    "city": "Japan",
+    "country": "Kitakyushu",
+    "latitude": 33.8333333,
+    "longitude": 130.8333282
+  },
+  {
+    "city": "Japan",
+    "country": "Kumamoto",
+    "latitude": 32.8,
+    "longitude": 130.7166595
+  },
+  {
+    "city": "Japan",
+    "country": "Kagoshima",
+    "latitude": 31.6,
+    "longitude": 130.5500031
+  },
+  {
+    "city": "Japan",
+    "country": "Kurume",
+    "latitude": 33.3166667,
+    "longitude": 130.5166626
+  },
+  {
+    "city": "Norway",
+    "country": "Ungsang-nodongjagu",
+    "latitude": 42.3577778,
+    "longitude": 130.4622192
+  },
+  {
+    "city": "Japan",
+    "country": "Fukuoka",
+    "latitude": 33.5833333,
+    "longitude": 130.3999939
+  },
+  {
+    "city": "Norway",
+    "country": "Sonbong",
+    "latitude": 42.3422222,
+    "longitude": 130.3966675
+  },
+  {
+    "city": "Norway",
+    "country": "Aoji-ri",
+    "latitude": 42.5205556,
+    "longitude": 130.3952789
+  },
+  {
+    "city": "China",
+    "country": "Hegang",
+    "latitude": 47.4,
+    "longitude": 130.3666687
+  },
+  {
+    "city": "Norway",
+    "country": "Najin",
+    "latitude": 42.2488889,
+    "longitude": 130.3002777
+  },
+  {
+    "city": "Norway",
+    "country": "Kyongwon",
+    "latitude": 42.8136111,
+    "longitude": 130.152771
+  },
+  {
+    "city": "Norway",
+    "country": "Onsong",
+    "latitude": 42.9572222,
+    "longitude": 129.9933319
+  },
+  {
+    "city": "Japan",
+    "country": "Nagasaki",
+    "latitude": 32.755,
+    "longitude": 129.8683319
+  },
+  {
+    "city": "Norway",
+    "country": "Namyang-dong",
+    "latitude": 42.95,
+    "longitude": 129.8666687
+  },
+  {
+    "city": "Norway",
+    "country": "Chongjin",
+    "latitude": 41.7955556,
+    "longitude": 129.7758331
+  },
+  {
+    "city": "Norway",
+    "country": "Hoeryong",
+    "latitude": 42.4427778,
+    "longitude": 129.7508392
+  },
+  {
+    "city": "Russia",
+    "country": "Yakutsk",
+    "latitude": 62.0338889,
+    "longitude": 129.7330627
+  },
+  {
+    "city": "Japan",
+    "country": "Sasebo",
+    "latitude": 33.1591667,
+    "longitude": 129.7227783
+  },
+  {
+    "city": "Norway",
+    "country": "Puryong",
+    "latitude": 42.0605556,
+    "longitude": 129.7116699
+  },
+  {
+    "city": "Norway",
+    "country": "Komusan 1-tong",
+    "latitude": 42.1091667,
+    "longitude": 129.6999969
+  },
+  {
+    "city": "Norway",
+    "country": "Nanam",
+    "latitude": 41.7136111,
+    "longitude": 129.6844482
+  },
+  {
+    "city": "Norway",
+    "country": "Hoemul-li",
+    "latitude": 41.4338889,
+    "longitude": 129.6699982
+  },
+  {
+    "city": "Norway",
+    "country": "Sungam-nodongjagu",
+    "latitude": 41.6697222,
+    "longitude": 129.6688843
+  },
+  {
+    "city": "Norway",
+    "country": "Kyongsong",
+    "latitude": 41.5877778,
+    "longitude": 129.6061096
+  },
+  {
+    "city": "China",
+    "country": "Mudanjiang",
+    "latitude": 44.5833333,
+    "longitude": 129.6000061
+  },
+  {
+    "city": "Norway",
+    "country": "Hau-ri",
+    "latitude": 41.2005556,
+    "longitude": 129.4702759
+  },
+  {
+    "city": "South Korea",
+    "country": "Hunghae",
+    "latitude": 36.1125,
+    "longitude": 129.3522186
+  },
+  {
+    "city": "South Korea",
+    "country": "Yonil",
+    "latitude": 35.9941667,
+    "longitude": 129.3450012
+  },
+  {
+    "city": "Norway",
+    "country": "Kilju",
+    "latitude": 40.9641667,
+    "longitude": 129.327774
+  },
+  {
+    "city": "South Korea",
+    "country": "Ulsan",
+    "latitude": 35.5372222,
+    "longitude": 129.3166656
+  },
+  {
+    "city": "South Korea",
+    "country": "Kijang",
+    "latitude": 35.2441667,
+    "longitude": 129.2138824
+  },
+  {
+    "city": "Norway",
+    "country": "Musan-up",
+    "latitude": 42.2294444,
+    "longitude": 129.2130585
+  },
+  {
+    "city": "South Korea",
+    "country": "Kyongju",
+    "latitude": 35.8427778,
+    "longitude": 129.2116699
+  },
+  {
+    "city": "South Korea",
+    "country": "Ungsang",
+    "latitude": 35.4061111,
+    "longitude": 129.1686096
+  },
+  {
+    "city": "South Korea",
+    "country": "Tonghae",
+    "latitude": 37.5438889,
+    "longitude": 129.1069489
+  },
+  {
+    "city": "South Korea",
+    "country": "Pusan",
+    "latitude": 35.1027778,
+    "longitude": 129.0402832
+  },
+  {
+    "city": "South Korea",
+    "country": "Yangsan",
+    "latitude": 35.3386111,
+    "longitude": 129.0386047
+  },
+  {
+    "city": "South Korea",
+    "country": "Taebaek",
+    "latitude": 37.1730556,
+    "longitude": 128.9861145
+  },
+  {
+    "city": "South Korea",
+    "country": "Kangnung",
+    "latitude": 37.7555556,
+    "longitude": 128.8961182
+  },
+  {
+    "city": "South Korea",
+    "country": "Kimhae",
+    "latitude": 35.2341667,
+    "longitude": 128.8811035
+  },
+  {
+    "city": "South Korea",
+    "country": "Hayang",
+    "latitude": 35.9133333,
+    "longitude": 128.8200073
+  },
+  {
+    "city": "Norway",
+    "country": "Sungjibaegam",
+    "latitude": 41.2427778,
+    "longitude": 128.7988892
+  },
+  {
+    "city": "South Korea",
+    "country": "Miryang",
+    "latitude": 35.4933333,
+    "longitude": 128.7488861
+  },
+  {
+    "city": "South Korea",
+    "country": "Kyongsan",
+    "latitude": 35.8233333,
+    "longitude": 128.7377777
+  },
+  {
+    "city": "South Korea",
+    "country": "Chinyong",
+    "latitude": 35.3041667,
+    "longitude": 128.7316742
+  },
+  {
+    "city": "South Korea",
+    "country": "Andong",
+    "latitude": 36.5655556,
+    "longitude": 128.7250061
+  },
+  {
+    "city": "South Korea",
+    "country": "Chinhae",
+    "latitude": 35.1494444,
+    "longitude": 128.659729
+  },
+  {
+    "city": "Norway",
+    "country": "Iwon-up",
+    "latitude": 40.3230556,
+    "longitude": 128.6552734
+  },
+  {
+    "city": "South Korea",
+    "country": "Yongju",
+    "latitude": 36.8216667,
+    "longitude": 128.6308289
+  },
+  {
+    "city": "South Korea",
+    "country": "Sinhyon",
+    "latitude": 34.8825,
+    "longitude": 128.6266632
+  },
+  {
+    "city": "South Korea",
+    "country": "Taegu",
+    "latitude": 35.8702778,
+    "longitude": 128.5911102
+  },
+  {
+    "city": "South Korea",
+    "country": "Koje",
+    "latitude": 34.8502778,
+    "longitude": 128.5886078
+  },
+  {
+    "city": "South Korea",
+    "country": "Masan",
+    "latitude": 35.2080556,
+    "longitude": 128.5724945
+  },
+  {
+    "city": "South Korea",
+    "country": "Naeso",
+    "latitude": 35.2497222,
+    "longitude": 128.5200043
+  },
+  {
+    "city": "South Korea",
+    "country": "Hwawon",
+    "latitude": 35.8016667,
+    "longitude": 128.5008392
+  },
+  {
+    "city": "South Korea",
+    "country": "Yongwol",
+    "latitude": 37.1872222,
+    "longitude": 128.4733276
+  },
+  {
+    "city": "South Korea",
+    "country": "Waegwan",
+    "latitude": 35.9888889,
+    "longitude": 128.3972168
+  },
+  {
+    "city": "South Korea",
+    "country": "Kumi",
+    "latitude": 36.1272222,
+    "longitude": 128.3447266
+  },
+  {
+    "city": "South Korea",
+    "country": "Kosong",
+    "latitude": 34.9727778,
+    "longitude": 128.3236084
+  },
+  {
+    "city": "South Korea",
+    "country": "Sonsan",
+    "latitude": 36.2408333,
+    "longitude": 128.2975006
+  },
+  {
+    "city": "Norway",
+    "country": "Kapsan-up",
+    "latitude": 41.0902778,
+    "longitude": 128.293335
+  },
+  {
+    "city": "Indonesia",
+    "country": "Ambon",
+    "latitude": -3.7166667,
+    "longitude": 128.1999969
+  },
+  {
+    "city": "Norway",
+    "country": "Hyesan-dong",
+    "latitude": 41.4,
+    "longitude": 128.1833344
+  },
+  {
+    "city": "South Korea",
+    "country": "Sangju",
+    "latitude": 36.4152778,
+    "longitude": 128.160553
+  },
+  {
+    "city": "Norway",
+    "country": "Yuktae-dong",
+    "latitude": 40.0247222,
+    "longitude": 128.159729
+  },
+  {
+    "city": "South Korea",
+    "country": "Chinju",
+    "latitude": 35.1927778,
+    "longitude": 128.0847168
+  },
+  {
+    "city": "Norway",
+    "country": "Hongwon",
+    "latitude": 40.0252778,
+    "longitude": 127.9558334
+  },
+  {
+    "city": "South Korea",
+    "country": "Wonju",
+    "latitude": 37.3513889,
+    "longitude": 127.9452744
+  },
+  {
+    "city": "Norway",
+    "country": "Samho-rodongjagu",
+    "latitude": 39.9475,
+    "longitude": 127.871109
+  },
+  {
+    "city": "South Korea",
+    "country": "Yongdong",
+    "latitude": 36.175,
+    "longitude": 127.7763901
+  },
+  {
+    "city": "South Korea",
+    "country": "Yosu",
+    "latitude": 34.7441667,
+    "longitude": 127.7377777
+  },
+  {
+    "city": "Japan",
+    "country": "Naha",
+    "latitude": 26.2072222,
+    "longitude": 127.6733322
+  },
+  {
+    "city": "South Korea",
+    "country": "Yoju",
+    "latitude": 37.2938889,
+    "longitude": 127.6377792
+  },
+  {
+    "city": "Norway",
+    "country": "Hungnam",
+    "latitude": 39.8316667,
+    "longitude": 127.6186142
+  },
+  {
+    "city": "Norway",
+    "country": "Hoeyang",
+    "latitude": 38.7102778,
+    "longitude": 127.5983353
+  },
+  {
+    "city": "South Korea",
+    "country": "Kwangyang",
+    "latitude": 34.9752778,
+    "longitude": 127.5891647
+  },
+  {
+    "city": "Norway",
+    "country": "Hamhung",
+    "latitude": 39.9183333,
+    "longitude": 127.5363922
+  },
+  {
+    "city": "Russia",
+    "country": "Blagoveshchensk",
+    "latitude": 50.2666667,
+    "longitude": 127.5333328
+  },
+  {
+    "city": "Norway",
+    "country": "Anbyon-up",
+    "latitude": 39.0425,
+    "longitude": 127.5238876
+  },
+  {
+    "city": "South Korea",
+    "country": "Pubal",
+    "latitude": 37.2916667,
+    "longitude": 127.5077744
+  },
+  {
+    "city": "South Korea",
+    "country": "Kumsan",
+    "latitude": 36.1030556,
+    "longitude": 127.4888916
   }
 ]
