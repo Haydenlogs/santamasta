@@ -80,11 +80,10 @@
     var map = L.map('map-container').setView([0, 0], 2); // Set initial center and zoom
 
     // Add the tile layer (satellite imagery with labels)
-    L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
+    L.tileLayer('https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
       maxZoom: 20,
       subdomains:['mt0','mt1','mt2','mt3']
     }).addTo(map);
-
     // Add Santa marker
     var santaMarker = L.marker([0, 0], {
       icon: L.icon({
