@@ -737,9 +737,17 @@ app.get("/updates", (req, res) => {
   }
   app.locals.clients.push(client);
 });
+  
+const allowedIPv4Equivalent = "::ffff:127.0.0.1";
 
 app.get("/admin", (req, res) => {
-  res.sendFile(path.join(__dirname, "src", "pages", "controlpanel.html"));
+  const clientIP = req.connection.remoteAddress; // Get the client's IP address
+  // Check if the client's IP matches the allowed IPv4 equivalent address
+  if (clientIP === allowedIPv4Equivalent) {
+    res.sendFile(path.join(__dirname, "src", "pages", "controlpanel.html"));
+  } else {
+    res.status(404).sendFile(path.join(__dirname, "src", "pages", "404.html"));
+  }
 });
 app.get("/refresherpage", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "refreshtokeepup.html"));
@@ -759,7 +767,7 @@ app.get("/en-us/embed/map", (req, res) => {
 app.get("/en-us/embed/losttrack", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "losttrack.html"));
 });
-app.get("/en-us/embed/mapiframe", (req, res) => {
+app.get("/en-us/embed/tracker", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
 });
 // Endpoint to get the current message
