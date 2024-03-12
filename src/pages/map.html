@@ -3,92 +3,144 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Tracker</title>
+  <title>Master Bunny Trackers</title>
   <style>
-    /* Disable scrolling for the entire page */
-    body, html {
-      overflow: hidden;
-      height: 100%;
+    body {
       margin: 0;
       padding: 0;
       font-family: Arial, sans-serif;
+      overflow: hidden;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.1)), url("https://example.com/background.jpg") center/cover fixed;
     }
 
-    /* Fixed top bar styles */
+    #logo {
+      color: #fff;
+      font-size: 64px;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 10px;
+      overflow: hidden;
+      white-space: wrap;
+      width: 100%;
+    }
+
+    #logo span {
+      display: inline-block;
+      transform: translateY(100%);
+      transition: transform 1s ease;
+    }
+
+    #logo.spread span {
+      transform: translateY(0);
+    }
+
+    iframe {
+      width: 100vw;
+      height: 100vh;
+      border: none;
+      visibility: hidden;
+      opacity: 0;
+      transition: opacity 0.5s ease;
+    }
+
+    .fade-in {
+      animation: fadeIn 1s forwards;
+    }
+
+    @keyframes fadeIn {
+      0% {
+        visibility: hidden;
+        opacity: 0;
+      }
+      100% {
+        visibility: visible;
+        opacity: 1;
+      }
+    }
+
+    .fade-out {
+      animation: fadeOut 2s forwards 6s;
+    }
+
+    @keyframes fadeOut {
+      0% {
+        visibility: visible;
+        opacity: 1;
+      }
+      100% {
+        visibility: hidden;
+        opacity: 0;
+      }
+    }
+
+    /* Top bar styles */
     .topbar {
       position: fixed;
       top: 0;
       left: 0;
       width: 100%;
-      height: 80px; /* Adjust height as needed */
-      background-color: #333; /* Adjust background color as needed */
-      color: #fff; /* Adjust text color as needed */
+      height: 80px;
+      background-color: #333;
+      color: #fff;
       display: flex;
       align-items: center;
       justify-content: space-between;
       padding: 0 20px;
       box-sizing: border-box;
-      z-index: 1000; /* Ensure the top bar stays on top of the iframe */
+      z-index: 1000;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-    }
-
-    /* Left section */
-    .left-section {
-      display: flex;
-      align-items: center;
-    }
-
-    .left-section img {
-      height: 50px; /* Adjust icon height */
-      width: 50px; /* Adjust icon width */
-      margin-right: 10px;
-      border-radius: 50%; /* Makes the icon round */
-    }
-
-    .left-section span {
-      font-size: 1.6rem;
-      font-weight: bold;
+      font-size: 18px;
     }
 
     /* Right section */
     .right-section {
-      font-size: 1.2rem;
-      font-weight: bold;
+      display: flex;
+      align-items: center;
     }
 
-    /* Enable scrolling only inside the iframe */
-    iframe {
-      width: 100%;
-      height: calc(100% - 80px); /* Adjust for top bar height */
-      border: none;
-      overflow: auto; /* Allow scrolling inside the iframe */
-      margin-top: 80px; /* Adjust for top bar height */
-    }
-    .correctspacing {
-      padding-left: 30px;
+    .right-section span {
+      margin-left: 20px;
     }
   </style>
 </head>
 <body>
-  <!-- Top bar -->
   <div class="topbar">
-    <!-- Left section -->
-    <div class="left-section">
-      <img src="https://cdn.glitch.global/216bb34c-6c21-4a3b-959d-1d18f01c433f/image-removebg-preview-_2_.ico?v=1708803519966" alt="Icon"> <!-- Adjust icon path -->
-      <span>Master Easter Bunny Tracker</span> <!-- Replace with your title -->
-    </div>
-    <!-- Right section -->
-    <div class="right-section">
-       <span class="correctspacing" id="utc-time"></span> <!-- UTC time -->
-       <span class="correctspacing" id="london-time"></span> <!-- London time -->
-       <span class="correctspacing" id="nyc-time"></span> <!-- New York City time -->
-       <span class="correctspacing" id="tokyo-time"></span> <!-- Tokyo time -->
-       <span class="correctspacing" id="local-time"></span> <!-- Local time -->
-    </div>
+    <span id="utc-time"></span>
+    <span id="london-time"></span>
+    <span id="nyc-time"></span>
+    <span id="tokyo-time"></span>
+    <span id="local-time"></span>
   </div>
 
-  <!-- Embedded map iframe -->
-  <iframe src="/en-us/embed/map"></iframe>
+  <div id="logo" class="fade-in">
+    <span>M</span>
+    <span>a</span>
+    <span>s</span>
+    <span>t</span>
+    <span>e</span>
+    <span>r</span>
+    <span> </span>
+    <span>B</span>
+    <span>u</span>
+    <span>n</span>
+    <span>n</span>
+    <span>y</span>
+    <span> </span>
+    <span>T</span>
+    <span>r</span>
+    <span>a</span>
+    <span>c</span>
+    <span>k</span>
+    <span>e</span>
+    <span>r</span>
+    <span>s</span>
+  </div>
+  
+  <iframe id="iframe" src="/en-us/embed/map"></iframe>
 
   <script>
     // Function to update local time
@@ -148,14 +200,17 @@
       updateLondonTime();
       updateNYCTime();
       updateTokyoTime();
-    }, 10);
+    }, 1000);
 
-    // Initial call to display local time, UTC time, London time, New York City time, and Tokyo time
-    updateLocalTime();
-    updateUTCTime();
-    updateLondonTime();
-    updateNYCTime();
-    updateTokyoTime();
+    setTimeout(function() {
+      document.getElementById('logo').classList.add('spread');
+    }, 1000);
+
+    setTimeout(function() {
+      document.getElementById('logo').style.display = 'none';
+      document.getElementById('iframe').style.visibility = 'visible';
+      document.getElementById('iframe').style.opacity = 1;
+    }, 8000);
   </script>
 </body>
 </html>

@@ -759,6 +759,9 @@ app.get("/en-us/embed/map", (req, res) => {
 app.get("/en-us/embed/losttrack", (req, res) => {
   res.sendFile(path.join(__dirname, "src", "pages", "losttrack.html"));
 });
+app.get("/en-us/embed/mapiframe", (req, res) => {
+  res.sendFile(path.join(__dirname, "src", "pages", "map.html"));
+});
 // Endpoint to get the current message
 app.get("/getmessage", (req, res) => {
   // Read the contents of the message.txt file
