@@ -128,7 +128,11 @@
             border-radius: 8px;
             outline: none;
         }
-
+ .footer p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 16px;
+            color: white;
+        }
     /* Right section */
     .right-section {
       display: flex;
@@ -173,55 +177,23 @@
     <span>s</span>
   </div>
   <audio id="music" loop></audio>
-    <footer class="footer"></footer>
 
   <iframe id="iframe" src="/en-us/embed/map"></iframe>
-<footer class="footer"><center><button id="playButton">Play</button></center></footer>
+<footer class="footer"><center>&#169;
+2024 Master Bunny Trackers</center></footer>
   <script>
-    var music = document.getElementById("music");
-        var playButton = document.getElementById("playButton");
-        var isPlaying = false;
+     // Parse the URL to get the value of the "level" parameter
+  var url = new URL(window.location.href);
+  var level = url.searchParams.get("level");
 
-        function playMusic() {
-            var currentTime = new Date().getHours();
+  // Get the iframe element
+  var iframe = document.getElementById("iframe");
 
-            if (currentTime >= 23 || currentTime < 4) {
-                // Play curiouslight.mp3
-                music.src = "https://github.com/Haydenlogs/easterbunnytracker/raw/main/curiouslight.mp3";
-            } else if (currentTime >= 4 && currentTime < 9) {
-                // Play y2mate.is - rank_1___airwave__original_mix.mp3
-                music.src = "https://github.com/Haydenlogs/easterbunnytracker/raw/main/y2mate.is%20-%20rank_1___airwave__original_mix_-gTPSxbQ9sbo-192k-1710280414.mp3";
-            } else if (currentTime >= 9 && currentTime < 17) {
-                // Play random Easter songs
-                var easterSongs = [
-                    "https://example.com/easter1.mp3",
-                    "https://example.com/easter2.mp3",
-                    // Add more Easter songs as needed
-                ];
-                var randomIndex = Math.floor(Math.random() * easterSongs.length);
-                music.src = easterSongs[randomIndex];
-            } else if (currentTime >= 17 && currentTime < 23) {
-                // Play y2mate.is - Doors death music Extended 10 mins Guiding Lights.mp3
-                music.src = "https://github.com/Haydenlogs/easterbunnytracker/raw/main/y2mate.is%20-%20Doors%20death%20music%20Extended%2010%20mins%20Guiding%20Lights-jevNr9nST54-192k-1710280814.mp3";
-            }
+  // Construct the new source URL for the iframe with the level parameter
+  var newSrc = "/en-us/embed/map" + (level ? "?zoom=" + level : "");
 
-            music.play();
-            isPlaying = true;
-            playButton.textContent = "Stop";
-            playButton.removeEventListener("click", playMusic);
-            playButton.addEventListener("click", stopMusic);
-        }
-
-        function stopMusic() {
-            music.pause();
-            music.currentTime = 0;
-            isPlaying = false;
-            playButton.textContent = "Play";
-            playButton.removeEventListener("click", stopMusic);
-            playButton.addEventListener("click", playMusic);
-        }
-
-        playButton.addEventListener("click", playMusic);
+  // Set the new source URL for the iframe
+  iframe.src = newSrc;
     // Function to update local time
     function updateLocalTime() {
       var now = new Date();
