@@ -94,6 +94,23 @@
       z-index: 1000;
       box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
       font-size: 18px;
+    }/* Top bar styles */
+    .footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      width: 100%;
+      height: 80px;
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 0 20px;
+      box-sizing: border-box;
+      z-index: 1000;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+      font-size: 18px;
     }
 
     /* Right section */
@@ -141,7 +158,7 @@
   </div>
   
   <iframe id="iframe" src="/en-us/embed/map"></iframe>
-
+<footer class="footer"></footer>
   <script>
     // Function to update local time
     function updateLocalTime() {
