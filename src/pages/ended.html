@@ -53,10 +53,11 @@ const initialZoomLevel = 2;
 // Create a Leaflet map
 const map = L.map('map-container').setView(initialCoordinates, initialZoomLevel);
 
-// Add the base map layer
-L.tileLayer('https://{s}.google.com/vt/lyrs=s&x={x}&y={y}&z={z}', {
-  subdomains:['mt0','mt1','mt2','mt3']
-}).addTo(map);
+// Add the tile layer (satellite imagery with labels)
+  L.tileLayer('https://{s}.google.com/vt/lyrs=y&x={x}&y={y}&z={z}', {
+    maxZoom: 20,
+    subdomains: ['mt0', 'mt1', 'mt2', 'mt3']
+  }).addTo(map);
 
 // Function to update Santa's position on the map
 function updateSantaPosition(latitude, longitude) {
