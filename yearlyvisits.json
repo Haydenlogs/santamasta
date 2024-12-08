@@ -1,0 +1,17 @@
+[
+  {
+    "year": 2024,
+    "hitsduringtracking": 102,
+    "hitsduringpretracking": 0,
+    "hitsbeforepretrackingaftermonthstart": 322,
+    "hitsbeforemonthstart": 115,
+    "countries": {
+      "US": 422,
+      "IT": 84,
+      "CA": 3,
+      "GB": 2,
+      "AU": 26,
+      "DE": 2
+    }
+  }
+]

@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Santa Tracker Admin Radar Blip and Info</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script> <!-- TweenLite / GSAP -->
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background-color: transparent;
+            color: #333;
+        }
+
+        .topbar {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            background-color: #00c3ff;
+            padding: 10px 20px;
+            color: white;
+            border: 2px solid white;
+            height: 80px;
+            position: relative;
+            border-radius: 30px 30px 0 0; /* Curving the top border corners */
+        }
+
+        .logo {
+            height: 50px;
+            margin-right: 2px;
+        }
+
+        .info {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            flex-grow: 1;
+        }
+
+        .countdown, .status, .gifts {
+            font-size: 1.7rem;
+            margin: 0 10px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .countdown div, .status div, .gifts div {
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .separator {
+            height: 40px;
+            border-left: 2px solid white;
+            margin: 0 10px;
+        }
+
+        .tracker-title {
+            font-size: 1.5rem;
+            margin-top: 5px;
+            font-weight: bold;
+            text-shadow: 1px 1px 2px black;
+        }
+
+        .topbar-content {
+            display: flex;
+            align-items: center;
+            flex-grow: 1;
+            justify-content: flex-start;
+        }
+
+        .vertical-line {
+            position: absolute;
+            top: 0;
+            bottom: 0;
+            width: 2px;
+            background-color: white;
+        }
+
+        .left-line {
+            left: 0;
+        }
+
+        .right-line {
+            right: 0;
+        }
+
+        .heading {
+            font-weight: bold;
+            font-size: 1.2rem;
+            margin-bottom: 5px;
+            text-shadow: 1px 1px 2px black;
+        }
+        #container {
+    display: flex; /* Enables flexbox layout */
+    width: 100%; /* Ensure the container spans the full width */
+    height: calc(100vh - 105px); /* Set height as needed */
+}
+
+#map, #cities {
+    flex: 1; /* Make both items take up equal space */
+    height: 100%; /* Ensure both elements have the same height as the container */
+}
+
+        .santa-img {
+            width: 30px; /* Adjust this to a smaller value */
+            height: 30px; /* Adjust this to a smaller value */
+        }
+    </style>
+</head>
+<body>
+    <div class="topbar">
+        <div class="vertical-line left-line"></div>
+        <div class="vertical-line right-line"></div>
+        <div class="topbar-content">
+            <div class="info">
+                <img src="https://master-trackers.xyz/assets/santa.png" alt="Logo" class="logo">
+                <div class="tracker-title">Master Santa Tracker</div>
+                <div class="separator"></div>
+                <div class="countdown">
+                    <div class="heading">Next Stop:</div>
+                    <div id="countdown">Unknown in 00:00</div>
+                </div>
+                <div class="separator"></div>
+                <div class="status">
+                    <div class="heading">Last Seen:</div>
+                    <div id="lastSeen">Unknown</div>
+                </div>
+                <div class="separator"></div>
+                <div class="gifts">
+                    <div class="heading" id="giftsTitle">Gifts Delivered:</div>
+                    <div id="giftsDelivered">0</div>
+                </div>
+            </div>
+        </div>
+    </div>   <div id="container">
+        <div id="map"></div>
+        <iframe id="cities" src="/assets/cities.html"></iframe>
+    </div>
+    
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script>
+        async function fetchRouteData() {
+    try {
+        const response = await fetch('https://temp.master-trackers.xyz/route');
+        const routeData = await response.json();
+        processRouteData(routeData);
+    } catch (error) {
+        console.error('Error fetching route data:', error);
+    }
+}
+
+function processRouteData(routeData) {
+    let nextStop = null;
+    let lastSeenStop = null;
+    let totalGiftsDelivered = 0;
+    const currentUnixTime = Math.floor(Date.now() / 1000);
+
+    for (const stop of routeData) {
+        if (stop["Unix Arrival Arrival"] && stop["Unix Arrival Arrival"] > currentUnixTime) {
+            nextStop = stop;
+            break;
+        } else if (stop["Unix Arrival Arrival"] && stop["Unix Arrival Arrival"] <= currentUnixTime) {
+            lastSeenStop = stop;
+            totalGiftsDelivered = lastSeenStop["Eggs Delivered"]; // Use assignment operator
+            console.log(lastSeenStop);
+        }
+    }
+
+    // Debugging output
+    console.log("Total Gifts Delivered:", totalGiftsDelivered);
+    updateDisplay(lastSeenStop, nextStop, totalGiftsDelivered);
+}
+function refreshPage() {
+    setTimeout(() => {
+        location.reload();
+    }, 180000); // 180000 milliseconds = 3 minutes
+}
+function refreshCities() {
+    const iframe = document.getElementById('cities');
+    if (iframe) {
+        iframe.src = iframe.src; // Refresh by reassigning the current src
+    } else {
+        console.error('Iframe with id "cities" not found.');
+    }
+}
+
+// Call the function to start the timer
+//refreshPage();
+let lastspotstop = "";
+function updateDisplay(lastSeenStop, nextStop, totalGiftsDelivered) {
+    const countdownElement = document.getElementById('countdown');
+    const lastSeenElement = document.getElementById('lastSeen');
+    const giftsDeliveredElement = document.getElementById('giftsDelivered');
+    const giftsTitleElement = document.getElementById('giftsTitle');
+
+    // Update countdown
+    if (nextStop) {
+        if (lastspotstop !== nextStop["City"]) {
+            lastspotstop = nextStop["City"]
+            // Update the marker position on the map
+            santaMarker.setLatLng([lastSeenStop["Latitude"], lastSeenStop["Longitude"]]);
+
+            refreshCities() 
+           // Ensure nextStop has valid Latitude and Longitude, convert to integers, and correct order
+const targetLocation = [
+    nextStop["Latitude"] && !isNaN(nextStop["Latitude"]) ? parseInt(nextStop["Latitude"], 10) : 0, 
+    nextStop["Longitude"] && !isNaN(nextStop["Longitude"]) ? parseInt(nextStop["Longitude"], 10) : 0
+];
+const lastlatlng = [
+    lastSeenStop["Latitude"] && !isNaN(lastSeenStop["Latitude"]) ? parseInt(lastSeenStop["Latitude"], 10) : 0, 
+    lastSeenStop["Longitude"] && !isNaN(lastSeenStop["Longitude"]) ? parseInt(lastSeenStop["Longitude"], 10) : 0
+];
+ console.log('Flying Santa to:', targetLocation);
+        const arrivalTime = nextStop["Unix Arrival Arrival"];
+        let timeRemaining = arrivalTime - Math.floor(Date.now() / 1000); // Subtract 5 seconds to show countdown
+console.log(timeRemaining)
+        flySantaTo(targetLocation, timeRemaining, lastlatlng); // Fly to New York over 5 seconds
+    
+        } else {
+          //  console.log("Done.")
+        }
+        const arrivalTime = nextStop["Unix Arrival Arrival"];
+        let timeRemaining = arrivalTime - Math.floor(Date.now() / 1000); // Subtract 5 seconds to show countdown
+
+        const city = nextStop.City || 'Unknown City';
+        const region = nextStop.Region === "pt" ? '' : (nextStop.Region || 'Unknown Region');
+        countdownElement.innerText = `${city}${region ? ', ' + region : ''} in `;
+
+        startCountdown(timeRemaining, countdownElement, nextStop, totalGiftsDelivered);
+    } else {
+        countdownElement.innerText = 'All stops completed!';
+    }
+
+    // Update last seen
+    if (lastSeenStop) {
+
+        lastSeenElement.innerText = `${lastSeenStop.City + (lastSeenStop.Region === "pt" ? '' : ', ' + lastSeenStop.Region || 'Unknown')}`;
+    } else {
+        lastSeenElement.innerText = 'Last Seen: Unknown';
+    }
+
+    // Update gifts delivered and title
+    giftsTitleElement.innerText = nextStop && nextStop.Region === "pt" ? "Gifts Loaded:" : "Gifts Delivered:";
+}
+
+function startCountdown(seconds, countdownElement, nextStop, currentGifts) {
+    const targetGifts = nextStop["Eggs Delivered"] || 0; // Ensure this value is valid
+    const originalText = countdownElement.innerText;
+
+    let countdownTimer = setInterval(() => {
+        if (seconds <= 0) {
+            clearInterval(countdownTimer);
+            countdownElement.innerText = originalText + ' Arrived at next stop!';
+            fetchRouteData();
+            return;
+        }
+
+        const minutes = Math.floor(seconds / 60);
+        const remainingSeconds = seconds % 60;
+        countdownElement.innerText = minutes > 0 
+            ? `${originalText} ${minutes} minutes, and ${remainingSeconds} seconds` 
+            : `${originalText} ${remainingSeconds} seconds`;
+
+        seconds--;
+    }, 1000);
+    
+    // Start updating gifts separately
+    updateGifts(currentGifts, targetGifts, seconds-1);
+}
+
+function updateGifts(currentGifts, targetGifts, duration) {
+    console.log(currentGifts)
+    console.log(targetGifts)
+    console.log(duration)
+    const giftsElement = document.getElementById('giftsDelivered');
+    const totalIntervals = Math.floor(duration * 1000 / 30); // Total number of 30ms intervals
+
+    console.log(`Initial currentGifts: ${currentGifts}, targetGifts: ${targetGifts}, totalIntervals: ${totalIntervals}`);
+
+    // Ensure totalIntervals is greater than 0 to avoid division by zero
+    if (totalIntervals <= 0) {
+        giftsElement.innerText = `${Math.floor(targetGifts).toLocaleString()} Gifts`;
+        return;
+    }
+
+    const giftIncrement = (targetGifts - currentGifts) / totalIntervals; // Increment per 30ms interval
+    console.log(`Gift increment per interval: ${giftIncrement}`);
+
+    let intervalsPassed = 0;
+    const giftsTimer = setInterval(() => {
+        intervalsPassed++;
+        currentGifts += giftIncrement;
+
+        // Log the current gift count
+       // console.log(`Intervals passed: ${intervalsPassed}, currentGifts: ${currentGifts}`);
+
+        // Update the displayed gift count
+        giftsElement.innerText = `${Math.floor(currentGifts).toLocaleString()} Gifts`;
+
+        // Check if the target is reached or the total time has elapsed
+        if (intervalsPassed >= totalIntervals || currentGifts >= targetGifts) {
+            clearInterval(giftsTimer);
+            // Ensure final value is displayed correctly
+            giftsElement.innerText = `${Math.floor(targetGifts).toLocaleString()} Gifts`;
+            console.log(`Final gift count reached: ${targetGifts}`);
+        }
+    }, 30); // Update every 30ms
+}
+
+
+// Start the initial fetch
+fetchRouteData();
+
+        // Create the map
+        const map = L.map('map').setView([37.7749, -122.4194], 5); // Default to San Francisco
+
+        // Add Google Maps Hybrid layer (no API key needed)
+const googleHybridLayer = L.tileLayer(
+    'https://mt1.google.com/vt/lyrs=s,h&x={x}&y={y}&z={z}', 
+    { attribution: '&copy; <a href="https://www.google.com/intl/en_US/help/terms_maps.html">Google</a>' }
+).addTo(map);
+
+
+        // Create Santa image as a marker
+        const santaImg = document.createElement('img');
+        santaImg.src = 'https://temp.master-trackers.xyz/assets/santa.png'; // Replace with your Santa image URL
+        santaImg.className = 'santa-img'; // Apply CSS for scaling
+
+        // Add Santa image to the map as an overlay (using L.divIcon)
+        const santaMarker = L.marker([37.7749, -122.4194], {
+            icon: L.divIcon({
+                className: 'santa-icon',
+                html: santaImg,
+                iconSize: [30, 30], // Adjust the size to your preference
+                iconAnchor: [15, 15]  // Position the image correctly
+            })
+        }).addTo(map);
+
+    // Function to animate Santa's movement
+function flySantaTo(targetLatLng, timeInSeconds, lastcitylatlng) {
+    // Ensure targetLatLng is a Leaflet LatLng object
+    if (Array.isArray(targetLatLng)) {
+        targetLatLng = L.latLng(targetLatLng[0], targetLatLng[1]);  // Convert array to LatLng object
+    }
+    // Ensure targetLatLng is a Leaflet LatLng object
+    if (Array.isArray(lastcitylatlng)) {
+        lastcitylatlng = L.latLng(lastcitylatlng[0], lastcitylatlng[1]);  // Convert array to LatLng object
+    }
+
+    // Validate that the targetLatLng is a valid LatLng object
+    if (!targetLatLng || isNaN(targetLatLng.lat) || isNaN(targetLatLng.lng)) {
+        console.error('Invalid targetLatLng:', targetLatLng);
+        return;
+    }
+
+    const startLatLng = lastcitylatlng;  // Get the current location of the marker
+    const startLat = lastcitylatlng.lat;
+    const startLng = lastcitylatlng.lng;
+
+    // Log start and target lat/lng to check values
+    console.log('Start:', startLatLng, 'Target:', targetLatLng);
+
+    // Animate the Santa's position using GSAP (TweenLite)
+    gsap.to({}, {
+        duration: timeInSeconds,
+        onUpdate: function() {
+            // Calculate the interpolated latitude and longitude
+            const progress = this.progress();  // This will return a value from 0 to 1
+            const newLat = startLat + (targetLatLng.lat - startLat) * progress;
+            const newLng = startLng + (targetLatLng.lng - startLng) * progress;
+
+            // Log to debug the position changes
+            console.log('New Lat/Lng:', newLat, newLng);
+
+            // Update the marker position on the map
+            santaMarker.setLatLng([newLat, newLng]);
+
+            // Keep the map camera centered on Santa
+            map.setView([newLat, newLng], map.getZoom(), { animate: true });
+        },
+        onComplete: function() {
+            // Optional: Any action once the animation completes
+            console.log('Santa reached the target!');
+        }
+    });
+}
+
+    // Example: Fly Santa to a new location after 3 seconds
+    
+       
+    </script>
+</body>
+</html>

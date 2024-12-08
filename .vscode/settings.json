@@ -1,0 +1,8 @@
+{
+    "appService.zipIgnorePattern": [
+        "node_modules{,/**}",
+        ".vscode{,/**}"
+    ],
+    "appService.defaultWebAppToDeploy": "/subscriptions/434303f1-9656-408a-956a-b6df5b592a96/resourceGroups/Master-trackersSANTA_group/providers/Microsoft.Web/sites/Master-trackersSANTA",
+    "appService.deploySubpath": "."
+}

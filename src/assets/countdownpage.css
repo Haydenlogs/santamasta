@@ -1,0 +1,524 @@
+ /* Thanks for reading, occasionally I'll leave notes on things I'll probably need to edit later, so they're easier to find. This applies to any script/file you'll see by me. */
+ body {
+     font-family: 'Roboto', sans-serif;
+     font-size: 17px;
+     background-color: #333;
+     /* Dark grey background */
+     color: #fff;
+     /* White text color */
+     margin: 0;
+     padding: 0;
+     position: relative;
+     height: 100vh;
+     font-weight: normal;
+ }
+
+
+ @media (max-width: 600px) {
+     body {
+         zoom: 50%;
+         /* Zooms the page to 150% */
+     }
+
+
+ }
+
+ /* Calendar container */
+ #calendar {
+     position: absolute;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: center;
+     align-items: center;
+     width: 300px;
+     height: 300px;
+     perspective: 1000px;
+ }
+
+ /* Each day block */
+ .day {
+     width: 300px;
+     height: 300px;
+     margin: 5px;
+     background: #003366;
+     color: white;
+     font-family: "Mountains of Christmas", serif;
+     font-weight: 800;
+     font-style: normal;
+     font-size: 90px;
+     border-radius: 5px;
+     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+     opacity: 1;
+     position: absolute;
+     transform-origin: 50% 0;
+     /* Ensure pivot point is in the center */
+     display: flex;
+     /* Use flexbox for centering */
+     justify-content: center;
+     /* Horizontal centering */
+     align-items: center;
+     /* Vertical centering */
+ }
+
+ /* Flip animation */
+ .day.rotateUp {
+     animation: rotateUp 1s ease forwards;
+ }
+
+ @keyframes rotateUp {
+     0% {
+         opacity: 1;
+         transform: perspective(800px) rotateX(0deg);
+     }
+
+     100% {
+         opacity: 0;
+         transform: perspective(800px) rotateX(180deg);
+     }
+ }
+
+
+
+ #header {
+     position: fixed;
+     top: 0;
+     width: 100%;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     padding: 20px 0;
+     background-color: #333;
+     z-index: -2;
+     transition: background-color 0.5s ease;
+
+ }
+
+ #header:hover {
+     background-color: #000;
+ }
+
+ .google-translate {
+     position: fixed;
+     top: 20px;
+     /* Adjust as needed */
+     right: 20px;
+     opacity: 0;
+     transition: opacity 0.3s ease;
+     filter: invert(1) hue-rotate(180deg);
+     /* Dark mode effect */
+
+ }
+
+ #header:hover .google-translate {
+     opacity: 1;
+ }
+
+ #logo {
+     width: 50px;
+     height: 50px;
+     margin-right: 10px;
+ }
+
+ h1 {
+     font-size: 24px;
+     margin: 0;
+ }
+
+ #countdown {
+     margin-top: 100px;
+     font-size: 78px;
+     /* Large font size */
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     /* White text color */
+     margin: 0;
+     padding: 0;
+     padding-top: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     height: 80vh;
+     /* Adjusted height for countdown */
+     font-weight: normal;
+     /* Set font weight to normal */
+ }
+
+ #launchestimate {
+     font-size: 28px;
+     /* Adjust font size as needed */
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     /* White text color */
+     display: flex;
+     flex-direction: column;
+     z-index: 50;
+     align-items: center;
+     justify-content: center;
+     font-weight: normal;
+     /* Set font weight to normal */
+     position: absolute;
+     bottom: 30%;
+     left: 30%;
+     right: 30%
+ }
+
+ #launchestimate3 {
+     font-size: 28px;
+     /* Adjust font size as needed */
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     /* White text color */
+     z-index: 50;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-weight: normal;
+     /* Set font weight to normal */
+     position: absolute;
+     bottom: 30%;
+     left: 30%;
+     right: 30%
+ }
+
+ #launchestimate2 {
+     font-size: 28px;
+     /* Adjust font size as needed */
+     text-align: center;
+     font-family: 'Roboto', sans-serif;
+     color: #fff;
+     /* White text color */
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     font-weight: normal;
+     /* Set font weight to normal */
+     position: absolute;
+     bottom: 20%;
+     left: 30%;
+     right: 30%
+ }
+
+ /* Overlay styles */
+ .overlay {
+     position: fixed;
+     bottom: 20px;
+     right: 20px;
+     z-index: 9999;
+ }
+
+ /* Settings button styles */
+ .settings-btn {
+     background-color: #333;
+     color: white;
+     padding: 10px 20px;
+     border: none;
+     border-radius: 5px;
+     cursor: pointer;
+     transition: background-color 0.3s;
+ }
+
+ .settings-btn:hover {
+     background-color: #555;
+ }
+
+ .settingsiframe {
+     width: 100%;
+     height: 100%;
+     border-color: transparent;
+
+ }
+
+ /* Settings popup styles */
+ .settings-popup {
+     width: 50%;
+     height: 50%;
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     z-index: 99999;
+     background-color: #333;
+     color: white;
+     padding: 10px;
+     border-radius: 20px;
+     border-color: #f0f8ff;
+     box-shadow: 0px 0px 2px rgba(0, 0, 0, 0.2);
+     display: none;
+     /* Initially hidden */
+ }
+
+
+ /* Close button for the settings popup */
+ .close-btn {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     color: white;
+     cursor: pointer;
+ }
+
+ #tween-info {
+     display: none;
+ }
+
+ #tween-speed {
+     font-weight: bold;
+     color: white;
+     margin-right: 10px;
+ }
+
+ #speed-value {
+     color: white;
+ }
+
+ #countdownButtonContainer {
+     display: flex;
+     justify-content: flex-end;
+     /* Align items to the right */
+     align-items: center;
+     height: 40px;
+ }
+
+ #countdownButton {
+     background-color: #666;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: transform 0.3s;
+     /* Hover animation */
+ }
+
+ #countdownButton2 {
+     background-color: #666;
+     border: none;
+     cursor: pointer;
+     width: 100%;
+     height: 100%;
+     padding: 0;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     transition: transform 0.3s;
+     /* Hover animation */
+ }
+
+ #countdownButton:hover {
+     transform: scale(1.1);
+     /* Hover animation */
+ }
+
+ #countdownButton img {
+     max-width: 100%;
+     max-height: 100%;
+ }
+
+ #countdownButton {
+     background: none;
+     border: none;
+     cursor: pointer;
+     z-index: 999999;
+ }
+
+ .popup-container {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     background-color: rgba(0, 0, 0, 0.7);
+     padding: 20px;
+     border-radius: 10px;
+     z-index: 1000;
+ }
+
+ .popup {
+     color: #fff;
+     text-align: center;
+ }
+
+ .close-btn {
+     position: absolute;
+     top: 10px;
+     right: 10px;
+     cursor: pointer;
+     font-size: 24px;
+     color: #fff;
+ }
+
+ .hidden {
+     display: none;
+ }
+
+ body {
+     margin: 0;
+     /* Remove default margin */
+ }
+
+ .audio-player {
+     background-color: #003366;
+     /* Darker blue background */
+     border-radius: 10px;
+     padding: 20px;
+     box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+     position: fixed;
+     /* Keep it fixed at the bottom */
+     bottom: 20px;
+     /* Space from the bottom */
+     left: 50%;
+     /* Center horizontally */
+     transform: translateX(-50%);
+     /* Adjust to perfectly center */
+     z-index: 1000;
+     /* Ensure it stays above other content */
+     display: flex;
+     height: 50px;
+     align-items: center;
+     /* Center horizontally */
+     width: 250px;
+     /* Set a fixed width for a compact UI */
+ }
+
+ .audio-player button:hover {
+     background-color: transparent;
+     /* Light grey on hover */
+ }
+
+ .audio-player h1 {
+     color: white;
+     font-size: 18px;
+     /* Smaller font size for title */
+     text-align: center;
+     margin-right: 15px;
+     /* Space below the title */
+
+ }
+
+ .audio-player-controls {
+     display: flex;
+     /* Align play button and progress bar horizontally */
+     align-items: center;
+     /* Center items vertically */
+     width: 100%;
+     /* Full width for controls */
+ }
+
+ .audio-player button {
+     background-color: transparent;
+     /* White button for contrast */
+     color: #003366;
+     /* Text color to match the theme */
+     border: none;
+     cursor: pointer;
+     font-weight: bold;
+     font-size: 1.5em;
+     width: 40px;
+     /* Set a fixed width */
+     height: 10px;
+     /* Set a fixed height */
+     display: flex;
+     /* Use flexbox for centering */
+     align-items: center;
+     /* Center vertically */
+     justify-content: center;
+     /* Center horizontally */
+ }
+
+
+
+ audio {
+     display: none;
+     /* Hide the default audio controls */
+ }
+
+ #countdownButton5 {
+     display: none
+ }
+
+ #localtime {
+     font-weight: bold;
+ }
+
+ #localtime2 {
+     font-weight: bold;
+ }
+
+ .button-image {
+     position: fixed;
+     bottom: 10px;
+     left: 10px;
+     width: 150px;
+     /* Adjust size as needed */
+     height: 150px;
+     cursor: pointer;
+ }
+
+ /* Days Left Message */
+ #daysLeftMessage {
+     position: absolute;
+     bottom: 50px;
+     width: 100%;
+     text-align: center;
+     font-size: 24px;
+     opacity: 0;
+     transition: opacity 2s ease-in-out;
+     z-index: 9999999;
+ }
+
+ #title {
+     position: absolute;
+     top: 10px;
+     width: 100%;
+     text-align: center;
+     font-size: 36px;
+     font-weight: bold;
+     text-shadow: 2px 2px 5px black;
+     z-index: 9999999;
+ }
+
+ #daysLeftMessage.visible {
+     opacity: 1;
+
+ }
+
+ #showitself {
+     z-index: 9999998;
+     position: fixed;
+     /* Ensures it's positioned relative to the viewport */
+     top: 0;
+     left: 0;
+     background-color: #333;
+     width: 100vw;
+     height: 100vh;
+ }
+
+ .img {
+     position: fixed;
+     top: 50%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     width: 100vw;
+     height: 100vh;
+     object-fit: fill;
+     /* Ensures the image stretches to fit the specified dimensions */
+     pointer-events: none;
+     /* Makes the image unclickable */
+     z-index: -1;
+     /* Keeps the image in the background */
+ }
+
+ .headerinfo {
+     z-index: 999 !important;
+ }

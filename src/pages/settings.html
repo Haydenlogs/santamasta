@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+    <style>
+        body {
+            background-color: #333; /* Dark grey background */
+            color: white;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+    
+        .tabs {
+            overflow: hidden;
+            border-bottom: 1px solid #666;
+            margin-bottom: 20px;
+        }
+    
+        .tab {
+            float: left;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+    
+        .tab:hover {
+            background-color: #555; /* Darker grey on hover */
+        }
+    
+        .tab.active {
+            background-color: #777; /* Slightly lighter grey when active */
+        }
+    
+        .settings-content {
+            display: none;
+        }
+    
+        .settings-content.active {
+            display: block;
+        }
+    
+        .map-settings {
+            margin-top: 20px;
+        }
+    
+        .map-option {
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: background-color 0.3s;
+        }
+    
+        .map-option:hover {
+            background-color: #555; /* Darker grey on hover */
+        }
+        /* Input field */
+    input, textarea {
+        padding: 10px;
+        border: 1px solid #666;
+        background-color: #444; /* Dark grey background */
+        color: white;
+        font-size: 14px;
+        transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    }
+
+    input, textarea:focus {
+        border-color: #888; /* Lighter grey on focus */
+        background-color: #555; /* Slightly darker grey on focus */
+    }
+
+    /* Checkbox and radio buttons */
+    input {
+        margin-right: 5px;
+    }
+
+    /* Button */
+    button {
+        padding: 10px 20px;
+        background-color: #555; /* Dark grey background */
+        color: white;
+        border: none;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+
+    button:hover {
+        background-color: #777; /* Slightly lighter grey on hover */
+    }
+
+    /* Select dropdown */
+    select {
+        padding: 10px;
+        border: 1px solid #666;
+        background-color: #444; /* Dark grey background */
+        color: white;
+        font-size: 14px;
+        transition: border-color 0.3s, background-color 0.3s, color 0.3s;
+    }
+
+    select:focus {
+        border-color: #888; /* Lighter grey on focus */
+        background-color: #555; /* Slightly darker grey on focus */
+    }
+    /* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #333;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #00c3ff;
+  border-radius: 15px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #00c3ff;
+  border-radius: 15px;
+}
+@media (max-width: 600px) {
+  body {
+  zoom: 50%; /* Zooms the page to 150% */
+}
+
+
+}
+    </style>
+    <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+            pageLanguage: 'en',
+            includedLanguages: 'es,fr,de,it,pt,zh-CN,ja,ru', // Add languages you want to support
+            autoDisplay: false
+          }, 'google_translate_element');
+        }
+      </script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    
+</head>
+
+<body>
+    <div class="tabs">
+        <div class="tab active" onclick="openTab(event, 'map-settings')">Map Settings</div>
+        <div class="tab" onclick="openTab(event, 'location-settings')">Location Settings</div>
+        <div class="tab" onclick="openTab(event, 'privacy')">Privacy</div>
+        <div class="tab" onclick="openTab(event, 'lang')" hidden>Languages</div>
+        <div class="tab" onclick="openTab(event, 'notifications')">Push Notifications</div> <!-- New tab -->
+
+        <!-- Add more tabs for additional settings if needed -->
+    </div>
+
+    <div id="map-settings" class="settings-content active">
+        <h2>Map Settings</h2>
+        <div class="map-settings">
+            <div class="map-option" onclick="setMapType('hybrid')">Hybrid</div>
+            <div class="map-option" onclick="setMapType('satellite')">Satellite</div>
+            <div class="map-option" onclick="setMapType('street')">Street</div>
+            <div class="map-option" onclick="setMapType('Stadia_AlidadeSatellite')" hidden>Stadia_AlidadeSatellite (Fan Favorite)</div>
+            <div class="map-option" onclick="setMapType('USGS_USImageryTopo')">USGS_USImageryTopo</div>
+            <div class="map-option" onclick="setMapType('GeoportailFrance_orthos')">GeoportailFrance_orthos</div>
+            
+        </div>
+        <div>Current Map Setting: <span id="mapsetting"></span></div>
+        <p>Map Settings will only apply to 2D map.</p>
+    </div>
+
+    <div id="privacy" class="settings-content">
+        <h2>Privacy</h2>
+        <p>By using our site, you acknowledge that we are using your data for our site. We will never store your IP,
+            Data, Or anything else on our site. The only thing we may store is keystrokes incase of a ban requirement.
+            To reset all the data, you may press reset cookies. This will reset the location data, the information
+            stored on your browser, and the map settings. Thank you for your understanding.</p>
+        <button onclick="deleteCookies()">Reset Cookies</button>
+        <!-- Add more privacy settings here -->
+    </div>
+    <div id="lang" class="settings-content">
+        <div id="google_translate_element"></div>
+
+        <!-- Add more privacy settings here -->
+    </div>
+    
+    <div id="location-settings" class="settings-content">
+        <h2>Location Settings</h2>
+        <p>This data is only stored on your browser, not our site.</p>
+        <br>
+        <div>
+            <input type="checkbox" id="hide-location" onchange="toggleLocation()">
+            <label for="hide-location">Hide Location</label>
+            
+        </div>
+    
+       
+        <br>
+        <label for="latitude">Latitude:</label>
+        <input type="number" id="latitude">
+        <br>
+        <label for="longitude">Longitude:</label>
+        <input type="number" id="longitude">
+        <h4>Nearest Stopping City: <span id="nearestcity"></span></h4>
+        <p>The nearest stopping city is the closest city to you that the Master Santa Tracker will stop at.</p>
+        <br>
+        <button onclick="regetLocation()">Reget Location</button>
+        
+        <!-- Add more privacy settings here -->
+    </div>
+    
+    <!-- Push Notifications Tab Content -->
+    <div id="notifications" class="settings-content">
+        <h2>Push Notifications</h2>
+        <p>Enable push notifications to receive updates from our site.</p>
+        <button id="subscribe-btn">Subscribe</button>
+        <button id="unsubscribe-btn" style="display:none;">Unsubscribe</button>
+        <p id="subscription-status"></p>
+    </div>
+    
+    <!-- JavaScript -->
+    <script>
+ document.addEventListener('DOMContentLoaded', function() {
+    const serviceWorkerFile = '/assets/service-worker.js';
+    const applicationServerPublicKey = 'BP5iKgtWNK0exu3dozTLKpXWZqvr57umuBOeF3uCiTI-tcNusOP_ANk9_gkTeEWW0UCs7D7pP0EO3Ze4k3cwbOs'; // Your VAPID public key
+
+    if ('serviceWorker' in navigator && 'PushManager' in window) {
+        console.log('Service Worker and Push are supported');
+        
+        // Register service worker
+        navigator.serviceWorker.register(serviceWorkerFile)
+        .then(function(swReg) {
+            console.log('Service Worker is registered', swReg);
+
+            // Initialize push subscription UI
+            initialiseUI(swReg);
+        })
+        .catch(function(error) {
+            console.error('Service Worker registration failed', error);
+        });
+    } else {
+        console.warn('Push messaging is not supported');
+        document.getElementById('subscription-status').textContent = 'Push notifications are not supported by this browser.';
+    }
+
+    function initialiseUI(swReg) {
+        swReg.pushManager.getSubscription()
+        .then(function(subscription) {
+            const isSubscribed = !(subscription === null);
+            updateSubscriptionUI(isSubscribed);
+
+            if (isSubscribed) {
+                console.log('User is subscribed:', subscription);
+            } else {
+                console.log('User is not subscribed');
+            }
+        });
+
+        // Subscribe button
+        const subscribeBtn = document.getElementById('subscribe-btn');
+        const unsubscribeBtn = document.getElementById('unsubscribe-btn');
+
+        if (subscribeBtn) {
+            subscribeBtn.addEventListener('click', function() {
+                subscribeUser(swReg);
+            });
+        }
+
+        // Unsubscribe button
+        if (unsubscribeBtn) {
+            unsubscribeBtn.addEventListener('click', function() {
+                unsubscribeUser(swReg);
+            });
+        }
+    }
+
+    function subscribeUser(swReg) {
+        const applicationServerKey = urlBase64ToUint8Array(applicationServerPublicKey);
+        swReg.pushManager.subscribe({
+            userVisibleOnly: true,
+            applicationServerKey: applicationServerKey
+        })
+        .then(function(subscription) {
+            console.log('User is subscribed:', subscription);
+            sendSubscriptionToServer(subscription);
+            updateSubscriptionUI(true);
+        })
+        .catch(function(err) {
+            console.error('Failed to subscribe user:', err);
+        });
+    }
+
+    function unsubscribeUser(swReg) {
+    swReg.pushManager.getSubscription()
+    .then(function(subscription) {
+        if (subscription) {
+            return subscription.unsubscribe().then(() => {
+                console.log('User is unsubscribed');
+                updateSubscriptionUI(false);
+            });
+        } else {
+            console.log('No subscription found to unsubscribe');
+            updateSubscriptionUI(false);
+        }
+    })
+    .catch(function(error) {
+        console.error('Error unsubscribing', error);
+    });
+}
+
+    function updateSubscriptionUI(isSubscribed) {
+        const status = document.getElementById('subscription-status');
+        const subscribeBtn = document.getElementById('subscribe-btn');
+        const unsubscribeBtn = document.getElementById('unsubscribe-btn');
+
+        if (isSubscribed) {
+            status.textContent = 'You are subscribed to push notifications.';
+            subscribeBtn.style.display = 'none';
+            unsubscribeBtn.style.display = 'inline-block';
+        } else {
+            status.textContent = 'You are not subscribed to push notifications.';
+            subscribeBtn.style.display = 'inline-block';
+            unsubscribeBtn.style.display = 'none';
+        }
+    }
+    function sendSubscriptionToServer(subscription) {
+    console.log('Sending subscription to server:', subscription); // Log subscription
+    fetch('/subscribe', {
+        method: 'POST',
+        body: JSON.stringify(subscription.toJSON()),
+        headers: {
+            'Content-Type': 'application/json'
+        }
+    })
+    .then(function(response) {
+        if (!response.ok) {
+            throw new Error('Failed to send subscription to the server');
+        }
+        console.log('Subscription sent to the server');
+    })
+    .catch(function(error) {
+        console.error('Error sending subscription to the server:', error);
+    });
+}
+
+
+    function urlBase64ToUint8Array(base64String) {
+        const padding = '='.repeat((4 - base64String.length % 4) % 4);
+        const base64 = (base64String + padding).replace(/\-/g, '+').replace(/_/g, '/');
+        const rawData = window.atob(base64);
+        return new Uint8Array([...rawData].map(char => char.charCodeAt(0)));
+    }
+});
+
+// Function to set values from localStorage to inputs
+function updateInputsFromLocalStorage() {
+    // Retrieve values from localStorage or set default values
+    let storedLongitude = localStorage.getItem('longitude');
+    let storedLatitude = localStorage.getItem('latitude');
+
+    // Set default values if not found in localStorage
+    if (!storedLongitude) {
+        storedLongitude = 0; // Middle of the Earth (Greenwich Meridian)
+    }
+    if (!storedLatitude) {
+        storedLatitude = 0; // Middle of the Earth (Equator)
+    }
+
+    // Set values in the inputs
+    document.getElementById('longitude').value = storedLongitude;
+    document.getElementById('latitude').value = storedLatitude;
+// Set nearest Santa stop as nearestcity
+    document.getElementById('nearestcity').innerHTML = localStorage.getItem('nearestcity');
+}
+
+// Initial setup
+updateInputsFromLocalStorage();
+
+// Event listeners to update localStorage when inputs change
+document.getElementById('longitude').addEventListener('input', function() {
+    localStorage.setItem('longitude', this.value);
+});
+
+document.getElementById('latitude').addEventListener('input', function() {
+    localStorage.setItem('latitude', this.value);
+});
+
+// Listen for changes in localStorage and update inputs accordingly
+window.addEventListener('storage', function(event) {
+    if (event.key === 'longitude' || event.key === 'latitude' || event.key === 'nearestcity') {
+        updateInputsFromLocalStorage();
+    }
+});
+
+
+
+
+        // Function to switch between tabs
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("settings-content");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tab");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].classList.remove("active");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.classList.add("active");
+        }
+
+        // Function to set map type and store it in local storage
+        function setMapType(mapType) {
+            console.log('Map type set to: ' + mapType);
+            localStorage.setItem('mapType', mapType);
+            updateMapSetting()
+        }
+
+        // Function to hide location and store it in local storage
+        function toggleLocation() {
+            console.log('toggleLocation function called');
+            var hide = document.getElementById('hide-location').checked;
+            console.log('Location hidden:', hide);
+            localStorage.setItem('locationHid', hide.toString());
+        }
+
+        // Function to reget location and remove stored IP factor
+        function regetLocation() {
+            console.log('Location reget');
+            localStorage.removeItem('storedIP');
+            localStorage.removeItem('longitude');
+            localStorage.removeItem('latitude');
+        }
+// Function to update map setting display
+function updateMapSetting() {
+    const mapType = localStorage.getItem('mapType');
+    document.getElementById('mapsetting').textContent = mapType || 'Default'; // Default value if mapType is not set
+}
+
+// Initial call to set map setting on page load
+updateMapSetting();
+
+// Event listener for changes in localStorage 'mapType' item
+window.addEventListener('storage', function(e) {
+    if (e.key === 'mapType') {
+        updateMapSetting();
+    }
+});
+       // Function to delete cookies (remove all local storage items) and refresh after 1 second
+function deleteCookies() {
+    console.log('Cookies deleted');
+    localStorage.clear();
+    setTimeout(function() {
+        location.reload();
+    }, 1000); // 1000 milliseconds = 1 second
+}
+
+
+        // Check local storage for 'locationHid' item onload and set checkbox
+        window.onload = function () {
+            var hideLocation = localStorage.getItem('locationHid');
+            if (hideLocation === 'true') {
+                document.getElementById('hide-location').checked = true;
+            }
+        }
+    </script>
+
+</body>
+
+</html>

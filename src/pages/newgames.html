@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+    <title>Official Master Santa Tracker - Modern Santa Tracker</title>
+    <link rel="icon" href="/assets/santa.png" type="image/png">
+    <meta name="description"
+        content="We have officially opened up our website to the public! Enjoy the pretracking experience for the rest of December until Christmas Eve. We'll see you again once we start tracking Santa Claus!">
+    <script src="/assets/checkdec.js"></script>
+    <link rel="stylesheet" href="/assets/countdownpage.css">
+    <script>
+        window.onload = async function () {
+          try {
+            // Fetch the manifest to get the correct hash
+            const response = await fetch('/scripts/manifest.json');
+            const manifest = await response.json();
+    
+            // Extract the script hash from the manifest
+            const scriptHash = manifest['countdown'];
+    
+            // Dynamically create the script URL with the hash
+            const script = document.createElement('script');
+            script.src = `https://temp.master-trackers.xyz/scripts/${scriptHash}`;
+    
+            // Append the script to the body to load it
+            document.body.appendChild(script);
+          } catch (error) {
+            console.error('Failed to load script:', error);
+          }
+        };
+      </script>
+    <link rel="icon" href="/favicon.ico" type="image/x-icon">
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-DQEVD4L8PJ"></script>
+   
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Caveat:wght@400..700&family=Mountains+of+Christmas:wght@400;700&display=swap"
+        rel="stylesheet">
+    <!-- Meta tags for Bing -->
+    <meta name="msvalidate.01" content="8DF6B8C1C97521142EFB1F3437EC4E4C" />
+
+    <!-- Optional Open Graph tags for better sharing on social media -->
+    <meta property="og:title" content="Master Trackers">
+    <meta property="og:description"
+        content="We have officially opened up our website to the public! Enjoy the pretracking experience for the rest of December until Christmas Eve. We'll see you again once we start tracking Santa Claus!">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://master-trackers.xyz">
+    <meta property="og:image" content="/assets/santa.png">
+
+    <!-- Twitter Card tags for better sharing on Twitter -->
+    <meta name="twitter:card" content="/assets/santa.png">
+    <meta name="twitter:title" content="Master Trackers">
+    <meta name="twitter:description"
+        content="We have officially opened up our website to the public! Enjoy the pretracking experience for the rest of December until Christmas Eve. We'll see you again once we start tracking Santa Claus!">
+    <meta name="twitter:image" content="/assets/santa.png">
+    <link rel="stylesheet" href="/assets/htmlplayer.css"> <!-- Link to your existing html audio player CSS file -->
+
+    <!-- Canonical URL to avoid duplicate content issues -->
+    <link rel="canonical" href="https://master-trackers.xyz">
+    <meta name="msvalidate.01" content="8DF6B8C1C97521142EFB1F3437EC4E4C" />
+    <style>
+       
+    </style>
+</head>
+
+<body>
+    <div id="tween-info" hidden>
+        <span hidden id="tween-speed">Speed:</span>
+        <span hidden id="speed-value">0 mph</span>
+        <div id="countdownButtonContainer">
+
+            <button hidden id="countdownButton">
+                <img hidden src="https://media.tenor.com/MP8oSlpFsHwAAAAj/kinder-egg.gif" alt="Kinder Egg">
+            </button>
+            <div hidden class="overlay">
+                <button class="settings-btn" onclick="toggleSettings()">Settings</button>
+            </div>
+
+        </div>
+    </div>
+    <div id="popup-container" class="popup-container hidden">
+        <div class="popup">
+            <span id="close-btn" class="close-btn">&times;</span>
+            <p>Welcome to Master Santa Trackers 2024. We are happy to see you here. During normal runs,<br />The <img
+                    src="/assets/santa.png" alt="Emoji" width="16" height="16"> represents where Santa Claus is. <br />
+                The <img src="/assets/present.png" alt="Emoji" width="16" height="16"> represents a present/gift that
+                has been delivered. <br />
+                <br /></br /><br />
+            <p><strong>It is highly recommended you change your map layout in settings for the future. You will not like
+                    the default!</strong></p>
+        </div>
+    </div>
+    <script src="/assets/resetconsole.js"></script>
+    
+    <style>
+       
+    </style>
+    <script src="https://holistic-waiting-unicorn.glitch.me/servercheck.js"></script>
+   
+
+    <script type="text/javascript"
+        src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+
+    <div id="header">
+        <img class="headerinfo" id="logo"
+            src="https://github.com/Haydenlogs/sources/blob/main/image-removebg-preview%20(3).png?raw=true" alt="Logo">
+        <h1 class="headerinfo">Master Santa Trackers 2024</h1>
+        <div id="google_translate_element" class="google-translate"></div>
+
+    </div>
+    <!-- Overlay with settings button -->
+    <div class="overlay">
+        <button class="settings-btn" onclick="toggleSettings()">Settings</button>
+    </div>
+
+    <!-- Settings popup -->
+    <div id="settingsPopup" class="settings-popup">
+        <!-- Close button -->
+        <span class="close-btn" onclick="toggleSettings()">X</span>
+        <!-- Settings page iframe -->
+        <iframe src="/embed/settings" class="settingsiframe"></iframe>
+    </div>
+    <style>
+        
+    </style>
+    <img class="img" hidden src="/assets/lightoutline.gif" alt="Border Outline">
+    <div id="showitself">
+        <div id="title">Christmas Countdown</div>
+        <div id="calendar"></div>
+        <div id="daysLeftMessage"><span id="daysLeft"></span> days left until Christmas</div>
+    </div>
+
+    <div id="countdown"></div>
+    <div id="launchestimate">Expected Launch Time: Around <span id="localtime">UNKNOWN</span></div>
+    <div id="launchestimate3">Expected Launch time not available yet. Check back at a later date.<br />Expected
+        Preparation Start is not yet known. We will know when Preparations begin closer to Launch.</div>
+    <br />
+    <div id="launchestimate2">Santa Will Be Starting Preparation Around <span id="localtime2">UNKNOWN</span></div>
+    <div class="audio-player">
+        <h1>Christmas Live Audio</h1><br />
+        <button id="play-pause-btn" onclick="togglePlayPause()">▶️</button> <!-- Play symbol as button -->
+        <audio id="audio" loop>
+            <source src="/assets/christmasstream" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+    <img src="/assets/radar.gif" alt="Button" id="countdownButton5" class="button-image" onclick="handleClick()">
+    <div style="color:transparent"><h1>HIDDEN SPACING</h1><h1>HIDDEN SPACING</h1><h1>HIDDEN SPACING</h1></div>
+    <center><h1>Whats Santa Doing?</h1>
+    <h3>This is what Master Trackers sees Santa doing right now.</h3>
+    <a id="currentstatus"></a><br/><img src="/assets/santa1.jpg" height="50%"/></center>
+   
+</body>
+
+</html>

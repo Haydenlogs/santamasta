@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+
+    <!-- Allowed URLs -->
+  
+    <url>
+        <loc>https://master-trackers.xyz/</loc>
+        <lastmod>2024-11-09</lastmod>
+        <changefreq>daily</changefreq>
+        <priority>0.8</priority>
+    </url>
+    <url>
+        <loc>https://santa.master-trackers.xyz/which-list-am-i-on/</loc>
+        <lastmod>2024-11-09</lastmod>
+        <changefreq>yearly</changefreq>
+        <priority>0.7</priority>
+    </url>
+
+
+</urlset>
